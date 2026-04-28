@@ -1,0 +1,85 @@
+{
+  "slug": "omis-history",
+  "template": "history",
+  "metadata": {
+    "title": "奥米什历史溯源｜克罗地亚海盗巢穴的前世今生与塞蒂纳河传奇",
+    "description": "克罗地亚奥米什，曾是让威尼斯人闻风丧胆的海盗巢穴。追溯其千年历史、海盗名人与塞蒂纳河峡谷的传奇故事。独家深度人文档案，带你读懂这座亚得里亚海秘境的时光印记。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "克罗地亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯普利特-达尔马提亚县",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "奥米什",
+      "href": "/attractions/omis-history"
+    }
+  ],
+  "hero": {
+    "title": "奥米什・Omiš・克罗地亚・斯普利特-达尔马提亚县",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在克罗地亚的达尔马提亚海岸，有一处被塞蒂纳河硬生生劈开的喀斯特险境——<strong>奥米什</strong>。这座小城曾是中世纪最令威尼斯舰队胆寒的海盗巢穴。巨岩与碧海在此咬合，悬崖上的堡垒如鹰巢般俯瞰着绝壁下的港湾。抛开游玩攻略，走进奥米什的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">奥米什</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Omiš</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Omiš</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">克罗地亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">斯普利特-达尔马提亚县</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥米什的历史，始于塞蒂纳河冲破喀斯特高原的怒吼。最早的定居点出现在 <strong>公元前2世纪</strong>，为伊利里亚人的一处渔村。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗马人征服此地后，称其为 <strong>“Onaeum”</strong>。但真正赋予这座城市灵魂的，是公元7世纪后迁徙至此的克罗地亚人。他们根据当地的地貌，将定居点命名为 <strong>“Homo”</strong>（意为“岩石”），后演变为今天的“Omiš”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>奥米什的名字，来源于它脚下那片割裂山谷的嶙峋岩石。</strong> 这里没有大片肥沃平原，只有一条奔腾入海的塞蒂纳河与两侧垂直耸立的石灰岩壁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这种极端的“封闭感”，催生了一个独特的生存群体。13至15世纪，当威尼斯共和国试图控制亚得里亚海东岸时，奥米什人发现，这片无法耕种的险峻海湾，是天赐的海盗基地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>河口深水、急流暗礁、悬崖庇护所</strong>——这三者构成了一个天然要塞。船只从河谷深处忽然冲出，劫掠后立刻缩回迷宫般的水道，令追击者望而却步。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥米什的历史核心，就是 <strong>“奥米什海盗”（Omiški gusari）</strong> 长达三百年的对抗史。他们并非无纪律的逃犯，而是拥有高度组织性的“城邦舰队”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>威尼斯人曾悬赏重金，却始终无法攻陷奥米什。</strong> 原因在于海盗们把整座城市挖成了地下王国。塞蒂纳河畔的岩壁上，遍布着天然的岩洞与人工开凿的密道。维京风格的长船（Narentine galleys）能直接被拖入山洞隐藏。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最著名的战役发生在 <strong>1221年</strong>。威尼斯总督派出了十五艘大帆船封锁河口。结果海盗的首领 <strong>安德里亚一世（Andrija I.）</strong> 上演了载入史籍的“声东击西”。他让几名水手在城堡上吹响号角，吸引了威尼斯舰队全部的炮火。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">而真正的船队，趁夜从 <strong>塞蒂纳河上游的深水洞中</strong> 顺流而下，成功击沉了威尼斯旗舰。<strong>这是威尼斯历史上少有的、被公认的奇耻大辱。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">留存至今的 <strong>Starigrad Fortress（旧城要塞）</strong> 与 <strong>Peović Cave（佩奥维奇洞穴）</strong>，锁定了这份记忆。前者是海盗瞭望塔，后者是防御明码的天然军械库。行走其间，墙上仍可见威尼斯火器留下的弹痕。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥米什的重要人物，首先必须是 <strong>奥米什海盗王 —— 安德里亚一世（Andrija I. Kačić）</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位活跃于13世纪初的领主，将奥米什从一个渔村变为了亚得里亚海的“微型海盗王国”。他并非粗野的莽夫，而是精通战术与外交的枭雄。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“威尼斯的铁链锁住了商船的锚，但锁不住塞蒂纳河的水流。每次涨潮，便是我们起航的时刻。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 据传为安德里亚一世激励部下的说辞，载于当地民间口述史。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">安德里亚最著名的“作品”，是 <strong>1221年的夜袭安科纳战役</strong>。当时威尼斯舰队严密封锁了奥米什外海，但安德里亚利用当地人熟悉的“潮汐风”——一种在黄昏时从塞蒂纳河谷灌入海湾的特定气流。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他命令船员在船底挂上铁链刮擦暗礁，故意发出令威尼斯瞭望员熟知的“正常礁石声”，以此蒙骗过关。当威尼斯舰队反应过来时，海盗船已如锋利的月牙形撞击阵冲向他们的侧面。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>此役后，安德里亚被教皇霍诺留三世称为“邪恶的浪尖水手”</strong>，但在奥米什，他被尊为守护神一般的存在。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位重要人物是 <strong>16世纪的克罗地亚吟游诗人——安德里亚·卡契奇·米奥西奇（Andrija Kačić Miošić）</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他出生于奥米什附近的本笃会修道院。这位方济各会修士，写下了史诗巨著 <strong>《斯拉夫人的欢歌》（Razgovor ugodni naroda slovinskoga）</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这本诗集中的章节，大量记录了海盗时代的民间歌谣。他并非亲身参战，却以文化使命留存了那段历史的灵魂。今天，在奥米什旧城的中心广场，他的雕像目视着塞蒂纳河入海口——这是他曾用诗句吟唱过无数次的战场。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥米什流传着 <strong>“多马戈伊的诅咒”</strong> 的传说。传说有一位名叫多马戈伊的海盗，恋上了一位威尼斯商人的女儿。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">女孩被父亲强行带离奥米什后，多马戈伊每晚都站在 <strong>Starigrad 堡垒</strong> 上，吹响低沉的海螺号角。传说，每当月圆之夜，那号角声会化作诅咒，令任何试图进入塞蒂纳河的外国船只产生幻觉。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“本地水手说，当海雾升起时，多马戈伊的号角依然在回响——那是礁石与海风合奏的，来自深渊的警告。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更离奇的是，如今人们在建造酒店时，仍然能挖出中世纪海盗的暗室与水道。当地导游常开玩笑说：“奥米什的地下全是洞，那些洞联通了七百年前的水手们对自由的渴望。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>直到今天，当地渔民依旧不会在塞蒂纳河入海口撒网捕获大鱼。</strong> 因为他们确信，那些鱼群是曾经失踪的海盗船员的灵魂所化——河流与大海在此生死搏斗，而奥米什的故事，从未结束。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥米什是塞蒂纳河与喀斯特岩石共同写就的史诗。读懂这里，意味着你触摸了一段被主流历史覆盖的“海上狂草”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那些海盗不是传说，而是用血与铁锚书写生存法则的达契亚人后裔。这座小城，凭借险峻地貌与顽强的人性，在威尼斯帝国巨大的阴影下，捍卫了三百年的自由。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，悬崖上的星形堡垒早已失却了烽火，塞蒂纳河仍日夜冲向海岸，只不过它的怒吼，变成了峡谷音乐节上的唱腔与飘荡的吉他声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/mirogoj-cemetery-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米罗戈伊公墓（被常春藤覆盖的巨大连绵新文艺复兴连拱廊）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mirogoj Cemetery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/korcula-old-town-marco-polo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔丘拉老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Korčula Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mljet-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    姆\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">姆列特岛国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mljet National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "mirogoj-cemetery-history",
+          "name": "米罗戈伊公墓（被常春藤覆盖的巨大连绵新文艺复兴连拱廊）",
+          "englishName": "Mirogoj Cemetery"
+        },
+        {
+          "slug": "korcula-old-town-marco-polo",
+          "name": "科尔丘拉老城",
+          "englishName": "Korčula Old Town"
+        },
+        {
+          "slug": "mljet-national-park",
+          "name": "姆列特岛国家公园",
+          "englishName": "Mljet National Park"
+        }
+      ]
+    }
+  ]
+}

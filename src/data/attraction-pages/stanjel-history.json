@@ -1,0 +1,85 @@
+{
+  "slug": "stanjel-history",
+  "template": "history",
+  "metadata": {
+    "title": "什坦耶尔历史溯源｜斯洛文尼亚喀斯特石头村的千年传奇与法拉利花园的故事",
+    "description": "喀斯特腹地的石头迷宫，一座被时间遗忘的城堡，与一位意大利建筑师留下的阶梯水景。走进Štanjel的尘封往事，探寻贵族、战火与艺术的交织。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "斯洛文尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "沿海-喀斯特统计区",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "什坦耶尔",
+      "href": "/attractions/stanjel-history"
+    }
+  ],
+  "hero": {
+    "title": "什坦耶尔・Štanjel・斯洛文尼亚・沿海-喀斯特统计区",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在斯洛文尼亚喀斯特高原的灰白岩石间，<strong>什坦耶尔（Štanjel）</strong> 像一颗被风沙打磨了千年的珍珠。这里没有宏伟的宫殿，只有一座摇摇欲坠的 <strong>塔博尔城堡（Tabor Castle）</strong> 和一段不可思议的意大利式阶梯水景——<strong>法拉利花园</strong>。抛开游玩攻略，走进这座石头村的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">什坦耶尔</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Štanjel</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Štanjel</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">斯洛文尼亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">沿海-喀斯特统计区</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>什坦耶尔</strong>的名字，据说源自德语 <strong>“Sankt Daniel”</strong>（圣达尼尔）。公元12世纪，德意志移民将这座小山丘命名为圣达尼尔山，后来演变为斯洛文尼亚语的“Štanjel”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但人类在此定居的历史要早得多。考古学家在村庄附近发现了 <strong>古罗马时期</strong> 的陶片和地基，证明早在公元2世纪，这里就是一条连接亚得里亚海与潘诺尼亚平原商道上的驿站。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的村庄雏形出现在 <strong>13世纪末</strong>。当时卡尼奥拉侯爵（Margrave of Carniola）将这片喀斯特台地赐予了斯洛文尼亚贵族 <strong>Lanthieri家族</strong>。他们选择在突出山丘的顶端建造了一座防御性城堡——<strong>塔博尔城堡</strong>，其核心是一座厚达两米的罗马式塔楼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">村庄依山而建，所有房屋都用当地灰白色的 <strong>喀斯特石灰岩</strong> 垒砌，像一棵棵从石头缝里长出来的蘑菇。狭窄的街道避开北风，引水渠贯穿地下，这种适应缺水性喀斯特地貌的原始智慧，让什坦耶尔在几百年里屹立不倒。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们脚下每一块石头都浸透了祖祖辈辈的汗水。喀斯特不产粮食，只产石头和风，但我们的祖先用石头建造了天堂。” —— 19世纪当地牧羊人日记（残片）</blockquote>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><em>塔博尔城堡的兴衰</em></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡在 <strong>14至16世纪</strong> 是Lanthieri家族的政治中心。家族利用喀斯特地区的商道税收积累财富，将城堡扩建成拥有双层城墙、一座角楼和地下蓄水池的堡垒。但 <strong>1684年</strong> 的一场大地震几乎摧毁了塔楼，家族逐渐移居平原上的庄园。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪初，奥地利帝国将城堡改作 <strong>军事哨所</strong>，拿破仑战争期间法国军队曾短暂驻扎。二战末期，南斯拉夫游击队与德军在这里爆发过短暂战斗，炮火彻底炸毁了城堡西翼。如今只剩残垣断壁，像一具风干的骸骨，俯视着山下的葡萄园。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><em>法拉利花园的诞生</em></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1921年</strong>，整个斯洛文尼亚沿海地区被划入意大利王国。意裔斯洛文尼亚建筑师 <strong>马克斯·法比亚尼</strong>（Max Fabiani）回到他母亲的故乡——什坦耶尔。他决心为这片干旱的石头坡注入生命。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">法比亚尼在城堡下方设计了一套 <strong>五级阶梯式水池</strong>，利用喀斯特地形的高度差，将泉水逐级引下，形成一连串梯形瀑布。每级水池旁都布置了意大利文艺复兴风格的雕塑、石阶和柏树，水池底部铺着蓝色与白色的马赛克，映出天空的颜色。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这项工程从 <strong>1922年持续到1935年</strong>，动用了上百名当地石匠。最令人惊叹的是 <strong>“水之楼梯”</strong>：水流从最顶端的“狮头喷泉”口涌出，沿石槽流淌，在每个平台形成镜面般的静水，最终汇入山脚的蓄水池。法比亚尼将喀斯特的自然干旱与意大利造园美学完美结合，创造出独一无二的“喀斯特意大利式花园”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><em>二战后的沉默</em></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战结束后，什坦耶尔划归南斯拉夫。由于地处封闭的内陆山区，村庄几乎被遗忘。<strong>法拉利花园</strong>在战火中遭到严重破坏，马赛克碎裂，石阶坍塌。直到 <strong>1990年代</strong>，斯洛文尼亚政府才启动修复工程，并于2002年重新向公众开放。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><em>马克斯·法比亚尼：缔造石阶上的水之诗</em></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>马克斯·法比亚尼</strong>（1865-1962）出生在意大利的里雅斯特（Trieste），是20世纪初奥匈帝国最杰出的新艺术运动建筑师之一。他曾与维也纳分离派领袖奥托·瓦格纳（Otto Wagner）共事，参与设计了 <strong>的里雅斯特的都市规划</strong> 和 <strong>卢布尔雅那的中央广场</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">法比亚尼的母亲是什坦耶尔人，童年时他常随母亲回村度假。喀斯特的荒凉与静谧深深烙印在他心中。壮年时，他已是欧洲建筑界的权威，却选择在退休后回到这个石头村，用7年时间倾注心血打造 <strong>法拉利花园</strong>（以他妻子的姓氏“Ferrari”命名）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他亲自坐在山上，用铅笔勾勒每级台阶的角度。他发现喀斯特石灰岩吸收了大量热量，于是决定用 <strong>水声</strong> 来打破寂静。每一级水池的高度差被精确计算，以确保水流落下时发出类似竖琴的和声。据说他会在月光下调试石槽的坡度，直到水声听起来“像天籁”。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“水不应该只是流过，它必须歌唱。在这片只有风才能发出声音的荒野，我要让每一滴水都成为音符。” —— 马克斯·法比亚尼，1928年寄给妻子的信</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">法比亚尼还在花园中隐藏了 <strong>象征符号</strong>：七级主梯象征七宗罪，而每级池中的小圆岛则代表赎罪的泪滴。他又在最高处设置了一张石凳，坐上去恰好能看到 <strong>城堡废墟</strong> 和 <strong>远方的的里雅斯特湾</strong>——那是他一生最爱的两个风景。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，法比亚尼被迫离开什坦耶尔，辗转回到的里雅斯特。他于1962年去世，享年97岁。遗体被安葬在的里雅斯特，但他的灵魂永远留在了这座花园里。如今，当游客坐在那张石凳上，仍能听到水流从高处跌落的声音，仿佛建筑师还在调整他的作品。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><em>神秘的Lanthieri家族后代</em></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">除了法比亚尼，另一位与什坦耶尔紧密相关的人物是 <strong>伊丽莎白·兰提耶里</strong>（Elisabeth Lanthieri，1834-1919）。她是家族最后一位留在城堡里的成员。她在日记中记录了城堡在19世纪逐渐衰败的过程：屋顶漏雨，塔楼裂缝，她独自住在东翼的房间里，每天用望远镜眺望山下的小路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊丽莎白终身未嫁，收养了三个孤儿。她教他们读写拉丁文和德语，并坚持在城堡地窖里酿造葡萄酒。传说她死后，地窖门被锁上，酒桶里的酒至今未开。村民们说，月圆之夜能听见地窖传来轻轻碰杯的声音。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在什坦耶尔，流传着一个关于 <strong>“白夫人”</strong>（Bela Dama）的古老传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在16世纪，城堡里住着一位美丽但忧郁的贵族少女。她爱上了一个牧羊少年，但家族不允许她下嫁。每天黄昏，她走下城堡后山的石阶，去和少年在泉边相会。然而有一次，少年在对抗奥斯曼掠袭者时战死。少女伤心欲绝，从城堡角楼跳下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，她的幽灵穿着白色长裙，在法拉利花园还未建造的年代，就沿着那条古老石阶徘徊。据说当泉水不再流动时，就是白夫人哭泣的时候。孩子们夜晚不敢靠近台阶，因为会听到裙摆摩擦石头的“沙沙”声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有趣的是，20世纪法比亚尼修建花园时，恰好将其中一级台阶对准了传说的那一块岩石。如今，游客在雨季能发现那块石头总比其他台阶湿润，即使晴天也渗出水珠——当地人坚信那是白夫人的眼泪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个习俗与 <strong>喀斯特石墙</strong> 有关。当地人在收割葡萄后，会用剩下的藤条编成小十字架，插在石墙缝隙里。他们相信这能堵住“邪恶的风”，让土地在冬天积蓄养分。如今在什坦耶尔的村口石墙上，仍能看见上百个干枯的十字架，在风中微微颤抖。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">什坦耶尔的历史，是一首用石头和水写成的诗。<strong>塔博尔城堡</strong>的废墟见证了欧洲小贵族的兴衰，<strong>法拉利花园</strong>则展现了现代建筑师如何用艺术驯服荒野。当水流经过五级阶梯，从狮头喷泉倾泻而下时，时间仿佛回到了那个手绘图纸、石灰飞扬的年代。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座小村，就是读懂斯洛文尼亚喀斯特的灵魂：它不靠黄金与丝绸闪耀，而靠最原始的石灰岩与最精妙的设计，在缺水缺土的苛刻环境中雕刻出文明。每一个石阶的磨损，每一块马赛克的裂纹，都是时代留下的指纹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skocjan-caves-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什科茨扬溶洞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Škocjan Caves</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/piran-salt-pans-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮兰盐田与老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Piran Salt Pans & Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/predjama-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普列加马城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Predjama Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "skocjan-caves-history",
+          "name": "什科茨扬溶洞",
+          "englishName": "Škocjan Caves"
+        },
+        {
+          "slug": "piran-salt-pans-old-town",
+          "name": "皮兰盐田与老城",
+          "englishName": "Piran Salt Pans & Old Town"
+        },
+        {
+          "slug": "predjama-castle",
+          "name": "普列加马城堡",
+          "englishName": "Predjama Castle"
+        }
+      ]
+    }
+  ]
+}

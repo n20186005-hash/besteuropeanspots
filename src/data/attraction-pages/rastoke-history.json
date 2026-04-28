@@ -1,0 +1,85 @@
+{
+  "slug": "rastoke-history",
+  "template": "history",
+  "metadata": {
+    "title": "克罗地亚拉斯托凯历史溯源｜迷你普利特维采的水磨坊村落传奇与奥斯曼遗迹",
+    "description": "探索克罗地亚秘境拉斯托凯，这座建在瀑布群上的水磨坊村落。从13世纪磨坊起源到奥斯曼防御工事，从传说中的水精灵到磨坊主人的古老家族，二战硝烟中的避难所。走进“迷你普利特维采”的尘封往事，遇见时光与传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "克罗地亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡尔洛瓦茨县",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "拉斯托凯",
+      "href": "/attractions/rastoke-history"
+    }
+  ],
+  "hero": {
+    "title": "拉斯托凯・Rastoke・克罗地亚・卡尔洛瓦茨县",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在克罗地亚卡尔洛瓦茨县的喀斯特地貌深处，隐藏着一个被称为“迷你普利特维采”的迷幻村落——拉斯托凯。整个村庄仿佛从瀑布中生长出来，Slunjčica河与Korana河在这里交织成数十条湍急溪流，古老的木制水磨坊就矗立在飞溅的水雾之上。这里没有拥挤的游客，只有水声、石墙和磨盘转动的遥远回响。抛开游玩攻略，走进拉斯托凯的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">拉斯托凯</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Rastoke</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Rastoke</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">克罗地亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卡尔洛瓦茨县</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拉斯托凯的名字源于斯拉夫语词根“rastok”，意为“分流”或“水流分支”。这个描述极为精准：Slunjčica河在注入Korana河前，碎裂成无数条细小支流，在石灰华岩层上切割出阶梯状的瀑布群。最早的人类定居证据可追溯至 <strong>13世纪</strong>，当时的克罗地亚贵族家族 <strong>Frankopan家族</strong> 在此修建了第一座水磨坊。这些磨坊利用天然水势落差驱动巨大的石磨盘，成为周边村庄粮食加工的核心。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地名背后的典故</strong>：当地传说，当河流在此“分裂”时，水流变得温柔而丰沛，因此先民们称此地为“Rastoke”——意思是“水为自己找到了许多条路”。1439年的文献首次明确记载了“Rastoke”作为定居点的名称，当时属于 <strong>斯卢尼（Slunj）教区</strong>的管辖范围。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的拉斯托凯并非一个完整的村落，而是分散在河岸两侧的磨坊作坊群。每座磨坊都由一个家族世代经营，磨坊主之间通过狭窄的木桥和石阶相连。这种“水上社区”的布局一直延续到 <strong>19世纪</strong>，形成了今天独一无二的建筑奇观——房屋的墙壁直接嵌入石灰华岩，屋顶与瀑布水流只有一步之遥。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>奥斯曼帝国的前线堡垒（16-17世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">随着奥斯曼帝国向欧洲扩张，克罗地亚成为基督教世界的防御前线。拉斯托凯因其被河流切割的复杂地形，成为天然的军事屏障。<strong>1577年</strong>，哈布斯堡家族在此修建了名为 <strong>“旧拉斯托凯城堡”</strong> 的防御工事。城堡的石墙至今仍矗立在Korana河左岸，上面遍布弹孔。当地史料记载，<strong>1593年</strong>，一支奥斯曼小分队试图突袭拉斯托凯，却被湍急的河流阻断退路，最终被埋伏在磨坊里的克罗地亚民兵全歼。那次战役中，磨坊主们将滚烫的油从二楼窗口倒下，成为了民间口耳相传的“油雨战役”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>水磨坊的黄金时代（18-19世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战争平息后，拉斯托凯的水磨坊迎来了繁荣期。到 <strong>1850年</strong>，村落里同时运转着 <strong>23座磨坊</strong>，不仅研磨谷物，还用于纺织、锯木和榨油。磨坊主们建立了严密的“水权公约”：每户磨坊在特定时段内拥有水流使用权，违者将被罚款一袋面粉。这种自治传统一直持续到 <strong>20世纪初</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二战中的宁静之岛</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在 <strong>1941-1945年</strong>的南斯拉夫解放战争中，拉斯托凯因其隐秘的地形成为抵抗军游击队的秘密补给站。当地的 <strong>Kovačević磨坊</strong>曾藏匿过 <strong>铁托</strong> 游击队的伤员。磨坊的地窖里至今保留着一个暗门，通向河岸下方的天然洞穴，敌人从未发现过它。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 磨坊主诗人：Mato Peić</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Mato Peić（1843-1904）</strong> 是拉斯托凯最著名的本土人物。他出生在河岸最上游的 <strong>“白磨坊”</strong> 里，一生与面粉和水车为伴。但他真正的天赋是写诗。Peić用当地方言（卡伊卡夫方言）创作了大量关于河流、磨坊和普通村民生活的诗歌。他的代表作 <strong>《水车轮》</strong> 中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“磨盘旋转，昼夜不息，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">碾碎了麦粒，也碾碎了时光。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">我的灵魂像水流一样透明，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">在石灰华的阶梯上歌唱。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Peić从未离开过拉斯托凯，他去世后，村民们将他的诗刻在一块石灰华岩石上，嵌入磨坊墙壁。如今，这块“诗碑”是游客在村落中能找到的最早的“文学遗迹”。<strong>1890年</strong>，他曾接待过一位来自萨格勒布的民俗学家，后者将他的诗收录进了克罗地亚文学选集，使拉斯托凯的名字第一次出现在克罗地亚文学史中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 二战女英雄：Jelica Barišić</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Jelica Barišić（1918-2006）</strong> 是拉斯托凯的另外一位传奇女性。二战期间，她只有二十多岁，但已经掌握了磨坊主的全部技能。当她发现游击队员需要粮食补给时，她在自己的磨坊里秘密建立了 <strong>“面粉通道”</strong> ：白天正常磨面应付德军巡查，晚上在磨盘下隐藏面粉袋，利用瀑布的水流将它们顺河运到下游的接头点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1943年冬天</strong>，德军怀疑拉斯托凯有游击队活动，挨家挨户搜查。Jelica把几名受伤的游击队员藏在磨坊顶层，用磨盘的轰鸣声掩盖他们的咳嗽声。当德军军官走进磨坊时，她故意松开了一块磨盘上的皮带，导致机器瞬间停转，发出刺耳的金属碰撞声。趁德军分神之际，她用流利的德语大声抱怨“这该死的旧机器”，成功转移了注意力。战后，她获得了 <strong>“人民英雄”</strong> 勋章，但她从未离开过拉斯托凯，一直在这片瀑布群中生活到2006年去世。她的磨坊现在被列为 <strong>克罗地亚非物质文化遗产</strong> 保护点。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>水精灵“普洛特卡”的传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在拉斯托凯的老人嘴里，流传着一个关于水精灵 <strong>“普洛特卡”（Plotska）</strong> 的故事。传说普洛特卡是Slunjčica河的女神，她以一头水獭的外形出现，只在水流最湍急的夜晚现身。谁要是看见了她的金色眼睛，就会得到一份礼物：要么是一袋永远不会磨损的磨石，要么是能听懂水声预言的能力。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“普洛特卡不喜欢贪婪的磨坊主。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据说在1887年，有一个磨坊主试图用渔网捕捉她，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">结果第二天他的磨盘上出现了三道深深的爪印，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">从此他的面粉总是带着一股河水的腥味。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>磨坊的“借磨”习俗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧时，拉斯托凯有一个独特的人文习俗：<strong>“借磨”</strong>。当某个磨坊的谷物太多、磨不过来时，磨坊主会敲响挂在磨坊顶上的铜钟。听到钟声的邻居磨坊主们就会带着自家的空心木板赶来，他们将木板架在水流上，形成临时的“水渠分流”，把一部分水流引到需要帮助的磨坊里。这种互助仪式被当地人称为 <strong>“水接骨”</strong>——意思是像接骨一样把水流连起来。仪式结束后，大家会一起喝一杯用泉水酿的 <strong>格拉巴酒</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>石灰华教堂的传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在村庄中心有一座小教堂，叫做 <strong>“圣乔治石灰华教堂”</strong>。它的墙体直接由河流中的石灰华沉淀物砌成，每年雨季，墙体上会长出新的苔藓。传说 <strong>1779年</strong> 修建时，工匠们无法把巨大的磨石运到高处用作基石。某天夜里，一场大洪水将一块刚好合适的磨石冲到了教堂地基旁边——村民们坚信那是水精灵普洛特卡的帮助。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂拉斯托凯，不仅是看瀑布与磨坊的视觉奇观，更是触摸克罗地亚乡村 <strong>五个世纪的生存智慧</strong>。这里的每块石灰华都记录着奥斯曼的弹孔、磨坊主的汗滴、游击队员的喘息以及诗人的吟诵。它是一座活着的露天历史博物馆——水流不息，时光不停，但拉斯托凯的灵魂始终凝固在哗啦啦的水声与咔嗒咔嗒的磨盘转动里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/mljet-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    姆\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">姆列特岛国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mljet National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tvrda-osijek-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥西耶克特夫尔贾（德拉瓦河畔保存极其完好的18世纪巴洛克风格哈布斯堡星形要塞建筑群）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tvrđa (Osijek)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pag-town-croatia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕格城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pag Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "mljet-national-park",
+          "name": "姆列特岛国家公园",
+          "englishName": "Mljet National Park"
+        },
+        {
+          "slug": "tvrda-osijek-history",
+          "name": "奥西耶克特夫尔贾（德拉瓦河畔保存极其完好的18世纪巴洛克风格哈布斯堡星形要塞建筑群）",
+          "englishName": "Tvrđa (Osijek)"
+        },
+        {
+          "slug": "pag-town-croatia",
+          "name": "帕格城",
+          "englishName": "Pag Town"
+        }
+      ]
+    }
+  ]
+}

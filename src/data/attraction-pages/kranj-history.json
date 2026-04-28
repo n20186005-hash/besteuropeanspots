@@ -1,0 +1,85 @@
+{
+  "slug": "kranj-history",
+  "template": "history",
+  "metadata": {
+    "title": "克拉尼历史溯源｜斯洛文尼亚低调古城的前世今生与地下秘密网络传奇",
+    "description": "探秘斯洛文尼亚克拉尼：建在峡谷砾石堆上的千年古城，二战地下密道网络深埋其下。跟随诗人Prešeren与物理学家Stefan的足迹，聆听这座小众文化之城的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "斯洛文尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "克拉尼",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "克拉尼",
+      "href": "/attractions/kranj-history"
+    }
+  ],
+  "hero": {
+    "title": "克拉尼・Kranj・斯洛文尼亚・克拉尼",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>克拉尼</strong>，斯洛文尼亚第三古老的城市，却常年被卢布尔雅那和布莱德湖的光芒掩盖。它罕见地<strong>建在萨瓦河峡谷的砾石堆上</strong>，陡峭的地势让老城如悬空堡垒。更令人震惊的是，<strong>老城下方隐藏着长达数公里的二战地下秘密地道网络</strong>，至今仍像迷宫般缠绕在街道之下。抛开游玩攻略，走进克拉尼的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">克拉尼</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Kranj</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Kranj</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">斯洛文尼亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">克拉尼</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克拉尼的历史，始于<strong>中世纪早期的斯拉夫定居点</strong>。它的名字源自斯拉夫语“<em>kraj</em>”，意为“边缘”或“边界”——正因它位于<strong>卡尼奥拉地区（Carniola）的北部边界</strong>，紧扼萨瓦河峡谷的咽喉。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">11世纪的编年史中，克拉尼第一次被提及为“<em>Carnium</em>”，当时它是神圣罗马帝国边境的一个重要要塞。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市的选址极为独特：<strong>一座巨大的砾石堆</strong>从峡谷底部隆起，萨瓦河与科克拉河在此交汇，形成天然屏障。最早的居民在砾石堆顶部筑起木制堡垒，用陡峭的斜坡抵御外敌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">13世纪，克拉尼获得<strong>皇家特许市镇</strong>的地位，石墙与塔楼开始环绕山脊。中世纪的街道顺应地形蜿蜒，至今未变。名字的“边缘”之意，也暗合了它动荡的边境命运——<strong>哈布斯堡王朝、威尼斯共和国、奥斯曼帝国</strong>都曾觊觎这片砾石之上的领土。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 奥斯曼大火的灰烬与重生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1529年，奥斯曼大军突袭克拉尼。由于砾石堆上的街道过于狭窄，<strong>大火迅速吞噬了整个老城</strong>。幸存者用石头重建房屋，并在屋顶铺上红色瓦片——如今那些<strong>红瓦白墙的巴洛克式楼宇</strong>，正是16世纪燃烧过后的沉默证词。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 拿破仑时代的“伊利里亚之梦”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1809年至1813年，克拉尼被并入<strong>拿破仑的伊利里亚行省</strong>。法国人拆除了部分城墙，修建了通往意大利的商路。老城广场上至今保留着<strong>“拿破仑之井”</strong>，据说这位帝王曾在这里饮马歇脚。这段短暂的统治给克拉尼留下了法语借词和理性的城市规划理念。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 二战地底王国：不为人知的秘密隧道</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1941年，德国占领斯洛文尼亚。克拉尼的抵抗组织在砾石堆的<strong>松散砂岩层中</strong>，用铁镐和双手挖出<strong>总长超过5公里的地下通道</strong>。这些隧道连接着教堂地下室、私人酒窖和萨瓦河河岸，用于藏匿武器、印刷传单和运送伤员。<strong>入口至今仍隐藏在某个看似普通的老宅楼梯下方</strong>，只有当地老人知晓全部走向。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1944年的一次突袭中，德军曾试图用炸药炸毁隧道入口，但爆炸只震碎了附近教堂的彩色玻璃。地下的游击队员从另一个出口消失在夜色里，留下一句：“砾石堆是活的。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 诗人法兰西·普雷舍伦：在克拉尼写下《祝酒歌》的前奏</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯洛文尼亚最伟大的诗人 <strong>France Prešeren</strong>（1800–1849）与克拉尼有着隐秘的羁绊。1834年，他因司法考试失败而被调派到<strong>克拉尼地方法院</strong>担任书记员。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">他在日记中写道：“这个小城的砾石街道让我想起故乡的山丘，但这里的风更冷，像命运的手指。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在克拉尼的两年里，Prešeren创作了<strong>三部重要诗作</strong>，包括后来成为斯洛文尼亚国歌歌词的《祝酒歌》（<em>Zdravljica</em>）的雏形。诗中的“葡萄藤”与“自由”意象，正是他每日穿过萨瓦河畔葡萄园的观察所得。如今，<strong>老城广场中央的Prešeren雕像</strong>面向他当年居住的黄色小屋——小屋如今是一家书店，仍出售他的诗集。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 物理学家约瑟夫·斯特藩：砾石堆上诞生的科学巨匠</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Jožef Stefan</strong>（1835–1893）出生在克拉尼圣彼得区的铁匠铺楼上。他的父亲是修马蹄的铁匠，母亲是洗衣妇。谁能想到，这个在砾石堆上光脚奔跑的男孩，后来会成为<strong>斯特藩-玻尔兹曼定律</strong>的发现者？</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Stefan曾回忆：“我童年最深的记忆是，趴在窗口看萨瓦河冲刷砾石，那些石头在阳光下像星星一样闪烁——我觉得它们背后藏着热的秘密。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在克拉尼读完小学后赴维也纳深造，最终成为<strong>奥地利科学院院长</strong>。功成名就后，他每年夏天都返回克拉尼，在老城边缘的葡萄园里思考热辐射方程。<strong>克拉尼的物理爱好者在斯蒂芬故居（现为博物馆）建立了小型粒子物理实验室</strong>，用现代电子显微镜向他致敬。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 地下女英雄：玛丽亚·雅尔兹的十字镐</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，一位名叫 <strong>Marija Jarc</strong>（1915–2005）的普通农妇，带领十几名妇女在砾石堆下挖掘了<strong>超过700米长的隧道</strong>。她们用围裙兜着碎石，在深夜偷偷倒进萨瓦河。德军从未怀疑过这位“只会种土豆的乡下女人”。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">战后玛丽亚接受采访时平静地说：“镐头碰到沙土的声音很轻，但我们知道，每挖一寸，自由就近了一寸。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，<strong>玛丽亚使用过的十字镐</strong>被陈列在克拉尼城市博物馆，旁边是她缝制的一面碎裂的南斯拉夫国旗。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>砾石之心的守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人世代相传：克拉尼的砾石堆深处住着一位<strong>“砾石仙姑”</strong>（<em>Prodna deklica</em>）。她身披灰色岩石般的斗篷，只在月圆之夜现身。谁要是看见她，就能获得<strong>辨别人心善恶的能力</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更有趣的是，传说<strong>二战地下隧道的走向，完全遵循了砾石仙姑“骨骼”的纹理</strong>——那些最坚硬的砾石层被刻意避开，因为仙姑不愿让她的“骨架”被炸药震碎。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>萨瓦河上的婚俗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到20世纪初，克拉尼的新娘在婚礼前夜都必须<strong>赤脚走过萨瓦河滩的砾石堆</strong>，以此证明对爱情的忠诚。若脚底被划伤但一声不吭，婚后将获得全家的尊敬。如今这一习俗演变成<strong>在砾石堆上跳传统舞蹈</strong>，石子摩擦的沙沙声成为婚礼交响曲的一部分。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂克拉尼，就是读懂一种<strong>在绝境中生长的韧劲</strong>。砾石堆上垒起的古城，地底隧道里刻下的自由印记，诗人与物理学家跨越时空的对话——它们共同诉说着：<strong>最不起眼的边缘之地，往往藏着最炽热的灵魂</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在Prešeren广场，脚下是千年的砾石与战争的痕迹，头顶是萨瓦河的风。这一段历史不会高声喧哗，它只静静地等在那个倾斜的街角，等着你俯身倾听。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skofja-loka-medieval-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什科菲亚洛卡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Škofja Loka</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/skofja-loka-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什科菲亚洛卡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Škofja Loka</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/novo-mesto-slovenia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    诺\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">诺沃梅斯托</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Novo Mesto</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "skofja-loka-medieval-town",
+          "name": "什科菲亚洛卡",
+          "englishName": "Škofja Loka"
+        },
+        {
+          "slug": "skofja-loka-history",
+          "name": "什科菲亚洛卡",
+          "englishName": "Škofja Loka"
+        },
+        {
+          "slug": "novo-mesto-slovenia",
+          "name": "诺沃梅斯托",
+          "englishName": "Novo Mesto"
+        }
+      ]
+    }
+  ]
+}

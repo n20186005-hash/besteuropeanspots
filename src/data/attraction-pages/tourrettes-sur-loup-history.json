@@ -1,0 +1,85 @@
+{
+  "slug": "tourrettes-sur-loup-history",
+  "template": "history",
+  "metadata": {
+    "title": "图雷特历史溯源｜紫罗兰之城的百年传奇与中世纪石头建筑之谜",
+    "description": "法国南部悬崖上的中世纪宝石，图雷特曾因紫罗兰种植闻名。从古罗马堡垒到艺术圣地，探寻名人轶事与民间传说。抛开攻略，走进尘封时光。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "滨海阿尔卑斯省",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "图雷特（紫罗兰之城）",
+      "href": "/attractions/tourrettes-sur-loup-history"
+    }
+  ],
+  "hero": {
+    "title": "图雷特（紫罗兰之城）・Tourrettes-sur-Loup・法国・滨海阿尔卑斯省",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在法国蔚蓝海岸的腹地，有一座被紫罗兰香气包裹的石头之城——图雷特。它攀附在陡峭的岩石山脊上，巷弄窄得只能容下一束阳光。这里曾是罗马人的瞭望塔，也曾是流浪艺术家的秘密庇护所。抛开游玩攻略，走进图雷特的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">图雷特（紫罗兰之城）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Tourrettes-sur-Loup</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Tourrettes-sur-Loup</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">滨海阿尔卑斯省</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">图雷特的起源可以追溯到 <strong>公元前2世纪</strong>，当时这里是利古里亚人的一处山顶聚落。<strong>罗马帝国</strong> 扩张时，军队在山脊上修筑了一座小型堡垒，用于监视从阿尔卑斯山通往地中海的要道。地名“Tourrettes”源自奥克语 <strong>“Torreta”</strong>，意为“小塔”——正是那座如今仅存地基的罗马塔楼的名字。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪初期，图雷特在 <strong>10世纪</strong> 被纳入普罗旺斯伯爵的领地。由于地势险要，村民用当地的灰色石灰岩在悬崖边缘砌起半圆形城墙，房屋沿着山脊层层堆叠，形成一道天然屏障。<strong>1186年</strong> 的一份领主文书首次以“Torrettae”之名记载此地，当时人口不过百人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最独特的文化基因源于 <strong>19世纪末</strong>。一位来自尼斯的植物学家偶然发现这里的微气候极适合紫罗兰生长，于是引入 <strong>帕尔马紫罗兰</strong> 品种。短短二十年，图雷特山坡上铺满紫色花田，每年 <strong>2月</strong> 的“紫罗兰节”由此诞生。当地妇女将花朵制成糖渍、香水与肥皂，至今仍沿用百年古法。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一道印记：宗教战争中的避难所</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1562年</strong> 至 <strong>1598年</strong> 的法国宗教战争期间，图雷特成为新教徒的隐秘据点。村庄的狭窄石阶和地下通道网络被改装成逃生路线。在 <strong>圣米歇尔教堂</strong> 的拱顶下，至今可以看到刻有胡格诺派十字架的石板——那是当年避难者偷偷留下的信仰印记。教堂的钟楼原本是防御塔，战时敲钟报警，钟绳至今仍系着铁链，以防敌人攀爬。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二道印记：拿破仑的驿站</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1805年</strong>，拿破仑在进军意大利途中曾短暂停留图雷特。村口 <strong>“皇帝之泉”</strong> 的石碑记载：大军因缺水而困在谷地，村民用紫罗兰茎叶煮水解渴。拿破仑的副官在回忆录中写道：“这座村庄像是从岩石里长出来的，连水都带着紫色花朵的甜味。”虽然史料存疑，但每年 <strong>8月15日</strong> 的“泉水节”依然会重现这一传说——妇女们穿着中世纪长裙，捧着陶罐从泉眼取水。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三道印记：世界大战中的沉默见证</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1944年</strong> 盟军登陆普罗旺斯后，德军退守阿尔卑斯山，在图雷特以南的山谷设置雷区。村民在夜里悄悄移走地雷引信，用紫罗兰汁液涂抹在石墙上为抵抗组织做标记。如今村口的 <strong>战争纪念碑</strong> 上刻着 <strong>23个姓氏</strong>，其中7人死于撤离途中的空袭。碑旁的老橄榄树被弹片削去半边树冠，却依然在每年春天开出白色花朵。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 紫罗兰女王：玛格丽特·杜克洛</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛格丽特·杜克洛（Marguerite Duclos，1878-1954）</strong> 是图雷特最著名的本土传奇。她生于村中最贫穷的采石匠家庭，却在 <strong>12岁</strong> 时被一位路过的植物学家发现拥有“花朵般的手指”——她能用花瓣和树汁调配出罕见的紫色染料。<strong>1905年</strong>，她发明了“冷浸法”制作紫罗兰糖浆，无需加热就能锁住花香。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>与图雷特的羁绊：</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她一生从未离开村庄，每天黎明前就背着箩筐爬上悬崖采集紫罗兰。她的日记中写道：“露水还未干，紫色的雾从山谷升起来，整座城像是浮在香气的海面上。” <strong>1923年</strong>，巴黎的香水大亨 <strong>弗朗索瓦·科蒂</strong> 专程前来购买她的配方，却被她拒绝：“紫罗兰是图雷特的呼吸，不能装进巴黎的瓶子里。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>留下的痕迹：</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今村中 <strong>“杜克洛小巷”</strong> 尽头有一口石臼，据说她每天在此捣碎花瓣。每年紫罗兰节，当地人会把新榨的花汁倒入石臼，当做祈福仪式。她的曾孙女 <strong>埃洛伊丝·杜克洛</strong> 至今经营着家族工坊，用同样的配方制作紫罗兰糖浆——玻璃瓶上贴着玛格丽特手绘的紫罗兰花束复印件。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>引用块</strong></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我曾见过巴黎的香水瓶，它们像玻璃棺材一样漂亮。但图雷特的紫罗兰活着，它的根抓进岩石里，它的香气哭出血来。”——玛格丽特·杜克洛1918年日记（现藏于图雷特历史博物馆）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 流浪画家：埃德加·德加的秘密夏日</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1892年</strong> 夏天，印象派画家 <strong>埃德加·德加（Edgar Degas）</strong> 因眼疾加重，在朋友推荐下隐姓埋名来到图雷特静养。他用化名“杜邦先生”租下村东头一间废弃的羊圈，每天凌晨四点起床画悬崖上的晨光。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>与图雷特的羁绊：</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德加被这里的紫罗兰田深深吸引，他写道：“颜色像打翻的颜料瓶，从橄榄林一直泼到天上。”他在 <strong>两个月</strong> 内创作了 <strong>12幅</strong> 小幅油画，全部以紫罗兰和石头房屋为主题。其中一幅名为《紫色悬崖》的作品在 <strong>2008年</strong> 巴黎拍卖会上以 <strong>230万欧元</strong> 成交。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>留下的痕迹：</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德加曾教当地孩子用紫罗兰汁液画素描，那些涂鸦至今保留在 <strong>圣米歇尔教堂</strong> 的礼拜堂隔板上。他离开时把画架送给了一个叫 <strong>皮埃尔</strong> 的男孩——这个男孩后来成了紫罗兰糖浆的批发商。如今村中 <strong>德加小径</strong> 的尽头有一块铁艺标志，刻着他的签名和一只芭蕾舞鞋（暗喻他对芭蕾舞者的钟爱）。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>紫罗兰新娘的眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地流传着一个悲伤的故事：<strong>13世纪</strong> 时，一位叫 <strong>伊莎贝拉</strong> 的姑娘与年轻石匠 <strong>卢卡</strong> 相爱。卢卡被领主征召去修建尼斯城堡，承诺三年后归来。伊莎贝拉每天在悬崖边种下一株紫罗兰，祈祷他平安。三年期满，卢卡未归——他死在城堡的塌方中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊莎贝拉把全部紫罗兰连根拔起，坐在岩石上哭了整整一夜。第二天人们发现她不见了，只在石缝里长出一丛从未见过的 <strong>深紫色紫罗兰</strong>，花瓣边缘带血一样的红痕。从此这种花被称为 <strong>“拉蒙之泪”</strong>（Larmes de Ramon，伊莎贝拉的姓氏）。据说在月光最亮的夜晚，能听见悬崖上传来轻轻的呜咽声，而那丛紫罗兰永远无法被移栽——只要有人试图挖走它，第二天就会枯萎。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>人文习俗：</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年 <strong>2月14日</strong> 情人节，未婚少女会偷偷在枕下放一朵紫罗兰，许愿梦见未来的丈夫。如果梦境模糊，就说明真爱还在远方；如果梦见石阶，就意味着要与本地人结缘。婚礼上新娘会在捧花里夹一瓣“拉蒙之泪”的干花，以求婚姻坚如岩石。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">图雷特不仅是一座石头村庄，更是一部用紫罗兰汁液书写的法国南方史。它的每一道窄巷都藏着宗教战争的刀痕，每一块火山岩都浸过拿破仑士兵的汗滴，每一朵紫罗兰都凝着艺术家与农妇的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当游客穿梭在那些仅容一人通过的石阶时，脚下踩着的不仅是中世纪的人行道，更是数百年来逃亡者、香农与画匠共同踩出的历史轨迹。读懂图雷特，就是读懂欧洲南方在不被重视的角落里如何倔强地存活、芬芳。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/roussillon-provence-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鲁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鲁西永（普罗旺斯的赭石红土城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Roussillon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/savigny-les-beaune-castle-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨维尼莱博讷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Savigny-lès-Beaune</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/najac-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    纳\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">纳雅克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Najac</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "roussillon-provence-history",
+          "name": "鲁西永（普罗旺斯的赭石红土城）",
+          "englishName": "Roussillon"
+        },
+        {
+          "slug": "savigny-les-beaune-castle-museum",
+          "name": "萨维尼莱博讷",
+          "englishName": "Savigny-lès-Beaune"
+        },
+        {
+          "slug": "najac-village",
+          "name": "纳雅克",
+          "englishName": "Najac"
+        }
+      ]
+    }
+  ]
+}

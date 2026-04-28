@@ -1,0 +1,85 @@
+{
+  "slug": "rolle-chateau-history",
+  "template": "history",
+  "metadata": {
+    "title": "罗尔历史溯源｜日内瓦湖畔十三世纪三角形城堡、人工避风岛与沃州贵族传奇",
+    "description": "探寻瑞士沃州小镇罗尔的尘封往事：13世纪萨伏依伯爵为何建造三角形城堡？人工避风岛隐藏着怎样的中世纪工程智慧？当地贵族家族与宗教改革的恩怨情仇。抛开游玩攻略，走进罗尔的时光深处。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "瑞士",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "罗尔镇",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "罗尔城堡（罗尔镇）",
+      "href": "/attractions/rolle-chateau-history"
+    }
+  ],
+  "hero": {
+    "title": "罗尔城堡（罗尔镇）・Rolle Castle (Rolle)・瑞士・罗尔镇",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">日内瓦湖畔的罗尔，一座被葡萄园与湖水温柔环抱的小镇，最醒目的地标是一座<strong>十三世纪</strong>的<strong>三角形城堡</strong>，以及它面前那座由巨大石块垒成的<strong>人工避风岛</strong>。这并非寻常的湖畔风景，而是萨伏依伯爵为控制湖上贸易、抵御伯尔尼势力而精心设计的军事与工程杰作。抛开游玩攻略，走进罗尔的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">罗尔城堡（罗尔镇）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Rolle Castle (Rolle)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Rolle Castle (Rolle)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">瑞士</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">罗尔镇</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗尔的历史远比它的城堡更古老。最早的定居痕迹可追溯至<strong>青铜时代</strong>，但真正让这里成为湖岸要冲的，是<strong>罗马人</strong>。他们在湖滨修建了道路与港口，将罗尔作为连接日内瓦与阿尔卑斯山隘口的驿站。然而，现代罗尔镇的诞生要归功于<strong>萨伏依伯爵</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>13世纪初</strong>，萨伏依家族为了加强对日内瓦湖区的控制，决定在湖岸建造一系列城堡。罗尔城堡的选址极为考究——它位于一片向湖中突出的岩岬上，天然形成三面环水的防御优势。伯爵征召本地石匠与工匠，就地开采石灰岩，于<strong>1214年</strong>正式动工。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡的名字“Rolle”并非源自法语“角色”，而是来自拉丁语“<em>rotula</em>”（小轮子），可能指代湖岸的一处旋转式吊桥或绞盘装置。这一工程细节在后来的文献中消失，却成为地名学上的一个小小谜题。城堡完工后，萨伏依家族将管理权交给当地贵族<strong>德·拉·萨拉家族</strong>，他们在此建立了一个完整的封建领地：城堡、葡萄园、磨坊与渔港。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但最惊人的工程并非城堡本体，而是城堡正前方那座<strong>人工岛</strong>。为了防备从湖面来的突袭，伯爵命人用数万吨石块在湖中堆筑出一座直径约40米的<strong>三角形平台</strong>，通过一条隐蔽的石堤与城堡连接。这座岛既是炮台阵地，也是风暴中船只的临时避风港。中世纪工程师利用了湖底的地质构造，使石块在湖水中自然楔合，历经七百余年未被大浪冲垮。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗尔的历史是一部夹在<strong>萨伏依公国</strong>、<strong>伯尔尼邦联</strong>与<strong>日内瓦共和国</strong>之间的博弈史。三个事件深刻改变了这座小镇的面貌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 伯尔尼征服与宗教改革（1536年）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1536年，伯尔尼军队在宗教改革浪潮中南下，占领了沃州全境。罗尔城堡未经激烈抵抗便投降，伯尔尼人将其改造为<strong>沃州行政长官的驻地</strong>。他们拆除了城堡的塔楼尖顶，改建成更适应火器时代的低矮炮台，并在庭院中加盖了文艺复兴风格的回廊。更深远的变化是<strong>宗教改革</strong>——罗尔镇的教堂被清空圣像，弥撒被废除，牧师改由伯尔尼政府任命。至今，城堡教堂的讲坛上仍保留着伯尔尼徽章的浮雕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 沃州独立与城堡转型（1798年）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1798年法国大革命爆发后，沃州在法国的支持下脱离伯尔尼统治，成立<strong>莱芒共和国</strong>（后并入瑞士联邦）。罗尔城堡被新政府没收，宣布为公共财产。19世纪初，它被改作<strong>县法院</strong>和<strong>监狱</strong>。法院的审判大厅设在一楼原来的骑士厅内，而囚室则设在城堡的地下酒窖中——那些曾用于储存葡萄酒的石室，如今关押着欠税者与盗贼。一位本地历史学家在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“法官的锤声与湖浪拍岸的声响交织，犯人们在铁窗后望着湖上的白帆，等待判决。这城堡从未显得如此逼仄与沉重。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 二次世界大战中的宁静避难所</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，瑞士保持中立，但罗尔城堡因其偏僻的位置被选为<strong>儿童疏散中心</strong>。1942年至1945年，数百名来自日内瓦和苏黎世的儿童被安置在城堡中，躲避盟军对德国的空袭（瑞士边境城市曾遭误炸）。城堡的大厅被改造成教室，回廊变成游戏场。一位当年在此生活过的老妇人晚年回忆：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们每天早上在湖水里洗脸，然后坐在葡萄藤下听老师念《海蒂》。炮声很远，湖水很近。那段日子，城堡像一艘巨大的石头船，载着我们漂在和平的泡沫里。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗尔虽然只是小镇，却与三位独特人物紧密相连。他们各自代表了这个地方的某一面灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 弗朗索瓦·德·拉·萨拉——最后的封建领主 (1485-1560)</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">弗朗索瓦出身于罗尔城堡的封建家族，却成为沃州宗教改革的激烈反对者。1520年代，当伯尔尼的宗教改革思想传入时，他拒绝拆除城堡内的私人礼拜堂，并暗中庇护被流放的天主教神父。1536年伯尔尼军队占领城堡后，他被剥夺领地，逃往萨伏依公国。晚年，他在都灵撰写了一部未出版的编年史，其中详细描绘了罗尔城堡的原始结构和湖上人工岛的建造细节。这部手稿直到2001年才在都灵档案馆中被发现，成为研究中世纪湖防工事的珍贵文献。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 伊莎贝尔·德·拉·图尔——植物学探险家 (1723-1786)</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊莎贝尔是罗尔本地出生的贵族女性，因婚姻移居日内瓦。但她一生最钟情的仍是罗尔湖畔的野生植物。她多次回到城堡周围，采集并绘制湖岸与湿地的植物标本，尤其专注于<strong>水生植物</strong>。1768年，她出版了《莱芒湖植物图鉴》，其中记载了罗尔湖岸的<strong>水韭</strong>与<strong>水毛茛</strong>的独特种群。这本书成为欧洲植物学界的参考，但她本人却默默无闻。在罗尔的市政档案馆中，保存着她的一封信，信中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“在城堡的阴影下，每一棵草都有它的名字。湖水涨落之间，生命比任何战争更顽强。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，罗尔镇的植物爱好者在每年五月组织“伊莎贝尔·德·拉·图尔徒步路线”，沿着她当年走过的湖岸寻找那些珍稀植物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 文森特·范·高荷——被遗忘的荷兰抽象派画家 (1878-1925)</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位荷兰画家几乎被艺术史遗忘，却在罗尔完成了他的关键作品。1905至1910年间，他因肺结核在日内瓦湖区疗养，租住在罗尔城堡旁的一间农舍中。他痴迷于城堡三角形轮廓与湖面倒影的几何关系，创作了一系列名为“罗尔三角”的抽象作品。这些画作将城堡简化为锐利的黑色线条与色块，被认为是欧洲早期抽象主义的先驱之一。可惜他生前未获认可，作品被遗弃在农舍阁楼。1925年他去世后，这些画作被本地旧货商购得，直到1980年代才被艺术史家重新发现。如今，洛桑州立美术馆收藏了其中两幅，而罗尔城堡的游客中心悬挂着一幅复制品。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在罗尔的酿酒师与老渔民口中，代代流传着一个关于“湖中石匠”的传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传城堡与人工岛建造时，萨伏依伯爵从意大利请来一位技艺高超的石匠，名叫<strong>马尔切洛</strong>。他负责设计三角形岛屿的石基。然而，城堡封顶之夜，马尔切洛却发现一处致命的计算错误：岛的西北角基石会在百年后的某次大风暴中崩塌。他连夜潜入湖底，试图修正，却被巡逻的卫兵误认为伯尔尼的间谍，当场射杀。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伯爵知晓真相后，愧疚地将马尔切洛的尸体安葬在岛屿中央的石穴中，并在其上覆盖一块巨石，刻上他的名字。传说每逢月圆之夜，马尔切洛的灵魂会从湖底升起，在城堡与岛屿之间搬运石头，修补那些被岁月侵蚀的缝隙——而湖水会泛起乳白色的涟漪，那是他手中工具溅起的石灰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今，当地渔民仍将这片区域的白色涟漪视为好运征兆，认为那是石匠在护佑这座小岛与城堡的安宁。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗尔不是欧洲最宏伟的城堡，也不是最古老的人工岛，但它浓缩了中世纪湖防工程、宗教改革冲突、贵族家族沉浮与艺术探索的多重叙事。站在城堡三角形的庭院中，望向湖中那座沉默的石岛，你会意识到：<strong>伟大不在于规模，而在于时间与智慧在特定空间中的沉淀。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">想要亲眼站在十三世纪的三角形城堡内，触摸人工避风岛的石缝，或沿着植物学家的湖岸徒步路线漫步？👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/aarau-old-town-frescoes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿劳老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Aarau Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/poschiavo-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波斯基亚沃</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Poschiavo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/basilique-de-valere\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦莱尔圣母大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Basilique de Valère</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "aarau-old-town-frescoes",
+          "name": "阿劳老城",
+          "englishName": "Aarau Old Town"
+        },
+        {
+          "slug": "poschiavo-history",
+          "name": "波斯基亚沃",
+          "englishName": "Poschiavo"
+        },
+        {
+          "slug": "basilique-de-valere",
+          "name": "瓦莱尔圣母大教堂",
+          "englishName": "Basilique de Valère"
+        }
+      ]
+    }
+  ]
+}

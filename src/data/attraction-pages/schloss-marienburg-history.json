@@ -1,0 +1,85 @@
+{
+  "slug": "schloss-marienburg-history",
+  "template": "history",
+  "metadata": {
+    "title": "玛丽安堡历史溯源｜北方的天鹅堡，汉诺威末代国王献给盲人妻子的绝美哥特式宫殿",
+    "description": "玛丽安堡，一座为爱而生的童话城堡。走进汉诺威末代国王乔治五世与盲后玛丽的爱情传奇，探秘新哥特式建筑背后的悲欢离合。抛开攻略，聆听这座北德瑰宝跨越三个世纪的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "德国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "帕滕森",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "玛丽安堡",
+      "href": "/attractions/schloss-marienburg-history"
+    }
+  ],
+  "hero": {
+    "title": "玛丽安堡・Schloss Marienburg・德国・帕滕森",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在德国下萨克森州的密林深处，一座白色塔楼刺破天际，仿佛是童话书里走出的城堡。它被称为“北方的天鹅堡”，却比天鹅堡更添一层悲情的浪漫——由汉诺威末代国王乔治五世为盲人妻子玛丽王后亲手打造。新哥特式的尖拱与陡峭的屋顶交织成一首石砌的情诗，每一扇窗都凝视着国王对王后的爱意。抛开游玩攻略，走进玛丽安堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">玛丽安堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Schloss Marienburg</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Schloss Marienburg</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">德国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">帕滕森</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽安堡的故事始于19世纪中叶。那时，汉诺威王国尚在，国王<strong>乔治五世</strong>统治着这片土地。他继承王位后，深感祖传的莱纳城堡（Schloss Leine）太过陈旧，无法匹配王室的威严，更无法满足他对妻子的爱意。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1857年，乔治五世宣布要为妻子<strong>玛丽王后</strong>建造一座全新的夏宫。选址在帕滕森附近的山丘上，这里视野开阔，能俯瞰莱纳河谷。城堡以王后的名字命名——“玛丽安堡”直译就是“玛丽之山”。这座城堡并非中世纪遗物，而是<strong>新哥特式复兴</strong>的杰作，由汉诺威宫廷建筑师康拉德·威廉·哈泽设计。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据说乔治五世曾对建筑师说：“我要一座让她闭着眼睛也能感受到美的城堡。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这句话完美诠释了城堡的初衷。玛丽王后因眼疾逐渐失明，国王希望用触感、气味和声音去弥补她视觉的缺失。因此，城堡的每一处细节都经过精心考量：粗糙的砂岩外墙在阳光下投射出柔和的阴影，让盲人王后能用手辨认纹理；塔楼上的风向标发出清脆的响声；花园里弥漫着玫瑰与薰衣草的芳香。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡于1858年奠基，1867年正式竣工。整座建筑大量采用中世纪元素——塔楼、雉堞、护城河，但内部布局却极其现代化，安装了中央供暖系统、抽水马桶和煤气照明，这在当时是前卫的奢华。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽安堡落成后，乔治五世与玛丽王后只在其中度过了短短几年快乐时光。<strong>1866年</strong>，普鲁士王国在俾斯麦的带领下发动普奥战争，汉诺威王国因支持奥地利而战败。<strong>乔治五世</strong>被迫流亡奥地利，玛丽安堡从此成为一座空荡的纪念物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战争结束后，汉诺威王国被普鲁士吞并。玛丽安堡被普鲁士政府没收，后来辗转成为一座<strong>孤儿院与学校</strong>。直到二战期间，城堡又收容了大量从柏林疏散的儿童，成为他们的避难所。战后，城堡被用作青年旅舍和会议中心，历经岁月沧桑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最令人唏嘘的印记藏在城堡的内部。由于缺乏维护，许多精美的木雕和壁画开始褪色。但在20世纪80年代，汉诺威王室的<strong>后裔恩斯特·奥古斯特·冯·汉诺威</strong>（现任汉诺威家族首领）重新购回城堡，并开始了长达数十年的修复工程。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1998年，城堡正式向公众开放，但修复工作仍在继续。每一块石砖都诉说着王室对故土的眷恋。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，城堡的北翼保留着<strong>“盲人王后房间”</strong>的原貌。墙壁上装饰着精细的浮雕，壁炉上刻着诗句，床边挂着乔治五世与玛丽王后的肖像。房间没有窗帘，因为国王希望阳光能够毫无遮挡地洒进来——哪怕他的妻子无法看见，也能感受到光的温暖。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽安堡的灵魂人物无疑是<strong>乔治五世</strong>与<strong>玛丽王后</strong>。乔治五世（1819-1878）是汉诺威王国的<strong>末代君主</strong>，也是英国汉诺威王朝的最后一位男性统治者。他生性好学，热爱艺术，却一生被政治动荡所困。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽王后（1818-1907）原名玛丽·冯·萨克森-阿尔滕堡，是一位温柔而坚强的女性。她在27岁时患上<strong>视网膜脱落症</strong>，逐渐丧失视力。乔治五世并未因此冷落她，反而倾注了全部的爱意。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛丽安堡的建造是国王对王后的深情告白。</strong> 他亲自参与设计，确保城堡的每个角落都能带给失明的妻子美的享受。城堡内有一条<strong>“触觉花园”</strong>小径，两侧种植着不同质感的植物，从柔软的苔藓到粗糙的树皮，王后可以漫步其间，用指尖“阅读”自然。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">玛丽王后在日记中写道：“他的爱比任何阳光都明亮。我看不见城堡的模样，却感受到了它的心跳。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1866年流亡后，乔治五世在奥地利去世，玛丽王后辗转回到城堡，继续居住直至1907年去世。据说她最后的日子，每天都坐在南侧<strong>盲人塔楼</strong>的阳台上，面朝西方——那是汉诺威的方向，也是她丈夫长眠的方向。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一个鲜为人知的名人：<strong>康斯坦丝·冯·汉诺威</strong>，乔治五世的孙女。她在二战期间将城堡用作<strong>秘密庇护所</strong>，保护了许多被迫害的儿童。她的事迹直到近年才被公开，成为玛丽安堡历史中温暖的一章。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于玛丽安堡的传说，最著名的是<strong>“盲后银铃”</strong>的故事。相传玛丽王后失明后，乔治五世命人在城堡花园的每个转角处挂上银铃，铃铛的声音在风中交织成一支无形的指引曲。每当王后散步，仆人们会轻轻摇响铃铛，让她循声而行。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">有一年冬天，大雪覆盖了花园，铃铛被冻住。国王彻夜未眠，亲手用炭火为每一枚铃铛解冻。翌日清晨，王后走出房门，听见清脆的铃音，泪如雨下。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说关于城堡的<strong>“幽灵新娘”</strong>。据说在城堡封闭期间，一个年轻的女孩曾在此等候情人归国，却等来了战死的消息。她的魂魄至今仍徘徊在塔楼之间，偶尔会在月夜身着白裙，敲响那扇从未打开的北门。当地人相信，只要有人叩响北门三下，就会看到一位白衣女子一闪而过——但千万别去追，因为那是通往另一个世界的通道。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽安堡不只是一座建筑，它是<strong>爱与失落的物化见证</strong>。乔治五世用石头、木头和梦想，为盲妻建造了一个可以触摸的童话。当政治浪潮席卷王权，城堡成为承载回忆的孤岛。今天的玛丽安堡，修复的每一块砖都在提醒我们：有些东西比权力更持久——那就是用爱创造的风景。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">站在城堡塔楼上眺望，莱纳河谷的绿色延伸至天际。你会明白为何国王选择这里——这是一处能让盲人“看见”美景的地方，因为美，从来不只是视觉的专利。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂玛丽安堡，就是读懂汉诺威末代王朝的悲欢，读懂一位国王对妻子至死不渝的守护，读懂历史洪流中那些被忽略的温柔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/franzoesischer-dom\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    法\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">法兰西大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Französischer Dom</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/braubach-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布劳巴赫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Braubach Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amberg-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "franzoesischer-dom",
+          "name": "法兰西大教堂",
+          "englishName": "Französischer Dom"
+        },
+        {
+          "slug": "braubach-castle",
+          "name": "布劳巴赫城堡",
+          "englishName": "Braubach Castle"
+        },
+        {
+          "slug": "amberg-old-town",
+          "name": "安贝格老城",
+          "englishName": "Amberg Old Town"
+        }
+      ]
+    }
+  ]
+}

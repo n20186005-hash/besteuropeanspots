@@ -1,0 +1,85 @@
+{
+  "slug": "hum-history",
+  "template": "history",
+  "metadata": {
+    "title": "胡姆城历史溯源｜吉尼斯世界最小城镇的中世纪石头聚落与格拉哥里文化传奇",
+    "description": "探访吉尼斯认证的“世界最小城镇”胡姆：藏身克罗地亚山林的中世纪石头聚落，揭开格拉哥里字母的神秘文字，探听二三十位居民的传奇故事与铁手套传说。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "克罗地亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "伊斯特拉县",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "胡姆城",
+      "href": "/attractions/hum-history"
+    }
+  ],
+  "hero": {
+    "title": "胡姆城・Hum・克罗地亚・伊斯特拉县",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>胡姆</strong>，这个名字在克罗地亚的伊斯特拉半岛深处静默了千年。它被吉尼斯世界纪录官方认证为“世界上最小的城镇”，整个聚落仅二三十位居民，石头房屋与狭窄巷弄却保留着纯粹的中世纪气息。抛开游玩攻略，走进胡姆的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">胡姆城</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Hum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Hum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">克罗地亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">伊斯特拉县</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">胡姆的根基，埋在公元11世纪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最早被记载为“Cholm”，这个名字源自匈牙利语，意为“小山丘”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当时的伊斯特拉半岛是神圣罗马帝国与匈牙利王国争夺的边陲地带。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1040年左右</strong>，匈牙利国王为了巩固边境，下令在这片岩石山脊上建造一座防御堡垒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的胡姆，就是一座纯粹的军事前哨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它俯瞰着通往伊斯特拉内陆的山谷，守护着盐路与商道的安全。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">后来，附近村庄的居民逐渐迁入，城墙之内形成了最早的聚集地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地名典故</strong>中，“Hum”与梵文中的“金色”并无关联，却与伊斯特拉当地传说中一位名叫“胡姆”的古代英雄有关。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说，这位力大无穷的勇士用双手搬起巨石，筑起了第一道城墙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">无论起源是军事工事还是英雄传说，这座小城从一开始就注定了要与世隔绝的孤傲气质。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它从未经历工业化的喧嚣，也未被大规模旅游裹挟，因此保留了最原始的石砌脉络。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">胡姆的岁月，是由两块石头书写的：一块是城墙，另一块是刻有<strong>格拉哥里字母</strong>的石碑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是西方最古老的斯拉夫文字，由圣西里尔与圣美多德在9世纪创制。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">胡姆，竟成为了这种濒危文字最后的活态博物馆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">进入城中，你会发现墙壁上镶嵌着一种奇特的“文字墙”——<strong>格拉哥里字母之路</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这条路沿着城墙蜿蜒而上，每一块石碑都刻有格拉哥里字母的独立字母表。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>19世纪中期</strong>，为了保存民族记忆，当地知识分子与神父发起了这一工程。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他们从克罗地亚各地的修道院中收集格拉哥里文本，将其一字一句凿刻在石板上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">游走其间，你仿佛能听见古老大地的吟唱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个不可磨灭的印记是 <strong>《胡姆法令》</strong> ，克罗地亚最古老的成文法规之一，诞生于 <strong>1452年</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当时，胡姆的领主为了调解本地贵族与平民之间的土地纠纷，召集了十二位长老。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他们在城墙下的圣彼得教堂前，用格拉哥里字母写下了这部仅9页的法令。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">法令确立了村民的用水权、放牧权与婚姻自主权，堪称中世纪基层民主的典范。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，这部法令的原件保存于伊斯特拉档案馆，但它精神上的刻痕，镌刻在胡姆每一块花岗岩的缝隙中。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">胡姆太小，难以容纳帝王的野心，却滋养了几位倔强的文化守护者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 格拉哥里学者：马尔科·特罗格</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他或许是你从未听过的人，却是胡姆历史上最闪耀的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马尔科·特罗格（Marko Trogrlić，1904-1976）出生在胡姆城墙内的一栋石屋。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的父亲是位牧羊人，母亲则在家中照料着仅有的几株橄榄树。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">幼年时，马尔科跟随伊斯特拉本堂神父学习拉丁文与格拉哥里字母。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1928年</strong>，他赴萨格勒布大学攻读神学，却因研究格拉哥里文本而闻名。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马尔科一生中最重大的任务，是<strong>将伊斯特拉地区的口述历史翻译并抄录</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他用了整整二十年，走遍伊斯特拉所有的村庄。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他记录下村民的婚礼歌谣、葬礼哭调，以及古老的祷告词，全部用格拉哥里字母书写。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1963年</strong>，他的《伊斯特拉口传文献集》出版，让胡姆的名字第一次出现在欧洲文化地图上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">晚年，他回到了胡姆，每天坐在城门口的石头凳子上，用尖笔在羊皮纸上默写下古老的符文。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地流传着一则轶事：<strong>有一次，一位游客好奇地问他：“你为什么不用现代字母？”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马尔科抬了抬眼镜，慢悠悠地说：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“字母是民族的骨头，我不会用别人的骨头盖房子。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今，胡姆城堡入口处立有一块石碑，刻着马尔科最喜爱的一句话：“文字不灭，胡姆不死。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 铁匠与骑士：卢卡·布拉伊奇</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说马尔科代表了胡姆的文化之魂，那卢卡·布拉伊奇（Luka Bralić，1845-1928）则代表了它的锻造之声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卢卡是胡姆最后一位传统铁匠，其父祖辈在城里的铁匠铺已传承了七代。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他每天在铁砧旁叮当作响，为村民打制农具、马蹄铁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但卢卡的传奇，源自<strong>1888年</strong>的某次伊斯特拉节日。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当时，附近城镇举办了一场骑马比赛，卢卡骑着骡子参赛，竟然获得了冠军。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">获胜的奖品是一副沉重的铁手套，据说重达 <strong>5公斤</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卢卡兴高采烈地将铁手套挂在铁匠铺的门口，让它作为战利品和护身符。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从那时起，这副铁手套成了胡姆的象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1908年</strong>，卢卡在城墙拐角处开设了“铁手套酒馆”，用自家酿的李子白兰地招待过路的商人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最奇妙的是，铁手套还催生了胡姆一脉独特的<strong>“铁手套选举”</strong>传统：</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年的11月11日，胡姆成年男性会聚集在城墙下，用一副铁手套投票。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他们认为这能带来铁一般的决心和公正。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个习俗延续至今，现任镇长在就职典礼上，依旧会用那把铁手套轻轻敲击三下城门，代表“刚毅之音”。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">胡姆流传最广的传说，与一头被称为<strong>“山中之龙”</strong>的生物有关。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在14世纪，胡姆北面的山洞里住着一头名叫<strong>格拉乌什</strong>的恶龙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它长着鹰的头颅，蛇的尾巴，翅膀展开时能遮住整片天空。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每一个月圆之夜，格拉乌什会飞到胡姆上空，试图用火焰烧毁城墙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但胡姆的第一代居民——那位同名的英雄——发现了龙的弱点：</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>它害怕格拉哥里字母的神秘力量！</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">英雄号召全城老少，在每家的墙壁上刻满古老的文字符号。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当格拉乌什再次俯冲时，它被石墙上的闪光文字刺瞎了双眼，一头撞进了城墙下的深渊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，胡姆的居民深信：<strong>刻有格拉哥里字母的房子，能避邪消灾。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说中，格拉乌什撞出的深坑，成了今天城边的一块巨大洼地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">春天时，那里会长出一种奇特的红花，当地人称其为“龙血花”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一则关于<strong>“寡妇城门”</strong>的习俗：</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说一位铁匠的妻子在丈夫去世后，整整十年每晚都坐在城门下哭泣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她的泪水滴落在石头上，形成了一条深凹的痕迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，胡姆的大门旁边确实有一道微凹的沟槽，村民将其视为“长久守候”的印记。每年圣乔治节，未婚女子会在沟槽中放一朵玫瑰，希望自己的爱情像石板一样坚固。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂胡姆，不需要宏大的教堂或辉煌的宫殿。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它就是一块刻着文字的岩石，一杯自酿的李子白兰地，和一位满头白发的老人坐在城墙下打磨的铁手套。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这里是<strong>格拉哥里字母的最后栖息地</strong>，是中世纪基层民主的活化石。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你在胡姆的石头巷子里徘徊，你听到的是铁匠的炉火声、牧羊人的吆喝声，以及一位学者对字母的深沉爱意。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它不是让你惊叹，而是让你<strong>思考</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/labin-istria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉宾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Labin</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/omis-croatia-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥米什</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Omiš</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ibenik\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希贝尼克老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Šibenik</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "labin-istria",
+          "name": "拉宾",
+          "englishName": "Labin"
+        },
+        {
+          "slug": "omis-croatia-guide",
+          "name": "奥米什",
+          "englishName": "Omiš"
+        },
+        {
+          "slug": "ibenik",
+          "name": "希贝尼克老城",
+          "englishName": "Šibenik"
+        }
+      ]
+    }
+  ]
+}

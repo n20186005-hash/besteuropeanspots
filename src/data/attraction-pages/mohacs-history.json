@@ -1,0 +1,85 @@
+{
+  "slug": "mohacs-history",
+  "template": "history",
+  "metadata": {
+    "title": "莫哈奇历史溯源｜匈牙利小城的前世今生与布绍节驱魔传奇",
+    "description": "1526年莫哈奇战役终结匈牙利王国，如今布绍节木雕面具舞者驱散冬日邪灵。走进多瑙河畔的悲壮历史与狂野民俗，探寻这座小城的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "匈牙利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "莫哈奇",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "莫哈奇",
+      "href": "/attractions/mohacs-history"
+    }
+  ],
+  "hero": {
+    "title": "莫哈奇・Mohács・匈牙利・莫哈奇",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">这座坐落在多瑙河畔的小城，曾是中世纪匈牙利王国的命运转折点。<strong>1526年的莫哈奇战役</strong>，以一场血战终结了匈牙利独立，将国家推入奥斯曼帝国的深渊。而如今，它以<strong>布绍节</strong>闻名于世——男人们戴上恐怖木雕面具，穿着羊皮袄，敲锣打鼓地“驱散冬天”。抛开游玩攻略，走进莫哈奇的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">莫哈奇</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Mohács</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Mohács</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">匈牙利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">莫哈奇</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莫哈奇的名字，来源于匈牙利语“moh”一词，意为“沼泽地”。这片多瑙河畔的低洼地区，早在罗马帝国时期便有人定居，成为边境贸易的渡口。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但小城的正式建城记录，可追溯到<strong>11世纪</strong>。那时，匈牙利国王将这里赐予修道院，用以管理多瑙河的航运与渔税。它像一个沉睡的哨兵，安静地守卫着水道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>13世纪的蒙古入侵</strong>曾摧毁了这座脆弱的小镇。但灾难过后，匈牙利王权与教会联手重建，并修筑了城堡与教堂。莫哈奇逐渐成为一座以酿酒和渔业为生的水畔集市。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">值得留意的是，它的名字发音。当地人读作“莫哈奇”，而非“莫哈克斯”。这声调里藏着一丝倔强，仿佛在低语：“我们不是那场战役里倒下的亡魂。”</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1526年8月29日，莫哈奇战役</strong>。这是匈牙利人心中，与亚克兴战役、滑铁卢齐名的历史伤口。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当时，<strong>匈牙利国王路易二世</strong>的军队，在风雨中迎战<strong>奥斯曼苏丹苏莱曼大帝</strong>的十万铁骑。匈牙利骑士的冲锋，曾被欧洲誉为“基督之盾”。但这一次，盾牌碎了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战役只持续了四个小时。<strong>超过两万名匈牙利战士</strong>阵亡，国王本人也在逃亡中溺死于溪流。莫哈奇的田野上，鲜血染红了多瑙河。那片泥泞的战场，至今生长着一种名为“匈牙利泪”的野花。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1789年</strong>，当拿破仑的炮火震动欧洲时，莫哈奇又迎来了一次重建。但真正塑造它今日面孔的，是<strong>1848年匈牙利革命</strong>。这座城市再次站在民族觉醒的前线，反抗哈布斯堡王朝的压迫。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">而最独特的印记，是<strong>布绍节</strong>。这个始于19世纪头十年的传统，起初只是南斯拉夫移民的乡愁仪式。他们将祖先的异教驱冬手法，与战后驱散奥斯曼人的记忆混合，创造出一种狂野而虔诚的仪式。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">人们戴着雕刻的狼脸、鬼脸、鸟喙面具，用羊毛裹身，手持响板。<strong>游行时不能说话</strong>，只能用咆哮和舞蹈来“吓走冬天”。这种沉默的狂欢，像极了这座城市的历史——在失语中承受创伤，又在狂欢中重获新生。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>米克洛什·维尔莫什（Miklós Zrínyi）——战役中的孤勇者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在莫哈奇战役的历史长河中，最动人的故事属于<strong>克罗地亚贵族米克洛什</strong>。他是一位诗人、军事家，却在1526年战役中扮演了悲壮的角色。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当匈牙利主力崩溃后，米克洛什拒绝投降。他带领残余的数百名骑士，<strong>固守城堡八天</strong>。苏莱曼大帝派人劝降，许诺保留他的土地。米克洛什的回复，被刻在城堡墙上：“我会用我的身体为你砌墙。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最终，城堡被炸毁。米克洛什战死，但他的诗作《莫哈奇悲歌》流传至今。诗中写道：“土地记得我们的血，为什么风不肯吹散它？”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的后代<strong>小米克洛什</strong>，在1664年再次率军与奥斯曼人激战。这种家族式的复仇，锻造了一个民族的韧性。如今，莫哈奇市中心的<strong>米克洛什雕像</strong>，总有一只乌鸦停驻。当地人相信，那是骑士的魂灵，在等待下一次出征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>布绍节的面具大师——约瑟夫·科瓦奇</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说米克洛什代表了莫哈奇的悲壮，那么<strong>约瑟夫·科瓦奇</strong>就是它的狂野。这位<strong>1930年出生的木匠</strong>，是布绍节面具雕刻的唯一非遗传承人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的工作室里，堆满了<strong>柳树根和杨木块</strong>。他坚信，真正的布绍面具必须用五十年以上的老树根雕刻。“树木见过太多战争，”他说，“它们知道脸孔是什么形状。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年冬末，他会口述一段神话，然后一把斧头砍入木块。面具的牙齿必须由驴骨制成，眼睛则用牛血染红。<strong>每个面具都是一次降神</strong>，让佩戴者暂时成为祖先的化身。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2016年，他在面具上雕刻了<strong>1526年战役的地图</strong>。有人问他为什么，他说：“我们戴的不是脸，是历史。”他于2023年去世，但手艺由次子继承。布绍节的鼓声从未停歇。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于布绍节，流传着这样一个传说。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“在很久很久以前，冬天不是季节，而是一个住在多瑙河底的巨怪。它每年二月爬上岸，用冰封住庄稼，用风刮走孩子的笑声。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">一天，一个叫亚诺什的渔民，在河滩上捡到了一副残破的军盔。他把军盔刷黑，戴上后钻入芦苇丛。他发现，自己竟然看到了巨怪的心跳——它害怕木头做的脸。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">于是，整个村庄的男人都钻进森林，用斧头砍出最丑陋的树根脸。他们围住河岸，狂吼起舞。巨怪吓得跳回河里，再也不肯上岸。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">但每逢二月，它仍会在水中翻腾。于是，人们必须每年重演一次，用新的面具和鼓点，镇压它的蠢动。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个传说，藏着民族记忆中的战争创伤——巨怪，是奥斯曼帝国的隐喻；而木头脸，是骑士的盔甲与祖先的魂灵。<strong>布绍节不是狂欢，是封印历史的神圣仪式</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莫哈奇的旅行意义，不在于享受风景，而在于感受一种<strong>承受悲怆后的狂欢</strong>。这里没有罗马的辉煌，没有巴黎的浪漫，只有多瑙河两岸的芦苇，在风中低吟战役的悲歌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走在老城巷弄里，你仍能听到木雕匠人的斧凿声。他们用沉默锻造出最狰狞的鬼脸，又在鬼脸下藏起最温柔的灵魂。这是莫哈奇的馈赠：教会你<strong>如何在不说话中讲述万千故事</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">唯有读懂那些面具下的悲怆，你才算真正踏入了这座城的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/s-rospatak-renaissance-castle-and-college\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沙罗什保陶克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sárospatak</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cegled-calvinist-great-church\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    采\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">采格莱德加尔文派大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cegléd Calvinist Great Church</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/zalaegerszeg-hungary-hidden-gem\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佐洛埃格塞格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zalaegerszeg</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "s-rospatak-renaissance-castle-and-college",
+          "name": "沙罗什保陶克",
+          "englishName": "Sárospatak"
+        },
+        {
+          "slug": "cegled-calvinist-great-church",
+          "name": "采格莱德加尔文派大教堂",
+          "englishName": "Cegléd Calvinist Great Church"
+        },
+        {
+          "slug": "zalaegerszeg-hungary-hidden-gem",
+          "name": "佐洛埃格塞格",
+          "englishName": "Zalaegerszeg"
+        }
+      ]
+    }
+  ]
+}

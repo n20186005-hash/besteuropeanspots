@@ -1,0 +1,85 @@
+{
+  "slug": "estremoz-history",
+  "template": "history",
+  "metadata": {
+    "title": "埃什特雷莫什历史溯源｜葡萄牙大理石之城的王后传说与白色奇迹",
+    "description": "深入葡萄牙阿连特茹的白色明珠——埃什特雷莫什。从罗马采石场到中世纪王后城堡，再到路易斯·德·卡蒙斯的灵感源泉，揭开这座大理石之城尘封数百年的辉煌与轶事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "葡萄牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "埃武拉区",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "埃什特雷莫什",
+      "href": "/attractions/estremoz-history"
+    }
+  ],
+  "hero": {
+    "title": "埃什特雷莫什・Estremoz・葡萄牙・埃武拉区",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在葡萄牙阿连特茹起伏的丘陵之间，有一座通体雪白的城市——<strong>埃什特雷莫什</strong>。它因出产极品白色大理石而闻名，整座城池的房屋、门窗、阶梯乃至铺路石，都奢侈地采用当地最洁白的石材。这里不仅是一座露天大理石博物馆，更是葡萄牙王后伊莎贝尔的传奇安息之地。抛开游玩攻略，走进埃什特雷莫什的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">埃什特雷莫什</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Estremoz</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Estremoz</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">葡萄牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">埃武拉区</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>埃什特雷莫什</strong>的名字，源自阿拉伯语“Estrema”，意为“边界”。在摩尔人统治伊比利亚半岛的时代，这里便是阿连特茹与西班牙边境之间的前哨。八世纪起，摩尔人建立要塞，开采附近山丘上的白色石灰岩，用于修筑城墙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，城市真正的奠基发生在1248年——葡萄牙国王<strong>阿方索三世</strong>从摩尔人手中收复此地。他意识到这里紧邻卡斯蒂利亚王国，战略地位非凡。1253年，国王下令在罗马时代的废墟上修建城堡，并将周围村庄整合为王室领地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>最独特的是这里的大理石</strong>。当地出产的石头质地细腻、色泽纯白，几乎不含杂质，远超欧洲其他产地的石材。从13世纪起，国王便下令用大理石建造所有公共建筑——城门、阶梯、教堂，甚至贫民区的铺路石。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">相传阿方索三世曾在一次狩猎中，发现野猪撞开一块巨石，露出里面雪白的纹理。他惊叹：“这是上天赐予我们建造永恒之城的礼物。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，埃什特雷莫什便与大理石结了不解之缘。<strong>1320年</strong>，国王<strong>迪尼斯</strong>与王后<strong>伊莎贝尔</strong>正式将城堡扩建为王室夏宫。城市的身份也从边陲要塞，蜕变为葡萄牙王族的第二权力中心。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一处印记：王后城堡与白色教堂</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在埃什特雷莫什老城的制高点，矗立着雄伟的<strong>城堡塔楼</strong>。这座建于13世纪的四方形石堡由迪尼斯国王下令加高，墙体厚达三米以上。值得关注的是塔楼内部的一座小礼拜堂——<strong>圣伊莎贝尔礼拜堂</strong>，完全由整块大理石雕刻而成，祭坛、圣水盆、地面无一不是白色石材。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1336年</strong>，王后伊莎贝尔在此度过生命最后时光。她生前嘱托死后要葬在大理石棺中，于是城堡下方的<strong>圣弗朗西斯科修道院</strong>被改建为她长眠之地。这座修道院的回廊全部采用无拼接大理石柱，每一根都是整石雕凿，堪称中世纪石工技术的巅峰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二处印记：1755年大地震</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1755年</strong>11月1日，里斯本大地震的震波撕裂了整个葡萄牙。埃什特雷莫什靠近震中，城堡塔楼尖顶被震断，多处城墙开裂。然而，<strong>大理石结构展现出惊人的韧性</strong>——绝大多数木梁屋顶坍塌，但石墙依然挺立。地震后，城市并未像里斯本一样彻底重建，而是就地取材用大理石修补。当地工匠甚至将地震中掉落的碎石重新切割铺成街道，这些“地震路”至今仍保留在旧城区的窄巷中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三处印记：大理石工业革命</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪末，随着铁路修到埃什特雷莫什，<strong>工业化开采</strong>彻底改变了城市面貌。采石场从手工作坊变成机械化矿场，<strong>1908年</strong>，一座专门运石头的窄轨铁路支线建成，将成吨的白色大理石运往里斯本、波尔图甚至巴西。城市人口翻了两番，银行、咖啡馆、交易所全部用大理石装饰门面。1930年代，当地商会规定新建筑必须使用至少30%的大理石外立面，以此延续传统。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 圣伊莎贝尔——大理石城堡中的仁慈王后</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>伊莎贝尔·德·阿拉贡</strong>（1271–1336）是阿拉贡国王佩德罗三世之女，17岁时嫁给葡萄牙国王迪尼斯。她以虔诚和慈善闻名，经常在宫廷中分发面包和钱币给穷人。迪尼斯晚年时，她选择远离里斯本的政治纷争，定居在埃什特雷莫什城堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这座白色的石城里，伊莎贝尔创办了阿连特茹第一所免费施药所，亲自用大理石臼研磨草药。传说她曾将国王赐予她的黄金首饰融化，铸造了一尊等身大的圣母像，安放在城堡礼拜堂中。<strong>1336年</strong>1月4日，她在城堡塔楼的内室中平静离世。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据《圣伊莎贝尔传记》记载：“她去世时，城堡中所有的白色大理石都泛起了微光。仆人们发现她枕边放着一块未雕刻的大理石片，上面用拉丁文刻着：‘愿这座城永远洁白如初。’”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>她的遗体至今保存在圣弗朗西斯科修道院的大理石棺中</strong>。棺盖上是她躺卧的雕像——同样由整块大理石雕刻而成，衣褶细腻得仿佛在微风中飘动。1961年，她被教皇册封为圣人，埃什特雷莫什因此成为朝圣地。每年1月的第一个周末，市民都会抬着她的圣像游街，白色大理石台阶被玫瑰花瓣覆盖。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 安东尼奥·达·马塔——大理石雕刻的沉默大师</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安东尼奥·达·马塔</strong>（1728–1801）出生于埃什特雷莫什郊外的采石匠家庭。他15岁时便在城堡工地当学徒，为修道院雕刻祭坛。24岁时，他被里斯本圣若昂国家剧院聘为首席石雕师，负责制作正门的大型浮雕——然而他拒绝离开家乡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安东尼奥选择留在埃什特雷莫什，开创了“阿连特茹白色巴洛克”风格</strong>。他的代表作是<strong>圣母恩泽教堂的主祭坛</strong>——高达八米的整块大理石屏风上，雕刻着波浪状卷草、飞翔的天使和立体的葡萄藤。当地人称这件作品为“石头上的弥撒”，因为阳光从西窗射入时，白色石面上会出现流动的光影，如同圣歌在石中回荡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>他一生中最大的遗憾</strong>发生在1800年。葡萄牙王室委托他为里斯本皇宫雕刻一座大理石喷泉，安东尼奥耗费两年时间在采石场选料，却在运往首都的路上因车祸导致石料碎裂。国王大怒，他被迫将碎片拼接成一尊小型喷泉，安放在埃什特雷莫什的市政广场上。如今这座“碎泉”依然在喷水，大理石裂缝处被巧妙填入金色铜条，成为当地独一无二的修复品。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安东尼奥临终前，用凿子在自家门楣上刻下一句话</strong>：“石头会说话，只要你肯听。”他去世后，他的儿孙继续经营石匠铺，家族传承了四代，直到20世纪初机械化开采才停止。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说一：王后的白色幽灵</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每天深夜，城堡塔楼的最高处会亮起微弱的白光。老居民坚信那是<strong>圣伊莎贝尔的灵魂</strong>在巡视城市。她身穿白色长袍，手中提着大理石灯笼，每一盏照过的窗户都会在第二天清晨发现窗台上多了一朵白色大理石雕成的玫瑰花。人们将这种玫瑰称为“王后泪”，认为它能保佑家中新生儿健康。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说二：满月下的采石场幽灵</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在采石场废弃的矿坑里，流传着<strong>“白色魔鬼”</strong>的故事。每逢月圆之夜，裸露的大理石断面会发出幽蓝的磷光。老人们说那是古代摩尔石匠的灵魂——他们在九世纪时被强迫开采石头，死后依旧扛着凿子挥舞。胆大的年轻人曾在午夜去采石场，听到石壁里传出叮叮当当的敲击声，仿佛永远在雕琢一尊看不见的雕像。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说三：大理石眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一个关于爱情的悲剧：13世纪时，摩尔首领的女儿<strong>法蒂玛</strong>爱上了城堡中的基督教骑士。她的父亲大怒，将她囚禁在塔楼内。法蒂玛日夜哭泣，泪水滴落在石头上，竟将灰色石灰岩染成了纯白色。后来骑士从西班牙战场归来，发现她已经死去，便用她的泪石雕刻了一尊小天使安放在她的墓前。据说那尊小天使至今仍在圣弗朗西斯科修道院的角落里沉睡，而埃什特雷莫什的大理石矿脉，正是法蒂玛的眼泪凝结而成。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>埃什特雷莫什是一部书写在白色石料上的葡萄牙史诗</strong>。从罗马采石场的奴隶，到中世纪的王室贵胄，再到19世纪的工业巨匠，每一代人都在这座城市留下了大理石质感的印记。圣伊莎贝尔的仁慈、安东尼奥·达·马塔的匠心、摩尔少女的泪传说，让冰冷的矿物拥有了温度。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今漫步城中，脚下是粗粝却光滑的白色路面，指尖触摸到的是整座建筑都在呼吸的历史。<strong>读懂埃什特雷莫什</strong>，就是理解葡萄牙人如何将最平凡的石头，打磨成永恒的文明符号。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">离开前，请在大理石喷泉边静坐片刻。闭上眼，你能听见凿子与石头的碰撞声，听见王后祈祷的低语，听见千年采石场里永不消逝的回音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castelo-mendo-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡斯特卢门杜</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castelo Mendo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/episcopal-palace-of-porto\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波尔图主教宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Episcopal Palace of Porto</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/parque-natural-do-sudoeste-alentejano-e-costa-vicentina\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西南阿连特茹和文森特海岸自然公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parque Natural do Sudoeste Alentejano e Costa Vicentina</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "castelo-mendo-history",
+          "name": "卡斯特卢门杜",
+          "englishName": "Castelo Mendo"
+        },
+        {
+          "slug": "episcopal-palace-of-porto",
+          "name": "波尔图主教宫",
+          "englishName": "Episcopal Palace of Porto"
+        },
+        {
+          "slug": "parque-natural-do-sudoeste-alentejano-e-costa-vicentina",
+          "name": "西南阿连特茹和文森特海岸自然公园",
+          "englishName": "Parque Natural do Sudoeste Alentejano e Costa Vicentina"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "prizren-history",
+  "template": "history",
+  "metadata": {
+    "title": "普里兹伦历史溯源｜巴尔干深处的文化交汇之城与名人传奇",
+    "description": "科索沃历史文化名城普里兹伦，清真寺与教堂共存的城市。从塞尔维亚帝国到奥斯曼王朝，再到阿尔巴尼亚民族联盟，走进小城的尘封往事，遇见时光与传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "科索沃（巴尔干区域）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "普里兹伦",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "普里兹伦",
+      "href": "/attractions/prizren-history"
+    }
+  ],
+  "hero": {
+    "title": "普里兹伦・Prizren・科索沃（巴尔干区域）・普里兹伦",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">普里兹伦，一座被沙尔山脉温柔环抱的河谷古城。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这里，<strong>奥斯曼宣礼塔</strong>与<strong>东正教堂圆顶</strong>并肩刺向天际，仿佛巴尔干千年冲突与融合的无声见证。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它曾是塞尔维亚帝国的加冕之地，奥斯曼帝国的边陲重镇，也是阿尔巴尼亚民族复兴运动的心脏。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">抛开游玩攻略，走进普里兹伦的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">普里兹伦</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Prizren</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Prizren</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">科索沃（巴尔干区域）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">普里兹伦</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">普里兹伦的名字，至今仍是一道谜。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一种说法认为它源自斯拉夫语“prizreti”——意为“被看见”或“被欣赏”，暗指这座山城令人屏息的壮丽全景。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">早在罗马帝国时期，这里便是达尔达尼亚行省的重要据点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正的辉煌，始于<strong>1345年</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那一年，塞尔维亚国王<strong>斯特凡·杜尚</strong>在普里兹伦的广场上——</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">加冕为“塞尔维亚人和希腊人的皇帝”，将帝国版图扩张至爱琴海。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">普里兹伦由此成为帝国的宗教与文化心脏，城内建起了宏伟的<strong>圣母教堂</strong>与<strong>圣乔治教堂</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市的骨架沿着<strong>比斯特里察河</strong>两岸伸展，山坡上层层叠叠的石屋和瞭望塔，易守难攻。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">你几乎可以想象中世纪骑士的马蹄声，在狭窄的鹅卵石巷弄间回荡。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1345年的加冕礼</strong>，让普里兹伦第一次站上巴尔干舞台的中央。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯特凡·杜尚在此颁布了著名的《杜尚法典》，无数手抄本与圣像画从这里流向整个东正教世界。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但帝国的美梦，在1455年戛然而止。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那年，<strong>奥斯曼苏丹穆罕默德二世</strong>的军队攻陷普里兹伦。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市迅速伊斯兰化，宏伟的<strong>锡南帕夏清真寺</strong>在1615年拔地而起，它的穹顶与宣礼塔至今仍是天际线的标志。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，奥斯曼人并未彻底摧毁东正教教堂，老城的宗教格局呈现出罕见的共生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>宣礼塔的诵经声</strong>与<strong>教堂的钟声</strong>，在同一片天空下交替回响——</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这种微妙平衡，在<strong>1878年</strong>被一个叫“联盟”的组织重新塑造。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当年6月，阿尔巴尼亚各地代表秘密聚集在普里兹伦，成立了<strong>普里兹伦联盟</strong>（Lidhja e Prizrenit）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他们递交请愿，要求奥斯曼帝国承认阿尔巴尼亚人的民族权利与自治。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这场运动虽以失败告终，却点燃了民族觉醒的火种，也奠定了普里兹伦在阿尔巴尼亚人心中的圣地地位。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿卜杜勒·弗拉舍里</strong>（Abdyl Frashëri，1839-1892）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他并非普里兹伦本地人，却将生命最炽烈的十年献给了这座城。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">出身阿尔巴尼亚南部世家的弗拉舍里，1877年抵达普里兹伦，立刻投身民族运动。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们在普里兹伦的这片土地上，不仅要保卫我们的家园，更要复兴我们的语言和灵魂。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——阿卜杜勒·弗拉舍里，1878年普里兹伦联盟成立时的演讲。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他主导起草了《普里兹伦决议》，号召所有阿尔巴尼亚人——无论穆斯林还是基督徒——联合起来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>奥斯曼当局</strong>视他为眼中钉，1881年将他逮捕并流放至安纳托利亚。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">弗拉舍里在狱中度过余生，但他的名字永远与普里兹伦的联盟绑在一起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天，城中的<strong>联盟博物馆</strong>（Lidhja e Prizrenit Museum）就建在他当年开会的老宅里，墙上悬挂着他褪色的肖像。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>哈桑·普里什蒂纳</strong>（Hasan Prishtina，1873-1933）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与弗拉舍里不同，哈桑是土生土长的普里兹伦人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他出生在老城的一栋石砌宅邸中，年轻时留学伊斯坦布尔，后投身政治。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1912年，阿尔巴尼亚宣布独立，哈桑作为科索沃代表在发罗拉签署了独立宣言。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但这只是他斗争的开始。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哈桑坚信<strong>科索沃应与阿尔巴尼亚统一</strong>，他在普里兹伦的家中秘密策划起义，对抗塞尔维亚军队的占领。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1921年</strong>，他曾一度领导武装起义，攻占普里兹伦城堡，但最终被镇压。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的宅邸如今被改建为<strong>哈桑·普里什蒂纳纪念馆</strong>，里面陈列着他写满笔记的地图和一只老旧的手枪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">普里兹伦人至今说：哈桑的灵魂，仍然在城堡上的风中游荡。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在普里兹伦，流传着关于“双塔”的古老传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传奥斯曼统治早期，一位苏丹的女儿爱上了东正教石匠<strong>米哈伊尔</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">两人秘密在比斯特里察河畔幽会，月光下互诉爱意。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">苏丹得知后暴怒，下令将石匠关入地牢，并禁止公主出门。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公主以绝食抗议，临终前说出最后心愿：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“愿我们的灵魂化作两座塔，永远俯瞰普里兹伦的和平。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">苏丹悔恨不已，处死了石匠，将两人分别埋葬在河两岸的山丘上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二年春天，埋葬公主的河岸长出一座<strong>宣礼塔</strong>，埋葬石匠的河岸长出一座<strong>钟楼</strong>——</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">两座塔隔河相望，日夜相守。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今，普里兹伦的老人会在傍晚时分指着宣礼塔与钟楼说：</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“看，他们还在那里。穆斯林和基督徒，本应如此。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">普里兹伦是一部活着的巴尔干史书。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每一块被青苔覆盖的石头，都记得塞尔维亚皇帝的冠冕、奥斯曼苏丹的铩羽、以及阿尔巴尼亚民族觉醒的呐喊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它从未在战火中倒塌，反而将破碎的文化碎片熔铸成独特的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂普里兹伦，就是读懂巴尔干——</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>冲突与和解，信仰与包容，毁灭与重生</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你被这段故事打动，想亲临其境感受石桥古巷与飘荡的宣礼声——</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    }
+  ]
+}

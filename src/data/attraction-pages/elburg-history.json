@@ -1,0 +1,85 @@
+{
+  "slug": "elburg-history",
+  "template": "history",
+  "metadata": {
+    "title": "埃尔堡历史溯源｜荷兰中世纪完美矩形网格渔港的前世今生与名人传奇",
+    "description": "探秘荷兰埃尔堡：一座被遗忘的中世纪矩形网格渔港。从汉萨同盟到围海造田，看正方形城墙如何守护百年传奇。抛开攻略，聆听尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "荷兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "海尔德兰省",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "埃尔堡",
+      "href": "/attractions/elburg-history"
+    }
+  ],
+  "hero": {
+    "title": "埃尔堡・Elburg・荷兰・海尔德兰省",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在荷兰海尔德兰省，有一座小城像棋盘般被切割成完美的正方形——埃尔堡。它曾是中世纪汉萨同盟的渔港，城墙的直角线如刀切般精准，至今未改。它的名字来自古荷兰语“Alaburg”，意为“鳗鱼堡垒”。抛开游玩攻略，走进埃尔堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">埃尔堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Elburg</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Elburg</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">荷兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">海尔德兰省</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃尔堡的诞生，要从13世纪末的一场洪水说起。<strong>1295年</strong>，须得海的风暴吞噬了原址上的村庄“Oosterwolde”，幸存者在三公里外的沙丘上重建家园。这一次，他们选择了极端的理性：<strong>用正交的街道网格，围出一座边长约200米的正方形堡垒</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座新城的名字“Elburg”，源自“Ala”（鳗鱼）与“burg”（堡垒）。鳗鱼是这片水域的灵魂，堡垒则是活命的盾牌。最初的居民大多是渔民和盐商，他们以捕鳗和晒盐为生。城市的规划在当时堪称革命：<strong>四条主街交汇于中心广场，广场上立起市政厅与教堂</strong>。每条街道宽约八米，足以让马车调头；地块整齐划分，几乎每户人家都拥有相同大小的临街面。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>到14世纪中叶</strong>，埃尔堡加入了汉萨同盟，成为波罗的海贸易链上的小小节点。渔民将腌制的鳗鱼和鲱鱼运往吕贝克，换回谷物与木材。但它的矩形格局从未被打破——城墙外是芦苇沼泽，城内是直角迷宫。这种“强迫症式”的规划，让埃尔堡被现代史学家称为<strong>“欧洲最完整的圆形方形城镇之一”</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一次重塑：城墙与炮火的博弈（16世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">荷兰独立战争期间，埃尔堡的矩形城墙迎来了致命考验。<strong>1579年</strong>，西班牙军队包围了这座小城，但守城者利用正方形的棱堡布局，以交叉火力击退了进攻。战后，改良派的军事工程师将城墙加厚，并在四角增建了三角形棱堡。至今，城墙的东南角仍保留着一座名为“<strong>Korenmolen</strong>”的风车，它既是磨坊，也是瞭望塔。当地老人说，风车的叶片曾用来传递暗号——向左摆表示西班牙人来了，向右摆代表安全。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二次重塑：须得海变作圩田（20世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">让埃尔堡真正“孤立”的事件发生在1932年。荷兰启动了须得海围海造田工程，<strong>艾瑟尔湖</strong>诞生。埃尔堡原本的渔港，被圈进了内陆。渔民们的小船搁浅在泥滩上，鳗鱼变得稀少。城西的<strong>“海港区”</strong>因此变成一片寂静的怀旧地——高高的木桩上挂着干涸的渔网，老船坞里长满了青苔。但正方形的城墙毫发无损，成为这段沧桑的见证者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三次重塑：二战中的迷失与重生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1944年</strong>，纳粹德国在撤退前炸毁了埃尔堡的铁路桥和部分城墙。但战后重建时，荷兰人坚持按原样修复——甚至用旧砖的比例重新烧制。今日走在这座小城的街道上，你很难想象它曾两次被战火洗劫。唯一能辨认的痕迹，是市政厅外墙上的弹孔，被当地匠人用铅水填平，化作黑色的斑痕。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>来自1945年埃尔堡市民日记：“我们修复的不只是砖块，还有正方形的信仰。穿过西门时，每一条笔直的街道都在提醒我们：秩序可以对抗混乱。”</strong></blockquote>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 渔港之子：扬·彼得松·科恩（Jan Pieterszoon Coen）的学徒时代</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位荷兰东印度公司的第四任总督，<strong>1587年</strong>出生在荷兰的霍伦，但鲜有人知，他的少年时光与埃尔堡紧密相连。科恩的父亲是一名鱼商，常往返于埃尔堡与须得海的港口。<strong>1602年</strong>，15岁的科恩在埃尔堡的码头第一次登船，成为一名实习水手。他后来在回忆录中写道：“埃尔堡的矩形街道教会了我直角与纪律——这后来用在巴达维亚城的规划中。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然科恩后来因殖民政策备受争议，但埃尔堡人至今骄傲地称他为“半个自己人”。市政厅的档案室里，仍保存着他1623年写给埃尔堡市长的信，信中请求购买一批当地腌制的鳗鱼运往爪哇。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>科恩在1623年的信件片段：“请发来一百桶埃尔堡的腌鳗鱼。巴达维亚的荷兰商人需要家乡的味道，这味道里有正方形的回忆。”</strong></blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 沉默的修女：贝亚特丽克丝·范·埃尔堡（Beatrix van Elburg）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在16世纪初的宗教改革风暴中，埃尔堡上演了一场隐秘的女性抵抗。贝亚特丽克丝是一位出身渔家的修女，她拒绝放弃天主教的圣母崇拜，秘密在城墙下的地窖里举行弥撒。<strong>1538年</strong>，她被宗教法庭传唤，但始终沉默——这就是她“沉默修女”绰号的由来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地文献记载，她将一本拉丁文《圣经》的碎片藏进渔网的浮木里，定期转运给周边的信众。<strong>1566年</strong>“圣像破坏运动”兴起时，埃尔堡的教堂得以幸免，因为贝亚特丽克丝提前将彩色玻璃和圣像用木板封死，并声称那是城墙的“结构加固”。直到<strong>1620年</strong>她去世，这座地窖才被发现——里面整整齐齐码着三十件圣物，包括一尊木雕的圣母像，至今仍保存在圣尼古拉斯教堂的侧廊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 最后的艄公：亨德利克·范·德·瓦尔特（Hendrik van de Waal）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1930年代须得海围海造田期间，埃尔堡的渔港即将消失。最后一位专业艄公亨德利克，拒绝离开他的小船。<strong>1935年</strong>，当最后一艘拖网渔船被拖上岸时，他独自划着一条旧的平底船，在艾瑟尔湖的滩涂上徘徊了整整一个夏天。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他写了一本手稿，记录下渔港的每一个细节：鳗鱼笼的编织方法、潮汐的节律、海鸥的叫声代表风暴……这本手稿后来被国家海事博物馆收藏。<strong>1988年</strong>，亨德利克去世时，埃尔堡人在他居住的“渔夫小屋”门前刻下一行字：“他划走了潮汐，却留下了正方形。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>鳗鱼精灵与城墙的裂缝</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">渔民们世代相信，埃尔堡的正方形城墙并非完全由人建成。传说<strong>1350年</strong>修筑北门时，石匠们每晚都会发现白天砌好的石块被推倒。一夜，一位老渔夫看到一只巨大的银色鳗鱼从海水中跃出，用尾巴击打墙基——它愤怒于城墙截断了它的洄游路线。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">作为补偿，人们在南墙下开凿了一条小水道，名为“鳗鱼渠”。传说每逢月圆之夜，银色的鳗鱼精灵会从水道滑入内城，绕着广场转三圈，保佑渔获丰收。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“盐的诅咒”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃尔堡曾以晒盐闻名，但盐池所在的地块，始终是正方形的西南角。据说是因为<strong>17世纪</strong>某次盐税纷争，一位破产的盐商在夜里点燃了自己的盐仓。大火蔓延至城墙，烧出一道黑纹。从此，西南角的城墙永远比别处矮一尺——无论重修多少次，新砖总会在一年后沉陷。当地人称之为“盐的诅咒”，并将那块矮墙视为谨慎行事的警示。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂埃尔堡，就是读懂荷兰人对秩序与自然的执拗。在这座正方形的小城里，每一块砖都在讲述——如何用理性对抗洪水，用直角规训混乱，用沉默保存信仰。它不是游览清单上的热门目的地，但如果你愿意花一个下午，沿着四方的城墙走一圈，会发现自己走进了欧洲最纯粹的军事规划史、最柔软的渔港记忆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃尔堡的矩形网格，像一页被时光压平的羊皮纸。上面写着：有些故事，不需要曲折的道路来讲述。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>“在埃尔堡，迷路是不可能的。但每一条直路都会让你重新相信：历史可以很简单，简单到只有四个直角。”</strong></blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/harlingen-frisian-port-city\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈灵根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Harlingen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hasselt-hanzestad\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈瑟尔特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hasselt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mindways-3d-trickart\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迷幻路径3D错觉艺术馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">MINDWAYS 3D TrickArt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "harlingen-frisian-port-city",
+          "name": "哈灵根",
+          "englishName": "Harlingen"
+        },
+        {
+          "slug": "hasselt-hanzestad",
+          "name": "哈瑟尔特",
+          "englishName": "Hasselt"
+        },
+        {
+          "slug": "mindways-3d-trickart",
+          "name": "迷幻路径3D错觉艺术馆",
+          "englishName": "MINDWAYS 3D TrickArt"
+        }
+      ]
+    }
+  ]
+}

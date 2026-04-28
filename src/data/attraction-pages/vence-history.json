@@ -1,0 +1,85 @@
+{
+  "slug": "vence-history",
+  "template": "history",
+  "metadata": {
+    "title": "旺斯历史溯源｜蔚蓝海岸山城的前世今生与马蒂斯的传奇晚年",
+    "description": "探访法国旺斯，一座被阳光与艺术定格的山城。追溯其古罗马起源，聆听中世纪的纷争，走进马蒂斯晚年亲自设计的玫瑰念珠礼拜堂，感受大师在此留下的最后光芒。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "滨海阿尔卑斯省",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "旺斯",
+      "href": "/attractions/vence-history"
+    }
+  ],
+  "hero": {
+    "title": "旺斯・Vence・法国・滨海阿尔卑斯省",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在法国蔚蓝海岸的喧嚣之外，隐匿着一座名为旺斯的石砌山城。它没有尼斯的浮华，也没有戛纳的星光，却曾是<strong>亨利·马蒂斯</strong>度过生命最后岁月的灵感之地。这里的每一块石墙，都曾沐浴在罗马时代的阳光之下；每一条小巷，都回荡着中世纪的铁蹄与商队之声。抛开游玩攻略，走进旺斯的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">旺斯</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Vence</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Vence</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">滨海阿尔卑斯省</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旺斯的历史，远比它如今安逸的外表更为古老。早在<strong>公元前5世纪</strong>，这里便是利古里亚人的聚居地。<strong>公元前1世纪</strong>，罗马人征服此地，将其命名为 <strong>“Vintium”</strong> ，并将其打造为一个巩固南方边陲的军事据点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">你很难想象，如今静谧的石板路下，曾是罗马军团的营道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>公元3世纪</strong>，随着基督教传入，旺斯成为了一个重要的主教区。它的名字在当地语中，与“采石场”有着古老的词源联系——那些用于建造城墙的石灰岩，正是从城下的山体中开采而出。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪时期，旺斯如同一颗悬于山巅的明珠。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它隶属于普罗旺斯伯爵的领地，并在<strong>1388年</strong>后，长期处于萨伏伊公爵和法国王权的夹缝之中。正是这种边境身份，让旺斯发展出了一套独特的防御体系。老城的城门——<strong>Porte du Peyra</strong>，至今仍镌刻着那个时代的荣耀与惕守。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旺斯的古老心脏，跳动在城内的<strong>大教堂（Cathédrale de la Nativité-de-Marie）</strong>之中。这座教堂始建于<strong>公元4世纪</strong>，但如今你所见的建筑主体，大多为<strong>11世纪至13世纪</strong>的重建之物。它并非宏伟的哥特杰作，而是朴素的普罗旺斯罗马式风格。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">教堂内最引人注目的，是<strong>15世纪</strong>留下的<strong>圣母子与圣徒雕像</strong>，以及一件名为“<strong>La Dona</strong>”的木制雕像。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说这位怀抱圣婴的圣母，曾在中世纪的一次瘟疫巡游中显现神迹，旺斯的居民因此免于毁灭。至今，每一年的圣周，这尊雕像仍会被抬出巡游，成为小城最隆重的仪式。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一处深刻的印记，是<strong>城墙下的沃土</strong>。在<strong>17世纪</strong>，旺斯曾作为“新教徒”的避难所而繁荣。彼时的城墙之内，是商人与手工艺者的天堂。但你若细看城墙的结构，会发现它并非单一时代所建。<strong>16世纪</strong>修建的“<strong>Tour des Maures</strong>”（摩尔人塔楼）是防御工事的绝唱，那粗糙的砖石表面，正是为了抵御西班牙的火炮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些历史印记并未沉睡，它们活在旺斯的日照与橄榄树的清香里，成为城市最硬核的底色。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旺斯真正的传奇，始于<strong>20世纪</strong>。它因两位巨匠而被世界铭记：<strong>亨利·马蒂斯</strong>和<strong>拉乌尔·杜菲</strong>。但这里，我们想重点讲述马蒂斯生命中的最后篇章。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1943年</strong>，二战炮火笼罩欧洲。为了躲避尼斯频繁的空袭，73岁的马蒂斯决定搬离。他找到了旺斯郊外的一处别墅——<strong>“Le Rêve”（梦境）</strong>。这位垂垂老矣的艺术大师，在此开启了生命中最纯净、最神圣的创作。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但他与旺斯的羁绊，远不止于此。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正奠定马蒂斯与旺斯永恒联系的，是<strong>玫瑰念珠礼拜堂（Chapelle du Rosaire）</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座礼拜堂的诞生，源于一段感人的缘分。马蒂斯在旺斯患病期间，有一位名叫<strong>莫妮卡·布尔乔亚</strong>（Monique Bourgeois）的年轻修女照料过他。战争结束后，已是多米尼加修女的莫妮卡请求老师为修道院设计一座教堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马蒂斯答应了。这是他一生中唯一的纯建筑作品，也是他自称的“<strong>最终杰作</strong>”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从<strong>1949年</strong>到<strong>1951年</strong>，马蒂斯以76岁的高龄，亲力亲为。在他的设计手稿中，我们能看到他如何像一个虔诚的信徒，细细描摹每一根线条。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这座礼拜堂是我长时间努力的果实，它融合了我一生的工作。尽管它不够完美，但我把它看作是我精神的顶峰。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 亨利·马蒂斯，1951年</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">整个礼拜堂以白色为主基调，覆盖着令人心颤的蓝色与黄色光芒。马蒂斯亲自设计了室内白瓷墙面上的圣经故事素描，以及那些巨大的、像剪纸一样悬挂的彩色玻璃窗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有意思的是， <strong>“繁复”</strong> 在此被简化为极致。他绘制的十字架站像（Stations of the Cross），只有14幅简练至极的草图，引发当时传统教会的极大争议。甚至时任主教的<strong>Monseigneur Rémond</strong>，在1951年6月25日祝圣仪式上，也未对礼拜堂的艺术性做出过多赞美。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但马蒂斯不在乎。他每天都从住处散步到施工现场，直到1954年逝世。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，玫瑰念珠礼拜堂已成为现代艺术与信仰融合的圣殿。你站在这座小礼拜堂中，透过那些蔚蓝与黄色的光线，会明白：这就是旺斯留给世界最温柔的革命。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于旺斯，流传着一个跟“<strong>龙</strong>”有关的宝藏传说。据说，在古罗马时代，城下的山中栖息着一头名为 <strong>“Caire”</strong> 的恶龙。它垄断了山泉，让居民苦不堪言。一位名叫<strong>克莱芒</strong>（Saint Clément）的传教士来到此地，用十字架和圣水驱赶了恶龙，而龙的身体化为了现在的石灰岩峭壁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旺斯的老人们会说，你之所以能在城中找到如此清澈的泉水，正是这位圣人的恩赐。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更有趣的习俗是，每年<strong>8月</strong>，旺斯居民会举行名为 <strong>“Fête de la Saint-Éloi”</strong> 的节日，庆祝守护神与丰收。但最独特的，是 <strong>“L’Ange de Vence”</strong>（旺斯天使）的仪式：一位选出的少女会身披白色翅膀，从城墙上向城下的队列撒下花瓣，象征天使在人间播撒恩典。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">你还可以看到，老城拱门下的一块块石头上，刻着象征情侣忠诚的<strong>心形徽章</strong>。相传，若情侣能携手从顶端的城门一路抚摸这些徽章而下，便能得到永恒之爱。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旺斯是一座被艺术深吻，却又遗世独立的小城。它不像阿尔勒那样被梵高的光芒灼烧，也不像圣雷米那样被精神病院的忧郁笼罩。马蒂斯的玫瑰念珠礼拜堂，更像是一位老人留给世界的最后微笑——宁静、纯粹、充满神性的光。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂旺斯，就是读懂欧洲艺术界从战火中寻求精神救赎的秘密。这里的历史，不只是石墙上的铭文，更是阳光穿过彩窗打在地板上的潋滟波光。当你漫步在狭窄的巷弄间，触摸那粗糙的石灰岩，空气中仿佛还有马蒂斯画室传来的油彩味与合唱声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chateau-de-peyrepertuse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩雷帕蒂斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Peyrepertuse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/la-roche-bernard\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉罗什贝尔纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">La Roche-Bernard</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sainte-croix-en-jarez\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣克鲁瓦-昂雅雷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sainte-Croix-en-Jarez</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "chateau-de-peyrepertuse",
+          "name": "佩雷帕蒂斯城堡",
+          "englishName": "Château de Peyrepertuse"
+        },
+        {
+          "slug": "la-roche-bernard",
+          "name": "拉罗什贝尔纳",
+          "englishName": "La Roche-Bernard"
+        },
+        {
+          "slug": "sainte-croix-en-jarez",
+          "name": "圣克鲁瓦-昂雅雷",
+          "englishName": "Sainte-Croix-en-Jarez"
+        }
+      ]
+    }
+  ]
+}

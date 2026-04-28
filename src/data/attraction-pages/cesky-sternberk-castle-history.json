@@ -1,0 +1,85 @@
+{
+  "slug": "cesky-sternberk-castle-history",
+  "template": "history",
+  "metadata": {
+    "title": "施特恩贝克城堡历史溯源｜波西米亚最古老贵族鹰巢的前世今生与Šternberk家族传奇",
+    "description": "波西米亚最古老的城堡之一，傲立于萨扎瓦河峭壁之上，七个世纪从未易主。走进Šternberk家族的铁血荣光，聆听石墙后的战争与爱情。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "Český Šternberk",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "捷克施特恩贝克城堡",
+      "href": "/attractions/cesky-sternberk-castle-history"
+    }
+  ],
+  "hero": {
+    "title": "捷克施特恩贝克城堡・Český Šternberk Castle・捷克・Český Šternberk",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在波西米亚苍翠的森林深处，萨扎瓦河蜿蜒如银蛇，一座灰色石堡如鹰巢般牢牢钉在陡峭的岩壁上。这就是<strong>捷克施特恩贝克城堡</strong>——波西米亚最古老且奇迹般从未易主的贵族堡垒，自1241年建成以来，始终属于<strong>Šternberk家族</strong>。它没有布拉格城堡的华丽，却拥有一种冷峻而顽固的贵族尊严。今天，抛开游玩攻略，走进这座鹰巢的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">捷克施特恩贝克城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Český Šternberk Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Český Šternberk Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">Český Šternberk</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>施特恩贝克城堡</strong>并非一座孤立的建筑，它本身就是一座微型城邦。它的名字直译自德语“Sternberg”，意为“星星之山”。城堡始建年份极其精确：<strong>1241年</strong>，正值波西米亚王国处于普热米斯尔王朝的鼎盛期。当时的贵族<strong>Zdeslav of Divišov</strong>在萨扎瓦河畔的陡峭岩壁上选址，目的是控制这条连接波西米亚南部与布拉格的重要水道与商路。这座城堡最初的形态是<strong>早期哥特式</strong>，一座高耸的方形塔楼与简陋的围墙，纯粹用于军事防御。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有趣的是，城堡名字中的“星星”并非天文学含义，而是源于Šternberk家族的族徽——<strong>一枚八芒金星</strong>。传说Zdeslav在梦中见到一颗流星坠落在峭壁上，随后他决定在此建堡，并以族徽命名。<strong>地名学考证</strong>显示，“Český Šternberk”意为“波西米亚的星辰山”，以区别于摩拉维亚地区的同名城镇。自1241年第一块石头奠基起，城堡便从未被任何外来家族夺走——这在战火纷飞的波西米亚史中是一个罕见的奇迹。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>胡斯战争中的钢铁意志（1420年代）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">15世纪初，波西米亚被宗教改革之火点燃。胡斯派军队席卷各地，许多贵族城堡被攻陷或主动投降。然而施特恩贝克城堡在<strong>Zdeněk of Šternberk</strong>的率领下，成为少数几个顽固抵抗胡斯派的堡垒之一。1422年，胡斯派猛攻城堡，试图架设云梯攀登悬崖。守军从塔楼倾倒滚烫的沥青，并用弩箭射杀攀爬者。史料记载，围攻持续了整整<strong>三个月</strong>，胡斯派最终因补给耗尽撤退。城堡外墙至今留有被烈火熏黑的痕迹，那是中世纪战争的烙印。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三十年战争与瑞典人的徒劳（1648年）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">17世纪中叶，瑞典军队在三十年战争末期席卷波西米亚。他们装备了当时最先进的重型火炮，将许多城堡轰成废墟。施特恩贝克城堡同样遭受炮击——<strong>瑞典人甚至在萨扎瓦河对岸架设了四门攻城加农炮</strong>，连续轰击了整整两周。城堡南墙被炸开一道裂缝，但守军连夜用石块和石灰砂浆填补。最终，瑞典人未能攻破主楼，悻悻离去。今天游客看到的厚达3米的石墙，正是那场围攻后加固的产物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>巴洛克的重生与银矿馈赠（18世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战争结束后，Šternberk家族利用银矿收入对城堡进行了大规模改建。<strong>1720年代</strong>，他们请来维也纳建筑师将内部空间改造成舒适的巴洛克风格套房，并修建了一座华丽的<strong>圣墓礼拜堂</strong>。城堡不再只是军事要塞，而成为贵族府邸。但外观上，他们刻意保留了中世纪粗犷的灰色石墙，仿佛在向所有来访者宣告：这个家族的血脉从未中断。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. Zdeněk of Šternberk：胡斯战争中的铁腕领主</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在所有Šternber克家族成员中，最富传奇色彩的是<strong>Zdeněk of Šternberk（约1380-1442）</strong>。他属于波西米亚贵族中坚定的天主教派，也是神圣罗马帝国皇帝西吉斯蒙德的忠诚盟友。当布拉格爆发胡斯起义时，Zdeněk立即加固了施特恩贝克的防御工事，并主动招募雇佣兵。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一段来自他个人账簿的记载生动展示了战时生活的细节：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“1420年3月，以每头5格罗申的价格购入阉牛15头，储于地窖。另购置蜂蜜15桶，用于止血与酿酒。铁匠日夜赶制弩矢，箭杆使用来自摩拉维亚的白桦木，每打斥资2格罗申。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Zdeněk的冷酷同样闻名。他曾下令将一名试图投降的守军从塔楼抛下，以儆效尤。但他又极具战略眼光——在1422年围攻后，他秘密派人游说胡斯派内部的温和派，最终促成了_巴塞尔协议_的局部和平。1442年他去世时，城堡的军械库存有超过300张弩和12门小型火炮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 卡什帕尔·马丁：银矿大亨与艺术赞助者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相比Zdeněk的武勇，18世纪的<strong>卡什帕尔·马丁·冯·施特恩贝克（Caspar Martin von Sternberg）</strong>展现了截然不同的贵族形象。他负责管理家族的银矿，积累了巨额财富，并将城堡打造成文化中心。卡什帕尔在1725年委托意大利画家<strong>巴尔托洛梅奥·阿尔托蒙特</strong>为城堡大厅创作了描绘古希腊神话的壁画，这些作品至今保存完好。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，卡什帕尔最著名的轶事与一场悲剧有关。1732年，他的独子因骑马坠入萨扎瓦河而溺亡。卡什帕尔悲痛之下，在河畔建造了一座小型修道院，并雇佣僧侣永世为儿子的灵魂祈祷。他本人则在1744年离世，留下了详细的遗嘱：要求每年圣诞节为城堡所有佃农免费发放一袋面粉和一块培根。这个传统一直延续到1918年奥匈帝国解体。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 扬·帕拉茨基：为自由献身的现代贵族（1939-1944）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">20世纪的施特恩贝克城堡见证了纳粹阴影。<strong>扬·帕拉茨基（Jan Palacký）</strong>——Šternber克家族的最后一位男性继承人之一，在1939年德军占领捷克斯洛伐克后，加入了当地抵抗组织。城堡地下室一度成为秘密联络点，用于接收来自伦敦的无线电指令。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1944年4月，盖世太保突袭城堡。扬·帕拉茨基在掩护战友撤离时被捕，三个月后在布拉格的潘克拉克监狱被处决。他的母亲在城堡顶楼藏匿了一面捷克斯洛伐克国旗，直到1945年5月红军解放后才取出。<strong>如今，那面斑驳的旗帜陈列在城堡的武器展厅</strong>，玻璃罩下还保留着数枚弹孔。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在萨扎瓦河沿岸的村庄里，世代流传着“白色夫人”的传说。据说16世纪末，Šternber克家族的领主<strong>Petr of Sternberg</strong>娶了一位来自意大利的贵族新娘<strong>伊莎贝拉</strong>。她因无法忍受波西米亚的严寒与孤独，多次试图逃回故乡。Petr一怒之下将她关在城堡最高的塔楼里，并在窗户上装了铁栅栏。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一个雪夜，伊莎贝拉用床单拧成绳索，试图从塔楼滑下。但床单在中途断裂，她坠入萨扎瓦河冰冷的急流中。此后，每当冬季满月之夜，城堡的北塔楼便会飘出一团白色的身影，据说那是伊莎贝拉的幽灵在寻找归途。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我的祖母就住在城堡下游的磨坊里。1932年冬，她亲眼见过那白色影子在月光下飘过河面，身上还带着锁链的叮当声。” ——摘自当地历史学家<strong>米哈尔·诺沃提尼</strong>1956年采访手稿</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡导游有时会神秘地告诉游客，如果运气好，能在凌晨两点听到塔楼传来微弱的啜泣声——但官方称这只是风声与岩壁共振的物理现象。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">施特恩贝克城堡不仅是一座石头堡垒，它是一部用战争、爱情与忠诚写就的家族史诗。<strong>七个世纪从未易主</strong>，这在欧洲贵族城堡中绝无仅有。每一道裂缝都刻着胡斯派火药的焦痕，每一幅壁画都流淌着巴洛克的奢华，而地下室的无线电残骸则低语着抵抗运动的勇气。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">站在城堡最高处的观景台上，俯瞰萨扎瓦河在悬崖下静静东流，你会明白为什么Šternber克家族一代又一代选择回到这里。它不是一个观光景点，而是一个家族与一片土地的血肉契约。读懂这座城堡，便读懂了波西米亚贵族那种顽固、骄傲而又充满韧性的精神。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/holasovice\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍拉肖维采古罗马村落</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holašovice</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/olomouc\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥洛穆茨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Olomouc</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/klatovy-catacombs\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克拉托维耶稣会教堂与地下墓穴</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Klatovy Catacombs</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "holasovice",
+          "name": "霍拉肖维采古罗马村落",
+          "englishName": "Holašovice"
+        },
+        {
+          "slug": "olomouc",
+          "name": "奥洛穆茨老城",
+          "englishName": "Olomouc"
+        },
+        {
+          "slug": "klatovy-catacombs",
+          "name": "克拉托维耶稣会教堂与地下墓穴",
+          "englishName": "Klatovy Catacombs"
+        }
+      ]
+    }
+  ]
+}
