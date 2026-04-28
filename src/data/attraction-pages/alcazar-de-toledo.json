@@ -1,0 +1,85 @@
+{
+  "slug": "alcazar-de-toledo",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "托莱多城堡 Alcázar de Toledo｜在西班牙古都之巅触摸帝国四百年史诗 - 最佳欧洲景点",
+    "description": "初见托莱多城堡，是在一个深秋的午后。我站在塔霍河对岸的山坡上，隔着一整片金色的橄榄林望向它。那一刻，夕阳正好将整个古城的轮廓镀成琥珀色，而城堡就蹲坐在全城最高的那片山岩上，像一头晒足了太阳的巨兽，沉默而骄傲。它不像那些雕花繁复的法式宫殿，也不像阴森冷峻的德意志骑士堡，它方方正正，甚至有那么一点点笨拙"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "托莱多",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "托莱多城堡",
+      "href": "/attractions/alcazar-de-toledo"
+    }
+  ],
+  "hero": {
+    "title": "托莱多城堡・Alcázar de Toledo・西班牙・托莱多",
+    "description": "初见托莱多城堡，是在一个深秋的午后。我站在塔霍河对岸的山坡上，隔着一整片金色的橄榄林望向它。那一刻，夕阳正好将整个古城的轮廓镀成琥珀色，而城堡就蹲坐在全城最高的那片山岩上，像一头晒足了太阳的巨兽，沉默而骄傲。它不像那些雕花繁复的法式宫殿，也不像阴森冷峻的德意志骑士堡，它方方正正，甚至有那么一点点笨拙，但就是那四条笔直的轮廓线，把整个托莱多天空都框进了一个庄严的几何里。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">初见托莱多城堡，是在一个深秋的午后。我站在塔霍河对岸的山坡上，隔着一整片金色的橄榄林望向它。那一刻，夕阳正好将整个古城的轮廓镀成琥珀色，而城堡就蹲坐在全城最高的那片山岩上，像一头晒足了太阳的巨兽，沉默而骄傲。它不像那些雕花繁复的法式宫殿，也不像阴森冷峻的德意志骑士堡，它方方正正，甚至有那么一点点笨拙，但就是那四条笔直的轮廓线，把整个托莱多天空都框进了一个庄严的几何里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当我真正走到它的正立面下，仰头看那四面厚重的花岗岩墙壁时，一种低沉的回响从地面传导到鞋底，再沿着脚踝爬上脊背。那不是声音，而是重量感。这座城堡从公元三世纪罗马人在这里立下第一块基石开始，就一直在经历被打碎与重建的轮回。墙面上深浅不一的石色，像一条条裸露的地质层，记录着每一次炮击后的修复。风吹过时，细小的沙粒从石缝里飘落，你几乎能闻到火药和灰泥混合的气味，那是历史的呼吸。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走进内部，光线一下子沉了下来。庭院中央的拱廊在水池的倒影里微微荡漾，脚步声在四面回廊间来来回回，像远古卫兵的巡逻。二楼的博物馆里，最震撼我的不是金色圣杯或镶满宝石的宝剑，而是一架巨大的攻城弩模型——那种明晃晃的机械暴力，赤裸裸地告诉你，这座城堡是为活命而建，不是为了摆好看。那一刻，你真切地感受到，这里的每一块石头都不干净，都见过血。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最打动我的，是城堡的天台。站在上面，整个托莱多尽收眼底。塔霍河像一条银色的丝带，绕过古城脚下，把整座山城抱在怀里。红色的屋顶层层叠叠地铺开，远处的风车在山岗上缓慢转动。那一刻，这座城堡不再是一座冷冰冰的军事工事，它像一位上了年纪的守护者，沉默地坐在自己的土地上，看着脚下的城市慢慢生长，慢慢改变。风从天台吹过来，带着远处烤杏仁的甜香，我忽然理解了，为什么西班牙人愿意为这座石头盒子一次次地战斗，一次次地重建。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">托莱多城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Alcázar de Toledo</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Alcázar de Toledo</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">托莱多</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">它见证了西班牙从一个散落的小王国走向全球帝国的全部荣光与重创。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">方方正正，棱角分明，稳如磐石，像一本用石头写成的帝国账本，每一个拐角都是历史的折痕。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">典型的文艺复兴风格要塞，带有罗马式防御体系的硬朗基底，顶部融入了西式宫殿的优雅轮廓。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">它是西班牙历史记忆的活体切片，从罗马军营到哥特堡垒，从穆斯林要塞到基督教皇宫，从军事学院到内战象征，十个世纪的记忆全都封存在这四面高墙之中。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">全年对外开放，但具体时间随季节和节假日调整。通常冬季（11月至3月）为每日10:00至18:00，夏季（4月至10月）延长至20:00。周一下午常闭馆，闭馆前30分钟停止入场。基督教重要节日如圣周和圣诞节期间，开放时间会大幅缩短，有些日子甚至全天关闭。建议出发前务必通过官方网站确认当天情况。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">普通成人票价为5欧元，学生和65岁以上老人凭有效证件可享受3欧元的优惠价。14岁以下儿童免费入场。每月最后一个周三下午为免费开放日，但需排队领票，名额有限。持托莱多城市通卡可享受约八折优惠。售票处只收现金的情况时有发生，尤其在淡季，最好备足零钱。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Cuesta de Carlos V, 2, 45001 Toledo, Spain</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从马德里阿托查火车站乘坐Renfe高速列车前往托莱多，车程约33分钟，班次每半小时一班，非常密集。出托莱多火车站后，需换乘5路、6路或61路公交车上山，约15分钟抵达城堡脚下。若自驾，可将车停在城外的大型停车场如Parque de la Vega，再步行或搭乘电动接驳车进城，因为托莱多老城内的街道极其狭窄曲折，几乎不具备停车条件。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">托莱多城堡的故事，就像一个家族的传奇，每一任主人都在墙上刻下自己的名字，然后被下一任抹去、覆盖、重写。最早来这里的，是古罗马人。他们在公元三世纪的时候，看中了塔霍河环绕的这片高地，建了一个小型军事营寨。西哥特人赶走了罗马人，把它改成了哥特式堡垒。穆斯林在公元八世纪跨海而来，赶走西哥特人，又按照自己的喜好加上了阿拉伯式的庭院和水池。到了1085年，卡斯蒂利亚国王阿方索六世收复托莱多，他做的第一件事，就是一脚踩碎清真寺，在城堡顶上竖起十字架。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正让这座城堡脱胎换骨的人，是卡洛斯一世，也就是欧洲历史上那个胸怀四海的神圣罗马帝国皇帝。十六世纪三十年代，他决定把这座破旧的中世纪要塞改造成一座能够配得上帝国荣光的文艺复兴宫殿。他找来了最顶尖的意大利建筑师克瓦斯，用方正的轮廓取代了锯齿状的女墙，用规整的拱廊取代了狭窄的射击孔。城堡变成了一个巨大的正方形，四角各有一座塔楼，像四个戴着高帽的卫兵，守卫着帝国的中心。在那段时间里，城堡里住着国王、王后和他们的孩子们，壁炉里燃着果木，地毯上洒满橘子的香气。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但好景不长。十八世纪，西班牙王位继承战争像一场暴雨，把城堡的外墙打得千疮百孔。法军和西班牙军队来回拉锯，城堡成了双方争夺的焦点。很多原始的文艺复兴装饰，包括那些精致的大理石壁炉和壁画，都在炮火中化为碎片。等战争结束，城堡已经被炸得像一块干裂的奶酪。重建工作断断续续持续了好多年，直到费利佩二世时期，城堡又被重新赋予了用途——变成了军事学校，也是西班牙历史上最早的一所陆军军官学校。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">进入二十世纪，城堡的故事进入了最悲壮的一页。1936年西班牙内战爆发时，城堡被约2000名民族主义派国民警卫队和军校学员占据，共和派军队将其团团包围。整整七十二天，城堡成了托莱多城里最惨烈的战场。围城期间，共和军切断了水源，迫击炮日夜轰炸，城堡几乎没有一面完整的墙壁。守军的指挥官莫斯卡尔多上校收到了一个让他肝肠寸断的消息——共和军抓住了他24岁的儿子路易斯，要求他交出城堡换回儿子的命。莫斯卡尔多拒绝了。对方在电话里让路易斯和父亲说了最后一句话，然后开枪处决了这名年轻人。这个故事今天仍然在城堡的博物馆里被人反复讲述。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">内战结束之后，佛朗哥政权把城堡视为民族主义的圣殿，不惜血本地进行修复。他们找来了战前的照片和图纸，尽可能复原卡洛斯一世时代的模样，包括圆形塔顶的哥特式装饰。1998年，西班牙军方决定把它移交出来，改建成了军事博物馆，其展品不仅涵盖了从哥特时代到现当代的诸多珍贵军事文物，更全面展示了那段长达两个多月的惨烈围城战。今天，当你走过那些崭新的石头地板时，往下走几层，就能看到当年被炸毁的原始墙面，像考古现场一样被透明玻璃保护起来。老的和新的，硬的伤口和软的修复，一起构成了一座奇特的建筑——它从来都没有真正完工过，也永远都不可能真正完工。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  建议在清晨九点之前抵达，这时候城堡刚开门，游客稀少，阳光斜照在正立面上，呈现出完美的金黄色。整体游览时间控制在三小时左右，宜先走一圈外围，从各个角度感受它的体量和气势，再进入内部重点参观两个博物馆和天台。这样的节奏能让你先建立直观的空间印象，再深入解读细节，避免一开始就被淹没在博物馆的冷柜和展品里。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>尽量避开西班牙的公共假期和国家节假日，尤其是10月12日的国庆日，城堡周边会挤满游行人群。上午11点至下午3点是旅行团的高峰时段，尽量绕开这个时间段入内。虽然城堡内部有很多坡道和电梯，但外围的台阶较滑，穿防滑底的平底鞋会比运动鞋更安全。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">从南侧台阶开始顺时针绕城一圈，在高处感受城堡四面在不同光线下的肌理，尤其注意北面墙上的弹孔和修复痕迹，那是整座城堡最诚实的地方</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">进入城堡大门后直奔庭院水池边稍坐五分钟，四周拱廊的回声效果极佳，安静时你能听到中央喷泉的滴水声在四面墙壁间反弹三次</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">转向二楼军事博物馆重点看围城战展区，那里有当年守军使用的收音机、炮弹碎片和家书，其中莫斯卡尔多上校的手写信件最令人动容</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">登上城堡顶楼天台，这是整趟游览的灵魂所在，三百六十度环视托莱多全城，每一扇窗户里都有故事在发生</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">下到地下室参观城堡最古老的罗马和西哥特遗址，那些埋在地下的粗粝石块比任何展柜里的文物都更能让人理解时间的厚度</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在城堡东侧的小型花园里结束行程，坐在长椅上看看当地人带着孩子来喂鸽子，这是城堡最日常、最温柔的一面</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 城堡东南角的斜坡上远拍</h4>\n                  <p class=\"text-sm text-gray-700\">下午四点半左右，斜阳能把城堡的棱角投出极为锐利的阴影，且背景中能带上塔霍河的弯曲走势，形成刚柔对比</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 天台朝北取景</h4>\n                  <p class=\"text-sm text-gray-700\">日落前半小时，面向老城方向，将城堡的塔顶三角墙作为前景，远处是红色屋顶和圣胡安修道院的尖塔，层次丰富到令人惊叹</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 庭院水池正中心拍拱廊倒影</h4>\n                  <p class=\"text-sm text-gray-700\">如果碰上无风的日子，水池面平静得像一面镜子，将相机贴近水面拍，拱廊上下对称，完美得像电脑特效</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 地下室遗址区用慢门拍摄</h4>\n                  <p class=\"text-sm text-gray-700\">这里光线极暗，但正好利用这一点，用一秒以上的慢门拍出残破石墙与周边昏暗灯光的交织感，色调极其沉郁</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">5. 城堡售票处外的小巷尽头拍侧立面</h4>\n                  <p class=\"text-sm text-gray-700\">清晨八点半左右，巷子里没有人，金色阳光从侧面擦过墙面，能拍出花岗岩那种粗颗粒的质感</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 城堡内部绝大多数展厅禁止使用闪光灯，尤其是纸质文件和织物展品，务必关闭自动闪光功能。天台风很大，使用长焦镜头时尽量自带稳定物或靠在墙边拍摄，否则画面会有微妙的抖动模糊。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">预算之选</h4>\n                  <p class=\"text-sm text-blue-800\">老城中心圣伊波利托街上的家庭旅舍Hostal Casa de Cisneros，推窗就能看见城堡塔尖，老板娘会亲手给你做一份托莱多特有的杏仁汤</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">城堡正对面的山坡上一家叫Los Cigarrales的精品酒店，由17世纪贵族别墅改建，房间保留着原始的木梁和壁画，夜晚在庭院里吃饭时城堡的灯光近在咫尺，仿佛触手可及</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-yellow-800\">位于城堡山脚下Parador de Toledo国营酒店，原为一座修道院，改建后每个房间都有一个私人露台，早晨躺在床上，城堡就在窗户的正中间，光线美到让人不愿起床</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">托莱多老城的路面全是石板，行李箱几乎无法拖着走，预订住宿前务必确认酒店是否提供接送服务或位于交通便利处。城堡周边的治安非常安全，但夜间从老城步行回山坡住宿地时，路灯较暗，建议随身携带一个小手电筒。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">站在托莱多城堡的天台上，我忽然意识到，这座方方正正的石头盒子并不只是在讲述西班牙的历史，它也在回应一种关于“坚守”的追问。在长达两千年的岁月里，它被摧毁过，被修复过，被抢夺过，被褒扬过，被遗忘过，但它始终坐在托莱多最高的那片岩石上，从不动摇。它见证了罗马人的离去、穆斯林的光辉、基督徒的收复、帝国的辉煌与衰落、内战的撕裂与愈合。而它自己，只是沉默地坐在那里，用石头记住了一切。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">对于每一个在欧洲旅行的人来说，这座城堡可能不是最华丽的，不是最高耸的，甚至不是最有名的。但如果你愿意多花一点时间，在它的庭院里坐一坐，在它的天台边站一站，它会有一种力量，让你在离开之后很久，还会在某个黄昏忽然想起它。它不喧哗，不攀附，不急着向谁证明什么。它就像一位沉默的老者，安安静静地坐在那里，等你来，听听它的故事。那是一种极慢极深的旅行体验，也是一种在这个一切都恨不得两倍速播放的时代里，难得的奢侈。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castle-of-alcaniz-parador\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔卡尼思</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alcañiz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tarragona-amphitheatre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塔拉戈纳圆形剧场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tarragona Amphitheatre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/salamanca-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨拉曼卡老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Salamanca Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "castle-of-alcaniz-parador",
+          "name": "阿尔卡尼思",
+          "englishName": "Alcañiz"
+        },
+        {
+          "slug": "tarragona-amphitheatre",
+          "name": "塔拉戈纳圆形剧场",
+          "englishName": "Tarragona Amphitheatre"
+        },
+        {
+          "slug": "salamanca-old-town",
+          "name": "萨拉曼卡老城",
+          "englishName": "Salamanca Old Town"
+        }
+      ]
+    }
+  ]
+}
