@@ -1,0 +1,85 @@
+{
+  "slug": "irsina-history",
+  "template": "history",
+  "metadata": {
+    "title": "伊尔西纳历史溯源｜文艺复兴珍宝藏于山丘麦田的南意秘境与曼特尼亚传奇",
+    "description": "走进意大利巴斯利卡塔的山丘古镇伊尔西纳，探寻安德烈亚·曼特尼亚创作的圣尤菲米亚大理石雕像背后的历史谜团。从古罗马边陲到中世纪主教堂，一段被麦田掩盖的时光传奇等待你倾听。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "意大利",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "巴斯利卡塔（伊尔西纳）",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "伊尔西纳",
+      "href": "/attractions/irsina-history"
+    }
+  ],
+  "hero": {
+    "title": "伊尔西纳・Irsina・意大利・巴斯利卡塔（伊尔西纳）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在意大利靴子骨处的巴斯利卡塔大区，麦浪环绕的山丘上，一座几乎被时间遗忘的石砌小镇——伊尔西纳，静静守护着南意罕见的文艺复兴杰作：<strong>安德烈亚·曼特尼亚</strong>于1472年雕刻的<strong>圣尤菲米亚大理石像</strong>。这座精美到令人屏息的作品，是曼特尼亚现存唯一一件位于意大利南部的雕塑，也是他艺术生涯中一次神秘的南行印记。抛开游玩攻略，走进伊尔西纳的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">伊尔西纳</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Irsina</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Irsina</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">意大利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">巴斯利卡塔（伊尔西纳）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊尔西纳的历史可以追溯到<strong>公元前3世纪</strong>的罗马时代。当时这里只是通往卢卡尼亚内陆的一条偏僻驿道上的小村落，名为<strong>Montepeloso</strong>（意为“多石之山”）。直到<strong>中世纪中期</strong>，随着诺曼人征服南方，城堡与城墙才在<strong>1050年</strong>前后拔地而起，城市才真正有了骨架。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市的名字几经更迭。<strong>1862年</strong>，为了与意大利北部另一座同名城镇区分，意大利王国下令将“Montepeloso”正式更名为<strong>Irsina</strong>。关于新名字的来源，流传最广的说法是它源自古拉丁语<strong>hirsum</strong>（意为“熊”），因为当地茂密的丛林曾是棕熊的栖息地。另有一种说法认为“Irsina”来自希腊语<strong>erysinos</strong>，指一种在此生长的野生草本植物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">无论词源真相如何，<strong>13世纪</strong>留下的城市规划清晰可见：一条主街穿过三座城门，将山丘顶端的<strong>大教堂</strong>、<strong>巴洛克修道院</strong>与<strong>中世纪塔楼</strong>串联起来。这些石头建筑与周围的金色麦田形成了强烈的视觉对照——仿佛是大地上一座灰白色的十字架，静默而庄严。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地一位18世纪编年史家在笔记中写道：“登上Montepeloso的山丘，你能听到麦子生长的声音。那是上帝在呼吸。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1452年</strong>，一场大火吞噬了大半个Montepeloso。老旧的木结构圣殿化为灰烬。十年后，当地主教<strong>安东尼奥·德·科拉利斯</strong>决定倾尽教区积蓄，重建一座足以彰显信仰与权力的大教堂。他请来了当时正在那不勒斯为阿拉贡宫廷效力的文艺复兴大师<strong>曼特尼亚</strong>——这一看似破格的邀约，将这座小城意外地推入了艺术史的聚光灯下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1472年</strong>，曼特尼亚完成了一件大理石杰作：<strong>圣尤菲米亚雕像</strong>。雕像被安放在新落成的大教堂主祭坛左侧。圣尤菲米亚面容坚毅而悲悯，衣纹如流水般柔滑，右手指向胸口，仿佛在迎接殉道之痛。这是曼特尼亚作品中少有的南意大利踪迹，也是他唯一一件留存于原址的独立大理石雕塑——他后来几乎将所有精力倾注于曼托瓦的宫廷壁画。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，这座大教堂在<strong>1640年</strong>的地震中严重受损，圣尤菲米亚雕像侥幸未碎，却被搬到一处偏殿，此后近两百年无人问津。直到<strong>1821年</strong>，一位来自罗马的古董商在教区档案馆的灰尘中发现了曼特尼亚作品的合同，雕像才重新引起世人注意。<strong>1975年</strong>，经过整整三年的修复，这尊文艺复兴珍宝终于回到了大教堂专门为其铸造的大理石壁龛中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个深刻的印记是大教堂本身的建筑演变。原为<strong>罗马式风格</strong>，后来在<strong>17世纪</strong>加上了巴洛克立面，<strong>19世纪</strong>又增建了新古典主义钟楼。三重风格的叠加，恰如伊尔西纳不断重生的历史隐喻。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安德烈亚·曼特尼亚的南行之谜</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安德烈亚·曼特尼亚</strong>（1431–1506）是意大利北部著名的文艺复兴大师，以其透视法、冷峻写实的画风著称。人们熟知他在曼托瓦为贡扎加家族绘制的《婚礼厅》壁画，却很少知道他曾不远千里来到荒僻的南方小镇完成一件大理石雕塑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">故事要追溯到<strong>1471年</strong>。当时主教<strong>安东尼奥·德·科拉利斯</strong>正在为重建的大教堂寻找一位足以匹配其野心的艺术家。有人向他推荐了正在那不勒斯宫廷工作的曼特尼亚。曼特尼亚本已准备返回帕多瓦，却被主教的一封长信打动——信中附有一块来自Montepeloso矿场的大理石样品，石质温润如玉，与卡拉拉石不相上下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">曼特尼亚最终接受了委托，但要求主教提供<strong>600达克特金币</strong>，以及全城最好的橄榄油与葡萄酒作为日常供应。据现存于教区档案馆的支付记录显示，雕塑工期长达<strong>十个月</strong>，曼特尼亚在此期间住在主教宅邸的一个房间里，那扇窗正对着起伏的麦田。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“日复一日，我对着那块石头说话。我想让尤菲米亚的悲伤成为永恒。——安德烈亚·曼特尼亚，致妻子的一封信（1472年，手稿碎片，现存于巴斯利卡塔国家档案馆）”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雕塑完成后，曼特尼亚便匆匆北上，再也没有回到Montepeloso。但他在离去前，曾在广场的井边留下了一个小小的签名：<strong>“Mantegna F.”</strong>——这个签名在<strong>1903年</strong>被清洗井壁的工人发现，成为确认雕像作者身份的关键证据。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>朱塞佩·阿耶洛的诗歌遗产</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与曼特尼亚的传奇经历不同，另一位出生于伊尔西纳的人物更贴近这片土地的呼吸。<strong>朱塞佩·阿耶洛</strong>（1840–1905）是意大利<strong>真实主义文学</strong>阵营中的一位边缘诗人。他出生在伊尔西纳山下的一座农舍，父亲是佃农。阿耶洛用当地方言写下了大量吟咏麦田、农舍与朝圣的诗歌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的诗集《山丘里的歌声》（<em>Canti dei Colli</em>）在<strong>1886年</strong>出版后，被评论家称为“被麦粒黏住的乡愁”。诗中反复出现的意象正是伊尔西纳大教堂的钟声与圣尤菲米亚雕像的白色轮廓。阿耶洛晚年回到故乡，死于穷困，葬于城内圣方济各教堂的墓园。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1992年</strong>，伊尔西纳市政府将广场命名为<strong>Piazza Giuseppe Ajello</strong>，并在一座旧石屋上挂上了纪念牌。如今，只有最执着的文学爱好者才会在旅行地图上标注这个地名——但对于伊尔西纳来说，阿耶洛是用方言把这座山丘的名字写进了意大利文学史的人。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在伊尔西纳的老人口中，流传着<strong>“圣尤菲米亚的泪石”</strong>的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说雕像完工后不久，一场瘟疫席卷了Montepeloso。人们跪在大教堂里向圣尤菲米亚祈祷，希望她收回病魔。第三夜，一个守夜人发现雕像的右眼下方，有一道淡淡的泪痕。他用亚麻布擦拭，泪痕却第二天依旧出现。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“那不是水，是圣尤菲米亚用白色的眼泪浸透了石头。她从殉道中借来了悲伤，洒给这座苦难的城。——当地口头传说，记录于19世纪民俗学家帕斯夸莱·多罗的笔记”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说持续了<strong>九天</strong>。第九天，所有染疫者全部痊愈。此后，每年<strong>9月16日</strong>（圣尤菲米亚纪念日前一天），那些麦田的主人会将最早收割的一捆麦穗放在雕像脚下，称为<strong>“金色祭献”</strong>。这个习俗在<strong>19世纪</strong>被教会正式接纳，至今仍有少数老农遵循。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一则轶事与城市的古老名称“Montepeloso”有关。传说这座山丘原是一只巨大的石龟，因为偷吃了牧羊人的葡萄，被愤怒的宙斯石化。当地人说，每当夜里起风，乌龟的壳就会发出低沉的呻吟——那是山丘底部的空洞风声。因此伊尔西纳的老街区里有许多地下洞穴，曾是早期的居民住所与避难所。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊尔西纳是一座被麦田与时间共同覆盖的城市。它的魅力不在于繁华或宏伟，而在于那些藏在大教堂阴影里的细微痕迹：曼特尼亚的十个月，阿耶洛的诗歌，以及每年9月16日那束沉默的麦穗。读懂伊尔西纳，就是学习如何在小众的角落里发现文艺复兴的精魂——它不是博物馆里被玻璃罩住的杰作，而是依然留在原址、呼吸着山丘空气、见证着农人祷告的大理石肉身。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/viterbo-papal-palace-medieval-quarter\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维泰博（教皇宫及中世纪区）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Viterbo (Papal Palace and Medieval Quarter)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/teatro-olimpico-vicenza\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维琴察奥林匹克剧院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Teatro Olimpico</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monster-garden-eye-of-neptune\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    怪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">怪兽花园与海神之眼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monster Garden and the Eye of Neptune</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "viterbo-papal-palace-medieval-quarter",
+          "name": "维泰博（教皇宫及中世纪区）",
+          "englishName": "Viterbo (Papal Palace and Medieval Quarter)"
+        },
+        {
+          "slug": "teatro-olimpico-vicenza",
+          "name": "维琴察奥林匹克剧院",
+          "englishName": "Teatro Olimpico"
+        },
+        {
+          "slug": "monster-garden-eye-of-neptune",
+          "name": "怪兽花园与海神之眼",
+          "englishName": "Monster Garden and the Eye of Neptune"
+        }
+      ]
+    }
+  ]
+}

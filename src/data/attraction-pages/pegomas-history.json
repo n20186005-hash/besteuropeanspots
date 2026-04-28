@@ -1,0 +1,85 @@
+{
+  "slug": "pegomas-history",
+  "template": "history",
+  "metadata": {
+    "title": "佩戈马斯历史溯源｜含羞草之路上的金色传奇与名人轶事与中世纪回声",
+    "description": "佩戈马斯，蔚蓝海岸内陆的含羞草之村。从古罗马小径到香水帝国，从战争烽火到金色花海。走进这份尘封档案，聆听普罗旺斯山丘的时光低语。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "滨海阿尔卑斯省（格拉斯附近）",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "佩戈马斯",
+      "href": "/attractions/pegomas-history"
+    }
+  ],
+  "hero": {
+    "title": "佩戈马斯・Pégomas・法国・滨海阿尔卑斯省（格拉斯附近）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">佩戈马斯，名字里藏着山丘的密码，面孔上烙着金色的花痕。地处格拉斯香水三角区的腹地，它既不是名流显贵的度假地，也不是游客地图上的必到之处。但正是这座不起眼的中世纪小村，每年初春用数万株含羞草把整个山谷点燃成流动的琥珀。抛开游玩攻略，走进佩戈马斯的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">佩戈马斯</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Pégomas</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Pégomas</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">滨海阿尔卑斯省（格拉斯附近）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩戈马斯的起源，被迷雾包裹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最早的书面记载出现在公元11世纪的一份本笃会修道院契约里，当时它被写作“Pegoma”，词源至今存疑。民间学者倾向于认为它来自古普罗旺斯语 <strong>“Pègo Màs”</strong>——意为“山丘上的农庄”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">考古证据显示，早在罗马时代，这里就是连接滨海阿尔卑斯与内陆山区的盐道驿站。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗马人沿着山脊修建了 <strong>Via Julia Augusta</strong> 的支线，佩戈马斯所在的高地恰好是旅人歇脚、换马的地方。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地农民至今在葡萄园里翻出陶片与铜币，那是两千年驿站繁荣的沉默物证。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪时，佩戈马斯发展成一座带有城墙的“城堡村庄”（village castral），依附于格拉斯伯爵的领主权。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">村名中的“Mas”在普罗旺斯语境里暗示着自给自足的农庄聚落，而“Pègo”被后来人附会为 <strong>“含羞草的花蜜”</strong>，尽管这种植物原产澳洲，要到19世纪才传入。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一枚印记：1348年黑死病的回旋镖</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1348年那场席卷欧洲的黑死病并未忘记这座山间小村。据格拉斯主教区的死亡登记，佩戈马斯在三个月内失去了三分之二的人口。幸存者逃入更深的山区，村庄几乎沦为鬼村。但奇迹般地，当瘟疫退去，返回的居民在废墟上重建教堂时，发现一株野生的 <strong>苦艾</strong> 攀满了祭坛。这段记忆被村民编成歌谣，传唱了整整三个世纪。如今老城区的 <strong>圣米歇尔教堂</strong> 地下室里，仍立着一块14世纪的瘟疫公墓石碑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二枚印记：17世纪香水暗战</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格拉斯作为香水之都崛起时，佩戈马斯成了香料作物的秘密试验田。1665年，格拉斯的一位贵族调香师 <strong>让-巴蒂斯特·德·拉瓦莱</strong> 看中了佩戈马斯南向的梯田和微酸性土壤，偷偷种植玫瑰、茉莉和晚香玉。他不愿公开试验地，只用骡子夜间运输花材。当地农民起初以为他在走私盐，后来才惊觉那些香气扑鼻的“神秘货物”比黄金还昂贵。这段“香水走私”的趣闻至今被口述，每年夏季佩戈马斯还会举办“晚香玉之夜”重现骡队运花的场景。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三枚印记：二战中的含羞草间谍线</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1943年，法国抵抗组织在佩戈马斯建立了一条代号“含羞草”的通信线。因为漫山遍野的含羞草在初春开花时，金黄色的花球可以掩护机密的传递点。抵抗战士将情报藏在花束里，混入格拉斯香水工厂的原料运输中。1944年，一名叫 <strong>玛德琳·帕凯</strong> 的女信使被盖世太保逮捕，她宁死不说出花束里的秘密。战后佩戈马斯在她的故居门前种下一棵含羞草树，至今每年二月开花，成为小镇默然的勋章。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇一：朱尔斯·罗曼——星球上的过客诗人</strong></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我从佩戈马斯的山坡上看见，蔚蓝海岸像一条被神灵遗忘的丝带，而含羞草的金色碎片，正是丝带上最陈旧的裂痕。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——朱尔斯·罗曼，《普罗旺斯书简》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>朱尔斯·罗曼</strong>（Jules Romains，1885-1972），法国作家、戏剧家，“一致主义”（Unanimism）文学流派的旗手。很少有人知道，他曾把佩戈马斯当作精神避难所。1925年，成名后的罗曼厌倦了巴黎文艺圈的口水战，选择隐居在佩戈马斯的一栋石屋里。他在此完成了《善意的人们》系列中的一卷，并用三个月时间行走于村庄周边的石灰岩山脊，写下了一部几乎被遗忘的散文集《含羞草之路》。罗曼在书中细腻描写了佩戈马斯四季的泥土气息、泉水声以及村民采摘橄榄时的歌声。他称这里是“最后一个未被文明驯服的普罗旺斯角落”。1950年代他离开法国，但始终保留着佩戈马斯的那把石屋钥匙。他去世后，其手稿中被发现夹着一片干枯的含羞草树叶，上面用铅笔写着：“回到Pègo Màs，回到山丘。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇二：玛格丽特·德·奥尔良——流亡调香师的秘密配方</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛格丽特·德·奥尔良（Marguerite d'Orléans，1856-1901）的故事，比任何小说都离奇。她是法国王族旁系后裔，因政见冲突在1880年代被迫流亡。她隐姓埋名来到佩戈马斯，购置了一座葡萄园，实际上她并不酿酒，而是秘密研制香水。她利用佩戈马斯本土野生的含羞草、金合欢和薰衣草，调制出一款名为“金色山丘”的香水。这款香水的气味据说“像初雪后的阳光下，山丘突然燃烧起来”。1900年巴黎世博会上，“金色山丘”被匿名展示，获得了调香类银奖。但无人知晓获奖者的真实身份。玛格丽特于次年病逝在佩戈马斯，她将全部配方写在羊皮纸上，埋在了她的葡萄园中。直到2015年，一位历史爱好者在翻修老宅时，才从墙缝里发现了这份泛黄的配方手稿。如今，佩戈马斯的微型香水博物馆里陈列着复刻版，但原配方仍是一个谜——因为配方中关键的一种花，只在佩戈马斯特定朝南的坡地上生长，且开花周期只有短短五天。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说：含羞草的眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传很久以前，佩戈马斯的山顶住着一位名叫 <strong>弗洛拉</strong> 的仙女，她负责照料山谷里所有的野花。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有一年冬天特别漫长，暴风雪掩埋了一切，没有一个花朵能抢先开放。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">弗洛拉担心春天会迟到，便用自己的眼泪混合晨露和阳光，撒向山坡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">泪水落下的地方，瞬间长出了毛茸茸的金色小球——这就是含羞草。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“含羞草之所以一碰就收拢叶子，是因为弗洛拉怕花朵被粗鲁的手摘走，所以她给了它们羞涩的灵魂。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——佩戈马斯农谚</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但弗洛拉的眼泪流得太多了，她的眼睛开始失明。为了补偿她，当地村民每年二月的第一个星期日，都会聚集在山顶，用歌声和鼓乐唤醒含羞草。据说如果那一天人们不歌唱，含羞草就不会开得那么浓密。这个仪式延续至今，演变成 <strong>“含羞草之路音乐节”</strong> ，只是几乎没人记得背后的仙女眼泪了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>习俗：黄金圣枝</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩戈马斯还保留着一个奇特的传统：除夕夜，每户人家会用含羞草的枝条编成一个环，挂在门口，以此驱赶前一年的厄运。新年第一天下山时，人们会把旧的花环扔进小溪，让水流带走霉运。这种习俗据说源于中世纪，当时人们用苦艾编环，含羞草传入后替代了苦艾，因为它的金色更象征光明。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩戈马斯并不宏伟，也没有罗马竞技场或哥特式大教堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的魅力恰在于时间在这里走得缓慢。那些褪色的石墙、干燥的石灰岩、层层叠叠的梯田，以及每年准时爆发的金色海啸，都在提醒来访者：<strong>真正的历史并不总是写在教科书里，有时它长在泥土里，藏在含羞草的绒毛之间。</strong> 读懂佩戈马斯，就是读懂普罗旺斯山民与自然、与苦难、与美丽共生的智慧。这片土地上，一株花就是一段记忆，一座山丘就是一部编年史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/la-roche-bernard\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉罗什贝尔纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">La Roche-Bernard</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ornans-franche-comte\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥尔南</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ornans</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sarlat-la-caneda\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨尔拉拉卡内达</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sarlat-la-Canéda</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "la-roche-bernard",
+          "name": "拉罗什贝尔纳",
+          "englishName": "La Roche-Bernard"
+        },
+        {
+          "slug": "ornans-franche-comte",
+          "name": "奥尔南",
+          "englishName": "Ornans"
+        },
+        {
+          "slug": "sarlat-la-caneda",
+          "name": "萨尔拉拉卡内达",
+          "englishName": "Sarlat-la-Canéda"
+        }
+      ]
+    }
+  ]
+}

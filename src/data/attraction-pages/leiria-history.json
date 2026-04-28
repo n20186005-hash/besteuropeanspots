@@ -1,0 +1,85 @@
+{
+  "slug": "leiria-history",
+  "template": "history",
+  "metadata": {
+    "title": "莱里亚历史溯源｜葡萄牙中世纪小城的前世今生与国王传奇",
+    "description": "探秘葡萄牙莱里亚：阿方索一世在此建起城堡，迪尼斯国王留下哥特凉廊，圣伊莎贝尔的传奇与悲剧交织。走进这座岩石山丘上的小城，听石头讲述800年往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "葡萄牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "莱里亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "莱里亚",
+      "href": "/attractions/leiria-history"
+    }
+  ],
+  "hero": {
+    "title": "莱里亚・Leiria・葡萄牙・莱里亚",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在葡萄牙中部莱纳河畔，一座突兀的岩石山丘上，<strong>莱里亚城堡</strong>如凝固的月光俯瞰着整座城市。它始于1135年葡萄牙开国国王<strong>阿方索一世</strong>的征服，却在随后的两百年里，被一位诗人国王和一位慈悲王后改写成哥特式的爱情与信仰寓言。抛开游玩攻略，走进莱里亚的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">莱里亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Leiria</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Leiria</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">葡萄牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">莱里亚</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莱里亚的历史，写在岩石里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1142年</strong>，葡萄牙首任国王<strong>阿方索一世</strong>从摩尔人手中夺回这片土地。他并非第一个占领者——早在罗马时代，这里就有一条名为Collipo的定居点，但阿方索一世看到了这块孤立岩石山丘的军事价值。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他下令在此建造一座城堡，作为收复失地运动的前哨。名字“Leiria”源自阿拉伯语“Al-li-ar”或古葡萄牙语“Leria”，意为“岩石之地”。这座城堡在建成后的几十年里，反复被摩尔人夺回并再次征服，直到<strong>1195年</strong>，国王桑乔一世才最终将其稳固。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的城堡只是粗犷的军事工事，用本地花岗岩砌成，墙厚达三米。城下是莱纳河，河水滋养着平原上的橄榄和葡萄。而真正的变身，发生在13世纪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1254年</strong>，迪尼斯一世（D. Dinis）在城堡中长大，这位被称为“诗人国王”的君主，爱上了这片岩石上的景色。他决定将城堡从战略要塞改造成皇家行宫。正是在他的命令下，建筑师们在城堡东侧增建了一座优雅的<strong>哥特式凉廊</strong>——这成为葡萄牙早期哥特建筑的杰作之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">凉廊面朝城市，三组尖券拱窗如画框，框住莱里亚的红色屋顶和远处群山。迪尼斯王常常在此吟诗，他的情诗大多献给王后——阿拉贡的伊莎贝尔。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莱里亚的每一块石头，都镌刻着两个时代的烙印：收复失地的血火与哥特王庭的诗意。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一个印记：城堡的建造与征服（1142-1195）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿方索一世选择这里并非偶然。岩石山丘扼守着通往葡萄牙中部的要道，摩尔人在科英布拉失守后，以此作为最后的防线。城堡的建造极具战术设计：主塔（Torre de Menagem）高达30米，站在塔顶可以眺望40公里外的海岸线。史料记载，摩尔人曾在<strong>1160年</strong>发动一次突袭，用攻城锤撞击城门，但花岗岩根基纹丝不动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二个印记：迪尼斯王与哥特凉廊（1300年前后）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说城堡的军事部分属于阿方索一世，那么凉廊则完全属于迪尼斯王。这个空间是整座城堡最轻盈的部分——三组尖拱窗用石灰岩雕刻出叶形纹饰，光透过彩色玻璃洒在石地上。传说中，迪尼斯王在此写下了著名的《莱里亚之歌》：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“岩石之上，我的凉廊，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">看你的眼睛，比莱纳河水更亮。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">我在此建一座石头的梦，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">等你用玫瑰缀满它。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三个印记：圣伊莎贝尔的厨房与医院（1300年代）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">迪尼斯王的王后<strong>伊莎贝尔</strong>（后来被封为圣女）是一位虔诚的天主教徒。她利用城堡山脚下的一片土地，建造了莱里亚第一座医院和修道院。至今，城堡下方还保留着一条“伊莎贝尔小路”，相传她每日清晨赤脚走下石阶，去给穷人送面包。她去世后，遗体安葬在莱里亚的圣母教堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">进入15世纪后，城堡逐渐失去军事价值。<strong>1553年</strong>，一座地震损坏了部分城墙，之后它被废弃。直到20世纪初，政府才修复凉廊和主塔，但刻意保留了废墟的残缺美——那些被雨水冲刷的缺口，仿佛时间的笔迹。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莱里亚的灵魂，藏在两位君王与一位王后的故事里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>迪尼斯一世（D. Dinis，1261-1325）——诗人国王与他的石头情诗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他统治葡萄牙46年，被誉为“农夫国王”，他推广了葡萄种植、设立了第一所大学。但迪尼斯王最为人津津乐道的，是他的诗歌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在莱里亚城堡的凉廊里，他写下了300多首情诗（cantigas de amor和cantigas de amigo）。其中一首这样写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我的情人住在岩石之城，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">她的头发比莱纳河还要长。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">我在城堡上等她，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">听到脚步声在石阶上响。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有趣的是，这位国王曾因沉迷诗歌而引发过爱情风波。他最宠爱的情人是莱里亚本地一位平民女子——据传是一位面包师的女儿。王后伊莎贝尔得知后，非但没有嫉妒，反而亲自去探望这位女子，并请求丈夫让她成为宫廷的侍女。这一宽容的举动，后来成为葡萄牙民间传说中“圣伊莎贝尔”故事的一部分。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">迪尼斯王对莱里亚的贡献远不止凉廊。他下令在城堡脚下开辟了一个皇家猎场（今莱里亚森林），种植了10万棵松树以制造船帆，这些松木后来被用于支撑葡萄牙大航海时代的船队。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣伊莎贝尔（Santa Isabel，1271-1336）——从王后到圣女</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她是阿拉贡国王的女儿，嫁给迪尼斯王时年仅17岁。在莱里亚，她最著名的故事是关于“玫瑰奇迹”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说中，她经常拿面包接济穷人，但迪尼斯王禁止宫廷开支用于慈善。一天，她正准备出门送面包，国王突然出现，拦住她问：“你怀里藏了什么？”她慌乱中回答：“是玫瑰花。”国王命令她展示——她伸手的瞬间，面包全部变成了火红的玫瑰。这则传说至今被印在莱里亚的城徽上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她的另一桩轶事更贴近人性。<strong>1325年</strong>迪尼斯王病逝后，伊莎贝尔没有留在里斯本，而是回到莱里亚。她变卖了所有珠宝，在城堡山脚下开设了葡萄牙第一所专门治疗麻风病的医院。她亲自为病人清洗伤口，以至于当地贵妇们愤然抗议，认为王后“自降身份”。她只是微笑：“如果国王看到这些伤口，他会写诗赞美它们。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1336年</strong>，她去世前两周，还在沿着那条“伊莎贝尔小路”给穷人送药。她死后被天主教廷封圣，但她的核心敬拜地却在莱里亚——每年7月8日，莱里亚人都会抬着她的圣像从城堡走到医院旧址。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>诗人阿方索·德·阿尔布克尔克（Alfonso de Albuquerque，并非莱里亚本地人）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">尽管他是果阿的征服者，但一条鲜为人知的线索将他与莱里亚联系：<strong>1511年</strong>，阿尔布克尔克在前往印度前，曾在莱里亚城堡逗留两夜。他在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“城堡的凉廊让我想起故乡的月光。我从这里看到一条通向海洋的道路，而我的眼睛已经看到前方的黄金。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这一细节被莱里亚历史学者反复引用，证明城堡曾是航海家们出发前的精神驿站。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>幽灵面包师的女儿</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">深夜，如果你走在那条通往城堡的石阶上，可能会听到烤面包的声音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说中，迪尼斯王那位面包师情人——她叫玛格丽塔——在城堡厨房里烤面包时，不小心点燃了屋顶。她为了救自己的父亲，被掉落的石头砸死。自那以后，每到月缺之夜，城堡厨房的位置就会飘出面包的香味。当地人相信，那是玛格丽塔的灵魂在烘焙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但更离奇的传说是：她从未离开过凉廊。因为迪尼斯王在凉廊里为她写过一首诗：“你的皮肤像刚烤好的面包，散发着热气。”每天清晨，凉廊的地面上会出现几片面包屑——没人知道是谁放的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣伊莎贝尔的玫瑰节</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年7月8日，莱里亚人都会举办“玫瑰节”。这可不是普通的赏花：姑娘们会穿上中世纪服饰，从教堂走到城堡，沿途洒下真正的玫瑰花瓣。任何人都可以上前领取一朵红玫瑰——据说只要把它带回家，这一年就不会贫穷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最有意思的是，节日高潮时，会有一位扮演圣伊莎贝尔的女子站在凉廊上，向人群撒下面包和花瓣混合的“神圣礼物”。孩子们争先恐后地抢，因为传闻里抢到的人会获得一年的好运。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>城堡底下的地下通道</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莱里亚居民世代相传：城堡地下有一条秘密通道，一直通往两公里外的莱纳河对岸。据说那是摩尔人在被攻占前挖掘的逃生路。2010年考古发掘时，确实在地下五米处发现了一段砖石结构的拱形通道，但里面很快塌陷，至今未被完整探查。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莱里亚的意义，远不止一座城堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它是葡萄牙中世纪历史的<strong>垂直切片</strong>：底层是摩尔人的根基，中层是阿方索一世的军事意志，顶层则是迪尼斯王与伊莎贝尔王后的文化柔情。当你站在凉廊里，左眼是莱纳河谷的田园风光，右眼是城墙上的箭垛，你会明白——这座城市教会人们如何用石头写下情诗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，城堡对公众开放，凉廊是城里最受欢迎的求婚地点。傍晚时分，常有当地大学生带着吉他在那里弹唱，曲子正是迪尼斯王的《莱里亚之歌》。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它提醒我们：历史的伟大，有时就藏在一个面包师女儿的故事里，一双从未停止赠予的手里，以及一块被月光照亮的石头上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/coimbra-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科英布拉老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Coimbra Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/vasco-da-gama-tower-babylon-360\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦斯科·达·伽马塔 BABYLON 360º</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vasco da Gama Tower BABYLON 360º</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/viana-do-castelo-santa-luzia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维亚纳堡（俯瞰大西洋与利马河的圣卢西亚圣殿之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Viana do Castelo</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "coimbra-old-town",
+          "name": "科英布拉老城",
+          "englishName": "Coimbra Old Town"
+        },
+        {
+          "slug": "vasco-da-gama-tower-babylon-360",
+          "name": "瓦斯科·达·伽马塔 BABYLON 360º",
+          "englishName": "Vasco da Gama Tower BABYLON 360º"
+        },
+        {
+          "slug": "viana-do-castelo-santa-luzia",
+          "name": "维亚纳堡（俯瞰大西洋与利马河的圣卢西亚圣殿之城）",
+          "englishName": "Viana do Castelo"
+        }
+      ]
+    }
+  ]
+}

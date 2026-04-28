@@ -1,0 +1,85 @@
+{
+  "slug": "veles-history",
+  "template": "history",
+  "metadata": {
+    "title": "韦莱斯历史溯源｜北马其顿瓦尔达尔河畔的混凝土之花与二战记忆",
+    "description": "韦莱斯，一座依山而建的中世纪古城，山坡上盛开着混凝土之花——Kosturnica纪念碑。走进二战牺牲者的墓园，聆听马其顿诗人科乔·拉辛的悲歌，触摸斯拉夫与奥斯曼交织的岁月痕迹。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "北马其顿",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "瓦尔达尔大区",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "韦莱斯",
+      "href": "/attractions/veles-history"
+    }
+  ],
+  "hero": {
+    "title": "韦莱斯・Veles・北马其顿・瓦尔达尔大区",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">北马其顿中部，瓦尔达尔河蜿蜒穿城，韦莱斯像一枚古老的十字架嵌在山坡之上。这里没有奥赫里德的碧波，也没有斯科普里的宏伟，却有一座混凝土铸就的“花朵”静静俯瞰——那是二战纪念碑Kosturnica，也是这座小城最震撼的历史宣言。抛开游玩攻略，走进韦莱斯的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">韦莱斯</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Veles</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Veles</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">北马其顿</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">瓦尔达尔大区</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">韦莱斯的名字，据说源自斯拉夫语“韦莱斯”——古代斯拉夫神话中的大地、水与冥界之神。公元7世纪，斯拉夫部落沿瓦尔达尔河迁徙，在此定居，依山筑城。但这片土地的故事远早于此：古希腊时代，这里曾是培奥尼亚王国（Paionia）的重要据点，名为<strong>比拉佐拉（Bylazora）</strong>，扼守通往马其顿腹地的要道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗马帝国时期，这里成为一条军事驿道上的驿站，名为“休憩地”（Ad Publius）。然而真正塑造城市面貌的，是中世纪的斯拉夫公国和后来的奥斯曼帝国。13世纪，韦莱斯被塞尔维亚王国控制，随后落入奥斯曼之手，直到1912年才重归巴尔干版图。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>名字本身即历史。</strong> 当地人称它为“Veles”，土耳其人叫它“Köprülü”，意为“有桥的地方”。瓦尔达尔河上的石桥，曾连接东西商路，让这里成为皮毛、谷物和盐的交易中心。而山城的地势，又让它在漫长的战争岁月中成为天然的堡垒。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二战的血色记忆：Kosturnica</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">韦莱斯最醒目的地标，莫过于山坡上那座巨大的混凝土纪念碑。它建于1979年，由北马其顿建筑师<strong>佐兰·伊万诺维奇（Zoran Ivanović）</strong>设计，纪念在二战中牺牲的韦莱斯战士。整座建筑形似一朵盛开的混凝土花朵，又像一个巨大的白色头骨——花瓣是墓穴的穹顶，内部安放着约4000名游击队员的遗骸。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们被埋在混凝土的花瓣里，花瓣朝着天空，天空就是我们的旗帜。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——当地老游击队员的回忆</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座纪念碑并非为了歌颂胜利，而是为了提醒死亡。从城市任何一条陡峭的巷子抬头，都能看见它白色的轮廓。清晨，阳光穿透花瓣间的缝隙，在地上洒下十字形的光影；黄昏时，整座建筑变成暗红的剪影，像凝固的火焰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>奥斯曼的余韵：石雕与清真寺</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">韦莱斯的旧城区保留着奥斯曼时期的街道格局。<strong>恰尔希清真寺（Çarşı Mosque）</strong>建于15世纪，宣礼塔的石头被风雨侵蚀出蜂窝状的凹痕。寺旁的哈马姆（土耳其浴场）已改为咖啡馆，墙上挂着19世纪的老照片，画面里穿长袍的商贩和驮着货物的驴子挤满窄巷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1903年的伊林登起义</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1903年8月，马其顿内部革命组织（IMRO）在韦莱斯附近发动起义，反抗奥斯曼统治。数千名起义者手持猎枪和镰刀冲下山坡，试图解放小镇。奥斯曼军队镇压了起义，但这场火焰点燃了民族意识。至今，每年8月2日，韦莱斯人都会在纪念碑前点燃蜡烛，重演那段悲壮的历史。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>科乔·拉辛：用诗歌为马其顿铸造灵魂</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果韦莱斯有一张人文名片，那一定是诗人<strong>科乔·拉辛（Kole Racin）</strong>。他于1908年出生在韦莱斯的一个贫困家庭，原名叫<strong>科斯塔·阿波斯托洛夫（Kosta Apostolov）</strong>。他的父亲是陶工，母亲是洗衣妇，少年时他就在作坊里捏泥土、在河堤上拾柴。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>与韦莱斯的羁绊</strong>：拉辛的童年浸泡在瓦尔达尔河的水声和山城的小巷中。他后来在斯科普里和贝尔格莱德求学，但始终把韦莱斯视为精神故乡。他的诗作《白昼》和《悼词》里，反复出现“山坡上的白色小屋”和“河水里的石头”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1943年，拉辛参加游击队，在德国占领区的战斗中牺牲，年仅35岁。他的遗体最终被带回韦莱斯，安葬在Kosturnica纪念碑附近。今天，韦莱斯市政广场立着他的青铜半身像，底座上刻着他最著名的诗句：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我的祖国不是一张地图，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">它是母亲手上的茧，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">是父亲肩上的犁，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">是韦莱斯山坡上沉默的白色花朵。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>拉辛的“假新闻”轶事</strong>：很少有人知道，这位诗人同时也是讽刺作家。他曾用笔名“山谷里的鹰”写辛辣的散文，嘲笑官僚和富商。一篇名为《韦莱斯的驴子》的短文，描述一头驴在集市上批评羊群盲目跟风，影射二战前的妥协派。这篇文章被当地报纸刊登，引起轩然大波，诗人差点被逐出家门。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>现代韦莱斯的“假新闻工厂”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2016年美国大选期间，韦莱斯以另一种方式登上全球头条：一群青少年在郊区搭建“假新闻工厂”，靠复制粘贴美国政治谣言牟利。他们租用废弃的陶器作坊，摆放几十台电脑，用夸张的标题（“希拉里是外星人？”）骗取点击量。这些孩子大多是下岗工人的后代，成长在Kosturnica的阴影下——他们知道纪念碑是死亡的花，却不知道自己的行为也是另一种形式的“虚假之花”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这段黑色幽默的故事，让韦莱斯意外成为媒体学的经典案例。但本地人对此保持沉默，只有老人在酒馆里摇头：“拉辛用诗歌讲真话，如今的孩子用谎言换面包。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>瓦尔达尔河的女儿</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">韦莱斯老城流传着一个传说：很久以前，瓦尔达尔河畔住着一位少女，名叫<strong>维达（Vida）</strong>。她的头发像河底的沙粒一样金黄，歌声能让山上的石头落泪。苏丹的王子路过时被她的美貌吸引，想把她带到伊斯坦布尔。维达不从，跳入瓦尔达尔河。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二天，人们在河心发现一块人形石头，头发的纹路如同水流。据说，每当月圆之夜，石头发出的呜咽声就是维达的歌声。渔民们相信，只要向石头抛三枚硬币，维达就会保佑他们捕到最多的鱼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>混凝土花朵的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Kosturnica刚建成时，一位老妇人声称在夜里看见花瓣缓缓合拢，像巨大的手掌握住灵魂。村里人相信，如果纪念碑上的花瓣全部合拢，韦莱斯就会消失。因此，每年秋分，居民们都会在碑下点燃蜡烛，用烛光撑开花瓣。这个习俗一直延续至今，成为一种微型的人文仪式。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂韦莱斯，是读懂一座山城的伤口与花。Kosturnica的混凝土花瓣里，安眠着数千个名字；拉辛的诗句里，流淌着瓦尔达尔河的柔光；假新闻工厂的电脑屏幕里，则映照着后战争时代的迷茫。这里不是旅游指南上的打卡点，而是一部被折叠的巴尔干微型史：战争、信仰、诗意、荒诞，层层叠叠在石头和花朵的沉默中。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“纪念碑并不安静，石头也会说话。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">韦莱斯站在山坡上，等着你倾听。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/galicnik-traditional-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加利奇尼克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Galičnik</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stobi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯托比考古遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stobi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prilep-markovi-kuli\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普里莱普</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prilep</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "galicnik-traditional-village",
+          "name": "加利奇尼克",
+          "englishName": "Galičnik"
+        },
+        {
+          "slug": "stobi",
+          "name": "斯托比考古遗址",
+          "englishName": "Stobi"
+        },
+        {
+          "slug": "prilep-markovi-kuli",
+          "name": "普里莱普",
+          "englishName": "Prilep"
+        }
+      ]
+    }
+  ]
+}

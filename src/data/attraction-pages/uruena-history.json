@@ -1,0 +1,85 @@
+{
+  "slug": "uruena-history",
+  "template": "history",
+  "metadata": {
+    "title": "Urueña历史溯源｜西班牙第一个书城的尘封往事与藏书家传奇",
+    "description": "走进卡斯蒂利亚-莱昂的古城乌鲁埃尼亚，探秘千年城墙下隐匿的书香世界。从11世纪城堡到2007年成为西班牙首座书城，这里藏着藏书家的痴狂与小镇逆袭的神话。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡斯蒂利亚-莱昂",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "乌鲁埃尼亚",
+      "href": "/attractions/uruena-history"
+    }
+  ],
+  "hero": {
+    "title": "乌鲁埃尼亚・Urueña・西班牙・卡斯蒂利亚-莱昂",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在西班牙的版图上，有一座被城墙紧紧包裹的小城，书店的数量竟然超过了酒吧。这里是<strong>乌鲁埃尼亚</strong>，<strong>卡斯蒂利亚-莱昂</strong>的黄土丘陵上，一座只有不到200人口的中世纪堡垒。2007年，它成为西班牙第一个官方认证的书城，颠覆了人们对乡村小镇的全部想象。但书城的身份只是它最新的标签。在此之前，它曾是罗马人的瞭望点，摩尔人的边境哨，卡斯蒂利亚国王的防御要塞。抛开游玩攻略，走进乌鲁埃尼亚的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">乌鲁埃尼亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Urueña</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Urueña</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卡斯蒂利亚-莱昂</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>乌鲁埃尼亚</strong>的建城史要追溯到11世纪。彼时，卡斯蒂利亚国王<strong>阿方索六世</strong>在收复失地运动的浪潮中，从摩尔人手中夺回了这片高地上的战略据点。为了巩固边境，他下令在陡峭的山丘顶端修筑起一座坚固的城堡，并以城为中心，逐步聚集起第一批居民。名字的来源至今仍无定论——最可信的说法来自拉丁语‘Urbana’（意为“小城市”），或因地处通往莱昂古道的要冲，被称为“道路上的小城”。另一派学者则认为它源自凯尔特语‘ur’（水），指代山脚下的特尔马河。无论哪种，都暗示着这里自古便是有人聚集的枢纽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的乌鲁埃尼亚更像一座军事堡垒。城墙全长达2公里，由方石砌成，最高处达12米，至今保存得近乎完整。城内布局紧凑，一条主街贯穿南北，两侧挤满了石屋、教堂与谷仓。中世纪时，这里是卡斯蒂利亚北部的粮食集散地，也是牧羊人前往梅塞塔高原的歇脚站。随着收复失地推进，边界西移，乌鲁埃尼亚逐渐失去了军事价值，变成了被遗忘的内陆农业村。直到21世纪初，一个大胆的念头改变了它的命运——变成一座书城，用纸张和油墨重新唤醒沉睡的石头。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌鲁埃尼亚的历史印记，刻在每一块城墙石的缝隙里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一道印记：千年的石头守望者。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">11世纪建成的城墙和城堡是小镇的灵魂。城堡名为<strong>Castillo de Urueña</strong>，是一座典型的罗马式防御工事，方形的塔楼至今仍矗立在城西最高处。它不像阿尔卡萨那样富丽堂皇，却有一种粗粝的质朴。传说在18世纪，城堡被改作粮仓，直到20世纪80年代才作为文化中心重新开放。站在塔顶放眼望去，麦田与橡树林铺向天际，让人瞬间理解了为什么摩尔人称这里为“风中的堡垒”——风永远不停，如同历史从未真正沉睡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二道印记：书城的诞生——来自威尔士的灵感。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2007年，一位名叫<strong>阿尔贝托·加西亚</strong>的地方文化官员在旅行中偶然拜访了威尔士的海伊镇，那座世界首个书城给了他深深震撼。回到西班牙后，他力排众议，说服政府将乌鲁埃尼亚改造成“书城”。他的核心理念很简单：让书店取代酒吧，让书页代替酒杯。这项计划最初遭到不少质疑，毕竟小镇连一家像样的超市都没有。但阿尔贝托和一个由五名志愿者组成的团队，四处邀请旧书商入驻，提供免税、廉价租金的政策。不到三年，城内就开出了11家书店，远超当地的2家酒吧。<strong>2007年11月23日</strong>，西班牙文化部长亲自为乌鲁埃尼亚揭幕“书城”牌匾，从此它拥有了新的身份。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三道印记：图书节与“书店不眠夜”。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年七月的一个周末，乌鲁埃尼亚会举行“书店不眠夜”。从下午五点开始，所有的书店通宵营业，点起煤油灯和烛台，作家在墙角朗诵，民谣歌手在广场上弹琴。游客挤满狭窄的街巷，孩子们裹着毯子在石阶上听故事。这个习俗已持续了十余年，成为小镇最有生命力的新传统。而最神奇的是，那些平日里寂静无声的古旧书店，在烛火中仿佛活了过来——书脊上的金字在暗处闪烁，像极了中世纪抄本里的泥金装饰。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座小城虽然人口稀少，却吸引了不止一位名人深度纠缠。其中最令人着迷的，是两位完全不同的灵魂：一位是18世纪的藏书狂人，一位是20世纪的流亡诗人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一位传奇：佩德罗·德尔·里奥——上帝的图书馆管理员。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>佩德罗·德尔·里奥</strong>（1720—1798）出生于乌鲁埃尼亚附近的一个乡村家庭，童年时常在城墙下放羊。他八岁时被教会收养，于1736年进入巴利亚多利德的修道院学习拉丁文和神学。1743年他第一次接触到古籍，从此走上了藏书的不归路。当时西班牙禁止普通百姓收藏超过50本书，但佩德罗凭借教会的身份，在超过四十年的时间里，秘密收集了<strong>超过8000册</strong>手稿和印刷书。他的收藏范围极广：从阿拉伯医学论著到意大利文艺复兴诗歌，从卡斯蒂利亚民谣到日耳曼炼金术手册。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1790年，他决定将自己的图书馆带回故乡乌鲁埃尼亚。他雇佣了十二辆马车，历时三个月才将藏书从马德里运到小镇，全部存放在城堡一层的一个石室中。当地人称那间石室为“上帝的图书馆”，因为佩德罗立下规矩：任何人只要带着干净的手，都可以免费阅读。他每天从清晨开门到黄昏，亲自为来者朗读维吉尔的《牧歌》或塞万提斯的《堂吉诃德》。1798年他去世时，图书馆的钥匙被嵌入他的墓碑中。墓碑上刻着他自己写下的拉丁文铭文：<strong>“我建造的不是房子，而是桥。”</strong> 如今，这座图书馆的原址正是小镇最著名的书店之一——<strong>Librería del Castillo</strong>，店员仍会指着墙上的一块旧石砖说：“佩德罗修士曾把手放在这里，对每一个借书的人微笑。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二位传奇：拉斐尔·蒙特罗——流亡者的乌托邦。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>拉斐尔·蒙特罗</strong>（1914—2003）是西班牙内战期间的一位共和派诗人，战后被迫流亡法国。1960年代，他辗转来到乌鲁埃尼亚定居，租下了城墙角落一座废弃的磨坊。他在此度过了人生最后二十三年，从未离开超过方圆五公里。他每天的生活极其规律：早上在城墙上看日出，上午写诗，下午在广场上朗读给孩子们听。他从不接受任何出版合同，只用手工毛边纸印制诗集，每本不超过50册，封面用他自己画的墨水画装饰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1985年，当地一个小女孩不小心将他的诗集掉进水井中。拉斐尔没有生气，反而笑着说：“让水把它带回大海吧。”他后来写了长诗《井中的墨水》，其中一句被刻在城门口的木牌上：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每一本书都是一口井，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">你往里看，就能看见整片天空。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1997年，为了支持书城计划，已经83岁的他亲自将300册私藏手稿捐给了镇上的公共书店。2003年他去世后，镇民把他的骨灰撒在城堡塔楼下的野花丛中。每年“书店不眠夜”的午夜，都会有书友在塔楼前朗诵《井中的墨水》。拉斐尔的故事被写进了西班牙中学的文学选修课本，但真正了解他的人只会低声说：“他总是坐在城墙第三块垛口上看书，风把他的白发吹得和纸页一样薄。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在乌鲁埃尼亚的街头巷尾，流传着一个关于“盗书猫”的传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在16世纪，城堡里住着一只巨大的黑猫，它的眼睛会在月光下发出蓝光。这只猫从不伤害人，却有一个古怪嗜好——偷书。每当夜深人静，它会悄无声息地溜进居民家中，用爪子扒开藏书盒，把最厚的一本叼走。第二天，人们总能在城堡的最高塔楼下找到一些破碎的书页。没人知道那些书去了哪里，直到一个守夜人声称看见黑猫把书一页一页地塞进城墙裂缝中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人说，那是城堡的守护精灵在修补城墙。因为只有在书页的纤维里，才能藏着最坚固的祝福。直到今天，如果有人在城墙下发现泛黄的纸片，都会小心翼翼地将它塞回石缝里，嘴里念着：<strong>“让故事钉住石头，让石头守住故事。”</strong> 这个习俗在书城时代被赋予了新的含义——书店老板们有时会故意将一页旧书卷进墙缝，祈求生意兴隆。而游客中也流传着一种说法：如果你在白天看到一只黑猫蹲在书店门口，那家店一定藏着最棒的二手书。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌鲁埃尼亚的故事告诉我们：一个地方的历史从来不是线性的。它曾是战场，粮仓，被遗忘的村落，然后成为了书的城堡。在这里，石头守护的不是权力，而是思想；城墙围住的不是疆域，而是想象力的边界。每推开一扇书店的木门，都能听见纸张翻动声中传来的回音——那是佩德罗修士的低语，拉斐尔的诗句，以及无数无名读者叹息的声音。读懂乌鲁埃尼亚，就是读懂欧洲乡镇最温柔的反叛：用书本对抗遗忘，用故事重塑土地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/sierra-de-aras\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿拉斯山脉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sierra De Aras</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/muelle-de-la-sal\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    盐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">盐码头</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Muelle de la sal</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/orenes-gran-casino-murcia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥雷内斯格兰赌场穆尔西亚</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Orenes Gran Casino Murcia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "sierra-de-aras",
+          "name": "阿拉斯山脉",
+          "englishName": "Sierra De Aras"
+        },
+        {
+          "slug": "muelle-de-la-sal",
+          "name": "盐码头",
+          "englishName": "Muelle de la sal"
+        },
+        {
+          "slug": "orenes-gran-casino-murcia",
+          "name": "奥雷内斯格兰赌场穆尔西亚",
+          "englishName": "Orenes Gran Casino Murcia"
+        }
+      ]
+    }
+  ]
+}

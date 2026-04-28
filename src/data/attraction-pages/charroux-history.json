@@ -1,0 +1,85 @@
+{
+  "slug": "charroux-history",
+  "template": "history",
+  "metadata": {
+    "title": "沙鲁(Charroux)历史溯源｜法国阿列省中世纪芥末小镇的前世今生与名人传奇",
+    "description": "法国阿列省沙鲁，一座以芥末香飘百年的中世纪小镇，圆形街道、古井与木骨架商铺里藏着匠人传奇。走进它的尘封往事，遇见让-巴蒂斯特的芥末野心与朝圣者的回声。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "Charroux",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "沙鲁",
+      "href": "/attractions/charroux-history"
+    }
+  ],
+  "hero": {
+    "title": "沙鲁・Charroux・法国・Charroux",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在法国奥弗涅腹地的阿列省，<strong>沙鲁 (Charroux)</strong> 如同一枚被时光遗忘的琥珀。它不靠巍峨城堡或热门教堂吸睛，却以<strong>中世纪的圆形街道</strong>、斑驳的<strong>古老水井</strong>和飘散百年的<strong>芥末香</strong>，低声诉说着一段小城传奇。这里曾是圣雅各之路上的歇脚站，也是法兰西宫廷秘密配方的诞生地。抛开游玩攻略，走进沙鲁的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">沙鲁</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Charroux</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Charroux</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">Charroux</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">沙鲁的起源要追溯到公元10世纪。当时，本笃会的修士们在这片丘陵地带辟出一处朝圣宿营地。镇名“Charroux”源自拉丁语“Carrus”（四轮马车），暗示它最初只是一个<strong>车马驿站</strong>——为穿越阿列河谷的商队和朝圣者提供补给的落脚点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到12世纪，沙鲁逐渐发展成一座有城墙的集镇。其最独特之处，是<strong>中世纪早期的圆形街道布局</strong>：三条同心圆的主街围绕中央广场，仿佛一个微缩的“车轮城”。这种设计不仅便于防御，还让镇子像迷宫般紧凑，每一条石板路都藏着故事的拐角。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字背后还有一段<strong>语言渊源</strong>：奥克方言中的“Charrou”意为“多石的荒地”。没错，沙鲁建在贫瘠的石灰岩上，当地人只能靠养羊和种香料植物维生。正是在这种环境下，<strong>芥末种子</strong>被引入田间，开启了小镇的命运反转。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据16世纪地方编年史记载：“沙鲁的妇女在收获芥末时，会唱一首古老的圆歌，歌声能让种子更辛辣。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">沙鲁的黄金时代在13至15世纪。作为<strong>圣雅各之路（Via Arverna）</strong>的重要驿站，朝圣者们在此停留，用芥末酱涂抹粗砺的干面包，驱散旅途的疲倦。镇上的<strong>圣母教堂（Église Notre-Dame）</strong>建于12世纪，其罗马式大门上雕刻着的朝圣者贝壳，至今仍清晰可辨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但沙鲁最令人震惊的历史印记，藏在一条不起眼的巷子里：<strong>“骷髅街”（Rue des Crânes）</strong>。1348年黑死病席卷欧洲，沙鲁几乎沦为死镇。幸存者将死者安葬在教堂地下，却在铺地石下发现一个巨大的骷髅密藏——据说是瘟疫时期集体埋葬的遗骸。如今，这些<strong>头骨被嵌入拱廊的墙壁</strong>，成为沉默的警示。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一件改变沙鲁命运的事件，发生在<strong>1550年</strong>。当时的领主<strong>菲利普·德·蒙莫朗西</strong>（Philippe de Montmorency）从意大利带回一种特殊的芥末籽，与本地野生芥末杂交，培育出“沙鲁金芥”——这种芥末气味浓烈，辛辣中带着果香。他下令全镇只能种植这种芥末，并成立<strong>首个芥末行会</strong>，规定配方保密。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">百年后，<strong>1630年的宗教战争</strong>让沙鲁再遭劫难。新教军队洗劫了镇子，焚毁了行会档案，配方险些失传。但在废墟中，一位老妇人用烧焦的木炭将配方刻在自家地窖的墙上——这份<strong>“墙上的秘方”</strong>后来被拓印下来，成为沙鲁芥末复兴的圣火。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">沙鲁的名人传奇，绕不开<strong>让-巴蒂斯特·拉库尔</strong>（Jean-Baptiste Lacour，1701-1775），一位被后世称为“芥末之父”的匠人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他出生在沙鲁的芥末世家。18世纪初，法国宫廷对香料痴迷，拉库尔决心让沙鲁芥末登上凡尔赛的餐桌。他改良了研磨工艺，用<strong>石磨慢磨</strong>取代铁碾，保留油脂的香气；又加入<strong>龙蒿、百里香和一小撮糖</strong>，创造出层次分明的“帝王芥末”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1750年，拉库尔徒步三天，将一罐芥末带到巴黎，通过一位御厨献给了路易十五。国王尝后惊为天人，不久，<strong>一纸皇家特许状</strong>送至沙鲁：拉库尔被任命为“法兰西宫廷芥末供应商”，每年须向凡尔赛进贡50罐特制芥末。作为回报，沙鲁镇获得了免税权，并能在盾形纹章上添加<strong>金色芥末花</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拉库尔成为了沙鲁最早的“全球品牌大使”。他写了一本小册子《芥末的尊荣》（La Grandeur de la Moutarde），详细记录各地芥末的差异，并在书中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“汝欲知沙鲁之魂？俯尝芥末，辛辣入喉，一如吾乡石灰土石——粗犷，却也蓬勃。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拉库尔的声望不仅源于芥末。他还捐资重建了沙鲁的公共水井——即至今矗立在中央广场的<strong>“圣让之井”</strong>（Puits Saint-Jean），井沿上雕刻着芥末粒和朝圣贝壳的图案。每到夏季，镇民们会围绕这口井举办<strong>“芥末丰收节”</strong>，拉库尔的肖像会被抬行全城。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位必须提及的名人，是<strong>阿黛拉伊德·德·沙鲁</strong>（Adélaïde de Charroux，1825-1900），一位植物学家兼冒险家。她是19世纪少数获得巴黎自然历史博物馆资助的女性研究者。她走遍阿尔卑斯山和比利牛斯山，采集香料植物标本，最终回到故乡，在自家花园里培育出<strong>“沙鲁紫芥”</strong>——一种开淡紫色花的野生芥末变种。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿黛拉伊德出版了《奥弗涅香料植物志》一书，其中记载了许多民间药方。然而，她最传奇的故事发生在<strong>1871年</strong>普法战争后：她将在花园中种植的芥末叶晒干，磨成粉末，制成消毒敷料，运往前线救济伤员。巴黎公社期间，她甚至冒险带着一袋芥末籽穿过封锁线，帮助难民在城郊荒地种植应急食物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，沙鲁的<strong>芥末博物馆</strong>（Musée de la Moutarde）收藏了她的植物标本和信件。一封1882年的信里，她写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“芥末是大众的药，富人的奢侈品，也是普通人的晨光。在沙鲁，我们种植的不仅是种子，更是对土地的忠诚。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">沙鲁流传着一个关于<strong>“夜间芥末匠”</strong>的传说。据说在15世纪的一个冬夜，一位蒙面的陌生人敲开镇上一家芥末作坊的门，请求借宿。作坊主收留了他，并在次日发现陌生人用一夜时间改良了芥末磨盘，使其能更精细地研磨种子。临走前，陌生人留下一句话：“沙鲁的芥末若是掺假，全城将长出荆棘。”说罢，他便消失在晨雾中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老人们相信，这位陌生人其实是<strong>圣雅各</strong>本人的化身，因为他在朝圣路上尝到了掺了面粉的低劣芥末，特意来惩罚贪婪。从此，沙鲁的芥末行会立下铁律：<strong>任何芥末制成品中，香料粉末不得低于95%</strong>，违者将终身不得入行。至今，镇上的老作坊仍沿用这条规矩，并用<strong>木雕的芥末磨盘</strong>悬挂在门口作为护符。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个习俗与<strong>水井</strong>有关。每年夏至，未婚女子会向“圣让之井”投入一颗芥末籽，如果种子沉到底部，预示年内会找到如意郎君；如果浮在水面，则需再等一年。这个传统据说源自一位叫“丁香”的少女，她因迟迟未嫁，将芥末籽投入井中，结果沉底的瞬间，一位经过的朝圣者向她求婚——后来发现他就是外出多年的初恋。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地歌谣唱道：“芥末籽，沉下去；嫁给谁，井里知。遇见了，就是一辈子。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">沙鲁是一座懂得“慢”的小镇——它的圆环街道让人绕不出，它的芥末秘方让人回味长。在这里，历史不是陈列在博物馆里的陈列品，而是<strong>嵌入水井的雕刻、墙壁上的秘方、以及街角飘散的辛辣香气</strong>。读懂沙鲁，就是读懂中世纪驿站的喧闹与朝圣者的虔诚，读懂一位匠人的野心和一位女植物学家的灵感。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每一口沙鲁芥末，都是对时间的致敬。这里没有喧嚣的景点，只有一条条弯曲的小巷，等待你弯腰细看。如果你想亲身品尝这辛辣的时光，或抚摸那口载满传说的古井——</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/fontenay-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    丰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">丰特莱修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fontenay Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/senlis-medieval-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    桑\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">桑利斯中世纪老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Senlis</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/uzerche-limousin-pearl\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    于\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">于泽什</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Uzerche</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "fontenay-abbey",
+          "name": "丰特莱修道院",
+          "englishName": "Fontenay Abbey"
+        },
+        {
+          "slug": "senlis-medieval-old-town",
+          "name": "桑利斯中世纪老城",
+          "englishName": "Senlis"
+        },
+        {
+          "slug": "uzerche-limousin-pearl",
+          "name": "于泽什",
+          "englishName": "Uzerche"
+        }
+      ]
+    }
+  ]
+}

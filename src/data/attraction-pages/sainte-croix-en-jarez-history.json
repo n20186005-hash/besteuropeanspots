@@ -1,0 +1,85 @@
+{
+  "slug": "sainte-croix-en-jarez-history",
+  "template": "history",
+  "metadata": {
+    "title": "圣克鲁瓦-昂雅雷历史溯源｜从苦修修道院到石头村庄的前世今生与传奇",
+    "description": "法国卢瓦尔省秘境：一座加尔都西派修道院，在大革命后变成居民村落，修士的牢房改造成农舍，石墙内回响着静默与重生。走进圣克鲁瓦-昂雅雷的尘封往事，遇见被时光重塑的奇迹。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "卢瓦尔省",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "圣克鲁瓦-昂雅雷",
+      "href": "/attractions/sainte-croix-en-jarez-history"
+    }
+  ],
+  "hero": {
+    "title": "圣克鲁瓦-昂雅雷・Sainte-Croix-en-Jarez・法国・卢瓦尔省",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在法国卢瓦尔省的山谷深处，藏着一处几乎被时间遗忘的石头村落——圣克鲁瓦-昂雅雷。这里没有城堡，没有教堂尖塔，却有一座完整的加尔都西派修道院，修士的独居牢房变成了农舍，回廊成了村庄小巷。法国大革命后，这座原本与世隔绝的苦修之地，被改造成一个独特的居民村落，堪称欧洲历史转型的活标本。抛开游玩攻略，走进这座修道院村庄的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">圣克鲁瓦-昂雅雷</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Sainte-Croix-en-Jarez</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Sainte-Croix-en-Jarez</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卢瓦尔省</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1281年</strong>，一位名叫吉尧姆·德·拉·图尔的当地领主，在一片荒僻的山谷中，为加尔都西派修士建立了这座修道院。加尔都西修会以严苛的静默和独居修行闻名，每个修士拥有一间独立的小室（cella），环绕着回廊，与外界彻底隔绝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">修道院的选址极具象征意义——<strong>圣克鲁瓦</strong>意为“圣十字架”，<strong>雅雷</strong>则是当地一片古老森林的名字。修士们在荒野中开辟菜园、修建水道，过着自给自足的生活。建筑群完全按照加尔都西派的标准布局：中心是一座小教堂，四周环绕着12间修士牢房（每间都带一个小花园），以及图书馆、食堂、工坊等空间。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>17世纪</strong>，修道院经历了一次大规模重建，增加了巴洛克风格的装饰。但静默的传统从未改变。修士们每天只吃一餐，每周只允许交谈一次。这种极端的苦修生活，持续了五个多世纪。直到<strong>1789年</strong>，法国大革命爆发，一切戛然而止。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1792年</strong>，修道院被革命政府没收。修士们被驱逐，建筑被拍卖。但令人意外的是，没有贵族或商人买下它，而是<strong>一群当地农民</strong>集资购入了整座建筑群。他们随即搬进了修士的独居牢房——每间小室正好可以容纳一个家庭，回廊变成共享的庭院，食堂变成谷仓，小教堂则被改造成公共粮仓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，这座曾经只属于上帝的静修之所，变成了一个世俗的村庄。<strong>1800年代</strong>，村庄逐渐发展出独立的生活逻辑：修士的花园变成了菜地，石头水槽用来洗衣，一些牢房甚至被加盖了烟囱，变成了温暖的农舍。最神奇的是，由于建筑结构从未被拆毁，整个修道院的外貌几乎完整保留下来——只是内部用途彻底改变。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1944年</strong>，一场大火烧毁了部分屋顶，但村民们自发修复。<strong>1980年代</strong>，法国文化部门将其列为历史古迹，并开始系统性保护。如今，圣克鲁瓦-昂雅雷是法国唯一一个“修道院村庄”——整个村落就是一个巨大的中世纪修道院，而居民们的日常生活，就发生在修士曾经的静默空间里。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">一位当地老人在20世纪初回忆：“我小时候住在修士的牢房里，墙上有他们刻的十字架。母亲在原来书写经文的桌台上揉面团。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣克鲁瓦-昂雅雷没有诞生过国王或大文豪，但有一位修士的故事，至今仍在村庄的墙壁间流传——</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>多米尼克·德·圣-马丁（1735-1792）</strong>，是修道院最后的院长之一。他出生于一个贵族家庭，却在22岁选择加入加尔都西派，成为最严苛的苦修者。他精通草药学，在修道院的花园里种植了大片药草，为附近村庄的穷人治病。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1792年</strong>，革命军队在里昂镇压反抗后，来到圣克鲁瓦-昂雅雷。多米尼克拒绝交出修道院的金色圣爵，称“这是属于上帝之物”。士兵们将他押送到里昂的监狱，两个月后，他被处决。临死前，他给修会写了一封信，信中说：“我已经闻到了大地从长眠中苏醒的气味。”这封信后来被修士们秘密保存，直到19世纪末才被发现——现在陈列在村庄的小博物馆里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位传奇人物，是<strong>让-巴蒂斯特·拉维涅（1804-1888）</strong>，他不是修士，而是第一个出生在这个修道院村庄的孩子。他的祖父正是1792年买下修道院的农民之一。让-巴蒂斯特成年后成为了一名石匠，他用了整整三十年时间，<strong>修复了修道院所有破损的石雕和滴水嘴</strong>。他按中世纪的原样复制了32个修士跪像，尽管没人知道原来是什么样子。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">让-巴蒂斯特曾对邻居说：“我每凿一锤，修士们的沉默就在石头里振动。他们不会说话，但我会替他们说出来。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，村庄的一个庭院以他的名字命名——“拉维涅广场”。那里种着一棵他亲手栽下的椴树，树荫覆盖了当年修士们散步的回廊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此外，<strong>二战期间</strong>，有一位名叫玛格丽特·迪朗的女教师，她利用修道院的地下酒窖，先后藏匿了12名犹太人。她从未向任何人提起，直到1980年代，一位幸存者回来寻找恩人，人们才知道这段历史。玛格丽特被以色列授予“国际义人”称号，但她从未离开过村庄，一直住在当年修士的牢房里，直到1993年去世。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在圣克鲁瓦-昂雅雷，流传着一个关于“静默者”的传说：</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>在1460年代</strong>，一位年轻修士因违反静默戒律，与一个牧羊女说了话，被罚在回廊里跪着诵经三天三夜。第三天夜里，暴雪封山，年轻的修士冻死在回廊的石板地上。自那以后，每当冬夜风雪大作，就能听到回廊里传来低声诵经的声音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">村民们说，那不是幽灵，而是修道院还在按照自己的节奏活着。一些老人坚持认为，把耳朵贴在修道院花园的井沿上，可以听到修士们当年唱圣歌的微弱回声——那是石头记住的声音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一个关于“修士宝藏”的故事：大革命前，修士们将一批珍贵的金质圣器埋在了修道院地下。<strong>20世纪初</strong>，有人曾试图寻找，但每次挖掘都会引发屋顶漏水或墙壁坍塌。村民们因此认为，宝藏被诅咒了，只有真正对静默保持敬意的人才能找到它。至今没人成功。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣克鲁瓦-昂雅雷的意义，远不止是一座保存完好的修道院。它是法国大革命的微观缩影——最神圣的宗教空间，被最世俗的农民生活所占据，却意外地延续了一种“活着的建筑”的状态。你看不到玻璃展柜里的文物，因为整个村庄就是文物本身。修士的牢房变成了卧室，回廊变成了小孩子们的游乐场，食堂变成了婚礼大厅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这里，历史没有被封存，而是被重新书写。<strong>沉默变成了日常的喧嚣，独居变成了邻里共用一口水井。</strong> 每一个住户都仿佛在延续着一场穿越五百年的对话——与曾经的修士，也与自己。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/oppede-le-vieux\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥皮内德（吕贝隆）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Oppède le Vieux</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/oingt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    昂\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">昂村</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Oingt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/beziers-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝兹道城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Béziers Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "oppede-le-vieux",
+          "name": "奥皮内德（吕贝隆）",
+          "englishName": "Oppède le Vieux"
+        },
+        {
+          "slug": "oingt",
+          "name": "昂村",
+          "englishName": "Oingt"
+        },
+        {
+          "slug": "beziers-castle",
+          "name": "贝兹道城堡",
+          "englishName": "Béziers Castle"
+        }
+      ]
+    }
+  ]
+}

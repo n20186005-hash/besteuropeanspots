@@ -1,0 +1,85 @@
+{
+  "slug": "deva-history",
+  "template": "history",
+  "metadata": {
+    "title": "德瓦历史溯源｜特兰西瓦尼亚火山要塞的前世今生与传奇故事",
+    "description": "探秘罗马尼亚德瓦城堡废墟：一座建在安山岩火山锥上的要塞，承载罗马、匈牙利与奥斯曼的千年博弈。跟随历史向导走进这个被遗忘的秘境，聆听山巅的时光回响。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "罗马尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "胡内多阿拉县",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "德瓦",
+      "href": "/attractions/deva-history"
+    }
+  ],
+  "hero": {
+    "title": "德瓦・Deva・罗马尼亚・胡内多阿拉县",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在特兰西瓦尼亚的边缘，一座孤峰拔地而起，如巨人的拳头刺破天际。峰顶那座嶙峋的城堡废墟，便是 <strong>德瓦</strong> 的灵魂所在。它曾是大罗马尼亚的边疆哨所，匈牙利国王的避难所，奥斯曼铁骑的眼中钉。如今，缆车缓缓攀升，将游客送上两百米高的火山岩冠冕。抛开游玩攻略，走进德瓦的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">德瓦</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Deva</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Deva</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">罗马尼亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">胡内多阿拉县</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德瓦的名字，源自古老的达契亚语“Dava”——意为“要塞”。这片土地最早的居民，是公元前一世纪的达契亚人。他们在穆列什河畔的这座火山锥上，筑起了第一道防御工事。然而，真正的城市史始于 <strong>1241年</strong> 那场改变一切的风暴。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那一年，蒙古大军席卷特兰西瓦尼亚。匈牙利王国为加强边疆防御，在德瓦山巅兴建 <strong>石质城堡</strong>。选址堪称绝妙：火山岩安山岩的圆锥山体陡峭如削，山顶面积不足一公顷，却足够驻守两百精兵。城堡初名“迪瓦”（Deeva），源于斯拉夫语“处女”——传说有位公主为躲避入侵者，从山巅跳下殉情。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>中世纪</strong> 的德瓦城堡迅速成为胡内多阿拉县的政治中心。匈牙利国王将其赐予特兰西瓦尼亚总督，控制着从穆列什河谷通往西罗马帝国的盐道与商路。山脚下逐渐聚起集镇，被称为“德瓦自由城镇”。1438年， <strong>约翰·匈雅提</strong>——这位对抗奥斯曼的传奇统帅，曾在此加固城堡，增设双层城墙与深水井。他留下的印记，至今仍嵌在城堡残墙的每道缝隙里。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德瓦最黑暗的篇章，发生在 <strong>奥斯曼帝国扩张时期</strong>。1550年，苏丹苏莱曼大帝的军队兵临城下。城堡守军不足百人，却坚守了整整两周。最终，他们耗尽粮草，在城墙被炸开缺口后，选择引爆弹药库与敌人同归于尽。这场毁灭性爆炸，将城堡大半化为瓦砾，却也成就了德瓦“不死要塞”的威名。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1849年</strong>，匈牙利革命军曾短暂占据城堡，抵抗哈布斯堡王朝的镇压。革命者用山巅的炮台轰击河谷，却最终被奥地利军队的火炮压制。城堡又一次遭受重创——这一次，战火还焚毁了山脚的古老教堂与市政厅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正让德瓦城堡彻底荒废的，是 <strong>1868年那场灾难性的雷电</strong>。一道闪电击中城堡内的炮台下方军火库，引发惊天爆炸。方圆十里都能听见巨响，山体震颤，石块如雨点般砸向山脚的镇子。从那天起，城堡便再无人敢驻守，只留下断壁残垣，供后人凭吊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，游客乘坐 <strong>德瓦缆车</strong>——这座号称“罗马尼亚最陡峭”的索道，从山脚攀至山顶仅需三分钟。缆绳与水平面形成近45度夹角，车厢在风中轻轻摇晃。当焦黑的残墙突兀地出现在车厢窗外，那种扑面而来的沧桑感，瞬间将人拉回那个火药与剑刃交织的时代。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 米哈伊尔·齐霍林斯基：被遗忘的城堡守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果德瓦有灵魂，那一定属于 <strong>米哈伊尔·齐霍林斯基</strong>（Mihail Chiholinsky）。这位19世纪末的奥地利籍匈牙利军官，在1848年革命后流亡至此。他本可以像其他流亡者一样隐姓埋名，却选择成为德瓦城堡的“兼职看守”——尽管城堡当时已属于废墟。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">齐霍林斯基住在山脚下的一栋石屋里，每月三次攀爬陡峭的山路，检查残墙是否因风雨松动。他亲手绘制了城堡的详细平面图，标注出每个地穴、每段围墙的受损程度。这些图纸后来成为罗马尼亚国家古迹委员会的珍贵档案。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最动人的轶事来自他的一本日记。其中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“1892年9月，一场暴风雨使西墙出现裂缝。我独自扛着石灰袋攀上山顶。站在焦黑的墙头，望着穆列什河谷在晨雾中蜿蜒，忽然明白：我守护的不仅是砖石，而是一整个时代的记忆。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1915年，齐霍林斯基在贫困中去世。他的遗体被安葬在山脚小教堂的墓园里，正对着城堡的方向。如今，游客若细心寻找，仍能在城堡入口处的碑文上看到他的名字——那是后人刻下的纪念。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 安娜·德·乌尔西尼：为自由而死的女爵</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更早的时代，德瓦城堡与一位女性的名字紧紧相连： <strong>安娜·德·乌尔西尼</strong>（Ana de Ursini），17世纪的特兰西瓦尼亚女爵。她出身于胡内多阿拉的古老家族，却因家族卷入匈牙利贵族反对哈布斯堡王朝的阴谋，而被囚禁在德瓦城堡的地牢里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那个地牢至今仍存：位于城堡北墙下的岩石中，狭窄、阴暗，仅有一道拇指宽的铁窗透进微光。安娜在那里度过了整整三年。传说她利用探监的机会，用羊皮纸写密信传给山下的起义者。信件被藏在面包里，或者缝进衣物的夹层。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1652年，哈布斯堡当局下令将她转移到维也纳。安娜在押送途中，于山脚驿站里服毒自尽——她宁愿以死留在德瓦的土地，也不愿远离这座俯瞰家乡的城堡。她的墓冢在何处，至今无人知晓。但每年夏天，有当地女孩会带一束野花放在城堡地牢的铁窗前，据说那是为了纪念“自由女爵”。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">民间口口相传：那扇铁窗在满月之夜会透出淡蓝色的微光，仿佛安娜的灵魂仍在仰望星空。</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德瓦城堡最著名的传说，关于 <strong>“山主”</strong>——一头守护地下水源的巨蛇。传说城堡之所以能在围攻中屹立不倒，全因山体内有一条永恒不涸的泉水。而这条泉水，正由一头银鳞巨蛇看守。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人说，若在夏至午夜，独自登顶山巅，屏息静听，能听见地下隐隐有水流声。若这时恰好有一阵风吹过，吹动残墙上的藤蔓，那沙沙声便是巨蛇翻身换岗的低吟。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个流传更广的习俗：每逢 <strong>5月6日</strong>（东正教圣乔治日，传统上象征春天的胜利），德瓦的年轻人会攀上城堡废墟，在最高的塔楼残墙下点燃篝火。这是古代达契亚人庆祝冬日结束的遗风。篝火必须用九种不同的木材点燃，火焰窜起时，人们会绕着火堆跳三圈，边跳边喊：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“城堡不死，泉水不枯，山主不眠，德瓦常青。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说，这样便能保佑下一年的丰收与平安。如今，这仪式已演化为胡内多阿拉县的非物质文化遗产，每年都有数百人参与——即使他们中的大多数人，并不真正相信巨蛇的存在。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德瓦，这座被火山岩托举的古城，从未真正属于繁华的聚光灯。它曾是边疆、是囚牢、是火药库——每一次辉煌都伴随着毁灭，每一次重生都始于废墟。它像一位沉默的历史记录者，把罗马的铭文、匈牙利的徽章、奥斯曼的炮火、奥地利人的铁蹄，统统刻进焦黑的安山岩里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂德瓦，就是读懂特兰西瓦尼亚的千年缩影：一个被帝国反复撕扯，却始终在石缝里开出花的角落。当缆车将你送上山巅，站在那曾引爆炸药库的残墙前，俯瞰穆列什河在谷底静静流淌，你会明白：有些地方，值得用一生去记住。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hoia-baciu-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍伊亚·巴丘森林</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hoia Baciu Forest</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alba-carolina-citadel\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔巴尤利亚七芒星卡罗莱纳城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alba Carolina Citadel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sibiu-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    锡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">锡比乌老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sibiu Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "hoia-baciu-forest",
+          "name": "霍伊亚·巴丘森林",
+          "englishName": "Hoia Baciu Forest"
+        },
+        {
+          "slug": "alba-carolina-citadel",
+          "name": "阿尔巴尤利亚七芒星卡罗莱纳城堡",
+          "englishName": "Alba Carolina Citadel"
+        },
+        {
+          "slug": "sibiu-old-town-history",
+          "name": "锡比乌老城",
+          "englishName": "Sibiu Old Town"
+        }
+      ]
+    }
+  ]
+}

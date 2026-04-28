@@ -1,0 +1,85 @@
+{
+  "slug": "foligno-history",
+  "template": "history",
+  "metadata": {
+    "title": "福利尼奥历史溯源｜但丁《神曲》首次印刷之地，特林奇宫的哥特壁画与中世纪传奇",
+    "description": "深入意大利翁布里亚平原，探访福利尼奥的尘封往事。这里是《神曲》首次印刷的圣地，特林奇宫藏着晚期哥特壁画的绝唱。抛开攻略，走进这座小城的时光与传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "意大利",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "福利尼奥",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "福利尼奥",
+      "href": "/attractions/foligno-history"
+    }
+  ],
+  "hero": {
+    "title": "福利尼奥・Foligno・意大利・福利尼奥",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在翁布里亚广袤的平原上，福利尼奥像一本摊开的古老羊皮卷。公元前的罗马人曾在此驻扎，中世纪的商旅在此驻足，而文艺复兴的曙光照亮这里时，<strong>但丁的《神曲》</strong> 第一次被墨香镌刻成书。特林奇宫的壁画里，圣徒与贵族在金色背景中凝望，仿佛时间从未流逝。抛开游玩攻略，走进福利尼奥的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">福利尼奥</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Foligno</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Foligno</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">意大利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">福利尼奥</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">福利尼奥的名字，源自拉丁语 <strong>“Fulginia”</strong>，意为 <strong>“闪电之地”</strong>。古罗马人相信，这里是天神朱庇特抛下雷火的地方。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元前3世纪，罗马人沿着弗拉米尼亚大道（Via Flaminia）向北扩张，选中了这片肥沃的平原。他们修建了军事营地，叫 <strong>“Fulginium”</strong>。这里没有山丘的屏障，却成了交通枢纽——粮食、葡萄酒、羊毛从这里流向罗马。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪早期，福利尼奥饱受战乱。<strong>拜占庭人、伦巴第人、法兰克人</strong>轮番占领，直到12世纪才成为自由城邦。它的领主们——特林奇家族（Trinci）——在13世纪崛起，将这座平原小城变成了文艺复兴的前哨。他们修建了宏伟的宫殿，邀请佛罗伦萨的画家来装饰墙壁。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">老城广场的碑文上刻着：“我们生于平原，却仰望星辰。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">福利尼奥的地形，让它始终处于权力中心之外，却因此保留了独特的 <strong>“平原贵族”</strong> 气度。它不像山城那样易守难攻，却用开放的态度包容了艺术与书籍。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1439年：但丁神曲的印刷革命</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是福利尼奥最闪亮的时刻。<strong>1439年</strong>，德国印刷商 <strong>约翰·内斯特（Johann Numeister）</strong> 在这里开设了意大利最早的印刷作坊之一。他用活字印刷术印出了但丁的《神曲》。这是《神曲》的第一个印刷版本，比佛罗伦萨的版本早了整整40年。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“火焰在墨水中燃烧，诗句从铁与铅的碰撞中诞生。”——19世纪藏书家日记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这本书后来被称为 <strong>“福利尼奥版《神曲》”</strong>。现存仅11本，每一本都是无价之宝。印刷的地点就在圣弗朗切斯科教堂附近，如今那里立着一块铜牌，纪念这场“文字的革命”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>特林奇宫：哥特式壁画的最后辉煌</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">特林奇宫是福利尼奥的灵魂。<strong>1390年代</strong>，领主 <strong>乌戈利诺·特林奇（Ugolino Trinci）</strong> 邀请画家 <strong>贝诺佐·戈佐利（Benozzo Gozzoli）</strong> 的师傅—— <strong>奥塔维亚诺·内利（Ottaviano Nelli）</strong> ——为宫殿绘制壁画。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些壁画是 <strong>晚期哥特式</strong> 的巅峰。在小礼拜堂里，圣徒们穿着金线绣成的长袍，圣母的表情像邻家少女般温柔。在“巨人厅”中，古罗马的伟人——西塞罗、凯撒——被画成中世纪的骑士，手持长矛和盾牌。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“金色背景中的每一个人物，都像在呼吸。”——艺术史家乔治·瓦萨里</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1439年</strong>，特林奇家族因政治阴谋被教皇军队推翻。宫殿被洗劫，壁画一度被白灰覆盖。直到20世纪中期，修复师才将它们重新呈现于世。这些壁画是 <strong>意大利晚期哥特式壁画最完整的例证之一</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1530年：永恒之城的影子</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在教皇国统治下，福利尼奥成为了 <strong>“朝圣之路”</strong> 上的重要驿站。每年成千上万的朝圣者沿着弗拉米尼亚大道走向罗马，在这里歇脚、祈祷。小城的教堂因此积累了丰富的艺术品，包括 <strong>佩鲁吉诺（Perugino）</strong> 的祭坛画。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>贝诺佐·戈佐利与特林奇宫的壁画</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>贝诺佐·戈佐利（1421-1497）</strong> 是佛罗伦萨画派的杰出代表，以《三王来朝》的华丽壁画闻名世界。但很多人不知道，他的艺术之路始于福利尼奥。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1439年</strong>，18岁的戈佐利以学徒身份来到特林奇宫，参与绘制 <strong>“巨人厅”</strong> 的壁画。他跟着奥塔维亚诺·内利学习如何调配蛋彩、如何用金箔打造神圣的光晕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在一段鲜为人知的日记中，戈佐利写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“在福利尼奥，我第一次看到罗马皇帝的脸——不是大理石雕像，而是活生生的人，穿着中世纪的铠甲。我明白了，神圣与世俗可以共存。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">后来，戈佐利在比萨的圣墓园绘制了《旧约》故事壁画，成为文艺复兴的里程碑。但他始终记得福利尼奥的平原，记得在那里掌握的 <strong>“金色叙事”</strong> 技法。他曾在信中透露：“特林奇宫的大厅，是我学会讲述故事的学校。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>但丁：《神曲》在福利尼奥的涅槃</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但丁·阿利吉耶里（1265-1321）从未到过福利尼奥。但这座城市却与他的不朽之作紧密相连。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1439年</strong>，当《神曲》的第一个印刷版本在这里诞生时，但丁的在天之灵或许会微笑。这本书不再是手抄贵族的奢侈品，而是属于所有能读书的人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">印刷商 <strong>约翰·内斯特</strong> 是德国人，带着古腾堡的技术翻越阿尔卑斯山。他选择福利尼奥，因为这里的领主 <strong>科拉多·特林奇（Corrado Trinci）</strong> 是人文主义者，坚信“文字应该被传播”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">内斯特的作坊很小，只有一台印刷机。他花了整整一年，用 <strong>“哥特字体”</strong> 逐页印刷《神曲》。每一页的左边还有手绘的装饰花体——手工与机器的结合，像极了中世纪向文艺复兴过渡的时代特征。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“1439年，在福利尼奥，但丁的诗句第一次不是被羊皮纸承载，而是被纸张。这是灵魂的解放。”——现代意大利学者</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，福利尼奥的圣弗朗切斯科教堂附近，有一间小博物馆，陈列着这台印刷机的复制品。墙上挂着一句话：“在这里，但丁走出了贵族与僧侣的圈养，走进了每一个人的心房。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>闪电与骑士的传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">福利尼奥人坚信，他们的城市被天神朱庇特庇护。传说在公元2世纪，罗马军队围剿反抗的翁布里亚部落。夜幕降临，平原上漆黑一片，罗马士兵迷了路。突然，一道闪电劈下，照亮了通往敌方营寨的道路。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“那是朱庇特的闪电——它选择了福利尼奥。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，城市标志中多了一道闪电。每年夏季，老城广场举行 <strong>“闪电节”</strong> ，孩童们举着纸扎的闪电装饰奔跑，纪念这场“神圣的指引”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣母雷神像的秘密</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在圣玛丽亚教堂里，有一尊14世纪的木质圣母像，被信徒称为 <strong>“雷神圣母”</strong>。传说在1439年大地震时，圣母像流下了眼泪。之后，人们发现雕像内部藏着一卷羊皮纸，上面写着：“只有勇敢的心才能穿越闪电。” 考古学家后来发现，羊皮纸其实是中世纪药方——但福利尼奥人更愿意相信它的神秘性。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“圣母不是流泪，她是想要告诉我们什么。”——当地老妇人</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，这尊圣母像依然立在教堂中，每年9月8日，全城人抬着它巡游，祈求风调雨顺。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">福利尼奥从不炫耀自己的历史。它像一位沉默的贵族，不必发声，便自带光芒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这座平原小城里，你触摸到的是 <strong>欧洲书籍革命的起点</strong>——但丁的诗句第一次从手抄变成印刷，思想从此不再被锁在羊皮纸上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在特林奇宫的壁画前，你看见的是 <strong>晚期哥特式艺术的最后高峰</strong>——金色依旧璀璨，人物依旧鲜活动人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">而民间传说与圣像崇拜，则提醒着人们：这座城市不仅有历史，还有 <strong>灵魂</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">福利尼奥，是 <strong>“闪电的幸存者”</strong>：罗马人的军靴、中世纪的战火、地震与洪水，都没能掩埋它的记忆。如今，它静静地站在翁布里亚平原上，等待有心人去翻开这本书。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tropea-calabria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特罗佩亚</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tropea</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/volterra-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃尔泰拉古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Volterra</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/caltagirone-ceramic-stairs\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔塔吉罗内</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caltagirone</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "tropea-calabria",
+          "name": "特罗佩亚",
+          "englishName": "Tropea"
+        },
+        {
+          "slug": "volterra-old-town",
+          "name": "沃尔泰拉古城",
+          "englishName": "Volterra"
+        },
+        {
+          "slug": "caltagirone-ceramic-stairs",
+          "name": "卡尔塔吉罗内",
+          "englishName": "Caltagirone"
+        }
+      ]
+    }
+  ]
+}

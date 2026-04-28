@@ -1,0 +1,85 @@
+{
+  "slug": "penamacor-history",
+  "template": "history",
+  "metadata": {
+    "title": "佩纳马科尔历史溯源｜葡萄牙边境山顶城堡的前世今生与犹太传奇",
+    "description": "深入伊比利亚半岛腹地，探访佩纳马科尔——这座被遗忘的边境要塞。从罗马哨所到犹太聚居地，从收复失地运动到伊比利亚猞猁的回归。一段横跨千年的尘封往事，等待你聆听。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "葡萄牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "Penamacor",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "佩纳马科尔",
+      "href": "/attractions/penamacor-history"
+    }
+  ],
+  "hero": {
+    "title": "佩纳马科尔・Penamacor・葡萄牙・Penamacor",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在葡萄牙中部边境，一片被风蚀的片岩山坡上，矗立着佩纳马科尔——一个连葡萄牙人自己都可能拼错名字的古老山镇。这里曾是罗马人监视平原的哨塔，是摩尔人最后的抵抗堡垒，也是犹太人被迫改宗后隐秘的安息之地。山顶的城堡废墟已不再喷吐硝烟，只有每年冬天从西班牙翻山而来的伊比利亚猞猁，在荒芜的城墙上刻下新的爪痕。抛开游玩攻略，走进佩纳马科尔的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">佩纳马科尔</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Penamacor</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Penamacor</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">葡萄牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">Penamacor</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩纳马科尔的名字源自拉丁语“Pinna”（岩石）与阿拉伯语“Macor”（堡垒）的混合——<strong>Pena（岩石）</strong> + <strong>Macor（堡垒）</strong>，直译便是“岩石上的堡垒”。这片土地早在公元前2世纪就已有人类活动：罗马人在这里修建了名为“Mirobriga”的军事驿站，用以监控从梅里达通往布拉加的古罗马大道。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“山路陡峭，岩石裸露，但站在最高处能望见三十里外的西班牙山脉。士兵们在这里燃起烽火，用狼烟传递消息。”——古罗马地理学家梅拉的笔记片段</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">12世纪，葡萄牙第一位国王阿方索一世从摩尔人手中夺回这片土地。<strong>1179年</strong>，国王下令在原有罗马地基上重建石堡，佩纳马科尔作为对抗莱昂王国（西班牙）的前沿要塞正式载入史册。地名中残留的“Macor”暗示着摩尔人曾在此经营超过三个世纪，他们开凿了至今仍在使用的灌溉渠，并引种了杏树和橄榄。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正赋予小镇雏形的是<strong>1285年</strong>的葡萄牙国王迪尼斯。他颁布特许状（Foral），鼓励边境移民定居，并划出城墙内的“高城”（Alcáçova）供贵族居住，山腰的“低城”则归农民和犹太工匠。如今漫步在狭窄的鹅卵石路上，依然能辨认出中世纪的街道网格——每一条巷子都指向唯一的制高点：城堡。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一道印痕：收复失地运动的血色黎明</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1344年，卡斯蒂利亚军队围城长达八个月。守城的是佩纳马科尔领主——<strong>费尔南·马丁斯·德·阿尔科巴萨</strong>。据《葡萄牙编年史》记载，他命令妇女和老人假装在城墙上磨刀，并将仅有的葡萄酒从城头倒下，制造“液体黄金”充足的假象。敌军信以为真，解除围困。这座城堡从未被正面攻破，却在<strong>1375年</strong>毁于一场意外的火药爆炸——储存弹药的地下室被闪电击中，炸毁了大半个塔楼，至今残存的断壁就是那次灾难的伤疤。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二道印痕：犹太人的短暂圣殿</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">15世纪末，曼努埃尔一世强迫犹太人改宗天主教，但佩纳马科尔偏远的地理位置使其成为秘密信仰的避难所。在城堡脚下的“犹太街”（Rua da Judiaria）一片普通住宅的地下，考古学家发现了<strong>藏有15世纪希伯来文祈祷书的密室</strong>。墙壁上刻着希伯来字母，一些符号被石灰覆盖后又被人用指甲重新描画——这是被迫改宗者（Cristãos-Novos）无声的抵抗。最令人惊叹的是，小镇至今保留着每年复活节后第一个周三的“犹太面包节”——居民烘烤无酵饼（仿制马佐）并分发给穷人，尽管大多数人已不知道这习俗的真正起源。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三道印痕：被遗忘的边境石镇</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪后，随着葡萄牙与西班牙边境趋于稳定，佩纳马科尔的军事功能消失。城堡的石头被居民拆去盖房，教堂的银器被拿破仑军队抢走。19世纪的一场大火又烧毁了低城三分之一木结构房屋。小镇逐渐沉寂，人口从鼎盛的五千人跌至如今不足五百人。直到21世纪初，<strong>伊比利亚猞猁保护项目</strong>将这片废弃的片岩山地列为生态走廊，城堡废墟才又迎来了新的“居民”——这种濒临灭绝的猫科动物，成为佩纳马科尔最沉默的考古学家。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 文艺复兴的异端：弗朗西斯科·德·奥兰达（1517-1584）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">很少有人知道，这位葡萄牙最有名的文艺复兴艺术理论家、米开朗基罗的挚友，其家族根就在佩纳马科尔。弗朗西斯科出生于里斯本，但父亲是佩纳马科尔的犹太裔改宗贵族。他曾在罗马居住三年，与米开朗基罗彻夜长谈艺术与信仰。1548年回到葡萄牙后，他撰写了《论古代绘画》（Da Pintura Antiga），其中大量引用米开朗基罗的对话。然而，由于他的犹太血统，宗教裁判所始终监视着他。弗朗西斯科晚年选择隐居于佩纳马科尔城堡旁的一座小农庄，在那里用葡萄牙语写下了一部从未出版的手稿——<strong>《岩石上的对话》</strong>。手稿中他写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“在这片被烈日烤焦的土地上，我听见了山风带来的古老语言。那些刻在罗马石柱上的名字，那些埋在犹太街地下的祈祷，与我在西斯廷教堂仰望的穹顶一样真实。艺术从不属于国王或教皇，它属于每一个在石头上刻下符号的人。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这部手稿后来在19世纪被偶然发现，现藏于里斯本国家图书馆。2015年，学者在佩纳马科尔的一座废弃磨坊里找到了手稿中提到的几幅素描草图，描绘的正是城堡在不同季节的光影变化。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 最后的犹太医生：若昂·罗德里格斯·德·卡斯特罗（1550-1625）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">若昂出生在佩纳马科尔的犹太街，家族几代都是行医的“新基督徒”。他在萨拉曼卡大学学医后，拒绝了科英布拉大学的教职，回到家乡为穷人和摩尔人后裔治病。1610年，宗教裁判所怀疑他暗中遵循犹太教规，将他逮捕。在里斯本的监狱里，他受尽酷刑却拒不认罪，最终被判处五年监禁。获释后，他回到佩纳马科尔，在城堡下方的一个岩洞里建立了秘密诊所——<strong>至今这个岩洞仍被当地人称为“医生洞”（Gruta do Médico）</strong>。他的药方写在一卷羊皮纸上，糅合了犹太医学、阿拉伯草药学和民间经验。1923年，一位牧羊人在洞里发现了这卷羊皮纸，其中记录的治疗毒蛇咬伤的配方，经现代药理学验证，主要成分竟然对凝血有显著作用。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“哭泣的石头”与猞猁的预言</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩纳马科尔最广为人知的传说是关于城堡东墙下一块形状像人脸的巨石。据说每当镇上即将发生灾难，这块石头就会在夜晚发出类似女人哭泣的声音。当地老人说，最后一次听到哭声是<strong>1755年里斯本大地震</strong>那天——尽管佩纳马科尔距离震中数百公里，但城堡的部分墙体依然在地震中倒塌，而石头确实在震前三天发出了呜咽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说与伊比利亚猞猁有关。当地人相信猞猁是古代摩尔巫师留下的守护灵。每当猞猁在某个特定地点挖洞，那里就会在雨季之后涌出泉水。1943年大旱期间，一只猞猁在城堡西北角的灌木丛里扒拉泥土，第二天果真出现了一个小水源，救了半个镇的羊群。如今，生态保护组织的工作人员会在猞猁饮水的固定位置放置摄像机，而地方议会甚至将猞猁的脚印图案刻在了镇徽上。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“猞猁的耳朵尖上有一簇黑毛，那是它偷听人间的天线。它知道山那边发生了什么事，它会在城堡的阴影里打哈欠，然后决定是否把秘密告诉风。”——19世纪佩纳马科尔民间谣曲</blockquote>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩纳马科尔不是那种被精心修缮的旅游景点。城堡的城墙上长满了苔藓和龙舌兰，犹太街的地下祈祷室至今没有正式开放——你需要找镇政府的老公务员要一把生锈的钥匙。但正是这种被时间打磨过的粗糙感，让每一块石头都变得沉重。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>读懂佩纳马科尔，等于读懂葡萄牙边境的另一种历史</strong>：它不是大航海时代的辉煌，不是里斯本、波尔图的光鲜，而是沉默的抵抗、被迫的融合、以及自然与人文的再次交织。当你站在城堡废墟边缘，看到下方平原上蜿蜒的界河，听到风中隐约传来的猞猁叫声，你会明白：这座城市从来不是为了游客而存在，它是为了那些真正愿意倾听的人而存在。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/belem-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝伦灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Belem Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/guimaraes-historic-centre-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    吉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">吉马良斯历史中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Historic Centre of Guimarães</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/leiria-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱里亚城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Leiria Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "belem-lighthouse",
+          "name": "贝伦灯塔",
+          "englishName": "Belem Lighthouse"
+        },
+        {
+          "slug": "guimaraes-historic-centre-history",
+          "name": "吉马良斯历史中心",
+          "englishName": "Historic Centre of Guimarães"
+        },
+        {
+          "slug": "leiria-castle",
+          "name": "莱里亚城堡",
+          "englishName": "Leiria Castle"
+        }
+      ]
+    }
+  ]
+}

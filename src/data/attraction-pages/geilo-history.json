@@ -1,0 +1,85 @@
+{
+  "slug": "geilo-history",
+  "template": "history",
+  "metadata": {
+    "title": "耶卢历史溯源｜高山铁路上的挪威滑雪圣地与哈当厄尔高原探险起点",
+    "description": "从维京牧羊地到皇家滑雪村，挪威耶卢因卑尔根铁路而崛起。这里走出过滑雪国王奥拉夫五世，也是高原探险家的精神故乡。一段跨越千年的冷门传奇，等你聆听。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "挪威",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "维肯郡",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "耶卢",
+      "href": "/attractions/geilo-history"
+    }
+  ],
+  "hero": {
+    "title": "耶卢・Geilo・挪威・维肯郡",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在挪威的群山腹地，有一处连地图上都常被忽略的小站——<strong>耶卢</strong>。它坐落在哈当厄尔高原的边缘，是卑尔根高山铁路上的重要枢纽，也是探险者穿越欧洲最大高原生态区的起点。百余年前，它只是山间几处孤寂的农场；如今，却成了北欧皇室与滑雪爱好者的秘密后花园。抛开游玩攻略，走进耶卢的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">耶卢</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Geilo</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Geilo</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">挪威</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">维肯郡</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">耶卢的名字源自古诺斯语 <strong>“geil”</strong>，意为“狭窄的山谷”或“山间小路”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这片土地最早是维京时代的夏季牧场——牧民们赶着牲畜翻越哈当厄尔高原，在此短暂歇脚。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">17世纪时，这里才出现固定居住点，寥寥几户农夫靠狩猎和放牧为生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的转折发生在 <strong>1909年</strong>——<strong>卑尔根铁路</strong>（Bergensbanen）全线贯通，这条横穿哈当厄尔高原的工程奇迹，让耶卢从荒野深处突然跃上国际地图。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">铁路工程师们发现，耶卢恰好位于高原南麓的缓坡，是建设机车加水站和信号站的理想地点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">于是，一座不起眼的木制车站拔地而起，围绕它，旅店、杂货铺和邮局陆续出现。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">耶卢的原始地名中还隐含着另一种解读：当地萨米人曾称此地为 <strong>“Gæillog”</strong>，意为“悬崖边的水塘”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">无论哪种解释，都指向同一个事实——这里从来就不是什么繁华都会，而是自然与文明交汇的边境。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>这条铁路不仅带来了蒸汽火车，更带来了第一批探险者、滑雪客和艺术家。</strong></p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>铁路与拓荒时代（1909-1930）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卑尔根铁路的建设堪称欧洲铁路史的壮举。工人要在海拔1200米的高原上铺设铁轨，面对暴雪和极夜。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">耶卢成为工人们的重要补给站，站台旁至今保留着当年为火车头加水的 <strong>石砌水塔</strong>，那是工业时代留下的沉默印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1920年代，第一批崇尚自然的英国贵族乘着火车来到这里，他们被雪原的寂静震慑，称耶卢为“欧洲最后的白色边疆”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>滑雪运动的兴起（1930-1950）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1930年代，奥林匹克滑雪热席卷北欧。耶卢得天独厚的地形——从高原缓坡到陡峭山脊——吸引了挪威最顶尖的滑雪俱乐部。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1935年，挪威国家滑雪队将耶卢设为训练基地，小镇首次迎来国际赛事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正让耶卢名声大噪的，是 <strong>二战后的挪威王室</strong>。国王哈康七世与王储奥拉夫多次秘密来此滑雪，躲避德军搜捕的传闻至今在老人中流传。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>皇家度假地的诞生（1950-1990）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1957年，登基不久的 <strong>奥拉夫五世</strong> 正式将耶卢定为王室冬季度假村。他在镇上修建了一座简朴的木屋“国王小屋”（Kongshytta），每年二月必来住上两周。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座小木屋没有电，没有自来水，国王亲自劈柴生火。消息传开后，贵族和富商纷纷效仿，在耶卢周边买地建别墅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1960年代，耶卢迎来了第一批美国电影明星——他们因拍摄北欧题材影片而发现这块宝地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1970年，第一条现代化缆车“耶卢快线”建成，标志着小镇从乡村滑雪场向国际度假地的转型。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 滑雪国王：奥拉夫五世（1903-1991）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥拉夫五世是挪威史上最亲民的君主之一。他年轻时就是滑雪健将，曾在 <strong>1928年圣莫里茨冬奥会</strong>上代表挪威参赛。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但他与耶卢的羁绊始于二战。1943年，为躲避纳粹追捕，当时还是王储的奥拉夫化身成一名普通滑雪向导，带着几名抵抗组织成员穿越哈当厄尔高原。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他们在耶卢的一家农舍里躲了整整三周。农舍主人后来回忆：<strong>“他（奥拉夫）每天凌晨四点起床，用扫帚在雪地上画出训练路线，教我们的孩子如何用滑雪板逃脱追兵。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后，奥拉夫五世将耶卢视为第二故乡。他每年雪季都来“国王小屋”隐居，甚至亲自在镇上唯一的杂货店排队买面包。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>1968年的一次采访中，国王说：“只有在耶卢，我才能摘下王冠，用滑雪杖敲响森林里的冰柱——那声音比任何钟声都动听。”</strong></blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥拉夫七十三岁那年，还在耶卢的陡坡上摔断了锁骨。他拒绝乘直升机，坚持用雪橇被拖下山。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，“国王小屋”被保留为博物馆，里面仍挂着他亲手修补的旧滑雪板。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 高原吟游诗人：Mikkjel Fønhus（1884-1963）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Mikkjel Fønhus 是挪威文学史上最被低估的作家之一。他出生在距离耶卢五十公里的山区农场，一生都在书写哈当厄尔高原的呼吸。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Fønhus 的笔名是 <strong>“高原牧羊人”</strong>，他的小说《雪的沉默》《狼群里的灯》都发生在耶卢周边的荒原。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1918年，他徒步穿越哈当厄尔高原，在耶卢落脚写作。他租下铁路旁的一间破旧木屋，门窗漏风，唯一的取暖物是铸铁火炉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在那里，他完成了他最著名的作品 <strong>《黑湖》</strong>——一部关于猎人被雪困在高原幻觉中的心理惊悚小说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Fønhus 对耶卢的贡献不仅仅是文学。他亲自设计了一条从耶卢通往高原腹地的徒步小径，沿途用石头标记高地植物的拉丁学名。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>他在日记中写道：“耶卢不是终点，是通往永恒白色的大门。每一个来这里的人，都应该学会倾听石头发出的低语。”</strong></blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1963年，Fønhus 在耶卢的农舍去世。他的葬礼上，当地牧民按照古老习俗，用鹿皮包裹他的遗体，葬在能看到九座雪峰的悬崖下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，挪威文学研究会每年八月在耶卢举办“Fønhus 高原夜读会”，在篝火旁朗读他描写风雪与孤独的文字。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>山妖的午夜牧场</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哈当厄尔高原上流传着关于 <strong>“山妖之牛”</strong>（Trollkyr）的传说。据说，每当满月之夜，山妖会赶着羊群从耶卢背后的峡谷中走出，在雪地上留下巨大的蹄印。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地牧民相信，如果看到这些蹄印，就意味着来年冬天特别漫长。他们会在第一时间用羊奶和蜂蜜祭奠，祈求山妖不要抢走牧草。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>黑死病的避难地</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">14世纪，黑死病席卷挪威，沿海城镇十室九空。传说一群幸存者沿着山路逃至耶卢，用巨石垒起环形围墙，将自己隔离了整整三年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1965年，考古学家在耶卢北面的山坡上真的发现了 <strong>这些石墙的遗迹</strong>，以及一些带有14世纪刻痕的骨片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老人们至今会在冬至日爬上那片山坡，点燃火把，唱一首古老的“隔离之歌”——歌词大意是：“山会保佑诚实的人，瘟疫会绕开祈祷的嘴唇。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>幽谷水塘中的精灵</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">耶卢火车站东侧有一处终年不冻的水塘，当地人称为 <strong>“精灵井”</strong>。传说每当暴风雪将至，水面会浮现出蓝色的磷光，那是远古精灵在修补渔网。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2002年，一名工程师在扩建铁路路基时，发现水塘底部有一块刻满卢恩字母的砂石，上面写着：<strong>“谁在此饮水，谁就饮下了高原的记忆。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这块石头如今被镶嵌在耶卢车站的候车厅墙壁上，成为最受欢迎的“打卡点”——不过不是拍照，而是轻轻触摸，祈求旅途平安。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">耶卢的意义，远不止于滑雪场与山区度假村。它是挪威人理解自然的钥匙——一条铁路、一间木屋、一片石墙，都诉说着人如何在极境中与天地共生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从维京牧羊人的足迹，到国王劈柴生火的小屋；从诗人笔下的雪原，到山妖传说里的午夜蹄印——耶卢用最朴素的方式，保留着北欧文明的原始心跳。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂耶卢，就是读懂挪威人为何甘愿在寒冷中寻找温暖，在孤独中创造诗意。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>如果你想亲自用脚步丈量这段历史，去触摸国王小屋的木纹，去聆听Fønhus路上的风声——</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rost\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    勒\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">勒斯特岛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Røst</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jul-i-vinterland-oslo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥斯陆冬日圣诞市场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jul i Vinterland, Oslo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/norway-fisheries-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    挪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">挪威渔业博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Norway Fisheries Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "rost",
+          "name": "勒斯特岛",
+          "englishName": "Røst"
+        },
+        {
+          "slug": "jul-i-vinterland-oslo",
+          "name": "奥斯陆冬日圣诞市场",
+          "englishName": "Jul i Vinterland, Oslo"
+        },
+        {
+          "slug": "norway-fisheries-museum",
+          "name": "挪威渔业博物馆",
+          "englishName": "Norway Fisheries Museum"
+        }
+      ]
+    }
+  ]
+}

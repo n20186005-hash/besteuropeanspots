@@ -1,0 +1,85 @@
+{
+  "slug": "judenburg-history",
+  "template": "history",
+  "metadata": {
+    "title": "尤登堡历史溯源｜中世纪铸币城的前世今生与星象塔楼传奇",
+    "description": "探索奥地利施泰尔马克州尤登堡的尘封往事：为何这座小城曾是神圣罗马帝国最重要的铸币中心？高达75米的星象塔楼藏着哪些天文秘密？从萨尔茨堡大主教到民间炼金术，一段跨越千年的时光之旅。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "奥地利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "Judenburg",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "尤登堡",
+      "href": "/attractions/judenburg-history"
+    }
+  ],
+  "hero": {
+    "title": "尤登堡・Judenburg・奥地利・Judenburg",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在施泰尔马克州的穆尔河谷深处，有一座被时光遗忘的中世纪宝石——<strong>尤登堡</strong>。它曾是神圣罗马帝国最重要的铸币城之一，拥有高达<strong>75米的星象城市塔楼</strong>，至今仍俯瞰着河谷全景。抛开游玩攻略，走进尤登堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">尤登堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Judenburg</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Judenburg</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">奥地利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">Judenburg</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>尤登堡</strong>的名字本身就藏着一段历史谜题。德语“Juden”意为犹太人，“burg”意为城堡。但这座城市的起源，却与犹太社区关系不大。真正的答案藏在<strong>1074年</strong>的一份文献里——它首次以“Judenburch”之名出现，那时只是萨尔茨堡大主教领地边缘的一处防御据点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更可信的起源传说指向<strong>12世纪</strong>。当时，萨尔茨堡大主教为了控制穆尔河畔的盐铁贸易路线，在此建造了一座堡垒。取名“Judenburg”，源于当地一个古老的斯拉夫语词根“jud-”，意为“森林中的定居点”。但民间更偏爱另一个版本：第一批定居者中有一支犹太商队，他们在此建立驿站，后来城墙环绕，名字便烙印下来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正让尤登堡崛起的，是<strong>铸币权</strong>。<strong>1245年</strong>，神圣罗马帝国皇帝腓特烈二世正式授予尤登堡铸币特许状。此后几百年，这座小城生产的银币——<strong>尤登堡芬尼</strong>——流通于整个阿尔卑斯山北麓。你今日在城内铺满鹅卵石的街道上漫步，脚下每一块石头都曾听过敲打银币的叮当声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了<strong>14世纪</strong>，尤登堡凭借穆尔河的水运和陆路商道，成为施泰尔马克州最富庶的城镇之一。<strong>1370年</strong>，城墙扩建，如今遗留的那段高墙，正是那个黄金时代的化石。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>铸币城的鼎盛与衰落</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">翻开尤登堡的账本，最浓墨重彩的一笔是<strong>15世纪中叶</strong>。当时，哈布斯堡王朝的弗雷德里克三世将这里作为对抗匈牙利马蒂亚斯·科维努斯的后方铸币基地。鼎盛时期，城内同时运转着<strong>八座铸币炉</strong>，每天熔铸白银达<strong>300公斤</strong>。铸币工匠们住在“铸币巷”（Münzgasse），至今那条窄巷墙根还嵌着一块刻有天平与锤子的铁质徽章。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但辉煌在<strong>1490年</strong>戛然而止。匈牙利军队突袭，劫掠了铸币厂，抢走了价值<strong>相当于今天200万欧元</strong>的银锭。此后铸币业一蹶不振，城邦经济转向纺织与冶金。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>星象塔楼：不仅是钟楼</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正让尤登堡与众不同的，是那座<strong>高75米的星象塔楼（Stadtturm）</strong>。它建于<strong>1442年</strong>，最初只是普通钟楼。但<strong>1565年</strong>，一位名为<strong>汉斯·冯·施泰因</strong>的数学家兼占星师，在大主教赞助下将其改造为天文观测台。塔身内部盘旋着<strong>322级石阶</strong>，每一层都凿有不同角度的观测窗，精确对准夏至日出、冬至日落的位置。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最神奇的是塔顶的<strong>机械星象盘</strong>——一个直径<strong>2.5米</strong>的铸铁圆盘，外围刻有黄道十二宫，内圈是月相与行星轨迹。它曾作为中世纪农民判断播种时节的“天文历”，后来在<strong>1683年维也纳之战</strong>时，还被用作信号灯塔，向远方的斯洛文尼亚传递土耳其人撤退的消息。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1629年的女巫审判</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">不能回避的黑历史。在<strong>1629年</strong>，尤登堡发生了施泰尔马克州最大的女巫审判案之一。一位名叫<strong>玛格丽特·霍费尔</strong>的草药商被指控用鼠尾草和蜂蜜“毒害”邻居的奶牛。审判持续了<strong>七个月</strong>，最终她与另外<strong>11名女性</strong>在塔楼下的广场被火刑处死。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到<strong>1998年</strong>，尤登堡市政府才在市档案馆公开展示了那些泛黄的审讯记录，并在广场上嵌了一块铭牌：“纪念被恐惧吞噬的无辜者。”</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 铸币大师：卡斯帕·施泰纳</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>卡斯帕·施泰纳（Caspar Steiner，1505-1574）</strong> 是尤登堡历史上最富传奇色彩的铸币大师。他出身于当地一个铁匠家庭，<strong>20岁</strong>便成为铸币厂首席工匠。他在<strong>1543年</strong>发明的“银币压印改良技术”，能使一枚银币的含银量误差控制在<strong>0.2克</strong>以内，比当时维也纳的铸币厂精确三倍。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">施泰纳最著名的举动，是<strong>1560年</strong>秘密铸造了<strong>12枚“尤登堡祝福银币”</strong>，每枚币面刻有不同的星座符号，据说可以驱散黑死病。这些银币至今仅存<strong>3枚</strong>，奥地利国家银行将其列为一级文物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他与尤登堡的羁绊不止于此：他在星象塔楼西侧修建了自宅，屋顶装有一面<strong>铜制日晷</strong>，至今还能通过日影精准读出时间。民间说，他死后灵魂化作塔楼顶上的风标，永远守护着这座城。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 占星师与瘟疫记录者：乌尔苏拉·冯·埃伯斯多夫</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>乌尔苏拉·冯·埃伯斯多夫（Ursula von Ebersdorf，1588-1665）</strong> 是17世纪尤登堡最著名的女性学者。她出身贵族，却拒绝联姻，在星象塔楼旁租下一间阁楼，专注天文与医学。<strong>1626年</strong>，她完成了一部<strong>《星辉与药草》</strong>的手稿，记载了通过星象预测疾病爆发周期的理论。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1634年</strong>穆尔河谷爆发腺鼠疫，乌尔苏拉凭借对木星与土星交会的观测，提前<strong>三周</strong>预测到疫情将从东向西蔓延。她组织修士在城门处设立“药草熏蒸站”，用杜松和百里香烟雾消毒，最终让尤登堡的死亡率降至邻近村庄的四分之一。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我用星盘算出城市的命运，凡人却只看见炉火与墓碑。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——摘自乌尔苏拉·冯·埃伯斯多夫于1635年写给哈布斯堡女大公玛丽亚·安娜的信件</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她晚年隐居在塔楼的顶层，将一生观察整理成<strong>72卷星象日志</strong>。<strong>1665年</strong>她去世后，这些手稿被萨尔茨堡大学收藏，至今仍是研究小冰期气候与瘟疫关联的珍贵史料。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 现代诗人之魂：彼得·哈特林</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">很少有人知道，德国诗人<strong>彼得·哈特林（Peter Hartling，1933-2017）</strong> 曾将尤登堡视为“精神故乡”。他<strong>1970年</strong>因逃避纳粹阴影，搬到施泰尔马克州，在尤登堡租下了一座老磨坊。他在这里完成了代表作《尼采的幽灵》和诗集《穆尔河谷的十四行》。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哈特林每天都会登上星象塔楼，坐在北面窗口写作。他在日记中写道：“这座塔楼教会我如何垂直地看世界——向下是历史堆积的瓦砾，向上是星空永恒的虚无。”<strong>2012年</strong>，他捐赠了自己的<strong>3000卷藏书</strong>给尤登堡市立图书馆，并留下遗嘱要求将骨灰撒在穆尔河中。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>炼金术士的银币井</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在<strong>16世纪</strong>，一位化名“梅库尔”的炼金术士来到尤登堡，声称能用河水炼出白银。他住在铸币厂地下室，每晚炉火不熄。某天深夜，他砸开铸铁管，将熔化的锡珠混入银水中，导致<strong>1567年</strong>一批银币铸造后三个月便开始生黑斑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">大主教下令抓捕他，他却留下一张羊皮纸：“真正的银子在夜里发光的井里。”从此，城内老广场下那口<strong>12米深的石井</strong>被称为“炼金井”。当地人坚信，月圆之夜向井中投一枚银币，便能听见井底传来金属碰撞的回响——那是炼金术士还在铸造看不见的财富。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>霜寡妇节的由来</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年<strong>3月1日</strong>，尤登堡会举行“霜寡妇节”。传说在<strong>1284年</strong>，一位名叫埃尔莎的寡妇在寒春三月，饿死在紧闭的城门外。她死后化作白霜，每次降霜前，树枝都会结出冰珠。为了纪念她，居民会在这一天将烤好的<strong>穆尔河鳟鱼馅饼</strong>挂在门楣上，象征与饥饿和解。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今这个习俗演变成当地独有的美食节，但最古老的那家面包房至今仍用<strong>14世纪</strong>的配方——面团里掺入一点木炭粉，代表霜的颜色。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂尤登堡，就是读懂<strong>中世纪欧洲边缘小城的幸存密码</strong>。它曾是帝国银元叮当响的铸造中心，也是占星师仰望星空的寂寞据点；它经历过火刑柱上的绝望，也保存着炼金术士的荒诞浪漫。<strong>75米的星象塔楼</strong>像一枚刺入云层的指针，提醒每一个过客：哪怕最不起眼的角落，也曾参与塑造欧洲的骨骼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在塔顶俯瞰穆尔河谷，风里还带着<strong>1442年</strong>施工时的石灰味，空气中飘着<strong>1567年</strong>那批生斑银币的锈迹。这座城市的历史不是躺在地下，而是像钟楼的指针一样，一直指向未来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/poellau-baroque-abbey-styria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    珀\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">珀劳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pöllau</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hallstatt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈尔施塔特镇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hallstatt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/maria-saal\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    玛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">玛丽亚萨尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Maria Saal</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "poellau-baroque-abbey-styria",
+          "name": "珀劳",
+          "englishName": "Pöllau"
+        },
+        {
+          "slug": "hallstatt",
+          "name": "哈尔施塔特镇",
+          "englishName": "Hallstatt"
+        },
+        {
+          "slug": "maria-saal",
+          "name": "玛丽亚萨尔",
+          "englishName": "Maria Saal"
+        }
+      ]
+    }
+  ]
+}

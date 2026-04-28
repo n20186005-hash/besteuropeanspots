@@ -1,0 +1,85 @@
+{
+  "slug": "drobeta-turnu-severin-history",
+  "template": "history",
+  "metadata": {
+    "title": "德罗贝塔-图尔努塞维林历史溯源｜多瑙河铁门旁的罗马遗迹与帝国雄风",
+    "description": "探索罗马尼亚多瑙河畔的古城德罗贝塔-图尔努塞维林，聆听图拉真大桥的千年回响，遇见古罗马建筑师阿波罗多罗斯的杰作，在铁门峡谷旁追寻帝国边疆的传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "罗马尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "梅赫丁茨县",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "德罗贝塔-图尔努塞维林",
+      "href": "/attractions/drobeta-turnu-severin-history"
+    }
+  ],
+  "hero": {
+    "title": "德罗贝塔-图尔努塞维林・Drobeta-Turnu Severin・罗马尼亚・梅赫丁茨县",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在多瑙河铁门峡谷的峭壁之下，有一座被时光打磨的城市——德罗贝塔-图尔努塞维林。这里是罗马帝国征服达契亚的前哨，图拉真大桥的桥墩残骸至今仍在河水中沉默站立。抛开游玩攻略，走进这座小城的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">德罗贝塔-图尔努塞维林</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Drobeta-Turnu Severin</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Drobeta-Turnu Severin</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">罗马尼亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">梅赫丁茨县</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座城市的名字本身就是一部历史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>德罗贝塔</strong>（Drobeta）源自达契亚语，意为“要塞”或“坚固之地”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元2世纪初，罗马皇帝<strong>图拉真</strong>发动对达契亚王国的战争，在多瑙河右岸建立军事营地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">工匠们就地取材，用石灰岩和砖块筑起城墙，将这里变为帝国边陲的指挥中心。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">图拉真大桥的修建是城市诞生的直接因果。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>公元103-105年</strong>，叙利亚裔建筑师<strong>阿波罗多罗斯</strong>奉诏设计全罗马最长的石木拱桥——全长1135米，横跨多瑙河。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">大桥两端各建一座堡垒，北岸的堡垒逐渐演变为居民点，即<strong>图尔努塞维林</strong>（Turnu Severin）的前身。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>图尔努塞维林</strong>意为“北方的塔楼”，源自斯拉夫语“turnu”（塔）和罗马尼亚语“severin”（北方）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪时期，城市几经易手。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">匈牙利王国、瓦拉几亚公国、奥斯曼帝国先后在此筑城。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1542年</strong>，奥斯曼军队焚毁旧城，但在废墟上重建了城堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天的城市布局，依稀可见罗马营地的正交街道网格。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、图拉真大桥的残骸</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">大桥在建成后仅存160余年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>公元270年左右</strong>，罗马帝国收缩边境，守军撤离，大桥缺乏维护而逐渐倾颓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，多瑙河两岸仅余<strong>北岸的桥头堡和两座桥墩</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">南岸的桥墩淹没在塞尔维亚境内的水库下，北岸桥墩则成为德罗贝塔最悲壮的纪念碑。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">考古学家记载：桥墩由砖石和火山灰混凝土筑成，每座宽18米，高约8米。洪水冲刷千年，表面布满苔藓，却仍可窥见罗马工程的绝技。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、铁门峡谷的军事价值</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市扼守铁门峡谷（Portile de Fier）——多瑙河最险峻的峡谷段。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1419年</strong>，奥斯曼苏丹穆罕默德一世曾在此击败匈牙利军队。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1688年</strong>，奥地利大公利奥波德一世的军队控制城堡，重建防御工事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">墙体上至今保留着哈布斯堡双头鹰的雕刻，与罗马的拉丁铭文并置，时光在此叠印。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、圣尼古拉教堂的变迁</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建于<strong>18世纪末</strong>的东正教教堂，使用拆自罗马城墙的砖石。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">钟楼底层嵌有一块<strong>公元2世纪的罗马墓碑</strong>，刻着一位军团百夫长的姓名：<strong>提贝里乌斯·克劳狄乌斯</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">教堂壁画虽经修复，依然保留着<strong>1848年革命</strong>时期被火枪射穿的弹孔。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 阿波罗多罗斯——帝国的造桥者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿波罗多罗斯</strong>（Apollodorus of Damascus，约公元60-129年）是大马士革（今叙利亚）出生的建筑师。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他被图拉真皇帝委任修建多瑙河大桥，同时设计罗马的<strong>图拉真广场</strong>与<strong>图拉真市场</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于这座大桥，有一则流传于普林尼《自然史》中的记载：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">阿波罗多罗斯写道：“我必须在冬春之交选定基石位置，那时河水最浅，河床的石灰岩层裸露在外。支架打入河底18米深，每根木桩的间距必须精确到手指的宽度，否则整个拱桥会因受力不均而崩塌。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>建造过程</strong>堪称古代工程奇迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">工匠们先筑起围堰，抽干河水，然后浇筑混凝土基础。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">桥面用木结构承重，下方设26个石砌桥墩，顶部铺以铅板阻挡雨水渗透。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">大桥建成后，罗马军团在三天之内可跨越天堑，直捣达契亚腹地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿波罗多罗斯的命运充满悲剧色彩</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哈德良皇帝即位后，因其过于自负，与皇帝在建桥技术上发生争执。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说</strong>阿波罗多罗斯被放逐，最终被处决。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但他的大桥设计理念影响了后世中世纪的所有多瑙河桥梁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 康斯坦丁·布朗库西——现代雕塑之父的童年</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然布朗库西（<strong>1876-1957</strong>）出生于霍比察村（距德罗贝塔约30公里），但他少年时代常在德罗贝塔的废墟间玩耍。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1898年</strong>，22岁的布朗库西徒步前往布加勒斯特，途经图拉真大桥遗址时，停留数日描摹桥墩的形态。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">后来他在巴黎的工作室中告诉朋友：“那些被河水冲刷千年的石头，教我懂得形式的纯粹——它们是时间的雕塑，而非人为的造型。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>布朗库西</strong>的《沉睡的缪斯》《无尽之柱》等作品中，那种纯净的几何感被认为与图拉真桥墩的简朴线条有关。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德罗贝塔市立博物馆至今收藏着布朗库西<strong>1905年</strong>捐赠给当地教堂的一件木雕圣像，雕刻着圣母抱着圣婴，面部轮廓带有明显的达契亚人特征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 米哈伊尔·科格尔尼恰努——罗马尼亚统一先驱的演说之地</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1848年革命</strong>期间，自由主义政治家<strong>米哈伊尔·科格尔尼恰努</strong>（Mihail Kogălniceanu）在德罗贝塔的广场上发表演说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他站在图拉真桥墩旁的一块巨石上，呼吁“多瑙河水见证的罗马血统不可分割”。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地史志记载：科格尔尼恰努说：“这座桥曾连接两个世界——罗马与达契亚，今日我们要用自由连接所有罗马尼亚人。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1856年</strong>，他成为摩尔达维亚公国的首相，主导了后来统一的罗马尼亚公国。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德罗贝塔老城区的一条街道以他命名，街口立有他的青铜胸像，底座刻着1848年演讲的节选。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 桥墩的深夜哭泣</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在多瑙河渔民间流传着这样的故事：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">每个月圆之夜，古老的桥墩下会传出隐约的哭泣声。那是被哈德良皇帝处死的阿波罗多罗斯的灵魂，他俯身触摸自己建造的石头，哀叹大桥的毁灭。当地水手若在此时经过，必须向水中扔一枚银币，以免惊扰建筑师的亡灵。据说如果银币沉到桥墩底部，水底会泛起一缕蓝光，那是阿波罗多罗斯在微笑。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 铁门峡谷的“贞洁石”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在峡谷北岸的悬崖顶部，有一块被铁链拦住的尖石。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说公元3世纪，一位罗马百夫长的女儿因爱上达契亚奴隶，被父亲逼婚。她跳崖前发誓：“若我贞洁，这块石头将永远不倒；若我蒙冤，石头将在一百年后碎裂。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1758年</strong>，一场地震当真震裂了石头的上半部分。村民至今仍相信，每当有女子不忠，石头就会在午夜发出低沉的啸声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 圣尼古拉教堂的“神迹窗”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1802年</strong>，一场特大洪水淹没城市，多瑙河水位暴涨至教堂二层。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说洪水冲开南墙的一扇彩色玻璃窗，圣尼古拉圣像的右手竟伸出了水面，在波浪中画了一个十字，洪水随即退去。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今那扇窗被镶上铁栅栏，每年12月6日，信徒们会将一只手工木船放入多瑙河，船尾插着点燃的蜡烛——象征圣人的手掌。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德罗贝塔-图尔努塞维林不是那种让人一眼惊艳的旅游明信片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它更像一座露天历史档案馆——图拉真桥墩是石板封面的帝国史，布朗库西的木雕是浪漫主义的内页，科格尔尼恰努的碑文是民族觉醒的扉页。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在这座铁门峡谷旁的小城，多瑙河水冲刷的不仅是石头，更是两千年文明的层叠记忆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂它，便是读懂了欧洲边疆的倔强与韧性。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bucharest-old-town-historical-center\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布加勒斯特老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bucharest Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/corvin-castle-hunedoara\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    胡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">胡内多阿拉科尔文城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Corvin Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rasnov-fortress\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    勒\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">勒什诺夫要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Râșnov Fortress</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "bucharest-old-town-historical-center",
+          "name": "布加勒斯特老城",
+          "englishName": "Bucharest Old Town"
+        },
+        {
+          "slug": "corvin-castle-hunedoara",
+          "name": "胡内多阿拉科尔文城堡",
+          "englishName": "Corvin Castle"
+        },
+        {
+          "slug": "rasnov-fortress",
+          "name": "勒什诺夫要塞",
+          "englishName": "Râșnov Fortress"
+        }
+      ]
+    }
+  ]
+}

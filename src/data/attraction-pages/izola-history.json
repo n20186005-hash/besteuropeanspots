@@ -1,0 +1,85 @@
+{
+  "slug": "izola-history",
+  "template": "history",
+  "metadata": {
+    "title": "伊佐拉历史溯源｜威尼斯共和国留下的亚得里亚海秘境：从独立小岛到渔港小镇的前世今生",
+    "description": "探访斯洛文尼亚伊斯特拉半岛的伊佐拉：一座曾漂浮在亚得里亚海上的威尼斯岛屿。哥特式宫殿、渔网与桅杆间，藏着千年盐业传奇、海盗传说与诗人雅各布·科皮的故乡故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "斯洛文尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯洛文尼亚伊斯特拉",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "伊佐拉",
+      "href": "/attractions/izola-history"
+    }
+  ],
+  "hero": {
+    "title": "伊佐拉・Izola・斯洛文尼亚・斯洛文尼亚伊斯特拉",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在斯洛文尼亚伊斯特拉半岛的蔚蓝海岸边，有一座曾被海水围困的孤独小岛，它叫伊佐拉。它的名字源自拉丁语“insula”——岛屿，却在岁月的潮汐中与大陆温柔相拥。这里没有皮兰的游客喧嚣，却有着同样深刻的威尼斯烙印：窄巷深处藏着15世纪哥特式宫邸，渔港里渔网与游艇桅杆交织成日常的诗。抛开游玩攻略，走进伊佐拉的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">伊佐拉</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Izola</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Izola</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">斯洛文尼亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">斯洛文尼亚伊斯特拉</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元前2世纪，罗马人在这里建立了名为“Haletum”的定居点，从事橄榄油与葡萄酒贸易。但真正赋予伊佐拉灵魂的是威尼斯共和国。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>13世纪，威尼斯人发现这座离岸仅数百米的小岛是理想的盐业中转站。</strong> 他们将伊佐拉命名为“Isola”（岛屿），并在岛上修建了密集的防御工事与仓库。当时的伊佐拉，是一座名副其实的“盐岛”——来自伊斯特拉内陆的岩盐在此装船，运往亚得里亚海各港口。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地名典故：伊佐拉（Izola）在斯洛文尼亚语中直接源自意大利语“Isola”，而意大利语又源自拉丁语“insula”。<strong>直到19世纪初，伊佐拉仍然是一座真正的岛屿。</strong> 涨潮时，海水淹没连接大陆的浅滩；退潮时，人们才能踏着泥泞的滩涂往返。1807年，法国占领期间，当局为军事需要修建了第一条永久性石堤，将岛屿与大陆彻底连接。从此，伊佐拉变成半岛，却保留了名字中的“孤岛”基因。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记一：威尼斯共和国的盐业帝国（13-18世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊佐拉的命运与盐息息相关。威尼斯人将整个岛屿变成一座巨大的盐田，<strong>居民几乎全部从事盐业生产</strong>。1463年，威尼斯总督下令修建了岛上最宏伟的建筑——<strong>圣莫罗大教堂（St. Maurus Cathedral）</strong>，它的哥特式钟楼俯瞰着盐田与海港。站在钟楼上，你能想象数百艘盐船挤满港湾的盛景：工人们赤脚在盐田里挥舞木耙，空气中弥漫着咸涩的风。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记二：奥匈帝国的渔港转型（19世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1815年，维也纳会议将伊佐拉划归奥地利帝国。盐业因廉价海盐的竞争而衰落，伊佐拉迅速转型为渔港。<strong>1892年，一座现代渔市场在港口落成</strong>，成为亚得里亚海北岸最大的鱼类交易中心之一。至今，老城区的“渔夫广场”（Trg Ribar）仍保留着当年的石砌水池——渔民们曾在这里拍卖清晨的捕获。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记三：意大利占领与南斯拉夫的浴火重生（20世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一战后，伊佐拉随伊斯特拉半岛并入意大利。<strong>1943年，意大利投降后，当地居民发起反抗法西斯统治的起义</strong>，却遭到残酷镇压。二战后，伊佐拉划归南斯拉夫社会主义联邦共和国。这段时期，许多意大利裔居民离开，斯洛文尼亚人迁入。老城区的街道铭牌被从意大利语改为斯洛文尼亚语，但哥特式宫殿的雕花窗上，仍能看见威尼斯狮子的浮雕。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇人物：雅各布·科皮（Jacobus Cappi，1654-1731）——被遗忘的伊斯特拉诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊佐拉最值得骄傲的文化遗产，是17世纪的拉丁语诗人、历史学家<strong>雅各布·科皮</strong>。他生于伊佐拉一个显赫的贵族家庭，在威尼斯求学后回到故乡，用一生为伊斯特拉立传。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科皮最著名的作品是《伊斯特拉编年史》（<em>Historia Istriae</em>），一部用优美拉丁文写成的地区史。<strong>他在书中深情描绘了伊佐拉的盐田景象</strong>：“当夕阳把盐山染成玫瑰色，整座岛屿像一块宝石嵌在蓝丝绒上。”这部手稿曾长期藏于威尼斯圣马可图书馆，直到19世纪才被学者发现。科皮也因此被称为“伊斯特拉的希罗多德”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但最动人的，是他与伊佐拉的羁绊。<strong>晚年他拒绝威尼斯教廷的高薪职位，执意回到岛上</strong>，在圣莫罗大教堂旁的小屋里整理书稿。他曾在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">在伊佐拉，我听见大海与石头的对话。每一粒盐都藏着故事，我不过是一个拾贝人。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科皮死于1731年，葬于圣莫罗大教堂的地下墓室。<strong>他的墓碑上刻着一行拉丁文：“Hic requiescit scriptor Istriae”</strong>（此地长眠着伊斯特拉的书写者）。直到今天，伊佐拉的老居民仍会在教堂弥撒后，用方言念诵他诗中的片段。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇人物：玛丽亚·佩特科维茨（Maria Petkovic，1892-1966）——渔港的“蓝色女王”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位与伊佐拉血脉相连的名人，是被称为“蓝色女王”的诗人、民族学家<strong>玛丽亚·佩特科维茨</strong>。她并非伊佐拉人，却在二战后主动迁居于此，用三十年时间收集伊斯特拉地区的渔歌与传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她的代表作《蓝色之歌》记录了伊佐拉渔民的口头传统：“他们呼喊海神的名字，用船桨敲打船舷来驱赶风暴。”<strong>佩特科维茨曾住在一栋16世纪的威尼斯石屋里</strong>，门牌号是“盐街7号”。如今那栋房子外墙挂着一块蓝色牌匾，上面写着：“在这里，海的声音找到了文字。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>她最著名的轶事</strong>：1959年，一位渔民在风暴中丢失了祖传的银质船锚。佩特科维茨写了一首诗安慰他，诗中说，“大海只是暂时借走了你的锚，它会在星星落下的地方还给你。”三个月后，渔民果然在诗里描述的位置捞起了船锚。此事被当地报纸报道后，伊佐拉人开始称她为“女巫诗人”。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>海洋与石头的婚约：伊佐拉如何从岛屿变成半岛</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在伊佐拉老渔夫口口相传的故事里，岛屿变成半岛并非出于人类工程，而是一场爱情。<strong>传说很久以前，海神波塞冬（威尼斯人叫他尼尔图诺）爱上了岛上一位渔女</strong>。渔女拒绝了海神，说：“我属于陆地，不愿住在盐的宫殿里。”海神大怒，掀起巨浪将岛屿日夜冲刷，企图把它拖入海底。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">危急时刻，渔女用渔网编织了一条长长的纱巾，抛向大陆。大陆上的风神（名叫“博拉”）被她的勇敢感动，<strong>用风力将纱巾变成了石堤</strong>。海神见状，只好停手。从那天起，伊佐拉不再是一座真正的岛屿，但海神留下了一个诅咒：每年七月，当博拉风最强时，石堤会短暂消失，岛屿“恢复”原状——那时，渔民们必须献出渔网一角，扔进海里作为祭品。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>直到今天</strong>，伊佐拉每年七月的第一个星期六都会举办“渔网献祭节”（Dan mreže）。渔民们把旧渔网扎成花束，抛入海中，然后全城人在港口跳舞到深夜。民俗学者说，这其实是古代盐工庆祝夏收的仪式，但没有人愿意戳穿那个浪漫的传说。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊佐拉是一座被盐和历史腌透了的小城。它的窄巷里没有网红咖啡馆的矫情，只有威尼斯的石头、南斯拉夫的灰泥、奥匈帝国的铁艺阳台，以及斯洛文尼亚人晾在窗外的渔网。<strong>在这里，你能触摸到亚得里亚海真正的肌理</strong>——不是明信片上的碧蓝，而是盐渍与锈迹揉成的铜绿色。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂伊佐拉，就是读懂一种边缘的坚韧：从独立小岛到半岛，从盐业帝国到渔港小镇，从意大利到南斯拉夫，它始终像一枚牡蛎，把所有的历史创伤包裹成珍珠。<strong>当你站在圣莫罗钟楼顶端，看着游艇桅杆与渔网在晚风中摇晃，你会明白——这座城不需要被记住，它只在风中讲述自己。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stanjel-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什坦耶尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Štanjel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/izola-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊佐拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Izola</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bovec-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博韦茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bovec</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "stanjel-history",
+          "name": "什坦耶尔",
+          "englishName": "Štanjel"
+        },
+        {
+          "slug": "izola-old-town",
+          "name": "伊佐拉",
+          "englishName": "Izola"
+        },
+        {
+          "slug": "bovec-history",
+          "name": "博韦茨",
+          "englishName": "Bovec"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "zenica-history",
+  "template": "history",
+  "metadata": {
+    "title": "泽尼察历史溯源｜波黑工业重镇背后的中世纪要塞与王国传奇",
+    "description": "探秘泽尼察：这座波黑钢铁之城的边缘，矗立着中世纪弗兰杜克要塞，见证过波黑王国的荣耀与奥斯曼的征服。走近尘封史册，与国王、旅行家共赴时光之旅。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波黑",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "泽尼察-多博伊州",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "泽尼察",
+      "href": "/attractions/zenica-history"
+    }
+  ],
+  "hero": {
+    "title": "泽尼察・Zenica・波黑・泽尼察-多博伊州",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">泽尼察，巴尔干腹地的工业心脏，高炉与烟囱曾织就它的现代轮廓。然而在钢筋水泥的尽头，一座名为<strong>弗兰杜克（Vranduk）</strong>的中世纪要塞静默伫立，扼守波斯尼亚河峡谷，如一位被遗忘的旧日君王。这里曾是波黑王国加冕礼的见证地，也是奥斯曼旅行家笔下的奇幻堡垒。抛开游玩攻略，走进泽尼察的尘封往事，遇见属于它的钢铁与王冠交织的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">泽尼察</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Zenica</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Zenica</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波黑</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">泽尼察-多博伊州</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">泽尼察的名字最早可追溯至罗马时期，来自拉丁语“Sardumba”或当地伊利里亚语，但真正苏醒是在<strong>15世纪</strong>奥斯曼人到来之后。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那时的泽尼察不过是一座河畔小村，因波斯尼亚河与周围山林的便利，逐渐成为商队歇脚点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“泽尼察”在斯拉夫语中的含义</strong>，一说是“土地之子”，另一说与古波斯尼亚语“zen”有关，意为“收获之地”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正赋予这片土地历史重量的，并非城市本身，而是距市中心仅15公里的<strong>弗兰杜克要塞</strong>。它建于<strong>14世纪</strong>，是波黑王国防御奥斯曼扩张的前哨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">要塞依山而建，三面悬崖，仅一条石阶可达，堪称天险。其名字Vranduk源自斯拉夫语“vratiti”（返回），相传意为“回望之地”——从城楼回望，整条河谷尽收眼底。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>中世纪文献中首次提及弗兰杜克在1377年</strong>，当时波黑国王斯特凡·特夫尔特科一世在此加冕，宣告波黑王国的诞生。这座城市，从一开始就是王国的心脏与盾牌。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记一：波黑王国的加冕之石</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1377年，<strong>斯特凡·特夫尔特科一世</strong>在弗兰杜克要塞被加冕为“塞尔维亚、波黑与滨海地区国王”。尽管仪式在附近的Mileševo修道院举行，但<strong>要塞是王冠的存放地</strong>和权力象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说加冕当天，国王站在要塞城墙的最高处，将佩剑刺入石头，宣告波黑从此不受匈牙利与奥斯曼挟制。至今，要塞内仍保留着一块刻有十字架的<strong>“加冕之石”</strong>，成为 pilgrims 朝圣的隐秘印记。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我，特夫尔特科，以上帝之名，在此竖起波黑的王权。愿石墙永固，如吾民意志。”——据传为加冕日国王对基石的誓词。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记二：奥斯曼的征服与重塑</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1463年，奥斯曼苏丹穆罕默德二世挥军北上，波黑王国灭亡。弗兰杜克要塞在围城数日后投降，因其险要，奥斯曼人并未摧毁，而是将其改为<strong>军事驻地与监狱</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>17世纪奥斯曼旅行家Evliya Çelebi</strong> 在游记中写道：“此堡如鹰巢，墙厚三臂，内藏清泉一泓，百人可守千年。”他还提到要塞内有一座小型清真寺，至今遗迹尚存。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记三：工业时代的钢铁脉搏</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪末，奥匈帝国占领波黑，在泽尼察发现了丰富的铁矿与煤矿。1892年，<strong>泽尼察钢铁厂</strong>正式动工，成为奥匈帝国巴尔干地区最重要的重工业基地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">铁轨从森林铺向市区，烟囱取代了尖塔，泽尼察从沉睡的奥斯曼小镇骤然跃升为<strong>“波黑的鲁尔区”</strong>。二战期间，钢铁厂被纳粹德国接管，生产坦克部件；战后，南斯拉夫将其扩建为工人乐园，高峰时有2.5万人在此工作。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，钢铁厂的熔炉大多熄灭，但高炉的身影仍如钢铁巨人般矗立，与山巅要塞遥相呼应——仿佛一场跨越六百年的工业与王权对话。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 波黑最后一位国王：斯捷潘·托马舍维奇</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位年轻的国王<strong>1459年</strong>在弗兰杜克要塞签署了向奥斯曼纳贡的条约，试图换取波黑独立。但苏丹穆罕默德二世背弃约定，于1463年攻入，俘虏并处死了托马舍维奇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说在他被押解前，曾在要塞地牢的墙上刻下一行斯拉夫字母：“我父的王国，如晨露般消散。”这段铭文已在19世纪坍塌中被毁，但传说至今流传。<strong>他是波黑王国的终结者</strong>，也是要塞最悲伤的背影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 奥斯曼旅行家：Evliya Çelebi</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1664年</strong>，这位传奇旅行家抵达弗兰杜克。他在《旅行之书》中用大量篇幅描绘要塞的不可思议：城墙内有<strong>秘密隧道</strong>通往波斯尼亚河底，以便战时取水；城楼上有一门巨型铜炮，名叫“狼嚎”，炮弹能飞越两座山丘。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“堡中老者告诉我，此炮曾在某次围城时轰碎敌将的坐骑，马鞍飞至三公里外的教堂钟楼挂下。吾闻而大笑，但波斯尼亚人信以为真。”——Evliya Çelebi《旅行之书》第八卷。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Çelebi还记录了一个细节：要塞守军每年秋季会举行“山羊节”，将山羊从城墙掷下，以预言来年收成。若山羊落入河中活下来，则丰收；若死，则灾年。这一残酷习俗在19世纪初被废止。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 工业时代的先知：Mujo的幽灵工程师</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在泽尼察钢铁厂的工人记忆里，有一位名叫<strong>Mujo</strong>的虚构式人物：据传他是二战时一名塞尔维亚工程师，在厂内设计了秘密隧道，供游击队藏匿武器。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">南斯拉夫电影《泽尼察的钢铁之心》（1977年）曾以他为原型。虽然没有真实历史记载，但<strong>当地人坚信他的灵魂仍徘徊在废弃的轧钢车间</strong>，每当机器故障，老工人会对着空气说：“Mujo，帮个忙！”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个现代传说，成为了工业遗迹的另一层神秘注脚。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>隧道宝藏传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在弗兰杜克要塞下，有一条废弃的隧道入口被铁栅栏封住。民间相传，<strong>1463年波黑灭亡前</strong>，国王的侍卫将王冠与国库珠宝藏入隧道深处，并将入口炸毁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，德军传闻隧道内藏有<strong>黄金圣杯</strong>，曾派工兵挖掘，但只挖出几具骸骨。当地人坚信，只有一名纯净的处女在中秋之夜走入隧道，才能找到宝藏。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>要塞女鬼“白色克拉拉”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说要塞最后一位女主人<strong>克拉拉（Klara）</strong>，是15世纪匈牙利贵族之女，嫁给波黑城主。丈夫战死后，她拒绝投降奥斯曼，在围城中饿死。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每逢月圆之夜，她的白色身影会出现在城垛上，对着波斯尼亚河哭泣。水手与渔夫声称，若听到哭声，第二天必有风暴。<strong>至今仍有当地老人说，路过要塞时要低声说话，以免惊扰她的安息。</strong></p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">泽尼察的故事，是一部波罗的海与奥斯曼、工业与王权的双重变奏。如今的钢铁厂已寂静，要塞亦成为游人稀少的国家纪念馆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>读懂泽尼察，就是在工业废墟与中世纪石墙间，触摸波黑灵魂的两面</strong>：一面是工匠的汗水与烟尘，一面是国王的誓言与眼泪。这里没有名胜的喧嚣，有的只是风穿过城墙的呜咽，以及在钢铁巨兽阴影中倔强生长的野花。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你渴望一场不被打扰的历史漫游，从弗兰杜克的级级石阶望下去，波斯尼亚河仍在流淌，而你，正站在时光的褶皱里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ljubuski-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柳\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柳布什基</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ljubuški</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/blagaj-tekke-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布拉加伊特基亚修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blagaj Tekke</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stolac-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯托拉茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stolac</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "ljubuski-history",
+          "name": "柳布什基",
+          "englishName": "Ljubuški"
+        },
+        {
+          "slug": "blagaj-tekke-history",
+          "name": "布拉加伊特基亚修道院",
+          "englishName": "Blagaj Tekke"
+        },
+        {
+          "slug": "stolac-history",
+          "name": "斯托拉茨",
+          "englishName": "Stolac"
+        }
+      ]
+    }
+  ]
+}

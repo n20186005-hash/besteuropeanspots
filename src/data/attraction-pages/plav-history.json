@@ -1,0 +1,85 @@
+{
+  "slug": "plav-history",
+  "template": "history",
+  "metadata": {
+    "title": "普拉夫历史｜黑山秘境血亲复仇与防御塔的前世今生｜被诅咒山脉下的冰川湖传奇",
+    "description": "探访黑山普拉夫，隐藏在“被诅咒的山脉”脚下。从奥斯曼时代的防御塔到血亲复仇的古老回响，走进这座冰川湖畔小镇的尘封历史与名人轶事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "黑山",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "普拉夫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "普拉夫",
+      "href": "/attractions/plav-history"
+    }
+  ],
+  "hero": {
+    "title": "普拉夫・Plav・黑山・普拉夫",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">普拉夫，黑山东北部一座被群山环抱的边陲小镇，静静躺在<strong>普罗克莱蒂耶国家公园</strong>——那片被称为“被诅咒的山脉”的脚下。这里拥有欧洲最纯净的冰川湖之一，但更令人心颤的，是它石头缝隙里渗出的<strong>血亲复仇</strong>记忆与古老的<strong>防御塔</strong>（Redoubt）。抛开游玩攻略，走进普拉夫的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">普拉夫</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Plav</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Plav</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">黑山</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">普拉夫</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">普拉夫的名字，据说源于古伊利里亚语“plav”，意为“蓝色的”，指向那座如蓝宝石般镶嵌在山谷中的<strong>普拉夫湖</strong>。但真正让这片土地进入历史视野的，是<strong>15世纪奥斯曼帝国的扩张</strong>。当时，这里成为帝国与威尼斯、塞尔维亚王国之间的缓冲带。不同于沿海的布德瓦或科托尔，普拉夫从未被罗马或威尼斯深度塑造，它的底色是<strong>高山部落</strong>的自由与野蛮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最早的定居者被认为是<strong>马尔达克人</strong>（Mirdita），一个讲阿尔巴尼亚语的游牧部落。他们在13世纪左右来到这里，以放牧和打劫为生。奥斯曼人在<strong>1479年</strong>完全控制该地区后，为了管理这些桀骜不驯的山民，修建了一系列石头防御工事——其中最著名的便是镇中心那座<strong>17世纪的“Redoubt”（回垒/防御塔）</strong>。这座方形石塔最初是奥斯曼驻军的据点，后来演变成居民抵御血仇和雪崩的避难所。<strong>“普拉夫”这个地名，在当地传说中，也指代“蓝色泪滴”——据说是一位被家族荣誉逼死的少女哭泣形成的湖泊。</strong></p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">普拉夫的历史烙印，最深刻的两道是<strong>奥斯曼统治</strong>与<strong>黑山独立战争</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一道印：奥斯曼的军事前哨（1479–1912）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥斯曼人将普拉夫建成对抗黑山山中部落的堡垒。镇内的<strong>防御塔（Redoubt）</strong> 并非传统城堡，而是一座厚达两米的石砌矩形塔楼，底层用作马厩和仓库，上层才是居住与作战空间。塔楼上遍布<strong>枪眼和射击孔</strong>，窗口故意开得很小，以防被抛入“荣誉谋杀”的导火索——私通的石块。在这里，奥斯曼法官与部落长老共同调解纠纷，但<strong>血亲复仇</strong>（blood feud）从未真正平息。直到20世纪初，平均每三年就有一名男性死于复仇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二道印：黑山统一与巴尔干战争（1912–1918）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1912年第一次巴尔干战争期间，黑山军队在<strong>国王尼古拉一世</strong>指挥下攻占普拉夫。当地穆斯林和阿尔巴尼亚裔居民大量逃亡，同时来自黑山其他地方的正教徒迁入。最戏剧性的一幕发生在<strong>1913年</strong>——一支撤退的奥斯曼残军试图烧毁防御塔，被一位叫<strong>米洛什·佩罗维奇</strong>（Miloš Perović）的教师带领村民用滚木和石块击退。他后来在日记中写道：“塔楼墙壁上的弹孔，像一串念珠，记录着活人的勇气。” 1960年代后，普拉夫逐渐沉寂，防御塔则成了年轻人恶作剧和鬼故事的背景。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">普拉夫的历史叙事里，没有帝王或大文豪，只有两位与土地共生的“边缘人”——他们的故事，比任何百科全书都更接近真相。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 剑与书的歌者：塔希里·贝伊（Tahir Bey，约1830–1895）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塔希里·贝伊是奥斯曼帝国最后的“山地贵族”。他出生在防御塔旁的石头大宅里，父亲是当地的行政官。但他一生最爱的不是权力，而是<strong>阿尔巴尼亚英雄史诗</strong>。他走遍普罗克莱蒂耶山脉，收集几十首关于“克鲁亚城堡”和“斯坎德培”的诗歌，并用阿拉伯语和拉丁语混写在<strong>羊皮纸上</strong>。最奇特的是，他规定这些诗歌只能由<strong>女人口传</strong>——因为他相信男人会为复仇而篡改歌词。普鲁士地理学家<strong>卡尔·梅</strong>（Karl May，著名冒险小说家）在1883年旅行时遇到过青年塔希里，并在著作中写道：“这个蓄着长胡须的贝伊，弹着一种奇特的弦琴，唱起歌来像一头受伤的熊。他警告我，如果我敢把歌词记下来，就会让表兄割断我的喉咙。” 塔希里去世后，他的歌本被族人焚毁，认为“文字会招来诅咒”。如今，防御塔二楼的小博物馆里陈列着一片残缺的羊皮纸——据说是烧剩下的唯一一页。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 最后的调解人：伊雷娜·武乔维奇（Irena Vučović，1890–1965）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在黑山，调解血亲复仇的通常是男性长老，但普拉夫出了一位<strong>女“调解人”</strong>——伊雷娜·武乔维奇。她是一位东正教神父的女儿，年轻时随父亲走访各部落。1915年一次罕见的暴风雪中，两个家族因牧羊地纠纷在塔楼前拔刀相向。伊雷娜突然拉开大衣，露出怀里的婴儿（她自己的孩子），用身体挡在中间。这个鲁莽举动吓住了所有人——按照部落戒律，伤害女人和婴儿会使凶手永远被诅咒。从那以后，她成了全村唯一一个调解<strong>“血债”</strong>的妇女。她的方法很特别：她会要求两边各交出一样最值钱的东西（通常是武器或土地），然后当众砸碎或烧毁，再让双方围着防御塔走三圈——象征用古老的石头“吞掉仇恨”。<strong>1960年，她最后一次调解时，已经70岁。两个家族的后代跪在她面前，她命令他们把子弹倒进普拉夫湖。</strong> 当地至今流传着她的名言：“石头建的塔楼，能守住人的命，却守不住人的心。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于普拉夫湖的传说，最能诠释这片土地的荒凉美。当地老人说，湖底沉睡着一座<strong>被淹没的村庄</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在17世纪，一位叫<strong>德拉加娜</strong>（Dragana）的少女与来自敌族的牧羊人相爱。他们的家族正处在血仇中。两人在湖心小岛见面，被族人发现。牧羊人被推下悬崖，德拉加娜被锁在一艘船上，划向湖心。她哭了一整夜，第二天早上，人们发现船消失了，湖水忽然变得极蓝——仿佛溶解了所有眼泪。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“那晚，湖底传来钟声。所有听见的人都变成了石头。” ——当地阿尔巴尼亚语传说</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今，某些无风的黎明，渔民说能在湖面看到<strong>一艘木船的倒影</strong>。那条船被称为“哭泣的船”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个习俗与防御塔有关：每年<strong>圣尼古拉节</strong>（12月6日），村里的男人会登上塔顶，朝天空鸣枪三次。这并非庆祝狩猎，而是<strong>向“已被原谅”的死者灵魂报告</strong>：活下去的人已经放下了刀。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">普拉夫是一座用沉默讲述故事的城镇。防御塔的石头，记录了奥斯曼的枪托声、血仇的咒骂声、调解人低沉的祈祷声。你没听过的黑山，就在这里——在冰川湖的蓝色泪滴里，在被诅咒山脉的氧气稀薄处。读懂它，你便读懂了巴尔干最坚硬的温柔：荣誉比生命重要，和解比复仇更难。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cetinje\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    采\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">采蒂涅老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cetinje</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/biogradska-gora-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比奥格勒山国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Biogradska Gora National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/danilovgrad-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达尼洛夫格勒</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Danilovgrad</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "cetinje",
+          "name": "采蒂涅老城",
+          "englishName": "Cetinje"
+        },
+        {
+          "slug": "biogradska-gora-national-park",
+          "name": "比奥格勒山国家公园",
+          "englishName": "Biogradska Gora National Park"
+        },
+        {
+          "slug": "danilovgrad-history",
+          "name": "达尼洛夫格勒",
+          "englishName": "Danilovgrad"
+        }
+      ]
+    }
+  ]
+}

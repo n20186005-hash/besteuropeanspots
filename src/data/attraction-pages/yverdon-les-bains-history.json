@@ -1,0 +1,85 @@
+{
+  "slug": "yverdon-les-bains-history",
+  "template": "history",
+  "metadata": {
+    "title": "伊韦尔东莱班历史溯源｜纳沙泰尔湖畔的温泉名城与中世纪水上城堡传奇",
+    "description": "瑞士沃州伊韦尔东莱班的前世今生：凯尔特圣泉、罗马浴场、萨瓦伯爵的水上城堡，还有比金字塔更古老的新石器时代立石阵。抛开攻略，走进这座温泉名城的时光传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "瑞士",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "伊韦尔东莱班（沃州）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "伊韦尔东莱班",
+      "href": "/attractions/yverdon-les-bains-history"
+    }
+  ],
+  "hero": {
+    "title": "伊韦尔东莱班・Yverdon-les-Bains・瑞士・伊韦尔东莱班（沃州）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">它座落在纳沙泰尔湖畔，湖水如镜，雪山为屏。<strong>伊韦尔东莱班</strong>，名字里的“Bains”早已泄露天机——这是一座以温泉为魂的城市。但它的底蕴远不止水疗：中世纪萨瓦伯爵的水上城堡如船只般浮于护城河上；湖畔的克卢尼立石阵比埃及金字塔还要古老一千多年；还有那位改变了欧洲教育史的巨匠，曾在此地的城堡里写下教育革命的篇章。抛开游玩攻略，走进伊韦尔东莱班的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">伊韦尔东莱班</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Yverdon-les-Bains</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Yverdon-les-Bains</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">瑞士</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">伊韦尔东莱班（沃州）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座城市的名字“伊韦尔东”（Yverdon）源自古凯尔特语。<strong>Eburodunum</strong>，意为“紫杉树旁的堡垒”。早在罗马人到来之前，凯尔特人便已在此地定居，并将湖畔的温泉视为神赐之物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元1世纪，罗马军团沿纳沙泰尔湖东岸修筑道路，发现了这眼涌出的温水。他们用石头砌成浴池，建起了<strong>罗马风格的温泉浴场</strong>，称之为“Aquae Helveticae”。考古学家曾在市中心发掘出罗马时期的浴场遗迹，那些被硫磺水浸泡过的陶片，至今仍在诉说着两千年前的泡汤习惯。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪早期，伊韦尔东成为勃艮第王国的一部分，随后落入萨瓦伯爵的掌控。<strong>1258年</strong>，萨瓦伯爵彼得二世（Pierre II de Savoie）决定在此修建一座军事城堡。他选择了湖岸与河流交汇处的沼泽地，用木桩打入泥泞地基，再砌起厚实的石墙。城堡四面环绕着人工挖掘的护城河，河水直接引自纳沙泰尔湖，<strong>使得城堡仿佛从水中升起</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市名字中的“莱班”（les-Bains）是19世纪才正式加入的。那时瑞士的温泉疗养风潮兴起，伊韦尔东的温泉被重新开发，成为欧洲贵族趋之若鹜的疗养胜地。<strong>1862年</strong>，第一家现代温泉中心落成，从此“伊韦尔东莱班”这个全名才被官方确认。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 克卢尼的立石阵——新石器时代的星空秘境</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">距离伊韦尔东莱班仅几公里的克卢尼（Clendy）湖畔草地上，矗立着数十块形态各异的巨石。这些用本地砂岩凿成的立石，最高者超过4米，重达数十吨。<strong>碳十四测年显示，它们距今已有6000多年</strong>，比埃及吉萨金字塔还要早一千年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">考古学家推测，这些巨石是<strong>新石器时代晚期</strong>的祭祀场所。排列方式与日出方向、夏至点存在某种天文对应关系。你可以在它们之间行走，想象几千年前的凯尔特先民在春分日点燃篝火，敲击石鼓，祈求湖神与太阳神赐予温暖与丰收。2001年，这片立石阵被列入瑞士国家重要文化遗产，如今免费对公众开放，是欧洲最容易被忽视的史前宝藏之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 水上城堡的沧桑——萨瓦伯爵的防御杰作</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊韦尔东城堡（Château d'Yverdon）是整个沃州最令人难忘的中世纪建筑之一。它由<strong>四座巨大的圆形塔楼</strong>守卫，每座塔楼都带有锥形石顶，外墙体呈淡黄色石灰岩。城堡建在一个人工岛上，护城河环绕四周，只有一座石桥通向主入口。这种<strong>“水堡”设计</strong>在欧洲并不常见，因为绝大多数城堡建在山上，而伊韦尔东选择了沼泽湿地，体现了中世纪晚期军事工程的巧妙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡曾在<strong>17世纪</strong>遭遇大火，内部结构被毁，但石墙依然屹立。后来它被改造成一座兵营，甚至一度成为监狱。最黑暗的一页是<strong>1798年</strong>，法国入侵瑞士时，城堡被作为军营，关押过支持旧制度的瓦莱州俘虏。如今，城堡内设有历史博物馆和艺术空间，但最吸引人的是登上塔楼顶层，俯瞰整座城市和纳沙泰尔湖的一角。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 19世纪的温泉复兴——欧洲疗养地标</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪末，瑞士医生发现伊韦尔东的温泉水富含硫磺、镁和钙，对风湿病和皮肤病有奇效。1830年代，一座新古典主义风格的温泉浴场在湖边落成，配备了餐厅、音乐厅和舞厅。<strong>英国维多利亚女王</strong>的私人医生曾推荐王室成员来此疗养。1888年，温泉疗养院扩建，安装了当时欧洲最先进的蒸汽浴设施。你至今仍能在老温泉建筑的廊柱间看到那个时代的浮雕装饰——赤身沐浴的仙女和手持阿斯克勒庇俄斯之杖的医神。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约翰·海因里希·裴斯泰洛齐</strong>（Johann Heinrich Pestalozzi）——在这座城堡里播下教育革命的火种</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你在18世纪末经过伊韦尔东城堡，可能会听到孩子们朗朗的读书声——那正是<strong>欧洲最激进的教育实验</strong>的声音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">裴斯泰洛齐，这位瑞士教育家，1746年生于苏黎世。他年轻时深受卢梭“自然教育”理论影响，曾两次创办农家学校，均因贫困而失败。<strong>1805年</strong>，伊韦尔东市政府向他发出邀请：能否将城堡的闲置部分改为一所学校？裴斯泰洛齐欣然同意，带着家人和几位志同道合的朋友搬进了城堡东翼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这所学校与众不同。裴斯泰洛齐主张<strong>“教育要顺应儿童的天性”</strong>，反对死记硬背与体罚。他把城堡的大厅改造成教室，课桌排成半圆形；庭院变成游戏场；甚至把护城河上的小船当作“游学课”的交通工具。孩子们除了学习阅读、写作、数学，还学习农耕、缝纫、音乐和体操。来自法国、德国、俄国甚至美国的贵族子弟纷纷送来就读，最兴旺时学生人数超过200人。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我头一个走进教室，微笑着对孩子们说：‘今天我们不惩罚任何人，我们一起种一畦萝卜。’”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——裴斯泰洛齐在伊韦尔东的日记片段</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这段时光持续了整整<strong>20年</strong>。1825年，因财务危机和宗教争端，学校被迫关闭。裴斯泰洛齐在城堡里度过了他生命中最辉煌也最疲惫的岁月。他留下的教育理念——<strong>直观教学法、情感教育、兼顾动手与动脑</strong>——深深影响了后来的约翰·杜威和蒙特梭利。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，城堡内设有<strong>裴斯泰洛齐博物馆</strong>，陈列着他的手稿、教学用具和一张他曾在上面书写教育信条的木桌。每年春天，当地学校都会组织学生来城堡广场集会，向这位“平民教育家”献花。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>另一个名字：路易丝·阿蒙迪亚·德普朗西</strong>（Louise Amandia de Plancy）——鲜为人知的本地女学者</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一个名字值得记住：<strong>路易丝·阿蒙迪亚·德普朗西</strong>，19世纪末出生在伊韦尔东的植物学家。她终身未婚，一生致力于研究纳沙泰尔湖周边的湿地植物，尤其是药用草本。她曾在城堡的档案馆里整理出当地中世纪草药手抄本，并在1910年出版了《沃州植物图谱》，至今仍是瑞士植物学的重要参考文献。她晚年住在城堡对街的一座小楼里，窗台上永远摆着晾干的鼠尾草和迷迭香。你可以去城堡图书馆找到她的初版图书——封面上印着一朵盛开的纳沙泰尔湖睡莲。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>温泉女神与石像之谜</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地流传着这样一个传说：新石器时代，一位名叫<strong>伊韦拉</strong>（Yverla）的湖之女神常在克卢尼的巨石间起舞。她每跳一步，脚下的土地便涌出温泉。她爱上一个年轻的猎人，但猎人在冬天冻死在湖畔。女神悲痛欲绝，将猎人的心脏藏在一块最大的立石下，从此温泉水变得温暖而富含矿物，据说可以治愈心碎之人的伤痛。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪时，城堡的建造者们曾试图移动那些巨石，以便开采石材建城。每当他们用火烤石、再用冷水浇裂时，都会听到石头发出的叹息声。工人们相信那是女神的诅咒，纷纷罢工。最终，城堡不得不绕开立石区选址——这也是为什么立石阵至今完好无损。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">老伊韦尔东人还会告诉你：在夏至夜里，若是独自站在最大的立石前，闭眼许愿，然后把手浸入城堡护城河的水中，就能听到石头发出的低语。当然，只有信的人才听得见。</blockquote>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>读懂伊韦尔东莱班，就是读懂欧洲文明的层叠：史前巨石、罗马浴场、中世纪城堡、温泉疗养、教育实验。</strong> 这座城市像一座微型博物馆，每一寸土地都嵌着不同时代的碎片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">你可以在同一天里，站在6000年前的立石阵前看日落，然后踱步到中世纪城堡的塔楼顶端，看湖面折射出的金色波光，最后去现代温泉中心泡一泡罗马人也曾沐浴过的水。这便是历史回响最动人的模样——它不是被封存在玻璃柜里的标本，而是依然流淌在血液中的活水。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>📍 想前往伊韦尔东莱班实地感受？</strong> 想看实地游玩攻略？交通、门票、城堡参观时间、温泉中心价格、立石阵最佳拍摄点等全攻略，请点击相关游记页。👉 [此处链接到游记页面]</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/poschiavo-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波斯基亚沃</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Poschiavo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/solothurn\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    索\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">索洛图恩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Solothurn</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bex-salt-mines\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝城盐矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bex Salt Mines</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "poschiavo-history",
+          "name": "波斯基亚沃",
+          "englishName": "Poschiavo"
+        },
+        {
+          "slug": "solothurn",
+          "name": "索洛图恩",
+          "englishName": "Solothurn"
+        },
+        {
+          "slug": "bex-salt-mines",
+          "name": "贝城盐矿",
+          "englishName": "Bex Salt Mines"
+        }
+      ]
+    }
+  ]
+}

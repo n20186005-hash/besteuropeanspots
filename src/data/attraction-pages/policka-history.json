@@ -1,0 +1,85 @@
+{
+  "slug": "policka-history",
+  "template": "history",
+  "metadata": {
+    "title": "波利奇卡历史溯源｜捷克中世纪环形城墙小镇的前世今生与作曲家马尔蒂努的传奇故事",
+    "description": "探访捷克波利奇卡，一座被19座防御半塔死死围住的中世纪珍宝。这里是作曲家马尔蒂努的故乡，聆听城墙下的隐秘往事与民间传说，深入欧洲小众人文秘境。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "帕尔杜比采州",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "波利奇卡",
+      "href": "/attractions/policka-history"
+    }
+  ],
+  "hero": {
+    "title": "波利奇卡・Polička・捷克・帕尔杜比采州",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在捷克东部的丘陵间，有一座被完整环形城墙死死包裹的小镇——波利奇卡。它的名字来自斯拉夫语“波列”（田野），却用19座半塔的沉默守护，锁住了中世纪欧洲的独特记忆。抛开游玩攻略，走进波利奇卡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">波利奇卡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Polička</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Polička</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">帕尔杜比采州</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">波利奇卡的诞生，与一场13世纪的权力博弈紧密相连。<strong>1265年</strong>，波西米亚国王普热米斯尔·奥托卡二世为巩固边境防御，在古老商路旁划出一块矩形土地。他命令工匠用当地花岗岩砌起一圈厚实的城墙，并在四角建造了棱角分明的半圆形塔楼。最初的城镇只有两条垂直的街道，交叉处矗立着哥特式的圣米歇尔教堂——这并非巧合，因为教堂的钟楼恰好与城墙的瞭望塔形成视觉呼应，成为过往商旅的导航标志。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“波利奇卡”这个地名，源于古斯拉夫语“pole”（田野）的指小形式</strong>，意为“田野上的小村落”。但这座小城从未甘心做无名之地。14世纪时，它被授予皇家城镇地位，城墙从最初的4座塔楼扩展到19座完整的防御半塔，每座塔都配备铁制吊闸和射击孔。更令人惊叹的是，城墙并非孤立存在：它围绕的环形街道——<strong>“环形大道”（Ringstraße）</strong>——至今保留着中世纪的市场格局。走在铺满鹅卵石的路上，你会发现每块石头都刻着岁月的印记：有些是当年马车轮子碾出的沟槽，有些是铁匠铺溅落的火星痕迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>波利奇卡的城墙不是防御工事，而是凝固的算术题。</strong> 考古学家发现，城墙的周长恰好是圣米歇尔教堂高度的整数倍。这种中世纪工匠的几何执念，让小镇成为一本立体的历史教科书。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 1421年的胡斯战争风暴</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">15世纪初，胡斯战争席卷波西米亚。波利奇卡因为地理位置偏僻，一度成为难民避难所。1421年，胡斯派军队逼近，城墙上的19座半塔首次经历实战考验。当地居民用滚烫的沥青和石弹击退了进攻，但战争带来的饥荒让小镇人口锐减。战后，镇民在城墙脚下修建了<strong>圣心礼拜堂</strong>，用彩绘玻璃记录下那段惨烈往事。如今，礼拜堂的壁画上仍能看到挥舞长柄镰刀的女性形象——她们是当年参与防御的平民英雄。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 三十年战争的沉浮（1618-1648）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">17世纪，欧洲陷入三十年战争的血腥泥潭。波利奇卡被瑞典军队三度占领。1643年，瑞典将军巴纳率领的军团攻破了外层防御，但始终未能拿下<strong>内城核心的钟楼要塞</strong>。当地传说，钟楼的铜钟在入侵者逼近时自动鸣响，吓得瑞典士兵仓皇撤退。实际上，是镇民在钟楼地下埋藏了火药陷阱，点燃引信后爆炸声震天。如今，钟楼底层仍保留着当年火药库的石门，门上的弹痕清晰可辨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 19世纪的工业静默</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪工业革命浪潮中，波利奇卡因为缺乏铁路和水路优势，奇迹般地未被现代工业改造。<strong>1850年</strong>，当地官员曾提议拆除部分城墙修建公路，遭到市民集体抗议。最终，城墙保住了，但小镇的经济陷入停滞。直到今天，波利奇卡的市中心依然保持着<strong>1850年的面貌</strong>：没有百货公司、没有连锁快餐店，只有面包铺飘出的麦香和铁匠敲打马蹄铁的叮当声。这种“被遗忘”的幸运，让小镇成为中欧唯一保存完整环形城墙的中世纪城镇样本。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 作曲家博胡斯拉夫·马尔蒂努（1890-1959）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“我的音符始终带着波利奇卡城墙的影子。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">——马尔蒂努1936年日记片段</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1890年，博胡斯拉夫·马尔蒂努出生在波利奇卡钟楼塔内的公寓里。他的父亲是教堂管理员，一家六口挤在消防员值夜用的阁楼间。年幼的马尔蒂努在钟楼里爬上爬下，听到的每一声钟响都刻进他的记忆。1906年，他怀揣着攒下的克朗前往布拉格音乐学院，却因为校方认为他“缺乏天赋”被拒。天才的第一次跌倒，是在家乡城墙下的河边。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>与城墙的共生</strong>：马尔蒂努后来成为新古典主义音乐代表，但他在自传《我的生活》中反复提到波利奇卡城墙的“节奏”。他写道：“墙垛的影子像五线谱的线条，我的第一个旋律就是模仿钟楼滴水的声音。”二战爆发后，流亡美国的马尔蒂努在纽约创作了交响诗《波利奇卡颂》，其中第二乐章用铜管模仿城墙上的号角预警，第三乐章用弦乐表现下雪时城墙的寂静。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>轶事</strong>：1957年，马尔蒂努最后一次返乡。他站在钟楼上俯瞰，突然对陪同的镇长说：“给我一把锤子和钉子。”然后亲手在城墙的某块砖石上凿出一个凹槽，声称“这样未来的人就知道音乐从这里出发”。如今，那块砖被玻璃罩保护起来，成为小镇博物馆的镇馆之宝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 神秘的地图绘制者：皮特·凡·德·沃尔夫（约1560-1630）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在波利奇卡的市政厅档案室，收藏着一幅惊人的古地图：<strong>1598年手绘《波希米亚东部防御城镇图》</strong>。作者皮特·凡·德·沃尔夫是来自荷兰的雇佣兵，他被波利奇卡的城墙布局震撼，花了三年时间用手工棕榈纸测绘出每座塔楼的精确角度。这幅地图不仅标明塔楼的内部结构（包括厕所位置！），还用拉丁文记录了防御战术口诀。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>与波利奇卡的羁绊</strong>：沃尔夫在波利奇卡定居后，娶了当地铁匠的女儿。他死后，妻子将地图藏在地板下，直到1889年修缮市政厅时才被发现。地图边缘有一段德文标注：“这座城像女人一样敏感——你必须在月圆之夜测量，否则城墙会呼吸。”这种神秘主义注解让现代测绘学家困惑不已：难道16世纪的工匠懂得利用月光调整砖缝？至今没有定论。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>关于“哭泣的半塔”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在城墙东北角的<strong>第7号半塔</strong>，每年冬至的午夜，当地人都会听到若有若无的啜泣声。传说1656年，一位名叫安娜的少女被选中作为献给“城墙守护灵”的祭品。她被活埋在塔基下，临终前诅咒“除非有人用蜂蜜涂抹九块砖石，否则哭声永远不散”。18世纪，一位牧师尝试用蜂蜜涂抹砖缝，结果第二天蜂蜜被蚂蚁吃光，哭声反而更大。如今，村民们会在冬至夜集体敲击塔壁，用噪音驱散“幽灵”——但科学解释是，塔内的通风孔在特定风向会产生共鸣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“面包师与石像鬼”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一则传说发生在19世纪。面包师米哈尔深夜烤制面包时，发现一只石像鬼蹲在炉膛里取暖。石像鬼恳求他不要声张，并承诺帮他在面包上变出圣米歇尔教堂的图案。第二天，米哈尔的面包果然出现金光闪闪的教堂浮雕，引得全城抢购。然而贪婪的米哈尔试图囚禁石像鬼，结果石像鬼震碎炉膛飞走，从此波利奇卡的面包再也烤不出图案。不过，当地面包店至今保留着“圣米歇尔面包”的传统，表面用刀划出十字纹——据说能避免石像鬼的报复。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">波利奇卡的历史价值在于它用肉身抵抗了时间的侵蚀。当欧洲其他中世纪城镇被战火和现代化撕成碎片时，这圈环形城墙像一道记忆的栅栏，将13世纪的风、16世纪的月光和20世纪的音符都圈在掌心。读懂它，就是读懂中欧平民史最坚韧的篇章。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>真正的旅行，不是穿越空间，而是穿越时间。</strong> 当你触摸城墙的裂缝时，手心感受到的是马尔蒂努曾在此处演算音符的温度，是胡斯战士洒下的汗滴，也是面包师与石像鬼不可言说的约定。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/svojanov-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯沃亚诺夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Svojanov Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jachymov-silver-radioactive-spa-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚希莫夫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jáchymov</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hluboka-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赫卢博卡城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hluboká Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "svojanov-castle",
+          "name": "斯沃亚诺夫城堡",
+          "englishName": "Svojanov Castle"
+        },
+        {
+          "slug": "jachymov-silver-radioactive-spa-town",
+          "name": "亚希莫夫",
+          "englishName": "Jáchymov"
+        },
+        {
+          "slug": "hluboka-castle-history",
+          "name": "赫卢博卡城堡",
+          "englishName": "Hluboká Castle"
+        }
+      ]
+    }
+  ]
+}

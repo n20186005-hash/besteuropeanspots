@@ -1,0 +1,85 @@
+{
+  "slug": "weitra-history",
+  "template": "history",
+  "metadata": {
+    "title": "魏特拉历史溯源｜奥地利最古老酿酒城的中世纪传奇与城堡酒窖故事",
+    "description": "探访奥地利下奥地利州的魏特拉——最古老的酿酒城。中世纪城墙、文艺复兴城堡、700年酒窖，以及拿破仑足迹与酿酒大师林德海默。走进魏特拉的尘封往事，发现时光的醇香。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "奥地利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "魏特拉",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "魏特拉",
+      "href": "/attractions/weitra-history"
+    }
+  ],
+  "hero": {
+    "title": "魏特拉・Weitra・奥地利・魏特拉",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在奥地利下奥地利州的密林深处，藏着一座被时光封存的酿酒古城——魏特拉。它是奥地利最古老的酿酒城市，拥有完整的中世纪防御城墙和一座充满文艺复兴内院的魏特拉城堡，而城堡地下至今仍在使用的传统酒窖，飘散着数百年的麦芽香气。抛开游玩攻略，走进魏特拉的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">魏特拉</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Weitra</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Weitra</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">奥地利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">魏特拉</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">魏特拉的历史可以追溯到12世纪。1190年，哈德马尔一世在托伊芬家族的领地上建造了第一座城堡，这便是魏特拉城堡的前身。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市的名字“Weitra”源自斯拉夫语“Vydra”，意为“水獭”——流经此地的施瓦茨巴赫河曾盛产水獭。1208年，魏特拉被授予城市权，成为下奥地利州最古老的拥有酿酒特权的城市之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>特殊的麦芽烘焙权</strong> 让魏特拉在13世纪便掌握了酿酒的命脉，至今仍是该地区酿造业的核心。老城的格局自那时起几乎未变，碎石铺就的街道仍沿着中世纪轮廓蜿蜒。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">魏特拉的历史充满了王朝更迭与战争创伤。它曾属于波希米亚王国，1526年随哈布斯堡家族并入奥地利帝国。三十年战争期间，瑞典军队攻占魏特拉，城堡遭受严重破坏，城墙上的累累弹痕至今可辨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最引人注目的历史印记是 <strong>文艺复兴式内院的修复</strong>——16世纪后期，城堡主人在原哥特式基础上增加了精美的拱廊庭院，这成为奥地利德语区最纯正的文艺复兴建筑范例之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一段印记与拿破仑战争有关：1805年和1809年，法国军队两次占领魏特拉，拿破仑本人甚至曾在城堡内短暂居住。一扇刻有“N”字母的窗户至今保留，传说拿破仑曾在此眺望晨雾中的城市。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了19世纪，酿造业迎来黄金时代。1850年，城堡内建成了一座现代化的麦芽工厂，直到1980年代才停产。如今，魏特拉城堡酒窖依然每年生产超过100万升啤酒，延续着700年的酿造传统。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">魏特拉的名人并非国际巨星，而是与城市血肉相连的酿酒大师与城堡守护者。最具代表性的是 <strong>约瑟夫·冯·林德海默</strong>，一位19世纪的酿酒改革家。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他出生于魏特拉城堡，1840年代前往巴伐利亚学习先进的底层发酵技术，回国后彻底革新了魏特拉的酿造工艺。他坚持只用当地施瓦茨巴赫河的纯水，配合摩拉维亚的大麦，酿造出带有独特花果香气的淡色啤酒。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“好啤酒的秘密不在于秘密，而在于诚实的水、干净的麦芽与四时的耐心。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这句名言被刻在城堡酒窖入口的石板上。在林德海默管理下，魏特拉啤酒赢得了数枚国际博览会金牌，甚至远销奥匈帝国的宫廷。他还建立了第一所公共酿酒学校，免费教授农民子弟酿造技术。至今，魏特拉每年九月的“啤酒节”仍以他的肖像作为节日旗帜图案。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位名人是 <strong>城堡守护者玛丽亚·安娜·冯·托伊芬</strong>，一位18世纪的贵族女性。她在丈夫去世后独自管理城堡和酒窖长达三十年，期间改善工艺，并在城堡内开设了孤儿院。她留下的《魏特拉酒窖年鉴》手稿，详细记录了1750-1790年间每年啤酒的产量、价格和口味变化，是研究欧洲啤酒史的珍贵文献。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">魏特拉流传着一个小精灵守护酒窖的故事。据说在每年的冬至夜晚，一位身穿棕色皮围裙、头戴啤酒花冠的 <strong>“麦芽精灵”</strong> 会悄然出现在城堡酒窖。他会在每个橡木桶上敲三下：如果桶内酒液稳定，就留下一朵干啤酒花作为祝福；如果酒液酸败，他就在桶底画一个叉。酿酒师们至今仍会在冬至前夜在酒窖门口放一碗热麦芽汁，以示敬意。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一个关于城墙的秘密：中世纪时，魏特拉的城墙被设计成独特的“马蹄形”防御结构。传说铁匠汉斯在城墙地基里埋下了七枚马蹄铁，象征着城市的永固。 <strong>至今，老城墙上依然镶嵌着一枚生锈的马蹄铁</strong>，当地人相信触摸它能带来酿酒的好运。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">魏特拉如同一本被翻开的羊皮古籍，每一页都散发着麦芽与历史的气息。从12世纪的城堡到文艺复兴的拱廊，从拿破仑的窗台到林德海默的酒窖，这座城市用最小的体积浓缩了奥地利最深的酿酒文化基因。读懂魏特拉，就是读懂欧洲小城如何在战火、王朝与传统的交响中，坚守一杯好啤酒的纯粹信仰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/alpina-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔卑纳城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alpina Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/seefeld-in-tirol-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒂\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒂罗尔州塞弗尔德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Seefeld in Tirol</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bregenz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布雷根茨老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bregenz</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "alpina-castle",
+          "name": "阿尔卑纳城堡",
+          "englishName": "Alpina Castle"
+        },
+        {
+          "slug": "seefeld-in-tirol-history",
+          "name": "蒂罗尔州塞弗尔德",
+          "englishName": "Seefeld in Tirol"
+        },
+        {
+          "slug": "bregenz",
+          "name": "布雷根茨老城",
+          "englishName": "Bregenz"
+        }
+      ]
+    }
+  ]
+}

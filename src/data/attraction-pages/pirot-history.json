@@ -1,0 +1,85 @@
+{
+  "slug": "pirot-history",
+  "template": "history",
+  "metadata": {
+    "title": "皮罗特历史溯源｜塞尔维亚边境秘境的莫姆契洛夫格勒要塞与双面地毯传奇",
+    "description": "从罗马驿站到奥斯曼边镇，皮罗特藏着14世纪的要塞与千年织毯密码。探访莫姆契洛夫格勒的断壁残垣，聆听双面地毯上的暗纹传说，在巴尔干十字路口触碰时光的褶皱。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "塞尔维亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "皮罗特",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "皮罗特",
+      "href": "/attractions/pirot-history"
+    }
+  ],
+  "hero": {
+    "title": "皮罗特・Pirot・塞尔维亚・皮罗特",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在塞尔维亚东南角的边境线上，皮罗特像一枚被遗忘的徽章，紧锁着巴尔干的血火与柔情。这里没有游客的喧嚣，却有<strong>双面无毛绒地毯</strong>的暗纹诉说千年，<strong>14世纪的莫姆契洛夫格勒要塞</strong>在晨雾中静默守望。抛开游玩攻略，走进皮罗特的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">皮罗特</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Pirot</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Pirot</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">塞尔维亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">皮罗特</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">皮罗特的名字，据学者推测，源自古老斯拉夫语“pyr”，意为“小麦之地”——河谷平原的肥沃馈赠。但它的历史坐标，早在罗马帝国时期就已钉入地图。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元2世纪，罗马军团沿着<strong>尼什-索菲亚</strong>大道修筑驿站，这里被称为<strong>“图雷斯”</strong>，是帝国东行路上的补给站。随着斯拉夫人在6世纪涌入，定居点逐渐扩展，而真正的转折发生在<strong>1346年</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞尔维亚帝国的崛起，把皮罗特推到了历史聚光灯下。皇帝杜尚（Stefan Dušan）在此修建了<strong>莫姆契洛夫格勒要塞</strong>，选址在尼沙瓦河畔的石灰岩峭壁上，俯瞰着通往君士坦丁堡的古道。要塞的名字来自一位地方领主——<strong>莫姆契洛</strong>，一位在史诗中被称为“飞鹰”的骑士。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地名典故</strong>：皮罗特的土耳其语名称“Şehirköy”（意为“城市村庄”）暗示了它在奥斯曼时期的特殊地位。而当地老人口中流传的“Pirot”，则与一种古老的红色染料有关——那种从茜草根中提取的赭红，正是地毯初生时的底色。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>莫姆契洛夫格勒要塞</strong>是皮罗特最沉默的见证者。它并非宏大如城堡，而是紧凑的防御工事，内有三座塔楼，城墙沿着山脊蜿蜒。<strong>1386年</strong>，奥斯曼军队攻陷了它，苏丹穆拉德一世在要塞内扎营，并下令将教堂改建为清真寺。那段时期的砖石缝隙里，至今能抠出十字与新月交替的碎瓷片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>双面地毯的诞生</strong>，则是一场意外。16世纪，奥斯曼工匠带来了安纳托利亚的织机，但皮罗特的女人们固执地保留下自己的编织密码——<strong>双面图案</strong>，即正反两面花纹不同、完全独立。这种技术需要将羊毛线打成数万个手工结，每平方厘米多达30个。商队在19世纪将它带到维也纳博览会上，<strong>1863年</strong>，皮罗特地毯首次亮相欧洲，震惊了纺织界。据说奥匈帝国皇后茜茜公主曾定制过一块，上面织着骑马的猎鹰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二战期间的“地毯地下党”</strong>更富戏剧性。当地妇女将情报密码织进地毯的几何图案里，由商队传递到盟军手中。一条看似普通的几何纹样地毯，实则暗藏着德军运兵路线。1990年代，一位老织工才向历史学家披露了这件事。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 莫姆契洛——“飞鹰”领主与他的要塞</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莫姆契洛（Momčilo）的真实身份至今是谜。他在塞尔维亚史诗中被描绘为<strong>“山林之鹰”</strong>，统领着三百名骑兵，以要塞为巢，劫掠奥斯曼商队。<strong>1348年</strong>，他与杜尚皇帝结盟，获封皮罗特及周边领地。但历史的残酷在于：他最终被自己的一位手下出卖，在睡梦中被斩首。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“鹰的翅膀折断了，但他的影子还罩着山岗。”——当地民谣《莫姆契洛之死》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，要塞最高处的塔楼被称为“莫姆契洛塔”，传说每年圣乔治节（5月6日）的午夜，能听到他的战马嘶鸣。当地农民至今不肯在塔楼附近种地，说会踩到骑士的魂魄。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 安娜·西莫维奇——地毯上的民族志学家</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">鲜有人知，皮罗特地毯的现代复兴离不开一位女性——<strong>安娜·西莫维奇</strong>（Ana Simović，1885-1967）。她本是贝尔格莱德大学的民俗学教授，<strong>1910年</strong>因肺结核来到皮罗特疗养。在病榻上，她被客栈女主人编织的地毯迷住了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">安娜开始了长达三十年的田野调查，走遍皮罗特周边52个村庄。她记录了1000多种图案的名称与含义：<strong>“狼牙纹”</strong>象征守护，<strong>“新娘之眼”</strong>寓意多产，<strong>“蛇缠枝”</strong>则是对抗瘟疫的咒符。她将发现编撰成巨著《皮罗特织物的神话符号》，<strong>1932年</strong>在贝尔格莱德出版。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更传奇的是，二战期间安娜用这些图案作掩护，为抵抗组织藏匿了三位犹太儿童。她把孩子扮作“织毯学徒”，教他们辨认花纹，用一段段口诀把逃生路线编进他们的记忆。1967年她去世时，整个皮罗特为她降半旗。今天，在镇上的地毯博物馆里，还能看到安娜戴过的老花镜和一支鹅毛笔。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>要塞里的“白新娘”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于莫姆契洛夫格勒，流传最广的传说是“白新娘”的故事。相传奥斯曼攻陷要塞时，领主女儿<strong>米莉察</strong>（Milica）拒绝改信伊斯兰教，从塔楼纵身跃入尼沙瓦河。河水并未吞噬她，而是将她化作一团白色雾气。每逢月圆之夜，雾团会飘过河面，缠绕着要塞废墟。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地人相信，看到“白新娘”雾气的人会走运——但必须立刻许愿，且不能告诉任何人。有个广为流传的笑话：1960年代，一位苏联地质学家在要塞测绘，夜里见到白雾，吓得连夜下山，结果第二天在河边发现了陨石碎片。皮罗特的孩子总爱在月圆时跑到河边大喊：“米莉察！给我一颗糖！”当然，没人真的见过她。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地毯上的禁忌</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传统织工严禁在日落之后织地毯，认为会织进“夜鬼”。且不得在编织时唱歌，歌声会惊动图案里的灵物。此外，地毯完成后，必须由未婚少女叠好，压在箱子底部过三夜，才能交付。据说有一次，一个急于交货的商人跳过这个步骤，地毯在客户家中自行散成了线团。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂皮罗特，读懂了巴尔干的韧性。这里不产黄金，不藏宫殿，却在每一寸经纬、每一块砺石里，保存着文明夹缝中的生存智慧。从罗马驿站到奥斯曼边镇，从铁托时代的工业小城到如今的手工艺复兴，皮罗特的故事总是以沉默的图案与裂缝诉说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在莫姆契洛夫格勒的残塔上，看着脚下的尼沙瓦河缓缓流向保加利亚，你会明白：真正的历史从不喧哗，它只是耐心地等待愿意倾听的人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/vrnjacka-banja-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗尔尼亚奇卡矿泉镇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vrnjačka Banja</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prizren\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普里兹伦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prizren</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/zemun-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    泽\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">泽蒙老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zemun Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "vrnjacka-banja-history",
+          "name": "弗尔尼亚奇卡矿泉镇",
+          "englishName": "Vrnjačka Banja"
+        },
+        {
+          "slug": "prizren",
+          "name": "普里兹伦",
+          "englishName": "Prizren"
+        },
+        {
+          "slug": "zemun-old-town",
+          "name": "泽蒙老城",
+          "englishName": "Zemun Old Town"
+        }
+      ]
+    }
+  ]
+}

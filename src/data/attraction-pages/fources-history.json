@@ -1,0 +1,85 @@
+{
+  "slug": "fources-history",
+  "template": "history",
+  "metadata": {
+    "title": "富尔塞历史溯源｜法国最罕见圆形巴斯蒂德的前世今生与半木结构传奇",
+    "description": "探索法国热尔省富尔塞的尘封往事：一座圆形布局的防御新城，中心绿树茵茵而非广场，半木结构房屋诉说着中世纪工匠、百年战争与宗教冲突的隐秘故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "热尔省",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "富尔塞",
+      "href": "/attractions/fources-history"
+    }
+  ],
+  "hero": {
+    "title": "富尔塞・Fourcès・法国・热尔省",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在法国西南部热尔省的丘陵间，藏着一座独一无二的中世纪新城——富尔塞。它的平面不是棋盘格，而是一个近乎完美的圆环，中心不是石砌广场，而是一片绿树成荫的空地。抛开游玩攻略，走进富尔塞的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">富尔塞</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Fourcès</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Fourcès</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">热尔省</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">富尔塞的诞生，得从13世纪法国西南部的“新城运动”说起。当时阿基坦地区处于英法王室交叉控制之下，各地领主纷纷建造 <strong>“巴斯蒂德”</strong>（bastide）——带有防御工事的新市镇，以吸引移民、发展贸易。绝大多数巴斯蒂德采用标准的矩形网格布局，中央是方正的市场广场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但富尔塞是个异类。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的地基最早可追溯到罗马时代——考古学家在圆形空地下发现了一座 <strong>古罗马圆形剧场</strong> 的遗迹。那个椭圆形的竞技场在公元3世纪后荒废，但它的圆弧轮廓却深深烙印在了土地的记忆里。13世纪末，当地领主 <strong>阿马尼亚克伯爵</strong> 决定在此建造一座巴斯蒂德时，他面临一个选择题：是铲平残垣拓出矩形，还是顺应这天然的圆形？</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">历史选择了后者。于是，民居沿着古罗马竞技场的弧线层层排开，中央的空地不再砌筑直角建筑，而是保留为一片 <strong>绿洲</strong>——栽满梧桐与椴树。这就是富尔塞名字的由来：源自拉丁语 <strong>“Furcus”</strong>（叉子），讹传为古奥克语“Fourcès”，意为“分叉之处”，暗指小镇坐落在两条溪流交汇的岔口。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">富尔塞的历史印记，像一圈圈年轮刻在环形街道上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>百年战争的伤痕</strong>：14世纪中叶，阿马尼亚克伯爵家族与英王爱德华三世结盟，富尔塞成为英法拉锯的前哨。1345年，英军占领此地，将木制主楼加固为石堡，并在圆形空地上挖掘了深井，以应对长期围困。如今，那口井仍藏在绿荫下，铁栅栏上还留有当年守军的刀痕。当地的老人会告诉你，井底的淤泥里曾挖出过十字弓的箭头和锈蚀的锁甲环。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>宗教战争的裂痕</strong>：16世纪，天主教与新教的冲突撕裂了整个法国。富尔塞因其圆形结构变得易守难攻，成为 <strong>新教胡格诺派</strong> 在热尔省的最后据点之一。1569年，天主教军队包围小镇，用火炮轰击南侧的半木结构房屋，引发了一场大火。大火吞噬了十三栋连排屋，但圆环的整体结构救下了核心区域。如今，那些重建的房屋在门楣上刻有不同的基督教符号——一只象征圣灵的鸽子，或一串代表耶稣受难的荆棘，暗示着主人当年的信仰立场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>建筑遗产的坚守</strong>：今天环绕空地的 <strong>半木结构房屋</strong>（colombages）大多建于15至16世纪，但它们的骨架其实更早。工匠采用了“橡木框架夹碎石墙”的工艺：先用铁钉固定木梁，再填入石灰和碎石的混合物。每一根木柱的倾斜角度都经过精心计算，让圆环的承重均匀分散。走在环街上，抬头能看到二楼外挑的梁头雕着人脸、动物或植物的图案——那是木匠留下的签名，仿佛在说：我亲手建造了这段历史。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">富尔塞的名人传奇，属于两位看似平凡却影响深远的人物：一位是奥克语诗人，另一位是逃亡的贵族之女。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一位：吟游诗人佩雷·富尔塞（Peire Fourcès, 约1340-1420）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩雷出生在富尔塞南端的一栋半木结构房屋里，父亲是箍桶匠。他从小听着环形巷子里铁匠的锤声、磨坊的水声长大，却对古老的骑士故事着迷。成年后，他成为 <strong>行吟诗人</strong>（troubadour），用奥克语写下了三十多首“晨歌”与“牧歌”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩雷最著名的诗篇叫《圆环之歌》，开篇写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“圆环不闭合，正如我的心。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">绿树下的影子，比城堡的尖顶更长久。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">诗中，他把富尔塞的圆形广场比作“大地的眼睛”，而环绕的半木结构房屋是“睫毛”。传说他曾在中央的梧桐树下为过路的贵族弹唱，赚得一枚金币后，又全部施舍给镇上的盲人乞丐。1420年佩雷去世后，镇民在他的屋前立了一根石柱，刻上他的诗句，后来石柱被移入教堂，如今已不知所踪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二位：贵族之女让娜·德·卡斯特诺（Jeanne de Castelnau, 1545-1623）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">让娜是天主教名门卡斯特诺家族的女儿，父亲是富尔塞的领主。但当宗教战争爆发时，她的哥哥加入了胡格诺派，并把小镇交给了新教军队。让娜被迫逃往图卢兹，却在途中被劫。她辗转流亡了七年，最终回到富尔塞时，发现家人已死，小镇满目疮痍。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她做了一件惊人的事：没有继承领主的头衔，而是变卖了所有金银，雇工匠 <strong>重建了被烧毁的十三栋半木结构房屋</strong>，并在每栋楼的二楼窗户下砌了一个石龛，用来摆放陶罐和鲜花。她说：“花能覆盖仇恨的痕迹。”如今，这些石龛被居民们延续下来，每逢春夏，环形街道成了花环。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">让娜终身未嫁，晚年住在一楼，每天在中央空地的井边为过路人免费舀水。她去世后，镇公所保留了她记录重建账目的木版，那块木版现在藏在市立博物馆，上面用奥克语写着：“火焰能吞没木头，但吞不下圆的记忆。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">富尔塞的圆形布局，在当地流传着一则充满魔幻色彩的传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说在12世纪，统治这片土地的是一位叫 <strong>贝尔纳·德·穆兰</strong> 的伯爵，他残暴好战，逼迫村民在河边修建方形的堡垒。一天深夜，一位身披灰色斗篷的仙女从古罗马废墟中走出来，对伯爵说：“你强逼世人建造直角的囚笼，大地之神会惩罚你。”伯爵大笑，命人砍伐圣林中的橡树。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">仙女一怒之下，将手中的橄榄枝抛向空中。橄榄枝旋转坠落，在地面画出一个 <strong>完美无缺的圆圈</strong>，并落下一道咒语：今后所有在此建造的房屋，若有一角超出圆环边界，便会在雷雨中崩塌。伯爵这才惊恐地发现，他的城堡地基真的出现了裂纹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他被迫放弃方堡，绕过古罗马竞技场的遗迹，沿着仙女的圆环搭建起木屋。从此，富尔塞的居民世代遵守这条禁忌——直到今天，任何扩建工程都必须严格沿着圆周线进行，哪怕想开一扇额外的窗户，也要得到镇议会的一致同意。镇上的老木匠至今还会在新房落成时，在梁头挂上一小枝橄榄枝，以示对“圆环之灵”的敬畏。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">富尔塞是一座活着的建筑标本，也是法国西南部 <strong>“新城运动”</strong> 中的一朵异花。它用圆弧对抗了中世纪的矩形霸权，用半木结构的暖色调对抗了石堡的冰冷。当你站在那棵百年梧桐树下，环顾四周层层叠叠的木梁与瓦顶，会不由自主地想象：从罗马的角斗士到阿马尼亚克的骑士，从胡格诺派的枪火到让娜的鲜花——所有故事都被一个圆圈收拢，没有起点，也没有终点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">理解富尔塞，就是理解欧洲中世纪另一种城市的可能：不是通往天际的尖顶，而是拥抱大地的环抱。它提醒我们，最坚硬的历史，有时恰恰生长在最柔和的曲线里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/domme-overlooking-dordogne-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多姆（俯瞰多尔多涅河谷的防御巴斯蒂德）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Domme</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/montagne-sainte-victoire\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣维克多山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Montagne Sainte-Victoire</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abbey-of-saint-savin-sur-gartempe\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣萨万修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abbey of Saint-Savin-sur-Gartempe</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "domme-overlooking-dordogne-history",
+          "name": "多姆（俯瞰多尔多涅河谷的防御巴斯蒂德）",
+          "englishName": "Domme"
+        },
+        {
+          "slug": "montagne-sainte-victoire",
+          "name": "圣维克多山",
+          "englishName": "Montagne Sainte-Victoire"
+        },
+        {
+          "slug": "abbey-of-saint-savin-sur-gartempe",
+          "name": "圣萨万修道院",
+          "englishName": "Abbey of Saint-Savin-sur-Gartempe"
+        }
+      ]
+    }
+  ]
+}

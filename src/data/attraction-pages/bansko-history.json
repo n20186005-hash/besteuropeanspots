@@ -1,0 +1,85 @@
+{
+  "slug": "bansko-history",
+  "template": "history",
+  "metadata": {
+    "title": "班斯科历史溯源｜保加利亚民族复兴的石头之城与传奇反抗者",
+    "description": "皮林山脚下的班斯科，不仅是滑雪胜地，更是十九世纪保加利亚民族复兴的活化石。走进石头老城，追寻反抗奥斯曼帝国的秘密学校与杰出先贤。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "保加利亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "班斯科",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "班斯科",
+      "href": "/attractions/bansko-history"
+    }
+  ],
+  "hero": {
+    "title": "班斯科・Bansko・保加利亚・班斯科",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在保加利亚西南部的皮林山脉脚下，有一座被白雪和石板路共同雕琢的小城——班斯科。大多数人因滑雪而记住它，但班斯科的灵魂藏在老城那些厚重石墙与木质阳台之间。这里是 <strong>十九世纪保加利亚民族复兴运动</strong> 的重要据点，一座石头砌成的记忆档案。抛开游玩攻略，走进班斯科的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">班斯科</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Bansko</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Bansko</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">保加利亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">班斯科</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">班斯科的历史不像欧洲许多古都那样可以追溯到罗马时期。它的名字最早出现在 <strong>17世纪</strong> 的奥斯曼帝国税务记录中，但考古发现表明，早在 <strong>13世纪</strong> 这里就有人定居。关于地名的起源，流传最广的说法与“班斯”有关：在保加利亚语中，“班”（бан）意为“浴池”或“温泉”，暗示此地曾有的地热资源。然而，另一种更动人的说法是，它源自一位叫 <strong>班</strong>（Ban）的当地领主，他在皮林山麓建立了一座防御性庄园。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">班斯科的真正崛起是在 <strong>18世纪至19世纪</strong>，当时它成为保加利亚民族复兴运动的重要中心。得益于奥斯曼帝国相对松散的统治，以及皮林山提供的天然屏障，班斯科逐渐发展为一个以商贸和手工业为主的城镇。最具特色的，是它的 <strong>防御型石木结构大宅</strong>——这些房子外墙用巨大的石块砌成，底层几乎无窗，二楼则伸出木质阳台，既可观察敌情，又便于防御。狭窄的卵石街道蜿蜒曲折，仿佛一座山间堡垒。这种独特的建筑风格，源自当时保加利亚人在奥斯曼统治下对安全和尊严的迫切需求。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今的老城区，依然保存着约 <strong>140座</strong> 这样的“民族复兴时期”建筑，它们被列入保加利亚国家文化保护名录，成为班斯科最珍贵的历史印记。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 秘密学校的灯火：民族意识的觉醒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在奥斯曼帝国统治的五个世纪里，保加利亚人的语言、信仰和身份面临被抹去的危险。班斯科的居民却以惊人的勇气，在 <strong>18世纪末至19世纪初</strong> 暗中开办了多所秘密学校。这些学校通常隐藏在教堂的地下室或商人住宅的阁楼里，孩子们在昏暗的烛光下学习保加利亚语、历史和东正教经文。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们不在白天读书，因为土耳其人看见会来砸门。但每个孩子都知道，这些字母是用血写的。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——当地一位老教师的日记片段</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1835年</strong>，班斯科的第一所正式学校“圣西里尔与美多德学校”建立，这标志着民族复兴运动从地下走向阳光。学校的成立离不开当地一位富商的资助，他的名字叫 <strong>拉佐·德切夫</strong>（Lazo Dechev），他不仅捐出大量钱财，还从伊斯坦布尔偷偷运来印刷机，印製保加利亚语教材。这台印刷机至今仍保存在班斯科的民族复兴博物馆中，成为镇馆之宝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 圣三一教堂：石雕上的反抗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>19世纪初</strong>，班斯科的居民决定修建一座属于东正教的大教堂，以对抗奥斯曼当局对宗教活动的限制。<strong>圣三一教堂</strong>（Holy Trinity Church）自 <strong>1835年</strong> 动工，历时近二十年才完工。它的外观并不起眼——灰白色的石墙、简洁的圆顶，但内部的木雕圣像屏风（Iconostasis）堪称保加利亚民族艺术的巅峰之作。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最令人震撼的是教堂外墙上的 <strong>石刻浮雕</strong>：一条巨龙被一位骑士刺穿，骑士手持十字架盾牌。当地历史学家解读，这并非单纯的宗教象征——龙代表奥斯曼帝国，骑士则是保加利亚民族精神的化身。在这座教堂的钟楼顶部，还刻着一条保加利亚谚语：“石头会说话，但时间不会遗忘。” 班斯科人用最坚硬的石头，刻下了最锋利的反抗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 1876年四月起义的余波</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">保加利亚全国性的四月起义失败后，奥斯曼军队对参与城镇进行了血腥报复。班斯科虽然地处偏远，仍有多名起义领袖被公开处决。年长的居民至今能指认 <strong>老市场广场</strong> 上的那棵古橡树——它曾是奥斯曼行刑者的刑架。然而，班斯科人并未屈服。起义失败后，当地的秘密革命委员会继续活动，直到 <strong>1878年</strong> 保加利亚获得自治。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些事件在班斯科的街道上留下了隐形的伤痕，也塑造了这座城市坚毅、沉默的性格。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 帕伊西·希伦达尔斯基（Paisius of Hilendar）——民族复兴之父与班斯科的血脉</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">严格来说，帕伊西并非出生在班斯科，但这位保加利亚民族复兴运动的精神领袖与班斯科有着千丝万缕的联系。他是 <strong>18世纪</strong> 的东正教修士，于 <strong>1762年</strong> 撰写了《斯拉夫-保加利亚历史》，这是第一本用现代保加利亚语书写的民族史，直接唤醒了沉睡中的民族意识。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">帕伊西的著作在班斯科被秘密传抄。当地的一位手抄本制作人 <strong>托多尔·赫里斯托夫</strong>（Todor Hristov）花了三年时间，在煤油灯下一字一句地抄写了整套《斯拉夫-保加利亚历史》，并在班斯科的教会中传阅。帕伊西在书中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“保加利亚人啊，不要忘了你们的祖先！你们有光荣的历史，有值得骄傲的名字。站起来，像那些山一样挺直脊梁！”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这句话在班斯科的石墙间回荡了两百年。如今，班斯科市中心的主广场以帕伊西命名，广场中央矗立着他的青铜雕像——他左手握着一本书，右手略微抬起，仿佛正在向世人讲述那段被遗忘的历史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 伊万·米哈伊洛夫（Ivan Mihaylov）——20世纪的革命者与流亡者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说帕伊西是精神上的父亲，那么 <strong>伊万·米哈伊洛夫</strong>（1896-1990）则是班斯科走出的最著名的行动派革命家。他出身于班斯科的一个普通家庭，年轻时因为参加马其顿-阿德里安堡内部革命组织（IMRO）而被奥斯曼当局通缉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">米哈伊洛夫的传奇之处在于，他 <strong>在20世纪20-30年代</strong> 领导了一系列针对塞族和希腊当局的武装行动，试图建立一个独立的马其顿国家。他行事低调，善于化装，多次在追捕中脱身。班斯科的老城至今流传着一个故事：有一次，土耳其警察挨家挨户搜查他，他就藏在一座石宅地下室的酒桶后面，手里攥着一颗手榴弹，准备一旦被发现就同归于尽。那位房东事后说：“伊万身上有一种山鹰的蛮勇。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊万·米哈伊洛夫的后半生在意大利度过，但他始终没有忘记班斯科。<strong>1990年</strong>去世前，他留下一封遗嘱，要求将部分骨灰撒在皮林山的雪松林中。如今，在班斯科的 <strong>民族复兴博物馆</strong> 里，有一间专门的展室展示他的信件、手枪和地图。对于许多保加利亚人来说，他既是争议人物，也是班斯科小镇能孕育出的不屈精神的象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 民间音乐巨匠：瓦尼亚·莫内娃（Vanya Moneva）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">不同于前两者，<strong>瓦尼亚·莫内娃</strong>（1948-2018）是一位女性民间歌手，她用声音守护了保加利亚古老的传统。她出生在班斯科附近的一个山村，童年时听着祖母在炉火旁唱 <strong>皮林山区民歌</strong> 长大。这些歌曲经常讲述战争、爱情和自然的轮回，嗓音高亢粗粝，仿佛山风穿过石缝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">瓦尼亚·莫内娃后来成为保加利亚国家电台的签约歌手，录制了超过400首民歌。她最著名的专辑《皮林山的眼泪》收录了许多与班斯科相关的歌谣，其中一首《石城之歌》是这样唱的：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我走过每一条石板路，石头底下藏着血和誓言。孩子们在教堂里学字母，山谷回响着自由的呼吸。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她晚年回到班斯科，在自家老宅的庭院里教年轻人唱古老的复调。2018年去世后，班斯科市政厅将一条靠近老市场的巷子改名为“瓦尼亚·莫内娃小径”，以纪念她用歌声镌刻的城市记忆。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>山间的水妖与墙上的眼</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">班斯科流传着一个关于“石墙之眼”的传说。据说，在修建防御型大宅时，工匠们会在石头外墙的隐蔽处凿出一个硬币大小的小孔，称为“监视之眼”（око на стража）。这不仅仅是为了观察外面，更是一种巫术：工匠会将一枚带有家徽的铁片塞进孔里，同时念三遍“愿石墙挡住灾祸，愿铁片吸走诅咒”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人说，如果谁家遭遇了不幸，比如火灾或瘟疫，就要在深夜去敲那个小孔三次，召唤墙中的守护精灵。至今，你在老城漫步时，仍能看到许多老宅的石墙上留着几个不起眼的小圆孔，它们背后藏着一座城对安全感的偏执追求。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说关于皮林山的 <strong>水妖“塞拉”</strong>（Сера）。相传在每个月圆的夜晚，她会从山间的溪流中现身，吸引迷路的旅人跟她走进深林。班斯科的老猎人坚持说，如果你在山上听到一种不像鸟鸣也不像风声的声音，那一定是塞拉的歌声。但塞拉只惩罚那些在山上砍伐圣树的人，从不伤害敬山的牧人。这座小城的居民至今保留着“入山前在石头上放一枚硬币”的习俗，以换取山神的庇佑。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">班斯科最动人的地方，在于它用一种近乎固执的方式保留了时间的厚度。那些由石块、木头和誓言筑成的老宅，那些在烛光下抄写的民族史，那些在绝境中依然吟唱的山歌——它们共同构成了一座 <strong>“活着的民族复兴博物馆”</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这里，每个转角都可能遇见一段被遗忘的反抗故事，每块石板都可能听过一个秘密学校的读书声。读懂班斯科，就是读懂保加利亚人如何在五个世纪的沉默中修炼出坚韧的灵魂。当你离开滑雪道，走进老城的石板巷，你会明白：班斯科不只是一座滑雪小镇，它是皮林山脚下用石头写成的民族史诗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/veliko-tarnovo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大特尔诺沃（沙皇之城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Veliko Tarnovo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tsarevets-fortress\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    查\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">查雷韦茨要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tsarevets Fortress</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/plovdiv-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普罗夫迪夫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Plovdiv</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "veliko-tarnovo",
+          "name": "大特尔诺沃（沙皇之城）",
+          "englishName": "Veliko Tarnovo"
+        },
+        {
+          "slug": "tsarevets-fortress",
+          "name": "查雷韦茨要塞",
+          "englishName": "Tsarevets Fortress"
+        },
+        {
+          "slug": "plovdiv-history",
+          "name": "普罗夫迪夫",
+          "englishName": "Plovdiv"
+        }
+      ]
+    }
+  ]
+}

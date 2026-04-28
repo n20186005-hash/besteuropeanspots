@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-history",
+  "template": "history",
+  "metadata": {
+    "title": "斯克拉丁历史溯源｜达尔马提亚古城的前世今生与传奇名人",
+    "description": "探秘克罗地亚斯克拉丁——从伊利里亚古城到威尼斯边境要塞。走进彩色河湾背后的尘封往事，遇见考古先驱 Šime Ljubić 与作家 Rebecca West 的足迹。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "克罗地亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "希贝尼克-克宁县",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯克拉丁",
+      "href": "/attractions/skradin-history"
+    }
+  ],
+  "hero": {
+    "title": "斯克拉丁・Skradin・克罗地亚・希贝尼克-克宁县",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">这座在克尔卡河与亚得里亚海交汇处闪耀的小城，曾是伊利里亚部落的堡垒、罗马帝国的殖民地、威尼斯共和国的前线，更是奥斯曼帝国与基督教世界反复拉锯的伤痕之地。今天，彩色的威尼斯房屋倒映在宁静的河面，仿佛一切血腥往事都被水流洗净。抛开游玩攻略，走进斯克拉丁的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">斯克拉丁</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Skradin</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Skradin</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">克罗地亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">希贝尼克-克宁县</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯克拉丁的历史远比想象中深远。早在公元前4世纪，<strong>伊利里亚人的Liburni部落</strong>便在此处定居，利用克尔卡河入海口的天然良港经营贸易。罗马帝国征服后，将其命名为 <strong>Scardona</strong>，并升格为正式的自治市（municipium）。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">老普林尼在《自然史》中曾提及斯卡尔多纳，称它是“达尔马提亚最古老的城镇之一”。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地名Scardona源自伊利里亚语，意为“岩石之地”——整座城市就建在克尔卡河右岸的石灰岩山丘上。罗马时期，这里成为周边航运的枢纽，水路直通亚得里亚海，陆路连接达尔马提亚腹地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪初期，斯拉夫人涌入，城市改名为Skradin，但罗马城墙的基石至今仍埋在鹅卵石街道下。<strong>9世纪</strong>，它成为克罗地亚王国的一部分，随后在中世纪匈牙利-克罗地亚联盟中扮演重要角色。<strong>15世纪初</strong>，威尼斯共和国夺取了斯克拉丁，将其打造成对抗奥斯曼帝国的前哨阵地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">正是这段威尼斯统治期（1409–1527年，又于1647–1797年）塑造成了今天看到的城市面貌：<strong>河岸的彩色房屋、执政官宫殿、以及高耸的钟楼</strong>，都是威尼斯哥特与文艺复兴风格的混合体。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯克拉丁的历史印记，是刀与火、砖与水的交响曲。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥斯曼的阴影与威尼斯的重建</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1527年</strong>，奥斯曼帝国的铁蹄踏破斯克拉丁的城墙，城市沦陷长达一个多世纪。奥斯曼人将教堂改建为清真寺，并在山顶修建了堡垒遗迹。<strong>1647年</strong>，威尼斯人在莫雷亚战争期间收复斯克拉丁，但城市已千疮百孔。重建过程中，威尼斯工程师规划了如今沿着河岸延伸的主街，并修筑了厚厚的防护墙。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">威尼斯总督在给元老院的信中写道：“斯克拉丁是抵御东方异教徒的第一面盾牌，每块石头都必须浸透汗水与祈祷。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克尔卡河上的生命线</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯克拉丁的繁荣离不开<strong>克尔卡河</strong>。这条河在入海前形成长约7公里的淡咸水交汇区，孕育了丰富的鱼类资源。威尼斯人建造了水磨坊，利用河流动能源源不断研磨小麦和橄榄。<strong>18世纪</strong>，沿河建起数十座水力磨坊，其中一些至今仍可运转。这些磨坊不仅是经济命脉，也是社区中心——磨坊主常常是当地消息最灵通的人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">炮火与沉默的20世纪</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，斯克拉丁再次遭受重创。<strong>1943年</strong>，盟军轰炸了被德军占领的码头，城中不少中世纪建筑化为瓦砾。战后，南斯拉夫政府逐渐修复了城市，但真正的复兴来自<strong>克尔卡国家公园</strong>的建立（1985年）。公园的核心瀑布群就在斯克拉丁上游，这座小城由此转型为国家公园的门户。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，走在主街上，还能看到<strong>17世纪威尼斯市民的家族徽章</strong>镶嵌在门楣之上。石墙上偶尔露出罗马时代的砖块，提醒着人们：这里的每一层土壤，都叠压着不同文明的记忆。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯克拉丁虽小，却诞生过两位与这座城市血脉相连、影响超越国界的人物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">考古先驱：Šime Ljubić（1822–1896）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Šime Ljubić生于<strong>斯克拉丁的一座石砌老屋</strong>，父亲是当地的商船船长。他自幼听水手们讲述海底沉船的故事，燃起对古代遗物的好奇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">青年时期，他在维也纳大学学习历史和考古，之后成为<strong>萨格勒布国家博物馆</strong>的首任馆长。他主持了达尔马提亚多处罗马遗址的发掘，包括<strong>Scardona古城</strong>（即斯克拉丁罗马遗址）和邻近的<strong>Bribirska glavica</strong>（中世纪克罗地亚王座城堡）。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">他在日记中写道：“我出生的每块石头都在呼唤我回来。斯克拉丁的土壤里埋着整个伊利里亚的密码，我必须一一破译。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Ljubić最大的贡献是论证了<strong>斯克拉丁就是罗马Scardona的确切位置</strong>。他曾带领学生徒步在克尔卡河两岸测绘，绘制了第一份科学的城市考古图。他还发现了大量罗马、中世纪的钱币和陶器，至今收藏在萨格勒布博物馆。1869年，他出版了《达尔马提亚考古指南》，成为该领域的标准参考书。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">遗憾的是，他的晚年因视力衰退而悲伤——他无法再亲眼辨认自己发掘出的铭文。<strong>1896年</strong>，他在萨格勒布去世，但遗嘱嘱咐将一部分藏书捐给斯克拉丁教区图书馆。如今，这座图书馆里仍能看到他手写的拉丁文笔记，字迹工整如印刷体。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">文学记录者：Rebecca West（1892–1983）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">英国作家、记者Rebecca West在1937年踏上南斯拉夫之旅，最终写成近1200页的旅行巨著《黑羔羊与灰猎鹰》。她在书中专辟一章描写斯克拉丁，称它是“让我第一次在达尔马提亚感到心静的角落”。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“河湾的水是绿色的，像翡翠融化了，又兑了些牛奶。彩色房子倒映在水里，房屋和倒影之间没有界线，仿佛整座城市是从河底生长出来，又轻轻浮在水面上。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Rebecca West当时与丈夫一起乘船从希贝尼克溯克尔卡河而上。她在斯克拉丁逗留了一整天，参观了<strong>圣安东尼教堂</strong>、<strong>旧磨坊</strong>和山丘上的废墟。她对当地的渔民和磨坊主进行了细致采访，记录下他们应对奥斯曼传说、威尼斯习俗的口述故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她特别被斯克拉丁的“时光交错感”吸引：“你站在威尼斯式的窗台前，低头就能看见罗马时代的水井圈沿。历史在这里不是书本，而是呼吸的空气。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这段记载后来被翻译成克罗地亚语，成为斯克拉丁旅游局最常引用的文学段落。<strong>2015年</strong>，人们在码头附近立起一块纪念牌，上面刻着她写斯克拉丁的几行文字。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">两位名人，一位用铲子发掘尘封的过去，一位用笔尖捕捉永恒的当下。他们都明白：斯克拉丁真正的财富，不在货币，而在时间沉积的深度。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克尔卡河的河雾里，流传着一个关于<strong>白色水仙女</strong>（Bijela Vila）的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在威尼斯统治时期，一位名叫<strong>Marija</strong>的渔家女爱上了一个来自杜布罗夫尼克的商人。商人许诺出海归来后娶她，却再也没有回来。Marija每天站在码头张望，眼泪落入河中。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">老人们说：“她的眼泪流进了克尔卡河，于是河水变成了淡咸水——一半是她的悲伤，一半是亚得里亚海的苦涩。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">后来，Marija化作一个半透明的白色身影，每逢满月夜，就坐在河湾的石灰岩上梳头。她的头发像瀑布一样垂入水中，据说能映照出水下失落的宝藏——那些威尼斯和奥斯曼沉船里藏着的金币。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地渔民至今保留一个习俗：每次出海前，要在船头放一小块<strong>斯克拉丁特色的干无花果</strong>。如果无花果变软了，就说明水仙女保佑他们；如果变硬了，就不宜出航。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更有趣的是，城中一座17世纪的<strong>水磨坊</strong>至今被称为“仙女的磨坊”。传说水仙女曾在一次雷暴中钻进磨坊，用她的法力保住了磨盘不被洪水冲走。磨坊主人发现后，每天留一碗新磨的面粉放在门口，第二天面粉总会消失——据说被仙女拿去烤面包了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">除了仙女传说，斯克拉丁还有一个独特的<strong>圣烛节习俗</strong>：每年2月2日，居民们会点亮纸船放入河中，船里装着蜡烛和写有愿望的纸条。这个传统据说源自威尼斯时期，人们希望船能顺着水流，将祈祷带到大海，再传给远航的亲人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些传说和习俗并非空穴来风，它们与城市的历史深深交融：威尼斯商人的航海文化、对河流的依赖、以及对未知世界的敬畏，都在故事中化作了鲜活的人情味。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯克拉丁的历史，是一部不断被征服、毁灭、重建，却从未断裂的史诗。从罗马石匠的凿声到威尼斯船工的号子，从奥斯曼炮火的轰鸣到现代游客的快门声，这座城市始终保持着一种沉默的尊严。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂斯克拉丁，不是欣赏克尔卡瀑布的壮美，而是要在黄昏时分，独自坐在码头边的石阶上，看夕阳把彩色墙壁染成金黄，听水流轻拍船底的节奏。那时候，你会明白为什么Šime Ljubić甘愿花一辈子挖掘这里的泥土，也明白为什么Rebecca West说：“斯克拉丁是一个可以让你忘记时间、却记起永恒的地方。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的历史价值，不在于留下多少宏伟建筑，而在于它为多元文明提供了交织的舞台。它的魅力，在于每一块石头都能说话——只要你愿意倾听。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bale-istria-dinosaur-fossil-stone-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴莱（伊斯特拉半岛的恐龙化石与石屋小镇）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bale / Valle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pula-arena\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普拉竞技场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pula Arena</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rovinj-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗维尼（伊斯特拉半岛最浪漫、充满威尼斯色彩的钟塔高地半岛老城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rovinj</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "bale-istria-dinosaur-fossil-stone-town",
+          "name": "巴莱（伊斯特拉半岛的恐龙化石与石屋小镇）",
+          "englishName": "Bale / Valle"
+        },
+        {
+          "slug": "pula-arena",
+          "name": "普拉竞技场",
+          "englishName": "Pula Arena"
+        },
+        {
+          "slug": "rovinj-history",
+          "name": "罗维尼（伊斯特拉半岛最浪漫、充满威尼斯色彩的钟塔高地半岛老城）",
+          "englishName": "Rovinj"
+        }
+      ]
+    }
+  ]
+}

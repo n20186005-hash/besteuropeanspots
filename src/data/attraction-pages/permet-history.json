@@ -1,0 +1,85 @@
+{
+  "slug": "permet-history",
+  "template": "history",
+  "metadata": {
+    "title": "佩尔梅特历史溯源｜阿尔巴尼亚玫瑰之城的奥斯曼遗梦与维约萨河传奇",
+    "description": "深入阿尔巴尼亚南部秘境佩尔梅特，探访“玫瑰之城”的前世今生。从伊利里亚古堡到奥斯曼石桥，从本土传奇人物到硫磺温泉的民间传说，一段被时光浸泡的历史之旅。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "阿尔巴尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "佩尔梅特 (吉诺卡斯特州)",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "佩尔梅特",
+      "href": "/attractions/permet-history"
+    }
+  ],
+  "hero": {
+    "title": "佩尔梅特・Përmet・阿尔巴尼亚・佩尔梅特 (吉诺卡斯特州)",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在阿尔巴尼亚南部的维约萨河畔，藏着一座被玫瑰与葡萄酒浸透的小城——佩尔梅特。<strong>这里没有游客的喧嚣，只有奥斯曼桥下的硫磺暖泉、拜占庭教堂的褪色壁画，以及空气中永不散去的玫瑰花香</strong>。它被称为“阿尔巴尼亚的玫瑰之都”，也是欧洲最后一条野生河流的守护者。抛开游玩攻略，走进佩尔梅特的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">佩尔梅特</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Përmet</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Përmet</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">阿尔巴尼亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">佩尔梅特 (吉诺卡斯特州)</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩尔梅特的历史比它今天的名气要深得多。<strong>这座小城的雏形，最早可追溯到公元前3世纪的伊利里亚部落时期</strong>。当时这片土地属于伊利里亚人的“阿曼提亚”部落范围，他们在维约萨河沿岸的高地上建造了早期的防御据点。城市的名字“Përmet”本身就是一个语言之谜——学术界普遍认为它源自希腊语“Pyrrhus”或“Pyrrheion”，意为“火红色的”，间接指向当地盛产的<strong>红玫瑰</strong>；但另一种更接地气的说法是，它来自当地的古伊利里亚语“Premta”，意为“富饶之地”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元2世纪，罗马帝国征服伊利里亚后，这里成为连接亚得里亚海与爱琴海商道上的一个小型驿站。<strong>真正奠定城市格局的是奥斯曼帝国</strong>。15世纪中叶，阿尔巴尼亚民族英雄斯坎德培去世后，奥斯曼人侵入南部，在维约萨河畔重建了佩尔梅特，并将其规划为一座标准的奥斯曼风格城镇。他们利用河流灌溉农田，引种大马士革玫瑰，逐渐让这里成为巴尔干半岛上重要的玫瑰油产区。<strong>到18世纪，佩尔梅特已经是一座被石桥、清真寺、土耳其浴室和玫瑰园簇拥的繁华市镇</strong>。今天市中心那条蜿蜒的石板小巷，依然是三百年前奥斯曼商人赶着驴车走过的路线。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩尔梅特的历史印记，就像维约萨河的水面，表面平静，水下却涌动着千年的故事。最核心的印记有两处：<strong>本亚的石桥温泉</strong>和<strong>圣玛丽教堂的壁画血案</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>本亚（Benja）温泉石桥</strong>，与其说是一座桥，不如说是一道跨越数百年的地理谜题。这座建于18世纪的奥斯曼石桥，横跨在维约萨河的支流上，桥身的石头被硫磺泉水常年浸泡，已经变成了暗黄色的化石质感。<strong>桥墩下涌出的地热温泉常年保持在38-40摄氏度，富含硫磺、钙和镁</strong>。但真正让这座桥充满历史感的，是它脚下的那片区域——考古学家在桥周围的岩壁上发现了<strong>公元前3世纪的伊利里亚祭坛</strong>，说明早在奥斯曼人修桥之前，这里就是古代伊利里亚人祭祀河神的地方。奥斯曼人只是在古祭坛基座上搭建了拱桥，让过往商旅在过桥时顺便泡温泉治病。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一处深刻的印记是<strong>圣玛丽教堂（Kisha e Shën Mërisë）</strong>。这座东正教教堂建于13世纪拜占庭帝国末期，却在15世纪奥斯曼征服后被改造为清真寺。<strong>教堂内部的壁画在18世纪经历了一场耐人寻味的“抹除”</strong>——奥斯曼官员下令用石灰覆盖所有描绘圣经故事的壁画，但当地基督徒在夜里偷偷用水洗掉石灰，这样白天又重新露出面目，如此反复多次。最终，奥斯曼人妥协了，允许壁画保留，但需要加挂一块布帘遮挡。今天你走进教堂，依然能看到部分壁画上残留的石灰痕迹与颜料层——那是两个文明拉锯战留下的物理证据。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩尔梅特这片土地孕育了两位截然不同却同样传奇的人物：<strong>诗人加布里耶尔·德尔卡（Gabriel Dërka）</strong> 和 <strong>现代阿尔巴尼亚歌曲之父——舍夫契特·米尔斯（Shefqet Mires）</strong>。他们的故事与这座玫瑰之城紧紧缠绕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>加布里耶尔·德尔卡（1860-1896）</strong> 是阿尔巴尼亚民族觉醒运动中鲜为人知的诗人。他出生在佩尔梅特附近的村庄，父亲是当地东正教会的神父。德尔卡从小在玫瑰园和蜂箱间长大，他最早的诗歌灵感来自<strong>维约萨河的水声和玫瑰花瓣的掉落</strong>。19世纪末，他进入吉诺卡斯特的希腊语学校学习，并开始用阿尔巴尼亚语秘密创作。他的代表作《玫瑰与血》写于1885年，描绘了佩尔梅特玫瑰农奴在奥斯曼地主压迫下的苦难生活。这首诗被当地农民传抄，甚至被编成民歌在婚礼上吟唱。1894年，奥斯曼当局以“煽动叛乱”为由将他逮捕，关押在佩尔梅特城堡的地牢中。<strong>在狱中，他用指甲在灰墙上刻下了最后一句诗——“玫瑰的根，是铁；铁的心，是玫瑰”</strong>。他于1896年死于监狱湿寒，年仅36岁。今天，佩尔梅特市中心的广场上立着一尊玫瑰花瓣形状的雕塑，纪念这位“玫瑰诗人”。每年五月，当地儿童会在雕塑前朗诵他的诗歌。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我的玫瑰不生在花园，/ 它们长在奴隶的脊背上，/ 花瓣是血，根茎是铁，/ 维约萨河啊，带走我的种子。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——加布里耶尔·德尔卡，《玫瑰与血》节选</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二位传奇人物是<strong>舍夫契特·米尔斯（1878-1947）</strong>，他被誉为“阿尔巴尼亚现代歌曲创作之父”。米尔斯的父亲是佩尔梅特的一位玫瑰油商人，家里拥有全城最大的玫瑰蒸馏作坊。舍夫契特从小在玫瑰香气和工人哼唱的民歌中长大，后来去伊斯坦布尔学习音乐，回到阿尔巴尼亚后开始系统性地收集南部地区的民歌。<strong>他花了十多年时间，骑着一匹骡子走遍佩尔梅特周围的每一个村庄，记录下四千多首民歌的旋律和歌词</strong>。1930年，他出版了《玫瑰山谷之歌》这本民歌集，其中收录了佩尔梅特地区独有的“单声音乐”，这种唱法要求歌手一口气唱完一个长句，中间不换气，模仿维约萨河水的流动感。米尔斯最著名的作品是《硫磺温泉谣》，里面唱道：“本亚的桥下，硫磺水暖，/ 姑娘的裙摆湿了半截，/ 老爷爷说这是神的眼泪，/ 喝了能活到一百岁。” 他在1947年去世后，佩尔梅特人把他的骨灰撒在维约萨河里，并在他老家的院子里种了一棵玫瑰树。直到今天，当地音乐学校还会在开学第一天带学生去那棵树下唱歌。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩尔梅特流传最广的民间传说，藏在<strong>本亚温泉的硫磺味道</strong>里。故事是这样的：</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">很久以前，维约萨河畔住着一位叫<strong>罗拉（Lora）的牧羊女</strong>。她每天赶着羊群经过本亚的石桥，总能看到桥下一股热气从岩缝中冒出来。一天，她生病了，浑身发冷，一头栽倒在地上。梦里，一位披着玫瑰色斗篷的老妇人告诉她：“用石头缝里流出的水泡三天，病就好了。” 罗拉醒来后照做，果然痊愈。从此，她每天用陶罐装满温泉水，送给村里的病人，人们称她为“本亚的玫瑰医女”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，住在河边山洞里的<strong>恶龙库尔塔（Kurta）</strong> 嫉妒罗拉的善举。它认为硫磺温泉是它睡觉时呼出的热气，不能被凡人享用。于是恶龙在夜里偷走温泉的水源，把石头堵住了泉眼。村里人再次患上疾病。罗拉独自走上山头，跪在石头上祈祷了七天七夜。最后，<strong>她的眼泪滴入石缝，硫磺泉水再次涌出，但罗拉却化作了一株带刺的红玫瑰</strong>，永远扎根在泉眼旁。从那以后，村里人每年春天都会在泉边栽种玫瑰，以此纪念那个善良的姑娘。今天你走到本亚桥下，还能看到一株格外茂盛的老玫瑰树，当地人相信那是罗拉化身，<strong>它开出的玫瑰花瓣，闻起来有淡淡的硫磺味</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩尔梅特的历史，是一部被玫瑰、热水与诗歌浸泡的编年史。它以最卑微的方式见证了伊利里亚的祭火、奥斯曼的刀斧、民族的觉醒和民歌的存续。<strong>读懂这座城，就是读懂阿尔巴尼亚南部那层褪色却温热的底色</strong>——它不宏伟，不震撼，却像硫磺泉水一样缓慢地治愈着每一个走近它的人。当你在本亚石桥下赤脚踏入温热的泉水，当你在圣玛丽教堂里触摸石灰覆盖下的天使面孔，你会发现：<strong>这里的每一寸石头和每一片花瓣都在低声诉说</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kruja-castle-bazaar\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克鲁亚</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kruja</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/butrint-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布特林特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Butrint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/korce-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科尔察</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Korçë</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "kruja-castle-bazaar",
+          "name": "克鲁亚",
+          "englishName": "Kruja"
+        },
+        {
+          "slug": "butrint-national-park",
+          "name": "布特林特",
+          "englishName": "Butrint"
+        },
+        {
+          "slug": "korce-history",
+          "name": "科尔察",
+          "englishName": "Korçë"
+        }
+      ]
+    }
+  ]
+}

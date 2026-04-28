@@ -1,0 +1,85 @@
+{
+  "slug": "montblanc-catalonia-history",
+  "template": "history",
+  "metadata": {
+    "title": "蒙特布兰克历史溯源｜圣乔治屠龙传说与加泰罗尼亚千年城墙古城",
+    "description": "走进加泰罗尼亚的蒙特布兰克，探秘1.5公里中世纪城墙背后的枭雄往事，追寻圣乔治屠龙的传奇足迹。抛开攻略，遇见时光深处的围城与传说。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "加泰罗尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "蒙特布兰克",
+      "href": "/attractions/montblanc-catalonia-history"
+    }
+  ],
+  "hero": {
+    "title": "蒙特布兰克・Montblanc・西班牙・加泰罗尼亚",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在加泰罗尼亚内陆的丘陵间，一座被完整城墙环抱的中世纪围城静静矗立——蒙特布兰克。它不仅是西班牙保存最完好的军事围城之一，更因一段英雄传说而极富神秘色彩：据说，这里就是圣乔治屠龙的确切发生地。抛开游玩攻略，走进蒙特布兰克的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">蒙特布兰克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Montblanc</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Montblanc</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">加泰罗尼亚</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元12世纪，加泰罗尼亚伯爵拉蒙·贝伦格尔四世为了巩固边境防线，在弗朗科利河畔的白色山丘上兴建了一座军事堡垒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座新城最初被命名为“蒙特布兰克”，意为“白山”——既指当地石灰岩的山色，也暗喻着加泰罗尼亚王权在此处刻下的神圣印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1163年</strong>，蒙特布兰克正式获得市镇特许状，开始聚集商贾与工匠。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的选址极佳：背靠丘陵，前临河流，天然险要。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当时，加泰罗尼亚各公国之间的纷争不断，蒙特布兰克作为边境要塞，首要功能就是防御。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与那些逐渐繁荣起来的沿海城市不同，蒙特布兰克的命运从一开始就与“围城”二字紧密相连。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这种军事基因，刻进了它的每一块砖石之中。最令人惊叹的是，<strong>全长超过1.5公里的城墙</strong>将整座老城完整包裹，沿途建有超过30座防御塔楼和7座城门。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在封建中世纪的欧洲，这样体量的城墙工程堪比奇迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市的布局也严格遵循中世纪军事原则：狭窄的街道蜿蜒曲折，几乎不设正对城门的直线道路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这种设计并非随意为之——任何攻入城内的敌军一旦进入街道，便会立刻陷入迷宫般的巷战。这便是蒙特布兰克最早的“城市密码”：一座为战争而生的石头迷宫。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>14世纪的血色瘟疫与权力更迭</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1348年</strong>，黑死病席卷欧洲，蒙特布兰克遭受重创。人口锐减三分之一，许多家族绝嗣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更致命的是随后的政治震荡：加泰罗尼亚阿拉贡王国的权力中心逐渐向巴塞罗那倾斜，蒙特布兰克失去了边境要塞的显著地位。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但这座小城没有沉沦。那些在瘟疫中幸存的市民，用石块重修了城墙和市政厅——<strong>我们今天看到的城墙上最坚固的部分，正是那个时代重建的</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一个冷门的历史细节是：为了筹钱加固城墙，当时的市政议会颁布了一项奇怪的法令——所有被处决的罪犯，其财产一律充公用于城墙维护。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这项残酷的“以命筑城”政策，在<strong>1370年至1390年</strong>间持续施行，为蒙特布兰克换来了近百年无外敌攻陷的记录。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>19世纪的加泰文艺复兴与身份觉醒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪中叶，当周边的工业城镇忙于纺织厂与铁路时，蒙特布兰克选择了一条不同的路：<strong>考古式修复</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>建筑师约瑟普·托拉·赫罗亚</strong>主导了城墙的修复工程。他坚持“修旧如旧”，严禁使用现代水泥填充石缝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这场修复运动不仅仅是为了美观。在加泰罗尼亚民族意识觉醒的背景下，蒙特布兰克的城墙被赋予了全新的象征意义——它是加泰罗尼亚中世纪强盛时期的不朽纪念碑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1936年</strong>，西班牙内战爆发。蒙特布兰克因其城墙的完整性和隐蔽性，被共和国政府选为加泰罗尼亚艺术金库的避难所之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">大量珍贵的哥特式祭坛画、宗教雕塑和教堂金银器皿，被秘密运进城墙下的地下室，躲过了佛朗哥军队的轰炸。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这段鲜为人知的历史，为这座围城增添了一层艺术庇护所的温暖底色。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣乔治的传说：从神话到信仰</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">蒙特布兰克圣乔治</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">说到蒙特布兰克，最激动人心的传说莫过于圣乔治屠龙。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“据古老的羊皮卷记载，一头恶龙盘踞在蒙特布兰克山丘下的湖中，它以牛羊为食，村民惶恐不安。当轮到公主被献祭时，一位骑士——圣乔治——策马而来。他的长枪刺穿了龙的心脏，鲜血化作玫瑰花丛。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个在欧洲广为人知的故事，许多地方都自称是其原发地。但在加泰罗尼亚，蒙特布兰克拥有独一无二的证据：<strong>圣乔治教堂</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座始建于<strong>13世纪</strong>的教堂，其地基直接埋在古城墙的防御塔楼之上。教堂正门的石雕上，清晰地刻画着屠龙场景——这被认为是加泰罗尼亚最早的圣乔治屠龙艺术表现之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在<strong>1450年</strong>的一份公证员手稿中，明确记载了蒙特布兰克市政议会每年4月23日举办“屠龙纪念弥撒”的习俗——比圣乔治被正式封为加泰罗尼亚守护圣人早了将近四个世纪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>奥古斯特·蒂埃里：围城里的法国流亡者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说圣乔治是神话英雄，那么<strong>法国历史学家奥古斯特·蒂埃里</strong>则是蒙特布兰克真实的历史见证者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1833年</strong>，蒂埃里因政治原因被迫离开巴黎，流亡至加泰罗尼亚。他被蒙特布兰克的中世纪风貌深深吸引，在此居住近三年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这期间，他撰写了一部关于加泰罗尼亚中世纪城市研究的著作，其中大量篇幅献给蒙特布兰克。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这座围城像是一本厚重的编年史册。每一块石头都镌刻着时光的纹理。走在城墙之上，我可以听见中世纪骑士的脚步声在石阶上回响。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">蒂埃里的著述让蒙特布兰克第一次进入欧洲学界视野。他在书中详细记录了城墙的构造、城门的御敌机关，以及当地保留至今的1308年“面包集市”市政法规。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">正是他的记录，使得<strong>18世纪</strong>一次被遗忘的城墙扩建工程重见天日。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，蒂埃里在蒙特布兰克居住过的那间石屋，依然保留在<strong>梅尔卡达尔街17号</strong>。门楣上有一块潮湿的旧石板，镌刻着他的名字——如果你仔细辨认，还能看到1835年的日期。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约瑟普·玛丽亚·里奥斯：民谣中的围城</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>20世纪</strong>初，加泰罗尼亚音乐家约瑟普·玛丽亚·里奥斯将蒙特布兰克称为“石化的音乐”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在<strong>1910年</strong>创作了一部名为《围城》的交响诗，灵感来源于蒙特布兰克的城墙和传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这部作品在当时的巴塞罗那加泰罗尼亚音乐宫首演，引起了巨大轰动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">里奥斯在乐谱上写道：“每个音符都对应着一座城墙上的塔楼，当你聆听时，你正在攀登一座无形的蒙特布兰克。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他晚年隐居在蒙特布兰克的一座农舍中，每天清晨都必去城墙上散步。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的日记里这样记着：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“城墙上的苔藓在晨光中湿润如和田玉，远处弗朗科利河的水声若有若无。这是我所写过的最纯粹的和弦。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“石头新娘”的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">蒙特布兰克最著名的民间传说是关于一位石化的新娘。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说，在<strong>15世纪</strong>，一位骑士从战场上归来，发现他的未婚妻已被恶龙掳走。他骑着战马沿着城墙狂奔，许下誓言：“若她受一点伤，我愿成为城墙上的石头，永远陪伴她。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当天深夜，一位村民路过时，看到骑士的身影和战马一同缓慢地融入了城墙最东北角的塔楼之中。从那以后，那个塔楼的石块上就多了一张模糊的人脸轮廓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人称之为“石头新娘的守护者”。有一个延续数百年的习俗：<strong>4月23日（圣乔治节）的午夜，新人会来到这座塔楼前，将一朵红玫瑰放在墙根处</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说，可以听到从石块深处传来的轻轻叹息——那是骑士对爱情永恒的回响。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>幽灵修士的午夜巡游</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个广为流传的传说是关于蒙特布兰克修道院的幽灵修士。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>17世纪</strong>，修道院因财政危机而解散，修士们四散各地。但当地居民声称，<strong>每逢月圆之夜，一位身穿僧袍的修士会提着油灯沿着城墙巡逻</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的灯光会在每一座塔楼窗口停留片刻，仿佛在检查城防。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有人认为他是<strong>12世纪</strong>蒙特布兰克城墙工程的督建者，因放心不下自己的作品而化为不散的英灵。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年<strong>11月1日诸圣节</strong>的晚间，城门的工作人员都会在城墙角留下一盏油灯，不熄不灭，直到翌日黎明。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“为修士留一盏灯”，成了一种温暖而神秘的仪式。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">蒙特布兰克是一部石头的史书。它的每一座塔楼、每一道城墙都在诉说中世纪的荣光与苦难。从军事要塞到艺术庇护所，从圣乔治的传说到流亡学者的驻足，这座围城承载了太多故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">漫步在蒙特布兰克的石板街道上，你会感到时间的流速变慢了。那些蜿蜒的巷弄、斑驳的城墙，以及沉睡在教堂石雕中的屠龙传说，都在等待着你的倾听。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂蒙特布兰克，就是读懂加泰罗尼亚中世纪的心脏。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ainsa-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾恩萨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ainsa</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/barcelona-city-tour\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴塞罗那城市观光</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Barcelona City Tour</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/calaceite-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡拉塞特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calaceite</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "ainsa-history",
+          "name": "艾恩萨",
+          "englishName": "Ainsa"
+        },
+        {
+          "slug": "barcelona-city-tour",
+          "name": "巴塞罗那城市观光",
+          "englishName": "Barcelona City Tour"
+        },
+        {
+          "slug": "calaceite-history",
+          "name": "卡拉塞特",
+          "englishName": "Calaceite"
+        }
+      ]
+    }
+  ]
+}

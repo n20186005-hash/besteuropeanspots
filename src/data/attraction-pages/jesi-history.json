@@ -1,0 +1,85 @@
+{
+  "slug": "jesi-history",
+  "template": "history",
+  "metadata": {
+    "title": "耶西历史溯源｜神圣罗马帝国皇帝出生地与前世的葡萄酒传奇",
+    "description": "探索意大利马尔凯的耶西，神圣罗马帝国皇帝腓特烈二世的出生地。穿越十四世纪城墙，品味维迪奇奥白葡萄酒，聆听一座中世纪小城的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "意大利",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "耶西",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "耶西",
+      "href": "/attractions/jesi-history"
+    }
+  ],
+  "hero": {
+    "title": "耶西・Jesi・意大利・耶西",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在意大利马尔凯大区腹地，有一座被庞大而坚固的十四世纪防御城墙紧紧环抱的中世纪小城——耶西。这里不仅是神圣罗马帝国皇帝<strong>腓特烈二世</strong>的出生地，更是享誉世界的<strong>维迪奇奥白葡萄酒</strong>的故乡。抛开游玩攻略，走进耶西的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">耶西</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Jesi</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Jesi</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">意大利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">耶西</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">耶西的起源，深深扎根于古罗马的扩张时代。<strong>公元前247年</strong>，罗马人在此建立名为“Aesis”的殖民地。这个名字源自流经此地的<strong>埃西诺河</strong>，也是古罗马与高卢人战争的边界哨站。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那时的耶西，只是亚得里亚海岸边的一个小型据点。但随着罗马帝国衰亡，它逐渐演变为一座重要的中世纪城邦。<strong>12世纪</strong>，耶西成为教皇国与神圣罗马帝国反复争夺的战略要地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市的真正转折点，发生在<strong>1194年12月26日</strong>。那一天，后来的神圣罗马帝国皇帝<strong>腓特烈二世</strong>在此降生。这件事彻底改变了耶西的历史轨迹，使得这座边陲小城一跃成为欧洲政治舞台的焦点。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">民间至今流传，腓特烈二世出生时，天空出现异象——一颗流星划破马尔凯的夜空，预示着一个“世界奇迹”的诞生。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">为了抵御外敌，耶西人在<strong>14世纪</strong>开始大规模修建城墙。这道长达数公里的庞大军用建筑，用厚实的红砖砌成，至今依然完整环绕老城，成为耶西最醒目的标志。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>城墙下的历史喘息</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">耶西的城墙不只是防御工事，它本身就是一部凝固的历史。<strong>1386年</strong>，当米兰的维斯康蒂家族大军兵临城下时，耶西人正是凭借这道城墙坚守数月。城墙上的<strong>马基雅维利塔</strong>，至今还留有当年火炮的弹痕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>腓特烈二世的帝国梦</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">作为神圣罗马帝国皇帝，腓特烈二世在这里度过了童年。但他的身影很快便消失在耶西的街巷中。10岁时，他被送往德国，从此开启征服意大利的征程。然而，耶西始终是他心中“出生地上的王国”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>维迪奇奥葡萄酒的诞生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">很少有人知道，<strong>维迪奇奥白葡萄酒</strong>早在<strong>15世纪</strong>就已声名鹊起。当地修道院的僧侣们改良了葡萄种植技术，用埃西诺河谷的独特土壤酿出带有杏仁和蜂蜜香气的酒液。这份配方，一直延续到今天。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>腓特烈二世：生下世界的奇迹</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1194年12月26日</strong>，一个注定要改变欧洲命运的婴儿在耶西的<strong>斯韦沃宫</strong>出生。他就是<strong>腓特烈二世</strong>——神圣罗马帝国皇帝、西西里国王、耶路撒冷国王，被称为“世界的奇迹”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">腓特烈二世与耶西的羁绊，远比出生地更深。他在<strong>1220年</strong>加冕后，曾数次回到耶西，将其作为征讨意大利北部城邦的基地。他在这里发布过著名的《耶西和平敕令》，试图调和教皇与帝国的矛盾。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">腓特烈二世在日记中写道：“耶西的城墙能挡住箭矢，却挡不住我心中的帝国。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他最令人津津乐道的事迹，是在<strong>1230年</strong>。当时，他率领军队从耶西出发，一路南下，收复了被教皇国占领的西西里岛。这场战役奠定了他在意大利的统治地位。耶西也因此获得“皇家城市”的称号，享有免税特权。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但命运总是充满讽刺。腓特烈二世在<strong>1250年</strong>去世后，他的帝国很快分崩离析。耶西却因为这段历史，永远烙印在欧洲记忆里。今天，斯韦沃宫的老墙上，还留有他当年刻下的鹰徽——那是霍亨斯陶芬王朝的象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>洛伦佐·洛托：绘画中的隐秘城邦</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">除了皇帝，耶西还孕育了一位文艺复兴时期的绘画大师——<strong>洛伦佐·洛托</strong>。这位生于<strong>1480年</strong>的画家，在耶西度过了他的早期创作生涯。与拉斐尔和提香同时代，他却选择了更质朴、更直击灵魂的风格。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">洛伦佐·洛托笔下的耶西，是市井与信仰的完美融合。他在耶西的<strong>圣弗洛里亚诺教堂</strong>创作的壁画《圣母加冕》，至今仍是艺术史研究的经典。画中圣母的面容，据说就是当时耶西一位普通女市民的肖像。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但洛托的晚年并不顺遂。他因拒绝迎合贵族口味而四处漂泊，最终在<strong>1556年</strong>默默离世。如今，耶西市民仍会骄傲地说：我们的小城孕育了一位真正的艺术家。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>城墙里的神秘通道</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">耶西老城的石头下，隐藏着无数秘密。传说在<strong>14世纪</strong>，城墙的建造者——建筑师<strong>乔瓦尼·达·贝加莫</strong>——在墙体里偷偷修建了秘密通道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些通道连接着全城的重要建筑，包括市政厅、斯韦沃宫和城外的一座古老修道院。每当战乱或瘟疫来袭，贵族们便通过地道逃往城外。至今，当地老人口中仍流传着一个故事：<strong>1578年</strong>，夜晚的城墙下，总能看到幽灵般的人影走动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>维迪奇奥酒的诞生传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于维迪奇奥白葡萄酒，有一个有趣的民间传说。<strong>13世纪</strong>，一位来自西西里的修道士来到耶西。他在埃西诺河谷中发现了一种野生葡萄，果实小而金黄色，味道极其甘甜。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">修道士将其带回修道院，经过多年试验，终于酿出一种带有杏仁、香草和蜂蜜香气的白葡萄酒。当地人取名“维迪奇奥”，意为“小金色果实”。这酒不仅成为耶西的珍宝，还被献给教皇，成为教皇餐桌上不可或缺的佳酿。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂耶西，就是读懂一座城与一位皇帝的灵魂交融。在斑驳的城墙下，在维迪奇奥酒的醇香里，在斯韦沃宫的石阶上，每一寸土地都在低语：这里曾见证过帝国的辉煌与文明的流动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">作为欧洲小众深度旅行的精髓所在，耶西不只是一处景点，而是一个穿越时空的窗口。它让人明白，历史的重量不止存在于罗马或佛罗伦萨，更藏在这些被时光轻抚过的城邦之中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当我们站在城墙之巅，望着埃西诺河缓缓流淌，你会发现——这座小城的价值，远不止于一张门票或一张照片。它是一本摊开的史书，每一页都写满传奇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/arian-baptistery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿里乌派洗礼堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arian Baptistery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dozza-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    多\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">多扎</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dozza</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/spilimbergo-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯皮林贝戈</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Spilimbergo</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "arian-baptistery",
+          "name": "阿里乌派洗礼堂",
+          "englishName": "Arian Baptistery"
+        },
+        {
+          "slug": "dozza-history",
+          "name": "多扎",
+          "englishName": "Dozza"
+        },
+        {
+          "slug": "spilimbergo-history",
+          "name": "斯皮林贝戈",
+          "englishName": "Spilimbergo"
+        }
+      ]
+    }
+  ]
+}

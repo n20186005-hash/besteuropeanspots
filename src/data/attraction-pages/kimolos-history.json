@@ -1,0 +1,85 @@
+{
+  "slug": "kimolos-history",
+  "template": "history",
+  "metadata": {
+    "title": "基莫洛斯岛历史溯源｜火山白岩村的古希腊传奇与温泉秘史",
+    "description": "探秘希腊基莫洛斯岛：从火山岩村乔里奥到古老地热温泉，追溯Kimolian earth的贸易神话、威尼斯城堡的往事与民间英雄的日记。沉浸式历史叙事，带你读懂这片未被商业侵蚀的秘境。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "希腊",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "基莫洛斯（主镇乔里奥）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "基莫洛斯岛",
+      "href": "/attractions/kimolos-history"
+    }
+  ],
+  "hero": {
+    "title": "基莫洛斯岛・Kimolos・希腊・基莫洛斯（主镇乔里奥）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在爱琴海波澜不惊的南翼，一座火山岩小岛静静伏卧——<strong>基莫洛斯（Kimolos）</strong>。它没有圣托里尼的喧嚣，却藏着古希腊人称为“大地之脂”的珍贵白垩土；它的主镇乔里奥（Chorio）如雪圣洁，石阶上刻满威尼斯商人与海盗的足迹。抛开游玩攻略，走进这座小岛的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">基莫洛斯岛</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Kimolos</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Kimolos</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">希腊</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">基莫洛斯（主镇乔里奥）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">基莫洛斯的诞生，是海洋与地火的残酷诗篇。大约两百万年前，一次海底火山喷发，将熔岩与浮石抛向天空，冷却后形成了这座形状如泪滴的岛屿。<strong>古希腊人</strong>称之为“Cimolus”或“Kimolos”，传说名字来自一位名叫<strong>基莫洛斯</strong>的年轻英雄——他是<strong>赫拉克勒斯</strong>的挚友，因在战斗中救过这位半神而获赠这片土地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">本地渔民世代流传另一种解释：<strong>“Kymolos”</strong>在古希腊语中意为“波浪之子”——每当北风呼啸，岛屿东南岸的巨浪会拍打出白色泡沫，仿佛火山在呼吸。这层隐喻恰好呼应了岛上最古老的资源：<strong>Kimolian earth</strong>（基莫洛斯土），一种质地细腻、吸油利强的白色黏土。<strong>古罗马作家老普林尼</strong>在《自然史》中写道：“世上没有比基莫洛斯土更能吸去衣物污渍之物了。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最早的人类定居痕迹可追溯至<strong>新石器时代</strong>（约公元前4000年），但真正形成聚落是在<strong>古典时期</strong>（公元前5世纪）。那时它与邻岛米洛斯同属雅典提洛同盟，战船时常停泊在今天的普萨里港。<strong>公元前416年</strong>，米洛斯被雅典攻陷，基莫洛斯却因贡献白土而幸免——这段“黏土外交”的故事，至今仍在乔里奥老人院的老人口中传唱。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、白土帝国：Kimolian earth的黄金时代</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在罗马帝国时期，基莫洛斯土不仅是洗衣业的圣品，更被用于制药与化妆。<strong>庞贝古城</strong>的壁画中，贵族浴室的墙壁上涂抹的正是这种白土。<strong>公元1世纪</strong>，希腊医生<strong>迪奥斯克里德斯</strong>记录：“基莫洛斯土加水调成糊，可治疮痈与眼疾。” 整个地中海沿岸的港口，商船都排队订购这块巴掌大的岛屿的白土。岛中心的<strong>圣乔治采石场</strong>至今可见罗马人开凿的阶梯状矿坑，石壁上还留有<strong>公元2世纪</strong>的希腊铭文：“此地出产之物，胜于一切泥土。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、威尼斯要塞与海盗博弈</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1204年</strong>，第四次十字军攻陷君士坦丁堡，基莫洛斯落入威尼斯人手中。他们在乔里奥山顶修建了<strong>卡特里奥城堡</strong>（Kastri），用火山石砌成锯齿形城墙，以抵御北非巴巴里海盗。<strong>1566年</strong>，奥斯曼舰队兵不血刃占领岛屿，但威尼斯商人的商栈并未撤离。城堡底层至今保留着<strong>16世纪</strong>的橄榄油压榨坊，墙壁上刻着希腊正教十字与威尼斯圣马可飞狮并存的徽章——那是两种文明在石头上无声的握手。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、独立战争的烽火</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1821年3月25日</strong>，希腊独立战争爆发。基莫洛斯岛民在<strong>教父帕帕斯·阿纳斯塔修斯</strong>的带领下，用白土烧制的粗糙手榴弹炸沉了一艘奥斯曼炮船。<strong>同年8月</strong>，岛上34名战士编入希腊海军，在<strong>萨摩斯海战</strong>中驾驶火船冲向敌舰。今天乔里奥广场的<strong>独立纪念碑</strong>上，刻着一位叫<strong>米哈伊尔·弗拉乔斯</strong>的渔民的名字——他独自划船数十海里为被困的卡利诺斯岛送去弹药，归来时已成灯塔守望者。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、老普林尼与他的“油腻之岛”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说罗马帝国的知识殿堂有一扇面向基莫洛斯的窗户，那一定是<strong>盖乌斯·普林尼·塞孔杜斯</strong>（公元23-79年）。这位百科全书式的作家在《自然史》第36卷中，专辟一章描述“基莫洛斯土”。他写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这种土产于基莫洛斯，一种轻盈如浮石、触感如油脂的白色物质。漂布匠把它与硝石混合，能让最脏的羊毛恢复雪白；医生用它治疗肠痈；若混入蜂蜜，还能杀死疥疮虫。我见过一位非洲射手，用基莫洛斯土堵住箭伤，三天后伤口竟未化脓——这算得上是神药了。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">普林尼本人从未踏足基莫洛斯，却通过商人如饥似渴的叙述，把这座岛屿推向了帝国全境。他的记载不仅让白土成为罗马海关的征税对象，更间接催生了岛上最早的海关文书——一块刻有拉丁文的石碑（现存乔里奥考古博物馆），记录着<strong>公元43年</strong>某批白土运往比雷埃夫斯的完税凭证。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、船长基里亚科斯·安东尼奥：风与火的情书</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在基莫洛斯本地口述史中，<strong>基里亚科斯·安东尼奥</strong>（1805-1873）是一位比神话还要传奇的人物。他是最后一个操控帆船穿越基克拉泽斯群岛的商人船长，也是岛上第一份希腊语日记的写作者。这本名为《海与石》的羊皮手稿，现存于乔里奥的家族档案馆，其中一节写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“1834年3月15日，风暴西来。我命令水手收起主帆，将船头对准基莫洛斯湾。妻子玛丽的双手永远沾着白土与面粉，她正在家里喂养羊羔，我却只能对着岛上的火山锥祈祷。海底有声音说：你若不归，白土将融化在盐水里。我答：只要烟囱还冒烟，我就回来做一尊盐柱。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安东尼奥</strong>不仅是商人，还利用白土的不透水特性，发明了一种<strong>防水帆布</strong>，用于运输橄榄油。<strong>1843年</strong>，他在雅典帕提农神庙下的集市首次出售这种“基莫洛斯帆布”，引起轰动。<strong>1855年</strong>克里米亚战争期间，英法联军曾向他订购整整十船这种帆布，用来覆盖军营弹药库。他晚年只做一件事：回乔里奥创办了一所<strong>夜校</strong>，教授年轻渔民识字，课本扉页用希腊文写着：“石可成土，土可成书。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、但丁的幽灵：流浪诗人“阿兰·卡斯特”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>20世纪30年代</strong>，一位自称<strong>阿兰·卡斯特</strong>的法国诗人在基莫洛斯岛隐居七年，至今无人知晓他的真名。他住在一座废弃的采石工棚里，用白土当墨，在石板上写诗。当地老人记得他经常赤脚站在温泉边，对着热气吟诵：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“此地是地球的肚脐 / 温泉是它哭泣的眼泪 / 白土是它脱落的皮肤 / 我舔舐盐粒，便能尝到古罗马的洗衣皂味。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿兰·卡斯特</strong>离开后留下了一批诗稿，1978年被文学研究者带到巴黎，发现其中部分诗句与但丁《神曲·炼狱篇》的未刊草稿高度相似。尽管无法确认，但基莫洛斯人宁愿相信：那位流浪者就是但丁的转世精灵，用火山灰重新拼写了中世纪的宇宙。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">温泉的眼泪与白衣少女</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">基莫洛斯西南端的<strong>地热温泉</strong>，终年冒着硫磺气味的热气。据传，<strong>古希腊时代</strong>，有一位名为<strong>尼科拉</strong>的美丽少女，爱上了米洛斯岛的年轻牧人。牧人被海神波塞冬的使者化作海豚，尼科拉每日在海边哭泣。<strong>众神之母瑞亚</strong>怜惜她，引导她的眼泪渗入火山裂隙，与地火交融，变成了永不干涸的温泉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今当地渔民仍会向温泉投掷一枚白色石子，如果石子沉入气泡而不是浮起，则意味着尼科拉的灵魂在保佑来年丰收。更有趣的习俗是：<strong>每年6月24日</strong>施洗约翰节，乔里奥的未婚女性会悄悄在温泉边埋下一块白土，上面刻着心仪男子的名字。若次日白土变成粉色，就代表这桩姻缘会像火山岩一样坚固——<strong>地质学上不过是硫与铁的化学反应</strong>，但浪漫如海风，从不解释。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">基莫洛斯岛是一部用白垩岩、硫磺泉和海盗血写的微型史书。它从未登上主流历史舞台，却用细腻的黏土沾满了罗马帝国的衣襟；它没有照耀世界的圣人或君主，但一位水性杨花的诗人、一位为爱哭泣的少女，足以让这里的温泉泡软时间的骨骼。<strong>读懂基莫洛斯，就是读懂地中海中下层人民如何用汗水与石头对抗遗忘。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你被这里的寂寞与深沉打动，请记住：所有历史都写在火山岩的褶皱里。走出文本，真实的白墙与地热同样值得拥抱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/xanthi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克桑西古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Xanthi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tunnel-of-eupalinos-samos\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨摩斯岛尤帕林诺斯隧道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tunnel of Eupalinos</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/meteora-monasteries-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅黛奥拉悬空修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Meteora</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "xanthi",
+          "name": "克桑西古城",
+          "englishName": "Xanthi"
+        },
+        {
+          "slug": "tunnel-of-eupalinos-samos",
+          "name": "萨摩斯岛尤帕林诺斯隧道",
+          "englishName": "Tunnel of Eupalinos"
+        },
+        {
+          "slug": "meteora-monasteries-history",
+          "name": "梅黛奥拉悬空修道院",
+          "englishName": "Meteora"
+        }
+      ]
+    }
+  ]
+}

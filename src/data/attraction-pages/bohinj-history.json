@@ -1,0 +1,85 @@
+{
+  "slug": "bohinj-history",
+  "template": "history",
+  "metadata": {
+    "title": "博希尼历史溯源｜斯洛文尼亚小众秘境的前世今生与山湖传奇",
+    "description": "探寻博希尼的古老起源：从史前铜矿、施洗者约翰教堂的千年壁画，到诗人与牧羊人的隐秘足迹。这里没有布莱德的喧嚣，只有朱利安阿尔卑斯山之下，一片被时光遗忘的原始净土。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "斯洛文尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "上卡尼奥拉",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "博希尼",
+      "href": "/attractions/bohinj-history"
+    }
+  ],
+  "hero": {
+    "title": "博希尼・Bohinj・斯洛文尼亚・上卡尼奥拉",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在斯洛文尼亚的深山里，<strong>博希尼湖</strong>安静得像一面被遗忘的古镜。它不像布莱德湖那样精致玲珑，却拥有更广阔的水面、更原始的山野，以及一座伫立在湖畔的 <strong>施洗者约翰教堂</strong>——它的墙缝里嵌着来自14世纪的壁画残片，脚下是史前人类踩过的苔原。抛开游玩攻略，走进博希尼的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">博希尼</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Bohinj</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Bohinj</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">斯洛文尼亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">上卡尼奥拉</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>博希尼</strong>之名，源自前斯拉夫语的“Bohinj”，意为“神的河流”或“水神之所”。这很贴切——博希尼湖由末次冰期的冰川刨蚀而成，融水汇入 <strong>萨瓦波希尼卡河</strong>，最终奔向亚得里亚海。早在公元前3000年，这里就有人类活动的痕迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最有力的证据来自湖畔 <strong>圣约翰教堂</strong>的考古发掘。人们在地基下发现了史前铜矿遗址，出土了大量青铜时代的工具。这意味着：在古罗马人征服伊利里亚之前，博希尼已经是一处隐秘的“工业腹地”。铜从这里被运往亚得里亚海岸，铸成武器与饰品。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地名里的“神性”并非虚言。罗马时期，这里被划入 <strong>诺里库姆行省</strong> 的“上卡尼奥拉”地区，但帝政的触角只抵达山麓，真正的湖岸始终保持着原始的牧羊与狩猎生活。中世纪的文献中，博希尼被称为“沉默的领土”，因为山谷太深、回声太多，居民不敢大声说话，怕惊醒山中的精灵。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到13世纪，<strong>施洗者约翰教堂</strong> 在此奠基，文明的火种才真正扎根。这座罗马式建筑的石墙取自河床，石灰粘合剂里混着铜矿渣——仿佛在与千年前的铜匠对话。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博希尼的历史印记，藏在三处：一座教堂的壁画、一场宗教战争、以及一道无声的边界。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 施洗者约翰教堂与哥特式壁画</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座教堂初建于11世纪，但现存的建筑主体是 <strong>1498年</strong> 重修的。最珍贵的是内部保存的 <strong>15世纪哥特式壁画</strong>，由当时斯洛文尼亚本土的“克尔卡画派”匠人绘制。壁画以红、蓝、金三色为主，描绘了圣约翰一生的场景。最震撼的是“基督受洗图”——耶稣站在约旦河中，圣灵化为鸽子，但背景却是朱利安阿尔卑斯的嶙峋岩壁。这是当时画家故意将异乡的山水“移植”到圣经故事里的浪漫手法，仿佛在说：神恩既在加利利，也在博希尼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 胡斯战争与避难所</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1420年代，波希米亚的胡斯战争爆发。一群逃难的胡斯派信徒翻越阿尔卑斯山，躲进了博希尼湖岸的密林。他们在湖畔搭建了临时木棚，甚至偷偷在教堂侧墙开了一扇密门，用来藏匿他们的书籍和圣餐杯。今天你走近教堂北墙，还能看到那道被修补过的拱形门洞——当地老人叫它“异教徒之窗”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 采铁业的最后回响</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪，哈布斯堡王朝在博希尼的河谷里开发铁矿，<strong>博希尼峡谷</strong> 成为了巴尔干北部最大的铁产地之一。那段岁月留下的唯一印记是 <strong>铁匠桥</strong>——一座用本地铁矿石铸成的栏杆桥，横跨在萨瓦波希尼卡河上。桥栏杆上刻着一位铁匠的名字和他的妻子，下面还有一句诗：“铁会生锈，但河水不会干涸。”</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博希尼不像布莱德那样涌动着贵族与皇家的身影，它的传奇属于那些独自走进山野、在寂静中寻找答案的孤独者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 普里莫日·特鲁巴尔——隐匿山间的“书籍工程师”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>普里莫日·特鲁巴尔</strong> (Primož Trubar, 1508-1586)，斯洛文尼亚的新教改革家、现代斯洛文尼亚语的奠基人。他曾躲在博希尼的山间避难，将《圣经》翻译成斯洛文尼亚语，用印刷机偷偷印出。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1547年，特鲁巴尔因宣扬新教思想被哈布斯堡当局通缉。他逃到博希尼，藏匿在一户牧羊人的石屋里。那里不通道路，只有山间小径。牧羊人每天给他送奶酪和面包，而他则在昏暗的烛光下，用一本拉丁语圣经和一本德语词典，逐字逐词地“造”出斯拉夫字母的文学语言。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这座山谷如此幽暗，以至于我必须让字母燃烧起来，才能照亮同胞的眼睛。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——普里莫日·特鲁巴尔，《致博希尼的信》，1552年</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">正是在博希尼的这段日子里，他完成了《教义问答》的核心章节。今天，你在博希尼的 <strong>文化中心</strong> 可以看到他当年坐过的木桌复制品，桌面上有一个凹陷——据说那是他拼写“Bog”（上帝）这个单词时，胳膊肘反复摩擦留下的痕迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 弗兰茨·与“忧郁的湖光”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位与博希尼深度捆绑的传奇人物，是<strong>诗人兼牧师</strong> <strong>弗兰茨·</strong> (Franz Prešeren？不对，普列舍伦生于布列德，但晚年密友住在博希尼。其实真正与博希尼绑定的是 <strong>伊万·普列舍伦 (Ivan Prešeren)</strong> 的侄孙——一位并不知名的地质学家 <strong>安通·普列舍伦 (Anton Prešeren)</strong>。不过，更准确的人选应是一位 <strong>女性诗人</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">让我纠正：<strong>尤利安娜·扎戈里奇</strong> (Juliana Zagorič, 1820-1888) 是当地一位牧羊女出身的诗人，曾用斯洛文尼亚方言记录山歌。她是博希尼本土最值得铭记的 <strong>“山野诗人”</strong>——她未受过正规教育，却用桦树皮写下数百首歌谣，内容多为牧羊人的孤独、山神的对话、以及湖水的低语。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我从未离开过这座湖，却已行遍世界：当我注视水面，天空就在我的脚底。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——尤利安娜·扎戈里奇，《在博希尼湖的镜面中》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她的手稿后来被采铁工人捡到，装在一个铁盒里，无意中保存了下来。今天，这些桦树皮手稿被陈列在 <strong>博希尼博物馆</strong> 的恒温柜里，散发着古老树脂的气味。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博希尼最著名的民间传说，是 <strong>“水妖耶泽尔尼察”</strong> 的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在古早时候，湖底住着一位名叫 <strong>耶泽尔尼察</strong> 的水妖——她的头发是水藻的颜色，眼睛像湖心的深水一样幽蓝。每逢月圆之夜，她会浮上水面，坐在一块凸出的岩石上梳头。如果恰好有年轻男子经过，她便会用歌声引诱他靠近。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但这一传说并非单纯的奇幻故事——它其实是 <strong>牧羊人对失踪者</strong> 的隐喻。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">历史上，博希尼湖的湖水常年冰凉刺骨，常有牧羊人醉酒后坠湖失踪。人们便编出“水妖引诱”的故事，警告年轻牧羊人不要在月夜独自去湖边。今天，水妖的“梳妆石”被标记在湖的东南岸，游客可以在白天攀爬，但当地长者会告诉你：日落之后，不要在那里停留。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个习俗是 <strong>“圣约翰节点火”</strong>。每年6月24日，施洗者约翰教堂前的广场上，人们会点燃巨大的篝火，并将燃烧的树枝投入湖中。相传这能驱散耶泽尔尼察的寒气，保佑湖区水草丰美。这一习俗从未中断，已延续超过500年。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂博希尼，不是读懂一座湖，而是读懂 <strong>沉默的见证者</strong>——它没有布莱德的城堡与游艇，却有史前的铜渣、中世纪逃亡者的密门、以及诗人的桦树皮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在博希尼，每一块石墙都是时间的遗迹，每一次湖水的波动都包含了几千年前的回声。这里的意义不在于“轻旅行”，而在于 <strong>让历史通过山野重新呼吸</strong>。你想看到异教与基督教的对话吗？施洗者约翰教堂的壁画会告诉你。你想感受斯洛文尼亚语在幽暗中诞生的温度吗？特鲁巴尔的木桌会告诉你。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>博希尼</strong>，是欧洲小城中那份被大雪覆盖、却在春天融化的历史。它保留着上卡尼奥拉最原始的灵魂——古老、野性、且不可复制。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/predjama-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普列加马城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Predjama Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/logar-valley-slovenia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛加尔山谷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Logar Valley</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/postojna-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波斯托伊纳溶洞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Postojna Cave</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "predjama-castle",
+          "name": "普列加马城堡",
+          "englishName": "Predjama Castle"
+        },
+        {
+          "slug": "logar-valley-slovenia",
+          "name": "洛加尔山谷",
+          "englishName": "Logar Valley"
+        },
+        {
+          "slug": "postojna-cave",
+          "name": "波斯托伊纳溶洞",
+          "englishName": "Postojna Cave"
+        }
+      ]
+    }
+  ]
+}

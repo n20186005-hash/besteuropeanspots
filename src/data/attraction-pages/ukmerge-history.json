@@ -1,0 +1,85 @@
+{
+  "slug": "ukmerge-history",
+  "template": "history",
+  "metadata": {
+    "title": "乌克梅尔盖历史溯源｜立陶宛维尔克梅尔格河畔的木堡传奇与名人遗韵",
+    "description": "探寻立陶宛小镇乌克梅尔盖的尘封往事：从13世纪木制堡垒的硝烟，到“唱歌鸽子”铜雕的和平寓意，再到管风琴家Digrys的故乡之音——一段被时光打磨的东欧历史。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "立陶宛",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "乌克梅尔盖",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "乌克梅尔盖",
+      "href": "/attractions/ukmerge-history"
+    }
+  ],
+  "hero": {
+    "title": "乌克梅尔盖・Ukmergė・立陶宛・乌克梅尔盖",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>乌克梅尔盖</strong>，这座静卧在维尔克梅尔格河畔的立陶宛古镇，曾是大公国抵御十字军的军事前哨，也是二战浩劫中犹太社区的破碎之镜。它的历史写在山巅腐朽的木堡轮廓里，刻在教堂钟楼的斑驳墙面中，更被当代铜雕“唱歌鸽子”轻声吟唱。抛开游玩攻略，走进乌克梅尔盖的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">乌克梅尔盖</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Ukmergė</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Ukmergė</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">立陶宛</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">乌克梅尔盖</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌克梅尔盖的起点，是一道河水与一座山头。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">13世纪初，立陶宛大公<strong>明道加斯</strong>（Mindaugas）的军队为抵御条顿骑士团的东侵，在<strong>维尔克梅尔格河</strong>（Vilkmergė）右岸的陡峭山丘上，用粗壮橡木垒起了一座棱堡。这座堡垒在古籍中被称为“Vilkmergė”，意为“狼与少女”——源于一则关于护卫河神的古老地名典。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1226年的编年记载，这里是立陶宛人集结抵抗西方十字军的战略据点。堡垒之下逐渐形成集市，商贩从立陶宛腹地运来琥珀、皮草，换取盐和铁器。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字几经嬗变：立陶宛独立后，小镇正式定名<strong>Ukmergė</strong>，源自河名“Ukmergė”（“河水低语”之意），而老城墙的石头早已被民居吸收，只余山巅土丘上的木基残桩，诉说着<strong>木质要塞</strong>的最后倔强。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>十字军之火：木堡的悲歌</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1387年，立陶宛大公<strong>约盖拉</strong>（Jogaila）受洗后，条顿骑士团将乌克梅尔盖视为异教徒堡垒残余，接连发动三次猛攻。最惨烈的是<strong>1392年</strong>的围城：骑士团用火弩点燃木墙，守城者用浸水的毛毡扑火，激战七日。最终木堡被烧毁，但地基至今深埋山体——每年祭日，当地人仍会攀上“高地”（Kalnas）点燃篝火，纪念那场 <strong>“木堡之殇”</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>瑞典洪流与犹太社区的沉浮</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">17世纪“大洪水”时代，瑞典军队沿河而下，在<strong>1655年</strong>攻破乌克梅尔盖，木制教堂与市政档案尽付一炬。此后小镇数十年元气难复。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪，沙俄治下的<strong>犹太社区</strong>在此繁荣：到19世纪末，小镇半数人口是犹太人，他们经营烟草、木材贸易，并建起一座精美的<strong>木制犹太会堂</strong>（1938年焚毁）。1941年，纳粹占领后，超过3000名犹太人被押至郊外<strong>Pivonijos森林</strong>集体枪决。如今，森林中竖立着一块石碑，刻着希伯来语悼词：“大地啊，不要太快遮盖我的血。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>铜雕之音：和平的歌唱</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">20世纪90年代，立陶宛独立后，当地雕塑家<strong>Romualdas Inčirauskas</strong>创作了系列铜雕“唱歌鸽子”散布在老城广场、河畔与堡垒遗址脚下。这些鸽子微张喙翼，仿佛正吟唱古老的立陶宛民歌——<strong>它们不是战争纪念碑，而是伤痕之上生长的音符。</strong></p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>管风琴诗人：Leopoldas Digrys</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">生于 <strong>1930年12月10日</strong>的乌克梅尔盖犹太区，<strong>Leopoldas Digrys</strong>是立陶宛最伟大的管风琴家之一。二战期间，他躲过屠杀，在维尔纽斯音乐学院学习，后赴莫斯科深造。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Digrys的琴声被誉为“东欧的云雀”，他用管风琴诠释巴赫与立陶宛民间曲调，曾巡演全球60多个国家。但无论走到多远，他总会回到乌克梅尔盖的<strong>圣彼得教堂</strong>，在那架19世纪的管风琴上即兴演奏。他说：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每次手指触碰琴键，维尔克梅尔格河的水声就会涌进旋律——这是我的故乡，每粒音符都带着泥土的咸味。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2003年，Digrys在乌克梅尔盖举办告别音乐会，募款修葺教堂钟楼。如今，教堂外墙上镶嵌着一块铜牌，刻着他的手指抚琴的浮雕——<strong>那是小镇用最珍贵的材料，为一位游子落款。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>女诗人与逃亡者：Marija Pečkauskaitė</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">笔名<strong>Šatrijos Ragana</strong>（“萨特拉的女巫”），这位立陶宛女性主义先锋虽非生于乌克梅尔盖，却在19世纪末至20世纪初频繁在此居住。她的小说《Sename dvare》（在古老庄园）描绘了沙俄统治下立陶宛小镇的精神窒息与觉醒，其中许多场景直接取材于乌克梅尔盖的<strong>木构宅邸与犹太裔邻居的生活</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一次，她因秘密教授立陶宛语被沙俄警察追捕，当地犹太人将她藏在一座面包房的屋顶阁楼里，整整三天。逃过一劫后，她在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“世界上有两样东西比面包更柔软：一是我故乡的云，二是这座小镇里陌生人的沉默。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这段往事后来被刻在市政厅旁的一块铜板上，与“唱歌鸽子”相邻，成为乌克梅尔盖人文包容性的永恒见证。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>雕塑者之声：Romualdas Inčirauskas</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当代立陶宛雕塑家<strong>Romualdas Inčirauskas</strong>（生于1945年）在苏联时期被禁止创作宗教主题作品，却在独立后选择以“鸽子”作为乌克梅尔盖的城市符号。他曾说：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“武器锈蚀了，教堂断壁还在，而鸽子只用三根铜线就能唱出永恒。我要用金属的轻盈，赎回这座城被战争夺走的轻盈。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他耗费十年，在铁匠铺里亲手锻造了12只形态各异的鸽子，散落在河岸、书店檐角、木堡遗址栏杆上。其中一只鸽子嘴里衔着立陶宛传统民歌 <strong>“Vai, žemaitiškai aš dainuoju”</strong> 的乐谱片段。Inčirauskas至今仍在工作室里敲打铜片，他打算再添一只“闭着眼唱歌的鸽子”放在大屠杀遗址旁，让和平永不绝音。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>维尔克梅尔格河的女儿</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人会告诉你，河流的名字来自一个古老传说：有一条水蛇爱上了牧羊女<strong>Vilkmergė</strong>，化作人形与她共舞。女孩拒绝后，水蛇诅咒她永远逐水而居。她跳入河中，变成一只灰色狼形水怪，守护着河弯。立陶宛语中“Vilkmergė”的意思正是“狼少女”。每逢月缺之夜，木堡遗址上能听见河水的呜咽声——那是狼少女在寻找能解除诅咒的真心人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>唱歌鸽子的暗语</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">民间流传，Inčirauskas的鸽子并非普通雕塑：它们在满月下会短暂“活过来”交换歌声，从东侧那只开始，逆时针传递，直到所有鸽子合唱完毕。据说，若能听见全部12只鸽子的旋律，就能预见未来一年小镇的和平与否。至今，一些老人会在夏至夜带着水壶，爬上木堡山头静静等待——他们从未失望，因为“鸽子从不对相信和平的人沉默”。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌克梅尔盖是一座用伤痕与音符并置书写的小城。它的木堡残基是东欧骑士铁蹄的印记，犹太社区的废墟是大屠杀的沉痛注脚，而铜雕鸽子则是立陶宛民族用艺术对暴力进行的优雅反驳。读懂乌克梅尔盖，就是理解一种<strong>在废墟上种出歌声的韧性</strong>——那些弯曲的铜线、风化的大理石、盘踞的树根，都是历史在土地上的签名。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kaunas-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考纳斯老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kaunas Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kernave-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克尔纳韦考古遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kernavė</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pazaislis-monastery-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕扎伊斯利斯修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pažaislis Monastery</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "kaunas-old-town-history",
+          "name": "考纳斯老城",
+          "englishName": "Kaunas Old Town"
+        },
+        {
+          "slug": "kernave-history",
+          "name": "克尔纳韦考古遗址",
+          "englishName": "Kernavė"
+        },
+        {
+          "slug": "pazaislis-monastery-history",
+          "name": "帕扎伊斯利斯修道院",
+          "englishName": "Pažaislis Monastery"
+        }
+      ]
+    }
+  ]
+}

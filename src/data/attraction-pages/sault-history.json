@@ -1,0 +1,85 @@
+{
+  "slug": "sault-history",
+  "template": "history",
+  "metadata": {
+    "title": "索村历史溯源｜普罗旺斯薰衣草之都的前世今生与名人传奇",
+    "description": "探秘法国索村：这座海拔800米的高地小镇，如何成为普罗旺斯薰衣草之都？从古罗马驿站到19世纪蒸馏传奇，跟随历史向导走进尘封往事，遇见诗与远方的紫色时光。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "普罗旺斯地区（沃克吕兹省）",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "索村",
+      "href": "/attractions/sault-history"
+    }
+  ],
+  "hero": {
+    "title": "索村・Sault・法国・普罗旺斯地区（沃克吕兹省）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在普罗旺斯，当低海拔的紫色花海被游客潮淹没了诗意，一座海拔近800米的高地小镇——索村，依然保持着中世纪的从容与宁静。这里是被低估的<strong>薰衣草之都</strong>，也是嗅觉历史与农业智慧的活化石。抛开游玩攻略，走进索村的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">索村</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Sault</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Sault</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">普罗旺斯地区（沃克吕兹省）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">索村的名字“Sault”源自拉丁语 <strong>“Saltus”</strong>，意为“森林中的空地”。早在<strong>公元前1世纪</strong>，古罗马人就在这片高地上开辟了驿站，作为连接阿尔卑斯山与地中海商道的关键节点。然而真正的定居点形成要晚得多——<strong>公元5世纪</strong>，西罗马帝国崩溃后，逃难的基督徒在此建立修道院，围绕教堂逐渐聚集成村落。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>中世纪</strong>时期，索村是普罗旺斯伯爵领地的边防要塞。海拔赋予它天然的防御优势，但同时也带来了严酷的冬季。直到<strong>12世纪</strong>，一座坚固的<strong>城堡</strong>（如今已无存）在村西的岩石上拔地而起，守护着山下的薰衣草田——有趣的是，当时薰衣草并非观赏植物，而是被修道院用来浸泡药材，治疗伤口。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据当地档案记载，1285年索村第一本土地登记册中，“薰衣草”一词首次出现，写作“lavendula”，意为“需洗涤之物”，因修士们用它来清洁并消毒衣物。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>17世纪</strong>，索村的高海拔土地开始被系统开垦。农民发现这里的石灰质土壤和充足日照异常适合薰衣草生长，且<strong>海拔800米</strong>的高度使植物中的精油浓度更高、香气更持久。于是，索村从默默无闻的山寨，逐渐蜕变为普罗旺斯薰衣草产业的摇篮。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">索村的历史印记深深镌刻在它的石墙与香气中。最醒目的地标是<strong>圣安德烈教堂</strong>（Église Saint-André），它始建于<strong>12世纪</strong>，但在<strong>16世纪宗教战争</strong>期间被新教徒严重破坏，只留下罗马式的钟楼。如今的教堂主体是<strong>19世纪</strong>重建的，但钟楼上的<strong>哥特式窗花</strong>和墙上的弹孔依然诉说着那次血与火的洗礼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一处沉默的见证者是<strong>薰衣草蒸馏厂</strong>的遗迹。在索村的老城区，至今保留着一座<strong>19世纪末的铸铁蒸馏器</strong>，它与现代化工厂不同，靠木柴加热、蒸汽上升、冷凝管中的铜管层层过滤——这套工艺被称为“<strong>水蒸气蒸馏法</strong>”，正是由索村的农民在<strong>1830年左右</strong>改良成功的。他们发现，在高原上低温慢馏，比低海拔地区的快速蒸馏更能保留薰衣草的花香基调。这一发明直接奠定了索村“薰衣草之都”的地位。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地年长者回忆，20世纪初索村的夜晚充满了“独特的节奏”：傍晚时分，全村人沿着陡峭的石阶将装满鲜花的大麻袋抬上蒸馏棚，白烟从棚顶喷涌而出，空气中弥漫着令人陶醉的甜香，直到深夜才散去。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1944年</strong>，二战末期，索村因其特殊的地理位置成为盟军秘密空投物资的中转站。当地抵抗组织在薰衣草田里藏匿武器和无线电设备，甚至在蒸馏厂地下挖了隐蔽的储藏室。1944年8月，德国军队试图摧毁这些设施，但被农民巧妙地用成堆的薰衣草花束堵住视线——这成为索村历史上最富戏剧性的篇章。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 法兰西植物学家：皮埃尔·马尼奥尔（Pierre Magnol）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">很少有人知道，<strong>现代植物分类学</strong>的一个重要基石——<strong>“科”（Family）的概念</strong>，并非在巴黎诞生，而是在索村的薰衣草田里被悄然印证。皮埃尔·马尼奥尔（1638-1715）是蒙彼利埃大学的植物学教授，他曾在1680年代多次来到索村考察高山植物。正是在这里，他观察到薰衣草、迷迭香、百里香等唇形科植物在形态上的共同特征。<strong>1700年</strong>，他发表《植物学基础》，第一次将植物按“科”划分——其中“唇形科”的命名，直接源于对索村野生薰衣草的解剖。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马尼奥尔在日记中写道：“在高地之巅，我见紫色花朵簇拥，其茎四棱，叶对生，花冠唇裂——此乃自然之分类，非人力可造。”他笔下的四棱茎，正是唇形科植物最显著的特征。虽然马尼奥尔后来成为法国皇家科学院院士，但他晚年一直怀念索村的石屋与花田。当地至今保留着他曾居住过的老屋，墙上有铭牌：“植物学之父在此发现自然之秩序”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. “薰衣草伯爵”：约瑟夫·德·萨德（Joseph de Sade）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">提到“萨德”，人们大多想到那位臭名昭著的色情作家萨德侯爵。但鲜为人知的是，他的远房堂兄——<strong>约瑟夫·德·萨德伯爵</strong>（1725-1793），是索村历史上最具远见的经济改革家。他厌倦了巴黎的浮华，在1750年代回到祖传的索村领地，发现这里虽有大量野生薰衣草，却因交通闭塞而无人采摘。约瑟夫伯爵做出了一项惊人之举：<strong>废除领地内对农民的繁重赋税，转而以每户必须种植一定数量的薰衣草作为替代</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他不仅推广种植，还亲自设计了一种便携式蒸馏装置，让农民在田间就可以现场加工精油。1778年，他在凡尔赛宫举办的农产品博览会上展示索村薰衣草精油，令路易十六的皇后玛丽·安托瓦内特为之倾倒。据说从此宫廷贵妇们争相购买索村精油，将其视为“来自高地之圣香”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，法国大革命爆发后，因为“伯爵”头衔，约瑟夫被革命法庭逮捕。<strong>1793年</strong>，他在索村的城堡被焚毁，本人也被判处死刑。行刑前，他请求最后闻一次薰衣草——刽子手摘来几枝，他嗅后说：“这香气能让人忘记仇恨。”这句话被当地农民代代相传。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 英国诗人：罗伯特·索西（Robert Southey）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪初，英国浪漫主义诗人、“湖畔派”三杰之一<strong>罗伯特·索西</strong>（1774-1843）在普罗旺斯游历时，被索村吸引。他在1802年写给朋友的信中描述：“我来到了一个被紫色雾霭包围的村庄。这里的石灰岩像古老的骨骼，而薰衣草像是大地的血液。”索西在索村居住近半年，写下了长诗《普罗旺斯的七月》，其中有一段专门歌颂薰衣草收获的场景：“镰刀在晨光中闪亮/少女们唱着古老的歌谣/满篮的紫色插在发间/那是时间遗忘的芬芳。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">索西回国后推广了索村的旅游，虽然当时尚未形成大规模游客潮，但许多英国贵族开始把索村列为法国深度游的隐秘站点。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在索村的老人记忆中，流传着一个关于 <strong>“紫色幽灵”</strong> 的故事。据说在<strong>每年圣约翰节（6月24日）</strong>前夕的午夜，会有一个身穿紫色长袍的幽灵出现在薰衣草田的中央。它并不吓人，而是静静地站在那里，伸手拂过花穗，然后消失在一阵白色的雾气中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个传说源于<strong>16世纪</strong>的一桩悲剧。当时村里有位年轻的姑娘叫玛格丽特，爱上了一名过路的意大利画师。画师答应带她去南方，却在花季结束后不告而别。玛格丽特每天黄昏在最高的田埂上等待，直到薰衣草花开三度，她最终因相思而亡。村里人将她葬在自己等待的位置。奇怪的是，那一年那一片田的薰衣草开得格外茂盛，颜色深得发紫。从此，人们相信她的灵魂化作了薰衣草的守护精灵。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地风俗：在圣约翰节前夕，年轻女孩会折一枝薰衣草放在枕下，据说能在梦中见到未来的伴侣。如果第二天花枝依然完整，预示着爱情圆满；若花瓣凋落，则需再等一年。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一种更具历史色彩的传说与古代<strong>朝圣者</strong>有关。中世纪时期，索村是圣地亚哥-德孔波斯特拉朝圣之路的一条支线。传说有一位朝圣者因伤病倒在索村外的荒野，梦见天使指示他将身边的紫色小花碾碎涂抹伤口。次日他照做，伤口迅速愈合。他感激之余，将这种草药命名为“上帝之泪”——后来被修士们正名为薰衣草。这个传说虽然没有确凿史料，但19世纪索村的教堂壁画中确实绘有这位朝圣者的形象。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂索村，就是在海拔800米的高地，触摸一部普罗旺斯农业文明的活态历史。从古罗马驿站到中世纪要塞，从植物学家的实验室到二战英雄的藏匿地，这座小城用花海与石墙书写着<strong>坚韧、孤独与芬芳</strong>的篇章。它的历史不是宏大叙事，而是每一根薰衣草蒸馏管里凝结的汗水、每一块石灰岩上刻下的家族印记。当你漫步在曲曲折折的山街，闻到那种与低海拔截然不同的、带有薄荷与樟脑尾调的香气时，你听到的，正是时间的回声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/chateau-de-puilaurens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普伊洛朗城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Puilaurens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chateau-de-montsegur-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙塞居尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Montségur</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chartres-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沙特尔大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chartres Cathedral</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "chateau-de-puilaurens",
+          "name": "普伊洛朗城堡",
+          "englishName": "Château de Puilaurens"
+        },
+        {
+          "slug": "chateau-de-montsegur-history",
+          "name": "蒙塞居尔城堡",
+          "englishName": "Château de Montségur"
+        },
+        {
+          "slug": "chartres-cathedral",
+          "name": "沙特尔大教堂",
+          "englishName": "Chartres Cathedral"
+        }
+      ]
+    }
+  ]
+}

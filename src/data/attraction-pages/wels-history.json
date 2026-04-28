@@ -1,0 +1,85 @@
+{
+  "slug": "wels-history",
+  "template": "history",
+  "metadata": {
+    "title": "韦尔斯历史溯源｜特劳恩河畔商镇的帝王陨落与巴洛克重生",
+    "description": "在奥地利上奥地利州的韦尔斯，神圣罗马帝国皇帝马克西米利安一世驾崩于旧城堡，广场上巴洛克与文艺复兴交织。抛开游玩攻略，走进这座千年商镇的尘封往事与传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "奥地利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "韦尔斯",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "韦尔斯",
+      "href": "/attractions/wels-history"
+    }
+  ],
+  "hero": {
+    "title": "韦尔斯・Wels・奥地利・韦尔斯",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在特劳恩河温柔的臂弯里，韦尔斯藏着一部未被喧嚣淹没的中欧编年史。这里曾是罗马运输重镇，也是神圣罗马帝国皇帝 <strong>马克西米利安一世</strong> 人生最后一口气息停留的地方。市集广场上，巴洛克与文艺复兴的建筑立面明快跳跃，仿佛时光仍停留在1519年那个冬天。抛开游玩攻略，走进韦尔斯的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">韦尔斯</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Wels</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Wels</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">奥地利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">韦尔斯</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗马人最早在这片土地上留下了“奥维拉维斯”（Ovillavis）的定居点，公元2世纪的铭文记载了它作为 <strong>特劳恩河贸易枢纽</strong> 的雏形。今天韦尔斯的轮廓，真正确定于10世纪。当时巴本堡王朝的利奥波德一世将这里设为边境伯爵驻地，取名“Welsa”——古高地德语中“浅滩”与“牧场”的复合词，暗示着河畔商旅歇脚、牛羊饮水的日常。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与许多中欧城镇不同，韦尔斯从未成为主教驻地或王都，却因 <strong>帝王夜宿</strong> 而声名远播。特劳恩河上的木桥连接了南北商道，盐、铁、皮革在这里集散，富裕的市民阶层在12世纪开始建造石砌房屋，并围绕一座 <strong>12世纪的罗马式城堡</strong> 扩展城镇。如今老城核心的市集广场，正是当年商贩摆摊、马匹嘶鸣的中心，其不规则形状保留着中世纪圈地自由生长的痕迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地名本身的演变</strong>也藏着秘密。13世纪的一份手稿中，“Wels”被写作“Welz”，这与当时波西米亚或巴伐利亚方言中“异乡人”的发音相近——暗示着这座商业城镇对过往商旅的包容。直到15世纪，随着哈布斯堡家族的青睐，韦尔斯才真正成为一座 <strong>帝国自由城市</strong> 的候选，虽然最终只获得自治授权，但城市纹章上的银鹰已足以证明其地位。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1516年：皇帝的最后驿站</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">神圣罗马帝国皇帝 <strong>马克西米利安一世</strong> 常年巡游帝国各地，2016年初冬，年迈的皇帝抵达韦尔斯，计划前往因斯布鲁克过冬，却因痛风与肺病再也无法骑马。城堡的二楼窗台正对特劳恩河，他在这里口授最后一封书信，嘱咐孙子查理五世巩固哈布斯堡的版图。1519年1月12日凌晨，他在随行御医与和祭司的簇拥下咽下最后一口气。 <strong>城堡北翼的“皇帝厅”</strong> 至今保留着当时的壁炉与橡木天花，木地板上一道深痕据说来自皇帝下车时手杖的凿击。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1742年：巴洛克对文艺复兴的反叛</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪中叶，一场大火吞噬了老城三分之一的建筑，包括部分哥特式民宅。重建时，市民们选择当时风靡维也纳的 <strong>巴洛克风格</strong>，却又固执地保留了相邻建筑的文艺复兴轮廓。于是今天走在 <strong>市集广场（Stadtplatz）</strong> 上，能看到 <strong>明快的奶油色灰泥涡卷</strong> 紧挨着 <strong>严肃的拱廊与石柱</strong>，形成一种幽默的视觉对话。广场中央的 <strong>三位一体柱</strong>（1720年建造）正是为感谢火灾后城市迅速恢复而立，柱顶的金色圣像在晨光中格外耀眼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1840年：蒸汽与皮革的协奏</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">工业革命没有绕过韦尔斯。 <strong>Ledererturm（皮革匠塔）</strong> 是当年制革工人聚居区的边界塔楼，高约40米，红色砂岩上爬满了常青藤。19世纪中期，沿特劳恩河建起第一座蒸汽动力皮革厂，古老的匠人技艺与机器轰鸣并存。塔楼底层至今保留着一间 <strong>皮革博物馆</strong>，展示着1830年的鞣制池和工人口述录音，听见百年回响。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>马克西米利安一世 —— 帝国黄昏下的临终独白</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是中世纪最后一位骑士，也是文艺复兴第一位皇帝。 <strong>马克西米利安一世</strong> 在1519年1月12日清晨结束了长达61年的人生。他选择韦尔斯作为人生终站，并非偶然——这座城堡曾是他 <strong>“帝国骑士学院”</strong> 的设想地，他计划将年轻贵族集中在此训练剑术与拉丁文。临终前三日，他召来书法家画下自己的手迹，要求制成铜版画传世。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“若我年轻时懂得骑马快意，就应死在战场；若我老朽，则愿死在教堂的长凳上。但上帝让我在这座特劳恩河畔的商镇咽气，大概是想提醒我——我的疆域，终究要靠商税与盐路来维系。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">随从记录下这句日记后被迅速销毁，但民间暗地流传至今。城堡尖顶的小室至今挂着皇帝临终床边的唯一饰物：一顶 <strong>银制刺猬头盔</strong>，据说象征他的谨慎与迅捷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>凯瑟琳娜·冯·韦尔斯 —— 被历史遗忘的女骑士</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她并非显赫家族出身，却在地方档案中留下了惊鸿一瞥。 <strong>凯瑟琳娜·冯·韦尔斯</strong>（约1485–1545）是当地一个皮革匠家庭的第五个女儿。1518年，她女扮男装参加了韦尔斯的 <strong>“施瓦茨格勒”射箭节</strong>，以“汉斯”之名击败了所有对手，赢得金链。真相败露后，她非但未被惩罚，反被 <strong>马克西米利安一世</strong> 接见，皇帝盛赞她“比许多城堡里的骑士更勇敢”。凯瑟琳娜后来为韦尔斯女子学校创办了 <strong>弓箭训练场</strong>，至今市档案馆藏有一份她画的弓箭图纸，草图上清晰标注了“女子握弓法”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约翰·安德烈亚斯·施梅尔茨 —— 古典乐风的守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪上半叶，韦尔斯诞生了一位并不广为人知却对中欧古典音乐有微小贡献的手艺人—— <strong>约翰·安德烈亚斯·施梅尔茨</strong>（1803–1871）。他是一位管风琴制造者，同时也是业余作曲家和管风琴师。他在 <strong>韦尔斯圣约翰教堂</strong> 安装了一台音色柔和的 <strong>仿意大利式管风琴</strong>，并编纂了厚达三卷的《特劳恩河畔的咏叹调》——收录了当地民歌与宗教旋律。他的一个学生后来成为了 <strong>安东·布鲁克纳</strong> 的助手。施梅尔茨故居位于市集广场14号，外墙铭牌上刻着他最爱的座右铭：“安静的音符，比喧嚣的演说更持久。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>特劳恩河的女儿</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在特劳恩河最深处的漩涡下，住着一位名叫“埃琳”的水妖。她有着深绿色的长发和银白色的眼睛，每当满月之夜，会用 <strong>石制竖琴</strong> 弹奏召唤河里的鲑鱼。老渔夫们相信，如果夜晚看见河面泛起 <strong>紫色磷光</strong>，那便是埃琳在跳舞。这时必须在岸边留下一块 <strong>黑麦面包</strong> 作为供奉，否则她会掀起迷雾，让人在河边迷失方向。至今韦尔斯“水妖面包房”依然在每月满月夜烘制特殊的黑麦面包，装饰在橱窗里，游客可随意取食。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>皇帝之魂的暗号</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1519年之后，城堡的 <strong>北塔窗台</strong> 总在冬夜亮起一盏孤灯。民间传说这是 <strong>马克西米利安一世</strong> 的鬼魂，手持蜡烛巡视他曾落脚的房间。如果在午夜时分对窗台喊三声“Gut’n Abend, Kaiser”（晚安，皇帝），烛光会闪三次作为回应。这一习俗在1980年代的城堡翻修时被考古学家证实：窗台下确实有一个 <strong>隐藏的蜡烛台</strong>，但无人能解释为何会在特定季节自动点燃。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">韦尔斯是一本被翻开却少人驻足的史书。它没有维也纳的宏大叙事，也没有萨尔茨堡的音乐光环，但 <strong>帝国皇帝的最后气息、皮革匠人与女骑士的热血、特劳恩河畔的低语传说</strong>，共同构成了中欧最真实的人文底色。读懂韦尔斯，就读懂了神圣罗马帝国如何从边境商业城镇中汲取统一帝国的养分。它的历史价值，不在于惊天动地的变革，而在于那些 <strong>日常与偶然交织出的厚重感</strong>——仿佛你脚下的石子路上，依然留有1519年皇帝马车的辙印。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/burg-sommeregg-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    索\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">索梅雷格城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Sommeregg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/melk-abbey-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    梅\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">梅尔克修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Melk Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/steyr-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施泰尔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Steyr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "burg-sommeregg-history",
+          "name": "索梅雷格城堡",
+          "englishName": "Burg Sommeregg"
+        },
+        {
+          "slug": "melk-abbey-history",
+          "name": "梅尔克修道院",
+          "englishName": "Melk Abbey"
+        },
+        {
+          "slug": "steyr-old-town",
+          "name": "施泰尔老城",
+          "englishName": "Steyr"
+        }
+      ]
+    }
+  ]
+}

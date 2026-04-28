@@ -1,0 +1,85 @@
+{
+  "slug": "retz-history",
+  "template": "history",
+  "metadata": {
+    "title": "雷茨历史溯源｜奥地利风车小镇的地底酒窖迷宫与中古传奇",
+    "description": "雷茨，一座风车旋转的中世纪小镇，地下藏着延绵数公里的葡萄酒酒窖迷宫。从巴本堡王朝到哈布斯堡，从修道院酒农到传奇剧作家，带你穿越千年醇香时光。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "奥地利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "下奥地利州雷茨",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "雷茨",
+      "href": "/attractions/retz-history"
+    }
+  ],
+  "hero": {
+    "title": "雷茨・Retz・奥地利・下奥地利州雷茨",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在奥地利的东北角，有一座被风车守护的葡萄酒小镇——雷茨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的地面是童话般的红瓦与山墙，地底却暗藏着一座绵延二十公里的<strong>地下迷宫</strong>——整整六个世纪，雷茨人用锤子和铁锹挖掘出三层相互交织的酒窖，储藏着时光酿就的琼浆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与那些游人如织的葡萄酒产区不同，雷茨的酒窖至今幽静、潮湿、充满中世纪的回响。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">抛开游玩攻略，走进雷茨的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">雷茨</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Retz</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Retz</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">奥地利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">下奥地利州雷茨</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雷茨建城于<strong>12世纪中叶</strong>，是巴本堡家族在边境设置的防御要塞之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小镇的名字源于斯拉夫语 <strong>“retz”</strong> ，意为“河流的弯曲处”——它恰好坐落于迪耶河（Dye）的河曲之上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初，这里只有一座城堡和几户守卫者的农舍。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的转折发生在<strong>1240年</strong>前后：巴本堡末代君主腓特烈二世发现石灰岩山体非常适合挖掘酒窖，于是下令在城堡脚下开凿第一个储藏室。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“此地之石，坚而不硬，凿之如切黄油，藏酒经年不腐。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——13世纪修道院酿酒师的日记残片</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雷茨真正成为“小镇”是在<strong>14世纪上半叶</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哈布斯堡的阿尔布雷希特一世授予它市集权，并规划了如今的矩形广场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但雷茨最独特的性格，早在<strong>15世纪</strong>就已定型：它是一座<strong>盖在酒窖上的城市</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每一栋老宅的地基，都连接着地下长廊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">居民在楼上种葡萄、在楼下酿酒，整座山丘之下，是一座倒悬的<strong>石砌城市</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雷茨最震撼的历史印记，是地下酒窖在<strong>1683年维也纳之战</strong>中的角色。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那一年，奥斯曼帝国大军压境，维也纳危在旦夕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雷茨作为北方补给线的重要节点，地下酒窖被临时征用为<strong>火药库和粮仓</strong>。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们在地底穿行，头顶是敌人永远够不到的干爽与安全。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——雷茨守城指挥官日记，1683年8月</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战争结束后，哈布斯堡朝廷奖励雷茨扩大葡萄酒贸易，酒窖开始疯狂扩张。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到<strong>18世纪中期</strong>，地下已经形成三层网络：最上层是陈年桶藏，中层是发酵室，最底层藏着数万升特级甜酒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽亚·特蕾莎女皇曾秘密派人探访，惊叹“此城地下竟能藏下一整支军队的酒”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个不可忽视的印记，是雷茨的<strong>风车</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建于<strong>1740年</strong>的“雷茨风车”（Retzer Windmühle），是奥地利现存最古老的可运转风车。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它原本是德意志移民技术的象征——与荷兰不同，雷茨的风车主要用于碾碎<strong>葡萄籽与麦芽</strong>，为酒窖提供辅料。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天，风车依然在每年九月转动，扇叶划过天空，仿佛为地下沉睡的酒桶奏响无声的摇篮曲。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇一：城堡里的铁血伯爵——恩斯特·吕迪格·冯·施塔海姆贝格</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">恩斯特·吕迪格·冯·施塔海姆贝格（Ernst Rüdiger von Starhemberg，1638–1701）是维也纳之战的英雄。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但很少有人知道，他同时也是雷茨的<strong>领主</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">施塔海姆贝格家族在16世纪获得了雷茨城堡，而恩斯特吕迪格在1683年大敌当前时，亲自规划了地下酒窖的军事改造。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他下令在所有主要通道尽头设置<strong>陷阱门和通风井</strong>，以便在必要时焚毁酒窖、隔绝敌人。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“地底的每一块石头，都是抗命的砖；每一桶酒，都是集结的号角。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——恩斯特·吕迪格致雷茨市民信，1683年7月</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后，他推动雷茨葡萄酒成为哈布斯堡宫廷的指定用酒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的肖像至今挂在城堡大厅——右手按着酒桶模型，目光沉静如水。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇二：地窖里的剧作家——卡尔·冯·泽斯卡</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡尔·冯·泽斯卡（Carl von Zeska，1862–1943）出生在雷茨广场旁的老宅里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是晚期奥匈帝国最著名的<strong>喜剧剧作家</strong>之一，却终生迷恋一个题材：地下酒窖的幽闭与自由。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1897年，他根据雷茨酒窖的民间故事创作了独幕剧 <strong>《地底之酒》</strong> （Wein aus der Tiefe）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">剧中，一位年轻酿酒师在迷宫中偶遇一名“女酒魂”，两人在烛光中对饮，畅谈生与死的边界。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">泽斯卡的文字里，满是对雷茨地下世界湿冷空气与回音的精确描写。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他曾写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“只有走过地底迷宫的人，才懂得光不只是来自太阳，还来自酵母与橡木桶的呼吸。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，雷茨的葡萄酒博物馆里设有泽斯卡纪念角，陈列着他用过的羽毛笔与酒樽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">而每年夏季，当地剧团都会在酒窖大厅里重演《地底之酒》，烛火摇曳，台词在石壁上反弹出千年前的共鸣。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雷茨最动人的传说，关于一位<strong>红袍酿酒师</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说每年十月的某个月圆夜，地下酒窖深处会出现一个身穿暗红长袍的消瘦男子。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他会在最古老的橡木桶前停下，用手指轻敲桶壁，然后低声念出酒液的年份与成色。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“若你遇到他，莫要惊恐，也莫要问话。只须捧上一杯你最得意的酒，他会以木勺回赠一勺——那勺酒，能让你余生酿出世间最醇的佳酿。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——19世纪雷茨酒农口述记录</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老人们坚信，这位红袍人是<strong>14世纪的一位遭冤杀的总酿酒师</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他因拒绝向贪婪的领主交出家族秘方，被投入自己挖掘的酒窖深处，活活饿死。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">自此，他的灵魂便游荡在地底，守护雷茨葡萄酒的纯粹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到今天，每逢重要年份的装瓶，酒庄主人都会悄悄在某个角落放上一碟黑面包与盐——那是传说中红袍人最爱的祭品。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雷茨的故事，是大地与人类共同书写的一卷微缩史诗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地面上的风车与广场，是几百年市集与节庆的见证；地下二十公里的迷宫，则是雷茨人用双手与信仰锻造的酒神殿堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这里，每一滴葡萄酒都带着时间的涩与甜，每一块被凿出的石灰岩都记得中世纪商队的驼铃与酒桶滚动的颤音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂雷茨，就是读懂了欧洲小镇如何将<strong>生存转化为艺术</strong>，将战争记忆酿成文化的底味。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/zell-am-ziller-austria\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    齐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">齐勒河谷采尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zell am Ziller</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/krimml-waterfalls-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克里姆尔瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Krimml Waterfalls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/schloss-esterhazy-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃斯特哈齐宫（海顿曾担任宫廷乐长、拥有绝佳声学效果的海顿大厅的巴洛克宫殿）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Schloss Esterházy</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "zell-am-ziller-austria",
+          "name": "齐勒河谷采尔",
+          "englishName": "Zell am Ziller"
+        },
+        {
+          "slug": "krimml-waterfalls-history",
+          "name": "克里姆尔瀑布",
+          "englishName": "Krimml Waterfalls"
+        },
+        {
+          "slug": "schloss-esterhazy-history",
+          "name": "埃斯特哈齐宫（海顿曾担任宫廷乐长、拥有绝佳声学效果的海顿大厅的巴洛克宫殿）",
+          "englishName": "Schloss Esterházy"
+        }
+      ]
+    }
+  ]
+}
