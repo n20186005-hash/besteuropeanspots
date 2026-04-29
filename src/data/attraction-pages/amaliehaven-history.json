@@ -1,0 +1,81 @@
+{
+  "slug": "amaliehaven-history",
+  "template": "history",
+  "metadata": {
+    "title": "阿美琳堡花园历史溯源｜丹麦王室的前世今生与疯王克里斯蒂安七世的传奇故事",
+    "description": "走进阿美琳堡花园，探秘四座宫殿如何从贵族宅邸变为王室居所。聆听疯王克里斯蒂安七世与医生施特林泽的权力博弈，以及小美人鱼雕塑背后的北欧传说。抛开游玩攻略，感受哥本哈根最富历史韵味的海滨角落。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "丹麦",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "哥本哈根",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "阿美琳堡花园",
+      "href": "/attractions/amaliehaven-history"
+    }
+  ],
+  "hero": {
+    "title": "阿美琳堡花园・Amaliehaven・丹麦・哥本哈根",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿美琳堡花园</strong>（Amaliehaven）是哥本哈根港口旁一片精巧的绿色空间，正对面就是丹麦王室的冬宫——阿美琳堡宫。这里没有喧嚣的游乐设施，只有海风、喷泉和四座洛可可宫殿的静谧倒影。但在这片看似平静的草坪下，埋藏着丹麦君主制从专制走向立宪的跌宕史诗，以及一位疯癫国王与一位改革派医生之间的禁忌之恋。抛开游玩攻略，走进阿美琳堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">阿美琳堡花园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Amaliehaven</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Amaliehaven</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">丹麦</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">哥本哈根</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿美琳堡花园所在区域，曾是哥本哈根老城墙外的沼泽地。<strong>1748年</strong>，丹麦国王<strong>弗雷德里克五世</strong>决定在港口北岸规划一片全新的贵族街区——<strong>腓特烈斯塔登</strong>（Frederiksstaden）。当时的丹麦正从大北方战争的创伤中恢复，王室希望用一座“北欧凡尔赛宫”来彰显绝对王权的荣耀。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">国王任命建筑师<strong>尼古拉·埃格特维德</strong>（Nicolai Eigtved）主持设计。埃格特维德以法国洛可可风格为蓝本，在八角形广场周围规划了四座完全对称的贵族宅邸——它们就是今日阿美琳堡宫的前身。广场中央矗立着<strong>弗雷德里克五世</strong>的骑马雕像，由法国雕塑家<strong>萨利</strong>（Jacques Saly）耗时20年完成。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有趣的是，“阿美琳堡”这个名字源于<strong>阿美琳</strong>（Amalie）——这是丹麦王后<strong>索菲·阿美琳</strong>（Sophie Amalie）的名字，她是17世纪建筑师克里斯蒂安四世的妻子。<strong>阿美琳堡</strong>最初指一座早已消失的狩猎城堡，而今日的宫殿群则沿用了这个充满浪漫气息的旧名。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">花园本身是<strong>1983年</strong>才建成的现代公共空间，由丹麦-挪威基金会捐赠，设计师<strong>雅各布·莫勒</strong>（Jacob Møller）用大理石、喷泉和对称花坛，巧妙地将历史宫殿与现代休闲融为一体。中心喷泉名为<strong>“海之公主”</strong>，呼应着不远处的小美人鱼雕像。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1754年：从贵族宅邸到王室居所</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1754年，阿美琳堡宫的四座宫殿刚刚完工，一场大火突然吞噬了哥本哈根的王宫——<strong>克里斯钦堡宫</strong>。王室急需新住处，于是国王<strong>弗雷德里克五世</strong>大手笔买下了其中两座宫殿，并将它们改造成皇家寓所。随后的几十年里，另外两座也被王室购入，阿美琳堡正式成为丹麦君主的冬宫。如今每天中午的卫兵换岗仪式，依然延续着18世纪的礼仪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1940年：二战中的王室象征</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1940年4月9日，纳粹德国不宣而战，入侵丹麦。凌晨的哥本哈根一片混乱。<strong>国王克里斯蒂安十世</strong>（Christian X）没有选择逃亡，而是每天骑马从阿美琳堡出发，巡视城市街道。一张著名的照片中，国王骑着白马独自穿过空无一人的广场，身后是德国士兵的身影。这种“沉默的抵抗”至今被视为丹麦民族精神的象征。阿美琳堡宫前的卫兵依然穿着传统的蓝色制服，仿佛在提醒人们：王权可以妥协，但尊严永不屈服。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1849年：立宪君主制的诞生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿美琳堡宫最深刻的印记，莫过于<strong>弗雷德里克七世</strong>（Frederik VII）在<strong>1849年6月5日</strong>签署的《丹麦宪法》。那一天，这位被称为“丹麦之父”的国王站在宫殿窗前，向广场上欢呼的民众宣布：丹麦从绝对君主制转变为君主立宪制。如今，阿美琳堡宫每月还保留着“宪法日”的纪念仪式，时钟指针仿佛永远停留在那个改变国家命运的时刻。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>疯王克里斯蒂安七世与施特林泽医生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在阿美琳堡宫深处，曾住着一位“疯王”——<strong>克里斯蒂安七世</strong>（Christian VII，1749-1808）。他17岁继位，却因精神疾病常年喜怒无常：一会儿在走廊里疯狂跳舞，一会儿又陷入抑郁，拒绝进食。大臣们暗中嘲笑他是“欧洲最无能的国王”，而他的王后<strong>卡罗琳·玛蒂尔德</strong>（Caroline Mathilde）则深闺寂寞，年仅17岁便成了政治婚姻的囚徒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1768年，一位来自德国的年轻医生<strong>约翰·弗里德里希·施特林泽</strong>（Johann Friedrich Struensee）被聘为国王的御医。他身材高大、思想激进，很快用“精神镇静剂”控制了国王的病情。更令人震惊的是，施特林泽与王后卡罗琳·玛蒂尔德坠入了爱河——这段禁忌恋情彻底搅动了哥本哈根的权力格局。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“国王今天竟然批准了我提出的所有改革法令。他甚至在文件上签了字，然后问我：‘这些纸上的字是什么意思？’我只好告诉他：‘陛下，这是为了让丹麦更强大。’他笑了，笑得像个孩子。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——摘自施特林泽的日记（1770年）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">施特林泽利用国王的病情，几乎架空了枢密院，在1770-1771年间一口气颁布了<strong>1069项</strong>改革法令：废除酷刑、解放农奴、实施宗教宽容、甚至允许自由出版。这些举措放在18世纪的欧洲堪称激进——启蒙思想家伏尔泰曾评论说：“丹麦的哲学家医生正在用手木刀解剖一个旧制度。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而施特林泽的改革触怒了贵族和教会。1772年1月17日，在一场精心策划的政变中，他被以“阴谋篡权”的罪名逮捕。王后卡罗琳·玛蒂尔德被流放到汉诺威附近的采勒城堡，而施特林泽则在哥本哈根的公共广场上被公开斩首——据记载，行刑时他的手被铐住，但依然试图朝王后居住的宫殿方向望去。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿美琳堡宫地下室里的日记碎片</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，在阿美琳堡宫的博物馆中，保存着一段施特林泽亲笔写下的日记残页。上面只有一句话：“我始终相信，理性最终会战胜疯狂。”讽刺的是，正是那位被他“治愈”的疯王，最终在处决令上签了字。而卡罗琳·玛蒂尔德王后流亡三年后，因感染天花在24岁时香消玉殒。她的墓碑上刻着丹麦人从未忘记的评价：“一位孤独的羔羊，被狼群吞噬。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>值得一提的当代人物：丹麦女王玛格丽特二世</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然女王已于2024年退位，但她童年时期曾在阿美琳堡花园里放风筝的轶事仍在哥本哈根流传。这位精通考古学、精通三国语言的女王，曾亲自为阿美琳堡宫的博物馆绘制插图，并在2010年以设计师身份参与了花园喷泉的修缮——她坚持要在喷泉周围种植<strong>白色的郁金香</strong>，因为那是她母亲英格丽德王后最爱的花。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>海妖的叹息与卫兵的幽灵</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿美琳堡花园的喷泉“海之公主”喷出的水柱，据说在无风的夜晚会发出低沉的呜咽声——当地水手相信，那是被囚禁在海底的<strong>海妖</strong>（Havfrue）在叹息。传说很久以前，一位丹麦王子爱上了一条小美人鱼，但婚礼当天，美人鱼因无法舍弃鱼尾而化身泡沫。王子悲痛欲绝，将她的眼泪埋在了阿美琳堡宫的地下，从此这片土地便生出永不枯竭的泉水。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更离奇的是，每晚午夜过后，阿美琳堡广场上那尊<strong>弗雷德里克五世</strong>的铜像会悄然改变姿势。老渔民们坚持说，他们曾在雾中看到雕像举起右手，仿佛在向远处的小美人鱼雕像致意——而事实上，两座雕像恰好隔着港口遥遥相望。<strong>2003年</strong>，一位夜跑者还声称看见一位穿着18世纪卫兵制服的男子在花园边缘踱步，当他走近时，那身影便化作一缕青烟消失在大理石台阶上。丹麦皇家卫队对此不予置评，但不得不承认，换岗仪式上偶尔会有卫兵因“感官错觉”而提前旋转枪托。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">【历史回响**</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿美琳堡花园不只是游客拍照的背景板。它是一面镜子，映照着丹麦从绝对君主制到君主立宪、从贵族特权到公共福祉的百年变革。四座宫殿依然保持着18世纪的外貌，但宫内已开放给公众参观；花园里奔跑的孩子、播放着爵士乐的长椅，都在无声宣告：<strong>王权退场，人民登场</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂阿美琳堡，就读懂了丹麦民族性格中那种“将历史温柔地拥抱在生活里”的智慧。疯王的故事提醒我们理性的脆弱，宪法日的钟声纪念着民主的珍贵，而海妖的传说则为这片花岗岩建筑增添了来自北欧深海的柔情。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/landsskuet-herning\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赫宁农业展</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Landsskuet Herning</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hojbro-plads-copenhagen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    霍\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">霍伊布罗广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Højbro Plads</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/nyboder\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    尼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">尼博德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nyboder</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "landsskuet-herning",
+          "name": "赫宁农业展",
+          "englishName": "Landsskuet Herning"
+        },
+        {
+          "slug": "hojbro-plads-copenhagen",
+          "name": "霍伊布罗广场",
+          "englishName": "Højbro Plads"
+        },
+        {
+          "slug": "nyboder",
+          "name": "尼博德",
+          "englishName": "Nyboder"
+        }
+      ]
+    }
+  ]
+}

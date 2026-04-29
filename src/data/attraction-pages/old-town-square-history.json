@@ -1,0 +1,85 @@
+{
+  "slug": "old-town-square-history",
+  "template": "history",
+  "metadata": {
+    "title": "布拉格老城广场历史溯源｜中世纪欧洲的心脏，哈布斯堡王朝的浮沉与名人传奇",
+    "description": "火药塔的硝烟与天文钟的叹息——布拉格老城广场，一座被战争、改宗与革命雕刻的露天舞台。探寻扬·胡斯、卡夫卡与蒂恩教堂的隐秘往事，读懂中欧的千年心跳。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格老城广场",
+      "href": "/attractions/old-town-square-history"
+    }
+  ],
+  "hero": {
+    "title": "布拉格老城广场・Old Town Square・捷克・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">这里是波西米亚王国的灵魂所在，也是欧洲历史最密集的露天剧场。<strong>布拉格老城广场</strong>自12世纪以来，便一直是商贾、君主与革命者的舞台。从胡斯派宗教战争的流血冲突，到哈布斯堡王朝的天主教反攻，再到1918年捷克斯洛伐克的独立宣言，每一块石板都浸透着权力更迭的血与火。抛开游玩攻略，走进老城广场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">布拉格老城广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Old Town Square</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Old Town Square</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老城广场并非一夜建成。<strong>12世纪</strong>，当布拉格城堡（Prague Castle）在山丘上崛起时，河对岸的低地聚集了来自德国、意大利的商人与工匠。当时的统治者<strong>瓦茨拉夫一世</strong>（Wenceslaus I）在1230年代授予这片聚落城市特权，并规划出一个大型集市——这就是老城广场的雏形。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场的名字源自捷克语“Staroměstské náměstí”，意为“老城区的广场”。中世纪时，这里并非单一的广场，而是由多个市场合并而成：南端是水果市场，北端是鱼市，中间则堆放死刑架。但真正让它成为地标的是<strong>1360年代</strong>，神圣罗马帝国皇帝<strong>查理四世</strong>（Charles IV）扩建布拉格，将老城广场作为连接新城与城堡的枢纽。他在广场东侧修建了<strong>蒂恩教堂</strong>（Church of Our Lady before Týn）的前身，并下令铺设石板路面。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有趣的是，广场的名字在德语中被称为“Altstädter Ring”，其中“Ring”并非环形，而是指中世纪城市中设有绞刑架的中心地带——这暗示了广场最初的司法与刑罚功能。直到今天，广场中央的<strong>扬·胡斯雕像</strong>（建于1915年）脚下，仍保留着当年行刑台的标记。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 1419年：第一场“掷出窗外”事件引爆胡斯战争</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1419年7月30日，老城广场南侧的<strong>新市政厅</strong>（New Town Hall）发生了欧洲历史上著名的“第一次掷出窗外事件”（Defenestration）。胡斯派牧师<strong>扬·泽利夫斯基</strong>（Jan Želivský）率领愤怒的信众冲入市政厅，将反对胡斯改革的市议员从窗户扔到广场上。三天后，广场成为血腥战场——国王瓦茨拉夫四世惊吓而死，胡斯战争由此爆发。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今，市政厅外墙上仍有一块铜牌标记着那扇窗户的位置。每年7月，当地胡斯信徒会在此举行纪念弥撒，并在广场上点燃篝火。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 1620年：白山战役后的血腥清洗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1620年11月，新教军队在白山战役中惨败，哈布斯堡王朝的费迪南德二世展开严酷的反宗教改革。<strong>1621年6月21日</strong>，老城广场上演了捷克历史上最惨烈的公开处决：27名新教贵族领袖（包括著名学者<strong>扬·杰森纽斯</strong>）被当众斩首。他们的头颅被钉在火药塔（Powder Tower）的铁笼中示众整整十年，以儆效尤。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">现在广场东北角的<strong>圣米歇尔教堂</strong>（St. Michael's Church）旧址，立着一块黑色方尖碑，默默记录着那场屠杀。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 1945年：布拉格起义与广场上的死亡之音</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战末期的<strong>1945年5月5日</strong>，布拉格市民在老城广场发动反纳粹起义。他们在广场上架设广播车，通过喇叭向全城播报起义消息。5月9日，苏军坦克刚抵达广场，德国空军便对广场进行地毯式扫射，炸毁了市政厅的北翼。在清理废墟时，工人发现了一具身穿苏联军装的尸体——后来证实是一名伪装成苏军侦察兵的德国特工，试图扰乱起义军的判断。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到今天，市政厅大楼上的弹孔仍被刻意保留，作为那段历史的见证。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>——扬·胡斯：广场上的永恒哨兵</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>扬·胡斯</strong>（Jan Hus，约1372-1415）从未真正踏足过布拉格老城广场——他在康斯坦茨被烧死时，广场还只是普普通通的集市。但1915年，一座深色花岗岩雕像被竖立在广场中央，取代了之前的一尊圣母像。胡斯的全身像高达三层楼，他手持圣经，目光凝视着西南方的<strong>圣维特主教座堂</strong>——那里是教皇权威的象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">胡斯生前是布拉格查理大学的校长，因主张简化教会仪式、使用捷克语做弥撒而被革除教籍。他的信徒（胡斯派）控制了布拉格近二十年，直到1436年才被镇压。有趣的是，雕像底座上刻着一行胡斯的名言：“<strong>真理必胜</strong>”（Pravda vítězí）。二战期间，纳粹曾试图铲除这行字，但匠人将字母棱角磨钝，用石灰填平，表面刷上德文标语“Ein Volk, ein Reich, ein Führer”。1945年起义者重新发现时，字母依然清晰可见。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年7月6日胡斯忌日，当地人会在雕像周围摆放鲜花，广场上出现一顶象征“胡斯帐篷”的白色帆布小屋，里面贩卖传统的胡斯派蜂蜜酒与黑面包。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>——弗朗茨·卡夫卡：广场角楼的幽灵</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">作家<strong>弗朗茨·卡夫卡</strong>（Franz Kafka，1883-1924）是地道的布拉格犹太人，他出生地（Maiselova 8号）距离老城广场仅百米。他一生中最具戏剧性的片段之一，就发生在广场东侧的<strong>“一分钟屋”（House at the Minute）</strong>——那是一座文艺复兴风格宅邸，外墙上画满了圣经场景的壁画。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡夫卡在日记中写道：“我每天傍晚都穿过老城广场，强迫自己走进那些昏暗的拱廊，好像在躲避某种看不见的审判。” 1911年，他曾在广场南角的<strong>“金独角兽咖啡馆”</strong>（Café Unicorn）与朋友讨论《审判》的构思。咖啡馆早已关闭，但原址（Smetanovo nábřeží 20号）如今是一家银行——据说地下室里仍保留着卡夫卡曾经坐过的椅子。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“广场上的钟声像手术刀一样切开空气。每一声都让我感到，自己正被钉在某份看不见的文件上。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——弗朗茨·卡夫卡致好友马克斯·布罗德的信，1912年1月</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>——天文钟的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老城广场南侧的<strong>天文钟</strong>（Astronomical Clock）是欧洲最著名的钟表之一。传说15世纪工匠<strong>哈努什</strong>（Master Hanuš）被布拉格市议会蒙住双眼，以防他为其他城市复制这座钟。但他事先在钟内藏了一枚钢针——当他被刺瞎后，他攀上钟楼顶，将齿轮中的关键部件破坏，然后跳下自尽。这个诅咒让天文钟此后断断续续停摆了三百多年，直到1895年才被完全修复。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年节庆期间，钟楼管理员会在午夜关闭指针，对着齿轮轻声念一段祷告词，据说是为了安抚哈努什的怨魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>——无头骑士的圣诞夜</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个流传数百年的传说：每年12月24日午夜，广场会出现一匹无头白马，驮着一副古铜色盔甲，从圣母蒂恩教堂的北门冲出来，绕着广场跑三圈后消失在火药塔方向。据说这是17世纪一名被处决的新教骑士——<strong>克利姆施泰因伯爵</strong>——的幽灵，他在寻找自己被哈布斯堡士兵偷走的佩剑。当地人若在这一夜看到白马的足迹，则预示着来年布拉格将有血与火的战争。事实上，一战前的1913年圣诞夜，确实有马车夫声称在雪地上发现了马蹄印记——次年萨拉热窝事件爆发。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老城广场从未沉沦为旅游纪念品的展示柜。它是中欧千年政治、宗教与民族冲突的微缩模型。在这里，每一根灯柱下都可能埋着一具无名的胡斯派战士，每一块鹅卵石都听过卡夫卡的叹息。读懂这座广场，就是读懂<strong>波西米亚</strong>如何从神圣罗马帝国的边缘，变成现代捷克共和国的灵魂。当游客们争相与耍泡泡的街头艺人合影时，那些沉默的石墙却在讲述更沉重的故事：自由与教条、暴虐与抵抗、死亡与记忆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/valtice-wine-castle-czech\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦尔季采</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Valtice</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amk-ivan-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    A\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">AMK Ivaň</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">AMK Ivaň</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prague-pulse-tours\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布拉格脉搏之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prague Pulse Tours</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "valtice-wine-castle-czech",
+          "name": "瓦尔季采",
+          "englishName": "Valtice"
+        },
+        {
+          "slug": "amk-ivan-history",
+          "name": "AMK Ivaň",
+          "englishName": "AMK Ivaň"
+        },
+        {
+          "slug": "prague-pulse-tours",
+          "name": "布拉格脉搏之旅",
+          "englishName": "Prague Pulse Tours"
+        }
+      ]
+    }
+  ]
+}

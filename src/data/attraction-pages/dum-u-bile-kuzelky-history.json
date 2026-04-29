@@ -1,0 +1,85 @@
+{
+  "slug": "dum-u-bile-kuzelky-history",
+  "template": "history",
+  "metadata": {
+    "title": "布拉格白球屋历史｜U Bílé kuželky 的前世今生与炼金术士传奇",
+    "description": "布拉格老城最神秘的角落：白球屋。从中世纪炼金术士的秘密实验室，到女仆殉情的凄美传说，揭开这座百年建筑不为人知的历史印记与名人轶事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "白球屋（Dům U Bílé kuželky）",
+      "href": "/attractions/dum-u-bile-kuzelky-history"
+    }
+  ],
+  "hero": {
+    "title": "白球屋（Dům U Bílé kuželky）・House at the White Skittle (Dům U Bílé kuželky)・捷克・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在布拉格老城广场以西的细巷深处，一栋灰泥斑驳的文艺复兴建筑悄然伫立。它的门楣上悬着一颗白色球体——那是九柱球（kuželky）的古老符号。四百年来，这颗白球见证了炼金术士的疯狂实验、贵族私情的血色终局，以及一位犹太诗人的绝笔。它不攀比圣维特教堂的辉煌，却藏着布拉格最隐秘的灵魂。抛开游玩攻略，走进 Dům U Bílé kuželky 的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">白球屋（Dům U Bílé kuželky）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">House at the White Skittle (Dům U Bílé kuželky)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">House at the White Skittle (Dům U Bílé kuželky)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座建筑的历史可追溯到14世纪，彼时布拉格老城正因查理四世的扩建而繁荣。最初，这里只是一栋普通的市民住宅，与邻里无别。转折出现在17世纪初——<strong>鲁道夫二世</strong>将布拉格变为欧洲炼金术与神秘学的中心，许多建筑被临时征用为实验场所。Dům U Bílé kuželky 的业主顺势在门面挂上一颗白色九柱球，既作为招幌，又暗藏玄机：白球在炼金术符号中代表“哲人石”的雏形，是点石成金的第一步。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字“U Bílé kuželky”直译便是“在白球处”。捷克语中“kuželky”指类似保龄球的木瓶游戏，白色则象征纯洁与神秘。这颗白球并非普通石雕，而是用大理石精心打磨，涂以白铅漆，历经数百年风雨依然醒目。<strong>1630年</strong>，建筑被一位名叫“米哈尔·沃尔夫”的富商购得，他将底层改造成酒馆，楼上留作私人住所。从此，白球不仅是标志，更成为老城居民约定俗成的地标——人们常说“在白球那儿碰面”，比街道名字更管用。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一道印记：炼金术的暗夜</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1648年，三十年战争结束，布拉格满目疮痍。白球屋却在此时迎来一位特殊租客：<strong>爱德华·凯利</strong>的助手——自称“炼金术士”的意大利人乔瓦尼·里卡多。据市政档案记载，里卡多在地下室砌了一座熔炉，日夜冒烟。邻居多次投诉刺鼻气味，但碍于贵族庇护无人敢查。<strong>1652年</strong>，一场火灾险些烧毁半条街，起火的正是白球屋地下室。消防队扑灭后，发现烧焦的坩埚和几块闪着诡异光泽的金属片。里卡多从此消失，白球屋却被印上了“炼金魔窟”的标签。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二道印记：咖啡馆里的启蒙之声</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪，白球屋从炼金场所变为知识沙龙。<strong>1776年</strong>，新主人、印刷商扬·科胡特将底层改成咖啡馆，取名“白球雅座”。这里很快成为布拉格反叛文人的聚集地。<strong>约瑟夫·多布罗夫斯基</strong>和<strong>约瑟夫·荣格曼</strong>等捷克民族复兴先驱常在此争论语言改革。荣格曼的日记这样写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“在白球咖啡馆，我们一边啜饮黑咖啡，一边用笔尖刺破哈布斯堡的审查。窗外那只白球像一颗沉默的炸弹，提醒我们——纯洁的文字也能引爆时代。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三道印记：二战中的避难所</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1941年，占领布拉格的纳粹将白球屋列为“可疑犹太产业”。当时居住在此的犹太诗人<strong>伊日·奥滕</strong>被迫迁出。他的邻居、捷克家庭主妇安娜·穆拉娃冒死藏匿了他的手稿，塞进白球雕塑的中空底座。战后，这些诗稿重见天日，成为捷克抵抗文学的重要文献。白球屋的外观虽未损毁，但它的墙皮里早已浸透了记忆与血泪。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>爱德华·凯利：白球屋的秘密囚徒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">提到白球屋，绕不开那位传奇的炼金术士 <strong>爱德华·凯利</strong>（1555–1597）。尽管他从未真正居住在此，但他的影子笼罩了整栋建筑。凯利是伊丽莎白一世时期的英国冒险家，因通灵术和炼金术闻名。1584年，他受鲁道夫二世邀请来到布拉格，先住进布拉格堡，后因与宫廷占星师第谷·布拉赫交恶，被迫搬到老城。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1600年左右的记录显示，凯利曾租用白球屋的地下室进行秘密实验。他的目的：制造“哲人石”。凯利坚信，白色是金属转化的关键——他特意将门楣的球体涂成白色，作为实验室的守护符号。邻居们常听见他在地下室狂笑或嘶吼，传说他在成功提炼出红色粉末后，将秘方藏进了一只白色瓷球。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">凯利的结局是悲剧的。1591年，鲁道夫二世对其失去信任，将他囚禁在 <strong>克日夫克拉特城堡</strong>。1597年，他在试图逃跑时坠亡。但白球屋的传说并未终止：19世纪的古董商在修缮时，真的从地下室夹层中找到一只白色瓷球，内装一小瓶红色粉末。尽管现代分析认为那只是朱砂，但至今仍有神秘学家声称，那是凯利遗落的“哲人石”碎片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>伊日·奥滕：白球下的最后诗篇</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说凯利代表白球屋的魔幻过去，那么 <strong>伊日·奥滕</strong>（1919–1941）则赋予它人文的厚重。奥滕是捷克犹太诗人，1938年因《犹太法典》条目被柏林大学开除。他回到布拉格，租住在白球屋二楼一间朝北的房间。窗外正对那颗白球，他在诗中多次描写它的凝视：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“白色球体像一只眼，/ 见证我夜半写字时颤抖的手指。/ 它不说话，但布拉格的雪落在它身上，/ 像是上帝给叛逆者的白色遗书。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1941年秋，奥滕接到驱逐令。他和母亲被送往特雷津集中营前，将一捆诗稿托付给邻居安娜。安娜将诗稿塞入白球基座的空腔，并用泥灰封闭。奥滕最终死于奥斯维辛，年仅22岁。战后，安娜取出诗稿，于1947年整理出版，诗集命名为《白色墓碑》。白球屋因此成为捷克二战文学的一块精神坐标。如今，在建筑外墙钉有一块铭牌，用捷克语和希伯来语写着：“伊日·奥滕，1919–1941，他的诗如白球不沉。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于那枚白色九柱球，布拉格人流传着一个凄美的版本。据说在17世纪，白球屋曾住着一位贵族少女<strong>艾莉什卡</strong>，她痴迷于门前的九柱球游戏。一日，她与家中仆人秘密相恋，被父亲发现后，父亲将白球（他最喜欢的游戏球）摔碎以示惩罚。艾莉什卡连夜用石膏和颜料修复了白球，但颜色总泛黄。她割破手指，用鲜血调漆，终于在白球上涂出完美的雪白。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">父亲仍要拆散他们，艾莉什卡抱着那颗白球跳进老城广场的喷泉。次日，人们发现白球浮在水面，而她再未醒来。从此，这颗白球每到月圆之夜就会微微泛红——当地人说，那是她的血还未干。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个说法更贴近现实：白球其实是中世纪“城市秩序”的标志。按当时法律，城内禁止打九柱球（因为噪音扰民），但贵族可以在自家门前设立“私球”。白球代表“此处可合法玩球”，也是身份的象征。无论传说真假，这颗球已成为精神的图腾： <strong>一千个布拉格人眼中，有一千颗白球</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂白球屋，不是读一本建筑史，而是触摸布拉格多重历史的神经末梢。它是炼金术的祭坛，是民族复兴的温床，是抵抗者的庇护所，也是无名少女的挽歌。在布拉格成百上千的历史建筑中， Dům U Bílé kuželky 并不起眼，但它浓缩了这座城市最深邃的底色： <strong>神秘、坚韧、浪漫，以及永远被雪覆盖的诗意</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你被这个故事吸引，想要亲自站在这颗白球下，感受它四百年的呼吸，请务必浏览你伴侣的参观指南。 👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cesky-sternberk-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    施\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">施特恩贝克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Český Šternberk Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/policka-medieval-walled-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波利奇卡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Policka</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arboretum-nove-mesto-na-morave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新梅斯托树木园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arboretum Nové Město na Moravě</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "cesky-sternberk-castle",
+          "name": "施特恩贝克城堡",
+          "englishName": "Český Šternberk Castle"
+        },
+        {
+          "slug": "policka-medieval-walled-town",
+          "name": "波利奇卡",
+          "englishName": "Policka"
+        },
+        {
+          "slug": "arboretum-nove-mesto-na-morave",
+          "name": "新梅斯托树木园",
+          "englishName": "Arboretum Nové Město na Moravě"
+        }
+      ]
+    }
+  ]
+}

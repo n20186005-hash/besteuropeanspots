@@ -1,0 +1,85 @@
+{
+  "slug": "kings-garden-history",
+  "template": "history",
+  "metadata": {
+    "title": "国王花园历史溯源｜哥本哈根皇家园林的前世今生与贵族轶事",
+    "description": "探秘丹麦最古老皇家园林——国王花园。从克里斯蒂安四世的文艺复兴梦想，到安徒生的灵感源泉，再到午夜幽灵传说。一场穿越400年的时光漫步。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "丹麦",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "哥本哈根",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "国王花园",
+      "href": "/attractions/kings-garden-history"
+    }
+  ],
+  "hero": {
+    "title": "国王花园・The King's Garden・丹麦・哥本哈根",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在哥本哈根的心脏地带，一片修剪整齐的绿洲静静铺展——国王花园，丹麦最古老的皇家花园。它曾是国王的私密领地，如今却是所有人可以自由漫步的公共乐园。抛开游玩攻略，走进国王花园的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">国王花园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">The King&#39;s Garden</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">The King&#39;s Garden</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">丹麦</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">哥本哈根</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哥本哈根最初不过是厄勒海峡岸边的一个小渔村，12世纪成为罗斯基勒主教的领地，15世纪被克里斯蒂安一世定为丹麦首都。但真正赋予这座城市文艺复兴光芒的，是17世纪的克里斯蒂安四世——一位狂热追求建筑与艺术的君主。1606年，他下令在当时的城墙外建造一座夏宫：罗森堡宫。同时，他效仿意大利和法国的宫廷园林，在宫殿周围规划了一片<strong>几何对称</strong>的花园，命名为“Kongens Have”——国王的花园。<strong>这是丹麦历史上第一座文艺复兴风格的皇家园林</strong>，名称直白地宣示了王权对自然的绝对掌控。花园最初仅对王室和受邀贵族开放，是国王展示权力与品味的舞台。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">国王花园的命运，与丹麦从绝对君主制走向民主国家的历程紧密交织。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪的启蒙运动带来了第一次转折。1740年代，克里斯蒂安六世开始允许部分市民在特定时间进入花园散步，标志着王室与公众之间的围墙出现裂缝。1770年，在王权改革者约翰·弗里德里希·施特林泽的推动下，花园正式对公众全面开放。<strong>这堪称哥本哈根的“绿色革命”</strong>——市民第一次可以踏上曾被王室独享的草地，嗅闻异国植物，欣赏喷泉雕塑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪浪漫主义浪潮中，花园经历了第二次蜕变。原为严格几何形的文艺复兴花坛，被逐步改造成更自然、更如画的英式园林风格。1849年丹麦废除君主专制，国王花园彻底成为公民的休闲空间。<strong>最动人的一幕发生在二战时期</strong>（1940-1945）：当纳粹占领哥本哈根时，花园成了市民的秘密集会点和躲避搜查的临时庇护所。老人们在长椅上低声传递抵抗消息，孩子们在树丛中奔跑，仿佛战争从未降临。</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">罗森堡宫的地下室至今保存着丹麦王冠宝石和历代君主的珍宝，那是国王花园最深的秘密。</li>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">花园中的赫拉克勒斯凉亭，建于17世纪，以大理石浮雕描绘大力神完成十二项任务的场景，至今仍是婚礼和艺术展的举办地。</li>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>克里斯蒂安四世 (1577-1648) | 国王与痴迷建筑的君王</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">没有克里斯蒂安四世，就没有国王花园。这位“建筑狂王”在位期间大兴土木，哥本哈根的许多标志性建筑——罗森堡宫、证券交易所、圆塔——都出自他的授意。他亲自参与花园的规划设计，甚至从荷兰和意大利聘请园艺师，引进郁金香、柠檬树等异域植物。据宫廷日记记载，他经常在清晨亲自巡视花园，检查喷泉的水压和草坪的修剪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他最著名的轶事与花园中的“孔雀亭”有关：一次，克里斯蒂安四世在此款待外国使节，为了炫耀国力，他下令用银制的餐具盛放菜肴，并在宴席结束时将银盘全部抛入花园的护城河中，宣称“丹麦的银矿取之不尽”。但事实是，他后来悄悄派人打捞了回来——这既是国王的虚荣，也是他务实的幽默。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>汉斯·克里斯蒂安·安徒生 (1805-1875) | 童话之王的秘密花园</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">安徒生一生大部分时间住在哥本哈根，国王花园是他最爱的散步场所。他曾在日记里写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我今天走过国王花园，那些古老的椴树像巨大的伞，为我遮蔽了俗世的目光。我听见树梢上风的声音，它告诉我一个被遗忘的故事——关于一只丑小鸭，它出生在这里，却永远不知道自己是谁。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这则日记透露了安徒生与花园之间隐秘的创作联系。事实上，《丑小鸭》中那只被主角躲避的“养鸭场”，其原型就是罗森堡宫后面的皇家鸭塘。安徒生也常坐在花园南门的石凳上，观察过往行人的表情，从中捕捉童话人物的影子。今天，这条石凳被命名为“安徒生长凳”，每年都会有人献上雏菊和纸条。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每当我在城市里感到窒息，我就会躲进国王花园，让自己被树木和雕像包围。这里没有国王，只有故事。” ——安徒生，1847年书信。</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>克里斯蒂安四世的午夜巡视</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哥本哈根的老居民都知道一个传说：在每年圣诞节前夜的午夜，克里斯蒂安四世的幽灵会穿着他的绿色猎装，牵着一条灵缇犬，从罗森堡宫的地窖走出来，沿着国王花园的中央大道巡视一圈。他会检查每一棵椴树、每一座雕塑，甚至弯下腰查看花坛是否被翻动。如果遇到任何人，他会轻轻点头，然后消失在赫拉克勒斯凉亭的阴影中。据说，凡是见过国王幽灵的人，会在接下来的一年里交上好运——但必须保密，否则好运就会溜走。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>许愿喷泉的秘密</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">花园中心的那座古老喷泉，传说有治愈的力量。17世纪时，年轻的姑娘们会在满月之夜，将三枚银币投入喷泉，并绕着它左转三圈，这样就能在一年内嫁给一位贵族。如今，这口喷泉依然被游客当作许愿池，但最好的许愿时间是黄昏，当阳光穿过城堡的窗棂，在水面投下金色的光斑——那时许的愿望，据说会被克里斯蒂安四世本人听见。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">国王花园不仅仅是一片绿地，它是丹麦从绝对君主制走向民主的<strong>活着的纪念碑</strong>。从国王私苑到市民乐园，花园的四百年变迁浓缩了整个北欧社会演变的缩影。走进这里，你踩过的每一条小径都曾留下过国王的靴印、童话家的脚印、抵抗者的足迹和情侣的呢喃。<strong>读懂这座花园，你就读懂了哥本哈根的灵魂</strong>——它把最辉煌的王权，最终慷慨地还给了人民。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/hirschsprung-collection-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    H\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Hirschsprung Collection（希施普龙收藏馆）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hirschsprung Collection</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/trojborg-castle-ruins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特罗伊堡城堡遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Trøjborg Castle Ruins</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/agard-forest-park-sport-recreation-center-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿加德森林公园体育休闲中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Agard Forest Park Sport and Recreation Center</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "hirschsprung-collection-history",
+          "name": "Hirschsprung Collection（希施普龙收藏馆）",
+          "englishName": "Hirschsprung Collection"
+        },
+        {
+          "slug": "trojborg-castle-ruins",
+          "name": "特罗伊堡城堡遗址",
+          "englishName": "Trøjborg Castle Ruins"
+        },
+        {
+          "slug": "agard-forest-park-sport-recreation-center-history",
+          "name": "阿加德森林公园体育休闲中心",
+          "englishName": "Agard Forest Park Sport and Recreation Center"
+        }
+      ]
+    }
+  ]
+}

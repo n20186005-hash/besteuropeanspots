@@ -1,0 +1,85 @@
+{
+  "slug": "telc-mestska-vez",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "泰尔奇城市塔楼 Telč Městská věž｜登顶俯瞰千年广场与彩色山墙 - 最佳欧洲景点",
+    "description": "我第一次远远望见它，是在一个金色傍晚。广场上Zachariáš z Hradce的彩色山墙排成两列，红、黄、绿、粉柔柔地融化在斜阳里，而那座方塔就那么一下子从房子中间拔起，像一根竖起来的汉白玉量尺，把天空切割成规整的明与暗。走近了，才看清底层拱廊的粗粝花岗岩，每一块都磨得包了浆，手指摸过去，温温的，"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "泰尔奇",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "泰尔奇城市塔楼",
+      "href": "/attractions/telc-mestska-vez"
+    }
+  ],
+  "hero": {
+    "title": "泰尔奇城市塔楼・Telč Městská věž・捷克・泰尔奇",
+    "description": "我第一次远远望见它，是在一个金色傍晚。广场上Zachariáš z Hradce的彩色山墙排成两列，红、黄、绿、粉柔柔地融化在斜阳里，而那座方塔就那么一下子从房子中间拔起，像一根竖起来的汉白玉量尺，把天空切割成规整的明与暗。走近了，才看清底层拱廊的粗粝花岗岩，每一块都磨得包了浆，手指摸过去，温温的，残留着一下午日照的热量。有个老爷爷正靠在廊柱上给吉他调音，琴弦拨弄间，鸽子从屋檐下扑棱棱飞起，翅膀扇起的风带着青苔和烤面包的气味。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">我第一次远远望见它，是在一个金色傍晚。广场上Zachariáš z Hradce的彩色山墙排成两列，红、黄、绿、粉柔柔地融化在斜阳里，而那座方塔就那么一下子从房子中间拔起，像一根竖起来的汉白玉量尺，把天空切割成规整的明与暗。走近了，才看清底层拱廊的粗粝花岗岩，每一块都磨得包了浆，手指摸过去，温温的，残留着一下午日照的热量。有个老爷爷正靠在廊柱上给吉他调音，琴弦拨弄间，鸽子从屋檐下扑棱棱飞起，翅膀扇起的风带着青苔和烤面包的气味。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">要爬塔。木楼梯又窄又陡，吱呀作响，每走一步都能听到自己的喘息和心跳在狭小的空间里闷闷地回荡。中间有几处平台，透过铁栅栏可以窥见钟楼内部巨大的齿轮，铜亮铜亮的，一尘不染。爬到一半，一个圆滚滚的棕发女人正靠着墙喘气，她朝我挤挤眼：“这楼梯啊，比我们整个老城区都高！”果然，等到了顶层观景廊，风呼地就灌进来，整个人像被吹透了。眼前展开的是一张活的明信片：整个广场的房顶一片赭红，间或有烟囱冒出淡淡的炊烟；南边是圣雅各教堂的尖顶，更远处是起伏的田野和树林，绿得发蓝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最动人心魄的，当然是那些山墙。从塔上看下去，它们像一排排凝固的彩虹——每一幢房子的正面都装饰着繁复的灰泥纹样，有卷草、有贝壳、有天使的头，傍晚的光把它们濡染得又暖又柔。我忽然理解了为什么这里被叫做“波希米亚的威尼斯”——那其实不是水的缘故，而是这些色彩在水面的倒影里颤动的样子，美得不像真的，倒像一个甜腻的梦。广场中央的喷泉哗啦啦响着，有小孩绕着水池疯跑，笑声尖尖的，被风扯成断续的线。当地人就这么坐在咖啡馆的藤椅上，看书、聊天、喂鸽子，完全不在意头上那个巨大塔楼里正有一群游客在惊叹。塔楼呢，就这么沉默地站着，钟面镀金指针缓缓转动，不疾不徐，仿佛早已看惯了人间的来来去去。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">泰尔奇城市塔楼</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Telč Městská věž</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Městská věž</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">泰尔奇</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">泰尔奇城市塔楼是16世纪文艺复兴时期城镇自治与防御体系的活化石，作为联合国教科文组织世界遗产“泰尔奇历史中心”的核心垂直地标，它见证了这座小城从中世纪商道重镇到巴洛克静美小镇的完整变迁。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">56米高的方柱形塔身以文艺复兴拱廊和精致山墙收顶，底层是开放的市民拱廊，中部有窄长窗户，顶层设有四面钟面与覆盖铜板的穹顶，登顶后可360度俯瞰整个世界遗产广场及周边乡村。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">文艺复兴式，后期融入少量巴洛克装饰元素（如钟楼顶的曲线轮廓）。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">塔楼不仅是市政权力与信仰时间的物理象征，更凝聚了罗森伯格家族治下泰尔奇黄金时代的审美追求，其钟声百年来为集市、节日、婚丧提供公共时间刻度，是当地社区情感记忆的容器。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">4月至10月每天9:00至18:00，最后入场时间17:30；11月至3月仅周六、周日及节假日开放，时间为10:00至16:00。圣诞节前夕、元旦及复活节周一闭馆。夏季偶尔因婚礼或市政活动提前关闭，建议出发前查看当地官网公告。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">成人票价80捷克克朗，学生及65岁以上老人50克朗，6岁以下儿童免费，家庭票（2成人+2儿童）200克朗。团体10人以上享9折优惠。支付仅接受现金，塔楼入口处无刷卡设备。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">náměstí Zachariáše z Hradce 1, 588 56 Telč, Czech Republic</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从布拉格主火车站乘火车至Telč站，全程约3小时，每2小时一班，需在Jihlava转乘区域列车。从布尔诺出发乘直达巴士约1小时40分钟，每日4-6班。下车后沿Zachariášovo náměstí步行10分钟即达中央广场，塔楼就在广场东侧。自驾沿E59公路至Telč出口，广场四周有收费停车场，但市政厅后巷有免费停车位，步行2分钟。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座塔楼的故事，得从16世纪说起。那时候泰尔奇只是波希米亚南部一个靠贸易发迹的小镇，广场景观大体还是哥特式的灰扑扑模样。改变命运的是一位叫Zachariáš z Hradce的贵族领主，他继承了这里，决定把它打造成家族的荣耀展示台。1553年，他几乎推倒了广场周围所有旧房子，请来意大利建筑工匠，统一规划成文艺复兴风格的拱廊和山墙立面。而这座城市塔楼，就是整个改造计划的心脏——它既是市政厅的钟楼，也是城镇防御系统的一部分，更是一种姿态：看，我们泰尔奇有力量也有品味。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建造过程并不顺利。史料记载，塔楼地基挖了近三米深，全部用当地的粗粒花岗岩砌筑，光底座就花了两年。1560年主体封顶后，Zachariáš又从维也纳定制了一口大钟，重达一吨半，据说用船顺着伏尔塔瓦河一路运到附近，再用牛车拖进广场，整个镇的人都跑来围观。钟上镌刻着拉丁铭文，大意是“我来自火焰，为民众报时”，至今仍挂在顶层，每逢整点敲响时，声音浑厚，能在田里传出好远。到了1604年，又加装了四面巨大的机械钟面，由当地的钟表匠亲手打造，指针是纯铜锻造的，百年间只换过一次轴承。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">不过塔楼也命途多舛。三十年战争期间（1618-1648），泰尔奇先后被帝国军队和瑞典军队占领，塔楼曾作为观测哨和弹药库使用。传说瑞典人撤退时本想炸掉它，但一位本地铁匠连夜用铁链把火药桶锁在了底层拱廊的石柱上，然后悄悄剪断了引线。第二天士兵们发现火药被毁，气得把铁匠吊在井里，却始终没敢放火——他们怕引燃墙角的酒窖。铁匠的故事至今还在镇里流传，每年5月的“塔楼纪念日”，会有孩子戴着头盔假装瑞典兵，从塔楼顶上扔下假炸弹（彩色气球）。二战的阴影相对浅，德军占领期间，塔楼被改成了临时通讯站，但未遭到轰炸。战后，塔楼的钟声曾在1945年5月8日整整敲了一下午，为和平而鸣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了20世纪70年代，因为年久失修，塔楼的外墙出现裂缝，钟楼也停摆了几年。联合国教科文组织1977年将泰尔奇列为世界遗产后，政府拨了专款进行大规模修缮。工程师们用碳纤维加固了塔身，更换了腐朽的木梁，重新镀金了钟面指针。最有趣的是，1994年修复顶层时，工人在钟架下面发现了一个锡盒，里面是1889年的报纸、几枚古钱币和一张写着“致未来的朋友”的字条——那是当时一位年轻木匠留下的。镇里特意复制了一份，放回原处，又添了今天的硬币和当地明信片。所以你现在登塔时，脚下踩的每一级台阶，可能都有300年前工匠的斧凿痕迹；而你知道，几百年后另一个人也会在这塔上站着，看同样的山墙和喷泉，只是钟声会更苍老一点点。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  建议下午三点左右抵达广场，先在底层拱廊里走一圈，看看那些斑驳的圆形石柱和壁灯，感受光影在拱顶下的流动。然后四点左右开始登塔，这个时段的光线最温柔，爬楼梯也不至于太热，全程上下约需45分钟。在顶层观景台停留30分钟，正好能赶上日落前后天空颜色最丰富的变化。下来后，广场上的餐厅刚刚开始供应晚餐，你可以挑一家露台位置，一边喝啤酒一边看着塔楼亮起暖黄的灯——那是它一天里最美的时刻。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>尽量避开周末上午，那时候广场上挤满旅行团，塔楼内会排长队；穿防滑的平底鞋，木质台阶因年久有些光滑；带一瓶水，但不要带大包，顶层空间狭窄不好转身。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">从广场东侧拱廊下的塔楼入口进入，先不要急着爬，留心看看底层的石砌穹顶与地面间的排水沟，那是16世纪设计的雨水导流系统</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">拾级而上，第一段楼梯终点是钟楼机芯房，透过铁格栅看铜齿轮啮合，闻闻机油与旧木混合的奇特气味，整点时分可感受钟锤敲击时地板的震动</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">再上一层到达半空中的“审讯室”小阁楼，窗台上刻着18世纪驻兵的字迹，对光看有模糊的拉丁数字，据说是当年哨兵记的轮值天数</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">登顶前的最后一道拐角处有扇朝北的小窗，从这个角度可以看见圣雅各教堂的绿色尖顶，与塔楼自身形成绝佳的大小对比构图</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">踏上顶层观景台，先顺时针绕一圈，体验五座山墙的色彩在日照下变幻的层次，然后用手指框选广场东端的水池，拍一张倒影对称的经典照</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">下塔时走慢一点，摸摸楼梯扶手上那一道被无数只手磨出光泽的凹陷，它像一条时间河流冲刷出的河床</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 广场水池前仰拍</h4>\n                  <p class=\"text-sm text-gray-700\">下午五点左右，蹲在水池边缘，以水面倒影为前景，塔楼主体居中，能拍出上下对称的魔幻照片，注意避开喷泉形成的水纹干扰</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 南侧拱廊下斜向构图</h4>\n                  <p class=\"text-sm text-gray-700\">上午十点，站在塔楼东侧拱廊的第三个廊柱下，用广角镜头将塔楼的纵向线条与拱廊的横向曲线结合，人物可斜倚在柱子上当静物</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 中层北窗框景</h4>\n                  <p class=\"text-sm text-gray-700\">登上第三层平台时，背对窗户拍人物剪影，窗外是天空和红瓦屋顶，光线强烈时用手机HDR模式平衡明暗</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 塔顶东南角逆光人像</h4>\n                  <p class=\"text-sm text-gray-700\">日落前半小时，让模特站在护栏边，摄影师蹲在观景台地面仰拍，以熔金色的天空和远处的田野为背景，轮廓光会勾勒出头发和表情</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">5. 夜间灯光长曝光</h4>\n                  <p class=\"text-sm text-gray-700\">晚上九点后广场人少，把相机放在喷泉沿上（需自备迷你三脚架），用慢门拍摄塔楼的暖色灯光与喷泉水流拉丝效果，天空的深蓝与建筑的金黄形成冷暖对比</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 塔顶风大，建议给镜头加遮光罩并固定背带；禁止使用无人机，广场上空属于自然保护区空域；钟楼内勿用闪光灯，以免惊扰拍钟的松鼠（这里真的有松鼠窝）。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">预算之选</h4>\n                  <p class=\"text-sm text-blue-800\">广场后巷的Pension U Dvora，由一座17世纪谷仓改造，顶楼阁楼房带天窗，早晨阳光直接洒在雕花木床上，老板娘会端来自烤甜面包和热巧克力的早餐</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">Hotel Telč，就坐落在广场南侧那排最著名山墙里，每个房间的窗户都正对塔楼，深夜你躺在床上，能听见钟声穿过厚墙变得闷闷的，像心跳</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-yellow-800\">城外1公里处的Zámek Telč附属客房，由领主城堡的仆役楼改建，房间有壁炉和四柱床，早餐在城堡花园的玻璃温室里吃，抬眼就是山坡上塔楼尖顶的远景</p>\n                </div>\n                <div class=\"bg-purple-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-purple-900 mb-2\">乡村隐居</h4>\n                  <p class=\"text-sm text-purple-800\">东北方向3公里的农庄Apartmány Pod Hradem，是家庭式经营的三栋木屋，周围是油菜花田，清晨从窗户看出去，塔楼在雾中若隐若现，像一幅水墨画</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场上的住宿最方便，但停车需提前向酒店索要通行证（限时免费30分钟超时贴条）；秋天旺季务必提前两个月预订，尤其是带塔楼景观的房间；小镇治安很好，深夜散步也安心，只是石板路有些滑，注意脚下。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">站在泰尔奇城市塔楼顶上，我忽然明白为什么古人要把钟楼盖得这么高——不是为了炫耀，而是为了让每一个在田里劳作、在路上赶车、在灶台前忙碌的人都能听见时间的声音。那钟声不急不慢，把一天切成均匀的段落，也让焦躁的心跟着安定下来。现在的人低头看手机，时间变成一串数字，冷冰冰的；可在这里，时间是有形状的，是铜钟震动的曲线，是影子在拱廊间爬行的速度，是楼梯木板被千万双脚磨出的弧度。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">我总觉得，深度旅行的意义不是打卡更多景点，而是找到一扇能够让自己慢慢停下来看的窗。城市塔楼就是泰尔奇这扇窗的窗台——它不高也不华丽，可你靠在上头，看着下面慢悠悠的生活，闻着烤面包和苔藓的味道，听着孩子们的笑声，就会觉得，这个世界再快，总有一些角落愿意等你。如果你也想在欧洲找一个可以让自己深呼吸的地方，别去那些拥挤的大城，来泰尔奇吧，爬爬这座塔，听听整点的钟声——你会听见，岁月其实一直在温柔地说话。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stramberk-czech-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什特兰贝克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Štramberk</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/znojmo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兹\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兹诺伊莫古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Znojmo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/brno\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布尔诺老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brno</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "stramberk-czech-history",
+          "name": "什特兰贝克",
+          "englishName": "Štramberk"
+        },
+        {
+          "slug": "znojmo",
+          "name": "兹诺伊莫古城",
+          "englishName": "Znojmo"
+        },
+        {
+          "slug": "brno",
+          "name": "布尔诺老城",
+          "englishName": "Brno"
+        }
+      ]
+    }
+  ]
+}

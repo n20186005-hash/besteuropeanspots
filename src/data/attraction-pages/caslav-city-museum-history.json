@@ -1,0 +1,85 @@
+{
+  "slug": "caslav-city-museum-history",
+  "template": "history",
+  "metadata": {
+    "title": "恰斯拉夫历史溯源｜捷克银城的前世今生与胡斯战争遗踪",
+    "description": "探秘捷克银矿古镇恰斯拉夫，走进城市博物馆的胡斯战争档案与哥特建筑遗珍。从13世纪建城到名人足迹，一部中欧小城的400年风云录。点击开启历史人文之旅。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "恰斯拉夫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "恰斯拉夫城市博物馆",
+      "href": "/attractions/caslav-city-museum-history"
+    }
+  ],
+  "hero": {
+    "title": "恰斯拉夫城市博物馆・Čáslav City Museum (Městské muzeum Čáslav)・捷克共和国・恰斯拉夫",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>恰斯拉夫（Čáslav）</strong>，一座被捷克人称作“银城”的中世纪古镇，它的名字曾与波希米亚王国的矿藏和宗教改革紧密交织。这里没有布拉格的喧嚣，却藏着捷克历史最隐秘的褶皱——胡斯战争的指挥所、银币铸造的秘辛、以及一位改写捷克音乐的盲人作曲家。抛开游玩攻略，走进恰斯拉夫的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">恰斯拉夫城市博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Čáslav City Museum (Městské muzeum Čáslav)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Čáslav City Museum (Městské muzeum Čáslav)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">恰斯拉夫</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">恰斯拉夫的历史始于 <strong>13世纪中叶</strong>。波希米亚国王普热米斯尔·奥托卡二世下令在拉贝河支流布罗德尼察河畔建立一座皇家城镇，目的很明确：<strong>控制附近的银矿</strong>。这些矿藏为王国铸币提供了源源不断的原料，而恰斯拉夫的名字来源于斯拉夫语“česat”（梳洗），暗指早期居民在此淘洗银砂的营生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地理上，小镇坐落在肥沃的波希米亚平原，扼守一条从布拉格通往东波希米亚的商道。<strong>1268年</strong>的文献首次提及“Caslavia”时，它已拥有城墙、广场和一座罗马式教堂。有趣的是，早期居民不仅采矿，还以<strong>酿酒</strong>闻名——凭借银矿收入，小镇迅速富庶，获得了铸币权和市场特权。不过，真正让恰斯拉夫载入史册的，是它作为 <strong>胡斯运动重镇</strong>的身份。15世纪初，当扬·胡斯在康斯坦茨被处火刑后，恰斯拉夫成为激进派“塔博尔派”的据点，小镇广场上的 <strong>石制讲坛</strong>至今仍在讲述那段信仰与战火交织的岁月。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>🔥 胡斯战争的血与火</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1419年，胡斯战争爆发。恰斯拉夫立刻倒向改革派，成为 <strong>扬·杰式卡</strong>（Jan Žižka）军队的重要补给站。这位独眼指挥官曾在 <strong>1421年</strong> 在此召开“恰斯拉夫议会”，宣布废黜西吉斯蒙德国王，推举激进纲领。广场上的 <strong>哥特式钟楼</strong> 曾悬挂警报钟，用于召集民兵。一段城墙至今保留着弹孔——那是 <strong>1424年</strong> 皇家军队围攻时留下的伤痕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>💎 银币宝藏与衰落</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">16世纪，银矿产量锐减，恰斯拉夫开始转型。1570年代，城中造币厂铸造了最后一批“恰斯拉夫格罗申”，之后矿井陆续关闭。但博物馆内珍藏的 <strong>“恰斯拉夫银币宝藏”</strong>（1840年出土的300多枚17世纪银币）见证了旧日辉煌。更令人唏嘘的是 <strong>1639年</strong>的瑞典军队洗劫：三十年战争期间，瑞典人占据城镇数月，劫掠教堂、熔毁圣器，人口锐减三分之一。战后重建中，市民们不得不拆除部分城墙来填补财政窟窿。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>🏛️ 博物馆的前世今生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆建筑本身即为 <strong>哥特-文艺复兴风格</strong>的珍品。最初是 <strong>1596年</strong> 建造的市政厅，底层设有啤酒法庭和盐仓，顶层用于议会开会。1928年，当地历史学家 <strong>Josef Šulc</strong> 说服市政厅将闲置房间改为博物馆，重点收藏中世纪的武器、钱币和手稿。二战期间，纳粹曾将此处用作档案库，所幸馆藏的胡斯时代文物未遭破坏。如今，步入 <strong>拱形石厅</strong>，仍能嗅到16世纪啤酒和火药混合的味道。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>🎼 贝德里赫·斯美塔那：最后的隐居岁月</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">捷克音乐之父 <strong>贝德里赫·斯美塔那</strong>（Bedřich Smetana，1824-1884）的晚年与恰斯拉夫紧紧相连。1874年，他因梅毒导致完全失聪，被迫离开布拉格歌剧院。1875年，他在朋友劝说下搬到恰斯拉夫 <strong>拉多瓦街13号</strong>的一幢两层小楼，寻求乡村的宁静。正是在这里，他完成了最后两部杰作——歌剧《吻》与交响诗《我的祖国》的 <strong>最终修订版</strong>。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我坐在这扇窗前，听着自己内心的声音。溪流、森林、还有山谷的回声，都在我的脑中演奏。没有耳朵，反而听得更清晰了。”——斯美塔那致友人的信（1876年）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">失聪的作曲家每日由仆人搀扶去 <strong>圣彼得与保罗教堂</strong>听管风琴（他声称“手指能感知震动的旋律”），并在 <strong>广场咖啡馆</strong>与当地人下棋。1880年，他离开恰斯拉夫去布拉格参加《我的祖国》首演，从此再未回来。如今，他的故居已成为博物馆分馆，陈列着他的钢琴、助听器以及最后一张乐谱手稿（《捷克舞曲集》）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>📜 扬·科拉尔：斯拉夫复兴的播种者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位与恰斯拉夫渊源深厚的是 <strong>扬·科拉尔</strong>（Ján Kollár，1793-1852），斯洛伐克裔诗人、哲学家、斯拉夫民族复兴领袖。1828-1835年，他在恰斯拉夫担任 <strong>福音派牧师</strong>，并在这里完成了其代表作 <strong>《斯拉瓦之女》</strong>（Slávy dcera）的第四版——这部诗歌将斯拉夫民族的苦难与复兴意志浓缩成150首十四行诗，影响了整个19世纪东欧的民族觉醒。博物馆的 <strong>科拉尔展厅</strong> 保存了他用拉丁文和捷克文写就的布道手稿，以及一面 <strong>斯拉夫联合旗帜</strong>（由他亲自设计，红白蓝三色后来成为捷克国旗的雏形）。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>🎭 午夜的石匠</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地流传着一个关于 <strong>“银矿石匠”</strong> 的鬼魂传说：17世纪某年，一位名叫 <strong>马泰伊</strong> 的石匠受命为造币厂雕刻模具。他悄悄复制了一副银币模具，准备偷铸假币。不料妻子向神父告密，马泰伊被判处石刑——就埋在造币厂的地下室墙壁里。此后每逢 <strong>满月的午夜</strong>，博物馆周边的石板路上便会传来“叮当”的凿石声。老一辈的说，那是马泰伊在墙壁里继续敲打他的假币模具，而真正的银币会从石板缝里长出 <strong>银色野花</strong>（当地人叫“钱花”，学名银莲花）。至今博物馆导览在静夜安防时仍会避开地下室东墙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>🏰 塔楼上的盲眼乌鸦</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于广场 <strong>哥特式钟楼</strong>（高62米），老居民相信上面住着一只 <strong>盲眼乌鸦</strong>。传说胡斯战争期间，一名重伤的塔博尔派信使在临终前将一封密信塞进钟楼墙缝，誓言“祖国复兴之日，乌鸦将复明”。信的内容从未被找到，但每年 <strong>复活节黎明</strong>，钟楼会传出三声不寻常的钟鸣——有人说是那只盲乌鸦用喙啄响的。1938年，捷克斯洛伐克共和国面临危机时，钟声连续响了七天，当地人坚信这是乌鸦在寻找那封失传的信。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">恰斯拉夫这座仅有万人小镇，却浓缩了波希米亚王国从矿业到信仰变革的完整切片。<strong>博物馆</strong>不仅是收藏展柜，更是 <strong>穿越时空的入口</strong>：胡斯战争的血性、斯美塔那失聪后的音乐宇宙、以及银币铸造工艺的无声诉说。读懂它，你就理解了中欧小城镇如何以静默的姿态，扛起民族历史的重量。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/masarykova-vyhlidka-trebic\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马萨里克观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Masarykova vyhlídka</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/koprivnice-tatra-technical-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科普日夫尼采太脱拉技术博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kopřivnice Tatra Technical Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/devicky-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杰维奇基城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Děvičky Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "masarykova-vyhlidka-trebic",
+          "name": "马萨里克观景台",
+          "englishName": "Masarykova vyhlídka"
+        },
+        {
+          "slug": "koprivnice-tatra-technical-museum",
+          "name": "科普日夫尼采太脱拉技术博物馆",
+          "englishName": "Kopřivnice Tatra Technical Museum"
+        },
+        {
+          "slug": "devicky-castle",
+          "name": "杰维奇基城堡",
+          "englishName": "Děvičky Castle"
+        }
+      ]
+    }
+  ]
+}

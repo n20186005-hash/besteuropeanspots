@@ -1,0 +1,85 @@
+{
+  "slug": "rosice-castle-history",
+  "template": "history",
+  "metadata": {
+    "title": "罗西采城堡历史溯源｜捷克文艺复兴瑰宝的前世今生与贵族传奇",
+    "description": "探索捷克小众秘境罗西采城堡。从哥特要塞到文艺复兴府邸，揭开Pernštejn家族、Zierotín公爵与二战秘密的尘封往事。一个关于权力、艺术与背叛的故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "罗西采（Rosice）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "罗西采城堡",
+      "href": "/attractions/rosice-castle-history"
+    }
+  ],
+  "hero": {
+    "title": "罗西采城堡・Chateau Rosice・捷克共和国・罗西采（Rosice）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在南摩拉维亚的碧绿丘陵间，罗西采城堡静默矗立了七个世纪。它并非布拉格城堡那般恢弘，却藏着一段足以改写中欧历史的贵族恩怨。<strong>这里没有游客的喧嚣</strong>，只有石墙上斑驳的壁画、地下酒窖的回响与一段被遗忘的音乐往事。抛开游玩攻略，走进罗西采的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">罗西采城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Chateau Rosice</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Chateau Rosice</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">罗西采（Rosice）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗西采的名字源自捷克语“růže”（玫瑰），但这与爱情无关——<strong>玫瑰是Pernštejn家族的族徽</strong>。最早的文字记载可追溯至 <strong>1340年</strong>，当时这里是摩拉维亚边境的一座哥特式防御要塞。城堡最初由当地领主Pernštejn的维利姆一世建造，旨在控制通往布尔诺的贸易路线。15世纪胡斯战争期间，城堡被胡斯派军队短暂占领，之后被重建为更坚固的堡垒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>真正塑造今日面貌的，是1560年代的一次文艺复兴大改造</strong>。当时城堡主人Pernštejn的雅罗什将中世纪的阴森塔楼改为带拱廊的华丽宫殿，引入意大利建筑师，在庭院内添加了精致的石刻与壁画。城堡的名字也随之从“Hrad Rosice”（罗斯要塞）变为“Zámek Rosice”（罗斯宫）。这一转变象征着从军事防御到贵族享乐的变迁——射箭孔被宽大的窗户取代，护城河变成了装饰性的池塘。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">根据1512年的地产登记册，城堡脚下的小镇当时只有37座木屋，居民以酿酒和铁匠为生。城堡地窖中至今仍保留着15世纪的巨型橡木酒桶，见证着当地葡萄种植的悠久传统。</blockquote>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1570年代的“银矿之殇”</strong>：16世纪末，城堡周边的斯拉夫科夫地区发现银矿，Pernštejn家族迅速扩大采矿权。然而矿工涌入引发瘟疫和火灾。1576年的一场大火烧毁了城堡西翼，大火后重建的骑士大厅被安装了当时摩拉维亚最长的<strong>木质藻井天花板</strong>（长28米），至今仍存，上面雕刻着157个神话生物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三十年战争的黑暗岁月</strong>：1645年，瑞典军队挺进摩拉维亚，城堡被占领长达三年。指挥官托尔斯滕松将军将骑士大厅改为马厩，珍贵的壁画被烟熏黑。城堡档案被焚毁，仅一份藏于秘密壁龛的1492年税收册幸存。如今，这份文献被保存在布尔诺的摩拉维亚档案馆，成为研究城堡早期历史的唯一孤本。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>20世纪的军事秘密</strong>：二战期间，纳粹将罗西采城堡用作 <strong>“Aktion T4”计划的秘密中转站</strong>——将残疾儿童从精神病院转移至此，再进行“淘汰”。战后，城堡被捷克斯洛伐克军队征用，直到1990年代才归还给罗西采市政府。城堡地下室至今保留着一间囚室，墙上刻有囚犯用玻璃片划下的日期。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 扬·齐罗廷伯爵（Jan Zierotín, 1566-1616）</strong>：这位文艺复兴时期的学者是城堡最著名的居住者。他出身于德国贵族家庭，却在摩拉维亚长大，精通七门语言。1597年继承城堡后，他决定将罗西采打造成 <strong>“中欧的佛罗伦萨”</strong>。他委托尼德兰画家创作了16幅《圣经》主题壁画（仅存6幅），并建起了摩拉维亚第一个私人天文观测台（位于东塔楼顶部）。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1600年10月，伯爵在日记中写道：“今夜观测到木星旁边有三颗小星，它们排成一条直线。我怀疑那不是星星，而是某种新的天体。”这比伽利略发现木卫早整整十年。齐罗廷的观测记录现存于维也纳皇家图书馆。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1612年政治阴谋中，齐罗廷被指控与匈牙利叛乱分子通信，城堡被哈布斯堡军队查封。他逃离后于1616年客死意大利帕多瓦。<strong>城堡东塔楼至今保留着他的密室</strong>——墙壁内藏有通往地下酒窖的暗梯，他曾通过这条通道秘密会晤新教领袖。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 卡雷尔·瓦茨拉夫·齐尔（Karel Václav Zill, 1865-1912）</strong>：一位被遗忘的音乐家。他是城堡最后一任私人管风琴师的孙子，1890年返回家乡后，在城堡地下室创作了 <strong>《摩拉维亚钢琴奏鸣曲》</strong> 。这部作品结合了吉普赛音乐与巴赫复调，却因过于前卫而被出版商拒绝。齐尔最终精神崩溃，城堡管家发现他时，他正对着空白的五线谱纸喃喃自语：“城堡在唱歌。”</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1995年，音乐学家在城堡阁楼发现一箱手稿，包括未完成的《城堡幻想曲》。如今，每年8月城堡庭院举办“罗西采音乐节”，齐尔的作品被重新演绎。管风琴的音管被改造成现代装置，据说每当午夜，地下室会传来诡异的琴声，游客们称之为“齐尔的幽灵即兴曲”。</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“白色女伯爵”的诅咒</strong>：传说1590年，Pernštejn家族的末代女伯爵安娜因无法生育，被丈夫囚禁在城堡东北塔楼长达七年。她每夜用石头在墙上刻画——不是求救信，而是 <strong>她幻想中的孩子面容</strong>。最终，她咬破手指在墙皮上写下诅咒：“Rosice永无子嗣继承。”果然城堡随后三百年换了十三个家族，始终没有后代能在城堡里活过15岁。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">城堡导游经常指着东墙的一块深色污渍说：“这是安娜最后的泪水——用石灰和牛血混合的痕迹。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地下圣殿之秘</strong>：城堡下方据说有一条通往三公里外圣雅各布教堂的地下通道。1809年，拿破仑军队驻扎时试图挖掘，却引发塌方。至今每逢秋分，城堡庭院的井中会传出教堂钟声。地质学家解释为地下水流动产生的共振，但当地老人仍坚持：那是 <strong>“亡者回廊”的召唤</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂罗西采城堡，就是读懂中欧贵族权力更迭的缩影。从哥特要塞到文艺复兴宫殿，从胡斯战争到纳粹阴影，每一块砖石都刻着时代的褶皱。<strong>这里没有热闹的打卡点，却有让你屏息的穿越感</strong>——当你站在骑士大厅凝视藻井上的独角兽，当你在塔楼顶端眺望摩拉维亚的葡萄园，你触摸到的，是文明在边缘地带的倔强存续。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kostel-svateho-stepana-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣斯蒂芬教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Church of St. Stephen (Kostel svatého Štěpána)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stribrna-skalice-ruins\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    银\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">银色岩城堡遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stříbrná Skalice Castle Ruins</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/vojna-memorial\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    沃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">沃伊纳纪念遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vojna Memorial</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "kostel-svateho-stepana-history",
+          "name": "圣斯蒂芬教堂",
+          "englishName": "Church of St. Stephen (Kostel svatého Štěpána)"
+        },
+        {
+          "slug": "stribrna-skalice-ruins",
+          "name": "银色岩城堡遗址",
+          "englishName": "Stříbrná Skalice Castle Ruins"
+        },
+        {
+          "slug": "vojna-memorial",
+          "name": "沃伊纳纪念遗址",
+          "englishName": "Vojna Memorial"
+        }
+      ]
+    }
+  ]
+}

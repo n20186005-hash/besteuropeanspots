@@ -1,0 +1,85 @@
+{
+  "slug": "prague-historic-centre-history",
+  "template": "history",
+  "metadata": {
+    "title": "布拉格历史溯源｜千年帝都的前世今生与名人传奇与神秘炼金术",
+    "description": "从查理四世的黄金时代到卡夫卡的孤独笔触，布拉格不只是一座城市，而是一本翻开的中世纪史诗。走进哥特尖塔与巴洛克穹顶下的秘密，读懂这座“百塔之城”的千年灵魂。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格历史中心",
+      "href": "/attractions/prague-historic-centre-history"
+    }
+  ],
+  "hero": {
+    "title": "布拉格历史中心・Prague Historic Centre・捷克・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">欧洲的心脏，有一座被伏尔塔瓦河温柔环抱的城市，它被称为“百塔之城”、“黄金之城”，更是一座活着的建筑博物馆。布拉格的历史，是一部捷克民族的悲欢史诗，也是神圣罗马帝国、哈布斯堡王朝与波西米亚王国交织的权力棋盘。抛开游玩攻略，走进布拉格的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">布拉格历史中心</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Prague Historic Centre</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Prague Historic Centre</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布拉格的建城史，始于一条河流与一座城堡。<strong>公元9世纪</strong>，波西米亚的普热米斯尔家族在伏尔塔瓦河左岸的陡峭山崖上筑起 <strong>高堡（Vyšehrad）</strong> ，另一支则在右岸建造了 <strong>布拉格城堡（Prague Castle）</strong>。传说中，李布谢公主曾站在高堡上预言：“我见到一座城市，其荣耀将直达星辰。”这座预言中的城市，便是布拉格。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“布拉格”（Prague）之名源自斯拉夫语 <strong>“práh”</strong> （门槛）。传说布拉格的建立者——克洛克公爵的女儿李布谢——命人在森林中寻找一个正在制作门槛的男子，并在那里建城。门槛既象征大地的入口，也隐喻这座城市是连接东西欧文明的必经之路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>10世纪</strong>，布拉格城堡逐渐成为波西米亚统治者的中心。公元973年，布拉格教区成立，城市正式站上历史舞台。然而真正意义上的都市化始于 <strong>13世纪</strong>，奥托卡二世国王在老城广场旁规划了方正的网格街道，并邀请德意志商人和犹太移民前来定居。<strong>老城广场（Staroměstské náměstí）</strong> 由此成为集市与权力的交汇点，市政厅、泰恩教堂相继拔地而起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了 <strong>14世纪</strong>，查理四世将布拉格提升为神圣罗马帝国的帝都。他不仅扩建了城堡区，还下令修建 <strong>查理大桥</strong>、新建 <strong>新城（Nové Město）</strong>，并创立了 <strong>查理大学</strong>——中欧第一所大学。从此，布拉格迎来了它的“黄金时代”。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布拉格的每一块石板都浸透着历史的沉重。<strong>1415年</strong>，宗教改革家扬·胡斯在康斯坦茨被火刑处决，消息传回布拉格引发轩然大波。老城广场上，人们聚集抗议，最终导致了长达十五年的 <strong>胡斯战争</strong>。战争使波西米亚陷入分裂，却也催生了捷克民族意识的觉醒。今天，老城广场中央的 <strong>胡斯雕像</strong> 依然矗立，凝视着曾见证血与火的土地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1618年</strong>，一场因宗教冲突引发的“掷出窗外事件”在布拉格城堡发生。愤怒的新教徒将两位天主教官员从城堡窗户扔出，掉入护城河的粪堆中得以幸存。这一事件点燃了 <strong>三十年战争</strong> 的火药桶，整个欧洲陷入长达三十年的浩劫。战争后，哈布斯堡王朝加强了对波西米亚的控制，德语取代捷克语成为官方语言，布拉格的繁荣一度沉寂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1784年</strong>，玛丽亚·特蕾莎女皇将老城、新城、小城与城堡区合并为一个行政单位，布拉格终于成为统一的城市。随后，工业革命让这座城市重新焕发生机。<strong>1848年</strong>，捷克民族复兴运动在这里兴起，斯拉夫大会在老城举行，文学家与语言学家共同推动捷克语的复兴。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1918年</strong>，捷克斯洛伐克共和国成立，布拉格成为首都。城堡区总统府换上红蓝白三色国旗，托马斯·马萨里克就任第一任总统。然而20世纪的极权阴霾同样笼罩着布拉格：<strong>1939年</strong>纳粹占领，<strong>1968年</strong>“布拉格之春”被华约坦克碾碎，<strong>1989年</strong>天鹅绒革命在老城广场的烛光与钟声中和平落幕。每一段历史都在建筑上刻下皱纹——哥特式的尖塔、巴洛克式的穹顶、立体主义风格的建筑外墙，像一本摊开的史书。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 查理四世——帝国的建造者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>查理四世（Karel IV，1316–1378）</strong> 是布拉格历史上最伟大的君主。他出生于布拉格，却在法国宫廷长大，深受巴黎大学与哥特艺术的影响。1346年加冕为波西米亚国王，1355年成为神圣罗马帝国皇帝。他将布拉格视为帝国的珍宝，倾力打造一座“黄金之城”。他主持修建 <strong>查理大桥</strong>，桥头两端的塔楼至今俯瞰着伏尔塔瓦河的流水；他建造 <strong>圣维特大教堂</strong>，那高耸的飞扶壁与玫瑰窗凝聚了中欧哥特建筑的巅峰；他还下令修筑 <strong>新城</strong>，让城市面积扩大两倍，并规划了 <strong>卡尔斯坦因城堡</strong> 作为王冠与圣物的收藏地。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">查理四世曾在自传中写道：“我站在布拉格城堡上，看伏尔塔瓦河蜿蜒如一座银色的腰带，环绕着这座属于我的城市。我发誓要让它的名字与罗马、巴黎并列。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他创办的 <strong>查理大学（1348年）</strong> 是中欧第一所大学，培养了后来的宗教改革家扬·胡斯、天文学家第谷·布拉赫与约翰内斯·开普勒。查理四世不仅用石头建造了一座城，更用知识与信仰为布拉格注入灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 弗朗茨·卡夫卡——文学的孤独幽灵</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>弗朗茨·卡夫卡（Franz Kafka，1883–1924）</strong> 是布拉格最著名的文学之子，却也是一生与这座城市格格不入的“局外人”。他生于老城区的犹太家庭，在德语与捷克语的双重文化中长大。卡夫卡白天在保险公司工作，夜晚在旧城广场旁的阁楼里写作，他的小说充满了迷宫般的官僚机构、荒诞的审判与无边的孤独，而这些灵感正来自布拉格幽暗的街巷与密不透风的城堡。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“布拉格的城堡区就像一只僵卧的巨兽，它的阴影永远落在我的心上。”——卡夫卡</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡夫卡最爱的地点是 <strong>黄金小巷</strong>（Zlatá ulička）22号，一座蓝色的低矮小屋。他曾在那里伏案写下《乡村医生》等短篇。小巷两侧是炼金术士的旧居，那些窄得几乎无法转身的房间，正适合卡夫卡式的压抑感。他还常在 <strong>老城广场的钟楼</strong> 下散步，天文钟的死亡骷髅每整点敲响，提醒世人时间的虚无。1924年，卡夫卡在维也纳附近的疗养院去世，遗体被运回布拉格，安葬于 <strong>新犹太公墓</strong>。如今，他的墓碑是文学朝圣者的必访之地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 安东宁·德沃夏克——波西米亚的旋律</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安东宁·德沃夏克（Antonín Dvořák，1841–1904）</strong> 是捷克民族乐派的灵魂。他出生于布拉格北部的内拉霍泽维斯，但一生的创作都与布拉格紧密相连。他在布拉格风琴学校学习，后在 <strong>布拉格音乐学院</strong> 任教。德沃夏克的《斯拉夫舞曲》、《自新大陆》响彻世界，但他最深沉的爱献给伏尔塔瓦河畔的故乡。他常漫步于查理大桥，聆听伏尔塔瓦河的节奏，这条河流最终化作 <strong>交响诗《伏尔塔瓦河》</strong> 中的悠长旋律。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1890年代，德沃夏克被哈布斯堡宫廷聘为作曲教授，但他拒绝离开布拉格定居维也纳。他曾在 <strong>布拉格城堡</strong> 的西班牙厅指挥自己的作品，国王与贵族们起立鼓掌。今天，布拉格每年举办的“德沃夏克之春”音乐节，让他的旋律依然在教堂穹顶下回荡。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布拉格最著名的传说属于 <strong>天文钟（Orloj）</strong>。<strong>1410年</strong>，钟表匠汉斯制作了这座精美绝伦的机械钟，市政议员担心他造出更完美的对手，竟残忍地剜去了他的双眼。临死前，汉斯摸进钟楼，故意让齿轮错位，天文钟从此停摆数十年。直到后来的工匠修复，但据说每百年仍会准时失灵一次，仿佛在控诉那桩罪恶。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个流传甚广的故事关于 <strong>查理大桥</strong> 的建造。传说查理四世与建筑师帕尔莱日约定：桥的灰浆里必须掺入鸡蛋，才能保证稳固。于是整个波西米亚的农民都向布拉格运送鸡蛋。但有一个小镇的村民听说“要加蛋清”，于是他们煮熟了鸡蛋，送到工地上，惹来一片哄笑。这则轶事在《捷克民间笑话集》中多有记载，也成为查理大桥上游客必听的趣闻。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣婴耶稣像</strong> 的传说同样神秘。1628年，一位西班牙贵族将一尊蜡制的小耶稣像赠予布拉格特鲁瓦城堡的卡尔梅利塔修道院。后来修女们发现，这尊圣像的头发和指甲会自然生长，必须定期修剪。它被称为“布拉格之婴”，至今供奉在 <strong>胜利玛利亚教堂</strong> 里，每年吸引无数信徒前来祈祷。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地老人说：“布拉格是一座被炼金术与神秘主义浸透的城市。国王鲁道夫二世曾将全欧洲的炼金术士召来城堡，命令他们制造点金石。这些术士的失败与阴谋，化作黄金小巷里隐隐的硫磺气味。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂布拉格，就是读一部中欧的微缩历史。哥特塔尖刺破阴云，巴洛克穹顶托起理性的光辉，犹太公墓的石碑叠压着几个世纪的苦难与坚韧。这里诞生过帝国皇帝的雄心，也孕育过荒诞文学的种子；经历过宗教战争的烈火，也见证过非暴力革命的烛光。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在伏尔塔瓦河畔，每一座雕塑、每一枚石块都在低语： <strong>“记住我。”</strong> 而当你走过查理大桥，触摸桥围栏上圣内波穆克雕像的青铜浮雕（据说摸过能带来好运），你已与八百年间的王侯、匠人、诗人与芸芸众生连结。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/manes-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马内斯桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mánes Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kozel-castle-park-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科泽尔城堡公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle park Kozel</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/legion-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    军\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">军团桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Legion Bridge (Most Legií)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "manes-bridge",
+          "name": "马内斯桥",
+          "englishName": "Mánes Bridge"
+        },
+        {
+          "slug": "kozel-castle-park-history",
+          "name": "科泽尔城堡公园",
+          "englishName": "Castle park Kozel"
+        },
+        {
+          "slug": "legion-bridge",
+          "name": "军团桥",
+          "englishName": "Legion Bridge (Most Legií)"
+        }
+      ]
+    }
+  ]
+}

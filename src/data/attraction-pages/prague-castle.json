@@ -1,0 +1,85 @@
+{
+  "slug": "prague-castle",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "布拉格城堡 Prague Castle｜千年帝都的心脏，波西米亚皇冠上的永恒明珠 - 最佳欧洲景点",
+    "description": "我第一次看到布拉格城堡，是在一个深秋的傍晚。阳光斜斜地铺在伏尔塔瓦河上，河面的波光像碎金子一样跳进眼睛里。我站在查理大桥上，抬头望见城堡的轮廓——不是那种生硬的剪影，而是层层叠叠的金色屋顶、尖塔和圆顶，在橙红色的天幕下像一座从童话里长出来的迷宫。风从河面吹来，带着一点点烤栗子的焦香和教堂里燃烛的蜡油"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格城堡",
+      "href": "/attractions/prague-castle"
+    }
+  ],
+  "hero": {
+    "title": "布拉格城堡・Prague Castle・捷克・布拉格",
+    "description": "我第一次看到布拉格城堡，是在一个深秋的傍晚。阳光斜斜地铺在伏尔塔瓦河上，河面的波光像碎金子一样跳进眼睛里。我站在查理大桥上，抬头望见城堡的轮廓——不是那种生硬的剪影，而是层层叠叠的金色屋顶、尖塔和圆顶，在橙红色的天幕下像一座从童话里长出来的迷宫。风从河面吹来，带着一点点烤栗子的焦香和教堂里燃烛的蜡油味。那一刻我突然明白，为什么卡夫卡说这里是他心中“有着千百座尖塔的石头之梦”。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">我第一次看到布拉格城堡，是在一个深秋的傍晚。阳光斜斜地铺在伏尔塔瓦河上，河面的波光像碎金子一样跳进眼睛里。我站在查理大桥上，抬头望见城堡的轮廓——不是那种生硬的剪影，而是层层叠叠的金色屋顶、尖塔和圆顶，在橙红色的天幕下像一座从童话里长出来的迷宫。风从河面吹来，带着一点点烤栗子的焦香和教堂里燃烛的蜡油味。那一刻我突然明白，为什么卡夫卡说这里是他心中“有着千百座尖塔的石头之梦”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的震撼是在踏入城堡大门之后。脚下是鹅卵石铺成的斜坡，被几百年的脚步磨得发亮，每一块石头都像被时光浸透了。穿过第一道宫门，眼前豁然开朗——圣维特大教堂像一头哥特巨兽般蹲在那里，飞扶壁和石雕怪兽从阴影里伸出，你能听见管风琴的低鸣从里面隐隐传来，像大地在哼唱。广场上三三两两的游人，还有穿着制服、举着枪慢悠悠换岗的卫兵，一切都安静得不真实。我站在中央，看着夕阳把窗上的彩色玻璃点燃成火焰，感觉自己的呼吸都变慢了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地人却对这座城堡熟视无睹。他们会在城堡前的长椅上坐着吃三明治，或者推着婴儿车在花园里散步。老人在圣乔治大殿旁边的咖啡店端着瓷杯，谈笑风生。这里的城堡不是供人瞻仰的博物馆，而是他们生活的一部分。一个小学生放学后穿着红白相间的制服跑过广场，鸽子扑棱棱飞起，然后落在你脚边咕咕叫着讨食。这种日常的温暖和历史的厚重交织在一起，才是最打动人的地方。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">布拉格城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Prague Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Prague Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">布拉格城堡是捷克共和国的象征，自9世纪起便是历代波西米亚国王、神圣罗马帝国皇帝以及现代总统的官邸，吉尼斯世界纪录认证为世界上最大的古代城堡。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">融合了罗马式、哥特式、文艺复兴、巴洛克和现代风格，层层叠叠的建筑群在伏尔塔瓦河畔的山丘上绵延展开，每一座塔楼、每一扇窗户都诉说着千年的权力更迭。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">多元混合，以哥特式和巴洛克为主导，圣维特大教堂的尖塔是布拉格天际线最醒目的地标。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">不仅是政治权力的中心，更是捷克民族身份和基督教文化的圣地，内藏大量珍贵的宗教艺术、皇家珍宝和历史文献。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">城堡建筑群全年开放，但内部各景点开放时间不同。主城堡区域（包括圣维特大教堂、旧皇宫、圣乔治大殿、黄金巷）通常从早上9点开放至下午5点（冬季至下午4点），夏季延长至下午6点。花园在4月至10月开放，每天上午10点到下午6点。圣诞节和元旦期间会有调整，建议出发前查询官网。注意：周二某些区域可能关闭或开放时间缩短，尤其是冬季。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">城堡分为大圈票（包含圣维特大教堂、旧皇宫、圣乔治大殿、黄金巷等主要景点）和小圈票（仅含圣维特大教堂、圣乔治大殿和黄金巷）。成人票价大圈约350克朗，小圈约250克朗。学生、儿童（6-16岁）及65岁以上老人享受半价优惠。6岁以下儿童免费。建议提前在官网购票，避免现场排队。另外，城堡花园免费进入，无需门票。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Hradčany, 119 08 Prague 1, Czech Republic</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从布拉格老城广场出发，步行约15-20分钟，沿查理大桥过河后沿着台阶上坡即到。也可以乘坐地铁A线到Malostranská站，出站后步行约10分钟，或乘坐22号、23号有轨电车到Pražský hrad站，下车后步行3分钟。从布拉格机场乘119路巴士到Nádraží Veleslavín站，换乘地铁A线到Malostranská站，总耗时约40分钟。班次密集，白天约5-10分钟一班。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到底从什么时候开始，这座山丘成了权力的心脏？要追溯起来，得回到公元九世纪。那时波西米亚的普热米斯尔王朝在这里建起第一座木质的堡垒，周围是茂密的森林和沼泽。传说中，第一位王公利布莎曾预言，这里会有一座“荣耀直达星空的城市”。而这座城堡，就诞生在那个预言里。之后的几百年里，罗马式的石砌宫殿和教堂陆续出现，直到14世纪，查理四世——这位神圣罗马帝国皇帝，才真正把城堡变成了帝国的中心。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">查理四世是个有远见的人。他不仅把皇帝的金印带回了布拉格，还让法国的建筑师马修·阿拉斯和后来的彼得·帕尔莱日来设计圣维特大教堂。那是一座野心勃勃的哥特式建筑，要在布拉格的天际线上刺穿云层。可惜查理四世没看到它建成——整整六百年后，它才完工。那期间战火、宗教改革、哈布斯堡王朝的统治，一次次打断了工程。你站在大教堂里，看到祈祷室里的彩色玻璃是20世纪才加入的现代主义作品，而壁画和雕像却来自14世纪，这种时空的错位正是这座城堡最迷人的地方。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">16世纪，哈布斯堡的斐迪南一世把城堡改造成了文艺复兴风格，加上了巨大的阳台和意大利式的花园。再后来，玛丽亚·特蕾西亚女皇又在里面塞进巴洛克式的华美装饰，把城堡变成了一个混搭的奇迹。但这里也经历过可怕的时刻——1618年的“抛窗事件”就发生在城堡的旧皇宫里，那场冲突引爆了三十年战争，整个欧洲血流成河。我站在那个窗户前，看着窗外的广场，很难想象当年三个人从这里被扔下去，却奇迹般地掉在粪堆上活了下来。历史有时候比小说还离谱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，城堡被纳粹占领，但反而在某种程度上被保存了下来。战后，共产党政权在这里办公，总统的卫兵换上了灰色的制服。直到1989年天鹅绒革命，瓦茨拉夫·哈维尔——那位戴着墨镜的剧作家总统——才让城堡重新向公众敞开。你会在城堡里找到一座简单的纪念碑，纪念那些为自由献出生命的人。如今城堡的最后一进是总统办公室，每天正午的换岗仪式上，卫兵们穿着笔挺的蓝色制服，步伐整齐得像在跳一场无声的芭蕾。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  建议上午9点开门前就到达城堡。先走大圈票，从圣维特大教堂开始，顺着旧皇宫、圣乔治大殿，最后到黄金巷。整个行程大约需要3-4小时。如果你喜欢慢节奏，可以加上城堡南花园的散步，再在附近的小咖啡馆吃个午餐。中午过后游客会暴增，所以早到是王道。下午光线变暖，正好去查理大桥和伏尔塔瓦河岸拍城堡全景。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>周末和节假日人潮汹涌，尽量选工作日。夏季要带水，城堡内商店价格较贵。穿舒适的平底鞋，斜坡和鹅卵石路很费脚。注意小偷，尤其是挤在圣维特入口处的时候。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">清晨八点半站在城堡广场上，四周几乎空无一人，只有乌鸦在圣维特尖塔上盘旋，你还能听见自己脚步的清脆回响</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">推开圣维特大教堂西侧大门，抬头看那根高耸的肋拱和穆夏设计的彩色玻璃窗，阳光穿过它们投下宝石般的光斑</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">从旧皇宫的弗拉迪斯拉夫大厅走出来，沿着文艺复兴长廊绕到南侧阳台，俯瞰整个布拉格老城和起伏的红屋顶</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">穿过圣乔治大殿，摸一摸那座11世纪的罗马式墙壁，粗糙的砂岩里有海百合化石的痕迹</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">走进黄金巷，弯着腰在那些低矮的小房子里嗅到中世纪炼金术士留下的硫磺味，卡夫卡曾经在22号那间蓝色小房子里写下了《变形记》</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">绕到城堡东面的花园，沿着石阶穿过巴洛克式的露台和喷泉，在最高的观景台上找一张长椅坐着，看着伏尔塔瓦河像一条银色的丝带流过城市</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 7 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">最后回到城堡广场，在售票处旁的纪念品店里买一张手绘的城堡明信片，写完寄给自己</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 圣维特南侧塔楼的观景台</h4>\n                  <p class=\"text-sm text-gray-700\">下午四点左右登上287级台阶，从高处俯摄整个城堡群和布拉格全景，阳光正好把老城区的红屋顶染成金红色</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 城堡西墙外的观景台</h4>\n                  <p class=\"text-sm text-gray-700\">清晨九点前逆光拍摄圣维特尖塔的剪影，利用地面水洼反射可以拍出对称构图</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 黄金巷尽头的小巷里</h4>\n                  <p class=\"text-sm text-gray-700\">傍晚时分用广角镜头仰拍，让两侧高高的墙壁和狭窄的天空形成天然的框架</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 查理大桥老城桥塔</h4>\n                  <p class=\"text-sm text-gray-700\">早晨六点从桥塔上方拍城堡与河面倒影，雾气未散时最有意境</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">5. 城堡南花园的巴洛克喷泉前</h4>\n                  <p class=\"text-sm text-gray-700\">正午时分借助喷泉水珠和阳光制造彩虹效果，让城堡作为背景虚化</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 城堡内部禁止使用三脚架和闪光灯，尤其是大教堂里。拍摄卫兵时不要靠太近，保持礼貌距离。黄金巷内光线昏暗，建议使用大光圈镜头或调高ISO。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">预算之选</h4>\n                  <p class=\"text-sm text-blue-800\">老城区靠近火药塔的背包客栈，价格亲民，顶楼露台可以直接看见城堡夜景，晚上坐在那里喝啤酒聊天超级惬意</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">城堡脚下一条安静小巷里的百年旅馆，房间保留着16世纪的木梁和手绘壁画，推开窗户就是石板路和牵牛花</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-yellow-800\">伏尔塔瓦河畔的四季酒店，从房间里就能望着城堡入睡，早餐可以在阳台上边吃羊角面包边看卫兵换岗</p>\n                </div>\n                <div class=\"bg-purple-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-purple-900 mb-2\">文艺之选</h4>\n                  <p class=\"text-sm text-purple-800\">查理大桥旁的小公寓民宿，房东是当地画家，屋里挂满了她的水彩画，走五分钟就到城堡阶梯</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建议住在城堡山脚下的Malá Strana区或老城区，步行可达城堡。尽量避开火车站附近区域。提前三个月预订可以获得更好的价格。城堡区域的治安很好，但深夜穿过没有路灯的小巷请小心。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">离开布拉格后的很多个晚上，我总会想起城堡顶端那根十字架。它立在那里，镀金的表面在落日里燃烧，下面是无数的屋顶、教堂、桥梁和河流。我突然觉得，这座城堡不仅仅是一座建筑——它是一本活着的书，每一块石头都写着荣耀与废墟、信仰与背叛、孤独与渴望。你读它的时候，它也读你。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">也许我们每个人心里都有一座城堡，藏着不愿示人的挣扎和坚持。当你在那个下午爬上圣维特的塔楼，被风吹得睁不开眼，看到整个世界在脚下铺开的时候，你会明白：所有的旅行最终都是对自己的朝圣。这座城堡是波西米亚的，也是你的。所以，请把这里放在你的清单里吧，然后找一个秋天，带着你的疲惫和期待，来这里坐一会儿。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/telc-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特尔奇广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Telč Square</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/karlovy-vary-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡罗维发利温泉镇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Karlovy Vary</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kuks-hospital-czechia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    库\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">库克堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kuks Hospital</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "telc-square",
+          "name": "特尔奇广场",
+          "englishName": "Telč Square"
+        },
+        {
+          "slug": "karlovy-vary-history",
+          "name": "卡罗维发利温泉镇",
+          "englishName": "Karlovy Vary"
+        },
+        {
+          "slug": "kuks-hospital-czechia",
+          "name": "库克堡",
+          "englishName": "Kuks Hospital"
+        }
+      ]
+    }
+  ]
+}

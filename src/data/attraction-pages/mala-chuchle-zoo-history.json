@@ -1,0 +1,85 @@
+{
+  "slug": "mala-chuchle-zoo-history",
+  "template": "history",
+  "metadata": {
+    "title": "布拉格小胡赫莱动物园历史溯源｜被遗忘的动物乐园与贵族轶事",
+    "description": "探秘捷克最古老私人动物园的百年传奇：贵族收藏、二战劫难、神秘动物传说。抛开游玩攻略，走进胡赫莱山谷的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "小胡赫莱动物园",
+      "href": "/attractions/mala-chuchle-zoo-history"
+    }
+  ],
+  "hero": {
+    "title": "小胡赫莱动物园・Malá Chuchle Zoo・捷克共和国・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在布拉格西南角，伏尔塔瓦河拐弯处的胡赫莱山谷里，藏着一座被时间遗忘的动物乐园——<strong>小胡赫莱动物园</strong>。它曾是捷克最古老的私人动物园之一，由贵族建于19世纪末，见证了捷克斯洛伐克的诞生、纳粹的铁蹄和共产主义的更迭。如今园门紧闭，只剩荒草与铁笼，但那些关于巨蟒、黑豹和古怪伯爵的故事仍在当地人口中流传。抛开游玩攻略，走进胡赫莱山谷的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">小胡赫莱动物园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Malá Chuchle Zoo</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Malá Chuchle Zoo</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“胡赫莱”一词源自捷克语“chuchle”，意为“窸窣声”——传说古时这片森林里总传来树叶的私语，或是精灵的低吟。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小胡赫莱并非一座独立城市，而是布拉格<strong>第五区</strong>的一部分。它的历史可追溯至14世纪，当时这里是波西米亚王室的狩猎场，密林深处藏着鹿、野猪和狼群。19世纪中叶，工业革命浪潮席卷布拉格，胡赫莱山谷因石灰岩储量丰富而成为采石场，一度烟囱林立。然而，真正改变这片土地命运的，是<strong>1885年</strong>一位波西米亚贵族的到来——<strong>卡尔·冯·施瓦岑贝格</strong>侯爵。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">侯爵在胡赫莱购置了大片土地，试图建造一座与维也纳美泉宫动物园相媲美的私人兽苑。他雇佣园艺师和猎人，从非洲、印度和南美捕捉珍禽异兽。<strong>1891年</strong>，动物园正式对外开放，但仅限贵族和受邀宾客参观。园名“Malá Chuchle”并非规模小，而是以地名“小胡赫莱”区分布拉格市区另一座更大的动物园。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地名典故源自16世纪一份地产登记册，上面写着“<strong>Chuchle Zámek</strong>”（胡赫莱城堡），而动物园就建在城堡旧址旁。当地人戏称它为“伯爵的诺亚方舟”。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、世纪之交的动物狂欢</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1890年代的胡赫莱动物园是布拉格社交圈最时髦的聚会地。侯爵从南非运来一雄一雌两头<strong>白犀牛</strong>，从印度弄来两只<strong>孟加拉虎</strong>，还在园中挖了一个人工湖饲养<strong>火烈鸟</strong>。最惹眼的是一只名叫“马塔”的<strong>非洲象</strong>，它每晚都会用鼻子敲击铁栅栏，直到守夜人投喂白兰地浸过的面包。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1902年</strong>，侯爵去世后，动物园由长子<strong>弗里德里希</strong>继承。这位公子哥热衷于登报炫耀动物数量：到1910年，园内已有<strong>47个物种、218只动物</strong>，包括欧洲大陆第一只<strong>科莫多巨蜥</strong>（后来被证实是误认的尼罗鳄）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、战争阴霾下的幸存者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第一次世界大战爆发后，动物园陷入困境。饲料短缺，员工被征召入伍，弗里德里希被迫将大部分动物卖给汉堡和柏林动物园。<strong>1918年</strong>捷克斯洛伐克独立后，动物园收归国有，成为布拉格动物园的分支机构，专门繁殖濒危物种。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">希特勒吞并捷克后，纳粹总部曾短暂征用动物园作为<strong>通讯站</strong>。传说党卫军军官们在园中散步时，一头<strong>黑豹</strong>突然撞破笼门，咬死了两名士兵——德军随后下令射杀所有大型猫科动物。这段历史从未被官方记载，却写在老看守员<strong>约瑟夫·哈维尔</strong>的日记里：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“他们把黑豹尸体拖到焚化炉时，我听见笼子里的卷尾猴在哭。那种悲哀，像母亲失去孩子。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、铁幕下的褪色</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战后，动物园移交布拉格市政，但资金短缺让园区日渐破败。1950年代，一场大雪压垮了猴山顶棚，一只<strong>红毛猩猩</strong>溜进附近农舍，被村民误认为“森林魔鬼”而打死。<strong>1962年</strong>，动物园正式关闭，动物被转移至布拉格主动物园，场地则改作苗圃和二战老兵疗养院。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，只有断壁残垣和锈蚀的铁笼证明这里曾有过兽吼。布拉格市政府曾计划重建为“复古动物园”，但因环保组织抗议而搁置。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、古怪伯爵与他的鹦鹉</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>卡尔·冯·施瓦岑贝格</strong>（1835–1902）不仅是动物园创始人，更是波西米亚奇人。他精通鸟类学，却曾因一只鹦鹉闹出丑闻。据当时《布拉格日报》报道，侯爵饲养了一只<strong>紫蓝金刚鹦鹉</strong>，教会它唱奥地利国歌。某天奥地利皇帝弗朗茨·约瑟夫一世巡视波西米亚，侯爵在宴会上让鹦鹉表演，结果鹦鹉唱完后竟然大喊：“打倒哈布斯堡！”皇帝当场变色，侯爵解释说是饲养员教错了词，才勉强平息。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真相是，侯爵私下同情捷克民族独立运动，故意用鹦鹉发泄不满。这只鹦鹉后来葬在胡赫莱教堂花园，墓碑上刻着：“这里躺着歌唱自由的鸟儿。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、动物学家艾米尔·霍拉克</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>艾米尔·霍拉克</strong>（1901–1969）是二战后唯一常驻胡赫莱的科学家。他本是布拉格大学的动物学讲师，1946年主动申请看守废弃动物园，一住就是23年。霍拉克最著名的成就是<strong>重新发现欧洲水貂</strong>——当时学界认为这种动物已灭绝，他却在一座废弃虎笼里发现了三只逃窜的个体，实为从前动物园余下的北美水貂，但霍拉克坚持是“欧洲近亲”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他每晚点煤油灯写日记，记录野生动物的回归：狐狸在犀牛舍安家，猫头鹰占据孔雀亭，甚至有一头<strong>狍子</strong>学会了用鼻子顶开铁门。霍拉克死于1969年，死前最后一篇日记写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“昨晚我在熊山看到八只萤火虫。园子不再是监狱，它变成了森林的一部分。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地人为他立了一座铁制纪念碑，刻着一只水貂的脚印，就在原孔雀亭遗址旁。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、深夜的象鸣</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">胡赫莱山谷的居民偶尔会在午夜听见低沉的<strong>象鸣</strong>——尽管动物园自1930年起就没有大象了。传说那是老象“马塔”的亡魂在寻找白兰地。每逢暴雨夜，象鸣声尤其清晰，有人甚至见过白色巨影晃过铁笼遗址。当地猎人协会曾试图用声呐仪记录，却只捕捉到风吹废铁管的噪音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、猴子的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1942年纳粹屠杀动物园猛兽后，一颗<strong>卷尾猴的头骨</strong>被丢进山谷溪流。老人们说，那晚之后，溪水变得苦涩，喝了的人会疯狂模仿猴子动作。直到1953年，一位神父在溪边做法事，苦味才消失。如今石头溪床上仍有一块刻着猴脸的石片，据说是头骨化的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、伯爵的镜中语</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">施瓦岑贝格侯爵的肖像画挂在园中废弃的餐厅里。传说如果在月圆之夜凝视画像的眼睛，会听见他低声说出动物笼舍的钥匙位置。曾有考古学家信以为真，半夜打着手电找钥匙，结果掉进枯井摔断了腿。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小胡赫莱动物园是一部浓缩的欧洲微型殖民史、战争伤痕与自然回归的寓言。它的铁笼里曾关着来自三大洲的奇兽，也关着波西米亚贵族的幻想、纳粹的恐惧和理想主义者的坚守。如今草木疯长，藤蔓吞没兽舍，却让这片土地回到了最初的野性状态——正如霍拉克所愿，它不再是囚牢，而是森林。读懂胡赫莱，等于读懂了捷克人对待历史的方式：不刻意抹去，也不修复如初，只是让记忆在绿荫间自然腐朽，生长出新的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prokopova-studanka\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普罗科普泉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prokopova Studánka</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hradistek\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赫拉迪什特克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hradištěk</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/archaica-laser-centre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔卡伊卡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Archaica</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "prokopova-studanka",
+          "name": "普罗科普泉",
+          "englishName": "Prokopova Studánka"
+        },
+        {
+          "slug": "hradistek",
+          "name": "赫拉迪什特克",
+          "englishName": "Hradištěk"
+        },
+        {
+          "slug": "archaica-laser-centre",
+          "name": "阿尔卡伊卡",
+          "englishName": "Archaica"
+        }
+      ]
+    }
+  ]
+}

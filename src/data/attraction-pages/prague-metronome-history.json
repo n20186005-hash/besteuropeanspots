@@ -1,0 +1,65 @@
+{
+  "slug": "prague-metronome-history",
+  "template": "history",
+  "metadata": {
+    "title": "布拉格节拍器历史｜从斯大林纪念碑到后现代符号的前世今生与名人悲歌",
+    "description": "它曾是全球最大斯大林雕像的基座，如今以永恒摆动的节拍器俯瞰布拉格。走进莱特纳公园的尘封往事，听雕塑家自杀的悲歌、后共产主义的符号狂欢，以及当地人关于“地下幽灵”的传说。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格节拍器",
+      "href": "/attractions/prague-metronome-history"
+    }
+  ],
+  "hero": {
+    "title": "布拉格节拍器・Prague Metronome・捷克共和国・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>这里曾是世界上最大的斯大林雕像</strong>——十五米高的独裁者头像，在1962年被炸成碎片。如今，一座高悬的节拍器日夜摆动，仿佛布拉格心脏跳动的回声。抛开游玩攻略，走进莱特纳公园的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">布拉格节拍器</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Prague Metronome</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Prague Metronome</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prehrada-jevisovice\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    耶\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">耶维绍维采水库</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Přehrada Jevišovice</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/saints-peter-paul-basilica\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣彼得与圣保罗大教堂（高堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saints Peter & Paul Basilica</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-powder-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    火\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">火药塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Powder Tower</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "prehrada-jevisovice",
+          "name": "耶维绍维采水库",
+          "englishName": "Přehrada Jevišovice"
+        },
+        {
+          "slug": "saints-peter-paul-basilica",
+          "name": "圣彼得与圣保罗大教堂（高堡）",
+          "englishName": "Saints Peter & Paul Basilica"
+        },
+        {
+          "slug": "the-powder-tower",
+          "name": "火药塔",
+          "englishName": "The Powder Tower"
+        }
+      ]
+    }
+  ]
+}

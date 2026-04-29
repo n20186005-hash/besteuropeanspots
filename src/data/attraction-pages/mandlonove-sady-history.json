@@ -1,0 +1,85 @@
+{
+  "slug": "mandlonove-sady-history",
+  "template": "history",
+  "metadata": {
+    "title": "杏仁果园历史溯源｜捷克小众秘境的前世今生与名人传奇",
+    "description": "探访赫拉德茨-克拉洛韦的杏仁果园，从18世纪修道院药园到春日花海。这里曾是植物学家的试验田、诗人的灵感源泉，更有关于杏仁树与爱情的中欧传说。抛开游玩攻略，走近这片粉色云海下的时光印记。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "赫拉德茨-克拉洛韦 (Hradec Králové)",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "杏仁果园 · 曼德罗内果园",
+      "href": "/attractions/mandlonove-sady-history"
+    }
+  ],
+  "hero": {
+    "title": "杏仁果园 · 曼德罗内果园・Mandloňové sady・捷克・赫拉德茨-克拉洛韦 (Hradec Králové)",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在捷克东部，赫拉德茨-克拉洛韦的城郊，藏着一片春天会变成粉色海洋的果园——<strong>Mandloňové sady</strong>。它不是普罗旺斯的薰衣草田，也不是托斯卡纳的橄榄园，却拥有独特的<strong>杏仁文化基因</strong>。三百年前，修士们在此种下第一棵杏仁树，为的是炼制圣油与治愈草药。如今，每年四月，五万株杏树同时绽放，空气中弥漫着微苦的甜香。抛开游玩攻略，走进这片果园的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">杏仁果园 · 曼德罗内果园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Mandloňové sady</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Mandloňové sady</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">赫拉德茨-克拉洛韦 (Hradec Králové)</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">赫拉德茨-克拉洛韦的建城史可追溯至<strong>1225年</strong>，波希米亚国王普热米斯尔·奥塔卡一世在此建立皇家城堡。但杏仁果园所在的白垩丘陵区（Bělá）直到<strong>18世纪初</strong>才被纳入城市版图。彼时，<strong>方济各会修士</strong>（Order of Friars Minor）从法国引入苦杏仁树，认为其果实能提炼“圣油”，用于教堂弥撒与治疗皮肤病。地理学家记载，这片土地原本是<strong>冰碛土质</strong>，不适合谷物生长，却意外成为蔷薇科植物的天堂。修士们将果园命名为<strong>“曼德罗内”</strong>（捷克语 mandloň 即杏树），并修建了简单的灌溉水渠与石砌围墙。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1753年，一位匿名修士在修道院日志中写道：“杏花落满小径时，连圣像都染上了香气。我们相信，这是上帝应许之地的标记。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪初，土地改革后，果园被当地贵族<strong>金斯基伯爵</strong>（Kinsky）购得，改造成一座<strong>英伦风格景观园</strong>，并引入食用甜杏仁品种。从此，果园不再仅仅是药园，更成为市民春游的胜地。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一块：拿破仑战争的避难所（1805-1813）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1805年奥斯特里茨战役后，溃败的俄奥联军曾在此地短暂驻扎。果园的石墙成了临时营地，士兵们砍伐部分杏树充当柴火。但奇迹的是，翌年春天，被砍的树桩旁竟长出<strong>新芽</strong>。当地居民认为这是“凤凰木”的征兆，于是自发补种。至今果园最古老的树——编号<strong>001号</strong>的“皇帝杏树”，据说就是那场灾难后幸存的后代。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二块：共产主义时期的“秘密试验田”（1950-1989）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战结束后，果园被收归国有，归属<strong>捷克科学院植物研究所</strong>。这里成了东欧唯一的<strong>杏仁杂交育种基地</strong>。科学家们试图培育出能在中欧严寒中结果的高产杏树。最著名的成果是<strong>“克拉洛韦一号”</strong>品种——果仁含油量高达45%，曾用于生产军需润滑剂。果园外围甚至拉起了铁丝网，普通人只能在每年四月最后一周的“开放日”进入。一位退休研究员回忆，他们曾用<strong>X射线照射种子</strong>，试图引起变异，但没有成功。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三块：天鹅绒革命后的重生（1990-2010）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1989年后，果园归还给赫拉德茨-克拉洛韦市政府。经过十年荒废，一群当地植物爱好者自发组成<strong>“杏仁救赎协会”</strong>，从意大利和土耳其引回原始品种，并修葺了破损的条石步道。2004年，捷克共和国加入欧盟后，果园被列为<strong>国家文化遗产名录</strong>中的“历史果园”，并恢复了每年春天的<strong>杏仁花节</strong>（Mandloňový kvet）。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第1位：植物学家——约瑟夫·博伊姆（Josef Boj, 1792-1861）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博伊姆生于赫拉德茨-克拉洛韦，是奥匈帝国时期杰出的<strong>果树学家</strong>。他一生贡献在于系统整理了波希米亚地区的蔷薇科植物，尤其对杏仁的<strong>物候学</strong>研究影响深远。1822年，他在果园内建立了第一个<strong>气象观测站</strong>，记录每日气温与杏树开花日期。他曾写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“杏仁是波希米亚气候的晴雨表。当杏花连续三年在4月10日前绽放，便预示着一个温暖年代的到来。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博伊姆还发明了一种<strong>嫁接方法</strong>，将苦杏仁树与本地野生李子结合，培育出抗寒品种，至今仍是中欧果农的保留技术。果园入口处的<strong>铜制胸像</strong>正是他——手捧一枝杏花，目光望向远方。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第2位：诗人与剧作家——因德日赫·什捷潘纳（Jindřich Štěpánek, 1889-1950）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">什捷潘纳是20世纪初捷克<strong>意象派诗人</strong>，曾旅居巴黎，晚年归隐故乡赫拉德茨-克拉洛韦。他经常清晨走进果园，在石凳上写诗。1944年，他在果园灵感下完成了代表作《<strong>杏树下的七个夜晚</strong>》（Sedm večerů pod mandloní）。诗中写道：</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“花瓣落在书页上，像未写完的信；风把苦味送进骨髓，我才想起故乡的墓碑。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后，他因拒绝加入捷克作协而被封杀，晚年穷困潦倒。他去世后，当地人在他常坐的石凳旁立了一块<strong>铁艺铭牌</strong>，上面刻着那句诗。现在，诗人节（每年六月）的朗诵会在果园中心草坪举行。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第3位：传奇女园丁——安娜·克尔日佐娃（Anna Křížová, 1911-2005）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">安娜是<strong>最后一位</strong>掌握古法杏仁油提炼的匠人。她继承了家族四代的技艺，在果园深处的小作坊里，用<strong>石磨</strong>冷榨杏仁，制成护肤霜和烹饪油。1950年代果园被封锁后，她曾偷偷剪下枝条，嫁接到自家后院，保留了五个稀有品种。1989年后，90岁的她重新公开配方，并教会了十几名年轻学徒。她的故事被捷克电视台拍成纪录片《<strong>最后的石磨声</strong>》。如今，果园纪念品商店里出售的杏仁油，瓶子标签上仍印着她的头像。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地流传着一则关于<strong>“守城杏树”</strong>的传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">17世纪中期，瑞典军队围攻赫拉德茨，久攻不下。军队统帅奥斯滕斯托克男爵愤怒下令放火烧城。火势蔓延至果园时，突然一阵狂风将火舌折回瑞典军营，士兵死伤无数。传说当时果园中心<strong>最老的那棵杏树</strong>突然流出<strong>乳白色汁液</strong>，汇聚成溪流，浇灭了围墙附近的火苗。自此，杏树被视为<strong>城市守护神</strong>的化身。当地人相信，如果谁在杏花全开时第一个摘下五瓣完整的花送到恋人手中，这段姻缘便会坚不可摧。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">古老民谣唱道：“白垩土上的新娘，三月春风为你梳妆；杏花落在马背上，把城池守护到天亮。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，每年花季仍有许多情侣在树下许愿，并把写有誓言的纸条用红丝带系在树枝上。这一习俗被称为<strong>“杏花誓言”</strong>（Mandloňová přísaha），已成为赫拉德茨-克拉洛韦的非物质文化遗产。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂杏仁果园，就读懂了赫拉德茨-克拉洛韦的城市灵魂。它从修士的药园，到战时的避难所，再到科学家的试验田，最后回归为市民的春日花园——每一段历史都深藏在年轮与花瓣之中。<strong>杏仁不是柑橘，却在中欧的寒地上倔强绽放</strong>，正如这座小城在多次风波中始终不折的坚韧。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你想亲自站在百年杏树下，感受花粉掠过面庞的瞬间，并了解最佳交通、门票信息及花期内活动，👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prostejov-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普罗斯捷约夫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prostějov</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pouzdranska-step\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普兹德然斯卡草原</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pouzdřanská step</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/krasny-dvur-chateau-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克拉斯尼·德沃尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Krásný Dvůr Chateau</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "prostejov-history",
+          "name": "普罗斯捷约夫",
+          "englishName": "Prostějov"
+        },
+        {
+          "slug": "pouzdranska-step",
+          "name": "普兹德然斯卡草原",
+          "englishName": "Pouzdřanská step"
+        },
+        {
+          "slug": "krasny-dvur-chateau-history",
+          "name": "克拉斯尼·德沃尔城堡",
+          "englishName": "Krásný Dvůr Chateau"
+        }
+      ]
+    }
+  ]
+}

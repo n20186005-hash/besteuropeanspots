@@ -1,0 +1,85 @@
+{
+  "slug": "musee-des-arts-et-metiers-history",
+  "template": "history",
+  "metadata": {
+    "title": "巴黎工艺与技术博物馆历史溯源｜法国技术革新的百年圣殿与发明家的秘密角落",
+    "description": "探秘巴黎最古老的技术博物馆：圣马丁修道院如何变身发明殿堂？从傅科摆到第一台蒸汽机，走进工匠与天才的传奇世界。抛开攻略，触摸工业文明的脉动。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "巴黎",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "巴黎工艺与技术博物馆",
+      "href": "/attractions/musee-des-arts-et-metiers-history"
+    }
+  ],
+  "hero": {
+    "title": "巴黎工艺与技术博物馆・Musée des Arts et Métiers・法国・巴黎",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1794年</strong>，法国大革命刚刚平息，国民公会决定将巴黎第三区的圣马丁修道院改建成一座“技术宝库”——收藏所有能推动工业进步的工具与机器。这座博物馆便是今天的<strong>巴黎工艺与技术博物馆</strong>。两百多年来，它不仅是法国工程师的摇篮，更见证了从手工工场到电气时代的巨变。抛开游玩攻略，走进这座藏有<strong>四万多件</strong>展品的殿堂，聆听齿轮、活塞与钟摆的低语，遇见属于工业文明的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">巴黎工艺与技术博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Musée des Arts et Métiers</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Musée des Arts et Métiers</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">巴黎</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">巴黎，塞纳河上的千年古都。但这座博物馆的故事，要从<strong>12世纪</strong>说起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣马丁修道院</strong>（Prieuré Saint-Martin-des-Champs）始建于<strong>1060年</strong>，最初是本笃会修士的居所。到<strong>13世纪</strong>，它成为巴黎最富有的修道院之一，拥有广阔的葡萄园和磨坊。修士们精通农业与手工艺——他们的磨坊里安装着当时最先进的水轮，谷仓中悬挂着测量时间的沙漏。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1794年</strong>，法国大革命后，教会财产被没收。共和国的技术官员亨利·格雷瓜尔（Henri Grégoire）提议：“必须建立一个专门保存机器、模型和工具的场所，让工匠们能研究并改进它们。”于是，修道院的回廊、教堂和食堂被改建成展厅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字的由来：“Arts et Métiers”直译是“艺术与工艺”。但在18世纪的法国，“艺术”指<strong>实用技术</strong>，而非美术。因此，这座博物馆的初衷是<strong>收集一切能提升生产效率的发明</strong>——从纺织机到钟表，从水力学到蒸汽机。它也是法国国立工艺学院（CNAM）的前身，至今仍是工程师们进修的圣地。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一件展品：伏打电堆与法拉第的发电机</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1800年，亚历山德罗·伏打（Alessandro Volta）在巴黎科学院演示了他的“电堆”——世界上第一个能产生稳定电流的电池。这套装置立刻被收入博物馆，成为<strong>电气时代的起点</strong>。随后，法拉第的圆盘发电机、<strong>1857年</strong>的弧光灯也相继入藏。如今，在博物馆的“能量”展厅，你仍能看到这些泛着铜绿的原始设备。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>傅科摆：证明地球自转的圣物</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1851年</strong>，物理学家莱昂·傅科（Léon Foucault）在博物馆的<strong>圣马丁教堂</strong>穹顶下悬挂了一个28公斤的铅球。钢索长67米。当摆锤开始摆动，其平面每小时旋转11.3度——这是地球自转的直接证据。这个实验震惊世界。如今，原版傅科摆仍悬挂在教堂中央，每天都有参观者屏息凝视它缓慢偏转的方向。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>最古老的蒸汽机：瓦特式旋回引擎</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆收藏着<strong>1779年</strong>制造的瓦特式蒸汽机，这是世界上现存最古老的完整蒸汽机之一。它曾在巴黎郊区的磨坊里工作了近一个世纪，后来被拆解并重新组装在博物馆的“机器”大厅。当你站在它面前，看到巨大的铸铁飞轮和铜制冷凝器，几乎能听见19世纪工厂的轰鸣。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>莱昂·傅科：摆锤与光的叛逆者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">傅科生于<strong>1819年</strong>，原本是医学院的辍学生。他痴迷于光学与机械，曾在<strong>1845年</strong>与菲索合作测量光速。但他最伟大的成就，是那个悬挂在博物馆教堂里的摆锤。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我看过所有天文学家的理论，但我更相信一个摇摆的铅球。” —— 傅科写给友人的信，1851年</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">实验那天，傅科亲自爬上教堂的拱顶，检查钢索与悬挂点的精确度。他让摆锤从北向南开始摆动，然后在摆环下方撒了一层细沙。随着摆动持续，摆锤上的触针在沙面上画出了一条不断偏转的曲线。<strong>12个小时后</strong>，曲线已经旋转了180度。在场的科学院成员集体起立鼓掌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">傅科后来还发明了<strong>陀螺仪</strong>，并发现了“傅科电流”（涡流）。但这座博物馆的傅科摆，至今仍是“地球自转”最诗意的证明。<strong>1968年</strong>，博物馆关闭大修时，摆锤被小心取下。<strong>1990年</strong>重新开放时，它再次被挂回原位，继续它的永恒摆动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>亨利·格雷瓜尔：革命中的技术守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">亨利·格雷瓜尔（1750-1831）是一位天主教神父，却在大革命期间成为共和国的坚定支持者。他曾在国民公会提出“废除奴隶制”的提案（虽然直到1794年才通过）。但他在技术史上最深的印记，是创立了<strong>法国国立工艺学院</strong>和这座博物馆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格雷瓜尔相信：<strong>知识必须世俗化、普及化</strong>。他亲自带队搜罗全国各地的工匠作坊，将每件工具绘制成图，编写说明书。他甚至为博物馆定下一条规矩：“每件展品都必须能演示其工作原理。”这使得博物馆成为<strong>互动式展览的鼻祖</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1894年</strong>，博物馆迎来了第一辆汽车——是由标致兄弟制造的三轮蒸汽汽车。<strong>1909年</strong>，路易·布莱里奥飞越英吉利海峡的飞机也被收入馆藏。博物馆的收藏不断扩大，但格雷瓜尔最初的理念始终未变：<strong>让每一位参观者都能理解并热爱技术与工业</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“幽灵磨坊主”的传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆所在的圣马丁修道院，地下曾有几座磨坊。传说在<strong>中世纪</strong>，有一位名叫吉勒的磨坊主，总在深夜偷懒，将未磨完的麦子藏在地窖。有一天晚上，他在地窖里打盹，忽然听到水轮的轰鸣声越来越响。他惊醒后看到，<strong>水轮自动转动</strong>，磨盘空转，仿佛有一只无形的手在操作。吉勒吓得逃出地窖，第二天便搬到别的城市。从那以后，修道院的修士们常在深夜听到磨坊里传来“空转”的声音，却不敢下去查看。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了<strong>1794年</strong>，博物馆工作人员在改造地下空间时，发现了一座古老的石磨盘——磨盘上刻着“吉勒，1302年”。人们把它移到了“工具”展厅。至今仍有博物馆夜班警卫声称，在闭馆后的地下展厅曾听到<strong>铁链摩擦和木轮转动的声响</strong>，仿佛那位懒惰的磨坊主仍在试图弥补他未完成的工作。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>傅科摆的“神秘偏移”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说在<strong>2005年</strong>的一次夜间维护中，一位工程师发现傅科摆的摆动平面与当天早上的角度差了约0.5度，比理论值大了不少。他检查了所有连接件和悬挂点，未发现异常。但第二天，偏差又恢复正常。有人开玩笑说，是<strong>圣马丁教堂的幽灵们</strong>为这位伟大的物理学家开了个玩笑。至今，博物馆的讲解员仍会在游客问及这一趣闻时，眨眨眼说：“也许，地球的自转速度偶尔也会跟我们开个玩笑。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走进巴黎工艺与技术博物馆，你触摸的不仅是一件件生锈的齿轮和布满灰尘的仪表盘——你触摸的是<strong>人类理性的脊梁</strong>。从伏打堆的电火到傅科摆的信仰，从磨坊主的推磨声到瓦特式蒸汽机的节奏，这座古老的修道院容纳了工业时代最珍贵的记忆。它提醒我们：技术的本质不是冰冷的数据，而是无数工匠、发明家、思想者用创造力点燃的火种。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座城市，也就读懂了欧洲何以从手工作坊跃入工业强林。巴黎的浪漫不仅在塞纳河畔的咖啡馆，更在这座博物馆里，在每一根齿轮的咬合声与每一个摆锤的摆动中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/vezelay-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦兹莱圣玛德琳大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vézelay Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chateau-de-sully-sur-loire-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    叙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">叙利城堡（卢瓦尔河上如漂浮在水面般的宏伟水上护河城古堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Sully-sur-Loire</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sainte-suzanne-mayenne\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣苏珊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sainte-Suzanne</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "vezelay-abbey",
+          "name": "韦兹莱圣玛德琳大教堂",
+          "englishName": "Vézelay Abbey"
+        },
+        {
+          "slug": "chateau-de-sully-sur-loire-history",
+          "name": "叙利城堡（卢瓦尔河上如漂浮在水面般的宏伟水上护河城古堡）",
+          "englishName": "Château de Sully-sur-Loire"
+        },
+        {
+          "slug": "sainte-suzanne-mayenne",
+          "name": "圣苏珊",
+          "englishName": "Sainte-Suzanne"
+        }
+      ]
+    }
+  ]
+}

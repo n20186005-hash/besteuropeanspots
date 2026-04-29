@@ -1,0 +1,85 @@
+{
+  "slug": "prague-meridian-history",
+  "template": "history",
+  "metadata": {
+    "title": "布拉格子午线历史｜第谷·布拉赫与开普勒的时光印迹｜老城广场尘封的天文往事",
+    "description": "布拉格老城广场上不起眼的一条铜线，竟是17世纪天文学家第谷·布拉赫测定正午的基准。探寻这条子午线的起源、与开普勒的关联，以及背后被遗忘的科学博弈。抛开游玩攻略，走进布拉格老城广场的尘封往事，遇见属于它的时光与传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格子午线",
+      "href": "/attractions/prague-meridian-history"
+    }
+  ],
+  "hero": {
+    "title": "布拉格子午线・Prague Meridian・捷克共和国・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在布拉格老城广场游人如织的石板路上，一条不起眼的铜线横贯广场北侧。它被称为布拉格子午线，是17世纪天文学家第谷·布拉赫用以精准测定正午时刻的天文基准。这条线标记着太阳到达最高点的瞬间，也见证了一段天文学与权力交织的宫廷秘史。抛开游玩攻略，走进布拉格老城广场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">布拉格子午线</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Prague Meridian</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Prague Meridian</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>布拉格老城广场的诞生，与13世纪的波希米亚王国息息相关。</strong> 1230年左右，布拉格老城在伏尔塔瓦河右岸逐渐形成，以现在的老城广场为中心，成为商贾云集的集市。广场最初被称为“大广场”，是欧洲中世纪市集规划的典型——宽约70米，长约90米，四周环绕着罗马式与哥特式的建筑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>广场的地面原本是泥土与碎石，直到14世纪查理四世时期才铺设石板。</strong> 但真正赋予广场天文意义的，是16世纪末的鲁道夫二世皇帝。这位迷恋神秘学的君王将布拉格城堡变为欧洲的科学与艺术中心，吸引了无数炼金术士、占星家和天文学家。<strong>老城广场则成为他天文观测的延伸舞台。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>子午线的具体位置，源于1600年前后的一场科学较量。</strong> 当时第谷·布拉赫作为皇家数学家，需要一条绝对精确的南北基准线来校准他庞大的象限仪。他选择了老城广场北侧一处空旷地——这里没有高层建筑遮挡，且正对天文钟钟楼的方向。铜线被嵌入石缝，用铅垂线反复校正。<strong>这条线从此划分了太阳的轨迹，也划分了科学史上的一个时代。</strong></p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一条印记：天文台的户外骨骼</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1600年，第谷·布拉赫在老城广场北侧的民居中建造了临时观测台。子午线并非孤立的装饰，而是他当时使用的“大型赤道环”仪器的一部分。 <strong>每天正午，当太阳经过子午线时，第谷会记录下日晷投影的瞬间，用于修正天体表。</strong> 这条铜线长不过数米，却直接影响了后来开普勒计算行星轨道的基础数据。1601年第谷去世后，开普勒继承了他的观测资料，并在1609年发表《新天文学》，提出椭圆轨道定律。<strong>可以说，老城广场的这条铜线，是开普勒第一定律的隐形助产士。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二条印记：战争与遗忘</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">三十年战争期间（1618-1648），布拉格老城广场沦为战场。铜线被马蹄和炮车碾磨，一度被碎石掩埋。<strong>1650年后，城市重建，铜线重新显露，却不再承担天文功能。</strong> 人们把它当作一种神秘的几何标记，甚至传说谁踩到它就会获得好运。直到20世纪初，捷克天文爱好者协会在修复老城广场时，根据历史档案重新找到了铜线的精确位置，并重新镶嵌了黄铜标线。<strong>如今这条线旁立着一个小铜牌，刻着“Pražský poledník”（布拉格子午线），但多数游客匆匆而过，视而不见。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三条印记：天文钟的隐形搭档</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老城广场的地标是天文钟，但子午线与天文钟有着隐秘的关联。<strong>天文钟的表盘显示的是“旧波希米亚时间”，以日落为起点；而子午线代表的是“格林威治标准时间的前身”——平均太阳时。</strong> 两者相差约15分钟。17世纪的布拉格商人需要协调这两种时间：日常作息看教堂钟声，而天文观测和星历计算则依赖这条子午线。<strong>这种时间上的双重标准，一直延续到1840年铁路时代才被统一。</strong></p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第谷·布拉赫：黄金鼻尖下的精准执念</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第谷·布拉赫（1546-1601）是丹麦贵族，也是欧洲最精密的天文观测者。</strong> 他因为一场决斗失去了鼻梁，后半生戴着黄金与银合金制成的假鼻。1580年代，他建造了当时最先进的乌兰尼堡天文台，但1599年受鲁道夫二世之邀迁居布拉格，成为帝国首席数学家。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>子午线所在的老城广场，正是第谷在布拉格的主要观测基地。</strong> 他选择这里并非偶然：广场北侧紧邻“意大利宫”（当时的外交官住所），他在二楼房间架设了巨大的六分仪和象限仪。每天清晨，助手将仪器对准北极星校准，正午时分，第谷亲自读取子午线位置，精确到弧秒。<strong>这种近乎偏执的作风，使他积累的数据误差小于1角分——在17世纪堪称奇迹。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第谷与子午线之间还有一个极富戏剧性的插曲：</strong> 1600年冬，他为了测出木星与土星合月的精确时刻，在零下20度的广场上连续站了六个小时。由于假鼻被冻裂，他不得不用手捂住鼻梁继续记录。<strong>事后他在日记中写道：“我的鼻子比我的星图更经得起寒冷。”</strong> 几个月后，他因憋尿引发膀胱疾病去世，但临终前将全部观测数据托付给开普勒，嘱咐他完成《鲁道夫星表》。<strong>布拉格子午线，成为第谷留给开普勒的最后一把钥匙。</strong></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我测量了天空，现在我要测量大地。若我的数字无法让后人信服，至少这条铜线会告诉他们，我曾站在这里。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——第谷·布拉赫日志摘记，1601年3月</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约翰内斯·开普勒：站在铜线上仰望宇宙</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>开普勒（1571-1630）是第谷的助手，也是最终推翻圆形轨道教条的人。</strong> 他到达布拉格时一贫如洗，但第谷给了他进入皇家数学家体系的机会。开普勒虽然与第谷在理论上有激烈冲突（第谷支持日心说但拒绝椭圆轨道），但两人在子午线上的合作仍持续到第谷去世。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>开普勒曾多次沿着子午线踱步，思考火星轨道的秘密。</strong> 他在1605年的一封信中写道：“当我沿着那条铜线从北走到南，我仿佛看见火星在黄道带上忽左忽右——它不肯沿着完美的圆运行，它有自己的意志。” 正是这种在子午线旁的物理体验，促使他最终放弃等距点理论，提出行星运行速度与太阳距离成反比的“面积定律”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>开普勒的故事与子午线最直接的关联，发生在1610年。</strong> 他为了验证伽利略的望远镜发现，在广场上架设了自制的折射望远镜。子午线被用来校准望远镜的方位角。那晚他观测到木星的四颗卫星，并确认了它们围绕木星公转。<strong>他激动地在子午线旁刻下“Jupiter Vndique”字样（拉丁语“木星四周”），后来被后人磨去。</strong> 但2014年考古人员在红墙下方发现了残留的刻痕，现在用玻璃罩保护。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>鲁道夫二世：皇帝、炼金术士与隐秘的赞助人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>鲁道夫二世（1552-1612）是一位极富争议的神圣罗马帝国皇帝。</strong> 他厌恶维也纳的政治，将宫廷迁至布拉格，成为神秘学与科学的庇护神。他支付了第谷和开普勒的巨额薪水，建造了布拉格城堡的珍奇屋，收藏了数千件艺术品、化石和天文仪器。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>子午线之所以能出现在广场上，正是鲁道夫的默许。</strong> 当时市民抱怨铜线破坏了石板，但皇帝下令：“谁毁坏它，就砍去他的手。” 他还经常在深夜偷偷来到广场，亲自用子午线观测星座。传说他有一次戴着假面舞会的面具，混在香肠摊贩中间，向开普勒询问火星逆行之谜。<strong>开普勒后来写道：“皇帝披着红色斗篷，像一只患了失眠症的夜莺。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>鲁道夫二世最终被他的弟弟马蒂亚斯逼宫退位，1612年在孤独中死去。</strong> 他的珍奇屋遭洗劫，但老城广场的子午线却因为是“皇帝之物”而被保留——甚至后来的哈布斯堡统治者也未敢动它。<strong>这条线成了鲁道夫精神遗产中唯一留在地面上的印记。</strong></p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>踩中铜线者，必在一年内成为情人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布拉格老城广场的导游们总爱讲一个传说：<strong>如果未婚男女在正午时分踩中布拉格子午线，则必在一年内遇到命中注定的爱人。</strong> 这源自17世纪的一位面包师女儿，她无意中在正午跨过铜线，当天就遇见了一位天文台学徒。学徒用星星的名字向她表白，两人最终结婚。后来当地人相信，子午线不仅划分时间，也连接了灵魂的南北。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>另一个版本与第谷的假鼻有关。</strong> 据说第谷遇刺（实际死于膀胱疾病）后，他的黄金假鼻被埋在子午线正下方，用来“镇住时间的流逝”。几百年来，一些寻宝者曾夜掘铜线，但除了泥土一无所获。<strong>直到1920年，考古学家在铜线下方60厘米处发现一枚16世纪的铜纽扣——并非假鼻，但被当成“第谷的纽扣”供奉在布拉格天文博物馆。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>更神秘的是，每年冬至正午，当太阳恰好越过子午线时，天文钟钟楼会投下一道阴影，正好穿过铜线的中心点。</strong> 据说此时许愿会被第谷的灵魂“记录在星图之中”。这个传统至今仍被少数天文爱好者遵守。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>读懂布拉格子午线，就是读懂文艺复兴时期科学与权力共谋的缩影。</strong> 它并非宏伟的建筑，却比任何大教堂都更真切地标记了人类认知宇宙的刻度。<strong>从第谷的金色假鼻到开普勒的椭圆轨道，从鲁道夫二世的神秘学痴迷到现代游客的匆匆一瞥，这条铜线始终沉默地躺在石缝里，等着有人蹲下身来，触摸它冰凉的历史重量。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>或许下一次路过老城广场，你可以停步，寻找那条从泰恩教堂立面延伸到广场中央的黄铜线。</strong> 正午时分站在上面，闭上眼睛——你所处的位置，正是300年前人类第一次用数学语言画下宇宙草稿的地方。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/thrill-park-prague\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布拉格惊魂公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Thrill Park Prague</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/devicky-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杰维奇基城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Děvičky Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pajrek-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕杰克城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pajrek Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "thrill-park-prague",
+          "name": "布拉格惊魂公园",
+          "englishName": "Thrill Park Prague"
+        },
+        {
+          "slug": "devicky-castle",
+          "name": "杰维奇基城堡",
+          "englishName": "Děvičky Castle"
+        },
+        {
+          "slug": "pajrek-castle",
+          "name": "帕杰克城堡",
+          "englishName": "Pajrek Castle"
+        }
+      ]
+    }
+  ]
+}

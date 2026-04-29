@@ -1,0 +1,85 @@
+{
+  "slug": "municipal-house-history",
+  "template": "history",
+  "metadata": {
+    "title": "布拉格市民会馆历史溯源｜新艺术运动杰作与捷克民族复兴圣地",
+    "description": "新艺术运动巅峰之作，捷克独立宣言的诞生地。斯美塔纳、穆夏在此留下不朽印记。穿过百年时光，聆听这座建筑与民族的共振。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "市民会馆",
+      "href": "/attractions/municipal-house-history"
+    }
+  ],
+  "hero": {
+    "title": "市民会馆・Municipal House (Obecní dům)・捷克・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">它是捷克民族精神的纪念碑，也是新艺术运动最后的华丽篇章。1918年，捷克斯洛伐克独立宣言从这座建筑传出；今天，每一块瓷砖、每一幅壁画仍在诉说一个民族寻找自我的故事。抛开游玩攻略，走进市民会馆的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">市民会馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Municipal House (Obecní dům)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Municipal House (Obecní dům)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">市民会馆的诞生，本身就是一场无声的革命。<strong>20世纪初</strong>，捷克民族意识高涨，在哈布斯堡帝国统治下，布拉格需要一座完全属于捷克人的公共殿堂。原址曾是一座<strong>14世纪</strong>的王室宫殿，后改为兵营，再后来沦为废墟。1903年，一群捷克爱国商人发起募捐，买下土地，决心建造一座“市立之屋”——一座彰显捷克文化、艺术与民主的会馆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的名字<strong>Obecní dům</strong>直译即为“公共之屋”，寓意属于全体市民，而非贵族或教会。设计竞赛中，建筑师<strong>安东尼·巴尔沙内克</strong>和<strong>奥西普·克朗</strong>的方案胜出。他们融合了当时正热的新艺术风格与捷克本土装饰元素，让建筑成为一座民族自豪的宣言。<strong>1905年</strong>奠基，<strong>1912年</strong>竣工开放。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">你或许会疑惑：一座公共建筑为何如此精美？因为它的每一分钱都来自捷克民众的捐款，他们希望它比帝国任何建筑都更耀眼。于是，室内装饰汇集了当时最顶尖的捷克艺术家——<strong>阿尔丰斯·穆夏</strong>、<strong>约瑟夫·苏尔茨</strong>、<strong>卡雷尔·纽曼</strong>……他们用彩绘、马赛克和雕塑，将捷克历史与神话编织进每一面墙壁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是一座从废墟中站起的建筑，也是从屈辱中站起的民族。它的存在本身，就是那句捷克谚语的写照：“<strong>小国也可以拥有伟大的灵魂</strong>。”</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1918年10月28日</strong>——这可能是市民会馆历史上最辉煌的一分钟。下午五点，在二楼的金色厅，<strong>阿洛伊斯·拉辛</strong>和其他民族委员会成员宣布捷克斯洛伐克独立。消息从阳台传向瓦茨拉夫广场，人群沸腾。选举第一任总统<strong>托马斯·马萨里克</strong>的会议也在这里举行。从此，这座建筑成了共和国诞生的圣殿。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但历史不会总停留在高光时刻。<strong>1939年</strong>纳粹占领捷克，市民会馆被德军征用，成为宣传和娱乐场所。捷克人被迫在同一个大厅里聆听侵略者的演讲，壁画上的民族英雄被遮挡。<strong>1945年</strong>布拉格起义期间，建筑外墙留下了弹痕，至今仍被小心保留。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">冷战时期，它再次成为国家仪式的舞台——不过这次是共产党政权。<strong>1989年</strong>天鹅绒革命后，市民会馆迎来了第三次生命。1992年，政府启动大规模修复，力求还原1912年原貌。工匠们从旧照片和碎片中重建了穆夏的壁画，甚至找回了遗失的灯具。<strong>1995年</strong>，市民会馆被列为捷克国家文化古迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些印记不仅留在墙面上，更刻在捷克人的集体记忆中。每年10月28日，独立日的庆典必定从这里的阳台开始。历史没有走远，它只是换了一种方式呼吸。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 贝德里赫·斯美塔纳——音乐厅里的永恒回响</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯美塔纳从未踏进过这座建筑——他于<strong>1884年</strong>去世，比市民会馆早建二十多年。但<strong>斯美塔纳音乐厅</strong>以他命名，且是全城最神圣的演出场所。这位“捷克音乐之父”用交响诗《我的祖国》唤醒了民族自省，而他的作品正是市民会馆灵魂的配乐。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年<strong>“布拉格之春”国际音乐节</strong>的开幕音乐会，都在斯美塔纳音乐厅举行。第一支曲子永远是他的《摩尔多瓦河》。指挥家<strong>拉斐尔·库贝利克</strong>在<strong>1990年</strong>天鹅绒革命后，流亡数十载后重返此处指挥，全场泪流满面。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 阿尔丰斯·穆夏——最后的奢华画笔</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当市民会馆委托穆夏装饰室内时，他已经60岁，早已是巴黎新艺术运动的巨星。他为<strong>市长厅</strong>创作了巨幅壁画《斯拉夫大团结》，描绘了斯拉夫神话中的英雄与寓言。但穆夏更想把全部精力投入《斯拉夫史诗》系列，于是他只画了天花板——那组被誉为“新艺术之巅”的彩绘。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有趣的是，穆夏坚持用<strong>蛋彩</strong>而非油画，让色彩更柔和深邃。他还设计了灯具、家具甚至门把手，确保整体风格统一。<strong>1912年</strong>开幕宴会上，穆夏对朋友说：“这是我献给布拉格最后的爱情。” 此后他专注斯拉夫史诗，直到1939年去世。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 托马斯·马萨里克——阳台上的共和国</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">作为捷克首任总统，马萨里克与市民会馆的羁绊几乎贯穿其政治生涯。<strong>1918年12月22日</strong>，他第一次以总统身份站在市民会馆阳台向民众致意。<strong>1920年</strong>第一次总统选举在此举行，他全票当选。马萨里克喜欢在会馆的“美国酒吧”与知识分子交谈——那是全欧洲最早的美式酒吧之一，至今仍在营业。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这里每一块石头都在提醒我们：自由不是天上掉下来的，是人民自己挣来的。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——摘自马萨里克1928年独立日演讲手稿</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马萨里克晚年常独自坐在斯美塔纳音乐厅听音乐会。1937年去世后，国葬的灵柩曾停放在大厅，超过50万人排队瞻仰。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于市民会馆，流传着一个关于<strong>“金色厅的诅咒”</strong>的故事。金色厅是建筑内最大的舞厅，镀金装饰据说用了20公斤金箔。传说1918年独立宣言宣读后，一位老妇人预言：“只要金色厅的壁画不褪色，捷克民族就不会消亡。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，纳粹军官曾试图用强光照射壁画使其褪色，但涂料是穆夏特制的矿彩，光照后反而更亮。当地人坚信这是神灵护佑。<strong>1989年</strong>天鹅绒革命前夕，维修工人发现其中一幅壁画中，斯拉夫女神的手势悄悄变成了“V”字——胜利之符。没人知道是谁改的，但人们相信这是某种暗示。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个有趣的传闻是：<strong>“美国酒吧”</strong>里藏着一个秘密通道，连接市民会馆地下室与附近的帝国咖啡馆。据说一战期间，情报人员曾利用这条通道传递消息。如今酒吧菜单上还有一款“间谍鸡尾酒”，配方从未公开。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂市民会馆，就是读懂了捷克这个民族的一百多年挣扎与骄傲。它不是一座冰冷的建筑，而是一本用黄金、大理石和音乐写成的日记。在这里，你触摸到的不仅是新艺术运动的曲线，更是民族胸膛里未冷的血。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">历史告诉我们：最坚固的城堡不是石头砌成的，而是记忆铸就的。市民会馆正是这样一座城堡——它见证了一个国家从帝国废墟中站起，经历过铁幕，又重新找回自我。当你站在斯美塔纳音乐厅的穹顶下，聆听《我的祖国》最后一个音符消散时，你就会明白：有些东西，比政治更长久，比战争更坚韧。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/balcarka-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔卡尔卡洞穴</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Balcarka Cave</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/prirodni-pamatka-kominky\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科明基自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Přírodní památka Komínky</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dacice-bohemia-sugar-birthplace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达奇采</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dačice</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "balcarka-cave",
+          "name": "巴尔卡尔卡洞穴",
+          "englishName": "Balcarka Cave"
+        },
+        {
+          "slug": "prirodni-pamatka-kominky",
+          "name": "科明基自然保护区",
+          "englishName": "Přírodní památka Komínky"
+        },
+        {
+          "slug": "dacice-bohemia-sugar-birthplace",
+          "name": "达奇采",
+          "englishName": "Dačice"
+        }
+      ]
+    }
+  ]
+}

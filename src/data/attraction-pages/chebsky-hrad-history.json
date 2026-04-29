@@ -1,0 +1,85 @@
+{
+  "slug": "chebsky-hrad-history",
+  "template": "history",
+  "metadata": {
+    "title": "海布城堡历史溯源｜捷克边境要塞的前世今生与瓦伦斯坦刺杀传奇",
+    "description": "隐藏在波西米亚西部的海布城堡，曾是神圣罗马帝国的军事堡垒，也是三十年战争名将瓦伦斯坦遇刺的历史现场。走进城墙后的血腥往事与建筑秘密。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "海布",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "海布城堡",
+      "href": "/attractions/chebsky-hrad-history"
+    }
+  ],
+  "hero": {
+    "title": "海布城堡・Chebský hrad・捷克・海布",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>海布城堡</strong>是欧洲最古老的罗马式城堡之一，坐落在捷德边境的<strong>海布（Cheb）</strong>老城之上。它不是一座热闹的旅游景点，而是一本用石头写成的权力史。公元12世纪，神圣罗马帝国皇帝在这里竖起塔楼，以威慑东方的波西米亚王国。三个世纪后，帝国最有权势的将军——<strong>瓦伦斯坦</strong>在这里被暗杀，鲜血染红了城堡的地板。抛开游玩攻略，走进海布城堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">海布城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Chebský hrad</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Chebský hrad</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">海布</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">海布城堡的历史与脚下的城市密不可分。<strong>海布</strong>最早的定居点可追溯到<strong>9世纪</strong>的斯拉夫部落，当时这里只是奥赫热河畔的一处隘口。城市的名字“<strong>Cheb</strong>”源于古斯拉夫语中的“<strong>切布</strong>”（Cheb），意为“弯曲的河岸”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的转折发生在<strong>12世纪</strong>。<strong>1135年</strong>，神圣罗马帝国皇帝<strong>洛塔尔三世</strong>下令在河畔高地上修建一座石质要塞，以控制通往纽伦堡和布拉格的商道。这座要塞就是海布城堡的前身。<strong>1167年</strong>，皇帝<strong>腓特烈一世·巴巴罗萨</strong>将城堡扩建为帝国边防重镇，并授予海布城<strong>帝国自由城市</strong>的特权。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡的名字“<strong>Chebský hrad</strong>”在捷克语中直译就是“海布的城堡”，但老居民更喜欢用德语称呼它“<strong>Egerburg</strong>”——因为这座城市在历史上曾长期使用德语名“<strong>埃格尔（Eger）</strong>”。一种鲜为人知的说法是，“埃格尔”源于古高地德语“<strong>Echra</strong>”，意为“尖刺”，暗指城堡塔楼如刺般插入天际的轮廓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1235年</strong>，波西米亚国王<strong>瓦茨拉夫一世</strong>通过与帝国联姻，将海布纳入普热米斯尔王朝版图。城堡从此成为波西米亚王冠领地的一部分，但依旧保留了边境要塞的军事功能。<strong>那座著名的黑色方塔</strong>（Černá věž）正是在这一时期加高的，至今仍高傲地俯瞰着整座城市。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记一：皇帝与教皇的角力场（13世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">海布城堡在<strong>13世纪</strong>中期见证了神圣罗马帝国与教廷之间最激烈的一次冲突。<strong>1247年</strong>，皇帝<strong>腓特烈二世</strong>与教皇英诺森四世公开决裂，城堡被帝国军队用作镇压波西米亚叛乱的指挥中心。<strong>1252年</strong>，教皇宣布对海布城实施<strong>绝罚</strong>（Interdict），长达六个月内禁止城内举行任何宗教仪式。城堡的<strong>罗马式大礼拜堂</strong>（Kaple sv. Martina）内部至今保留着一幅13世纪的壁画残片，画中天使的剑尖指向梵蒂冈方向——这是城堡守军无声的抗议。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记二：三十年战争的血色黄昏（1634年）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">海布城堡最著名的历史时刻发生在<strong>1634年2月25日</strong>。那个寒冷的夜晚，帝国统帅<strong>阿尔布雷希特·冯·瓦伦斯坦</strong>（Albrecht von Wallenstein）被自己的军官刺杀于城堡的<strong>市政厅</strong>（今城堡博物馆）。安魂弥撒之后，城堡的<strong>北塔楼</strong>在雷雨之夜剧烈摇晃，当地老人说那是瓦伦斯坦的幽灵在撞墙。<strong>1898年</strong>，工人在修缮城堡地下室时挖出了一柄带血迹的短剑，剑柄刻有瓦伦斯坦的纹章——如今这件兵器就陈列在城堡的<strong>骑士大厅</strong>里，剑刃上的褐色痕迹至今清晰可见。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记三：拿破仑与铁蹄下的城堡（19世纪初）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1809年</strong>，拿破仑战争期间，海布城堡被法国军队占领，改作<strong>军火库</strong>。为了防止市民暴动，法军在<strong>南护城墙</strong>上架设了八门加农炮。<strong>1813年</strong>，法军撤退时点燃了城堡的谷仓，大火烧了整整三天，罗马式拱廊被熏成焦黑色。直到<strong>1840年</strong>，城堡才由普鲁士建筑师卡尔·弗里德里希·申克尔主持修复，但那些烧痕被刻意保留在廊柱上——如今游客仍能用手指触摸到<strong>1813年的火吻</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇一：皇帝巴巴罗萨与“金鹰之约”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>腓特烈一世·巴巴罗萨</strong>（Friedrich I. Barbarossa）是海布城堡的灵魂人物。<strong>1167年</strong>，这位红胡子皇帝在一次狩猎中坠马昏迷，被附近修道院的修士救活。为了感恩，他下令在城堡的<strong>东塔楼</strong>顶层修建了一间“帝王祈祷室”，室内镶嵌着<strong>金箔制成的双头鹰</strong>——象征着他对东西方帝国的野心。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传<strong>1189年</strong>，巴巴罗萨第三次十字军东征出发前，曾在城堡的<strong>大宴会厅</strong>举办一场盛大的宴会。席间，他当众将一只金鹰酒杯掷向地面，酒杯碎裂成七片，对应他即将征战的七个国家。皇帝宣布：“若我归来，便用这些碎片重铸帝国之冠。” 但巴巴罗萨<strong>1190年</strong>在小亚细亚的萨雷法河溺水身亡，金鹰碎片至今被封存在城堡的<strong>档案室铁箱</strong>里。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“那天夜里，城堡外的奥赫热河突然上涨，河水漫过城墙，冲倒了三座房子。老人说，那是皇帝的哀悼。自那以后，每逢红胡子的忌日，东塔楼的钟就会自己响三声。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——摘自17世纪海布编年史《施泰因豪斯手稿》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇二：瓦伦斯坦——帝国之狐的葬身地</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿尔布雷希特·冯·瓦伦斯坦</strong>（Albrecht von Wallenstein，1583-1634）是三十年战争中最富争议的人物。他是帝国最杰出的统帅，却因密谋独立被皇帝下令铲除。<strong>1634年</strong>初，瓦伦斯坦率军驻扎海布，计划与瑞典军队谈判。皇帝斐迪南二世秘密派遣<strong>爱尔兰雇佣兵</strong>潜入城堡，收买了瓦伦斯坦的部下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2月25日</strong>深夜，瓦伦斯坦正在城堡的<strong>市政官邸</strong>（burggrave's residence）与亲信共进晚餐。宴会中，叛将<strong>沃尔特·巴特勒</strong>（Walter Butler）突然拔出佩剑刺向瓦伦斯坦的胸膛。将军的鲜血喷溅在<strong>壁炉上方的大理石纹章</strong>上，那纹章雕刻着一只护盾上的鹰——瓦伦斯坦的家族徽章。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>令人毛骨悚然的细节</strong>是：刺客们在刺杀后逃离现场，但那块大理石纹章上的血迹无论如何都擦不掉。<strong>1884年</strong>，城堡的历史学家在笔记中写道：“任何试图清洗纹章的尝试都立即导致擦洗布染上血红色，仿佛石头在持续渗血。” 如今，这块纹章被移至城堡的<strong>二楼走廊</strong>，参观者仍能看到暗褐色的污渍——它被称为“<strong>瓦伦斯坦之泪</strong>”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">瓦伦斯坦的遗体被草草埋葬在城堡的庭院中，<strong>230年后</strong>才被移往布拉格的圣维特大教堂。但城堡的守夜人传说，每到<strong>2月25日</strong>半夜，庭院里就会响起沉重的脚步声，还有铁链碰撞的声响——那是将军的鬼魂在寻找他的剑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇三：诗人歌德的情书</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约翰·沃尔夫冈·冯·歌德</strong>（Johann Wolfgang von Goethe）虽然不是土生土长的海布人，但这位德国文豪多次造访海布城堡。<strong>1823年</strong>，74岁的歌德在城堡的<strong>图书馆</strong>里查阅瓦伦斯坦的档案，为他的戏剧《瓦伦斯坦》搜集素材。在城堡的<strong>北角塔</strong>，他爱上了当地一位商人的女儿<strong>乌尔丽克·冯·莱维措</strong>（Ulrike von Levetzow）。尽管两人相差50岁，歌德仍在城堡的窗台上刻下了一首诗的开头：“Zugvögel ziehen über die Burg…”（候鸟飞过城堡…）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1824年</strong>，歌德最后一次离开海布，他在日记里写道：“这座城堡的石头里埋着太多故事，有些故事钻进我的肋骨里，让我喘不过气。” 如今，城堡的<strong>歌德书房</strong>仍按1823年的样子陈列，书桌上摊开放着一本打开的对开本，正是瓦伦斯坦的传记。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>白女士的预言</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">海布城堡最著名的鬼魂是“<strong>白女士</strong>”（Bílá paní）。传说她是<strong>14世纪</strong>一位海布城主的女儿，因为拒绝嫁给帝国伯爵，被父亲关在城堡的<strong>南塔楼</strong>里。她在墙上画了一幅画——画中城堡被火焰吞噬，一群持刀的人跪在庭院中央。<strong>1364年</strong>，她被释放后不久，城堡真的遭遇大火，南塔楼完全坍塌。她的父亲和兄弟在扑救时被倒下的横梁压死，恰好是<strong>八个人</strong>跪在废墟中央。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，白女士的幽灵每七年在城堡的<strong>大门口</strong>出现一次，手持点燃的蜡烛。如果蜡烛的火焰突然熄灭，意味着海布城将在一年内遭遇大灾。最后一次有记录的“白女士现身”是在<strong>1937年10月</strong>，一位守夜人报告看见一个穿白衣的女人从护城河上飘过，蜡烛掉进水里。<strong>1938年9月</strong>，慕尼黑协定签署，海布被纳粹德国吞并。如今城堡的管理员说，每年十月第一个满月夜，城堡会特别开放<strong>南塔楼的废墟</strong>给游客参观——因为那是白女士最喜欢的地方。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>石像的低语</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在城堡的<strong>罗马式大门</strong>上方，雕刻着两尊石像：一只狮子和一头野猪。当地传说，这两尊石像在<strong>千年之夜</strong>（每千年最后一天的午夜）会活过来，狮子会问野猪：“今日可有人看见皇帝？” 野猪会回答：“没有，皇帝还在圣墓旁。” 传说如果听到这个对话，就能预言下一届神圣罗马帝国皇帝的名字。但自<strong>1806年</strong>神圣罗马帝国解体后，石像再也没有说过话——也许是因为帝国已不复存在。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">海布城堡不仅是一座石头建筑，它是波西米亚-德意志边境的<strong>伤痕与勋章</strong>。在这里，皇帝与教皇的野心、统帅与叛徒的交锋、文豪与少女的柔情，全都被封存在厚厚的城墙里。当你站在<strong>黑色方塔</strong>顶，俯瞰蜿蜒的奥赫热河，能看到三个世纪的战火在河水中倒流。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座城堡，就是读懂中欧历史中那些<strong>被遗忘的细节</strong>：权力的残酷、信义的脆弱、传说的韧性。它不需要网红滤镜，只需要你静下心，听听墙缝里风声的低语。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/vrtba-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗尔特巴花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vrtba Garden</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/podebrady-spa-town-czechia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波杰布拉迪</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Podebrady</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tabor-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塔博尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tábor</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "vrtba-garden",
+          "name": "弗尔特巴花园",
+          "englishName": "Vrtba Garden"
+        },
+        {
+          "slug": "podebrady-spa-town-czechia",
+          "name": "波杰布拉迪",
+          "englishName": "Podebrady"
+        },
+        {
+          "slug": "tabor-history",
+          "name": "塔博尔",
+          "englishName": "Tábor"
+        }
+      ]
+    }
+  ]
+}

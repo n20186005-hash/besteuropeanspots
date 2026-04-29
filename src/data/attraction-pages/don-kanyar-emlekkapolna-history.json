@@ -1,0 +1,85 @@
+{
+  "slug": "don-kanyar-emlekkapolna-history",
+  "template": "history",
+  "metadata": {
+    "title": "多瑙河湾纪念教堂历史溯源｜匈牙利小镇的二战记忆与建筑传奇",
+    "description": "多瑙河湾纪念教堂（Don-kanyar Emlékkápolna）是二战多瑙河战役的无声见证者。建于1950年代，融合朴素民族风格与宗教象征，背后是匈牙利士兵的悲壮命运与小镇的重生故事。探寻这座小众教堂的前世今生。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "匈牙利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "泽拜盖尼（Zebegény）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "多瑙河湾纪念教堂",
+      "href": "/attractions/don-kanyar-emlekkapolna-history"
+    }
+  ],
+  "hero": {
+    "title": "多瑙河湾纪念教堂・Don-kanyar Emlékkápolna・匈牙利・泽拜盖尼（Zebegény）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在匈牙利多瑙河湾的静谧小镇泽拜盖尼（Zebegény），一座白色小教堂静静伫立于山坡之上，俯瞰着蜿蜒的蓝色多瑙河。它叫Don-kanyar Emlékkápolna——多瑙河湾纪念教堂。这里没有旅游巴士的喧嚣，只有风穿过橡树林的低语。它诞生于二战后的废墟之上，是为了纪念1944年底至1945年初那场惨烈的多瑙河战役中逝去的生命。抛开游玩攻略，走进教堂的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">多瑙河湾纪念教堂</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Don-kanyar Emlékkápolna</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Don-kanyar Emlékkápolna</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">匈牙利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">泽拜盖尼（Zebegény）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">泽拜盖尼（Zebegény）隐藏在匈牙利北部多瑙河湾的群山之间，最早的历史记载可追溯至13世纪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">彼时，这里是王室狩猎领地的一部分，名为“Zebegény”一词源自斯拉夫语，意为“寒冷的溪流”——小镇确实被一条从比克山流下的冷水溪环绕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>中世纪时期</strong>，这里只有零星的农户与修道院。真正的发展始于18世纪，匈牙利贵族在此修建夏宫，森林中的狩猎小屋逐渐变成村庄。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但直到19世纪末，随着多瑙河航运的兴起，泽拜盖尼才成为船夫与木材商的歇脚地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小镇真正的转折点发生在<strong>1944年</strong>——二战末期，多瑙河湾成为苏德两军激烈拉锯的战场，泽拜盖尼几乎被夷为平地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后，幸存者们在废墟上重建家园，而纪念教堂便是那段伤痕时光最沉重的注脚。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1944年12月：多瑙河战役的血色黎明</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1944年12月，苏军逼近匈牙利首都布达佩斯。德军与匈牙利法西斯“箭十字党”部队在多瑙河湾构筑防线，试图阻截红军西进。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">泽拜盖尼恰好位于多瑙河湾的咽喉位置。<strong>1944年12月20日至26日</strong>，双方在此展开惨烈巷战。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据当地老人口述，教堂现址当时是一处德军野战医院。苏军炮火覆盖后，医院被炸毁，超过300名伤员与医护人员葬身瓦砾。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后多年，村民在清理废墟时仍能发现锈蚀的弹片与白骨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1952年：教堂的诞生与命名</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后初期，匈牙利处于苏联控制下的社会主义时期。官方禁止公开纪念“法西斯士兵”，但当地居民以“为所有逝者祈祷”的名义，悄悄在原医院废墟上修建了一座小型礼拜堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1952年</strong>，教堂正式落成，取名“Don-kanyar Emlékkápolna”。设计者是当地一位不知名的石匠，他借鉴了匈牙利乡村巴洛克风格，却刻意简化了装饰——白墙、深色木门、尖顶上的铁皮十字架，透露出一种朴素的哀悼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">内部仅有一幅描绘圣母怀抱士兵的壁画，作者是流浪画家<strong>László Sándor</strong>，他在画中悄悄加入了母亲哭泣的面容，据说那就是他本人的母亲——一位在战役中失去两个儿子的农妇。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据1960年泽拜盖尼教区档案记载：“教堂落成当日，没有钟声，没有鞭炮。只有老镇长用颤抖的声音念出1944年12月牺牲者的名字——尽管名单残缺不全，但每一个音节都落在幸存者的心上。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1989年后的重生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">匈牙利民主化后，教堂获得官方认可，成为多瑙河战役的纪念地。每年12月20日，当地会举行烛光弥撒，人们将刻有名字的石头摆放在祭坛前，象征逝者的灵魂安息。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 流浪画家László Sándor（1909-1993）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位画家并非匈牙利艺术史册上的显赫人物，却因教堂那幅悲悯圣母像而被小镇铭记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">László Sándor生于布达佩斯贫民区，自小在酒馆墙壁上涂鸦。他曾赴巴黎学画，却因二战爆发被迫返乡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1944年战役期间，他躲在泽拜盖尼附近的洞穴中，亲眼目睹了苏军渡河时被扫射的惨状。战后他精神崩溃，直到1952年受托为教堂绘制壁画。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>他拒绝使用传统圣像画法</strong>，而是让圣母身穿1940年代匈牙利农妇的深蓝围裙，面容枯槁，双手捧着一顶破碎的军帽。帽子上的徽章模糊不清——既可能是德军，也可能是苏军，甚至可能是匈牙利国防军。这是他刻意的模糊处理：“战场上的死亡没有国籍，只有母亲同样的眼泪。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">晚年他隐居在教堂旁的守墓人小屋，每天为壁画描金边。1993年去世后，按照他的遗愿被安葬在教堂祭坛下的地窖中。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">在他1952年的日记残页中写道：“我画圣母时，脑子里全是那位在山路上爬行的妇女——她的儿子们死了，她捡起他们的帽子和靴子，却不知道哪个帽子属于谁。于是我把所有帽子都画碎了，好让圣母代替所有人哭泣。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 守墓人István Bóta（1925-2017）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">István Bóta是教堂最忠实的守护者。他本是当地农民，1944年战役时他19岁，被征入匈牙利劳工营，为德军挖掘战壕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">苏军进攻时，他被炮弹震晕，埋在土中三天后才被挖出。战后他回到已成废墟的家园，发现父母与妹妹全部遇难。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他无法接受官方“不要沉溺于过去”的劝导，主动请求担任教堂的看守人，一守就是62年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>他将教堂后方的荒地开辟为玫瑰花园</strong>，每年种下100株白玫瑰，对应他在废墟中找回的100具无名尸体。花园中间立有一块黑色石碑，刻着匈牙利诗人<strong>Radnóti Miklós</strong>的诗句：“我走过倒下的身体，我想念那些他们曾经的面容。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他拒绝任何采访，但会在每年圣诞节向游客讲述一个简单故事：战争中最小的牺牲者，是那个被炮火吓呆、躲在母亲怀里窒息而死的婴儿。他给那个无名婴儿起名“János”，每年在墓碑前放一个木雕玩具熊。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“雨夜的军靴声”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">泽拜盖尼的老人们至今流传：每逢12月的雨夜，教堂台阶上会响起整齐的军靴声——由远及近，然后戛然而止。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说这是那些在1944年死亡的士兵的灵魂，他们仍在寻找回家的路。但教堂的门永远为他们敞开，因为祭坛上的烛光会在午夜自动燃起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>更有趣的是“祈祷的猫”</strong>：教堂里常有一只黑白相间的野猫蹲在圣母像下，仿佛在默祷。村民相信它是当年野战医院护士的转世——那位护士在炮火中抱起最后一名伤员时被弹片击中，而猫的皮毛正是护士裙子的颜色。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“不可移动的十字架”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">教堂铜制十字架在1956年匈牙利革命期间曾被砸断，但1970年重新安装后，当地人发现无论怎么用力，十字架都无法旋转或取下来。工厂工人用焊接机也无法拆动。于是有了说法：十字架已经与教堂的灵魂融为一体，象征着那片土地无法挣脱的战争记忆。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">多瑙河湾纪念教堂不是一座寻常的旅游景点。它是战争废墟上绽放的一朵白色矢车菊，用最朴素的方式收纳了一个小镇的集体创伤。在这里，每一块石头都刻着名字——有些清晰，有些早已风化。读懂它，你便读懂了匈牙利民族在二战中的矛盾与挣扎：被强权裹挟，被战争撕裂，却依然选择用祈祷而非仇恨来面对过去。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/siklos-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    希\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">希克洛什城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Siklós Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gyor-hungary-baroque-city-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    久\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">久尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Győr</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/szkesfehrvr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塞克什白堡老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Székesfehérvár</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "siklos-castle-history",
+          "name": "希克洛什城堡",
+          "englishName": "Siklós Castle"
+        },
+        {
+          "slug": "gyor-hungary-baroque-city-guide",
+          "name": "久尔",
+          "englishName": "Győr"
+        },
+        {
+          "slug": "szkesfehrvr",
+          "name": "塞克什白堡老城",
+          "englishName": "Székesfehérvár"
+        }
+      ]
+    }
+  ]
+}

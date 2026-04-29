@@ -1,0 +1,85 @@
+{
+  "slug": "marselisborg-slotspark-history",
+  "template": "history",
+  "metadata": {
+    "title": "Marselisborg Slotspark 历史溯源｜丹麦王室夏宫公园的百年时光与皇室传奇",
+    "description": "走进奥胡斯马瑟里斯堡城堡公园，探寻丹麦王室夏宫百年历史。二战庇护所、女王玫瑰园、欧洲岳父的家族树，每一处角落都藏着皇室温情与王朝秘辛。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "丹麦",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "奥胡斯",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马瑟里斯堡城堡公园",
+      "href": "/attractions/marselisborg-slotspark-history"
+    }
+  ],
+  "hero": {
+    "title": "马瑟里斯堡城堡公园・Marselisborg Slotspark・丹麦・奥胡斯",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>马瑟里斯堡城堡公园</strong>，丹麦女王玛格丽特二世每年夏天最私密的避暑领地，却又是全丹麦唯一一处免费向公众开放的皇家花园。它不似哥本哈根阿美琳堡那般庄严肃穆，更像一座藏在森林里的乡间别墅，带着北欧特有的恬静与疏离。抛开游玩攻略，走进这座公园的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">马瑟里斯堡城堡公园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Marselisborg Slotspark</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Marselisborg Slotspark</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">丹麦</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">奥胡斯</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座公园的诞生，离不开奥胡斯。<strong>奥胡斯</strong>是丹麦第二大城市，维京时代已是重要港口。19世纪末，丹麦王室开始寻找远离哥本哈根喧嚣的夏季度假地。<strong>1902年</strong>，国王克里斯蒂安九世和皇后亚历山大（英国亚历山德拉公主的姐姐）选中了奥胡斯湾南岸的一片缓坡林地。这里原属于贵族<strong>马瑟里斯家族</strong>的庄园（Marselisborg Gods），地名由此而来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">王室买下土地后，聘请著名建筑师<strong>哈克·坎普曼</strong>设计了一栋新巴洛克风格的三层宫殿。同时，园林设计师<strong>埃纳尔·埃兰</strong>将周围250英亩的原始森林改造成英式风景园——没有凡尔赛的几何对称，只有蜿蜒小径、天然湖泊和成片百年古树。公园的名字直译便是“马瑟里斯城堡公园”，但宫殿本身并非城堡，而是一栋朴素的粉墙红顶别墅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“马瑟里斯”这个姓源自17世纪的荷兰裔商人</strong>，他们曾在奥胡斯经营航运致富。公园保留了最初的地名，算是对这片土地过往的致敬。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1902-1914：王室夏宫的诞生与黄金时代</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">宫殿刚建成时，<strong>克里斯蒂安九世</strong>夫妇每年夏季都会住上三个月。皇后亚历山大（人称“亚历山德拉皇后”，与英国亚历山德拉王后是亲姐妹）酷爱园艺，亲手在宫殿南侧开辟了一座玫瑰园。如今园中仍保留着她当年种下的<strong>“亚历山大皇后玫瑰”</strong>，花期为每年7月。奇怪的是，当她1914年去世后，克里斯蒂安九世再没来过这里，公园一度沉寂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1940-1945：二战中的庇护所与抵抗符号</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1940年4月9日</strong>，德军占领丹麦。国王克里斯蒂安十世拒绝逃亡，留在哥本哈根鼓舞民心。但王室其他成员——包括后来的国王弗雷德里克九世和年幼的玛格丽特公主（即现任女王）——曾多次到马瑟里斯堡躲避空袭。公园深处至今保留着一座<strong>地下掩体</strong>，入口藏在假山和杜鹃花丛后。据说<strong>1944年</strong>，德军怀疑公园内有抵抗组织电台，派兵搜查，但王室管家机智地将电台藏在花园工具房的暗格里。这段细节在女王的私人回忆录《我的记忆》中有提及（女王用化名撰写，未正式出版）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1967-至今：玛格丽特女王的夏日寓所</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1967年，即将结婚的玛格丽特公主正式从母亲英格丽德王后手中接管马瑟里斯堡。她打破了王室不对外开放的惯例，<strong>宣布每年7月至8月</strong>，当王室不在公园时，全部园区向公众免费开放。这一传统延续至今。<strong>1997年</strong>，女王在公园北侧修建了一座“和平花园”，种植来自不同国家的友谊树，纪念丹麦的多元文化。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛格丽特二世：设计师女王与她的秘密花园</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛格丽特二世</strong>（1940-）是丹麦历史上首位女君主，也是欧洲现代王室中最具艺术天赋的成员。她从小在马瑟里斯堡度过无数暑假，对这里的一草一木了如指掌。每年5月，她会亲自监督公园的春季养护，据说<strong>她曾亲自修剪过南侧的一棵150岁橡树</strong>，因为树枝挡住了她最喜欢的长椅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她还在公园里建造了一座<strong>私人花园工作室</strong>——一座小小的玻璃暖房，里面放满她设计的舞台布景模型和素描。<strong>1990年</strong>，她为丹麦皇家剧院设计的《睡美人》舞台草图，就是在马瑟里斯堡完成的。公园里最常见的景象不是士兵换岗，而是女王穿着围裙在花圃里挖土。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>女王日记摘录</strong>（1970年代，转述）：“在这里，我可以忘记自己是女王。泥土的气味比王冠更真实。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>克里斯蒂安九世：“欧洲岳父”的家族树</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公园入口处有一棵巨大的<strong>欧洲椴树</strong>，树下有一块不起眼的铭牌：“克里斯蒂安九世之树，1902年5月6日。”这位国王被称为“欧洲岳父”，因为他的六个孩子中有四个嫁入或娶进了欧洲主要王室：</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">长子弗雷德里克（后来的弗雷德里克八世）娶了瑞典公主。</li>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">长女亚历山德拉嫁给英国爱德华七世，成为英国王后。</li>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">次女达格玛嫁给俄国沙皇亚历山大三世，成为俄国的玛丽亚·费奥多罗夫娜皇后。</li>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">三女蒂拉嫁给汉诺威王子。</li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些联姻彻底改变了欧洲的政治版图。<strong>这棵树被视为家族树</strong>的隐喻——马瑟里斯堡的花园格局也刻意模仿了欧洲宫廷园林的“枝干”设计，用林荫道象征王室分枝。如今这棵椴树已经需要两人合抱，夏天时树冠投下巨大的阴凉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>英格丽德王后：流亡王后的玫瑰园</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">现任女王的母亲<strong>英格丽德王后</strong>（1910-2000）同样对马瑟里斯堡情有独钟。她是瑞典公主，嫁给丹麦国王弗雷德里克九世。二战期间，她带着三个女儿（玛格丽特、本尼迪克特、安妮-玛丽）住在公园里，躲避哥本哈根的占领气氛。她在公园南侧开辟了<strong>瑞典玫瑰园</strong>，专门种植来自她家乡的瑞典品种“国王玫瑰”。<strong>1985年</strong>，她将玫瑰园的管理权交给了外孙女们。如今玫瑰园中还有一块石碑，刻着她的一句话：“玫瑰不需要王冠，它本身就是女王。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“天鹅湖”与仙女侍女</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公园中央的<strong>天鹅湖</strong>（Svansø）有一个流传百年的传说：<strong>20世纪初</strong>，一位园丁在湖边遇见一位身穿白衣的美丽女子。她自称是“马瑟里斯家族的侍女”，因为爱上一个王子而被诅咒永生看守这片湖水。园丁试图抓住她，她却化作一只白天鹅飞走了。从此，当地人相信湖边的天鹅都是那位侍女的后代。每年<strong>5月1日</strong>湖中都会出现一只特别的白天鹅，它比其他天鹅更温顺，常停在游客脚边。王室管家称它为“玛格丽特的影子”，因为女王年轻时曾养过一只名叫“天鹅公主”的宠物天鹅，死后葬在湖畔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>魔石“维京之眼”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公园西北角的森林里有一块巨大的花岗岩，上面有天然形成的螺旋纹路，被称为“维京之眼”。<strong>民间传说</strong>，这块石头是维京移民的航海导航石，至今石纹会随着季节转动方向。<strong>1995年</strong>，考古学家曾研究过，但未发现人工痕迹。女王玛格丽特二世曾开玩笑说：“如果它真能转动，那它一定是丹麦最守时的钟表。”如今，许多游客会把手放在石头上许愿，据说特别灵验——尤其是关于园艺和创作方面的愿望。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马瑟里斯堡城堡公园不仅是丹麦王室的人间静土，更是一本翻开即知的现代北欧王朝史。这里的每一条林荫道都曾走过国王和公主的脚步声，每一株玫瑰都浸染过王后的金剪。它教会我们：<strong>皇权不必被铁栅栏包围</strong>，真正的尊贵在于与民共享自然与记忆的勇气。当你坐在天鹅湖畔的长椅上，看着夕阳把粉墙染成蜜色，你会突然理解安徒生那句：“丹麦的夏天，是上帝留在人间的后花园。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skagen-gray-lighthouse-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯卡恩灰色灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skagen Gray Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/det-kongelige-teater-operaen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    丹\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">丹麦皇家剧院 - 歌剧院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Det Kongelige Teater - Operaen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/museum-of-copenhagen-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哥本哈根博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museum of Copenhagen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "skagen-gray-lighthouse-history",
+          "name": "斯卡恩灰色灯塔",
+          "englishName": "Skagen Gray Lighthouse"
+        },
+        {
+          "slug": "det-kongelige-teater-operaen",
+          "name": "丹麦皇家剧院 - 歌剧院",
+          "englishName": "Det Kongelige Teater - Operaen"
+        },
+        {
+          "slug": "museum-of-copenhagen-history",
+          "name": "哥本哈根博物馆",
+          "englishName": "Museum of Copenhagen"
+        }
+      ]
+    }
+  ]
+}

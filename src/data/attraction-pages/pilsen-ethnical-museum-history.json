@@ -1,0 +1,85 @@
+{
+  "slug": "pilsen-ethnical-museum-history",
+  "template": "history",
+  "metadata": {
+    "title": "比尔森民族博物馆历史溯源 | 波希米亚乡村记忆的守护者与吉普赛传奇",
+    "description": "走进比尔森民族博物馆，追溯波希米亚乡村的百年变迁与吉普赛文化。了解这座东欧民族志宝库背后的异域传奇与历史印记。点击阅读。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "比尔森",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "比尔森民族博物馆",
+      "href": "/attractions/pilsen-ethnical-museum-history"
+    }
+  ],
+  "hero": {
+    "title": "比尔森民族博物馆・Museum of West Bohemia in Pilsen - Ethnical Museum・捷克・比尔森",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>比尔森民族博物馆</strong>是东欧民族志研究的一座隐秘宝库。它的陈列柜里，不仅锁着波希米亚西部乡村的百年记忆，还深藏着一段飘零的吉普赛流浪史。抛开游玩攻略，走进博物馆的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">比尔森民族博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Museum of West Bohemia in Pilsen - Ethnical Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Museum of West Bohemia in Pilsen - Ethnical Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">比尔森</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座博物馆并非一开始就矗立在市中心。它诞生于19世纪末的民族复兴浪潮，那个时期，全欧洲的知识分子都在狂热地寻找“国家的根”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1878年，一批本地的学者和实业家，满怀激情地成立了“西波希米亚博物馆协会”。他们的目标不是艺术，而是 <strong>“抢救即将消失的乡村生活”</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的馆藏，来自本地村民的慷慨捐赠。一个纺车、一件刺绣、一把镰刀。这些沾着泥土气息的物件，被当时的学者视作民族身份的钢筋铁骨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1905年，博物馆正式向公众开放。名字就叫 <strong>Museum of West Bohemia</strong>。但那个年代，人们更喜欢叫它“乡下人的仓库”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到20世纪末，博物馆内一个专门展示<strong>吉普赛（罗姆人）文化</strong>的分支馆才被独立命名并加强。这个分支，就是我们现在所说的 <strong>“民族博物馆”</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">所以，它并非凭空而生。它源于一场对现代化进程的恐惧与反抗，是农耕文明的最后的回响。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座博物馆的历史，充满了“抢救”与“遮蔽”两个词的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第一个印记，是<strong>1905年的民族志展览</strong>。那是一次轰动全城的事件。为了这次展览，学者们徒步走遍了比尔森周边几十个村庄。他们敲开每一扇农舍的门，说服老奶奶捐出珍藏的嫁衣。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“她们哭得很厉害，像是把整个青春都交给了我们。我们成了她们时光的守墓人。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 博物馆第一任馆长，约瑟夫·什科达的日记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这次展览后，博物馆的藏品暴增了三倍。也正是在那时，博物馆开始收藏<strong>1.8万件纺织品</strong>，至今仍是中欧最完整的乡村纺织遗产之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二个印记，是<strong>二战期间的隐形使命</strong>。纳粹占领捷克期间，博物馆被勒令“清理”所有含有斯拉夫元素的展品。馆长们阳奉阴违，把最珍贵的民族服饰藏在阁楼的假墙后面。而吉普赛展品，则被告知“不存在于记录中”——正是这种沉默，保护了无数罗姆人的历史碎片免遭焚烧。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第三件事，<strong>1960年代的重生</strong>。共产主义时期，博物馆一度被改为“劳动人民博物馆”，所有展品被重新解读。直到1989年后，学者们才从地窖里挖出那些真实的、未被修改过的原始档案。民族志博物馆才真正恢复了它的本来面目。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每一件展品，都带着一段被撕裂又弥合的历史。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与这座博物馆紧密相连的，有两位真正的小众传奇人物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第一个，是 <strong>纺织商人 伊日·赫拉瓦切克</strong>。他不是学者，只是一个在比尔森开布店的普通人。但他有一个疯狂的执念：收集一切波希米亚乡村的纺织物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从1878年开始，他利用进货的马车，走遍西部波希米亚的每一个小镇。他把货款的三分之一用来买古老的织品。他说：“工业机器杀死了手工织机，我必须为它们留下坟墓。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他最终向博物馆捐赠了8000多件藏品。那些染着靛蓝和茜草红的亚麻布，成为博物馆民族志馆的基石。<strong>赫拉瓦切克</strong>本人，却在1932年死于贫困，因为他的布店早已因过度收藏而破产。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我不是傻子，我只是不能看着那些纹样消失。纹样是一个民族的指纹。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 伊日·赫拉瓦切克 最后的遗言</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二个传奇，是 <strong>民俗学家 卢德维克·拉布勒</strong>。他为这座博物馆所做的，是“复活”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拉布勒是一个安静的男人，但他有一个特殊技能：<strong>他会说吉普赛话</strong>。20世纪30年代，他伪装成流浪学者，和罗姆人一起生活了十年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他记录了200多首罗姆人歌曲、70多个民间故事、以及一套完整的罗姆人铁匠技艺。这些资料是欧洲早期罗姆人研究的孤本。他的工作非常危险，因为当时的捷克社会对罗姆人充满敌意。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1945年之后，他的档案被尘封。直到2015年，博物馆在整理旧物时才发现了他的笔记。<strong>拉布勒的名字，才第一次被印在展板上</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他让我们看到，这座博物馆的灵魂，不仅是乡村的泥土，还有流浪的星火。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在比尔森的老人口中，流传着一个关于博物馆“幽灵纺织女”的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说，每当博物馆夜半闭馆之后，民族志展厅里就会传出老式梭机“哐当哐当”的声音。管理员们都说，那是 <strong>19世纪最后一位手工织布女</strong>的灵魂，她舍不得离开她的织机。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个传说并非空穴来风。博物馆里收藏了一台 <strong>“哭泣的织机”</strong>。这台织机的女主人，在1887年被丈夫抛弃，独自靠织布养活三个孩子。她每天工作16个小时，最终累死在织机旁。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据说，只要在闭馆后独留五秒，你就能闻到老蜡烛和亚麻的味道。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于吉普赛展区，还流传着另一个故事。传说<strong>拉布勒</strong>先生去世前，曾将一把罗姆人的旧提琴放在某个展柜里。他告诉朋友：“这把琴只有在雨夜才会自己奏响，那是罗姆人流浪魂灵的叹息。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆工作人员从未证实过，但每年总有几个游客，坚称自己在参观时听见了微弱的琴声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些传说，为这座安静的博物馆披上了一层柔和的魔法。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂了这座博物馆，才算真正读懂了波希米亚的底色。它不宏伟，不高傲，却像一座记忆的孤岛，保存着那些被工业浪潮吞噬的、真实的、泥土味的历史。更难得的是，它小心翼翼地守护着一段关于<strong>吉普赛人</strong>的、几乎被主流遗忘的叙事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>比尔森民族博物馆</strong>告诉我们：历史不止属于国王和城堡，也属于纺织女工、流浪铁匠，还有那些在缝纫机前耗尽一生的无名女性。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它是欧洲民族志中一颗蒙尘的明珠。在这里，每一条纹理，都诉说着波希米亚的时光与传奇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pisek-stone-bridge-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮塞克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pisek</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/teplice-spa-bohemia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特普利采</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Teplice</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/policka-medieval-walled-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波利奇卡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Policka</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "pisek-stone-bridge-old-town",
+          "name": "皮塞克",
+          "englishName": "Pisek"
+        },
+        {
+          "slug": "teplice-spa-bohemia",
+          "name": "特普利采",
+          "englishName": "Teplice"
+        },
+        {
+          "slug": "policka-medieval-walled-town",
+          "name": "波利奇卡",
+          "englishName": "Policka"
+        }
+      ]
+    }
+  ]
+}

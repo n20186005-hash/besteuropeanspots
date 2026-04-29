@@ -1,0 +1,85 @@
+{
+  "slug": "dragon-boat-base",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "龙舟基地 龙舟基地 匈牙利布达佩斯 多瑙河上的千年史诗 最佳欧洲景点",
+    "description": "我第一次去龙舟基地完全是被一个念头勾去的。匈牙利朋友告诉我，在布达佩斯的河中心，有个地方能让你瞬间忘记这是欧洲，而像穿越到了某个东方古国的水乡。他从口袋里掏出手机，给我看一张照片：夕阳西下，多瑙河变成金色绸缎，一条狭长的木舟像刀片一样划开水面，二十个肌肉紧绷的人同时挥动船桨，溅起的水花在光线下成了钻"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "匈牙利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布达佩斯",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "龙舟基地",
+      "href": "/attractions/dragon-boat-base"
+    }
+  ],
+  "hero": {
+    "title": "龙舟基地・Dragon Boat Base・匈牙利・布达佩斯",
+    "description": "我第一次去龙舟基地完全是被一个念头勾去的。匈牙利朋友告诉我，在布达佩斯的河中心，有个地方能让你瞬间忘记这是欧洲，而像穿越到了某个东方古国的水乡。他从口袋里掏出手机，给我看一张照片：夕阳西下，多瑙河变成金色绸缎，一条狭长的木舟像刀片一样划开水面，二十个肌肉紧绷的人同时挥动船桨，溅起的水花在光线下成了钻石雨。我当场就被震住了。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">我第一次去龙舟基地完全是被一个念头勾去的。匈牙利朋友告诉我，在布达佩斯的河中心，有个地方能让你瞬间忘记这是欧洲，而像穿越到了某个东方古国的水乡。他从口袋里掏出手机，给我看一张照片：夕阳西下，多瑙河变成金色绸缎，一条狭长的木舟像刀片一样划开水面，二十个肌肉紧绷的人同时挥动船桨，溅起的水花在光线下成了钻石雨。我当场就被震住了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了基地，那股复杂的味道先扑面而来。河水带着淡淡的腥味，混着岸边柳树的青涩气息，还有远处烤炉传来的面包香。脚下是粗糙的木板，被河水浸泡得发白发蓝，踩上去吱吱响。清晨六点半，空气还是凉的，像薄荷糖含在嘴里。远处有野鸭在咕咕叫，偶尔一声长鸣穿过雾气。我看到老渔民蹲在码头上修补渔网，嘴里叼着烟，烟圈缓慢上升，跟晨雾混在一起。你很难想象，就在几百米外的国会大厦和布达城堡已经挤满了举着自拍杆的游客，而这里，多瑙河中央的这片沙洲，仿佛被时间遗忘。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正打动我的是一种“慢下来的粗粝”。这里没有修葺整齐的花坛，没有指示牌，连厕所都是个简易的小木屋。地面是裸露的沙土和碎石，踩上去能听到清脆的嘎吱声。孩子的笑声在风中四散，像一串串铃铛。一个父亲正教他儿子怎么在河岸上钓鱼，鱼线落在水面上，激起一圈圈涟漪。就在那片看似什么都没有的空地边，一块被河水冲刷得光滑的石头旁，有个老人正默默读着报纸，阳光透过树叶打在他斑白的头发上，像镀了层金。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最让我意外的，是在河岸另一侧，一个废弃的小教堂遗址。只剩几段半人高的石墙，长满了青苔。我伸手去摸，石头还保留着清晨的凉意，表面有种粗糙的颗粒感，像陈年纸张。石墙的缝隙里，一株矢车菊倔强地开出紫色小花。教堂废墟的东侧，露出了不同石料的痕迹——那是不同时代修复留下的。最下面是罗马人的粗石，上面是中世纪的方石，再上面是巴洛克风格的砖块。这堵矮墙，仿佛一页打开的史书，无声地诉说着多瑙河的千年。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">龙舟基地</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Dragon Boat Base</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Dragon Boat Base</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">匈牙利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布达佩斯</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">多瑙河上龙舟基地是匈牙利首都最具原始生命力的自然与文化节点，见证了布达和佩斯两岸从部落冲突到帝国荣光再到民主转型的完整过程。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">由15世纪磨坊石墙和20世纪现代木质码头完美融合的水岸建筑群，保留了多瑙河洪水留下的侵蚀纹理。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">自然原始主义</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">龙舟基地是连接匈牙利千年游牧基因与斯拉夫传统的活态非物质文化遗产体验场。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">全年开放，但龙舟体验活动只在春夏秋季的周末上午10:00到下午4:00进行。冬季基地关闭，但周边的河岸和步道仍可通行。建议提前一个月在官网预约，特别是五月和九月的周末，因为这两个月份是划龙舟的黄金季节，人满为患。夏季七月和八月，虽然阳光灼热，但傍晚时分（下午5点后）会加开一场凉爽的“夕阳巡航”，票价相同但需额外预约。圣诞节期间基地会关闭两周，具体时间请查看网站公告。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">龙舟体验票：成人20欧元，学生15欧元，儿童（6-12岁）10欧元。包含救生衣和基础划桨训练。如果只想在基地散步和观鸟，免费进入。团体票（10人以上）有15%折扣。家庭套票（两位成人与两位儿童）50欧元。每月第一个周三，布达佩斯市民凭身份证免费。在线预订使用代码“DANUBE5”可减5欧元。注意，现场只接受现金或匈牙利福林，建议带足现金。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Budapest, 1052, Danube River, Central Island, Hungary</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从布达佩斯李斯特·费伦茨国际机场出发，先乘坐200E巴士到Kőbánya-Kispest地铁站，再换乘地铁3号线到Deák Ferenc tér站，最后转乘2路有轨电车到Jászai Mari tér站，下车后步行约15分钟到码头。全程需1小时20分钟，班次密集，每10-15分钟一班。如果是下午抵达，建议直接从机场打车到基地，车费约25欧元，耗时40分钟。从布达佩斯火车站（Keleti或Déli站）出发，乘坐地铁2号线到Batthyány tér站，再步行过玛格丽特桥到达基地，全程20分钟。如果你住在布达佩斯市中心，骑自行车是最佳选择，沿着河岸的自行车道30分钟可到，沿途风景让人舍不得蹬快。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">龙舟基地所在的这座河心岛，其实不是一块完整的陆地，而是多瑙河水千百年冲刷形成的沙洲。最早有记载的居民是公元9世纪从东方迁徙而来的马扎尔游牧部落。他们沿着河水放牧，发现这里地势低洼但水草丰美，便在这里扎下了临时营地。营地没有固定建筑，只有简易帐篷和用柳条编成的捕鱼笼。马扎尔人每年春天河水涨潮时会划着独木舟逆流而上，在沙洲上举行篝火仪式，庆祝新生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了13世纪，匈牙利国王贝拉四世在蒙古入侵后决定强化布达佩斯防御系统。他在岛屿上修建了第一座军事哨塔和防洪设施。哨塔高15米，用河岸的石灰岩砌成，墙厚达2米，顶部是木制的瞭望台，可以监视多瑙河上游的船队。1350年，安茹王朝的统治者将哨塔升级为一座小型要塞，并在此设置了多瑙河船运的过境税务所。所有经过的商船都要停靠缴税，用实物支付——葡萄酒、香料、羊毛，甚至是铜器。这使基地成为一个热闹的水上贸易点，码头边堆满了干鱼和木桶。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">16世纪奥斯曼帝国占领布达佩斯后，这座岛屿变成奥斯曼军队的驻地和兵工厂。土耳其人在河岸上架起了水磨，用来研磨火药原料。至今基地地下还能挖出破损的陶罐和奥斯曼时期的硬币。1699年奥斯曼撤退后，哈布斯堡王朝把岛屿划归给当地渔民公会。渔民们在这里生活了几个世纪，建起木屋和仓库，制作了一种特制的“多瑙河盐渍鱼”。这种鱼肉质紧实，用盐和香料腌制后挂在风里晒干，可以保存整整一年。岛屿因此得名“渔人堡”，虽然现在这个名字已经很少用了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">20世纪初，工业革命浪潮吞噬了这片河岸。1890年代，布达佩斯城市议会决定修建一条穿越岛屿的铁路线，连接佩斯和布达的两个工业区。工程在岛屿东岸挖了巨大的基坑，为铁路桥的桥墩做准备。但第一次世界大战打断了计划，基坑废弃后变成了一个天然水塘，常年积水。1930年代，这里变成当地贫民建立的临时居住区，人们用木头和铁皮搭起小棚屋，在坑边洗衣洗澡，形成了一种独特的贫民窟文化。1956年匈牙利革命期间，岛上成了反抗者的秘密集结点之一。革命被镇压后，政府驱散了所有人，岛屿被划为军事禁区。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1989年匈牙利和平转型后，岛屿重新对公众开放。当地龙舟爱好者组织看中了这片平静的水域，于1992年正式建立了龙舟基地。最初只是几个朋友周末划木桩上绑着木板的自制船，后来逐渐正规化，2005年匈牙利龙舟协会正式将这里定为国家训练中心。从那时起，每年夏天的龙舟节吸引了来自欧洲各地的选手和游客。2023年，基地进行了大规模翻修，加固了木桥，新增了观鸟台和生态教育中心。但核心的灵魂没有变——那堵15世纪的石墙依然立于河岸，每天迎接第一缕阳光。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  建议在清晨6点前抵达基地，此时河上还笼罩着薄雾，码头只有零星渔民。最佳游览时长是4-6小时，可以以慢速探索，搭配一次龙舟体验。如果你只有半天时间，推荐上午9点先参加龙舟课（全程1.5小时），随后用2小时漫步河岸和废墟，最后在码头咖啡馆吹着风喝一杯匈牙利姜茶。这种安排能避开中午的烈日和下午的旅行团，同时能看到多瑙河从晨雾到正午的完美渐变。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>最好避开周一下午2点到4点，那时有大量龙舟训练队的比赛，基地拥挤嘈杂，不适合沉浸体验。如果对水里的石头和河床好奇，一定要穿防滑的橡胶底鞋，因为很多石头长着青苔，像涂了油一样滑。另外，基地没有储存柜，贵重物品要随身带，尤其是防晒霜和驱蚊水，河岸的蚊子很凶猛。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">沿着木板路走向旧码头时，记得低头看看脚下那些留下的深深刻痕，那是几百年来船夫拉缆绳磨出的</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">抵达沙洲东侧的废弃哨塔废墟后，绕到南端，那里有一口铁铸井盖，井盖图案是磨轮和水鸟，是奥斯曼时期留下的</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在龙舟码头报名参加10:00的体验课程，教练会先用匈牙利语和英语解释划桨动作，并演示多瑙河上的“逆流回旋”急救技巧</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">坐在码头边缘把脚伸进水里，能感觉到水流时而急时缓，像大地在呼吸，同时听老渔夫用破损的英语讲他在河里钓到的那条十公斤重的鲤鱼</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">走到基地北端的观鸟台，用手机长焦捕捉到灰鹭停在柳枝上捕鱼的瞬间，柳枝在风中微微摇晃，像在给它点歌</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">回到码头咖啡馆，点一杯加了玫瑰糖浆的特浓咖啡，搭配当地人用多瑙河盐渍鱼和奶酪做的三明治，口感咸香酥脆</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 清晨5点45分，站在基地北端面向布达城堡方向，等待第一缕阳光刺破雾霭，同时按下连拍，能捕捉到晨光在石墙和木桩上拉出长长影子的惊艳画面</h4>\n                  <p class=\"text-sm text-gray-700\">清晨5点45分，站在基地北端面向布达城堡方向，等待第一缕阳光刺破雾霭，同时按下连拍，能捕捉到晨光在石墙和木桩上拉出长长影子的惊艳画面</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 沙洲东侧的废弃教堂废墟前，下午3点半左右，阳光从西侧斜射进来，打在废墟墙面的青苔上，产生丰富的冷暖对比，此时蹲下以低角度仰拍，让绿植和石缝占据画面前景</h4>\n                  <p class=\"text-sm text-gray-700\">沙洲东侧的废弃教堂废墟前，下午3点半左右，阳光从西侧斜射进来，打在废墟墙面的青苔上，产生丰富的冷暖对比，此时蹲下以低角度仰拍，让绿植和石缝占据画面前景</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 在码头西侧停靠龙舟的栈桥上，正午12点，让龙舟的红色船体和多瑙河深蓝的水面形成强烈碰撞，同时用广角镜头拍到远处国会大厦的尖顶作为画面的趣味点</h4>\n                  <p class=\"text-sm text-gray-700\">在码头西侧停靠龙舟的栈桥上，正午12点，让龙舟的红色船体和多瑙河深蓝的水面形成强烈碰撞，同时用广角镜头拍到远处国会大厦的尖顶作为画面的趣味点</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 站在观鸟台二层的木栅栏后，等待一只大雁或鹭鸶飞过头顶的瞬间，利用慢速快门1/15秒，让翅膀拍打出绚丽的动感模糊</h4>\n                  <p class=\"text-sm text-gray-700\">站在观鸟台二层的木栅栏后，等待一只大雁或鹭鸶飞过头顶的瞬间，利用慢速快门1/15秒，让翅膀拍打出绚丽的动感模糊</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 基地内严禁使用无人机，因为龙舟训练时会造成安全隐患。拍摄佛像、龙舟上的队员需要先征得对方同意，尤其是女性，因为有些当地人有害羞的传统。傍晚时分（夏季约7点半后）光线会突然变暖，是拍人像的黄金时段，记得带上反光板来补河水的反光，效果会更好。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">预算之选</h4>\n                  <p class=\"text-sm text-blue-800\">距离基地步行15分钟，有一家叫“河畔磨坊”的青年旅舍，由老磨坊改建，房间是上下铺床位，但每天早上公共厨房会飘来匈牙利香肠和辣椒酱的香气，让你和来自世界各地的背包客一起在窗边看河景。</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">玛格丽特岛南端的“玛格丽特岛生态度假屋”，由18世纪渔民小屋翻新而成，每间屋子都保留着原始的石板和陶器，晚上睡着能听到河水轻轻拍打木板的声音。</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-yellow-800\">布达佩斯市中心的“四季渔人堡酒店”，阳台正对多瑙河和基地所在沙洲，可以在私人阳台上喝香槟，看着夜灯照亮的龙舟慢慢靠岸。</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">基地周边治安非常好，因为地处岛上且远离主干道，但靠近河岸的房间晚上较潮，建议开窗睡觉时关好纱窗以防蚊虫。预订时可以选择“含龙舟体验”的套餐，通常比分开订便宜15欧元。旺季6-8月建议提前两个月订房，因为房间极少且很受欢迎。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当龙舟划出港口的那一刻，我就知道，这次旅行注定不同。桨叶插进水里的瞬间，我能感到一种力量从水底传来，顺着手臂流遍全身。船身在河面上缓慢却坚定地前进，二十个素不相识的人突然有了同一种呼吸节奏。多瑙河不再是旅游明信片上那片平静的蓝绿色，而是一头有生命的巨兽，在水面下伸着懒腰。我们在河中央停下，周围只剩水声和风声。我忽然意识到，这里的每一块石头，每一颗沙砾，都在告诉我同一个道理：人类的历史，不过是多瑙河上的一阵风，吹过就散。而龙舟基地，是那个让我们短暂站住脚、听风说话的地方。如果你愿意踩着清晨的露水，划着古老的龙骨木舟，去听河水的低语，那你一定会在多瑙河上找到属于你的那一桨。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/moustiers-sainte-marie\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    穆\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">穆斯捷-圣玛丽</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Moustiers-Sainte-Marie</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tihany-abbey-lavender-fields\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒂\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒂豪尼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tihany</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kalocsa-old-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考洛乔老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kalocsa Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "moustiers-sainte-marie",
+          "name": "穆斯捷-圣玛丽",
+          "englishName": "Moustiers-Sainte-Marie"
+        },
+        {
+          "slug": "tihany-abbey-lavender-fields",
+          "name": "蒂豪尼",
+          "englishName": "Tihany"
+        },
+        {
+          "slug": "kalocsa-old-town",
+          "name": "考洛乔老城",
+          "englishName": "Kalocsa Old Town"
+        }
+      ]
+    }
+  ]
+}

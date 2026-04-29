@@ -1,0 +1,85 @@
+{
+  "slug": "park-u-plzenske-brany-history",
+  "template": "history",
+  "metadata": {
+    "title": "贝龙历史溯源｜比尔森门公园的前世今生：中世纪城墙下的隐秘传说",
+    "description": "走进捷克小镇贝龙的比尔森门公园，倾听14世纪城门后的战争、匠人与幽灵故事。一部浓缩的中波希米亚历史档案，等待你亲自翻开。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "贝龙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "比尔森门公园",
+      "href": "/attractions/park-u-plzenske-brany-history"
+    }
+  ],
+  "hero": {
+    "title": "比尔森门公园・Park u Plzeňské brány・捷克・贝龙",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">站在贝龙老城边缘，<strong>比尔森门</strong>的拱顶依旧沉默地指向天空。这座建于 <strong>14 世纪</strong> 的哥特式防御城门，曾是波希米亚王国抵御外敌的咽喉，而它脚下的那片绿荫——<strong>Park u Plzeňské brány</strong>——却在 <strong>19 世纪</strong> 城墙拆除后才悄然诞生。抛开游玩攻略，走进贝龙的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">比尔森门公园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Park u Plzeňské brány</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Park u Plzeňské brány</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">贝龙</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝龙的名字最早见于 <strong>13 世纪</strong> 中期的文献，源自古德语“<em>Bern</em>”（熊），暗合当地森林中熊群出没的传说。<strong>1257 年</strong>，波希米亚国王 <strong>普热米斯尔·奥托卡二世</strong> 在一片石灰岩丘陵上划定了这座皇家城镇的边界，目的明确：扼守布拉格通往西南德意志的商道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市的规划完全服从于防御。<strong>矩形广场、放射状街道、双层城墙</strong>——这些元素在 <strong>1265 年</strong> 便已初具雏形。而 <strong>Plzeňská brána</strong>（比尔森门）正是西侧城墙的主入口，得名于通往 <strong>比尔森</strong> 的古老商路。建造者们用当地开采的砂岩石块，堆砌出厚达 <strong>2.5 米</strong> 的墙体，并在门楼上预留了箭孔与浇注热沥青的槽口。城门内侧原本还有吊桥和护城河，如今早已被填平，只留下苍老的石拱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">值得注意的是，贝龙虽小，却享受过 <strong>皇家直辖</strong> 的特权。国王允许市民自治并免除部分赋税，条件是在战时提供武装扈从。这一政策使小镇在 <strong>14 世纪</strong> 迅速繁荣，而比尔森门便是那段黄金时代最坚固的见证。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>百年战争与胡斯风暴</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1421 年</strong>，胡斯战争的火舌舔舐到贝龙城下。作为天主教势力的据点，小镇遭到胡斯派军队围攻。<strong>比尔森门</strong> 承受了最猛烈的撞击——攻城锤在门板上留下深痕，门楼上的守军用滚木礌石打退了数次冲锋。传说一位名叫 <strong>Jan z Rokycan</strong> 的胡斯派教士曾站在城门前的土丘上劝降，却被城头射出的弩箭射穿了帽子。这场围攻持续了 <strong>三周</strong>，最终因援军到来而解除。城门上至今还能看到当年修补过的弹孔与裂缝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三十年战争的铁蹄</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1639 年</strong>，瑞典军队在 <strong>巴纳将军</strong> 率领下劫掠波希米亚。贝龙未能幸免。瑞典人炸毁了北侧的部分城墙，但 <strong>比尔森门</strong> 因结构坚固幸存。据当时的市政日记记载，瑞典指挥官曾想拆下城门的铁质铰链熔铸炮弹，却因门体太厚而放弃。城门上层的守卫室被瑞典人用作临时马厩，马匹的蹄铁在石阶上磨出了深深的凹槽——这些痕迹至今仍能被细心的访客发现。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>城墙的消亡与公园的诞生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>18 世纪末</strong>，随着火炮技术的发展，中世纪城墙丧失防御价值。<strong>约瑟夫二世</strong> 皇帝下令拆除大部分城防系统。贝龙市民在 <strong>1830 年代</strong> 将西侧城墙连根拔起，唯独保留了 <strong>比尔森门</strong> 作为历史地标。<strong>1865 年</strong>，原地段被改造成一座英式景观公园：弯曲的小径环绕着百年椴树，中央设置铸铁长椅，并在城门旁立起一座 <strong>新文艺复兴式喷泉</strong>。当地人称之为“<em>Park u Plzeňské brány</em>”，从此成为市民散步、谈情说爱的去处。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>钟表匠世家：米库拉什·哈努什</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在贝龙的历史档案里，藏着一个被遗忘的名字——<strong>米库拉什·哈努什</strong>（Mikuláš Hanuš，1789-1862）。他并非贵族或将军，而是一位 <strong>钟表匠</strong>，却用自己的手艺为小镇刻下了永恒的印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哈努什出生在 <strong>比尔森门</strong> 旁的一间小屋，父亲是城墙守卫。他自幼在城门门楼里玩耍，熟悉每一块石头的纹理。<strong>20 岁</strong> 时，他前往布拉格学习制钟技术，三年后回到贝龙，在公园所在地（当时仍是城墙废墟）开设了自己的作坊。他最著名的作品是 <strong>贝龙市政厅钟楼</strong> 的机械天文钟，制作于 <strong>1835 年</strong>。这座钟拥有 <strong>12 个使徒木偶</strong>，每逢整点便会旋转而出。但真正让哈努什名垂青史的是他晚年的一项计划：他希望在 <strong>比尔森门</strong> 的塔楼上安装一套 <strong>风铃</strong>，利用城门拱洞的共鸣放大声音，让钟声传遍整个山谷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，这个计划未能实现。<strong>1862 年</strong> 哈努什去世时，风铃仅完成了试验模型。他的孙子 <strong>拉吉斯拉夫·哈努什</strong>（Ladislav Hanuš，1845-1920）继承了遗志，在 <strong>1875 年</strong> 终于将风铃挂上了城门。这套 <strong>13 枚铜铃</strong> 能演奏 <strong>7 首波希米亚民歌</strong>，每逢复活节和圣诞节便会响起。遗憾的是，<strong>第二次世界大战</strong> 期间，铜铃被德军征用熔铸军火，如今只剩下空荡荡的支架。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“钟声本该像父亲的呼吸一样，从城门里飘出来。”——拉吉斯拉夫·哈努什在 1901 年写给友人的信中如此写道。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>民族复兴时期的教师：博热娜·维什科娃</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说哈努什代表了匠人的执念，那么 <strong>博热娜·维什科娃</strong>（Božena Višková，1868-1947）则是精神启蒙者。这位出生在贝龙的女教师，是 <strong>捷克女子教育先驱</strong> 之一。她曾在 <strong>比尔森门公园</strong> 的长椅上，给女学生们讲述捷克历史——当时女性被禁止进入正规中学，她便在露天开课。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">维什科娃最著名的举动发生在 <strong>1905 年</strong>：她组织了一场 <strong>“城门讲座”</strong>，让女学生朗诵捷克女诗人 <strong>埃利什卡·克拉什诺霍尔斯卡</strong> 的作品。当地保守派神父向市政厅抗议，但维什科娃坚持将课堂搬到公共空间。后来她担任贝龙第一所女子小学的校长，并在 <strong>1930 年</strong> 退休时，将全部藏书捐赠给公园旁的新图书馆。如今公园东侧的一条小路被命名为“<strong>Božena Višková 小径</strong>”，走在那条碎石路上，仍能感受到百年前书本翻动的沙沙声。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>城门里的白衣女人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝龙人世代相传一个故事：在 <strong>满月之夜</strong>，一个穿着白色长裙的女人会出现在 <strong>比尔森门</strong> 的拱门下。她身形飘忽，手中提着一盏没有火焰的油灯。传说她是 <strong>14 世纪</strong> 一位守城军官的女儿，名叫 <strong>阿内什卡</strong>。她与一位来自比尔森的商人相爱，但父亲禁止他们见面。某夜，商人试图翻越城墙潜入城中，却被守军当作奸细射杀。阿内什卡闻讯后从城门顶的瞭望台跳下，当场殒命。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，她的灵魂便困在了这扇门里。老人们说，如果午夜时分经过公园，可能会听到她低声哼唱一首古老的爱情歌谣，曲调悠长而悲伤。<strong>20 世纪 30 年代</strong>，曾有市政工人在维修城门时声称看到了白色身影，吓得扔下工具逃跑。至今，不少当地人在夜晚会特意避开比尔森门，尽管公园白天满是嬉闹的儿童。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>宝藏谜语</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说与 <strong>胡斯战争</strong> 有关。据说 <strong>1421 年</strong> 围攻期间，守城士兵将一批银币和圣物藏进了城门的夹层墙中。一位受伤的士兵用刀在门内侧刻下了线索：“<em>在燕子筑巢的下一块石头里</em>。”但此后数百年，没人能找到宝藏。<strong>19 世纪末</strong>，一位德国文物商人曾用金属探测器在城门附近搜索，却只挖出几枚铁钉。直到 <strong>1960 年代</strong>，建筑工人在加固城门地基时，竟然发现了一个生锈的铁盒，里面装有 <strong>17 枚 15 世纪格罗申银币</strong> 和一枚圣瓦茨拉夫勋章。但线索中的“燕子筑巢”至今未被完全破解——难道是指城门上方的某个隐蔽凹槽？秘密，或许仍藏在石头里。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">比尔森门公园只有 <strong>0.8 公顷</strong>，却浓缩了八百年贝龙的呼吸。从防御要冲到公共绿地，从匠人遗梦到幽灵低语，这扇门、这片林地，是小镇面对时间的备忘录。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂它，你就能理解 <strong>中波希米亚</strong> 无数小镇的宿命：战争与和解、传统与觉醒，最终都沉淀为石缝里的青苔与枝头的鸟鸣。当你坐在公园长椅上，看着夕阳把城门的影子拉长，不妨想一想：那些曾经在这里攻城、织梦、晨读的人们，是否也曾在同样角度，注视过同一片天空？</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/valtice-wine-castle-czech\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦尔季采</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Valtice</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jezirko-lasky-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱之湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jezírko lásky</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/zdirecky-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    日\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">日迪雷克动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ždírecký Zoo</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "valtice-wine-castle-czech",
+          "name": "瓦尔季采",
+          "englishName": "Valtice"
+        },
+        {
+          "slug": "jezirko-lasky-history",
+          "name": "爱之湖",
+          "englishName": "Jezírko lásky"
+        },
+        {
+          "slug": "zdirecky-zoo",
+          "name": "日迪雷克动物园",
+          "englishName": "Ždírecký Zoo"
+        }
+      ]
+    }
+  ]
+}

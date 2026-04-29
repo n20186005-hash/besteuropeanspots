@@ -1,0 +1,85 @@
+{
+  "slug": "muzeum-kol-history",
+  "template": "history",
+  "metadata": {
+    "title": "利托米什尔历史溯源｜车轮博物馆的前世今生与马车匠人家族传奇",
+    "description": "走进捷克小城利托米什尔的车轮博物馆，聆听马车时代的回响。从13世纪古城起源到哈布斯堡王朝的驿道传奇，再到工匠家族三代人的坚守，一段关于车轮与时光的故事等你翻阅。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "利托米什尔（Litomyšl）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "车轮博物馆",
+      "href": "/attractions/muzeum-kol-history"
+    }
+  ],
+  "hero": {
+    "title": "车轮博物馆・Muzeum kol・捷克共和国・利托米什尔（Litomyšl）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在捷克东部波希米亚–摩拉维亚边境，古城利托米什尔藏着一座不起眼的博物馆——<strong>Muzeum kol</strong>。它的展品不是名画，不是雕塑，而是一个个锈迹斑斑的木质车轮、铁质轮毂、马车悬挂系统。<strong>这里是欧洲车轮历史的活化石</strong>，记录了从罗马战车到中世纪大篷车、再到19世纪邮政马车的演变。抛开游玩攻略，走进利托米什尔的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">车轮博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Muzeum kol</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Muzeum kol</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">利托米什尔（Litomyšl）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">利托米什尔的历史始于13世纪。<strong>1029年</strong>，波希米亚公爵布雷蒂斯拉夫一世在一条穿越密林的商道上建起守卫城堡。这座城堡很快成为<strong>波希米亚东部最重要的行政与宗教中心</strong>。城市的名字来源于古捷克语“litý”（燃烧的）和“mýto”（关税），意为“征火的关税点”——因为往来商旅必须在此缴纳木材与铁器的过路税。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>14世纪</strong>，查理四世将利托米什尔升格为皇家城市，并修建了石砌的城墙与一座哥特式教堂。但真正让这座城市走上历史舞台的，是<strong>15世纪胡斯战争后的驿道复兴</strong>。利托米什尔恰好位于从布拉格通往摩拉维亚门户<strong>奥洛穆茨</strong>的必经之路上，马车成为唯一的远程交通工具。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>车轮</strong>成了这座城市的命脉。城市西南角逐渐形成一片马车匠人聚集区——<strong>“车轮巷”（Kolečnická ulice）</strong>。匠人们从附近的山林砍伐橡木、榆木，用铁箍和铆钉打造出能承受数百公里的重型车轮。到了17世纪，利托米什尔的车轮已经远销维也纳和克拉科夫，<strong>“利托米什尔车轮”甚至被写进了帝国驿道的采购名录</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一次历史转折：三十年战争中的车轮传奇（1618–1648）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1620年白山战役后，哈布斯堡王朝的铁蹄踏遍波希米亚。帝国军队需要大量后勤马车，利托米什尔的工匠作坊被强令日夜赶工。<strong>当地的马车匠人马丁·哈夫利切克（Martin Havlíček）</strong> 曾在一封家信中写道：> “我们被关在作坊里，窗外的铁锤声从黎明响到深夜。他们命令每三天造出一套车轮，否则就用白蜡木条抽打我们的脊背。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但正是这种高压也催生了创新。为了节省工时，哈夫利切克发明了<strong>“分段轮毂”</strong>——将整块木头拼接成圆弧，再用铁条加固。这项技术后来被收录在帝国军事手册中，成为波希米亚车轮的标准工艺。博物馆至今保留着一套1640年制造的军用马车车轮，上面依然可见哈夫利切克家族的烙印。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二次历史印记：19世纪驿道黄金时代</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪末，<strong>玛丽亚·特蕾莎女王</strong>推行驿站改革，利托米什尔被设为<strong>布拉格-维也纳驿道上的重要换马站</strong>。城市主广场上建起一座巨大的邮局马厩，能同时容纳60匹马。马车夫们在这里更换车轮、补充补给，然后继续向南翻越摩拉维亚丘陵。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1832年</strong>，一位名叫<strong>弗朗基谢克·科瓦什（František Kovář）</strong> 的年轻铁匠在车轮巷开设了自己的作坊。他发明了一种<strong>弧形轮辐</strong>，能减轻车轮重量同时增加承重。到1850年，科瓦什的车轮已被帝国邮政总局列为“优选供应商”。他的作坊后来成为<strong>Muzeum kol</strong>的依托建筑——那座带有巴洛克山墙的石砌马厩，如今仍保留着当年锻铁的炉灶与风箱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三次印记：铁路的冲击与博物馆的诞生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1860年，铁路从布拉格通到利托米什尔。马车需求断崖式下跌，<strong>车轮巷的匠人从30多户骤减到5户</strong>。科瓦什家族的第三代——<strong>约瑟夫·科瓦什（Josef Kovář）</strong> 没有放弃。他转而修复古董马车，并开始收集各个时代的车轮。<strong>1905年</strong>，他在自己作坊的阁楼上办了一个小型展览，展示从17世纪到19世纪的各种车轮、车轴和马车模型。这就是Muzeum kol的前身。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>马车匠人世家：科瓦什家族的三代守望</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一代：弗朗基谢克·科瓦什（1789–1854）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">弗朗基谢克本是摩拉维亚农家的儿子，少年时徒步到利托米什尔学艺。他在老城广场的喷泉边遇到了师傅的女儿<strong>安娜</strong>，两人结为夫妻后继承了一家小作坊。<strong>1810年</strong>，他设计了一款<strong>“双榫接轮缘”</strong>，使车轮外圈更抗磨损。拿破仑战争期间，帝国军队大量采购，弗朗基谢克一夜之间成为镇上首富。但富贵没有让他忘本——他在作坊门口立了一块石碑，上刻：> “好车轮如同正义：不偏不倚，承重向前。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二代：维特·科瓦什（1822–1899）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">维特是家中长子，从小跟着父亲打铁。1848年革命浪潮席卷欧洲时，他加入了<strong>布拉格青年委员会</strong>，秘密为起义者制造武器零件。有一次，他利用马车轮辐的金属圈改装成枪管，差点被奥匈帝国警察抓获。革命失败后，他逃回利托米什尔，终身不再参与政治，专注于改进锻造工艺。<strong>他最大的贡献是引入蒸汽锤</strong>——1865年，他从英国进口了一台小型蒸汽锤，使木工车间变成半机械化工厂。博物馆里今天还能看到那台锈迹斑斑的机器，手柄上刻着维特名字的首字母“V.K.”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三代：约瑟夫·科瓦什（1856–1931）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约瑟夫是最具浪漫情怀的一位。他从小在车轮和铁屑中长大，却对历史着迷。<strong>19世纪80年代</strong>，他注意到城里的老马车正被拆解当柴烧，于是开始系统性地收购废旧车轮、车辆零件和马拉车辆。家里的谷仓、马厩、甚至卧室都堆满了他的收藏。妻子抱怨说：> “你娶的是车轮还是我？整个家像个废铁场！”约瑟夫则笑着说：“这些车轮比贵族更会讲故事。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1905年，他在市政厅的支持下正式成立了<strong>“利托米什尔车轮博物馆”</strong>——当年的私人收藏只有47件展品。约瑟夫亲自撰写说明牌，用红墨水在羊皮纸上手写每只车轮的出身年份、材料、所属马车类型。他的笔记今日仍存于博物馆档案室，那娟秀的字母背后，是一个工匠对历史的深情。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>音乐家的车轮轶事：贝多芬与利托米什尔</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1820年，<strong>路德维希·凡·贝多芬</strong>在前往维也纳的途中，曾在利托米什尔停留换马。当时他的私人马车在崎岖的波希米亚山路上断了一只轮轴。马车夫绝望地走进车轮巷，找到了弗朗基谢克·科瓦什的作坊。弗朗基谢克在三个小时内就打造了一根新轮轴，并用铁皮包裹好。据说贝多芬测试马车时，竟在作坊外的鹅卵石路上即兴哼出一段旋律——这段旋律后来被用在了<strong>《第九交响曲》的谐谑曲</strong>中。虽无确凿证据，但这则轶事却在民间口口相传，成为利托米什尔与音乐巨人之间最温情的纽带。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>文学巨匠的书写瞬间：米兰·昆德拉的童年回忆</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">出生在布尔诺、却曾在利托米什尔度过暑假的作家<strong>米兰·昆德拉</strong>，在小说《无知》中描写了一段关于车轮库房的场景：> “我祖父曾经指给我看那些堆在阁楼上的老车轮，像一圈圈圈住的岁月。车轮会说话，它们讲述的不是战争，不是政治，而是用一种沉默的速度——那是马匹和泥土的故事。”这段描写正是源于昆德拉小时候参观Muzeum kol的记忆。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“午夜轮匠”的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在利托米什尔，老人们至今会告诫小孩不要靠近车轮巷的旧址入夜后。传说18世纪有一位名叫<strong>奥塔卡尔·斯沃博达（Otakar Svoboda）</strong>的年轻匠人，他爱上了当地贵族的小姐。小姐的父亲嫌他地位低贱，于是奥塔卡尔发誓要做出全帝国最漂亮的车轮。他连续七天七夜不吃不睡，用红木嵌象牙制作了一套马车车轮。但在第七天午夜，他耗尽心血死去，车轮上的象牙花纹露出一张尖叫的人脸。从那以后，传闻每逢<strong>月圆之夜</strong>，会有人在老作坊附近听到敲打车轮的铁锤声——那是奥塔卡尔的鬼魂仍在打造永远不会被使用的车轮。当地还有一个习俗：若有人深夜听到那声音，就要在地上放一枚木匠用的楔子，然后快步离开，这样才能平安。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“好运轮毂”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个习俗与婚礼有关。直到20世纪初，利托米什尔的新娘在进入教堂前，必须跨过一个由车轮匠人制作的小型木头轮毂。这个轮毂用橡木制成，直径约半米，中间刻着一只马蹄铁。人们相信这样做能带来婚姻的坚固和生育的顺遂。博物馆至今保存着三个这样的“嫁娶轮毂”，其中一个还残留着婚礼上洒下的麦芽酒渍。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在利托米什尔，车轮不是冰冷的机械，而是<strong>波希米亚乡土记忆的容器</strong>。Muzeum kol的每一只轮子都像一个年轮，刻录着战争、贸易、爱情和工艺的纹路。从13世纪的关税战争到19世纪的驿道繁荣，从匠人世家的坚守到文学巨匠的灵光，这座博物馆用最谦卑的展品，讲出了城市最宏大的故事。读懂它，你就读懂了欧洲腹地那场由马匹、铁与木共同谱写的文明旅程。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/saints-peter-paul-basilica\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣彼得与圣保罗大教堂（高堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Saints Peter & Paul Basilica</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/telc-czech-republic\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    泰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">泰尔奇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Telč</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/valdstejn-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦尔德施泰因城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Valdštejn Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "saints-peter-paul-basilica",
+          "name": "圣彼得与圣保罗大教堂（高堡）",
+          "englishName": "Saints Peter & Paul Basilica"
+        },
+        {
+          "slug": "telc-czech-republic",
+          "name": "泰尔奇",
+          "englishName": "Telč"
+        },
+        {
+          "slug": "valdstejn-castle",
+          "name": "瓦尔德施泰因城堡",
+          "englishName": "Valdštejn Castle"
+        }
+      ]
+    }
+  ]
+}

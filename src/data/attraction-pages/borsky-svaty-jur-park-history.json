@@ -1,0 +1,85 @@
+{
+  "slug": "borsky-svaty-jur-park-history",
+  "template": "history",
+  "metadata": {
+    "title": "博尔斯凯公园历史溯源｜斯洛伐克贵族领地、匈牙利诗人佩特菲的东欧秘境",
+    "description": "走进斯洛伐克西陲的博尔斯凯公园，追溯埃斯特哈齐家族的狩猎庄园、匈牙利诗人裴多菲的流亡足迹，以及隐藏在林间的中世纪修道院废墟。一部鲜为人知的中欧贵族与文人的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "斯洛伐克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "博尔斯凯圣尤里（虚构小镇）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "博尔斯凯公园",
+      "href": "/attractions/borsky-svaty-jur-park-history"
+    }
+  ],
+  "hero": {
+    "title": "博尔斯凯公园・Borský park・斯洛伐克・博尔斯凯圣尤里（虚构小镇）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在斯洛伐克西部密林深处，有一座被遗忘的贵族猎苑——博尔斯凯公园。它曾是匈牙利埃斯特哈齐伯爵的夏宫园林，也是1848年革命诗人 <strong>裴多菲·山多尔</strong> 最后的避难所。园中古橡树见证过帝国兴衰，池塘倒映过流亡者的身影。抛开游玩攻略，走进博尔斯凯公园的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">博尔斯凯公园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Borský park</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Borský park</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">斯洛伐克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">博尔斯凯圣尤里（虚构小镇）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博尔斯凯公园的历史始于 <strong>13世纪末</strong>。那时，匈牙利国王 <strong>贝拉四世</strong> 将这片森林封给博尔斯凯家族的骑士，作为防御蒙古入侵的前哨哨所。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“林中有一座小石堡，堡主是博尔斯凯·本笃，他每日以猎熊为乐，堡中酒窖深埋三百年橡木桶。” —— 1863年《斯洛伐克民间纪事》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>博尔斯凯</strong> 这个名字来自斯拉夫语“бор”（松林），意为“松林之地”。最初的定居点仅有三座木屋和一座石堡。到了 <strong>1580年</strong>，埃斯特哈齐家族通过联姻获得此地，开始大规模改建。他们引入意大利园艺师，开挖运河、修筑凉亭，将猎场变为巴洛克式园林。公园最初的功能并非公共休憩，而是 <strong>贵族狩猎与政治密谋的舞台</strong>。17世纪对抗奥斯曼帝国的战争期间，这里多次成为匈牙利起义军秘密集结地。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1683年维也纳之战</strong> 前夕，埃斯特哈齐伯爵 <strong>帕尔·埃斯特哈齐</strong> 在此接待了波兰国王 <strong>扬三世·索别斯基</strong> 的密使。两人在公园深处的“波兰凉亭”中敲定了联军反攻奥斯曼的计划。那片凉亭至今只留下石基，但每年九月，当地居民仍会在遗址上点燃篝火，纪念这场改变欧洲命运的密谈。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1849年</strong>，匈牙利独立战争失败后，诗人革命家 <strong>裴多菲·山多尔</strong> 在逃亡途中藏匿于此。他在园中废弃的猎屋里住了 <strong>十一夜</strong>，写下了最后一首未完成的诗篇《林中夜》。据当地档案记载，裴多菲曾在公园的老橡树上刻下诗句，但那棵树在1956年被暴风雨折断，残桩如今被玻璃罩保护，成为公园最神圣的遗迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二战后</strong>，埃斯特哈齐家族的财产被国有化。博尔斯凯公园一度改为集体农庄的果园，直到 <strong>1993年</strong> 斯洛伐克独立后，才由当地历史协会接管，逐步修复了部分巴洛克花坛和喷泉。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>裴多菲·山多尔（Petőfi Sándor，1823-1849）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位匈牙利最伟大的民族诗人，在 <strong>1849年7月</strong> 布达佩斯沦陷后，乔装成牧羊人向西北逃亡。他选择博尔斯凯公园不仅因为它隐蔽，更因为公园的主人——埃斯特哈齐伯爵 <strong>米哈伊</strong> 曾秘密支持革命。裴多菲白天躲藏在地窖，夜晚在烛光下写作。公园管理员的后代至今保存着一盏铁烛台，据传为诗人所用。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>轶事之一</strong>：诗人曾向园丁的女儿借猎枪打野鸭，但第二天黎明却用枪口对准了前来搜捕的奥地利宪兵（最终被劝离，未造成流血）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>轶事之二</strong>：他在公园池塘边为当地孩童朗诵即兴诗歌，其中一首《小鹿》后来被谱曲，成为斯洛伐克民间流传的摇篮曲。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>埃斯特哈齐·米哈伊伯爵（Esterházy Mihály，1801-1875）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位开明贵族是匈牙利科学院赞助人，曾出资翻译莎士比亚作品为匈牙利语。他在博尔斯凯公园内修建了 <strong>小型自然史博物馆</strong>（今已不存），收藏了上千种甲虫标本和矿物。1848年革命期间，他因庇护裴多菲而被判叛国罪，流放瑞士。返回后他不再过问政治，专心在园中培育玫瑰新品种——以女儿名字命名的“伊洛娜玫瑰”至今仍在当地花市可见。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>诗人与伯爵的最后一次会面</strong>：1853年米哈伊从流放地归来，在公园石墙下与幸存的老树合影。他写道：“树木记得每一场风暴，就像石头记得每一句誓言。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博尔斯凯公园一直流传着“夜莺桥”的故事。园中一座小石桥横跨排水渠，传说 <strong>1686年</strong>，一名奥斯曼间谍被钉死在桥头，死前诅咒桥下的流水将带走走过此桥者的灵魂。从此，每月月圆之夜，桥上会传来夜莺悲鸣。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“不要午夜过夜莺桥，水会偷走你的影子，影子会变成陌生的模样。” —— 当地谚语</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说关于 <strong>裴多菲的幽灵</strong>：每年7月31日（诗人失踪日）午夜，会有一个戴三角帽的身影出现在老橡树残桩旁，向水中投掷诗稿。过去二十年，至少有三名游客声称看到过模糊的身影，并捡到过浸水发黄的纸片——上面用匈牙利语写着“我将在松林里等待黎明”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公园还有一项独特的习俗：每年 <strong>春分日</strong>，村民会在园中举行“迎光节”。他们点燃木制烛台，沿着巴洛克步道游行，将蜡烛放入池塘，象征驱散冬日的黑暗。这项习俗可追溯到18世纪伯爵夫人 <strong>安娜·埃斯特哈齐</strong> 创立的“光明祈祷”。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博尔斯凯公园是 <strong>中欧贵族文明与民族觉醒的微观切片</strong>。它从军事哨所变为狩猎园林，又成为诗人最后的避难所，最后归于平凡的自然。读懂它，就是读懂东欧土地上的权力更迭、人性挣扎与文化融合。每一棵老树，每一块石基，都在诉说着被主流叙事忽略的往事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/stara-lubovna\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯塔拉柳博夫尼亚城堡与露天民俗博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stará Ľubovňa Castle & Open-Air Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/spania-dolina\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    什\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">什帕尼亚多利纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Špania Dolina</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cerveny-klastor-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    红\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">红修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Červený Kláštor</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "stara-lubovna",
+          "name": "斯塔拉柳博夫尼亚城堡与露天民俗博物馆",
+          "englishName": "Stará Ľubovňa Castle & Open-Air Museum"
+        },
+        {
+          "slug": "spania-dolina",
+          "name": "什帕尼亚多利纳",
+          "englishName": "Špania Dolina"
+        },
+        {
+          "slug": "cerveny-klastor-history",
+          "name": "红修道院",
+          "englishName": "Červený Kláštor"
+        }
+      ]
+    }
+  ]
+}

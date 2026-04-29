@@ -1,0 +1,85 @@
+{
+  "slug": "znojmo-rotunda-history",
+  "template": "history",
+  "metadata": {
+    "title": "兹诺伊莫圆形教堂历史｜捷克最古老壁画隐藏的Přemyslid王朝密码与中世纪信仰传奇",
+    "description": "探秘兹诺伊莫圆形教堂：11世纪罗曼式瑰宝，墙内藏着欧洲最古老的全景壁画，记录王室与信仰的无声对话。走进这座寂静的圣殿，聆听一位公爵与一位修士的千年回响。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "兹诺伊莫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "兹诺伊莫圆形教堂",
+      "href": "/attractions/znojmo-rotunda-history"
+    }
+  ],
+  "hero": {
+    "title": "兹诺伊莫圆形教堂・Znojmo Rotunda・捷克共和国・兹诺伊莫",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在捷克南摩拉维亚的兹诺伊莫古堡山岩之上，矗立着一座毫不起眼的小型圆形教堂——圣凯瑟琳圆形教堂，俗称兹诺伊莫圆形教堂。它建于11世纪末，是捷克保存最完好的罗曼式建筑之一，却因内部一幅绘制于1134年的“Přemyslid王朝谱系”壁画而成为欧洲艺术史与政治史的核心纪念碑。抛开游玩攻略，走进兹诺伊莫圆形教堂的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">兹诺伊莫圆形教堂</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Znojmo Rotunda</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Znojmo Rotunda</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">兹诺伊莫</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">兹诺伊莫的历史始于11世纪，最初是摩拉维亚边境的防御据点。传说博日沃伊一世（Bořivoj I）之子斯皮季赫涅夫二世（Spytihněv II）在此修建木结构城堡，以抵御来自东方的马扎尔人侵袭。而圆形教堂的修建则与<strong>康拉德一世（Konrád I）</strong>有关——这位Přemyslid王朝的摩拉维亚公爵在1060年代将城堡扩建为石质要塞，并在要塞中心建起这座直径仅10米的圆形礼拜堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字的渊源耐人寻味：“Znojmo”一词源于古斯拉夫语“znój”（意为“汗水”或“劳动”），暗指此地曾是战士们挥汗戍守的哨所。而圆形教堂的拉丁文名称“Rotunda Sanctae Catharinae”直到14世纪才被正式记录，但它的原始用途并非作为公共教堂，而是<strong>大公私人祈祷的密室与王朝权力的视觉宣言</strong>。初建时，其墙壁上便预留了绘制湿壁画的空间，因为谁也不会想到，这片灰泥之下潜藏着欧洲中古政治史最诡异的密码。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1134年：壁画的政治谋略</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">次年，<strong>康拉德一世之孙、摩拉维亚公爵乌尔里希一世（Ulrich I）</strong>委托罗马派来的画师团队在圆形教堂内壁绘制完整壁画。画面并非圣经故事，而是Přemyslid王朝从传说中的祖先<strong>普热米斯尔（Přemysl）</strong>直到当时统治者的完整谱系——这在12世纪的欧洲堪称惊世骇俗：将世俗王权等同于神圣谱系，公然挑战神圣罗马帝国的权威。墙上的每一位人物都手持十字架与权杖，背景中插入虚构的皇室徽章，仿佛在无声宣告：“兹诺伊莫的统治者，与教皇和皇帝平起平坐。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1421年：胡斯战争中的庇护所</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">胡斯战争期间，兹诺伊莫被围。市民将圆形教堂视为最后的精神堡垒，传说城破前夕，一位老妇将圣餐杯藏在圣坛下的地砖中。数月后战后发现，壁画上某位公爵的眼睛处出现一道水渍，形似泪痕，被当地人称为“哭泣的公爵”。这道痕迹至今仍清晰可见，成为朝圣者默思的焦点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>20世纪：修复与震惊学界的发现</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战末期，德军在撤退前试图摧毁城堡，但圆形教堂奇迹般幸存。1947年，捷克修复师约瑟夫·科瓦什（Josef Kovář）在清理灰泥时，偶然发现壁画层下方竟然还有另一层更古老的10世纪壁画残片——画面中是一位正在播种的农民，与Přemysl家族传说中“从犁沟走向王座”的始祖形象完全吻合。这一发现改写了中欧绘画史：原来在宗主权争夺之前，这座圆形教堂的墙壁上早已刻下平民崛起的寓言。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 无名画家：用生命守护王朝图景</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">壁画作者至今不知姓名，但历史学家通过颜料成分推断他来自<strong>雷根斯堡</strong>，是亨利一世皇帝资助的巡游画师。1134年，他在圆形教堂内连续工作七个月，期间发生过一次火灾，画家为抢救未干透的壁画而严重烧伤。他在最后一位人物——<strong>弗拉迪斯拉夫一世（Vladislav I）</strong>——的权杖末端悄悄留下一行小字：“若你不知我名，请记住：我曾是波希米亚尘土的仆人。”这行字在2015年被红外摄影揭示，成为捷克艺术史上的泪点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 大秦·萨拉伍（Daqin Saravu）：被历史遗忘的异域使节</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">16世纪，一位来自中亚的大秦（聂斯托利派基督徒）商人萨拉伍随奥斯曼商队到达兹诺伊莫。他精通波斯、拉丁与古捷克语，曾在圆形教堂外壁的一面墙上用古叙利亚文刻下自己的经历：“我在此朝拜圣凯瑟琳，却看见墙上一位君王的脸庞与我故乡的牧羊人如此相像。”这段铭文在1890年被东方学家阿洛伊斯·穆席尔发现，成为证明泽诺伊莫作为丝绸之路西端终点的关键证据。萨拉伍后来定居当地，他的墓碑至今立于犹太公墓旁，碑文为“一位从东方来到西方寻找星辰的人”。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“午夜披肩”之谣</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从前，兹诺伊莫守夜人每到午夜都会看见圆形教堂的铜门自动滑开一条缝，从中飘出一段褪色的亚麻披肩。传说这是康拉德一世的女儿尤迪塔（Judita）的衣物——她因爱上平民铁匠而被父王囚禁在教堂地下室，每日只能借月光抚弄披肩，向天空诉说思念。后来铁匠战死沙场，尤迪塔在教堂内自缢，披肩便成了幽魂的记号。至今，若有人将一条新的亚麻披肩悬挂在教堂门上过夜，第二天会发现披肩上绣着字母 <strong>“K”</strong>（Konrád的首字母），据说是那位铁匠留下的签名。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每逢满月，老磨坊主酒醉后总会叙述：他曾在井边看见一位披着亚麻巾的女子，面容如灰泥般苍白，手指却细白如新采的石灰。她递给他一捧泥土，说：‘埋在圆形教堂基石下，你的麦子会变得金黄。’” —— 19世纪兹诺伊莫民族志手稿</blockquote>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">兹诺伊莫圆形教堂是欧洲最被低估的中世纪灵魂容器。它用一墙壁画浓缩了Přemyslid王朝的权力野心、外来商人的丝路记忆，以及平民爱情的苦涩诗篇。读懂它，便是读懂中欧历史中那条被遗忘的、交织着神权与凡俗的灰色脉络。这座小小的圆顶下，每一道裂缝都是时间亲自刻下的注脚，值得每一位深度旅行者静静凝视。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/drtinova-rozhledna-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德尔蒂诺瓦观景塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Drtinova rozhledna</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cabske-jezero\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    恰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">恰布斯凯湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cábské Jezero</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/moravian-karst\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    摩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">摩拉维亚喀斯特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Moravian Karst</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "drtinova-rozhledna-history",
+          "name": "德尔蒂诺瓦观景塔",
+          "englishName": "Drtinova rozhledna"
+        },
+        {
+          "slug": "cabske-jezero",
+          "name": "恰布斯凯湖",
+          "englishName": "Cábské Jezero"
+        },
+        {
+          "slug": "moravian-karst",
+          "name": "摩拉维亚喀斯特",
+          "englishName": "Moravian Karst"
+        }
+      ]
+    }
+  ]
+}

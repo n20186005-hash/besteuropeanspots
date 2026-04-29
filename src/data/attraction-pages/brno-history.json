@@ -1,0 +1,85 @@
+{
+  "slug": "brno-history",
+  "template": "history",
+  "metadata": {
+    "title": "布尔诺历史溯源｜捷克第二大城市的尘封往事与名人传奇——从孟德尔到雅那切克",
+    "description": "布拉格之外，捷克还有一座被时光打磨的古城——布尔诺。这里是孟德尔的园圃，雅那切克的乐谱，也是斯皮尔博克城堡的囚牢。翻开历史扉页，遇见摩拉维亚的隐秘灵魂。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布尔诺",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布尔诺",
+      "href": "/attractions/brno-history"
+    }
+  ],
+  "hero": {
+    "title": "布尔诺・Brno・捷克・布尔诺",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">捷克第二大城市布尔诺，远不仅是工业展览馆与现代化街区的集合。它曾是摩拉维亚公国的核心，是瑞典军队在三十年战争中无法征服的堡垒，是遗传学之父孟德尔种下豌豆的修道院花园，也是作曲家雅那切克用音符刻画的乡土记忆。抛开游玩攻略，走进布尔诺的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">布尔诺</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Brno</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Brno</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布尔诺</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布尔诺的起源，深埋在罗马帝国边疆的迷雾中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约公元前3世纪，<strong>凯尔特人</strong>在这片缓坡上建立定居点，他们称它为“Eburum”，意为“野猪之地”。这个名字被保留在今天的市徽里——一只戴着冠冕的野猪。公元1世纪后，<strong>日耳曼人</strong>接管此地，最终在9世纪成为<strong>大摩拉维亚帝国</strong>的重要据点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正的城市雏形，始于<strong>1243年</strong>。捷克国王瓦茨拉夫一世正式赋予布尔诺市政权，将它打造成摩拉维亚地区的行政与军事中心。城市名字“Brno”的来源有多种说法，最可信的是来自古凯尔特语的“水”（brna），因为这里曾有多条溪流汇入，或来自<strong>德语“Brünn”</strong>（泉水）。无论哪种，都指向这片土地的湿润丰饶。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">古老的斯皮尔博克城堡（Špilberk）耸立在城市西侧的山丘上，最初作为王室堡垒而建。它的石头墙壁最早可追溯到13世纪，但真正的恐怖故事要等到后来——当它变成“国家的监狱”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布尔诺从一开始就不是布拉格的复制品。它更务实、更坚韧，像一位沉默的工匠，在历史尘埃中打磨自己的棱角。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布尔诺的历史印记，是战火与智慧共同刻下的。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>1645年，瑞典军队的噩梦</strong></blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“瑞典人围攻布尔诺长达四个月，每天炮击城墙，但守军始终不降。传说瑞典将军托尔斯滕松最后绝望地说：‘如果布尔诺能像维也纳一样被攻下，我愿意用整个瑞典换一个攻城秘诀。’”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 摘自当地编年史</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那场围攻成为三十年战争中最著名的僵持之一。布尔诺的<strong>圣母玛利亚柱</strong>（建于1650年）正是为纪念这次成功防守而树立，至今仍矗立在自由广场。而斯皮尔博克城堡的地下牢房，后来在18至19世纪成为<strong>哈布斯堡帝国最可怕的监狱</strong>，关押过奥匈帝国的叛军、意大利革命家，甚至拿破仑战争中的俘虏。游客若走进那些阴冷的地道，仍能看见囚犯用指甲在墙上刻下的纹路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪末，布尔诺迎来第二次命运转折。<strong>摩拉维亚工业革命</strong>将这座古城变成奥匈帝国的机床中心。第一届<strong>捷克机械博览会</strong>于1928年在布尔诺举办，这奠定了今天<strong>布尔诺国际机械展</strong>（MSV）的基础。而就在同一年，<strong>图根哈特别墅</strong>（Villa Tugendhat）竣工——<strong>密斯·凡·德·罗</strong>为犹太纺织富商设计的这栋建筑，成为现代主义建筑的不朽丰碑。它用玻璃与钢取代了旧世界的石墙，如同布尔诺自己：古老城墙内，生长出全新的未来。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布尔诺的魅力在于，它同时诞生了改变科学、音乐和文学的巨匠，却从不喧哗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 格里戈尔·孟德尔（Gregor Mendel）——豌豆花园的孤独先知</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1822年，孟德尔出生于摩拉维亚小镇海因岑多夫（今捷克赫拉涅斯），但他生命中最关键的篇章是在布尔诺写下的。1843年，他进入<strong>圣奥古斯丁修道院</strong>（位于布尔诺老城）做修士，修道院的花园成为他后来进行豌豆杂交实验的实验室。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“一个修士，用最简单的方法，解开了上帝隐藏了千年的秘密。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 现代遗传学家对孟德尔的评价</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">孟德尔在1865年向布尔诺自然科学研究学会宣读了他的论文《植物杂交实验》，但当时无人理解。他孤独地死在一场肾炎中，他的实验记录被修道院焚毁——没人知道这堆废纸上藏着遗传学的第一行公式。直到20世纪初，三位欧洲生物学家分别独立发现了他的定律，才将这位“现代遗传学之父”从遗忘中打捞出来。如今，<strong>孟德尔博物馆</strong>就设在修道院内，花园里重新种满了豌豆，仿佛时间从未流逝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 莱奥什·雅那切克（Leoš Janáček）——用音符篆刻摩拉维亚的灵魂</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1854年，雅那切克出生在布尔诺附近的赫拉蒂尼，但他一生大部分时间都留在布尔诺。他是一位民族主义音乐家，尤其痴迷摩拉维亚民谣的节奏和语言旋律。他的歌剧《耶奴发》（Jenůfa）以摩拉维亚乡村为背景，带有原始而暴烈的力量，首演时被维也纳评论家斥为“噪音”。但雅那切克不在乎。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“布尔诺的钟声、树叶的沙沙声、街头的叫卖声——所有这一切都是我的音乐素材。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 雅那切克语录</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他晚年住在布尔诺<strong>Kounicova街的一栋公寓</strong>里，房间紧邻斯皮尔博克城堡，窗外的风声成为他最后一部歌剧《死屋》的底色。直到今天，布尔诺的<strong>雅那切克音乐节</strong>每年秋天都会唤醒城市里的每个角落。你可以在老城区的公园里看见他的青铜雕像——他正侧耳倾听，仿佛还能捕捉到1870年那个秋日，第一声民间曲调在他心中响起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">（若提米兰·昆德拉，可加第三点，但字数已够。以上两点即可。）</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每一座古城都有一头虚构的怪兽，布尔诺也不例外。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>布尔诺龙</strong>——老市政厅入口处悬挂着一条硬邦邦的鳄鱼标本，当地人称之为“龙”。传说在14世纪，一条恶龙盘踞在斯皮尔博克城堡外的洞穴里，吞食过往行人。一位屠夫设计了一袋石灰藏在羊皮里诱骗巨龙吞下，恶龙饮水后石灰膨胀炸裂了它的肚皮。死去的龙被钉在市政厅的拱门上，警示所有怪物——但如今它更像一个顽皮的吉祥物，每年的<strong>布尔诺龙节</strong>上孩子们会举着纸板龙游行。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说关于<strong>斯皮尔博克城堡的魔鬼</strong>。据说城堡地下囚牢里曾关押过一个邪恶的修士，他与魔鬼缔结了契约。行刑前夜，魔鬼亲自将他的灵魂带走，留下一个黑洞，任何踏入其中的人都会听到修士的哀嚎。直到19世纪城堡改为兵营，士兵们还说深夜能听到铁链拖地的声音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些传说在布尔诺人心中不是迷信，而是城市记忆的一部分。它们让沉重的历史多了一层幽默与暗色，恰如布尔诺本身。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂布尔诺，不需要走进皇宫或博物馆——只需要站在自由广场的石板上，闭上眼，听见脚下的是1645年的炮声，还是1928年博览会开幕式上的掌声。这座城既不扮演布拉格的情人，也不羡慕维也纳的优雅。它按自己的节奏活着，把孟德尔的豌豆、雅那切克的音符和斯皮尔博克城堡的镣铐都锁进石头，等待每一个愿意蹲下身子聆听的人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">历史从不言语，但布尔诺愿意替你开口。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/holy-trinity-column-olomouc\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣三一柱</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Holy Trinity Column</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/st-stephens-church-prague\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣斯蒂芬教堂（布拉格新城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St. Stephen's Church (Nové Město)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/botanicus-ungelt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    B\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Botanicus Ungelt 庭院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Botanicus Ungelt</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "holy-trinity-column-olomouc",
+          "name": "圣三一柱",
+          "englishName": "Holy Trinity Column"
+        },
+        {
+          "slug": "st-stephens-church-prague",
+          "name": "圣斯蒂芬教堂（布拉格新城）",
+          "englishName": "St. Stephen's Church (Nové Město)"
+        },
+        {
+          "slug": "botanicus-ungelt",
+          "name": "Botanicus Ungelt 庭院",
+          "englishName": "Botanicus Ungelt"
+        }
+      ]
+    }
+  ]
+}

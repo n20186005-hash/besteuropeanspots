@@ -1,0 +1,85 @@
+{
+  "slug": "rozhledna-okrouhla-history",
+  "template": "history",
+  "metadata": {
+    "title": "奥克鲁赫拉瞭望塔历史｜捷克边境山巅的烽火回忆与山林守望者传奇",
+    "description": "探索捷克耶塞尼克山脉中Rozhledna Okrouhlá的尘封往事：从中世纪烽火台到现代观景塔，倾听山林守望者的孤独故事。一个被遗忘的边境传说。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "耶塞尼克（Jeseník）地区",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "奥克鲁赫拉瞭望塔",
+      "href": "/attractions/rozhledna-okrouhla-history"
+    }
+  ],
+  "hero": {
+    "title": "奥克鲁赫拉瞭望塔・Rozhledna Okrouhlá・捷克共和国・耶塞尼克（Jeseník）地区",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在捷克东北部苍莽的耶塞尼克山脉深处，有一座极少被游客提及的观景塔——Rozhledna Okrouhlá。它没有中世纪古堡的尖塔，也没有巴洛克宫殿的镀金，却像一位沉默的哨兵，站在海拔819米的圆形山丘上，俯瞰着波兰边境的森林与河谷。这座2010年才建成的钢结构塔，背后却藏着五百年的烽火、狼烟与守望者的孤独。抛开游玩攻略，走进奥克鲁赫拉塔的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">奥克鲁赫拉瞭望塔</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Rozhledna Okrouhlá</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Rozhledna Okrouhlá</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">耶塞尼克（Jeseník）地区</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥克鲁赫拉（Okrouhlá）在捷克语中意为“圆形”，得名于其所在山丘的浑圆轮廓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第一批定居者是凯尔特人，他们视这座完美的圆形山丘为神圣之地，据说曾在山顶点燃祭火祭祀太阳。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">13世纪，波西米亚王国在此设立边境瞭望哨，利用天然制高点监视通向波兰的商路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1431年</strong>的一份利托韦尔（Litovel）修道院档案中，首次记载了“Okrouhlá”——一座圆形木制瞭望塔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那时，这并非供人赏景的胜地，而是一座与狼群、盗匪和战火相伴的边境岗哨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字本身就是一个地理咒语：圆形的山，圆形的塔，圆形的守望轮回。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到19世纪末，这里仍是边境巡逻队的关键据点，石砌的地基深埋着几个世纪的马蹄声与火枪硝烟。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一枚印记：三十年战争的灰烬</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1618年，波西米亚起义点燃了整个欧洲的战火。奥克鲁赫拉塔所在的边境线成为瑞典军队与哈布斯堡军队拉锯的棋盘。1643年，一支瑞典骑兵小队袭击了瞭望塔，守军在塔内点燃了火药桶，与塔同归于尽。大火烧了三天三夜，木塔彻底坍塌，只剩焦黑的地基。后来巡边员在废墟下挖出17具骸骨，其中一具手中还握着一把融化的十字架。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二枚印记：玛丽亚·特蕾莎的烽火网络</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪中叶，女皇玛丽亚·特蕾莎下令重建边境预警系统。奥克鲁赫拉山丘被选为烽火台节点，与邻近的切拉代纳（Červená hora）峰构成信号链。1756年，七年战争爆发时，一名叫<strong>弗拉基米尔·赫拉霍</strong>（Vladimír Hrach）的守夜人连续七天七夜守在烽火堆旁，双眼被烟熏得几乎失明。他的日记后来被收入当地博物馆，其中一句话让人动容：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“火光升起时，我不是在传递死亡，而是在传递母亲的警告。每个村庄看到火焰就会关门，让男人躲进森林。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三枚印记：冷战铁丝网下的瞭望</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战后，这片区域划入边境禁区，奥克鲁赫拉山丘被改造成秘密监听站。1960年代，捷克斯洛伐克边防军在此架设了无线电天线，监视北约的通信。但士兵们私下称它为“孤独之丘”，因为常驻的小队只有三人，他们轮流爬上临时木架，在风雪中记下每一个异常的电磁信号。如今，混凝土基座和生锈的铁丝网碎片仍散落在灌木丛中，野莓从铁丝的孔洞里长出来，结出鲜红的果实。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 森林诗人：米洛什·德沃夏克（Miloš Dvořák）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">米洛什·德沃夏克（1863–1932）是捷克被遗忘的自然诗人，一生大部分时间在耶塞尼克担任护林员。他从未离开过家乡方圆五十公里，却用六部诗集记录了这片森林的秘密。<strong>奥克鲁赫拉塔</strong>在他笔下反复出现。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每天清晨，他都会爬上山丘，在瞭望台的废墟旁坐下，聆听风穿过云杉的呜咽。1910年，他在第一本诗集《林间痕》中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这座圆形的山丘像一只倒扣的碗，盛满古老的沉默。我在这里听见泥土下的骨骸在翻身，听见凯尔特人祭火的噼啪声。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德沃夏克最著名的轶事与一枚银币相关。1905年，他在废墟中发现了一枚1547年的波西米亚银币，上面有斐迪南一世的头像。他将其视作护身符，缝进帽子。1924年，一位布拉格来的记者采访他，他指着银币说：“这是奥克鲁赫拉的第二个太阳，第一个早被三十年战争的雪埋了。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 最后的守塔人：扬·科热尼（Jan Koření）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">扬·科热尼（1920–1996）是冷战时期奥克鲁赫拉哨所的指挥官，也是最后一位常驻守塔人。他本是一名木匠，1948年边境禁军征召了他，从此在山上住了整整三十年。他的工作看似单调：每天用望远镜观察十公里内的动静，记录任何可疑的光点或声音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但他的故事却充满了人性。1968年苏军入侵捷克斯洛伐克后，他私自拆除了指向西方的天线，转而用它接收自由欧洲电台的信号。每晚，他在昏暗的煤油灯下抄写新闻，用油纸包好，塞进树洞，让第二天上山采蘑菇的村民取走。1975年，哨所裁撤，科热尼拒绝调职，独自留在山丘上，住在木屋里，直到1989年天鹅绒革命。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1993年，一位德国历史学家采访他，他颤抖着拿出一个铁盒，里面装着几十张泛黄的纸条——全是当年他抄写的新闻。他说：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我不是英雄。我只是不想让这座山变得彻底的沉默。如果连回声都没有了，那我们还算活着吗？”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，现代观景塔的楼梯间挂着一块纪念铭牌，上面刻着扬·科热尼的名字，还有他手写的那句话：“让风声替我们说话。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在耶塞尼克山民的口耳相传中，奥克鲁赫拉山丘住着一位“火灵”（Ohniváček）。据说它是凯尔特祭司的魂魄，因守卫祭火而未能升天。每逢<strong>圣维特大教堂钟声</strong>（每年6月15日）敲响的午夜，山顶会凭空升起一团蓝色火焰，在塔基周围游走三圈，然后消失在西北方向的森林中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老辈人说，这团火是守护者的信标——它会让迷路的猎人找到方向，也会让心怀恶念的人头晕目眩，摔进沟壑。20世纪初，有个偷猎者发誓说自己亲眼见过火灵：那是一个没有脸的人影，浑身缠绕着蓝火，朝他扔来一颗冒着烟的松果。他吓得逃回村里，第二天再也不敢踏入那片林子。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更古老的版本则与爱情有关：18世纪时，一名守塔兵的妻子每天黄昏爬上山顶，用燃烧的桦木条向丈夫传递平安的信号。后来丈夫战死，妻子仍继续点燃桦木条，直到眼睛失明。传说每到傍晚，如果仔细看，塔顶会有一缕青烟，那是她永不熄灭的等候。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥克鲁赫拉瞭望塔或许只是一座年轻的钢结构观景台，但它脚下的每一寸土地，都曾被凯尔特的圣火、波西米亚的烽烟、冷战的天线杆烙上印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你爬上螺旋楼梯，在顶层环顾四面无垠的森林时，风里依然有火药味、松脂味和铁锈味交织的气息。这里没有博物馆的玻璃柜，每一块石头都是历史的碎片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座小众目的地，就是在读懂欧洲边境山区的生存史诗：战争、监视、沉默与守望。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">现在，这座塔终于卸下了所有戒备，只留下一个承诺——让每一个登顶的人，都能与过去和解。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/podbrdy-museum-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波德布尔迪博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Podbrdy Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/municipal-house-prague\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    市\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">市民会馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Municipal House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-new-synagogue\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老新犹太会堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old-New Synagogue</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "podbrdy-museum-history",
+          "name": "波德布尔迪博物馆",
+          "englishName": "Podbrdy Museum"
+        },
+        {
+          "slug": "municipal-house-prague",
+          "name": "市民会馆",
+          "englishName": "Municipal House"
+        },
+        {
+          "slug": "old-new-synagogue",
+          "name": "老新犹太会堂",
+          "englishName": "Old-New Synagogue"
+        }
+      ]
+    }
+  ]
+}

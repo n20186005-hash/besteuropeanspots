@@ -1,0 +1,85 @@
+{
+  "slug": "vysehrad-gallery",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "维谢赫拉德画廊 Vysehrad Gallery｜藏身古堡的当代艺术秘境，布拉格最被低估的灵感角落 - 最佳欧洲景点",
+    "description": "从地铁站出来，爬上一段长满青苔的石阶，绕过一座高耸的哥特式城门，空气里的味道就变了。不再是老城广场那种烤面包圈和热红酒的甜腻，而是松针混合着清晨露水的清凉。你要找的那个画廊，就藏在维谢赫拉德城堡的南翼，一座被攀爬玫瑰半掩的米黄色建筑里。门口没有夸张的招牌，只有一块巴掌大的铜牌刻着“Galerie V"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "维谢赫拉德画廊",
+      "href": "/attractions/vysehrad-gallery"
+    }
+  ],
+  "hero": {
+    "title": "维谢赫拉德画廊・Vysehrad Gallery・捷克・布拉格",
+    "description": "从地铁站出来，爬上一段长满青苔的石阶，绕过一座高耸的哥特式城门，空气里的味道就变了。不再是老城广场那种烤面包圈和热红酒的甜腻，而是松针混合着清晨露水的清凉。你要找的那个画廊，就藏在维谢赫拉德城堡的南翼，一座被攀爬玫瑰半掩的米黄色建筑里。门口没有夸张的招牌，只有一块巴掌大的铜牌刻着“Galerie Vyšehrad”，要不是提前查过，很容易一脚踩进旁边的草坪里。推开那扇沉重的铁门，金属铰链发出一种古老的呻吟声，仿佛在提醒你：你已经闯入了时间的褶皱。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">从地铁站出来，爬上一段长满青苔的石阶，绕过一座高耸的哥特式城门，空气里的味道就变了。不再是老城广场那种烤面包圈和热红酒的甜腻，而是松针混合着清晨露水的清凉。你要找的那个画廊，就藏在维谢赫拉德城堡的南翼，一座被攀爬玫瑰半掩的米黄色建筑里。门口没有夸张的招牌，只有一块巴掌大的铜牌刻着“Galerie Vyšehrad”，要不是提前查过，很容易一脚踩进旁边的草坪里。推开那扇沉重的铁门，金属铰链发出一种古老的呻吟声，仿佛在提醒你：你已经闯入了时间的褶皱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">里面是白得发亮的大厅，跟外面粗糙的石头走廊形成强烈反差。阳光从高高的天窗斜斜地洒下来，光柱里可以看到悬浮的微尘，像无数细小的星星在舞蹈。你能听到自己的脚步声在空旷的展厅里回荡，偶尔从隔壁房间传来低沉的人声，那是策展人在跟艺术家讨论什么。墙壁上挂着各种媒介的作品——油画、摄影、甚至用旧衣服拼贴的装置。最有趣的是，画廊的地板中央有一块透明的玻璃，下面露出原始的夯土地基，上面还刻着十七世纪的士兵涂鸦。你蹲下来看那些歪歪扭扭的字母，突然觉得自己和三百年前的某个倒霉守卫产生了跨越时空的连接。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">画廊的尽头是一个小小的阳台，推开门走出去，天啊——整个布拉格尽收眼底。伏尔塔瓦河在这里拐了个弯，像一条银色的丝带缠绕着老城红色的屋顶，远处的圣维特教堂尖顶在雾霭中若隐若现。阳台的铁栏杆上挂着一把把生了绣的锁，都是相爱的游客留下的誓言。风从河面上吹过来，带着湿润的泥土气息和远处电车叮当的声音。你靠在栏杆上，手里的咖啡冒着热气，脑子里还在回味刚才那幅抽象画里扭曲的人脸。这就是维谢赫拉德画廊最迷人的地方——它不仅是看画的地方，更是一个让你同时触摸到千年的石头、当代的思考、以及脚下这座城市心跳的立体剧场。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">维谢赫拉德画廊</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Vysehrad Gallery</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Vysehrad Gallery</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">维谢赫拉德是布拉格两大古堡之一，也是捷克民族传说的发源地，而藏身其中的画廊则是当代艺术与千年历史对话的奇妙空间。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">画廊本身是一座十九世纪新文艺复兴风格的堡垒式建筑，厚实的花岗岩墙体和拱形穹顶让人仿佛走进了一座坚不可摧的地下城，而内部纯白色的展墙和极简灯光又将古老的空间转化为纯净的艺术容器。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">新文艺复兴与工业遗存混搭，既有古典的对称柱廊与山花，又保留了原来弹药库的粗犷砖结构。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">作为布拉格当代艺术的重要驻留项目据点，这里每年举办六到八场国际艺术家个展，是探索中欧实验艺术的前沿窗口，同时也承载着捷克人对民族起源的集体记忆。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">画廊通常从四月到十月每天上午十点开放至下午六点，十一月至三月则缩短为上午十点至下午四点，周一固定闭馆。不过要注意，维谢赫拉德城堡区域本身没有闭馆日，但画廊内部的展览可能会在重大节日（如圣诞节、复活节）临时关闭，建议出发前在官网查看当月安排。此外，夏季有时会延长至晚上八点，配合城堡的露天音乐会。抵达后先到城堡主入口的信息亭确认当天是否因为私人活动而暂停参观。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">成人票120捷克克朗，学生和65岁以上老人可享受半价优惠，六岁以下儿童免费。家庭票（两大人加最多三个小孩）为250克朗。如果购买了维谢赫拉德城堡的通票（包含教堂、墓地和画廊），则只需200克朗，非常划算。注意画廊只接受现金和捷克本地银行卡，不接收欧元，门口也没有ATM，最好提前在布拉格市区换好克朗。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">V Pevnosti 159/5b, 128 00 Praha 2-Vyšehrad, Czech Republic</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从布拉格中心火车站（Hlavní nádraží）乘坐地铁C线到Vyšehrad站，出站后步行约十分钟，沿着上坡的石板路穿过维谢赫拉德城堡的南门即可。如果从查理大桥出发，可以乘坐有轨电车2、7、18、24路到Ostrčilovo náměstí站，再往南走八分钟，走过一片安静的居民区就会看到城堡的围墙。自驾的话，城堡南侧有收费停车场，但车位很少，建议停在附近的街道上（注意蓝色区域需要购买停车券）。从布拉格机场出发，坐巴士119路到Nádraží Veleslavín换乘地铁A线到Muzeum，再换乘C线到Vyšehrad，全程大约五十分钟。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">说起义勇军画廊，得从维谢赫拉德城堡本身讲起。这个名字在捷克语里就是“高堡”的意思，它的历史比布拉格城堡还要早上几百年。传说九世纪时，捷克民族的传奇女领主莉布谢（Libuše）站在这里俯瞰伏尔塔瓦河，预言了布拉格的诞生。从那以后，这里就成了历代波西米亚君主的驻地，直到十二世纪普热米斯尔王朝迁往对面的布拉格城堡。想想看，当老城广场还在沼泽里打瞌睡的时候，维谢赫拉德已经响起了国王的号角声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了十八世纪，哈布斯堡王朝把这里改造成了一座军事要塞。厚实的城墙、隐蔽的弹药库、地下迷宫般的通道——画廊现在的展厅原来就是一座军火库，专门保存火药和炮弹。走在那些拱形房间里，你还能看到墙上残留的挂钩和铁环，当年士兵们就在这里搬运沉重的弹药箱，汗水混着硝烟的味道弥漫了一百多年。二战期间，纳粹占领布拉格，这座军火库被德国国防军接管，变成了他们存放军用物资的仓库。战后，共产主义政权把它废弃了一段时间，直到二十世纪五十年代，城堡的主体建筑才被改造成文化场所。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">画廊这个概念正式诞生于1980年代，当时一群布拉格的前卫艺术家被允许使用这个空间做临时展览。你可能想象不到，在铁幕笼罩的年代，这里竟然成了一个对抗审查的地下艺术窝点。画家们用抽象的方式隐喻社会的压抑，雕塑家把失败的社会主义标志性符号熔解重新铸造。有一次，一个艺术家在展厅正中央挂了一个巨大的空鸟笼，地上撒满了撕碎的土豆——那个展览只开了三天就被当局叫停了，维谢赫拉德的画廊立刻上了文化部的黑名单。但后来，那些偷偷溜进来参观的学生们至今还记得那个鸟笼在穿堂风里轻轻摇晃的样子，它比任何革命口号都更有力量。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1989年天鹅绒革命之后，画廊被正式纳入维谢赫拉德城堡的管理体系，变成了一个专业的当代艺术机构。它保留了那种桀骜不驯的底色，但同时也引进了国际策展机制。每到夏天，这里还会举办驻留项目，邀请世界各地的艺术家住在城堡北翼的老房子里，每天喝啤酒、争论观念、在河边散步，最后在画廊里交出作品。所以你现在看到的每一个展览，都带着布拉格初夏的风、伏尔塔瓦河的水气、还有那发酵了千年的历史酵母。那些画挂在墙上，就像刚刚从这片土地里长出来的一样，带着泥土的温度和棱角。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  最理想的游览时间是上午十点画廊刚开门就进去，这时候光线最温柔，游客也极少，你可以像包场一样跟作品独处。整体耗时建议两小时左右——不要急匆匆看完展厅就走，一定要留出二十分钟在阳台的咖啡座发呆。节奏上，先花四十分钟慢慢看完一楼的主展区，再花二十分钟探索地下层的永久装置，然后到阳台上坐一坐，最后绕着城堡外墙走一圈，看看那些隐藏在小角落里的户外雕塑。这样安排是因为画廊本身不大，但它和整个古堡的环境是一体的，你需要把目光从画上移开，去感受空间和气场的对话。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>穿一双最舒服的平底鞋，因为城堡区域全是凹凸不平的石板路和斜坡，高跟鞋会害你摔跤。周末下午会有很多拍婚纱照的新人，他们会长时间霸占阳台，尽量避开。如果遇到画廊临时闭馆办私人活动，别沮丧——隔壁的圣伯多禄保罗教堂同样有精彩的壁画，你可以把时间挪到那里。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">推开铁门后先在门厅的导览台拿一份英文展册，上面有策展人的手写批注，能帮你读懂那些摸不着头脑的作品</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">顺着展厅逆时针走，第一间通常是黑白摄影或版画，适合静下心来理解展览主题</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">走到地下一层时蹲下来观察那块透明地板下的古代涂鸦，用手机手电筒照一下能看到更多细节</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">从地下层返回后推开阳台铁门，在阳台的铸铁长椅上坐五分钟，什么都不看，只闭上眼睛听风穿过树叶和远处游船划水的声音</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">回到室内后不要急着离开，绕到建筑南侧的小花园，那里常年放置着一位捷克雕塑家的金属装置，会随着风向改变形状</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">最后在门口的小商店里翻一翻艺术家的独立出版物，说不定能淘到全布拉格唯一的版画海报</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 阳台左侧的铸铁栏杆旁</h4>\n                  <p class=\"text-sm text-gray-700\">下午四点半左右，斜阳把对面教堂的尖顶影子投射在栏杆上，以远处红色的屋顶作为背景拍一张人像，你会发现自己和整座古城合为一体</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 地下层的透明地板</h4>\n                  <p class=\"text-sm text-gray-700\">手机放在地上，用超广角仰拍玻璃下的涂鸦，同时反射出自己弯腰的影子，制造一种时空重叠的错觉</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 展厅尽头的白色长凳</h4>\n                  <p class=\"text-sm text-gray-700\">正午光线从天窗直射下来，坐在这条长凳上，让光在你脸上形成一半亮一半暗的轮廓，就像当年卡拉瓦乔画里的效果</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 南侧花园的金属装置</h4>\n                  <p class=\"text-sm text-gray-700\">走到装置的正下方，从低角度仰拍它和蓝天形成的几何构图，等待风吹动它的瞬间按下快门</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 室内展厅严禁使用闪光灯和自拍杆，很多作品对紫外光敏感，请务必关闭手机的自动HDR。阳台上可以随意拍，但不要打扰旁边喝咖啡的人。如果你想要拍摄墙壁上的原始石材纹理，最好在清晨或傍晚用自然光，中午的强光会把石头拍成一片死白。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">预算之选</h4>\n                  <p class=\"text-sm text-blue-800\">维谢赫拉德城堡内部的青年旅舍“Hostel High Castle”，由老军营改造，四人间床位只要三百克朗一宿，早上被教堂的钟声叫醒，推开窗就是城堡的晨雾</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">城堡山脚下那条叫“Vratislavova”的小街上有一间私人公寓出租，房东是一对退休的画家夫妇，房间里挂满他们的作品，每天早上会给你手作果酱面包和现磨咖啡</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-yellow-800\">距离画廊步行十二分钟的“马萨里克酒店”是一家列入文化保护名录的新艺术风格酒店，套房的墙上贴着丝绸壁纸，拉开窗帘就能看到维谢赫拉德的城墙轮廓在月光下发光</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">维谢赫拉德区域非常安静，夜晚几乎没有夜生活和商业喧嚣，治安极好。如果你打算住公寓，一定要提前三天联系房东，因为他们多半不会自动给你开门密码。预订时注意避开五月（音乐节期间房间至少翻倍）和十一月（画廊闭展整修，几乎所有周边小店都关门）。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">我离开画廊的时候，天已经暗下来了。城堡的灯陆续亮起，昏黄的灯光把古老的墙壁染成蜜糖的颜色。我坐在城墙边一条无人的长凳上，看着伏尔塔瓦河上的游船来回穿梭，船上的音乐声和水声混在一起飘过来。突然觉得，这个藏在军事堡垒里的白色盒子，就像布拉格这个城市的一个秘密心脏——它既连接着千年前的传说，又保持着对当下最敏感的回应。那些画你可能会忘记，但那个阳台上的风、那束穿过天窗打在石板上的光、那块玻璃下士兵的涂鸦，会一直留在你身体里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这样一个信息爆炸、网红景点铺天盖地的时代，维谢赫拉德画廊确实太容易被忽略了。大部分人来到布拉格都直奔查理大桥和布拉格城堡，没有人愿意多坐两站地铁绕到南边来。但正是这种被遗忘，让它保持了一种珍贵的气质——你必须专门为它而来，带着好奇心，带着空白的头脑。当你站在那些当代作品面前，又透过窗户看到千年不变的城墙，你会突然理解什么叫“时间的厚度”。它不是博物馆里玻璃后的陈列品，而是一个活着的、呼吸着的、和你一样的生命体。如果你也厌倦了那种打卡、拍照、离开的旅行，那就来这里，安静地坐一个下午。这座城堡和这个画廊，会给你一个答案。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/strahov-monastery-brewery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特拉霍夫修道院啤酒厂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Strahov Monastery Brewery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mala-chuchle-zoo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    小\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">小胡赫勒动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Malá Chuchle Zoo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/free-walking-tour-prague\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布拉格免费步行导览游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Free Walking Tour Prague</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "strahov-monastery-brewery",
+          "name": "斯特拉霍夫修道院啤酒厂",
+          "englishName": "Strahov Monastery Brewery"
+        },
+        {
+          "slug": "mala-chuchle-zoo",
+          "name": "小胡赫勒动物园",
+          "englishName": "Malá Chuchle Zoo"
+        },
+        {
+          "slug": "free-walking-tour-prague",
+          "name": "布拉格免费步行导览游",
+          "englishName": "Free Walking Tour Prague"
+        }
+      ]
+    }
+  ]
+}

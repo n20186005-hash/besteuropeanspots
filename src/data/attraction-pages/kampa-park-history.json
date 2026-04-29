@@ -1,0 +1,85 @@
+{
+  "slug": "kampa-park-history",
+  "template": "history",
+  "metadata": {
+    "title": "坎帕公园历史溯源｜布拉格小众秘境的前世今生与名人传奇",
+    "description": "避开查理大桥的人潮，深入伏尔塔瓦河上的宁静绿洲——坎帕公园。这里曾是中世纪的水磨坊聚集地，是文学巨匠的灵感源泉，更是天鹅与童话栖息的秘境。走进坎帕公园的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "坎帕公园",
+      "href": "/attractions/kampa-park-history"
+    }
+  ],
+  "hero": {
+    "title": "坎帕公园・Kampa Park・捷克・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在布拉格喧嚣的心脏地带，伏尔塔瓦河左岸，藏着一座被河水环抱的静谧绿洲——坎帕公园。它不像查理大桥那般游人如织，却见证了这座城市最私密的眼泪与欢笑。这里曾是洗衣妇的领地、磨坊主们的战场，也是现代艺术家与政治流亡者的避风港。抛开游玩攻略，走进坎帕公园的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">坎帕公园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Kampa Park</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Kampa Park</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">坎帕公园并非天然形成。它的母体是<strong>坎帕岛</strong>，伏尔塔瓦河在流经布拉格小城区时，特意分出一条支流——“魔鬼运河”，将一块陆地与城市母体割裂开来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这片土地的起源与<strong>水</strong>密不可分。早在中世纪，这里就被开辟为<strong>磨坊区</strong>。无数水磨坊沿着魔鬼运河的岸边依次排开，日夜不停地转动，为老城和小城的面包坊供应面粉。轰鸣的水声和磨坊的石碾声，是这里最初的乐章。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到19世纪，这里依然是“穷人的乐园”。洗衣妇们在河岸边搭起晾衣绳，把洗好的衣物像万国旗一样挂满河滩。而公园真正作为公共休闲场所的诞生，要归功于<strong>19世纪末的城市扩建</strong>。当时的布拉格市政府决心将这片混乱的磨坊区，改造为一个供市民休憩的公共花园。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字的由来也颇为浪漫。“Kampa”一词据传源于捷克语“kampa”（意为帐篷或营地），因为在中世纪，这里曾是十字军东征时驻扎的临时营地。但也有一种说法，它来自古高地德语“kamp”，意为圈起来的田地或竞技场。无论何种起源，它从一开始就带有一种<strong>流动</strong>与<strong>边界</strong>的属性。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">坎帕公园的历史，是一部被水浸润的史诗。<strong>魔鬼运河</strong>是其中永恒的旋律。这条人工开凿的运河，是布拉格这座“百塔之城”隐藏的水利工程杰作。它不仅为磨坊提供了动力，还参与构成了城市的排水与防御体系。走在运河边，能听见水声击打古老的堤岸。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公园的中心地带，曾经矗立着一座名为<strong>索菲亚宫</strong>的宏伟新文艺复兴风格建筑，建于1884年，专为举办盛大的舞会和公共集会而建。<strong>1945年</strong>，布拉格起义的硝烟中，索菲亚宫在德军的炮火下化为废墟，战后只留下一片焦土。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“对于许多布拉格人来说，索菲亚宫的倒塌，比任何政权的更迭都更令人心碎。那是我们告别优雅黄金时代的丧钟。” —— 捷克历史学家伊日·赫拉巴尔的回忆录片段</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">之后，这片废墟没有被重建为宏伟的建筑，而是被改造为一座<strong>现代艺术展馆</strong>。如今被称作“索菲亚宫殿广场”的地方，成为年轻人滑板、集会与举办临时展览的公共场域。旧时的华丽转世为当下的自由。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个深刻的印记，是公园内那座著名的<strong>哭泣的男人雕像</strong>。这座由雕塑家大卫·切尔尼创作的现代艺术作品，将一个光着身子的成年男子悬吊在离地面仅几米高的地方，仿佛在无声地哭泣和控诉。它被解读为对布拉格复杂历史——被占领、被背叛、又被重新定义——的集体情感宣泄。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公园里还保留着一段<strong>11世纪的罗马式围墙</strong>。这段不起眼的石墙，曾经是布拉格城堡外围防御工事的一部分。它沉默地见证了从神圣罗马帝国到哈布斯堡王朝的千年风云。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">坎帕公园的魅力，很大程度上来自那些曾在此居住和迷失的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 扬·韦里希：一位住在“水上”的戏剧大师</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">首先必须提及的是捷克戏剧界泰斗——<strong>扬·韦里希</strong>。他是20世纪捷克先锋派戏剧“解放剧院”的创始人之一，一位集演员、剧作家、诗人于一身的才子。二战期间，纳粹占领捷克，韦里希被迫离开剧院，他选择隐居在坎帕岛上一栋临河的旧公寓楼里。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“在这里，我听不见盖世太保皮靴敲击石板路的声音。只有天鹅在窗下的河面上划水，以及磨坊水轮的低语。这救了我。” —— 扬·韦里希日记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在坎帕的住所，成了战后捷克文学界和戏剧界的地下沙龙。<strong>哈维尔</strong>、<strong>米兰·昆德拉</strong>等后来的文坛巨匠都曾是他的座上宾。韦里希在坎帕的阳台上，对着河对岸的城堡和圣维特大教堂的尖顶，写出了许多充满智慧和黑色幽默的作品。如今，他的故居大门上挂着铭牌，游客常常能在河岸边找到他钟爱的长椅，上面刻着他的名字。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 弗拉基米尔·霍兰：在静谧中吟唱的诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说韦里希是坎帕的灵魂，那么诗人<strong>弗拉基米尔·霍兰</strong>就是坎帕的耳语者。霍兰是战后捷克最具哲学深度的诗人之一，他的诗歌晦涩、内省，充满存在主义的孤独感。他同样选择定居在坎帕岛，在一栋16世纪的磨坊旧宅里度过了余生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他声称，唯有魔鬼运河潺潺的水声和水鸟的鸣叫，能让他平和地思考。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我的诗行是水做的。它们从坎帕的石头间渗出来，然后汇入那条不知名的小溪，最终沉默地流入伏尔塔瓦河。” —— 弗拉基米尔·霍兰《诗人的自白》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">霍兰在坎帕公园的散步，直接影响了他的代表作《凯恩斯》的创作。公园里的一棵古树、一条石凳、一群野鸭，都成为他笔下反复吟咏的意象。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 天鹅与老人：一种城市的共生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">除此之外，坎帕公园还有一个特殊的传奇——<strong>养天鹅的老人</strong>。当地人称他为“坎帕的天鹅爸爸”。几十年来，一位不知名的老人每天准时出现在河边，用面包喂养成群的天鹅和鸭子。他从不说话，只默默地看着这些生灵从水中叼起食物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当2015年老人去世后，人们发现，他其实是一位退休的<strong>捷克国家剧院舞台设计师</strong>。他在坎帕的河畔，为自己设计了一个没有观众，却有无数天鹅旁观的人生舞台。如今，当地居民自发延续了这个传统，坎帕的天鹅群也成为了布拉格最温柔的城市文化符号。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">坎帕岛流传最广的传说，与<strong>魔鬼运河</strong>本身有关。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传，在中世纪，一位贪婪的磨坊主为了获得更多的水力，偷偷找来了撒旦。他承诺以自己的灵魂作为交换，让撒旦在一夜之间为他开凿一条连接伏尔塔瓦河的支流。撒旦欣然应允，他挥舞着巨锤，砸开岩石，河水奔腾涌入。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">天快亮时，磨坊主发现，这条运河不仅冲毁了他的磨坊，还淹没了整个街区。愤怒的市民将磨坊主吊死在河边的树上，而魔鬼则大笑着消失在水花中。从此，运河就被称为“魔鬼运河”。每到满月之夜，据说你能听见磨坊主灵魂的哀嚎和魔鬼的笑声在水面回荡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说是关于公园里的<strong>水精灵</strong>。当地人相信，在魔鬼运河最深处的暗流中，住着一位水精灵。他会在月圆之夜化作英俊的青年，诱惑在河边散步的少女。如果少女应允了他的求婚，就会被他拖入水底，永远地成为水底宫殿的居民。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“布拉格的少女们知道，当坎帕公园的玫瑰在夜晚发出异香时，那就是水精灵在岸边梳头。千万别回头去看，否则你就会被那双翠绿色的眼睛吸走魂魄。” —— 布拉格民间故事集《河岸之书》</blockquote>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂坎帕公园，就是读懂了布拉格这座城市的另一面——它不止有城堡和教堂的辉煌，更有河岸边的静谧与柔软。在这里，历史的重量被流水稀释，留给后人的不是厚重的石头，而是天鹅的翅膀与诗人的叹息。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>坎帕公园</strong>不仅仅是一座公园。它是磨坊主的战场，是诗人的避难所，是戏剧家的客厅，也是普通市民与动物和谐共处的精神角落。在这里，你能听见历史真正的呼吸——它不轰轰烈烈，却始终潺潺流动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/namesti-sigmunda-freuda\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西格蒙德·弗洛伊德广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Náměstí Sigmunda Freuda</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cloak-bridge-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斗篷桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cloak Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dinopark-ostrava\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪诺公园奥斯特拉瓦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">DinoPark Ostrava</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "namesti-sigmunda-freuda",
+          "name": "西格蒙德·弗洛伊德广场",
+          "englishName": "Náměstí Sigmunda Freuda"
+        },
+        {
+          "slug": "cloak-bridge-history",
+          "name": "斗篷桥",
+          "englishName": "Cloak Bridge"
+        },
+        {
+          "slug": "dinopark-ostrava",
+          "name": "迪诺公园奥斯特拉瓦",
+          "englishName": "DinoPark Ostrava"
+        }
+      ]
+    }
+  ]
+}

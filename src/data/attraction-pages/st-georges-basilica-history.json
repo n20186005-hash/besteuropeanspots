@@ -1,0 +1,85 @@
+{
+  "slug": "st-georges-basilica-history",
+  "template": "history",
+  "metadata": {
+    "title": "圣乔治大殿历史溯源｜布拉格城堡内最古老的教堂与波西米亚公爵的传奇",
+    "description": "走进布拉格城堡内最古老的罗马式教堂——圣乔治大殿。追溯10世纪波西米亚王朝的信仰中心，聆听圣乔治屠龙的传说与皇室轶事。抛开攻略，探寻这座千年石砌殿堂的前世今生。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "圣乔治大殿",
+      "href": "/attractions/st-georges-basilica-history"
+    }
+  ],
+  "hero": {
+    "title": "圣乔治大殿・St. George's Basilica・捷克・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在布拉格城堡鳞次栉比的宏伟建筑中，圣乔治大殿如同一座沉默的时光容器。它始建于公元920年，是波西米亚最早的罗马式教堂之一，也是普热米斯尔王朝的信仰象征。抛开游玩攻略，走进圣乔治大殿的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">圣乔治大殿</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">St. George&#39;s Basilica</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">St. George&#39;s Basilica</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布拉格的起源与普热米斯尔王朝密不可分。传说公元7世纪，莉布丝公主预言了这座城市的辉煌。但真正让布拉格成为中心的是9世纪建立的<strong>布拉格城堡</strong>。而圣乔治大殿正是城堡内最早的石砌教堂之一，由波西米亚公爵<strong>弗拉季斯拉夫一世</strong>于920年下令建造，奉献给<strong>圣乔治</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座教堂的名字来源于那位屠龙的骑兵圣人——<strong>圣乔治</strong>。在中世纪欧洲，他的形象是骑士精神的化身。选择他作为主保圣徒，透露出普热米斯尔家族渴望以基督教标榜正统、巩固权力的野心。当时的波西米亚刚刚完成基督教化，教堂的每一块石头都浸透着信仰与政治的双重基因。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据《波西米亚编年史》记载：“公爵弗拉季斯拉夫于920年奠基，未及目睹礼拜堂的落成便辞世。其子瓦茨拉夫一世继承父志，完成了这座献给圣乔治的大殿。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">教堂的选址也极具象征意义——紧邻城堡的中心，与后来兴建的圣维特主教座堂遥相呼应。它不仅是祈祷的场所，更是早期王朝权力的视觉宣言。名字中的“巴西利卡”源自希腊语“王者之厅”，暗示着这里曾是公爵加冕和举行仪式的圣地。经历了千年风雨，如今它仍以最朴素的罗马式面貌，诉说着布拉格从边陲要塞到欧洲中心的蜕变。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣乔治大殿的历史是一部交织着火焰、重建与信仰的故事。第一场重大灾难发生在<strong>1142年</strong>，一场大火几乎吞噬了整座教堂。随后，波西米亚公爵<strong>索别斯拉夫一世</strong>下令大规模重建，将其改造为双塔罗马式巴西利卡——那对粗犷的石塔从此成为城堡天际线中沉默的守护者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个深刻印记是<strong>14世纪的巴洛克化改造</strong>。彼时耶稣会接管了毗邻的圣乔治女修道院，教堂内部被覆上繁复的灰泥装饰和壁画。然而20世纪初的修复团队刻意剥离了这些后加的脂粉，恢复了罗马式的质朴——这使得游客能同时看到两种年代的交错，如同在石墙上阅读一部建筑史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最令人唏嘘的遗迹是教堂东侧的<strong>圣乔治女修道院</strong>（Bazilika sv. Jiří）。它是波西米亚最古老的修女院，由圣卢德米拉的孙女创建，曾在胡斯战争期间沦为废墟，后来成为国家美术馆分馆，收藏中世纪波西米亚绘画。修道院的地下室至今保留着11世纪的墓穴，普热米斯尔王朝多位成员长眠于此。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">二战期间，当布拉格城堡被纳粹占领时，圣乔治大殿奇迹般地幸免于炮火。一位老修士在日记中写道：“炮弹在离我们只有几米远的地方落下，但石墙纹丝不动。圣乔治的盾牌保护了我们。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，当你站在大殿的中央，抬头望向那简朴的半圆形后殿，能看见原始壁画的残片——那是<strong>12世纪</strong>留下的《基督受难图》，颜色已剥落如落叶，却比任何修复品更具冲击力。这些历史印记让圣乔治大殿成为一座活着的博物馆，而非冰冷的遗迹。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>弗拉季斯拉夫一世 —— 未竟的奠基者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公公元9世纪末，基督教刚在波西米亚站稳脚跟，弗拉季斯拉夫一世决定在城堡内建造一座石砌教堂。他选择了圣乔治作为主保，希望以此取代古老的异教崇拜。然而工程刚刚开始，他便撒手人寰。他的儿子——后来被称为“好王瓦茨拉夫”的<strong>瓦茨拉夫一世</strong>（圣瓦茨拉夫）——接过了父亲的遗志。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说瓦茨拉夫在施工期间每日亲自搬运石块，以示虔诚。教堂落成后，他将母亲<strong>德拉霍米拉</strong>的异教倾向彻底扭转，并在大殿内举行了隆重的弥撒。弗拉季斯拉夫一世虽未亲眼看到圣乔治大殿完成，但他却成为普热米斯尔王朝第一个以基督教方式安葬的君主——遗体就停放在他亲手奠基的教堂西侧。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣卢德米拉 —— 奶奶的殉道与圣物</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说弗拉季斯拉夫是建造者，那么<strong>圣卢德米拉</strong>则是这座教堂的灵魂。她是瓦茨拉夫一世的祖母，也是波西米亚第一位基督教殉道者。公元921年，她在异教徒的阴谋下被丝巾勒死，遗体最初就安葬在圣乔治大殿的东北角。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">编年史家科斯马斯记述：“卢德米拉的身体在墓中散发异香，凡触摸石棺的病人皆得痊愈。人们开始向这位奶奶祈祷，很快她便被称为圣人。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她的圣物在中世纪吸引了无数朝圣者，使得圣乔治大殿成为波西米亚最早的朝圣地之一。如今，她的雕像立在教堂入口处，手中握着一卷经文和一条象征殉道的丝巾。每年9月16日，教会仍在这座大殿举行纪念弥撒，延续着千年传统。而她的故事，也通过哥特式画作被保存在大殿的侧廊里，无声地见证着信仰的残酷与温柔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>当代名人 —— 修复者的执着</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">20世纪初，当考古学家<strong>卡雷尔·福尔</strong>（Karel Fiala）主持修复圣乔治大殿时，他做了一个大胆的决定：拆除所有巴洛克装饰，还原罗马式原貌。这一举动在当时引发了巨大争议，但最终留下了独一无二的历史剖面。福尔曾说：“时间剥落的部分，恰恰是这座建筑最诚实的地方。”如今，游客看到那些裸露的石头和未经修饰的拱顶，正是这位固执学者与时代对抗的遗产。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于圣乔治大殿，最著名的传说与<strong>屠龙</strong>有关。据说在教堂建造之初，城堡山下伏尔塔瓦河畔出现了一条毒龙，每天索要童女为食。公爵弗拉季斯拉夫一世焦头烂额之际，梦见圣乔治骑马降临，用长枪刺穿龙喉。第二天，工人们在挖掘地基时，竟发现了一块形如龙首的巨石。公爵大喜，命人将巨石雕刻成龙形，镶嵌在教堂正门的上方。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“自此，每当风吹过龙口，便会发出低沉的嘶吼，警告恶龙的后裔不得靠近。直到17世纪，牧师建议拆除龙雕以消噪音，但老妇人们坚持认为那声音能驱散瘟疫。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说则关联着<strong>地下密室</strong>。民间坚信在教堂祭坛下方藏有普热米斯尔王朝的密宝藏匿处，只有手持圣乔治佩剑的人才能打开。据说二战期间，一名德国军官试图撬开墓穴的地砖，结果整座教堂的钟突然轰鸣不止，吓得他仓皇逃离。至今，这座密室仍未被完全发掘，成为布拉格城堡中未解之谜。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣乔治的节日</strong>也是当地独特的传统。每年4月的圣乔治日，城堡区的孩子们会穿骑士铠甲游行，在教堂广场前表演屠龙木偶戏。而老城的面包房会烤制一种名为“圣乔治之靴”的甜点，外形酷似马蹄铁，寓意驱邪。这些习俗虽已融入现代生活，却仍散发着中世纪的人文温度。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣乔治大殿是布拉格城堡中少数未被游客洪流淹没的宁静角落。它没有圣维特主教座堂的炫目彩窗，却用最朴素的罗马式拱廊承载着波西米亚民族最早的信仰心跳。在这里，每一块风化砂岩都记录着普热米斯尔王朝的挣扎与荣耀，每一处壁画残片都是中世纪信仰的独白。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座大殿，如同翻开一部石质的编年史。当你站在双塔下仰望，想象中的火焰、重建和祈祷声会穿过千年，在光影交错的回廊里复活。它提醒我们：真正的小众秘境，往往不是地理上的遥远，而是时间深处的厚重。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/frydecke-namesti-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗里代克广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Frýdecké náměstí</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/helfstyn-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波尔卡斯特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Helfštýn Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/daliborka\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    达\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">达利博尔卡塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Daliborka</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "frydecke-namesti-history",
+          "name": "弗里代克广场",
+          "englishName": "Frýdecké náměstí"
+        },
+        {
+          "slug": "helfstyn-castle-history",
+          "name": "波尔卡斯特城堡",
+          "englishName": "Helfštýn Castle"
+        },
+        {
+          "slug": "daliborka",
+          "name": "达利博尔卡塔",
+          "englishName": "Daliborka"
+        }
+      ]
+    }
+  ]
+}

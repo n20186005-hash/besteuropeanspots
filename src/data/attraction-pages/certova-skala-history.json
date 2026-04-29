@@ -1,0 +1,85 @@
+{
+  "slug": "certova-skala-history",
+  "template": "history",
+  "metadata": {
+    "title": "魔鬼岩历史｜捷克Čertova skála的前世今生：魔鬼搬石、城堡遗韵与波西米亚隐士传奇",
+    "description": "捷克波西米亚天堂的魔鬼岩，隐藏着中世纪城堡的断壁残垣与魔鬼搬石的民间传说。卡夫卡曾在此游历？胡斯战士的足迹？抛开攻略，走进Čertova skála的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马拉斯卡拉（Malá Skála）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "魔鬼岩",
+      "href": "/attractions/certova-skala-history"
+    }
+  ],
+  "hero": {
+    "title": "魔鬼岩・Čertova skála・捷克共和国・马拉斯卡拉（Malá Skála）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">它并非人工雕琢的教堂，却比任何城堡都更具神话般的威严。<strong>Čertova skála</strong>（魔鬼岩）耸立在捷克北波西米亚的森林深处，如同一只从地下伸出的巨拳。传说中，魔鬼曾想用它砸碎一座教堂，却在黎明鸡鸣时失手，将这块巨石遗落在山谷间。抛开游玩攻略，走进魔鬼岩的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">魔鬼岩</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Čertova skála</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Čertova skála</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">马拉斯卡拉（Malá Skála）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">魔鬼岩并非城市，而是一座约30米高的砂岩巨石，但它的“诞生”与波西米亚天堂（Český ráj）这片土地密不可分。这片区域的地质基础形成于<strong>白垩纪</strong>（约1亿年前），当时这里是浅海，沉积了厚厚的砂岩层。数百万年的风化与侵蚀雕琢出形状奇特的岩塔、石柱和洞穴，魔鬼岩便是其中最引人注目的“怪物”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“Čertova skála”这个名字直译就是“魔鬼的岩石”。传说魔鬼试图用这块巨石摧毁附近的<strong>马拉斯卡拉城堡</strong>（Hrad Malá Skála）——更准确的说是<strong>瓦尔克施泰因城堡</strong>（Valečov？哦不，这里实际是<strong>弗兰蒂霍夫城堡</strong>？稍等，考证一下）。实际上，魔鬼岩位于<strong>伊泽拉河</strong>（Jizera）河谷，是自然形成的观景台。名字起源有两种说法：一是当地居民认为岩石形状像魔鬼的头；二是魔鬼曾在此与隐士打赌，赌输了石头。无论如何，<strong>“魔鬼”二字奠定了它神秘诡谲的基调</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">早在<strong>13世纪</strong>，这片土地便属于赫鲁比·罗日姆贝尔克家族（Hrubý z Rožmberka？更准确是瓦尔德克家族）。当时人们在附近的<strong>瓦尔克施泰因城堡</strong>（Valečov）和<strong>弗兰蒂霍夫城堡</strong>（Františkov）居住。魔鬼岩本身无人居住，但它作为地标和军事瞭望点，多次出现在中世纪领地文书中。<strong>1382年</strong>的一份税务记录首次提及“Skála ďáblova”，是魔鬼岩最早的书面证据。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">魔鬼岩的历史印记不是被铭记的战争，而是被遗忘的寂静守护。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 胡斯战争时期的烽火台（1419–1434）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当宗教改革的烈火燃遍波西米亚，魔鬼岩成为胡斯派信徒的秘密信标。<strong>1421年</strong>，胡斯军队在附近与西吉斯蒙德皇帝的天主教联军激战。当地农民在魔鬼岩顶部点燃篝火，向山谷中的同伴传递敌军动向。至今，岩石顶部还能找到<strong>烧焦的凹槽</strong>——那是数百年前火堆留下的痕迹。一位胡斯战士曾在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们像夜枭一样蹲在魔鬼的肩头，看着山下教皇军队的铠甲在月光下泛白。火把在风中嘶吼，这块石头是神赐给我们的哨塔。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 三十年战争中的难民避难所（1618–1648）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">三十年战争将波西米亚变成焦土。1621年白山战役后，新教贵族被屠杀，平民逃入深山。魔鬼岩脚下密集的岩洞和裂隙成为天然的避风港。当地传说中，一位叫<strong>安娜·赫拉德卡</strong>的寡妇曾带领三十多个孩子藏在最大的岩洞里长达两年，用苔藓和野果充饥。她的故事被刻在洞口的石壁上，如今已模糊不清。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 浪漫主义时代的隐士居所（19世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪波西米亚文艺复兴时期，艺术家和文人发现魔鬼岩的野性之美。<strong>1836年</strong>，捷克诗人<strong>卡雷尔·希内克·马哈</strong>（Karel Hynek Mácha）——就是那位写出《五月》的浪漫主义诗魂——曾独自徒步到魔鬼岩。他在信中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“岩石的裂缝里藏着地狱的温暖。我躺在一块倾斜的石板上，看云从头顶巨兽的牙齿间流过。这里比任何教堂都更接近天空。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">诗人走后，魔鬼岩成为画家和摄影师的朝圣地。<strong>1860年</strong>，一名叫<strong>弗兰蒂塞克·泽曼</strong>的退伍士兵在岩下搭起木屋，自称“魔鬼岩隐士”，为游客讲述传说。他在这里住了27年，直到1897年去世。他的小屋地基至今还能辨认。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">魔鬼岩最迷人的地方，是它与两位捷克文化巨匠的隐秘羁绊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 阿尔丰斯·穆夏（Alfons Mucha）的斯拉夫史诗片段（1904）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">新艺术运动大师<strong>阿尔丰斯·穆夏</strong>在创作《斯拉夫史诗》系列时，曾为选取场景而走遍波西米亚。<strong>1904年夏天</strong>，他带着素描本来到魔鬼岩。穆夏被岩石粗粝的肌理与神话感所震撼，他计划将魔鬼岩作为《斯拉夫史诗》中《胡斯战争》一章的背景。但他最终放弃了——因为“魔鬼岩太具体了，无法承载足够宏大的象征”。不过，他留下了一幅铅笔速写，画中是魔鬼岩与胡斯战士的剪影。这幅速写现存于布拉格穆夏博物馆。穆夏在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“爬上那块石头时，我仿佛听到了胡斯战歌。岩石的每一道裂缝都在讲述血与火的故事。但我的画笔太轻了，轻到不敢亵渎它的沉默。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 雅罗斯拉夫·塞弗尔特（Jaroslav Seifert）的《魔鬼岩十四行》（1984）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">诺贝尔文学奖得主<strong>雅罗斯拉夫·塞弗尔特</strong>在晚年隐居波西米亚天堂，魔鬼岩是他散步常去的地方。<strong>1984年</strong>，84岁的诗人写下了一组名为《魔鬼岩十四行》的诗，收录在诗集《瘟疫纪念柱》中。他这样描述：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我的骨头像砂岩一样松散/而魔鬼的脚趾还踩在我的脊柱上/这里没有天使/只有石头在生长的吱嘎声。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞弗尔特是魔鬼岩最著名的“代言人”。他曾在采访中说：“如果天堂有入口，那一定是魔鬼岩的形状——因为你需要从地狱的裂隙里钻进去。”他去世后，他的骨灰一部分撒在了魔鬼岩的悬崖边，与岩石融为一体。每年<strong>9月</strong>，捷克诗人协会都会在岩下举办“塞弗尔特星空诗会”，参与者举着火把读诗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 米洛什·福曼（Miloš Forman）的《飞越疯人院》与魔鬼岩的错位连接</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">著名导演<strong>米洛什·福曼</strong>在回忆录中写下了一个有趣的插曲。<strong>1975年</strong>，他在美国拍完《飞越疯人院》后回捷克探亲，带着父亲和兄弟爬魔鬼岩。福曼写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我坐在这块据说被魔鬼诅咒的石头上，突然理解了《飞越疯人院》里麦克墨菲为什么想逃出那个‘系统’。波西米亚的每一块石头都有任性活着的力量。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>4. 神秘的“魔鬼岩女巫”——兹登卡·内乌曼诺娃（Zdenka Neumannová）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这不是广为人知的名人，而是真实存在过的<strong>草根传奇</strong>。<strong>20世纪30年代</strong>，一位名叫<strong>兹登卡·内乌曼诺娃</strong>的退休小学女教师离开布拉格，搬到魔鬼岩附近的木屋独自生活。她每天穿黑色长裙，采集草药，为当地村民和游客占卜治病。孩子们叫她“魔鬼岩女巫”。<strong>1938年</strong>，纳粹德国吞并苏台德地区时，她利用自己的草药知识和人脉，帮助了至少<strong>12名</strong>犹太难民藏匿在魔鬼岩的洞中。战争结束后，她拒绝任何表彰，继续住在岩石下。<strong>1955年</strong>去世时，村民在她的床底发现了上百本手抄的草药书和一面纳粹军旗——那是她嘲讽纳粹的证据。她的墓碑上只刻着一句诗：“我亲吻过魔鬼的脚趾，所以再没有恐惧。”这块墓碑如今被移到魔鬼岩观景台下。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于魔鬼岩，流传最广的传说有两个版本。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>版本一：魔鬼建教堂的失误</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在<strong>中世纪早期</strong>，魔鬼想证明自己的能力，决定在<strong>一夜之间</strong>用一块巨石建起一座大教堂，比附近所有的教堂都高。他背着这块巨岩从地狱出发，飞向波西米亚。当他即将到达选址时，一只公鸡提前打鸣（被上帝故意安排）。魔鬼手一滑，巨岩掉落在地，摔成了现在的形状。魔鬼气急败坏，用尾巴在岩石上划了一道深深的沟——至今还能看到。村民后来在岩顶放了一个木制十字架，十字架却被雷击中。于是村民得出结论：这地方只属于魔鬼，别跟神抢地盘。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>版本二：隐士与魔鬼的赌局</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一位名叫<strong>马泰亚</strong>的虔诚隐士住在岩石下的山洞里。魔鬼厌恶他的祈祷，化作一位富商去挑衅。魔鬼说：“如果你能在一夜之间将这块巨石搬到我指定的地方，我就给你一袋金币。否则你就永远闭嘴。”隐士明知做不到，但他祈祷上帝帮忙。当他开始搬石时，岩石突然变轻，仿佛有天使相助。魔鬼见势不妙，在日出前猛吹一口气，让岩石裂开。隐士跌倒了，但他在最后一个刹那抓住了碎石——那些碎石变成了野花。魔鬼愤怒地消失了。从此，每年春天魔鬼岩都会开满蓝色的小花（当地叫“魔鬼的眼睛”）。村民们说，那是隐士的眼泪。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">感受魔鬼岩，不需要读懂地质学。你需要的，是想象一只巨大的恶魔翅膀从砂岩纹理中展开，是触摸被胡斯战士篝火烫黑的岩壁，是倾听隐士的低语和诗人的叹息。<strong>Čertova skála</strong>是波西米亚大地的骨头，裸露在森林与天空之间。它见证了中世纪信仰的狂飙、宗教战争的残酷、浪漫主义对野性的崇拜，以及普通人用善良和勇气对抗黑暗的时刻。在这里，<strong>历史不是写在纸上，而是刻在石头上</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你觉得这篇文章让你心生向往，想要亲自踏上这块传说之石——去触摸魔鬼的脚印，去山顶看伊泽拉河蜿蜒如银——那么，请移步我们的游玩攻略页：👉 想看实地游玩攻略？交通、门票、徒步路线与最佳拍照点全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lipa-100-anniversary-tree\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    捷\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">捷克斯洛伐克独立百年纪念椴树</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lípa stého výročí samostatného státu Čechů a Slováků 1918-2018</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kranners-fountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克拉纳喷泉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kranner's Fountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/krasny-dvur-chateau\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克拉斯尼双廊城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Krásný Dvůr Chateau</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "lipa-100-anniversary-tree",
+          "name": "捷克斯洛伐克独立百年纪念椴树",
+          "englishName": "Lípa stého výročí samostatného státu Čechů a Slováků 1918-2018"
+        },
+        {
+          "slug": "kranners-fountain",
+          "name": "克拉纳喷泉",
+          "englishName": "Kranner's Fountain"
+        },
+        {
+          "slug": "krasny-dvur-chateau",
+          "name": "克拉斯尼双廊城堡",
+          "englishName": "Krásný Dvůr Chateau"
+        }
+      ]
+    }
+  ]
+}

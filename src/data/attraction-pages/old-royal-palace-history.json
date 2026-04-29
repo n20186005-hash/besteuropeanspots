@@ -1,0 +1,85 @@
+{
+  "slug": "old-royal-palace-history",
+  "template": "history",
+  "metadata": {
+    "title": "旧皇宫历史溯源｜捷克布拉格城堡的前世今生与神圣罗马帝国皇室传奇",
+    "description": "从9世纪的木制堡垒到哈布斯堡的华丽宫阙，旧皇宫见证了捷克王冠与神圣罗马帝国的兴衰。查理四世、鲁道夫二世、白女士的幽灵传说——走进布拉格城堡的心脏，触摸尘封800年的权力往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "旧皇宫（布拉格城堡内）",
+      "href": "/attractions/old-royal-palace-history"
+    }
+  ],
+  "hero": {
+    "title": "旧皇宫（布拉格城堡内）・Old Royal Palace (Starý královský palác)・捷克共和国・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">布拉格城堡的<strong>旧皇宫</strong>，是欧洲最古老的王室宫殿之一，它不仅是波西米亚国王的权力中心，也是神圣罗马帝国皇帝们的华丽舞台。从<strong>9世纪</strong>普热米斯尔家族的简陋木堡，到<strong>16世纪</strong>哈布斯堡王朝的文艺复兴厅堂，每一块石墙都浸透着政治阴谋、艺术荣光与宗教冲突。抛开游玩攻略，走进旧皇宫的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">旧皇宫（布拉格城堡内）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Old Royal Palace (Starý královský palác)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Old Royal Palace (Starý královský palác)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>布拉格</strong>的诞生，与旧皇宫所在的城堡区密不可分。公元<strong>870年</strong>，普热米斯尔家族的博日沃伊一世在伏尔塔瓦河左岸的高地上，修建了第一座木制堡垒——<strong>布拉格城堡</strong>的雏形。当时这里不过是一座防御工事，供公爵家族居住。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“城堡”一词在捷克语中为“hrad”，而“布拉格”的名称则源于斯拉夫语“práh”（门槛），传说公主莉布谢曾预言：“我看见一座伟大的城市，它的荣耀能达到天际。” 预言中的城市就是布拉格。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧皇宫并非一开始就是石制建筑。直到<strong>12世纪</strong>，索别斯拉夫一世公爵才将木制宫殿改建为罗马式石宫。我们今天看到的<strong>弗拉迪斯拉夫大厅</strong>等核心建筑，则要等到<strong>14世纪</strong>查理四世时代的哥特式扩建。这座宫殿始终与城堡的命运紧密相连——城堡是王冠的底座，而旧皇宫则是王冠上最璀璨的宝石。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地名典故</strong>：旧皇宫（Starý královský palác）的“旧”字，是为了区别于后来在城堡东侧修建的<strong>新皇宫</strong>（现总统府办公区）。但真正让这座宫殿“变旧”的，不是时间，而是权力中心的转移——当哈布斯堡家族在<strong>16世纪</strong>将主要居所迁往维也纳后，布拉格的旧皇宫便逐渐成为加冕和典礼的场所，而不再是皇帝们的日常寝宫。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">查理四世：让旧皇宫成为帝国心脏</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1346年</strong>，查理四世加冕为波希米亚国王，随后成为神圣罗马帝国皇帝。他决心将布拉格打造成帝国的政治文化中心。旧皇宫在他手中完成了<strong>哥特式</strong>的大规模重建：加高了宫殿楼层，修建了<strong>查理四世宫</strong>，并在南翼增设了<strong>骑士阶梯</strong>——一条宽敞的斜坡，供骑马的骑士直接进入大厅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最壮观的空间是<strong>弗拉迪斯拉夫大厅</strong>（建于<strong>1502年</strong>），由建筑师本尼迪克特·雷特设计。这座长<strong>62米</strong>、宽<strong>16米</strong>的厅堂，拥有华丽的网状拱顶，是当时欧洲最大的世俗哥特式大厅之一。它不仅是国王举行宴会和接见使节的地方，更是<strong>骑士比武</strong>的赛场——大厅地面至今保留着骑枪刺过的痕迹。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">15世纪的编年史家哈吉克在日记中写道：“弗拉迪斯拉夫大厅里，骑士们穿着闪亮的铠甲，从大门纵马冲入，在国王面前进行长枪对决。马蹄声震得拱顶上的彩绘天使似乎都在颤抖。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哈布斯堡的离去：从寝宫到档案馆</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1526年</strong>，斐迪南一世将波西米亚王冠纳入哈布斯堡家族。但维也纳才是帝国的真正中心。旧皇宫逐渐失去了居住功能，转而成为<strong>皇家档案馆</strong>和<strong>波西米亚议会</strong>的集会地。<strong>1618年</strong>的“第二次布拉格扔出窗外事件”就发生在旧皇宫的<strong>捷克总理办公厅</strong>——愤怒的新教徒将两位哈布斯堡官员和他们的秘书从窗户扔出，跌入下方的护城河。这一事件直接引发了<strong>三十年战争</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1741年</strong>，玛丽亚·特蕾莎女皇下令将哈布斯堡家族的行政机构迁至城堡东翼的新建宫殿。旧皇宫从此彻底“退休”，但其历史价值反而被时间凝固——18世纪后，这里成为艺术收藏和博物馆的一部分，<strong>1836年</strong>起由波西米亚议会作为礼仪大厅使用。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">20世纪的转折：共和国与总统府</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1918年</strong>捷克斯洛伐克独立后，旧皇宫与城堡一起收归国有。<strong>1920年</strong>，建筑师约瑟夫·普莱奇尼克对宫殿进行了现代化改造，加入了<strong>总统办公室</strong>入口的玻璃门和简洁的家具。如今，旧皇宫内仍保留着<strong>捷克议会参议院</strong>的会议厅，而弗拉迪斯拉夫大厅则继续作为国家重要庆典的场所——<strong>2018年</strong>捷克共和国成立百年纪念仪式就曾在此举行。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">查理四世（1316-1378）：从巴黎学成的“建筑狂人”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">查理四世是旧皇宫真正的灵魂塑造者。他出生在布拉格，童年却被送往巴黎学习，在那里接触到了哥特式建筑的巅峰。<strong>1346年</strong>登基后，他带着法国的建筑理念回到布拉格，不仅扩建了旧皇宫，还兴建了<strong>圣维特主教座堂</strong>、<strong>查理大桥</strong>，并创办了<strong>查理大学</strong>——中欧第一所大学。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>他与旧皇宫的羁绊</strong>：查理四世亲自参与了旧皇宫的规划。他的工房中保存着一份<strong>1355年</strong>的设计草图，上面用拉丁文标注了“骑士阶梯”的具体坡度。他坚持在宫殿南侧开凿一口深<strong>70米</strong>的井，以确保城堡即使在围城期间也有水——这口井至今仍在旧皇宫的花园中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>轶事</strong>：据传查理四世在旧皇宫的<strong>帝国议事厅</strong>里，接待过前来求和的法国王子。当时王子因战败而跪地流泪，查理四世却扶起他，指着墙上一幅画说：“权力的游戏就像这拱顶，每一块石头都在承受压力，但谁也无法单独支撑整个天空。” 这幅画今天已不存，但这句话在捷克史学中却成为一个经典隐喻。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">鲁道夫二世（1552-1612）：孤独的收藏家与旧皇宫的“珍奇室”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">鲁道夫二世是哈布斯堡家族中最古怪的皇帝。他厌恶维也纳的宫廷政治，于<strong>1583年</strong>将帝国首都迁回布拉格。旧皇宫的<strong>西班牙大厅</strong>成了他存放珍宝的地方——<strong>鲁道夫二世珍宝室</strong>，一座堆满了炼金术仪器、怪诞骨骼、东方瓷器、天文钟和画作的私人博物馆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>与旧皇宫的羁绊</strong>：他几乎日夜待在旧皇宫的<strong>北塔楼</strong>中，那里布置了天文观测台和炼金术实验室。他邀请了欧洲最著名的炼金术士<strong>爱德华·凯利</strong>和<strong>约翰·迪伊</strong>来此工作，试图用铅块炼出黄金。结果黄金没有炼成，皇帝反而因长期吸入汞蒸气而精神失常。<strong>1610年</strong>，他的弟弟马蒂亚斯发动政变，将鲁道夫二世软禁在旧皇宫中。这位孤独的皇帝在<strong>1612年</strong>死于塔楼的卧室内，享年59岁。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">鲁道夫二世的私人医生在日记中写道：“皇帝陛下常常整夜站在塔楼的窗前，用望远镜凝视着月亮。他相信月亮上有湖泊和森林，并计划派人去那里搜集香草。他死后，人们在塔楼密室里发现了超过3000件珍奇物品，包括一只会报时的机械大象和一本用羊皮写成的《女巫审判指南》。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>留下的痕迹</strong>：今天旧皇宫的<strong>鲁道夫画廊</strong>（洛布科维茨宫）仍保存着皇帝收藏的<strong>勃鲁盖尔、丢勒</strong>等大师的100多幅画作。而北塔楼顶层的暗房里，还保留着17世纪的炼金术炉灶——墙壁上隐约可见烟熏的痕迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">白女士·佩尔希塔（1429-1476）：旧皇宫最著名的“幽灵”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佩尔希塔·冯·罗森堡是波西米亚贵族家族的女儿，后来嫁给了<strong>利帕·扬</strong>——一位在旧皇宫担任总管大臣的贵族。据传她因婚姻不幸而郁郁寡欢，<strong>1476年</strong>死于旧皇宫的东翼房间。从16世纪开始，旧皇宫的守卫多次报告看到一位身穿白色长裙的女士，在<strong>弗拉迪斯拉夫大厅</strong>的走廊游荡，有时她会长叹一声，然后消失在墙壁中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>轶事</strong>：<strong>1789年</strong>，哈布斯堡皇帝约瑟夫二世在视察旧皇宫时，曾在午夜见过白女士。他后来在书信中写道：“她站在我的床边，手里拿着一串钥匙。我想开口问她是谁，却发现自己发不出声音。然后她消失了，留下一股紫罗兰的香气。” 这次目击事件被记录在宫廷档案中，使得“白女士”成为布拉格城堡最持久的幽灵传说。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧皇宫地下的“圣瓦茨拉夫密室”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧皇宫的地下室中有一处被遗忘的<strong>圣瓦茨拉夫密室</strong>，传说这里是<strong>10世纪</strong>公爵圣瓦茨拉夫被弟弟博莱斯拉夫刺杀后暂时停灵的地方。据16世纪的僧侣编年史记载，密室中藏着一块<strong>圣瓦茨拉夫的裹尸布</strong>和一把<strong>沾血的剑</strong>。<strong>1741年</strong>，玛丽亚·特蕾莎女皇曾派人搜寻密室，结果只发现一具空石棺和一封泛黄的羊皮信，信上用古捷克语写着：“我的灵魂在石墙里哭泣。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">骑士比武的禁忌</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧皇宫的<strong>弗拉迪斯拉夫大厅</strong>至今禁止任何骑手策马进入。传说<strong>1555年</strong>，一位年轻的骑士在比武中失控，战马受惊后直接冲向国王的宝座。国王躲开了，但骑士连人带马撞破了身后的一幅《最后的晚餐》壁画。当晚，这位骑士就在旧皇宫的监狱中上吊自尽。此后，大厅里每年都会传出马蹄声和铁甲碰撞的幻听，宫务官们因此决定永久禁止骑马入内。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“狐狸窗”的谜团</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在旧皇宫南墙的<strong>第三层窗户</strong>上，有一扇比相邻窗户小一半的<strong>小窗</strong>，被称为“狐狸窗”。当地传说，<strong>15世纪</strong>时，一位名叫亚当的仆人因偷窃皇冠而被处以绞刑。但他在临死前说：“我是被一只狐狸陷害的——它进过窗口，偷走了镶嵌在皇冠上的红宝石。” 为了证明自己无罪，他要求国王在窗口设一个<strong>陷阱</strong>。结果当天晚上真的有一只狐狸从窗户爬入宫殿，被抓后它的爪子里还抓着一块红宝石碎片。国王赦免了亚当，但下令将小窗永久封上。然而，狐狸似乎没有被完全“捉住”——至今在满月之夜，人们仍能看到一只白色狐狸的影子从那个小窗掠过。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂旧皇宫，意味着读懂了<strong>波西米亚王国</strong>与<strong>神圣罗马帝国</strong>的交错命运。这座宫殿没有凡尔赛宫的奢华，也没有维也纳霍夫堡宫的统一风格——它是一座<strong>时间堆叠的活化石</strong>：罗马式的墙基、哥特式的拱顶、文艺复兴的壁炉、巴洛克的家具，每一层都对应着一个朝代的野心与悲哀。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>旅行意义</strong>：当你站在弗拉迪斯拉夫大厅中央，抬头看那<strong>26米高</strong>的穹顶，想象查理四世在这里接见使节、鲁道夫二世在这里摆弄炼金炉、白女士的幽灵在走廊里飘过——历史的厚重感会从每一块石头里渗出来。旧皇宫提醒我们：权力终究会褪色，但石头和记忆会留下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rybniky-pod-hurou\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    胡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">胡拉山下的池塘群</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rybníky Pod Hurou</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bohemian-switzerland-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波希米亚瑞士国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bohemian Switzerland National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/historic-underground-plzen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比尔森历史地下城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Historic Underground of Plzen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "rybniky-pod-hurou",
+          "name": "胡拉山下的池塘群",
+          "englishName": "Rybníky Pod Hurou"
+        },
+        {
+          "slug": "bohemian-switzerland-national-park",
+          "name": "波希米亚瑞士国家公园",
+          "englishName": "Bohemian Switzerland National Park"
+        },
+        {
+          "slug": "historic-underground-plzen",
+          "name": "比尔森历史地下城",
+          "englishName": "Historic Underground of Plzen"
+        }
+      ]
+    }
+  ]
+}

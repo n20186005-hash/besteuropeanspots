@@ -1,0 +1,85 @@
+{
+  "slug": "wwii-in-prague-tour-history",
+  "template": "history",
+  "metadata": {
+    "title": "布拉格二战历史溯源｜暗杀海德里希、抵抗运动与城市伤痕的前世今生",
+    "description": "揭开布拉格二战时期的尘封往事：从纳粹占领到“类人猿行动”，探访抵抗战士的足迹，聆听这座城市在铁蹄下的反抗与牺牲。一段你必须知道的真实传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格二战遗迹之旅",
+      "href": "/attractions/wwii-in-prague-tour-history"
+    }
+  ],
+  "hero": {
+    "title": "布拉格二战遗迹之旅・WWII in Prague Tour・捷克・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>布拉格</strong>，这座被誉为“百塔之城”的欧洲心脏，在二战期间被纳粹德国吞并，成为第三帝国的重要行政与工业中枢。<strong>希特勒</strong>曾宣称要将它变为“德意志的珍珠”。但在华丽的外表下，地下抵抗的火种从未熄灭——<strong>“类人猿行动”</strong>、犹太区的暗影、冷血总督<strong>海德里希</strong>的陨落，构成了这座城市最惨烈也最壮烈的历史篇章。抛开游玩攻略，走进布拉格的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">布拉格二战遗迹之旅</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">WWII in Prague Tour</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">WWII in Prague Tour</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布拉格的历史始于9世纪，由<strong>普热米斯尔王朝</strong>在伏尔塔瓦河畔建立。<strong>查理四世</strong>在14世纪将其塑造为神圣罗马帝国的璀璨都城，留下了查理大桥与圣维特大教堂。然而，到了20世纪，这座千年古城却因战略位置成为大国博弈的棋子。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1938年的《慕尼黑协定》将苏台德地区割让给德国，1939年3月15日，德军铁蹄踏过查理大桥，<strong>布拉格</strong>不费一枪一弹沦入纳粹手中。捷克成为“波希米亚和摩拉维亚保护国”，由总督<strong>康斯坦丁·冯·纽赖特</strong>管理。但真正让布拉格在二战史上刻下烙印的，是1941年秋<strong>莱因哈德·海德里希</strong>的到来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他被称为“布拉格屠夫”，将城市变为恐怖统治的试验场。<strong>布拉格城堡</strong>成了他的办公室，<strong>佩切克宫</strong>（如今的捷克工业联合会大厦）变成盖世太保总部。从那一刻起，布拉格的街巷不再只有中世纪的诗意，而是布满了告密者、逮捕与处决的阴云。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1. 暗杀“金发野兽”：类人猿行动</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1942年5月27日，<strong>布拉格</strong>郊区的利本街区发生了一起震惊世界的刺杀。两名捷克伞兵——<strong>约瑟夫·加布奇克</strong>和<strong>扬·库比斯</strong>，在英国伦敦流亡政府的指挥下，伏击了海德里希的座车。<strong>加布奇克</strong>的斯登冲锋枪意外卡壳，<strong>库比斯</strong>果断投出反坦克手榴弹，炸碎了轿车的后部。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">海德里希脊椎碎裂，七天后死于感染。纳粹的报复极其疯狂：<strong>利迪策村</strong>被夷为平地，所有男性村民被枪决，妇女儿童被送入集中营；而布拉格城内的组织者<strong>扬·桑纳</strong>、<strong>奥塔·莫拉韦茨</strong>等数百人遭到处决。刺杀发生后，盖世太保在<strong>佩切克宫</strong>地下室日夜审讯，最终找到了掩护伞兵的<strong>圣西里尔与美多德教堂</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1942年6月18日，德军包围教堂。伞兵们在地下室与700名党卫军激战数小时，最后四人自杀，两人在圣坛前饮弹。<strong>库比斯</strong>重伤被俘后不久死去。如今，教堂地下室已成为国家纪念地，弹孔与血迹仍留在墙上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2. 犹太区的毁灭与重生</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>布拉格的犹太区（约瑟夫城）</strong>曾是欧洲最古老的犹太社区之一，老新犹太教堂的钟楼见证了600年的信仰。但1939年后，这里被划为“隔离区”，超过4万名犹太人被遣送至<strong>特莱西恩施塔特</strong>集中营，再转运至奥斯维辛。<strong>平卡斯犹太教堂</strong>的墙上刻着77,297个名字，他们是捷克被害犹太人的缩影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战末期，1945年5月5日，布拉格市民发起<strong>五月起义</strong>，在电台大楼、市政厅等地与德军巷战。<strong>美国陆军</strong>的坦克本可先一步抵达，但根据雅尔塔协议，布拉格被划入苏联势力范围。5月9日，<strong>苏联红军</strong>进入市区，战争结束了，但铁幕即将降下。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">扬·库比斯与约瑟夫·加布奇克：无名英雄的牺牲</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>扬·库比斯</strong>（1913–1942）出生于捷克东南部的莫拉瓦地区，曾是一名铁匠学徒。<strong>约瑟夫·加布奇克</strong>（1912–1942）是斯洛伐克裔士兵，战前在捷克斯洛伐克军队服役。两国沦陷后，他们辗转逃往英国，加入流亡政府组建的特种部队。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1941年12月，两人和其他“类人猿行动”小组队员在夜间空降回故土，藏身于布拉格近郊的亲友家中。他们花了五个月侦察海德里希的路线，每天骑自行车往返于藏匿点与伏击点。<strong>库比斯</strong>的日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们没有恐惧，只有信念。杀死海德里希，会让一百万捷克人看到希望。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">行动失败后，他们躲进<strong>圣西里尔与美多德教堂</strong>。德军围困时，他们在潮湿的地下室里用最后一颗子弹结束了自己的生命。<strong>库比斯</strong>的遗言是：“告诉世界，我们不是懦夫。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，他们的名字被刻在<strong>国家纪念地</strong>的纪念碑上，每一位游览二战遗迹之旅的游客，都能在教堂博物馆看到他们生前的照片、伪造的身份证件以及那枚改变历史的手榴弹复制品。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莱因哈德·海德里希：屠夫的另一面</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>海德里希</strong>（1904–1942）是纳粹最高层中最令人胆寒的人物之一，<strong>希姆莱</strong>称他为“SS的良心”。他身高1.9米，金发碧眼，曾是海军军官，因卷入丑闻退役。后加入党卫军，快速崛起，一手创建了帝国保安总局。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在布拉格，他推行“胡萝卜加大棒”政策：增加黄油配给、处决500名工人领袖，试图瓦解抵抗意志。他本人住在<strong>布拉格城堡</strong>附近的一座别墅中，每天乘敞篷车往返市中心，因过于自信而放弃了警卫车。<strong>库比斯</strong>的手榴弹正是抓住了这个傲慢的弱点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">海德里希死后，希特勒为他举行了国葬，并秘密处决了上千名捷克人作为“报偿”。而他的情妇<strong>琳娜·海德里希</strong>后来出版了回忆录，其中描写了布拉格别墅里的奢靡宴会，与街头的尸体形成了讽刺对比。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥塔·莫拉韦茨：地下组织的灵魂</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说库比斯是利剑，那么<strong>奥塔·莫拉韦茨</strong>（1904–1942）就是盾牌。他是地下抵抗组织“中央领导”的核心成员，负责为伞兵提供藏身处、伪造证件和情报传输。他白天是保险公司职员，夜里则在布拉格老城区的秘密公寓里编码电报。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1942年5月，海德里希遇刺后，盖世太保疯狂搜捕。<strong>莫拉韦茨</strong>的妻子<strong>玛丽</strong>被捕，他本人被迫躲进拉扎尔街的一间阁楼。6月17日，他被出卖后遭到严刑拷打，拒绝说出任何情报。第二天清晨，他从盖世太保的窗户跳下，自杀而亡。<strong>玛丽</strong>随后被处决，他们的儿子被送往集中营。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天，在<strong>佩切克宫</strong>的展览中，有一面墙写着所有牺牲的抵抗者名字，<strong>莫拉韦茨</strong>就在其中。他的故事告诉我们，英雄不一定都扛着枪，也可能是一支笔和一份档案。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">利迪策的鬼魂与沉默的钟声</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1942年6月10日，<strong>利迪策</strong>村被夷为平地，340名村民遇难。传说每逢5月27日（暗杀海德里希的日子），利迪策遗址上的野花会突然枯死，而埋在废墟下的教堂钟声会隐隐回荡，提醒世人纳粹的暴行。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">查理大桥上的黑衣女人</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布拉格市民间流传：二战期间，有一个身穿黑衣的妇人每晚在查理大桥徘徊，她悄悄向抵抗组织递送德军调动的纸条。她是谁？没人知道她的真名。有人说她是犹太区逃出的教师，也有人说是海德里希别墅的女佣。战后，她消失了，但她的影子偶尔会在雾夜再次现身。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣维特大教堂的乌鸦</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老城传说，1941年海德里希进入布拉格城堡时，一只乌鸦撞死在圣维特大教堂的窗玻璃上。当地人窃窃私语：“死神来了。”而1945年5月8日，二战最后一夜，同样一只乌鸦飞入教堂，盘旋三圈后坠落在国王陵墓前。战争终于结束了。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂布拉格的二战遗迹，不是为了渲染仇恨，而是为了铭记人性的韧性与代价。从<strong>圣西里尔与美多德教堂</strong>地下室的血迹，到<strong>犹太区墙上的名字</strong>，再到<strong>利迪策田野的纪念碑</strong>，这座城市用石头和沉默诉说着一个真理：自由从来不是免费的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天的布拉格，查理大桥上游人如织，伏尔塔瓦河依然静静流淌。但只要你愿意走进那些不起眼的街角、地下纪念馆和战争墓地，就会触摸到70多年前的脉搏——勇气、背叛、牺牲与救赎。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/nove-mesto-nad-metuji-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新梅斯托-纳德梅图伊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Nové Město nad Metují</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/vysehrad-cemetery\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维谢赫拉德公墓</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vyšehrad Cemetery</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/free-walking-tour-prague\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布拉格免费步行导览游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Free Walking Tour Prague</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "nove-mesto-nad-metuji-history",
+          "name": "新梅斯托-纳德梅图伊",
+          "englishName": "Nové Město nad Metují"
+        },
+        {
+          "slug": "vysehrad-cemetery",
+          "name": "维谢赫拉德公墓",
+          "englishName": "Vyšehrad Cemetery"
+        },
+        {
+          "slug": "free-walking-tour-prague",
+          "name": "布拉格免费步行导览游",
+          "englishName": "Free Walking Tour Prague"
+        }
+      ]
+    }
+  ]
+}

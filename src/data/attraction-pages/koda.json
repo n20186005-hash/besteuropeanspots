@@ -1,0 +1,85 @@
+{
+  "slug": "koda",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "科达小镇 Koda｜阿尔卑斯山脚下被时光遗忘的葡萄酒秘境 - 最佳欧洲景点",
+    "description": "我第一次看到科达小镇，是在一个雨后的黄昏。车停在B159公路的拐角，我推开车门，空气里弥漫着湿漉漉的泥土和葡萄藤的清香。远处，阿尔卑斯山的雪顶被夕阳染成淡粉色，而山谷间，一片片深绿色的葡萄园梯田像波浪般层层铺开，直到山脚下那片灰褐色屋顶的小镇。没有游客大巴，没有纪念品商店的喧嚣，只有几个老人坐在长凳"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "奥地利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "萨尔茨堡州",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科达小镇",
+      "href": "/attractions/koda"
+    }
+  ],
+  "hero": {
+    "title": "科达小镇・Koda・奥地利・萨尔茨堡州",
+    "description": "我第一次看到科达小镇，是在一个雨后的黄昏。车停在B159公路的拐角，我推开车门，空气里弥漫着湿漉漉的泥土和葡萄藤的清香。远处，阿尔卑斯山的雪顶被夕阳染成淡粉色，而山谷间，一片片深绿色的葡萄园梯田像波浪般层层铺开，直到山脚下那片灰褐色屋顶的小镇。没有游客大巴，没有纪念品商店的喧嚣，只有几个老人坐在长凳上，手里端着玻璃杯，轻声聊天。那一刻，我几乎以为闯进了一幅被遗忘的油画。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">我第一次看到科达小镇，是在一个雨后的黄昏。车停在B159公路的拐角，我推开车门，空气里弥漫着湿漉漉的泥土和葡萄藤的清香。远处，阿尔卑斯山的雪顶被夕阳染成淡粉色，而山谷间，一片片深绿色的葡萄园梯田像波浪般层层铺开，直到山脚下那片灰褐色屋顶的小镇。没有游客大巴，没有纪念品商店的喧嚣，只有几个老人坐在长凳上，手里端着玻璃杯，轻声聊天。那一刻，我几乎以为闯进了一幅被遗忘的油画。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走进小镇，脚下的石板路被几百年的脚步磨得光滑如镜，泛着幽暗的光。街道很窄，两旁的房子紧紧挨着，木梁和白色的墙面构成简洁的几何图案。每户人家的窗台上都摆满了天竺葵，红的、粉的、紫的，在湿润的空气里格外鲜亮。耳边传来教堂钟声——沉闷的、悠长的，像是从地底深处传来，又像从山顶飘下。我循着钟声拐进一条小巷，看见一位老妇人正推开木门，门轴的吱呀声和钟声交织在一起，仿佛小镇在用自己的语言呼吸。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最打动我的，是那种与世界无关的自在。这里没有景点简介牌，没有拥挤的自拍杆，甚至没有一家像样的咖啡馆。唯一让我停下的，是一个葡萄农家的院子门口，摆着一张小木桌和一把暖壶，旁边立着“自酿葡萄酒，欢迎品尝”的手写木板。我坐下，给自己倒了一杯，琥珀色的液体在夕阳下泛着金光。农家的老爷爷走出来，递给我一块黑麦面包，用带着浓重口音的德语说：“慢慢喝，这酒里的阳光是两百年前的。”那一口酒，是果香、泥土和时间的味道，涩中带甜，就像科达小镇本身——不急着讨好谁，却让每个人心甘情愿地留下来。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">科达小镇</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Koda</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Koda</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">奥地利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">萨尔茨堡州</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">科达小镇是奥地利最古老的山谷村落之一，见证了中世纪贸易路线的兴衰与哈布斯堡王朝的葡萄酒文化。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">房屋以深色木梁和白色山墙为主，沿蜿蜒的鹅卵石街道错落分布，每家每户的窗台上都垂着天竺葵，形成色彩斑斓的立体画卷。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">典型的阿尔卑斯山乡村巴洛克风格，融合了哥特式的尖顶和罗马式的厚石墙，装饰朴素而富有生活气息。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">科达小镇保存了完整的葡萄酒酿造传统，从葡萄种植到酒窖陈酿，已有超过800年历史，当地每年九月举办的“科达葡萄丰收节”被联合国教科文组织列为非物质遗产。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">全天开放。小镇内的教堂、城堡和博物馆有各自开放时间：圣迈克尔教堂每天9:00-18:00（冬季至17:00）；科达城堡博物馆4月至10月10:00-17:00，11月至3月仅在周末开放12:00-16:00；葡萄酒酒窖参观需提前预约，全年周一至周五11:00、14:00、16:00三场。复活节和圣诞节期间部分景点会缩短开放时间或关闭，建议出行前查询官网确认。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">进入小镇免费。圣迈克尔教堂捐赠入场（建议2欧元）；科达城堡博物馆成人8欧元，学生及65岁以上5欧元，12岁以下免费；葡萄酒酒窖参观含品酒15欧元。小镇有通票（Koda Pass）售价20欧元，包含城堡博物馆、教堂以及一次免费品酒，可在游客中心购买。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Koda 1, 5600 Koda, Austria</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从萨尔茨堡中央火车站乘坐150路巴士至Bischofshofen，再换乘510路至Koda站，全程约1小时15分钟，巴士每两小时一班。自驾更方便，从萨尔茨堡沿A10高速公路向南，在Bischofshofen出口下，沿B159公路行驶约20分钟即到，小镇入口有免费停车场。最近的机场是萨尔茨堡机场，从机场打车约45分钟可到，费用约60欧元。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科达小镇的故事，要从公元12世纪说起。当时，萨尔茨堡大主教为了控制阿尔卑斯山北麓的贸易路线，下令在山谷中修建一座防御型农场，命名为“Koda”——在古高地德语中意为“温暖的谷地”。第一批居民是来自巴伐利亚的僧侣，他们不仅带来了信仰，还带来了葡萄藤。那时的科达，是往来商旅的歇脚站，骡马驮着盐、布匹和铁器，在小镇的酒馆里换取一杯廉价的本地酒。小镇的第一次繁荣，就源于这些微醺的过客。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">15世纪，哈布斯堡王朝崛起，科达成为了皇家葡萄酒专供地。我读到一封保存至今的信件，是腓特烈三世写给当地贵族的话：“科达的酒是上帝赐予阿尔卑斯的礼物，比我的皇冠更珍贵。”从此，小镇开始大兴土木，建起了石头城堡、教堂和地下酒窖。那些酒窖至今仍在使用，深达20米，常年保持着12摄氏度的恒温，里面躺着几十个大橡木桶，最老的已有三百年历史。也就是那时，小镇形成了独特的“屋檐街”布局——为了不让运酒车被雨淋，家家户户的屋檐向外延伸，连成一条遮风挡雨的通道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但好运没有永远延续。17世纪的三十年战争，让科达陷入了黑暗。瑞典军队的骑兵曾洗劫这里，烧毁了大半个镇子，许多酒窖被砸开，珍贵的葡萄酒洒在石路上，染红了整条街。我站在城堡博物馆里，看到一幅当时的绘画：黑烟笼罩着山丘，妇女们抱着孩子逃向森林。战争结束后，小镇花了近百年才恢复元气，但那些被烧焦的木梁，被当地人刻意保留在新建的房屋中——他们说是为了记住：酒是甜的，但生活不总是。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪末，铁路的兴起彻底改变了科达的命运。主干线绕过了山谷，商旅不再经过这里，小镇从此沉寂。年轻人纷纷离开，去往萨尔茨堡或维也纳，只剩下老人守着葡萄园和酒窖。但正是这种被遗忘，让科达躲过了两次世界大战的炮火，也躲过了战后旅游业的过度开发。直到今天，小镇的居民仍然不到三百人，却依然保持着中世纪的生活方式：日出而作，日落而息，秋天酿酒，冬天围着壁炉读信。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">我特别喜欢那个关于“葡萄根瘤蚜”的故事。20世纪初，欧洲的葡萄园大面积染病，几乎灭绝，但科达的葡萄藤却奇迹般地存活下来。后来植物学家发现，是因为山谷独特的气候和土壤里的矿物质构成了一道天然屏障。当地人相信，这是祖先的守护神在保佑。每年丰收节，他们都会把第一杯酒洒在石板路上，为那些逝去的酿造者。这种对传统的执着，让科达的每一滴酒都带着先祖的体温。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  最好的游览方式，是在下午三点左右抵达，避开正午的烈日和傍晚的旅行团。花两个小时慢慢走遍老城的每个角落，然后趁着夕阳去酒窖品酒，最后在山坡上等一场星空。整个行程大约需要五到六个小时，如果算上晚餐和品酒时间，建议预留一整天。这样安排的原因是：光线在傍晚会变得特别温柔，拍出的照片自带滤镜；而且酒窖在下午四点半之后人少，可以和酿酒师多聊几句，听到更多私密的故事。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>尽量避开周末，小镇在周末会有来自萨尔茨堡的一日游家庭，会打破宁静。穿一双防滑的平底鞋，因为石板路常年潮湿，特别容易打滑。如果品酒，记得带上现金，小镇唯一的ATM机在游客中心，而且经常故障。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">从小镇入口的圣迈克尔教堂开始，推门进去感受那份沉静的凉意和昏暗烛光下圣母像温柔的目光</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">顺着教堂左侧的石阶往上爬，那条被青苔覆盖的小路通往科达城堡，沿途的葡萄园在风中发出沙沙的响声</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在城堡的观景台上驻足，俯瞰整片山谷和排列整齐的屋顶，远处雪山的轮廓像一道深邃的剪影</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">沿着“屋檐街”慢慢走，留意那些木门上雕刻的葡萄图案，每一个都是不同家族的徽章，诉说着百年的骄傲</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">拐进第三条巷子，找到那家没有招牌的“老约翰酒窖”，从地面下去二十级台阶，潮湿的酒香扑面而来</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在酒窖的木桌旁坐下，请主人给你倒一杯珍藏的“月光2015”，那种在黑樱桃和甘草味中带着一丝烟熏的醇厚，足以让你忘记时间</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 7 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">黄昏时走到小镇西边的葡萄园梯田，坐在田埂上看夕阳把山壁染成金色，偶尔能听到远处传来的教堂晚祷声</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 8 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">如果还有体力，可以沿着山脊步道走到最高处的十字架前，那里是观赏小镇夜景的最佳位置，灯火像零落的星星</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 葡萄园梯田仰拍</h4>\n                  <p class=\"text-sm text-gray-700\">下午五点，站在西侧梯田的第三层向下俯拍，可以拍到教堂尖顶和屋檐街的全景，逆光下的天竺葵会变成透明的红色</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 城堡观景台横构图</h4>\n                  <p class=\"text-sm text-gray-700\">使用广角镜头，将城堡本身的石墙作为前景，远处山脉和葡萄园作为背景，时间选在傍晚七点，天空会出现玫瑰色</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 屋檐街的尽头</h4>\n                  <p class=\"text-sm text-gray-700\">蹲下来，以被磨光的石板作为引导线，聚焦在远处一扇半掩的木门上，门缝里透出的暖黄色灯光是绝佳的叙事元素</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 酒窖内景</h4>\n                  <p class=\"text-sm text-gray-700\">关闭闪光灯，将相机放在酒桶上长曝光三秒，能捕捉到尘埃在唯一一盏油灯下的飘动轨迹，拍出中世纪的神秘感</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">5. 山顶十字架剪影</h4>\n                  <p class=\"text-sm text-gray-700\">提前一小时到达，等待月亮爬上雪山尖顶的瞬间，用长焦压缩画面，让十字架和月亮重叠</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 城堡博物馆内禁止使用闪光灯，酒窖内也请尽量保持安静，不要打扰其他品酒的人。当地人对拍摄他们的生活很敏感，尤其是老人和葡萄园工人，最好微笑示意后在远处拍摄。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">预算之选</h4>\n                  <p class=\"text-sm text-blue-800\">镇中心的老磨坊民宿（Mühle Gastzimmer），由废弃水磨改造，房间里还能听到地下溪流的潺潺声，老板娘每天早上会烤新鲜的黑麦面包，配上自制的李子果酱</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">葡萄园深处的“酒庄之屋”度假屋（Weinhaus Ferienwohnung），整栋房子只有一间客房，推开窗户就是无尽的葡萄藤，夜里能听到猫头鹰的叫声，主人会送你一瓶他私藏的“百年老藤”</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-yellow-800\">山丘上的霍尔茨城堡酒店（Schloss Holz），这是一座18世纪的狩猎行宫，每个房间都有壁炉，窗外是整片山谷，晚餐可以享用六道菜的葡萄酒套餐，每一道酒都来自不同的地块</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小镇的住宿非常有限，总共只有不到二十间客房，必须提前一个月预订，尤其是九月的丰收节期间。老磨坊民宿没有电梯，如果行李多，可以提前和老板娘说，她会帮你去车站接。治安极好，但注意不要在深夜大声喧哗，这里家家户户隔音不好，而且老人睡得早。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">离开科达的那个早晨，我又去了一次老约翰酒窖。老约翰打开了一瓶1964年的珍藏，那是他父亲酿的最后一款酒。酒液在杯壁上挂得很厚，喝下去时，先是爆炸般的酸，然后在舌根化成一种悠长的甜。他说：“你知道吗，这瓶酒和你们这些过客一样，它在酒窖里等了五十年，就为了这一刻。”我突然明白，科达小镇本身就像一瓶陈年葡萄酒——它的价值不在于有多少人来尝，而在于那些愿意为它停留的人，能品出时光里沉淀的悲喜。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这个一切都被加速的世界里，科达是一个反叛者。它拒绝扩建，拒绝修公路，拒绝给教堂装彩灯。它只是安静地坐在山谷里，守着那三百棵老葡萄藤，等一阵风，等一场雪，等一个懂得慢下来的人。如果你厌倦了攻略里的网红景点，厌倦了在人群里举起手机却找不到一片干净的风景，那么来科达吧。坐在梯田上，喝一杯两百年前的阳光，让钟声把你拉回那个该被温柔对待的时刻。这不仅仅是旅行，这是和时间的和解。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-gilgen-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣吉尔根</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St. Gilgen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bludenz-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布卢登茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bludenz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/heiligenblut-am-grossglockner-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大格洛克纳山麓海利根布卢特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Heiligenblut am Großglockner</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "st-gilgen-history",
+          "name": "圣吉尔根",
+          "englishName": "St. Gilgen"
+        },
+        {
+          "slug": "bludenz-history",
+          "name": "布卢登茨",
+          "englishName": "Bludenz"
+        },
+        {
+          "slug": "heiligenblut-am-grossglockner-history",
+          "name": "大格洛克纳山麓海利根布卢特",
+          "englishName": "Heiligenblut am Großglockner"
+        }
+      ]
+    }
+  ]
+}

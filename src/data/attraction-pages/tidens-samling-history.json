@@ -1,0 +1,85 @@
+{
+  "slug": "tidens-samling-history",
+  "template": "history",
+  "metadata": {
+    "title": "奥胡斯历史溯源｜时代收藏博物馆的前世今生与丹麦设计传奇",
+    "description": "探访丹麦奥胡斯小众博物馆Tidens Samling，走进百年别墅中的20世纪设计宝库，聆听名人轶事与民间传说，感受时光凝固的北欧生活美学。历史与人文在此交汇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "丹麦",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "奥胡斯",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "时代收藏博物馆",
+      "href": "/attractions/tidens-samling-history"
+    }
+  ],
+  "hero": {
+    "title": "时代收藏博物馆・Tidens Samling・丹麦・奥胡斯",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">奥胡斯，丹麦最古老的维京城市之一，却以现代设计的先锋姿态闻名于世。而<strong>Tidens Samling</strong>——这座藏身于1895年别墅中的博物馆，正是这座城市最温柔的时光胶囊：它用二十余个完整的室内空间，封存了一个世纪的丹麦家居记忆。抛开游玩攻略，走进奥胡斯的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">时代收藏博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Tidens Samling</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Tidens Samling</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">丹麦</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">奥胡斯</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元8世纪，维京人沿着奥胡斯湾登陆，在日德兰半岛东岸建起一座名为<strong>Aros</strong>的定居点。这座名字意为“河口”的小城，凭借天然良港迅速成为北欧贸易枢纽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1190年</strong>，奥胡斯获得城市宪章，成为丹麦最古老的城镇之一。中世纪的它，以砖砌教堂和繁荣的渔业立足。但真正让奥胡斯摆脱哥本哈根阴影的，是两次关键转折：<strong>1850年代工业革命</strong>带来的港口扩张，以及<strong>1928年奥胡斯大学</strong>的建立，使它一跃成为丹麦的文化教育重镇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天的奥胡斯，低调而自信。它不刻意炫耀维京血统，却将历史悄然融入每一栋建筑——比如Tidens Samling所在的百年别墅，它的红砖外墙与邻近的现代艺术博物馆Aros形成奇妙对话，仿佛在诉说：<strong>真正的历史，是活着的日常</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1895年：别墅的诞生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Tidens Samling所在的别墅，由当地富商<strong>Peter Nielsen</strong>委托建造。这座红砖建筑带着北欧文艺复兴的典雅比例，曾是奥胡斯上流社会的社交沙龙。1920年代，它被改造成公寓，住进过画家、作家和律师，每一间屋子都承载过不同的命运。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1941年：市政厅的落成</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">就在别墅街角不远处，建筑师<strong>Arne Jacobsen</strong>与<strong>Erik Møller</strong>完成了奥胡斯市政厅——这座现代主义杰作以简洁的线条和铜绿屋顶，宣告了丹麦功能主义设计的登场。它与Tidens Samling收藏的家具同属一个时代，彼此呼应着<strong>丹麦设计的黄金年代</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2005年：时光胶囊开启</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">退休教师<strong>Inger Hermansen</strong>将自己毕生收藏的20世纪丹麦家具与日用器物，捐赠给了这座城市。她和团队花了三年时间，将别墅的每个房间复原成不同年代的客厅——从1940年代的战争简朴风，到1970年代的嬉皮彩色浪潮。参观者推开每一扇门，就像踏入<strong>时光的切片</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Arne Jacobsen：奥胡斯的设计之魂</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然出生于哥本哈根，但<strong>Arne Jacobsen</strong>（1902-1971）与奥胡斯有着不解之缘。<strong>1941年</strong>，他与Erik Møller合作的奥胡斯市政厅，成为他职业生涯的转折点——那座建筑中的“蛋椅”和“天鹅椅”尚未诞生，但他对功能与美学的平衡已经成熟。有趣的是，Tidens Samling的收藏中，有一把Jacobsen为市政厅餐厅设计的<strong>“Tongue椅子”</strong>，如今已成为稀有藏品。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“建筑与家具必须是一个整体，就像大衣的纽扣与面料。”——Arne Jacobsen日记摘录</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他常常在周末到奥胡斯的海边别墅写作，并因此爱上这座城市。<strong>1960年代</strong>，他还为奥胡斯大学设计了礼堂，至今仍在使用。可以说，Jacobsen的设计哲学——<strong>“less is more”</strong>——正是Tidens Samling策展理念的灵魂：不堆砌，只呈现每个时代最本质的生活。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Inger Hermansen：一个人的收藏史</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Inger Hermansen</strong>（1932-2019）是Tidens Samling真正的灵魂。她原本是一名历史教师，却从<strong>1950年代</strong>开始，用微薄的薪水一件件收购二手市场的丹麦家具。她的公寓很快塞满了椅子、灯具和餐具，邻居们笑她“着了魔”。但她坚持认为：“这些物品里藏着丹麦人的集体记忆，它们不该被扔掉。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1990年代</strong>，她索性租下别墅的阁楼，将收藏正式展出。那是一个只有熟人知道的地下博物馆。直到<strong>2005年</strong>，奥胡斯市政府被她的热忱打动，将整栋别墅交予她管理。今天，Tidens Samling的每一件展品旁，都附有<strong>Inger手写的标签</strong>，上面记录着她从原主人那里听来的故事：比如一把1950年代的藤编摇椅，主人是一名纺织女工，她每天下班后坐在上面织毛衣，一直织到1990年代。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在奥胡斯当地，流传着关于<strong>Tidens Samling别墅的“时间静止”传说</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说，<strong>1970年代</strong>曾有一位名叫<strong>Lise的女仆</strong>在这栋别墅工作。她喜欢在深夜擦洗银器时，对着餐具哼唱古老的民谣。有一天，她突然消失，只留下一只未擦完的茶杯。后来有访客声称，在<strong>二楼的卧室</strong>里，看到一面镜子中映出一位穿围裙的年轻女子，正用白布擦拭一只银盘。博物馆的工作人员说，那正是Lise生前最爱擦拭的盘子。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我推开门，房间里的空气仿佛凝固了。桌上摆着1970年代的杂志，收音机还开着，好像主人只是出去倒垃圾。”——游客留言簿摘录</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更玄妙的是，博物馆里有一把<strong>1960年代的丝绒扶手椅</strong>，据说谁坐上去都会感到昏昏欲睡，醒来时总发现自己错过了15分钟。管理员只是笑笑：“那也许是时间在打盹。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些传说为这座博物馆增添了一层魔幻色彩，也让每一位访客在触摸家具时，不自觉放轻了脚步——生怕惊扰了沉睡的时光。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Tidens Samling不是一座冰冷的“设计史陈列室”。它之所以动人，是因为它提醒我们：<strong>历史不仅藏在战争和王朝更迭中，更多时候，它栖身于一只茶杯、一把椅子、一盏台灯的日常守候里</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在奥胡斯，这座小众博物馆用二十个房间，温柔地挽留了丹麦一个世纪的呼吸。当城市在数字化浪潮中狂奔，它固执地保存着那些手工艺的温度、设计的初衷，以及普通人努力生活的痕迹。读懂它，也就读懂了丹麦人如何在现代与传统之间，找到那份恰到好处的平衡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/oerstedsparken-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥斯特公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ørstedsparken</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amaliehaven-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿美琳堡花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amaliehaven</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/haraldsted-lillesoe-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈拉尔斯特德小湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Haraldsted Lillesø</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "oerstedsparken-history",
+          "name": "奥斯特公园",
+          "englishName": "Ørstedsparken"
+        },
+        {
+          "slug": "amaliehaven-history",
+          "name": "阿美琳堡花园",
+          "englishName": "Amaliehaven"
+        },
+        {
+          "slug": "haraldsted-lillesoe-history",
+          "name": "哈拉尔斯特德小湖",
+          "englishName": "Haraldsted Lillesø"
+        }
+      ]
+    }
+  ]
+}

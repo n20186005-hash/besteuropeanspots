@@ -1,0 +1,85 @@
+{
+  "slug": "bilovecka-kasna-history",
+  "template": "history",
+  "metadata": {
+    "title": "比洛韦茨历史喷泉溯源｜捷克西里西亚小镇的水源传奇与雕刻家族轶事",
+    "description": "藏在捷克西里西亚的比洛韦茨，一口拥有三百年历史的巴洛克喷泉，承载着小镇的供水秘密与雕刻世家的恩怨。走进这口水井背后的时光故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "比洛韦茨（Bílovec）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "比洛韦茨历史喷泉",
+      "href": "/attractions/bilovecka-kasna-history"
+    }
+  ],
+  "hero": {
+    "title": "比洛韦茨历史喷泉・Bílovecká Kašna・捷克共和国・比洛韦茨（Bílovec）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在捷克西里西亚的褶皱里，比洛韦茨（Bílovec）如同一枚被遗忘的徽章。镇中心广场上的那口巴洛克喷泉，<strong>Bílovecká Kašna</strong>，并非纯粹的装饰——它曾是全镇唯一的活水源，也是雕刻匠人用凿刀写下的家族史诗。抛开游玩攻略，走进比洛韦茨的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">比洛韦茨历史喷泉</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Bílovecká Kašna</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Bílovecká Kašna</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">比洛韦茨（Bílovec）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">比洛韦茨的历史比喷泉要古老得多。小镇的诞生，与西里西亚的森林和铁矿石有关。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1324年</strong>，奥帕瓦公爵尼古拉二世（Mikuláš II. Opavský）在一份特许状中首次提到“Bílovec”。地名源于捷克语“bílý”（白色的），因为这里的溪流河床覆盖着白色石英岩。公爵在此建立了一座哥特式城堡，作为防御奥洛穆茨主教领地的前哨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正让小镇活起来的，是<strong>铁匠铺</strong>。到14世纪末，比洛韦茨已成为西里西亚的冶铁中心。工匠们沿着溪流搭建水锤锻造坊，镇民聚集在城堡脚下搭建木屋。但有一个致命短板：<strong>没有稳定的淡水</strong>。城堡内有一口深井，但仅供领主使用。普通居民只能到两公里外的奥德拉河取水，冬天冰封时，生活变得异常艰难。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每当天色暗沉，比洛韦茨的主妇们便拖着陶罐走向森林。融雪时节，泥泞的小路上挤满了人和牛，一罐水要用半个时辰才能拎回。” ——18世纪奥帕瓦编年史家梅尔基奥·凯瑟尔（Melchior Kayser）的笔记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到17世纪末，一位从维也纳归来的贵族才彻底改变了这一切。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1703年，</strong> 哈布斯堡王朝的贵族扬·安东宁·塞德拉尼茨基（Jan Antonín Sedlnický）继承了比洛韦茨城堡。他在维也纳宫廷见识过喷泉景观，决心为小镇修建一套<strong>重力供水系统</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他从山中引泉，通过陶管网络引入广场。在广场中心，他下令修建一座巴洛克式喷泉，既是取水口，也是面子的象征。工程于 <strong>1706年</strong> 完工。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">喷泉本身是一整块砂岩雕刻而成。三重圆形水池层层叠落，顶端的雕像是一位手持水罐的青年，水从罐中涌出，寓意“生命的馈赠”。这座雕像出自当地的施密特家族石匠作坊。但鲜少人知的是，这件作品引发了一场持续半个世纪的<strong>产权官司</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1770年</strong>，一位名叫弗兰蒂塞克·施密特（František Schmidt）的学徒完成了喷泉基座上的一对海豚浮雕。他的师傅——也是他的亲舅舅——声称创意被剽窃。家族作坊因此分裂，施密特另立门户后，在喷泉的石缝里刻下了一句拉丁文：“<strong>Non est deus, sed opus hominis</strong>”（这不是神迹，而是人作）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天，若你俯身细看喷泉的接缝处，还能看到那个带划痕的字母“S”——那是施密特家族世代留下的签名。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1834年</strong>，一场大火烧毁了比洛韦茨三分之一的木屋。喷泉的陶管被熔化的铅堵塞。镇议会决定全面翻新，将陶管换成铸铁管，并增加了一个蓄水池。奇怪的是，重修后水流变大了，但水质变得微咸。民间流传：是铸铁管中的铁锈溶解了地下的盐矿。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1869年</strong>，一条铁路支线连接了比洛韦茨和奥帕瓦。喷泉不再是唯一水源，但广场上的铸铁龙头依然日夜流淌。二战末期，撤退的德军炸毁了铁路桥，喷泉管道断裂。战后重建时，工人们在蓄水池底发现了一枚刻有“1945”的银戒指——至今无人认领。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">提到比洛韦茨的喷泉，就绕不开两个名字：<strong>约瑟夫·费尔巴里</strong>（Josef Fejfarb）和<strong>玛格达莱娜·拉赫曼</strong>（Magdalena Lachmanová）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约瑟夫·费尔巴里（1842–1914）</strong> ——喷泉守护者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是比洛韦茨的管道匠，也是镇上的“水管家”。费尔巴里家族四代人都负责维护喷泉管道。约瑟夫本人最著名的事迹，是在 <strong>1878年</strong> 的干旱夏季，连续72小时不眠不休地修理渗漏的阀门。他用黄铜和皮革自制垫圈，甚至在深夜里爬进蓄水池，用手电筒和镊子一只一只地捡出堵塞管道的蝌蚪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的日记里写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“今日第六次入水，水冰骨。发现一只癞蛤蟆卡在支管口。我用钳子夹它，它竟瞪着眼睛看我。我念了句‘在天之父’，它便不再挣扎。次日，全镇的水变甜了。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">费尔巴里还发明了一套<strong>水位报警系统</strong>：在蓄水池内悬挂一个空心铁球，当水位下降时，铁球会撞击铜铃，提醒他打开备用泉眼。这套装置用了三十年，直到他去世当天——1914年9月11日——铜铃在凌晨三点响了，但约瑟夫再也没能起床。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛格达莱娜·拉赫曼（1898–1975）</strong> ——喷泉传说书写者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛格达莱娜是比洛韦茨国立小学的女教师。她在 <strong>1935年</strong> 发动学生搜集小镇历史口述，其中关于喷泉的传说多达二十一个。她将这些故事整理成小册子《比洛韦茨之水》（Voda z Bílovce），自费印刷了三百本。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">书中最动人的一章，是关于 <strong>喷泉顶端的青年雕像</strong>。她说，那并非虚构的人物，而是参照了修建喷泉的工人——一位名叫米哈尔的哑巴石匠。米哈尔不会说话，但他的儿子在1712年的瘟疫中死去。米哈尔便把儿子生前的笑模样刻成了持水罐的青年，让其永远给小镇倒水。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“老师们都说那是天使，但我知道那是谁的脸。他的眼睛有点斜，嘴角有一颗痣，和米哈尔的儿子一模一样。” ——玛格达莱娜·拉赫曼，《比洛韦茨之水》第27页</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战后，这本小册子被捷克国家民俗协会收藏。1975年，玛格达莱娜病逝于比洛韦茨的养老院。她的墓碑上，刻着一只持水罐的手——正是喷泉雕像的简笔轮廓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，每年6月的<strong>喷泉节</strong>（Kašnová slavnost）上，镇上小学的孩子会朗诵玛格达莱娜书中的段落，而约瑟夫·费尔巴里的曾孙仍负责检查阀门。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于这口喷泉，流传最广的是一个 <strong>“半夜取水的人”</strong> 的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说，每当满月之夜子时，如果你独自站在喷泉边，会听到水面泛起涟漪，接着一个穿旧式长袍的人影会俯身取水。他从不抬头，只把水皮囊装满，随即消失在水池的北角。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老人们说，那是 <strong>17世纪的皮匠格奥尔格</strong> 的魂灵。格奥尔格爱上一名面包师的女儿，但女孩的父亲不同意。格奥尔格每晚悄悄去打水，然后将水桶放在女孩窗下，假装是神迹。女孩以为有天使送水，感动之下跳窗逃走，结果摔断了腿。格奥尔格懊悔万分，跳进喷泉自溺。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但另一个版本更隐晦：皮匠其实是 <strong>窃水贼</strong>。当年喷泉是镇上唯一的公共取水处，他每晚偷水去卖。他的鬼魂至今不敢正眼看人，是因为生前的羞愧。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">比洛韦茨有个迷信：如果你往喷泉水里扔一枚硬币时正好砸中水面上的月亮倒影，那硬币就会沉到水底，你的愿望也会实现。反之，如果硬币漂浮在水面上，说明喷泉今天“不想听你说话”，愿望就会延迟。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有孩子相信，喷泉雕像手中的水罐会在新年前夜流出红酒。镇上公社曾专门派人去验证——结果是，的确有几年出现了淡红色的水，原因是铸铁管道中的铁锈氧化后溶入水，颜色像兑了水的红葡萄酒。但这不妨碍孩子们年年将信将疑地捧起手掌。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂比洛韦茨，就是读懂一口井与一座城的共生。这口喷泉不只是石雕，它是铁匠炉水锤的倒影，是哑巴石匠的沉默，是管道匠指尖的血痕，是女教师笔下不肯沉寂的记忆。在捷克西里西亚，许多小镇都有喷泉，但只有比洛韦茨这一口，三百年来从未干涸——不是因为地质，而是因为它被一群执拗的人当作活物在守护。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">若你有天路过西里西亚，别只走进城堡。在广场的长椅上坐一坐，看着那尊持水罐的青年，留意他嘴角的痣。然后去试试那个传说——把硬币扔进月亮倒影里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/vysehrad\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    高\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">高堡（维谢赫拉德）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vyšehrad</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ondrejov-observatory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    昂\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">昂德烈约夫天文台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ondřejov Observatory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bolevecky-rybnik\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博莱韦茨基池塘</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bolevecký rybník</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "vysehrad",
+          "name": "高堡（维谢赫拉德）",
+          "englishName": "Vyšehrad"
+        },
+        {
+          "slug": "ondrejov-observatory",
+          "name": "昂德烈约夫天文台",
+          "englishName": "Ondřejov Observatory"
+        },
+        {
+          "slug": "bolevecky-rybnik",
+          "name": "博莱韦茨基池塘",
+          "englishName": "Bolevecký rybník"
+        }
+      ]
+    }
+  ]
+}

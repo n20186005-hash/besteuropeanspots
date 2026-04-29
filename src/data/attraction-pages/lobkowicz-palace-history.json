@@ -1,0 +1,85 @@
+{
+  "slug": "lobkowicz-palace-history",
+  "template": "history",
+  "metadata": {
+    "title": "洛布科维茨宫历史溯源｜布拉格城堡内私人宫殿的前世今生与音乐传奇",
+    "description": "探秘布拉格城堡唯一的私人宫殿，从16世纪贵族宅邸到纳粹掠夺、共产没收，再经家族归还的传奇史。贝多芬、莫扎特曾在此奏响杰作。走入洛布科维茨宫，聆听跨越五百年的家族故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克共和国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布拉格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "洛布科维茨宫",
+      "href": "/attractions/lobkowicz-palace-history"
+    }
+  ],
+  "hero": {
+    "title": "洛布科维茨宫・Lobkowicz Palace・捷克共和国・布拉格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在布拉格城堡的恢弘建筑群中，有一处宫殿始终保持着私人的温度——<strong>洛布科维茨宫</strong>。自16世纪起，它便是洛布科维茨家族的世袭宅邸，历经战火、劫掠与政治风暴，却从未离开同一血脉的守护。这座宫殿不仅收藏着欧洲最古老的私人艺术与音乐档案，更见证了一个家族如何用文化对抗遗忘。抛开游玩攻略，走进洛布科维茨宫的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">洛布科维茨宫</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Lobkowicz Palace</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Lobkowicz Palace</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克共和国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布拉格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每一个宏伟建筑的诞生，都始于一位野心勃勃的贵族。<strong>1541年</strong>，捷克最高贵族——扬·波佩尔·洛布科维茨（Jan Popel Lobkowicz）在布拉格城堡南翼买下了一块废墟，决定建造属于自己的宫邸。当时城堡内几乎全是皇家与教会建筑，私人宫殿的设立实属另类。扬·波佩尔的目标明确：用石头与艺术向哈布斯堡王室宣告洛布科维茨家族的地位与财富。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">宫殿的设计融合了文艺复兴与早期巴洛克风格，由意大利建筑师执掌。<strong>1570年</strong>，主体建筑落成，成为城堡内第一座非王室的独立宫殿。它的名字直接取自家族姓氏——Lobkowicz，意为“洛布科维茨之家”。在捷克语中，这个姓氏源于贵族领地“Lobkovice”，地名本身带有“柳树茂盛之地”的古波西米亚意味，暗示着家族根系深植于土地与时间。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的宫殿功能不仅是居住，更是权力中心。一楼设有宽敞的宴会厅，二楼则是家族档案室与私人教堂。这里收藏着家族代际相传的油画、挂毯、乐谱与兵器，每一件物品都在无声地叙述着洛布科维茨人如何从一个波西米亚小贵族崛起为帝国最高阶层的掌权者。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">洛布科维茨宫的历史印记，如同一块被反复雕刻的岩石。<strong>1618年</strong>，三十年战争爆发，宫殿在波西米亚叛乱中沦为战场。<strong>1620年</strong>白山战役后，哈布斯堡王室对叛乱贵族进行残酷清算，洛布科维茨家族因站在天主教一边而幸免于难，但宫殿内部的藏品遭到瑞典军队的洗劫——四分之一的绘画与乐器被运往斯德哥尔摩，至今仍躺在瑞典国家博物馆的库房里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正改变宫殿命运的是<strong>二战</strong>与<strong>冷战</strong>。1939年，纳粹侵占捷克斯洛伐克，家族被迫将全部资产移交给德意志帝国。宫殿内的犹太裔乐师遭驱逐，家族收藏的音乐手稿被纳粹当作“德意志文化遗产”扣留。战后，1948年共产主义政变，洛布科维茨家族再次被冠以“资产阶级残余”，宫殿被国有化，底层改作仓库，顶层变成普通住户的廉价住房。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到<strong>1990年</strong>天鹅绒革命后，洛布科维茨家族才通过漫长的法律斗争，在<strong>1992年</strong>成功收回宫殿。此时，宫殿已破败不堪：墙上弹孔累累，天花板漏水，18世纪壁画被石灰覆盖。现任主人——<strong>威廉·洛布科维茨王子</strong>（William Lobkowicz）不拿政府津贴，自费数百万欧元修复了这座建筑。2002年，宫殿以博物馆形式重新向公众开放，成为布拉格城堡内唯一展示私人家族历史的场所。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今日宫殿中的<strong>音乐厅</strong>，正是当年贝多芬作品首演的排练地。房间的木地板保留着18世纪的磨损痕迹，墙壁上的裂缝被刻意留存，作为历史伤疤的见证。每一个裂缝背后，都藏着一个时代的叹息。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">音乐赞助人：弗朗茨·约瑟夫·马克西米利安·洛布科维茨亲王（1772–1816）</li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">洛布科维茨家族最大的文化遗产并非建筑本身，而是一份被列入“世界记忆”名录的<strong>音乐档案</strong>。其中最重要的人物，是第七代亲王<strong>弗朗茨·约瑟夫·马克西米利安</strong>（Franz Joseph Maximilian Lobkowicz）。他不仅是一位贵族，更是一位狂热的音乐赞助者与业余低音提琴手。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“献给洛布科维茨亲王，以最深切的敬意。”——贝多芬在《第三交响曲“英雄”》总谱扉页上的题词</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1804年，贝多芬完成《降E大调第三交响曲》，原本打算献给拿破仑。当拿破仑称帝的消息传来，贝多芬愤然撕毁题献，转而将这部英雄之作赠予他尊敬的洛布科维茨亲王。亲王不仅以1000金币赞助了交响曲的首演，更在其布拉格官邸——洛布科维茨宫中为自己举办了私人试演。那是一个深秋的夜晚，贝多芬亲自指挥，火炉中的木柴燃烧声几乎盖过了管弦乐的初始和弦。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">洛布科维茨亲王资助的音乐家名单还有莫扎特、海顿、韦伯。他支付了莫扎特歌剧《唐·乔万尼》在布拉格首演的部分费用，而海顿则为他创作了四首弦乐四重奏。亲王的私人图书馆收藏了2000余份乐谱手稿，其中有莫扎特《A大调单簧管协奏曲》的第二乐章草稿——后世认为那段旋律是莫扎特为洛布科维茨宫中的小型音乐厅专门修改的。</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">家族档案的守护者：威廉·洛布科维茨王子（当代）</li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说弗朗茨亲王代表了音乐的黄金时代，那么<strong>威廉·洛布科维茨王子</strong>（William Lobkowicz，1955年生）则是现代家族抵抗遗忘的象征。1968年，苏联入侵捷克斯洛伐克，当时年仅13岁的威廉随父母流亡美国，在波士顿大学学习艺术史。他在异国他乡靠搬运工为生，却始终珍藏着从布拉格带出的几幅小画——那是家族曾经的荣耀。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“布拉格城堡里的每一扇窗，我都记得。我们洛布科维茨人不是没有眼泪，只是我们选择把眼泪滴在乐谱上。”——威廉·洛布科维茨</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1992年收回宫殿后，威廉面对的是布满霉斑的墙壁和失窃的藏品。他开创性地将音乐档案数字化，并邀请世界级音乐家如内田光子、西蒙·拉特在宫殿中录制唱片。2018年，他与谷歌艺术与文化合作，向全球开放了洛布科维茨馆藏中580件数字作品。西方媒体称他为“文化考古学家”，他笑着说：“我只是个给祖先修房子的木匠。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在布拉格城堡的阴影里，关于洛布科维茨宫的传说最多是与一位“白女士”有关。<strong>17世纪</strong>，家族中有一位女子叫卡特琳娜（Kateřina Lobkowicz），因被迫嫁给不爱的贵族，在婚礼前夜穿着白色长袍从宫殿三层窗口跳下。据说她的灵魂无法安息，每到月圆之夜，便会乘着城堡的雾气，在宫殿的长廊里游荡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1807年，一位音乐家在宫殿排练时，坚称从钢琴室听到了一串不属于任何乐谱的琴音——旋律正是莫扎特《安魂曲》中的“末日审判”段落。他在录音笔记中写道：“那琴声冰冷如铁，但又带着一种少女的啜泣。”至今，宫殿博物馆的安保人员偶尔报告，在闭馆后的监控中捕捉到白色人影在楼梯间移动的模糊画面。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个流传更广的习俗是“洛布科维茨扣”——每当家族有新生儿出生，主母会用一枚15世纪的银扣在新生儿枕下压上一夜，据说能够保护孩子免受恶灵侵扰。这枚银扣刻有家族纹章:一只双尾狮子站在柳树下，如今保存在宫殿的珍宝馆中，展览牌上写着：“狮子与柳树，既是力量，也是哀伤。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">洛布科维茨宫若只是一座华丽的建筑，它可能早已在战火中化为齑粉。但它之所以能穿越五百年的乱世，是因为它承载的不只是石头与黄金，而是音乐、艺术与<strong>家族对家园的执念</strong>。每一面被修复的墙壁，每一份被数字化的乐谱，都在重复同一个信息:文化不是精英的消遣，而是抵抗遗忘的武器。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你步入宫殿二层的音乐厅，看到墙壁上那道刻意保留的、来自二战时的弹痕，你可能会明白——这座私人宫殿的魅力不在于它的壮丽，而在于它从未放弃的<strong>脆弱与人情味</strong>。它是布拉格城堡群中唯一会“呼吸”的所在，因为它的主人，从未离开。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-nicholas-church-mala-strana\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣尼古拉斯教堂（小城）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">St. Nicholas Church (Malá Strana)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/milos-sykora-bridge\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米洛斯·西科拉桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Miloš Sýkora Bridge</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/great-lookout-cantoryje\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大坎托里耶观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Great lookout Čantoryje</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "st-nicholas-church-mala-strana",
+          "name": "圣尼古拉斯教堂（小城）",
+          "englishName": "St. Nicholas Church (Malá Strana)"
+        },
+        {
+          "slug": "milos-sykora-bridge",
+          "name": "米洛斯·西科拉桥",
+          "englishName": "Miloš Sýkora Bridge"
+        },
+        {
+          "slug": "great-lookout-cantoryje",
+          "name": "大坎托里耶观景台",
+          "englishName": "Great lookout Čantoryje"
+        }
+      ]
+    }
+  ]
+}

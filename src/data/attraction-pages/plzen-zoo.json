@@ -1,0 +1,85 @@
+{
+  "slug": "plzen-zoo",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "比尔森动物园 Plzeň Zoo｜与珍稀动物在山坡森林里相遇的治愈之旅 - 最佳欧洲景点",
+    "description": "你见过动物园里野猪大摇大摆从你脚边走过吗？我不是在开玩笑。比尔森动物园有一个特色项目叫“接触农场”，但这里的“接触”比你想的要狂野得多——在某些步道上，小香猪和鹿会毫无防备地在你两米外溜达，它们甚至懒得抬头看你，倒是你这边手机举半天，心跳扑通扑通。这种“人与动物共享一条小径”的体验，是这座动物园最打"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "比尔森",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "比尔森动物园",
+      "href": "/attractions/plzen-zoo"
+    }
+  ],
+  "hero": {
+    "title": "比尔森动物园・Plzeň Zoo・捷克・比尔森",
+    "description": "你见过动物园里野猪大摇大摆从你脚边走过吗？我不是在开玩笑。比尔森动物园有一个特色项目叫“接触农场”，但这里的“接触”比你想的要狂野得多——在某些步道上，小香猪和鹿会毫无防备地在你两米外溜达，它们甚至懒得抬头看你，倒是你这边手机举半天，心跳扑通扑通。这种“人与动物共享一条小径”的体验，是这座动物园最打动我的地方。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">你见过动物园里野猪大摇大摆从你脚边走过吗？我不是在开玩笑。比尔森动物园有一个特色项目叫“接触农场”，但这里的“接触”比你想的要狂野得多——在某些步道上，小香猪和鹿会毫无防备地在你两米外溜达，它们甚至懒得抬头看你，倒是你这边手机举半天，心跳扑通扑通。这种“人与动物共享一条小径”的体验，是这座动物园最打动我的地方。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">刚进大门，你就闻到了那股“动物园味”——干燥的草料、淡淡的动物粪便、还有摊位上刚烤好的捷克香肠。但这股味道分阶段变化：走到爬行馆附近，空气变得潮湿温热，像走进了一个热带温室；爬到园区最高处的北极熊区，冷风一吹，松针和苔藓的味道混进来，让你瞬间清醒。孩子们的笑声、动物的低吼，还有讲解员拿着扩音器用捷克语叫着“看看这个”，这些声音层次分明地铺开在森林山谷里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">比尔森动物园最大的魅力是它不装。它不像某些大动物园搞几个华丽的亚克力大缸子糊弄你，这里有些围栏就是简单的木栅栏和灌木丛，你甚至能看见猴子在树枝间拿游客扔的玉米啃。但别误会，这恰恰说明他们懂动物——动物们有足够的空间可以选择躲藏或亮相，而游客必须学会耐心。我花了二十分钟才在一片树影里找到那只躲在空调通风口下的云豹，它眨着金色眼睛，像哲学家一样审视着匆匆走过的每一个人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座建于1926年的动物园，最初只是比尔森一位热爱动物的木材商人的私人收藏。如今它已扩至21公顷，拥有一千四百多只动物、三百多个物种，却依然保持着一种家庭经营的亲切感。你会在路边看到自动售货机卖干面包块和胡萝卜块，供游客投喂羊驼和山羊，旁边还贴着手写的告示“一次请勿超过两块哦”。这种手写的小贴心，比任何大屏幕都温暖。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">比尔森动物园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Plzeň Zoo</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Plzeň Zoo</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">比尔森</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">捷克最古老的动物园之一，也是中欧地区物种最丰富的动物园，以专注于亚洲和美洲珍稀物种的保育而闻名。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">依山坡而建，园区与原生森林无缝融合，没有巨型钢筋混凝土笼舍，取而代之的是模拟自然栖息地的开放式围栏和玻璃栈道。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">生态自然主义风格，强调沉浸式体验，建筑低调谦逊，让动物的动线高于游客，形成“动物在自然中，游客在参观中”的观感。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">不仅是休闲场所，更是一个活体基因库，参与全球濒危物种（如小熊猫、云豹、倭河马）的繁育计划，在捷克公众中推广野生动物保护意识。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">全年开放，但分冬夏季时间。夏季（4月至9月）每天8:30-18:00，最后入园17:00；冬季（10月至3月）每天8:30-16:00，最后入园15:00。圣诞节当天（12月24日）和元旦（1月1日）闭园，平安夜只开到14:00。建议出发前官网再查一下，尤其遇到捷克法定假日可能会调整开放，比如复活节周一通常正常开放但喂食时间有变动。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">成人票230捷克克朗（约9欧元），学生和60岁以上老人160克朗，6-15岁儿童160克朗，6岁以下免费。家庭票（2大人+最多3个孩子）690克朗。动物园还提供年票，单人800克朗，家庭2050克朗，住比尔森周边的话很划算。注意偶尔有季节性折扣，比如11月捷克国家独立日前后可能半价，可以关注官网。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Pod Vinicemi 928/9, 301 00 Plzeň, Czech Republic</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从比尔森主火车站（Plzeň hlavní nádraží）搭乘公交车33路或44路到“Zoo”站下车，车程约15分钟，班次在白天每15-20分钟一趟。也可以从市中心共和广场（náměstí Republiky）乘坐电车4路到“Zoo”站，约20分钟。如果自驾，动物园有免费停车场，但旺季周末车位紧张，建议早到。从布拉格坐火车到比尔森约1.5小时，再转公交。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">故事要从1920年代说起。当时比尔森有位叫Otto Bauch的富商，他是当地木材大王，也是个狂热的自然爱好者。他最早在自己的庄园里养了一些本地鹿和雉鸡，纯粹是为了消遣。但1926年，他心血来潮，把这块位于市郊山坡上的土地捐出来，正式开辟了一个“动物花园”。最初的规模很小，只有几只鹿、一只熊和一堆鸟。比尔森市民周末来散步，看熊在笼子里转圈，觉得新鲜极了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，动物园几乎没有倒闭。纳粹占领捷克后，食物短缺，动物们只能吃市民贡献的烂菜叶子。动物园主任趁夜把几只珍贵的捷克本地野山羊偷偷放生到森林里，等战争结束才把它们找回来。这个故事在当地流传甚广，成为动物园精神的底色：不在乎宏大叙事，只在乎每一个小生命。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后50年代到70年代，动物园经历了两轮大扩建。他们买下了旁边的山林，开始建造大型鸟舍和灵长类馆。最标志性的是1962年建成的狼区，一个巨大的山坡围栏，游客可以从一条隧道穿过狼群领地中心，头顶三米处就是狼在漫步。当时这在欧洲是革命性的设计，比很多德国动物园超前了十年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">冷知识：这家动物园在1989年天鹅绒革命之前还是国有，可运营思路却格外有“情商”。园长会偷着用国外交流换来的稀有动物（比如小熊猫）去跟其他动物园交换建筑材料，因为那时候买一袋水泥都要指标。小熊猫当时在全球都很少，比尔森凭借这个小家伙先后从波兰换来了四只雪豹、从奥地利换来了一个全新的爬虫馆。这种动物外交，比任何政治文件都有用。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">进入21世纪后，动物园开始专注于东南亚和南美物种保育。他们建了一个名为“亚马逊丛林”的大型温室，里面种满了凤梨和棕榈，养着树懒和大食蚁兽。2015年，他们又开辟了“缅甸山地”展区，模拟缅甸北部的温带云雾林，专门为一对稀有的白颊长臂猿和一群小熊猫设计。这里的小熊猫不是那种缠着人要吃的的网红，而是真的有空间顺着木架爬上十米高的树梢，然后一窜消失在密密的竹叶里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有趣的是，动物园的创始人Otto Bauch至今还“住”在园里——他的墓碑被移到了动物园入口右侧的小花园里，刻着“他在这里找到了快乐”。每天清晨，早起的游客会路过那块碑，上面常常放着一支由管理员随手摘下的野花。这份不刻意的纪念，比任何雕像都有力量。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  建议上午9点开园时抵达，直接先冲最远的“亚洲森林”展区（因为动物清晨最活跃），然后慢慢走下山坡，中午在园区中心餐厅吃午饭，下午逛儿童农场和爬虫馆，最后返回大门前看猛禽表演（通常15:00有一场）。全程约4-5小时，能走完主要区域但不赶。注意这是山形地形，每一步都在上下坡，穿舒适的鞋子很重要。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>园区有很多上坡但路况好，穿运动鞋是王道，千万别穿拖鞋。喂食时间表每天在入口大屏显示，最值得看的是11点的海狮喂食和14:30的猴子训练。避开捷克节假日，尤其5月1日和10月28日，那两天游客暴增，你连羊驼的脸都看不到。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">清晨趁着人少直奔最高处的“缅甸山地”展区，那是一群小熊猫刚吃完早饭爬回树杈打瞌睡的最佳时机</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">沿着木栈道拐进“亚马逊温室”，湿热的空气瞬间包裹你，一只二趾树懒正以奇慢的速度抓着藤蔓从天而降</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">走到狼隧道中间停下来，静静地听狼群的嚎叫声在混凝土拱顶里回荡，声音像是从地底传来一般低沉</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在“接触牧场”花十克朗买一杯玉米粒，羊驼的嘴唇湿漉漉地舔过你的掌心，触感绵软中带着一点粗糙</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">去鸟馆深处寻找那只名叫戈雅的金刚鹦鹉，它已经学会了用德语说“你好”和捷克语骂人，小心它偷你的耳环</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">爬上通往北极熊馆的陡坡，视野豁然开朗，白熊正趴在假岩石上打哈欠，舌头像粉红色的芭比拖鞋一样垂下来</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 7 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在下午两点的猛禽表演前排找个阴凉的长椅坐下，猎鹰会擦着你的头顶掠过去，带起一阵风</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 8 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">最后在出口附近的纪念品店挑一张手绘动物明信片，店员会帮你贴好邮票盖一枚动物园特制的印章</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 狼隧道内部</h4>\n                  <p class=\"text-sm text-gray-700\">中午光从隧道两端射入，形成一条明暗交错的引导线，你站在隧道正中央，狼群在你头顶的逆光里走动，能拍出沧桑感的剪影</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 缅甸山地展区的竹桥</h4>\n                  <p class=\"text-sm text-gray-700\">下午三四点，光斜照在竹林上，一只小熊猫正好爬到你身边的树枝上，背景是虚化的绿色和藤蔓，这就是你社交媒体的封面照</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 接触牧场的草坡</h4>\n                  <p class=\"text-sm text-gray-700\">上午十点前逆光角度，羊驼的毛发被照得像金色的绒毛，蹲下来以低视角拍，可以避开围栏和人群</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 亚马逊温室的瀑布前</h4>\n                  <p class=\"text-sm text-gray-700\">用慢门或者人像模式，把最靠近你的热带植物当前景，背景是水汽弥漫的瀑布和吃树叶的树懒，很有丛林探险电影的感觉</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 不要使用闪光灯，大部分动物特别是爬行动物和夜行动物会受惊，而且其他游客也会瞪你。北极熊的那个大玻璃有些反光，建议带偏振镜或者紧贴玻璃用手机伸上去拍。无人机是绝对禁飞的，动物园上空是禁飞区。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">预算之选</h4>\n                  <p class=\"text-sm text-blue-800\">比尔森市中心Azulik Hostel，四人间床位仅15欧元一晚，步行到公交站五分钟，老板会给你手绘一张去动物园的小地图</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">距离动物园步行十分钟的Penzion Pod Vinicemi，一栋百年别墅改建的家庭旅馆，每间房都挂着不同的动物版画，早餐有自制的苹果派</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-yellow-800\">位于市郊Radbuza河畔的Vienna House Easy by Wyndham Plzeň，四星级酒店，房间有落地窗和宽敞浴室，打车到动物园仅五分钟，还能在酒店餐厅喝到现酿的比尔森啤酒</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">比尔森市区治安不错，晚上在动物园附近走也很安全，但建议还是住市中心，公共交通方便，晚上能去老城喝啤酒吃烤猪肘。旺季（7-8月）务必提前两周以上订房，圣诞节前后反而便宜因为游客少。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">说实话，我去了那么多欧洲动物园，比尔森可能不是硬件最炫的，但它有灵魂。那种灵魂来自一百年前富商的任性，来自二战期间偷偷放生动物的胆量，来自管理员给墓碑上放野花的温柔。它不把动物当成展品，而是让它们成为你散步途中的偶然相逢——你要有耐心，要慢下来，才能看到那只小熊猫从树叶间探出毛茸茸的脑袋，看到狼群在黄昏时分的山脊上站成剪影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这让我想起一句话：旅行的意义不是打卡多少地方，而是遇见过多少生命。在比尔森动物园，你遇见的每一个生命都有自己的故事，它们不是表演给你看的，它们只是生活在那里，而你恰好路过。如果你也想找回那种童年时蹲在草丛里看蚂蚁搬家般的纯真快乐，那就来比尔森吧，带上胡萝卜块，穿上球鞋，在那个山坡上，你会撞见另一种时间流速。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/petrin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩特任</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Petřín</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jindrichuv-hradec-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    因\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">因德日赫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Jindřichův Hradec</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/telc-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    特\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">特尔奇广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Telč Square</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "petrin",
+          "name": "佩特任",
+          "englishName": "Petřín"
+        },
+        {
+          "slug": "jindrichuv-hradec-history",
+          "name": "因德日赫城堡",
+          "englishName": "Jindřichův Hradec"
+        },
+        {
+          "slug": "telc-square",
+          "name": "特尔奇广场",
+          "englishName": "Telč Square"
+        }
+      ]
+    }
+  ]
+}

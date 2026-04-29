@@ -1,0 +1,85 @@
+{
+  "slug": "pilsen-history",
+  "template": "history",
+  "metadata": {
+    "title": "比尔森历史溯源｜啤酒圣地的前世今生与宗教战争传奇",
+    "description": "波西米亚西部古城，诞生世界第一杯金色啤酒的传奇之地。从13世纪皇家新城到胡斯战争堡垒，走进比尔森，触摸发酵千年的时光印记。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "比尔森",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "比尔森（Pilsen）",
+      "href": "/attractions/pilsen-history"
+    }
+  ],
+  "hero": {
+    "title": "比尔森（Pilsen）・Pilsen・捷克・比尔森",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>比尔森，一座用啤酒酿造历史的城市。</strong> 它不仅是“皮尔森型啤酒”的诞生地，更是波西米亚王国抵御外敌的钢铁堡垒。抛开游玩攻略，走进比尔森的尘封往事，遇见属于它的麦芽香与火药味交织的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">比尔森（Pilsen）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Pilsen</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Pilsen</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">比尔森</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1295年，波西米亚国王瓦茨拉夫二世</strong>颁布特许状，在四条河流交汇处建立一座新城市。这座城市的名字源自捷克语“Plzeň”，意为“流动的水”——正是这片丰沛的地下水源，日后哺育出世界最清澈的啤酒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初，比尔森是一座<strong>皇家规划的新城</strong>。街道呈棋盘格状，中央巨大的方形广场被设计为市集与集会中心。与许多自发形成的中世纪城镇不同，比尔森从诞生起就肩负着<strong>行政与贸易枢纽</strong>的使命。它的选址极具战略意义：位于布拉格通往纽伦堡的商道要冲。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市最早的居民是德国移民，他们带来了先进的手工业技术。但真正让“比尔森”这个名字响彻欧洲的，是藏在地下的东西——<strong>优质的水源与啤酒花的种植传统</strong>。早在14世纪，这里的啤酒酿造已形成规模，但当时还是浑浊的艾尔型啤酒。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 胡斯战争的堡垒（1419-1434）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当整个波西米亚陷入宗教战争时，比尔森选择站在天主教阵营。1422年，胡斯派军队围攻这座城市长达九个月。城内居民<strong>用啤酒和智慧坚守</strong>——他们在地下挖掘了长达18公里的隧道网络，用于储藏食物、转移伤员。这些被称为“比尔森地下迷宫”的隧道至今仍存。今天游客走过老城广场时，脚底三米之下，就是当年躲避炮火、偷偷运送啤酒的隐秘通道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 啤酒革命：1842年</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这一年，巴伐利亚酿酒师<strong>约瑟夫·格罗尔</strong>被比尔森市民邀请，在新建的市民酿酒厂酿造一种新型啤酒。他采用了当地淡色麦芽和独特的底层发酵工艺，并在地下酒窖中陈酿。结果诞生了<strong>清澈金黄、带有柔顺苦味的拉格啤酒</strong>——人类历史上第一杯比尔森啤酒。这彻底改变了全球啤酒史。不到十年，这种淡金色液体就征服了欧洲，甚至催生了“Pilsner”这个专有名词。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 二战中的和平孤岛（1939-1945）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1945年5月5日，比尔森市民率先起义反抗纳粹占领。三天后，美军坦克开进这座未遭轰炸的城市。整个二战期间，比尔森的啤酒厂和地下隧道保护了无数平民，也保存了欧洲最完整的啤酒酿造档案。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 啤酒之父：约瑟夫·格罗尔 (Josef Groll, 1813-1887)</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位来自巴伐利亚的酿酒师，在比尔森只工作了三年（1842-1845），却永远改变了世界。格罗尔的父亲是著名的多瑙河畔酿酒师，但他本人性格孤僻、酗酒成性。比尔森市民不惜重金聘请他，正是看中他掌握的新式底层发酵技术。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>格罗尔在比尔森的遭遇堪称戏剧化。</strong> 他酿出第一桶金色啤酒后，市民惊呆了：当桶盖打开的瞬间，气泡轻盈升腾，酒体如琥珀般透明——这在当时简直是魔法。然而格罗尔很快与啤酒厂管理层决裂，声称“他们偷了我的配方”。他离开比尔森后返回巴伐利亚，一生贫困潦倒。直到去世前，他仍在给比尔森写信，抱怨当年的合同不公。但这并不妨碍他成为<strong>啤酒界的牛顿</strong>——他定义了整个现代啤酒的分类。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“当我在1842年10月5日打开第一桶啤酒时，我看见了黄金。”——引自约瑟夫·格罗尔晚年写给好友的信</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 抗争诗人：扬·哈鲁什 (Jan Harrach, 1770-1840)</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哈鲁什家族是比尔森最大的啤酒世袭领主，但扬·哈鲁什却成了反抗哈布斯堡统治的象征。他出资兴建了比尔森最早的公立图书馆，并在1818年秘密资助捷克民族复兴运动。他的城堡里收藏着<strong>中世纪胡斯派圣杯</strong>——这成为后来民族认同的重要符号。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今在比尔森广场南侧，仍矗立着哈鲁什家族的雕塑，但有趣的是，雕像手中握着的不是权杖，而是一杯冒着泡沫的啤酒——这是市民对他那句名言的致敬：“如果诗歌不能像啤酒一样解渴，那就不是真正的诗歌。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“啤酒井”的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在比尔森地下隧道系统中，有一口深达25米的“啤酒井”——当年酿酒厂通过管道将啤酒直接从酒窖输送至广场上的喷泉，供节日免费饮用。但传说在15世纪，一名嫉妒的酿酒师往井里投毒，导致数百人中毒。此后，<strong>每月圆月之夜，井中会传出麦芽发酵般的咕噜声</strong>，据说那是冤魂在酿制“死亡啤酒”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人坚信：如果有人敢在午夜对着啤酒井说出“我渴了”，井水就会瞬间变成苦涩的黑色啤酒。直到20世纪50年代改建时，工人们真的在井底发现了一具骸骨，手持生锈的啤酒杯——这桩离奇案件至今未解。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣巴托罗缪教堂的沉默钟声</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">位于广场中央的圣巴托罗缪教堂（哥特式尖塔高102米），曾在1618年三十年战争期间被瑞典军队占据。传说瑞典指挥官试图敲响教堂大钟宣告胜利，<strong>钟声却突然变成战败的哀鸣</strong>。自那以后，每逢战争爆发，这座钟都会不敲自鸣。二战末期，它真的在1945年5月5日凌晨自动响了七次——正是在比尔森起义的时刻。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">比尔森的历史不是写在教科书里的抽象概念，而是流淌在每一条啤酒管道、每一块鹅卵石下的波纹里。它是 <strong>“啤酒界的耶路撒冷”</strong> ，更是一座用铁丝网和麦芽编织的坚韧之城。读懂比尔森，就理解了波西米亚民族如何在镇压、战争与工业化浪潮中，用一杯清澈的金色液体捍卫自己的身份。当你站在广场上仰望哥特尖塔时，请想想脚下埋藏的隧道、地下沉睡的传奇——那些才是这座小城真正的醇香。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/prachatice-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普拉哈季采</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Prachatice</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cesky-krumlov-castle-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克鲁姆洛夫（CK小镇）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cesky Krumlov</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/moravian-museum-bishops-courtyard\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    摩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">摩拉维亚博物馆 - 主教庭院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Moravian Museum - Bishop’s Courtyard</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "prachatice-history",
+          "name": "普拉哈季采",
+          "englishName": "Prachatice"
+        },
+        {
+          "slug": "cesky-krumlov-castle-town",
+          "name": "克鲁姆洛夫（CK小镇）",
+          "englishName": "Cesky Krumlov"
+        },
+        {
+          "slug": "moravian-museum-bishops-courtyard",
+          "name": "摩拉维亚博物馆 - 主教庭院",
+          "englishName": "Moravian Museum - Bishop’s Courtyard"
+        }
+      ]
+    }
+  ]
+}
