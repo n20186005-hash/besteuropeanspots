@@ -1,0 +1,85 @@
+{
+  "slug": "stavanger-history",
+  "template": "history",
+  "metadata": {
+    "title": "斯塔万格历史溯源｜北欧维京传奇的木屋小城与罐头大亨的黄金时代",
+    "description": "从维京时代到石油都城，挪威斯塔万格历经千年沧桑。走进木屋街巷、大教堂与罐头博物馆，探寻这座北欧小城的尘封往事与传奇名人。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "挪威",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯塔万格",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯特万格",
+      "href": "/attractions/stavanger-history"
+    }
+  ],
+  "hero": {
+    "title": "斯特万格・Stavanger・挪威・斯塔万格",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>斯塔万格</strong>，挪威第四大城市，却以最古老的木质教堂与最现代的石油博物馆闻名于世。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它曾是一座安静的渔村，在<strong>维京时代</strong>留下厚重的石刻遗存；</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它也曾是欧洲沙丁鱼罐头的首都，工厂烟囱里升腾过百年的工业黄金。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">抛开游玩攻略，走进斯塔万格的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">斯特万格</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Stavanger</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Stavanger</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">挪威</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">斯塔万格</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯塔万格的名字，源自 <strong>“Stafr”</strong> （古诺尔斯语中的“木棍”或“标杆”）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地理学家推测，这个地名词源指代古代水手用以标记峡湾入口的航海标杆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座城市最早的定居点，可以追溯到 <strong>8世纪</strong> 的维京时代。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">考古学家在市区周边发现了大量维京墓穴与农庄遗址。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">海岸边的 <strong>Avlsnes</strong> 与 <strong>Tasta</strong> 区域，曾是维京部落首领的统治领地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯塔万格真正作为城市兴起，却在 <strong>1125年</strong> 左右，伴随<strong>斯塔万格大教堂</strong>的落成。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当时，挪威国王 <strong>西居尔一世</strong>（Sigurður Jórsalafari）将这座小渔村定为<strong>主教驻地</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">教堂的建立，使斯塔万格成为宗教行政中心，人口迅速聚集。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪时，这里不过是个几百人的小镇，渔火点点，城墙简陋。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但它的名字，早已刻入挪威的地理版图。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一座渔村，因为一位国王和一座教堂，悄然踏上了千年的历史舞台。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯塔万格最古老的地标，无疑是<strong>斯塔万格大教堂</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座<strong>北欧保存最完好的中世纪大教堂</strong>，建于 <strong>1125年</strong> 至 <strong>1150年</strong> 之间。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建筑风格融合了罗马式的厚重与哥特式的尖拱，内部石雕精细描绘着《圣经》故事。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">民间传说记载：建造大教堂的工匠来自英格兰，他们采用了当地不产的特殊石材，至今无人能完全破译石柱上的一些神秘符号。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>16世纪的宗教改革</strong>，是城市命运的转折点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">丹麦-挪威联合王国推行路德宗，斯塔万格大教堂被从天主教转到路德宗名下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">主教权力被削弱，城市一度陷入经济低迷。但沉寂并未持续太久。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>19世纪中叶</strong>，一场工业革命彻底重塑了斯塔万格。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>沙丁鱼罐头</strong>产业异军突起，挪威西部的渔港，瞬间变成欧洲的“罐头之都”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">工厂沿港口一字排开，烟囱林立，蒸汽机轰鸣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1900年前后，斯塔万格拥有 <strong>70多家罐头厂</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">来自西班牙、英国的水手和商人云集于此，城市人口从几千人暴涨至三万多。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">可以说，是鱼和铁皮罐，把斯塔万格推入了现代。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">提到斯塔万格，不得不提<strong>亚历山大·谢兰</strong>（Alexander Kielland，1849-1906）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是挪威<strong>四大文豪之一</strong>，也是这座城市的“叛逆之子”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">谢兰出生在斯塔万格一个富有的商贾家庭，家族经营着著名的 <strong>“谢兰家”</strong> 大宅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他本该继承家产，成为罐头大亨，却偏偏热爱文学与社会批判。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他笔下的《劳工》、《船长的故事》等作品，毫不留情地揭露了当时斯塔万格工厂主对工人的剥削、虚伪的宗教道德与小市民的狭隘。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1880年代，谢兰因激进言论与自由派主张，与家乡的保守派上流社会彻底决裂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他被迫流亡德国、丹麦，晚年才得以返回。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，他的故居被改为<strong>亚历山大·谢兰博物馆</strong>，展出手稿与生活用品。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">谢兰曾说：“我热爱这座城市，所以我必须揭露它的伤口。只有真相，才能让它的灵魂获得自由。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位与斯塔万格紧密相连的名人，是探险家<strong>罗阿尔德·阿蒙森</strong>（Roald Amundsen）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然阿蒙森出生在奥斯陆附近的博尔格，但他曾在<strong>斯塔万格</strong>度过了重要的青少年时光。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在这里的商船学校学习航海技术，并接受了最严酷的北海风浪训练。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">正是斯塔万格的港口与船厂，锻造了他挑战南极冰原的胆魄与技能。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座小城的航海基因，在阿蒙森身上留下了不可磨灭的印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他后来成为<strong>人类历史上第一位抵达南极点的探险家</strong>，而斯塔万格，是他梦想起锚的地方。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在斯塔万格的老城区，流传着关于 <strong>“沉睡的维京人”</strong> 的传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说，在<strong>瓦尔贝格山</strong>（Valberget）的地下，埋藏着一位维京首领的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每当城市面临巨大危机，这位维京战士就会苏醒，手持巨剑，守护这座城市。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">老渔民口口相传：1929年大萧条时，有人曾在夜晚的山顶看到一道蓝光闪烁，仿佛就是那个维京人的守夜之光。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一条传奇，与<strong>斯塔万格大教堂的钟楼</strong>有关。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪时，当地居民相信，教堂的钟声可以驱散海湾中的海怪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年夏至夜，年轻水手会爬进钟楼，偷偷敲响那口<strong>中世纪铜钟</strong>，以求航海平安。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这种习俗在19世纪逐渐消失，但至今仍有老一辈人记得那古老的钟声。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯塔万格，从维京人的渔村，到宗教中心，再到罐头之都与石油之城。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">你可以在<strong>老城区</strong>的白木屋之间，听到19世纪水手的脚步声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">你可以在大教堂的拱门下，感受到中世纪主教的气息。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这里有谢兰批判锋芒的余温，也有阿蒙森远眺南极的目光。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂斯塔万格，就是读懂了挪威的坚韧、叛逆与开拓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它不高调，却自有一种来自深海与峡湾的厚重。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/eikebergsletta\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    艾\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">艾克伯格平原</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eikebergsletta</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fjellheisen-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    F\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Fjellheisen缆车与斯托尔斯泰纳山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fjellheisen & Storsteinen Mountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/longyearbyen-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    朗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">朗伊尔城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Longyearbyen</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "eikebergsletta",
+          "name": "艾克伯格平原",
+          "englishName": "Eikebergsletta"
+        },
+        {
+          "slug": "fjellheisen-history",
+          "name": "Fjellheisen缆车与斯托尔斯泰纳山",
+          "englishName": "Fjellheisen & Storsteinen Mountain"
+        },
+        {
+          "slug": "longyearbyen-history",
+          "name": "朗伊尔城",
+          "englishName": "Longyearbyen"
+        }
+      ]
+    }
+  ]
+}

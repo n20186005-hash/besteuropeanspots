@@ -1,0 +1,81 @@
+{
+  "slug": "eze-viewpoint-history",
+  "template": "history",
+  "metadata": {
+    "title": "埃兹观景台历史溯源｜法国地中海悬崖小镇的前世今生与尼采传奇",
+    "description": "千年古镇埃兹的观景台：从古希腊伊西斯神庙到中世纪堡垒，尼采在此写下《查拉图什特拉》。小众人文秘境，等你来聆听石墙中的回响。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "埃兹",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "埃兹观景台",
+      "href": "/attractions/eze-viewpoint-history"
+    }
+  ],
+  "hero": {
+    "title": "埃兹观景台・Èze Viewpoint・法国・埃兹",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">埃兹，一座悬于地中海岸边陡峭岩石上的中世纪珍珠。它的观景台曾见证腓尼基商船、罗马军团与尼采的孤独脚步。抛开游玩攻略，走进埃兹的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">埃兹观景台</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Èze Viewpoint</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Èze Viewpoint</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">埃兹</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃兹的历史烙印，最早可追溯至 <strong>公元前2000年</strong> 的利古里亚人。他们选择这座海拔429米的危崖作为据点，因其能俯瞰整个蔚蓝海岸。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元前5世纪，<strong>古希腊人</strong>在此建立贸易站，将山巅献给女神 <strong>伊西斯（Isis）</strong>。小镇的名字“Èze”正源于这位埃及女神——你仍能从古罗马时期的铭文中找到证据。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪早期，埃兹成为 <strong>普罗旺斯伯爵</strong> 的领地。山顶修建了石砌堡垒与瞭望塔，观景台正是当年哨兵的制高点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地名的语言渊源：普罗旺斯方言中“Èze”意为“高处的神龛”，暗合其宗教与战略的双重身份。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 中世纪堡垒的废墟</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">12世纪，埃兹城堡拔地而起，墙厚达3米，用于抵御 <strong>萨拉森海盗</strong> 的突袭。观景台下方的锯齿状城墙保留至今，你仍能看到放置火枪的射孔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1706年，法国国王 <strong>路易十四</strong> 的军队为铲除地方势力，下令炸毁城堡。如今只剩几段断壁，但观景台所在的石台恰好是当年主塔基座。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 尼采的哲学步道</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1883年至1885年，<strong>弗里德里希·尼采</strong> 每年冬天都会住进山脚下的小旅馆。他每天沿着一条陡峭的羊肠小路攀登至观景台，再绕山脊返回。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这条小路如今被称为 <strong>“尼采小径”（Chemin de Nietzsche）</strong>。路旁岩石上刻着他的名言：“我是光，我亦是暗。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">正是在这里，尼采完成了《查拉图什特拉如是说》的第三部分。他在给朋友的信中写道：“这里的空气像刀锋一样锐利，思想如鹰般自由。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 瑞典女王的流亡岁月</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1655年，瑞典女王 <strong>克里斯蒂娜</strong> 退位后曾短暂流亡至此。她住在山腰的别墅里，每天在观景台上读笛卡尔的著作。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地传说，她曾向一位渔民预言：“这座石头里会长出哲学的花。” 后来，尼采的到来似乎应验了这句话。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>弗里德里希·尼采：悬崖上的孤独之魂</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">尼采在1883年第一次踏足埃兹时，刚刚经历了与母亲、妹妹的决裂。他患有严重的偏头痛和眼疾，地中海的气候与稀薄的山风成为他的良药。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他住在 <strong>“贝尔维酒店”（Hôtel Bellevue）</strong> 的简陋房间里，房间正对大海。每天清晨5点，他披着旧大衣，拄着登山杖，沿着布满碎石的坡道向上走。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“从这里望出去，海与天不再是界限，而是思想的两极。每当我站在观景台，就能听到永恒在耳畔私语。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">——摘自尼采1883年11月日记</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他与当地的农夫和渔夫交谈，却从不透露自己的哲学家身份。他称自己为“流浪者”，并在这段时期写下了《查拉图什特拉如是说》中最脍炙人口的篇章：“上帝已死”“超人将诞生”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1884年，尼采的妹妹 <strong>伊丽莎白</strong> 前来探望，她受不了山路的颠簸，更无法理解哥哥的狂热。尼采在观景台上对她喊道：“你看到的只是悬崖，而我看到的是通往深渊的彩虹。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>克里斯蒂娜女王：从王座到石阶</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1654年，瑞典女王克里斯蒂娜放弃王位，改信天主教。她辗转罗马、巴黎，最终在1655年春天抵达埃兹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她租下山顶一座废弃的瞭望塔，将其改造为书房。观景台成了她与哲学家 <strong>笛卡尔</strong> 通信的场所——笛卡尔曾在瑞典宫廷担任她的老师。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她在回忆录中写道：“埃兹的每一块石头都比王冠沉重。站在观景台上，我第一次学会像白云一样自由。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>民间传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>伊西斯的眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地渔民世代相传：满月之夜，从观景台向海中抛下一枚银币，就能看到埃及女神伊西斯从波光中浮现。如果银币沉底时泛起白光，意味着当年她为纪念死去的丈夫 <strong>奥西里斯</strong> 洒下的眼泪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个传说源自 <strong>古希腊移民</strong> 带来的伊西斯崇拜。至今，每年仲夏夜，仍有村民在观景台点燃蜡烛，向海默祷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>密道逃生的故事</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪时，海盗常沿崖壁攀爬偷袭。城堡主下令挖了一条从观景台直达海滩的螺旋密道，长200米，宽仅容一人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说1560年，一支 <strong>摩尔人海盗</strong> 攻入城堡后，守卫长 <strong>皮埃尔·马特尔</strong> 带着妻儿从密道逃走。他在观景台的最后一步故意踢翻火把，点燃了炸药库，炸死了大半海盗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今密道已封，但观景台地面的铁环（原用于绑绳梯）依然可见。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>人文习俗：石语者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃兹的孩子们从长辈那里学会一种“石语”——用手指轻敲观景台的石墙，如果回声超过七次，就代表有好事发生。这种习俗源于中世纪哨兵在石墙上敲击的暗号，后来演变成祈福仪式。</p>\n            </div>"
+    },
+    {
+      "title": "6. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃兹观景台不是一座冰冷的建筑，它是地中海文明流动的枢纽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从 <strong>利古里亚人的烽火</strong> 到 <strong>古希腊的神圣祭坛</strong>，从 <strong>尼采的疯狂脚步</strong> 到 <strong>海盗的鲜血</strong>，每一寸岩石都浸透着故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">站在观景台上，你的视线会越过海浪，抵达千年前的船帆。你的耳朵会听见哲学家的咳嗽声与女王的叹息。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂埃兹，就是读懂欧洲文明里那些被遗忘的陡峭之美——它不属于喧闹的旅行团，只属于愿意独自倾听石头的人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/peillon-village-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩永悬崖小镇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Peillon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chateau-de-queribus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯里比斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Quéribus</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/village-des-bories\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    戈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">戈尔德博里村</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Village des Bories</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "peillon-village-history",
+          "name": "佩永悬崖小镇",
+          "englishName": "Peillon"
+        },
+        {
+          "slug": "chateau-de-queribus",
+          "name": "凯里比斯城堡",
+          "englishName": "Château de Quéribus"
+        },
+        {
+          "slug": "village-des-bories",
+          "name": "戈尔德博里村",
+          "englishName": "Village des Bories"
+        }
+      ]
+    }
+  ]
+}
