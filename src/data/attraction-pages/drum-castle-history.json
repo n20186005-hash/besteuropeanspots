@@ -15,11 +15,11 @@
       "href": "/category/history"
     },
     {
-      "label": "Scotland",
+      "label": "英国",
       "href": "/destinations/europe"
     },
     {
-      "label": "Banchory",
+      "label": "班科里",
       "href": "/destinations/europe"
     },
     {
@@ -28,7 +28,7 @@
     }
   ],
   "hero": {
-    "title": "德拉姆城堡及花园庄园・Drum Castle, Garden & Estate・Scotland・Banchory",
+    "title": "德拉姆城堡及花园庄园・Drum Castle, Garden & Estate・英国・班科里",
     "description": ""
   },
   "sections": [
@@ -38,7 +38,7 @@
     },
     {
       "title": "2. 基本信息",
-      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">德拉姆城堡及花园庄园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Drum Castle, Garden &amp; Estate</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Drum Castle, Garden &amp; Estate</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">Scotland</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">Banchory</div>\n</div>\n              </div>\n              \n            </div>"
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">德拉姆城堡及花园庄园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Drum Castle, Garden &amp; Estate</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Drum Castle, Garden &amp; Estate</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">班科里</div>\n</div>\n              </div>\n              \n            </div>"
     },
     {
       "title": "3. 城市/景点起源",

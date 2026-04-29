@@ -1,0 +1,85 @@
+{
+  "slug": "nyboder",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "尼博德 Nyboder｜哥本哈根最上镜的黄色士兵排屋 - 最佳欧洲景点",
+    "description": "我第一次见到尼博德的时候，正是哥本哈根一个懒洋洋的秋日午后。阳光斜斜地洒在那些姜黄色的矮墙上，把整条街染得像是涂了一层蜂蜜。空气里飘着海风淡淡的咸味，还有附近面包房传来的肉桂香。我站在Sankt Pauls Gade的路口，眼前是一排排整整齐齐的两层小楼，每栋都一模一样：深红的瓦屋顶，白色的窗框，大"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "丹麦",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "哥本哈根",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "尼博德",
+      "href": "/attractions/nyboder"
+    }
+  ],
+  "hero": {
+    "title": "尼博德・Nyboder・丹麦・哥本哈根",
+    "description": "我第一次见到尼博德的时候，正是哥本哈根一个懒洋洋的秋日午后。阳光斜斜地洒在那些姜黄色的矮墙上，把整条街染得像是涂了一层蜂蜜。空气里飘着海风淡淡的咸味，还有附近面包房传来的肉桂香。我站在Sankt Pauls Gade的路口，眼前是一排排整整齐齐的两层小楼，每栋都一模一样：深红的瓦屋顶，白色的窗框，大门刷成深绿色。地面是古老的鹅卵石，踩上去发出清脆的嗒嗒声。几只海鸥停在屋顶上，偶尔扑棱一下翅膀，发出几声懒洋洋的鸣叫。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">我第一次见到尼博德的时候，正是哥本哈根一个懒洋洋的秋日午后。阳光斜斜地洒在那些姜黄色的矮墙上，把整条街染得像是涂了一层蜂蜜。空气里飘着海风淡淡的咸味，还有附近面包房传来的肉桂香。我站在Sankt Pauls Gade的路口，眼前是一排排整整齐齐的两层小楼，每栋都一模一样：深红的瓦屋顶，白色的窗框，大门刷成深绿色。地面是古老的鹅卵石，踩上去发出清脆的嗒嗒声。几只海鸥停在屋顶上，偶尔扑棱一下翅膀，发出几声懒洋洋的鸣叫。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这里没有游客的喧嚣，只有当地人的生活。一个老妇人提着购物袋慢悠悠地走过，她的帽檐压得很低。不远处一位父亲推着婴儿车，里面躺着一个金发小家伙，正在酣睡。偶尔有自行车铃叮当作响，骑着车的中年人在街角转弯时抬手和窗台边浇花的大爷打了个招呼。我突然觉得，这条街不像是个旅游景点，更像是一个还在呼吸的活的历史群落。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些房子的颜色实在太特别了。不是那种刺眼的亮黄，而是像熟透的南瓜、像秋天的落叶、像陈年老酒的琥珀色。据说最早是刷成赭石色，因为那是最便宜的颜料。但几百年下来，雨水和阳光把它们洗刷得温润如玉。我伸手摸了摸墙壁，粗糙的灰泥上还有细微的裂纹，仿佛能感受到时间的触感。窗户里透出暖黄的灯光，院子里开满了紫色的薰衣草和白色的雏菊，几只蜜蜂嗡嗡地绕着转。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最打动我的是那种宁静中的秩序感。每一排房屋之间的小巷都干净整洁，种着修剪整齐的灌木。没有大城市的浮躁，只有一种属于海军的纪律性——整齐，谦逊，却又带着不容忽视的骄傲。站在这片街区中央，我仿佛能听到三百年前海军士兵的靴子踏在石板路上的回声，闻到他们从海上带回的咸腥味。这里的每一块砖都记录着水手的家庭故事：妻子在窗边织渔网，孩子在巷子里追逐打闹，退役的老兵坐在门口的石阶上望着远处的港口。尼博德不是博物馆，它是一首还在吟唱的海洋民谣。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">尼博德</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Nyboder</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Nyboder</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">丹麦</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">哥本哈根</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">尼博德是丹麦皇家海军历史上最著名的士兵住宅区，见证了丹麦海上霸权的兴衰。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">一排排对称排列的姜黄色低矮排屋，搭配深红色屋顶瓦片和白色窗框，形成整齐划一而又温暖明亮的几何美感。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">简朴的文艺复兴风格与荷兰古典主义影响相结合，强调对称、功能性，以及统一的色彩与体量。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">反映了17世纪丹麦国王克里斯蒂安四世为海军士兵提供安居乐业的福利思想，也是哥本哈根老城区保存最完好的历史居住区之一。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">作为一个开放式街区，尼博德的街道和外部景观全天24小时免费开放。但内部建筑多为私人住宅，不对外开放。部分建筑底层设有小型博物馆或工作室，开放时间通常为周二至周日上午10点至下午4点，冬季（11月至次年3月）可能缩短至下午3点，周一闭馆。节假日期间如圣诞节、复活节等可能会有特殊安排，建议提前查询。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">参观街区本身完全免费。如果想进入尼博德博物馆（位于Sankt Pauls Gade 30），门票为成人60丹麦克朗，学生凭学生证30丹麦克朗，12岁以下儿童免费。每月第一个周三免费开放。部分临时展览可能额外收费。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Nyboder, 1300 København, Denmark</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从哥本哈根机场出发，乘坐地铁M2线到Kongens Nytorv站（约15分钟），然后步行约5分钟即可到达尼博德街区。如果从哥本哈根中央火车站出发，乘坐公交车1A或2A到Østerport站（约10分钟），再步行3分钟。更推荐步行，从新港（Nyhavn）沿着海边向东北走约10分钟，就能看到一排排整齐的姜黄色小房子。哥本哈根市区非常适合骑行，从市中心租一辆自行车，沿着港口骑过去只要8分钟，还能一路欣赏海滨风景。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">要讲尼博德的故事，就必须从那位疯狂又伟大的国王说起——克里斯蒂安四世。这位丹麦-挪威的君主在17世纪初接手了一个并不强大的国家，但他雄心勃勃，一心要让丹麦成为波罗的海的霸主。他建城堡、修运河、打造强大的海军，但也深知光有船不行，还得有水兵。当时的海军士兵大多是临时招募的农民和渔夫，打完仗就回家种地，根本留不住人。克里斯蒂安四世一拍脑门：为什么不建一片专门的住宅区给士兵们，让他们带着家眷住下来？这样不仅安心服役，还能世代相传。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">于是在1631年，国王下令在哥本哈根城墙外的这片空地上，建造整齐划一的士兵住宅。最初规划了600多栋房子，每一栋都是完全相同的两层排屋，面宽只有4.2米，进深却很长，形成火柴盒一样的布局。每户底层是厨房和起居室，楼上是一间卧室，阁楼用来储物。院墙后面有一个小小的花园，士兵们可以种点蔬菜和烟草。克里斯蒂安四世亲自监督了设计，他强调要有对称美和功能实用性，同时给每栋房子刷上统一的深黄色油漆——因为这种来自瑞典的赭石颜料最便宜又耐用。历史学家说，这可能是世界上最早的社会保障性住房项目之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但这些房子一开始并没有那么美好。17世纪的海军士兵生活非常艰苦，出海打仗常常几个月回不了家，留下的妻子和孩子要独自面对严寒和疾病。尼博德的巷子里曾流传着许多悲伤的故事：有等不到丈夫回家的寡妇，有因为海难一夜之间失去父亲的孩童。不过丹麦政府倒是挺有人情味，制定了严格的转租规定：只有现役或退役的海军士兵及其家属才能居住，而且租金极低。如果丈夫阵亡，妻子可以继续免费住三年，作为抚恤。这种制度一直延续到20世纪中叶，让尼博德成为了哥本哈根最稳定的社区之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正让尼博德变成我们今天看到这个样子的，是19世纪的两次大规模翻修。1840年代，丹麦海军部长决定把这些百年老屋进行现代化改造：加铺了排水系统，安装了玻璃窗，还把内部重新分隔以增加隐私。到了1880年代，一位名叫Ferdinand Meldahl的建筑师主导了第二次改造，他坚持保留原有的17世纪外观，只修补了破损的墙体和屋顶，并统一刷上了新的赭石色涂层。正是这次改造让尼博德从一片破败的老街变成了充满浪漫气息的历史遗产。有趣的是，当时很多市民反对，觉得应该直接拆掉建现代公寓，但Meldahl力排众议，最终保下了这片珍贵的社区。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，哥本哈根被纳粹德国占领，尼博德因为靠近港口，一度成为德国军队的驻地。那些黄色的房子里住进了穿灰绿色军装的德国士兵，让当地居民心中五味杂陈。战后院子里的孩子们又恢复了追逐打闹，但很多老住户已经搬走，一些房子被改造成了办公室和博物馆。直到1970年代，丹麦政府才意识到这片街区的巨大文化价值，将其列为历史保护区，并投入资金恢复了17世纪的原貌。如今，尼博德仍然是很多海军人家属的住所，不过也向公众开放了部分区域。你可以在街角的小咖啡馆里点一杯咖啡，坐在当年水手们晒太阳的石阶上，感受这座城市缓慢而恒久的心跳。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  想真正读懂尼博德，我建议你在上午9点左右抵达，花大约2小时慢慢走一圈。为什么要这个时间？因为清晨的光线最温柔，斜射在黄色墙壁上会产生迷人的光影，而且游客稀少，整个街区都弥漫着早餐的味道——咖啡、刚出炉的面包、还有邻居家煎培根的滋滋声。你的路线应该从Sankt Pauls Gade和Borgergade的交汇处开始，先欣赏最经典的那一排排黄色排屋全景，然后顺着小巷深入，看一看隐藏在建筑背后的海军教堂和内部庭院，最后绕到港口一侧的Kongens Nytorv广场，在喷泉旁的椅子上坐一会儿，回望这片像积木一样整齐的街区。这样安排既能避开中午的人流，又能体验到从晨光到正午的渐变。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>注意不要随意拍照居民家窗户内部，尊重隐私。周末上午巷子里会有跳蚤市场，可以淘到有趣的海军老物件和明信片，建议带点零钱。另外，哥本哈根风大，记得带一件防风外套，即便是夏天有时也会凉。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">从Sankt Pauls Gade北端开始，站在路口望向南侧，那一排黄色房子在晨光中像火柴盒一样整齐排列，是拍摄明信片级照片的绝佳起点</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">沿着Sankt Pauls Gade向南慢行，顺手摸摸每栋房子门牌号下方的小铁牌——上面刻着建造年份和当时的海军上将姓名，那是历史的秘密</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">在Sankt Pauls Kirke（圣保罗教堂）拐角停下，这座建于1890年的红砖教堂和黄色排屋形成强烈对比，教堂内部有描绘海难的彩绘玻璃</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">拐进Grønnegade小巷，这里有一处保存完好的内部庭院，中央有一口老井和一张野餐桌，想象当年水手家属在这里洗衣聊天</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">走到尼博德最南端的Kongens Nytorv广场，在广场东侧的长椅上坐下，把尼博德的黄色屋顶和远处的港口天际线一起收入眼底</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">如果还有时间，绕到街区后方靠近港口的Amaliegade，这里可以同时看到尼博德的背面和阿美琳堡宫的尖顶，构图绝妙</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. Sankt Pauls Gade北端全景</h4>\n                  <p class=\"text-sm text-gray-700\">上午9点左右，站在与Borgergade交叉的路口，用24mm广角镜头从低角度仰拍，让黄色排屋沿着街道向远方延伸，天空留白多一点，能拍出纵深感极强的对称构图</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. Grønnegade巷内庭院</h4>\n                  <p class=\"text-sm text-gray-700\">正午时分（但避免直射），坐在老井旁的木条椅上，利用两侧墙面形成的框架构图，将身穿鲜艳衣服的朋友或路人作为点缀</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 圣保罗教堂门口</h4>\n                  <p class=\"text-sm text-gray-700\">下午3-4点，逆光拍摄教堂的红砖与黄色排屋的碰撞，用70-200mm长焦压缩空间，让教堂尖塔和远处房屋的屋顶瓦片产生重叠纹理</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 从Kongens Nytorv广场东侧回望</h4>\n                  <p class=\"text-sm text-gray-700\">傍晚日落前1小时，用10mm超广角把喷泉和黄色排屋一起纳入，前景的水面倒映出天空的橙红色，非常梦幻</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 这些黄色房屋在阴天会显得平淡，尽量选择晴天且光比柔和的时候拍摄。无人机在哥本哈根市区大部分区域禁飞，请一定遵守规定。不要使用闪光灯对准窗户，以免惊扰居民。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">预算之选</h4>\n                  <p class=\"text-sm text-blue-800\">距离尼博德步行5分钟的Steel House Copenhagen，这是一家由旧工业大楼改造的青旅，有干净的胶囊床位和共享厨房，天台的露台能直接看到尼博德的屋顶群</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">住在尼博德街区内部的Airbnb民宿，有些老房子被改造成了精致公寓，保留了原始木梁和壁炉，早上被窗外的海鸥叫声唤醒，像当地海军一样生活</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-yellow-800\">港口边的Hotel Sanders，这是一家由前皇家芭蕾舞演员经营的精品酒店，距离尼博德仅2分钟路程，顶层的酒吧可以一边喝鸡尾酒一边俯瞰整个街区与港口</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">尼博德本身位于哥本哈根最安全的区域之一，治安很好，深夜散步也无需担心。但哥本哈根整体住宿较贵，建议提前至少三个月预订，尤其是Airbnb上的尼博德老房子民宿非常抢手。如果想省钱，可以考虑住在稍远的Vesterbro区，坐公交过来也很方便。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">说实话，尼博德并不是那种让你一眼惊艳的景点。没有宏伟的大教堂，没有华丽的宫殿，只有一排排朴素的黄色小房子。但正是这种朴素，让人感到一种踏实的感动。我坐在Kongens Nytorv的长椅上，看着夕阳把那些房子染成更深的琥珀色，忽然想到：这些房屋已经在这里站了近四百年，看着一代代海军士兵出海、归来，有些人再也没有回来，但街区的黄色墙壁依然明亮如初。生活从来没有惊天动地，它藏在每一个窗台的盆栽里，藏在每一条被磨得光滑的石板路里。尼博德教会我的，大概是平凡中的坚韧之美。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你厌倦了那些游人如织的打卡点，想找一个能让你真正感受到“这就是哥本哈根”的地方，那么请一定要来尼博德走一走。不需要任何攻略，就随意地在小巷里绕圈，听听孩子们的欢笑声，摸摸墙上的灰泥，闻一闻院子里开花的味道。你会明白，旅行的意义不是集邮式地踩点，而是去感受一座城市最真实的脉搏。尼博德就是那个脉搏，它不急不缓，和你一起呼吸。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/danish-souvenirs\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    丹\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">丹麦纪念品</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Danish Souvenirs</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rubjerg-knude\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鲁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鲁比约格灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rubjerg Knude</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/frederiksberg-slot\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗雷德里克斯堡宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Frederiksberg Slot</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "danish-souvenirs",
+          "name": "丹麦纪念品",
+          "englishName": "Danish Souvenirs"
+        },
+        {
+          "slug": "rubjerg-knude",
+          "name": "鲁比约格灯塔",
+          "englishName": "Rubjerg Knude"
+        },
+        {
+          "slug": "frederiksberg-slot",
+          "name": "弗雷德里克斯堡宫",
+          "englishName": "Frederiksberg Slot"
+        }
+      ]
+    }
+  ]
+}
