@@ -1,0 +1,85 @@
+{
+  "slug": "langelinie-history",
+  "template": "history",
+  "metadata": {
+    "title": "哥本哈根长堤公园历史溯源｜美人鱼雕像背后的丹麦航海传奇与名人故事",
+    "description": "丹麦哥本哈根长堤公园，曾是大航海时代皇家海军基地，如今因美人鱼雕像闻名。深入历史，探索军事要塞的变迁、雕塑家与芭蕾女伶的隐秘轶事，以及那些被海浪冲刷的民间传说。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "丹麦",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "哥本哈根",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "长堤公园",
+      "href": "/attractions/langelinie-history"
+    }
+  ],
+  "hero": {
+    "title": "长堤公园・Langelinie・丹麦・哥本哈根",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">长堤公园的每一块礁石都浸透着海盐与历史。17世纪它是丹麦皇家海军的造船厂，19世纪它化作皇室与平民共享的海滨长廊，20世纪一座小美人鱼雕像让它享誉世界。但很少有人知道，这里曾是<strong>欧洲最繁忙的军港</strong>，也曾是童话之外的真实人间。抛开游玩攻略，走进长堤公园的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">长堤公园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Langelinie</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Langelinie</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">丹麦</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">哥本哈根</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">长堤公园所在的这片海岸，最初并非公园。其名字“Langelinie”源自丹麦语，意为“<strong>长围栏</strong>”或“<strong>长堤</strong>”。早在<strong>17世纪</strong>，丹麦国王克里斯蒂安四世（Christian IV）为强化海军力量，下令在哥本哈根港口外修建一道防波堤，并在其后方建造皇家造船厂和海军基地。这道堤坝沿着海岸线蜿蜒伸展，像一道手臂环抱着港湾，于是得名“长堤”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与许多欧洲海滨公园不同的是，这里一开始就带有强烈的<strong>军事与工业基因</strong>。直到<strong>19世纪中叶</strong>，随着蒸汽战舰取代风帆战舰，老旧的船厂逐渐搬迁，这片地段才向民众开放。丹麦建筑师<strong>费迪南德·梅尔达尔（Ferdinand Meldahl）</strong>受命将废弃的军事设施改造为公共散步道。他保留了部分花岗岩码头和旧船台，并栽种了密集的椴树和山毛榉，使之成为哥本哈根最优雅的海滨走廊。长堤公园的名字也自此从“军事长堤”转变为“散步长堤”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有意思的是，这里的地名典故也暗含一层“<strong>边界</strong>”之意——长堤的外侧是汹涌的厄勒海峡，内侧则是繁华的国王新广场和腓特烈教堂。一道堤坝，隔开了战争与和平、海浪与钟声。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 海军造船厂的辉煌与凋零</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">长堤公园最核心的工业遗迹，是如今已变成游艇码头的<strong>旧海军船坞</strong>。<strong>1672年</strong>，这里铺设了丹麦第一条专用船台，用于建造大型战列舰。当年，船匠们敲打铆钉的叮当声和船坞里弥漫的焦油味，是哥本哈根最喧嚣的声响。最著名的“<strong>丹麦号</strong>”（Danmark）战舰于1720年在此下水，它曾参与对抗瑞典的战争，桅杆上飘扬的丹尼布洛旗见证了北欧霸权的更迭。到了<strong>19世纪中期</strong>，铁甲舰的出现让木质帆船船台彻底过时，船坞逐渐沉寂，最后一座船台在<strong>1868年</strong>关闭。如今，人们坐在码头上喝咖啡，脚下正是当年造船匠挥汗如雨的地方。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 美人鱼雕像的百年沧桑</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1913年8月23日</strong>，一座青铜小雕像被安放在长堤公园的礁石上。它只有1.25米高，却成了丹麦的国家符号。创作者<strong>爱德华·艾瑞克森</strong>以安徒生童话为灵感，但模特并非虚构——他请来丹麦皇家芭蕾舞团的<strong>艾伦·普莱斯</strong>为脸庞和姿态做参考，而身体则用了妻子<strong>艾琳·艾瑞克森</strong>的线条。这座雕像在诞生后近一个世纪里，经历了令人诧异的多次劫难：<strong>1964年</strong>被割掉头部，<strong>1984年</strong>右臂被锯断，<strong>1998年</strong>再次被斩首（后来头部被盗未追回），<strong>2003年</strong>被炸飞入水……每一次破坏后，丹麦人都默默将其修复。这些事件本身就是一部浓缩的现代艺术破坏史，也让美人鱼雕像从童话精灵变成了一座<strong>伤痕累累的文化图腾</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 二战期间的沉默见证</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在<strong>1940-1945年</strong>纳粹德国占领丹麦期间，长堤公园成为德国海军小型舰艇的停泊地。当地居民回忆说，每当走过美人鱼雕像，都会看到德军的灰色军装。但雕像始终沉默地望向大海。<strong>1945年5月5日</strong>，英军解放哥本哈根，成千上万的民众涌向长堤公园，看着德国军舰灰溜溜地驶离。那一夜，美人鱼雕像被市民戴上了丹麦国旗的彩带。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 芭蕾女伶与雕塑家的隐秘合作：艾伦·普莱斯</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小美人鱼雕像的脸部模特<strong>艾伦·普莱斯（Ellen Price）</strong>，是丹麦皇家芭蕾舞团的明星。她出生于<strong>1878年</strong>，18岁便成为独舞演员，以轻盈的舞姿著称。当爱德华·艾瑞克森在<strong>1909年</strong>邀请她做模特时，她已经是哥本哈根社交界的宠儿。据她的日记记载：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“那是一个寒冷的冬日，我穿着薄纱长裙站在艾瑞克森的室内花园，扮演那个为爱牺牲的精灵。为了挡住我忍不住的颤抖，他让我想着大海的寒冷。那是一段漫长而煎熬的时光，但我从未想过，这座雕像会成为国家象征。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">事实上，艾伦·普莱斯非常害羞，她拒绝在公众场合与雕像合影，甚至一度要求艾瑞克森不要透露她的名字。直到20世纪30年代，她才在一次采访中承认自己是“美人鱼本尊”。这位芭蕾女伶最终在<strong>1931年</strong>因同性恋丑闻被迫离开舞台，流落法国，郁郁而终。她的命运与小美人鱼“化为泡沫”的结局竟有几分诡异的相似——一个被遗忘，一个被铭记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 丹麦航海之王：维图斯·白令的无声纪念</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然长堤公园没有白令的雕像，但临近的<strong>丹麦海事博物馆</strong>中陈列着他的航海日志和地图。<strong>维图斯·白令（Vitus Bering, 1681-1741）</strong>，这位出生于丹麦霍森斯的探险家，曾在沙俄军队服役，领导了两次堪察加探险，发现了白令海峡和白令海。他的船队就是从哥本哈根出发，经过长堤公园的锚地驶向北冰洋。1741年，白令在科曼多尔群岛去世，船队幸存者带回的海图和标本保存在哥本哈根。长堤公园的海风中，似乎仍能听到他那艘“圣彼得号”的帆布抖动声。在19世纪，长堤公园专门开辟了一块区域，用作远航船只的系泊点，许多探险家从这里启程，去往格陵兰、冰岛甚至北极。白令的精神与此地血脉相连。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 美人鱼每千年变人的秘密</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哥本哈根的老居民中流传着一个故事：每年<strong>8月23日</strong>（雕像揭幕日）的午夜，当月光照亮长堤公园的礁石，小美人鱼雕像会短暂地变成真人，然后迅速滑入海中游向远方。据说看到这一幕的人会获得“<strong>永葆海洋之心</strong>”——即永远不会对大海感到厌倦。不过，只有连续十二年在这一天来到同一地点的人才能一窥真容。至今没有人声称见过，但每年那个夜晚，总有几个醉醺醺的水手在礁石边徘徊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 造船匠的幽灵码头</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在旧船坞的尽头，有一块光滑的圆形花岗岩，当地人叫它“<strong>船匠之石</strong>”。传说17世纪有一位名叫<strong>马德斯</strong>的船匠，因船体榫卯漏检导致战舰在风暴中沉没，被处决于此处。他的幽灵常在雾夜出现，拿着木槌敲打空气，焦虑地修补不存在的裂痕。如果有人靠近，他会用古老的丹麦语低吼：“检查你的龙骨！”当地人说，如果你在长堤公园听到“咔嗒”的敲击声，那是马德斯还在工作。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">长堤公园是一座没有围墙的博物馆。它用铸铁灯柱、老码头钢桩和美人鱼青铜上的铜绿，拼贴出丹麦四个世纪的缩影：从海洋霸权到童话主义，从工业喧嚣到和平散步。读懂它的历史，就是阅读一部<strong>简明的丹麦航海精神史</strong>。在这里，最微小的雕像承载着最宏大的文化符号，最沉默的码头记录着最激烈的帝国野心。当你下次路过那个永远望向大海的女孩时，不妨想一想：她身后的海水里，沉睡着多少船骸与传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/geifon-fountain\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    盖\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">盖费昂喷泉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gefion Fountain</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/esrum-kloster-mollegard\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃斯鲁姆修道院与磨坊农庄</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Esrum Kloster & Møllegård</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/christiansfeld-moravian-settlement\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克里斯蒂安斯费尔德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Christiansfeld</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "geifon-fountain",
+          "name": "盖费昂喷泉",
+          "englishName": "Gefion Fountain"
+        },
+        {
+          "slug": "esrum-kloster-mollegard",
+          "name": "埃斯鲁姆修道院与磨坊农庄",
+          "englishName": "Esrum Kloster & Møllegård"
+        },
+        {
+          "slug": "christiansfeld-moravian-settlement",
+          "name": "克里斯蒂安斯费尔德",
+          "englishName": "Christiansfeld"
+        }
+      ]
+    }
+  ]
+}

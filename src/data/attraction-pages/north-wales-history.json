@@ -1,0 +1,64 @@
+{
+  "slug": "north-wales-history",
+  "template": "history",
+  "metadata": {
+    "title": "北威尔士历史溯源｜凯尔特王国的烽火、城堡传说与不屈灵魂",
+    "description": "走进北威尔士的尘封往事：从罗马军团到威尔士亲王，从城堡叛乱到诗人悲歌。探秘这片土地上的英雄、龙与石墙背后的传奇。抛开游玩攻略，寻找时光深处的凯尔特之心。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国（联合王国）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "（区域：北威尔士）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "北威尔士",
+      "href": "/attractions/north-wales-history"
+    }
+  ],
+  "hero": {
+    "title": "北威尔士・North Wales・英国（联合王国）・（区域：北威尔士）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在英格兰的阴影下，北威尔士始终守护着自己的语言、龙旗和倔强的记忆。这里曾是凯尔特最后的堡垒，也是爱德华一世用石与血铸就的“铁环城堡”之域。抛开游玩攻略，走进北威尔士的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">北威尔士</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">North Wales</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">North Wales</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国（联合王国）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">（区域：北威尔士）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">北威尔士并非一座城市，而是一片被斯诺多尼亚山脉和爱尔兰海冲刷了千年的土地。它的历史起点可以追溯到<strong>公元前1世纪</strong>——当时这里的原住民是讲凯尔特语的<strong>奥陶维斯人（Ordovices）</strong>和<strong>德凯安格利人（Deceangli）</strong>。罗马人在公元78年征服此地时，遭到了激烈的抵抗，首领<strong>卡拉克塔库斯（Caratacus）</strong>被俘后，罗马将军阿格里科拉才勉强在康威河口建立了临时堡垒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“北威尔士”这个名字源于古英语“Wealas”，意为“外国人”——这是撒克逊人对不列颠原住民的蔑称。而威尔士人自称“Cymry”（同胞），将这片山区称为“Gwynedd”——<strong>格温内斯王国</strong>，一个在黑暗时代崛起的中世纪强国。公元9世纪，<strong>罗德利大帝（Rhodri the Great）</strong>统一了大部分威尔士领土，而他的孙子<strong>海维尔·达（Hywel Dda）</strong>在942年颁布了欧洲最早的成文法之一——《海维尔法典》，至今仍被视作威尔士民族认同的基石。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正定义北威尔士的是它的地理：陡峭的山谷与深邃的森林构成了天然的屏障，让外来征服者每一步都如履薄冰。这里的城堡不仅是军事工事，更是权力与压迫的象征——每一块砂岩都刻着威尔士人抵抗英格兰入侵的血泪史。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">北威尔士的历史是一连串<strong>围城、背叛与不屈</strong>的编年史。最引人注目的两个印记，是爱德华一世在13世纪末修建的“铁环城堡”群，以及那个以失败告终却点燃民族记忆的<strong>欧文·格林德起义</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 铁环城堡：征服者的石头宣言</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1282年，英格兰国王<strong>爱德华一世</strong>发动了对威尔士的最后一战。在击败本土王子<strong>卢埃林·阿普·格鲁菲德（Llywelyn ap Gruffudd）</strong>后，爱德华修建了十座巨型城堡来巩固统治。其中，<strong>卡纳芬城堡</strong>的城墙模仿了君士坦丁堡的样式，而<strong>康威城堡</strong>则用八座巨塔扼守着河口。城堡的修建耗费了王国近一半的年收入，数千名威尔士劳工被迫劳作，许多人因饥饿或事故死去。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“这些城堡不是防御工事，而是压在威尔士人背上的巨石。”一位13世纪的威尔士吟游诗人曾在羊皮纸上写下这样的句子。城堡的箭垛上刻着英格兰的纹章，而威尔士的龙旗只敢在月光下悄悄升起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 欧文·格林德的最后抵抗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1400年，威尔士贵族<strong>欧文·格林德（Owain Glyndŵr）</strong>在东北部举起反旗。他自称威尔士亲王，联合法国舰队，一度控制了除了城堡之外的大部分北威尔士。他在<strong>马钦莱斯（Machynlleth）</strong>召开了威尔士第一届议会，印发了自己的国玺。然而，英格兰的军事优势最终使起义在1410年左右瓦解。格林德消失在斯诺多尼亚的雾中，至今无人知道他埋骨何处。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“格林德没有投降，他只是回到了山的另一侧。”——北威尔士民间至今流传着这句话。他的消失反而成就了威尔士民族神话，莎士比亚在《亨利四世》中甚至把他写成了魔法师。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我梦见一头白龙在斯诺多尼亚上空盘旋，它的鳞片上是爱尔兰海的水珠。——欧文·格林德（据称引自1404年信件）”</blockquote>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与北威尔士共生的两位传奇人物，一位是最后的本土王子<strong>卢埃林·阿普·格鲁菲德</strong>，另一位是“诗人王子”<strong>Dafydd ap Gwilym</strong>。他们的故事不仅关乎权力与诗歌，更揭示了这片土地的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 卢埃林·阿普·格鲁菲德：最后的威尔士王子</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卢埃林是威尔士在爱德华一世征服前最强大的统治者。他生于1223年，在格温内斯宫廷长大，精于兵法与外交。1258年，他被威尔士贵族推举为<strong>全威尔士亲王</strong>——这是威尔士历史上第一次有人获得这样明确的称号。他推动了威尔士法律的复兴，与英格兰的亨利三世签订了《蒙哥马利条约》，正式获得了英格兰对威尔士独立的承认。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但1282年，他因弟媳的叛变和爱德华一世的欺骗战死在<strong>伊尔福依德（Irfon）桥</strong>畔。他的头颅被送往伦敦，戴上常春藤冠挂在伦敦塔上——这是一种耻辱性的胜利展览。然而他的遗体却永远安葬在<strong>阿贝里斯特威斯</strong>附近的修道院里。<strong>每年12月11日</strong>，威尔士人仍在秘密纪念他，称他为“Llywelyn Our Last Leader”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. Dafydd ap Gwilym：月光下的吟游诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说卢埃林代表了政治意义上的威尔士，那么14世纪的诗人Dafydd ap Gwilym（约1320-1350）则定义了威尔士的文学想象力。他出生于<strong>布罗斯克维（Brogyntyn）</strong>附近，父母是格温内斯的小贵族。他一生在诺曼城堡和凯尔特山谷间游荡，创作了超过170首诗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的诗作将威尔士传统诗歌的<strong>“严格韵律”</strong>与法国民间爱情故事结合，创造了独一无二的风格。他写过一首著名的《白石》（Y Maen Gwyn），描写他与情人在月光下用白色卵石作为暗号的幽会。他在诗里称自己是“雪地上的乌鸦”——黑发、黑眼睛，在严冬中寻找温暖。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“她是北方的雪莲，我是南方的风。我吹过她的花瓣时，连城堡都颤抖了。——Dafydd ap Gwilym，《雪莲与风》”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的诗歌至今仍是威尔士中学会考的内容。在<strong>兰戈伦（Llangollen）</strong>的博物馆里，藏有一份15世纪手抄本，上面的诗句仍清晰可辨。当地人相信，如果你在<strong>圣约翰之夜</strong>把耳朵贴在地面，能听到Dafydd用威尔士语吟诵他的旧诗。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">北威尔士流传最广的传说是关于<strong>“红龙”——Y Ddraig Goch</strong>的。据《不列颠诸王史》记载，5世纪的国王<strong>沃蒂根（Vortigern）</strong>试图在斯诺多尼亚的<strong>丁格尔山（Dinas Emrys）</strong>上建造一座城堡，但地基每晚都会塌陷。他的顾问说需要找到一名<strong>没有父亲的男孩</strong>，并将其血洒在工地上。男孩被带来后，却揭露了隐藏在地下的<strong>红龙与白龙之战</strong>——红龙是威尔士的象征，白龙代表撒克逊人。红龙最终获胜，而男孩正是后来的亚瑟王原型之一，<strong>梅林（Myrddin）</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个更接地气的传说与<strong>兰盖夫尼（Llangernyw）</strong>的古老紫杉有关。这棵树的树龄已超过4000年，当地人说它是在<strong>基督诞生之前</strong>就被种下的。每年的<strong>五月节（Calan Mai）</strong>，村民会用紫杉树枝编成环，挂在门楣上驱邪。曾有一个英国考古学家在1930年代试图砍下一段树枝做研究，结果当晚就得了重感冒——村里老人笑着说：“那棵树有脾气。”</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“别打扰紫杉，它比我们所有祖先的骨头都要老。——北威尔士谚语”</blockquote>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">北威尔士的意义不在于城堡的宏伟或景色的壮丽，而在于它提供了一面镜子——照见一个弱小民族如何在石头、诗歌和记忆里保存自己的灵魂。这里的每一条小径都踩过罗马人的靴子、吟游诗人的木屐与起义者的赤足。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂北威尔士，就是学会听见风声中的威尔士语，看见废墟中的龙旗。历史在这里不是博物馆里的陈列，而是活在每一户人家壁炉里的火种。当你站在<strong>哈勒赫城堡（Harlech Castle）</strong>的城墙上，听着<strong>《Men of Harlech》</strong>的战歌从山谷中回荡，你会明白：有些故事永远不会被征服。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    }
+  ]
+}

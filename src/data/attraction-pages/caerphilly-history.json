@@ -1,0 +1,85 @@
+{
+  "slug": "caerphilly-history",
+  "template": "history",
+  "metadata": {
+    "title": "卡菲利历史溯源｜南威尔士秘境城堡与传奇人物休·勒·德斯潘塞的前世今生",
+    "description": "深入南威尔士小城卡菲利的尘封往事：中世纪城堡的工程奇迹、红堡背后的权力博弈、被遗忘的威尔士名人轶事。抛开攻略，在这里听见历史的回响。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡菲利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡菲利",
+      "href": "/attractions/caerphilly-history"
+    }
+  ],
+  "hero": {
+    "title": "卡菲利・Caerphilly・英国・卡菲利",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在威尔士南部的山谷间，藏着一座被时光打磨得异常坚硬的石头小城——卡菲利。这里是英国最大城堡之一的所在地，也是中世纪威尔士与英格兰权力拉锯的缩影。卡菲利城堡并非皇室居所，而是一座纯粹的军事要塞，其庞大的护城河系统、倾斜的塔楼和巧妙的防御设计，让每一位来访者都惊叹于13世纪工程师的智慧。抛开游玩攻略，走进卡菲利的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">卡菲利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Caerphilly</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Caerphilly</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卡菲利</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡菲利的诞生，与一场精心策划的征服密不可分。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1268年</strong>，英格兰贵族 <strong>吉尔伯特·德·克莱尔</strong>（Gilbert de Clare）——格洛斯特伯爵，在威尔士边境的沼泽地上开始建造一座前所未有的石头堡垒。他的目的明确：压制南威尔士的本土势力，尤其是强势的 <strong>卢埃林·阿普·格鲁菲德</strong>（Llywelyn ap Gruffudd），当时最后一位独立的威尔士亲王。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地名“Caerphilly”源自威尔士语“Caerffili”，意为“菲利斯的堡垒”。据传，“菲利斯”是一位早期基督教圣徒或当地酋长的名字，但更可信的说法是，它来源于古威尔士语中“围栏之地”或“环形要塞”的复合词。在城堡动工前，这里已有一处早期的诺曼土木防御工事，但规模远不及后来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>卡菲利城堡的选址极为刁钻</strong>：它建在一条河流的泛滥平原上，原本是一片难以通行的沼泽。吉尔伯特伯爵利用天然水文，挖掘出庞大的蓄水系统，使城堡四面环水，成为 <strong>“水上城堡”</strong> 的典范。整座城堡的建造耗时近一个世纪，直到14世纪才全部完工。它的出现，彻底改变了南威尔士的权力格局——不再是威尔士人随意驰骋的土地，而是被一条由石头、水和恐惧铸成的边界牢牢框住。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 倾斜之塔：军事建筑的绝唱</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡菲利城堡拥有一个明显倾斜的东南塔楼，被称为<strong>“摇摇欲坠的塔楼”</strong>。这并非设计缺陷，而是数百年来地基沉降的结果。城堡建在泥炭沼泽上，尽管工程师在地基中倾入大量的橡木桩和碎石，但塔楼还是在 <strong>13世纪</strong> 后期开始缓慢倾斜。如今它比著名的比萨斜塔还要斜，却依旧稳稳矗立。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地流传的说法是，城堡的倾斜是故意的：为了震慑敌军，让他们以为城堡随时会倒塌而不敢靠近。但事实远比传说更冷酷——这是 <strong>自然力量与中世纪工程极限博弈</strong> 留下的伤疤。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 红堡的恐怖记忆：休·勒·德斯潘塞的暴政</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1317年</strong>，卡菲利城堡落入 <strong>休·勒·德斯潘塞</strong>（Hugh le Despenser）手中。他是爱德华二世的宠臣，以残忍和贪婪闻名。德斯潘塞将城堡作为统治南威尔士的基地，横征暴敛，甚至将威尔士贵族的土地和女儿据为己有。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1326年</strong>，英格兰王后 <strong>伊莎贝拉</strong> 与情夫罗杰·莫蒂默起兵反叛，德斯潘塞的末日到来。城堡在被围困后投降，德斯潘塞在 <strong>赫里福德</strong> 被公开处决：先被吊起，然后被阉割、开膛，最后被斩首。这段血腥历史让卡菲利城堡染上了“红堡”的别称——不是墙的颜色，而是血的印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 英国内战中的最后抵抗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1648年</strong>，第二次英国内战期间，卡菲利城堡成为保王党最后的要塞之一。议会军包围了城堡，但由于其坚固的防御体系，围城持续了数月。守军指挥官 <strong>威廉·西摩</strong>（William Seymour）最终因弹尽粮绝投降。议会军随后下令拆除城堡以防再被利用，但拆除工作极为困难——墙厚达 <strong>6米</strong>，炸药只掀掉了部分屋顶，主体结构奇迹般地幸存下来。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 吉尔伯特·德·克莱尔：那个将沼泽变成城墙的男人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果要评选卡菲利历史上最重要的一个人，非 <strong>吉尔伯特·德·克莱尔</strong>（1243–1295）莫属。他是英格兰最强大的贵族之一，拥有威尔士边疆的大量领地。但他真正的手笔，是卡菲利城堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">吉尔伯特在建造城堡时，展现了惊人的前瞻性。他不惜工本，动用了上千名工人，从 <strong>萨默塞特</strong> 运来优质的 <strong>蓝利亚斯石灰岩</strong>，并在墙体内填充碎石和石灰砂浆，使其坚不可摧。他还在城堡内部建造了独立的 <strong>水门系统</strong>，确保守军在被围困时仍能获得补给。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我不仅要让他们害怕我的剑，还要让他们害怕我的石头。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——吉尔伯特·德·克莱尔，据传在城堡奠基仪式上所言</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">吉尔伯特并非暴君。在他的领地内，法律相对公正，他允许威尔士人保留自己的语言和习俗。这与后来的德斯潘塞形成了鲜明对比。他死于 <strong>1295年</strong>，死因是被 <strong>毒箭射中</strong>——尽管有些记载说是他在与威尔士人谈判时遭暗算。卡菲利城堡是他留给南威尔士最沉重的遗产。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 伊莎贝拉王后：在复仇中写下自己名字的女人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然伊莎贝拉王后并非本地人，但她在卡菲利的历史中扮演了决定性的角色。<strong>1326年11月</strong>，当她和莫蒂默进入卡菲利城堡时，这里刚陷落不到一个月。伊莎贝拉亲自下令搜查城堡，寻找德斯潘塞藏匿的财宝和文件。据说，她在城堡的 <strong>私人小教堂</strong> 里发现了一封秘密信件，证实德斯潘塞计划毒杀爱德华二世——这封信后来成为审判德斯潘塞的关键证据。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊莎贝拉在卡菲利只停留了几天，但她的存在让这座城堡成了英格兰王室权力斗争的一个孤立节点。她的儿子 <strong>爱德华三世</strong> 后来曾多次到访卡菲利，却从未在这里长住。城堡在伊莎贝拉离开后逐渐被遗忘，直到内战时才重新进入历史舞台。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 休·勒·德斯潘塞：被刻在城墙上的贪婪</strong>（可选，如果字数超过可以精简，但为突出小众，保留）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果想要理解卡菲利为什么被称为“红堡”，就必须讲休·勒·德斯潘塞。<strong>1286年出生的德斯潘塞</strong>，在卡菲利统治了不到十年，却留下了最深的阴影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他强征威尔士人为奴，逼他们修建城堡的附属建筑。他还在城堡的地牢里关押威尔士反抗者，用铁链锁在墙上让他们慢慢死去。<strong>1326年伊莎贝拉攻陷城堡时，在地牢里找到了六具尸体</strong>，其中一具是当地一位威尔士酋长的女儿，据说是被饿死的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德斯潘塞的死亡细节被记录在一份中世纪编年史中：他被绑在梯子上示众，然后被降下拖在马后，接着被开膛、斩首。他的头颅被挂在伦敦桥上示众。卡菲利城堡的居民听说消息后，举行了一场狂欢。多年后，城堡的墙上仍能隐约看到血迹——当然，这只是传说，但足以说明德斯潘塞有多么不得人心。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 城堡地下的鬼魂军队</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡菲利城堡至今流传着 <strong>“灰色夫人”</strong> 的传说。她是德斯潘塞时期一位被强暴后自杀的威尔士少女，穿着一袭灰色长裙，在城堡的 <strong>北门塔</strong> 附近游荡。有人说她会在满月之夜出现，低声吟唱一首威尔士挽歌《永不沉没的月亮》。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“当我听到她的歌声，我就知道那晚又会有人死去。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——19世纪城堡看守人的日记，1892年</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更有趣的传说是关于一支 <strong>鬼魂军队</strong>。据说在 <strong>1316年</strong>，威尔士叛乱领袖 <strong>卢埃林·布伦</strong>（Llywelyn Bren）被德斯潘塞处死在城堡外，他的灵魂至今仍率领着一支由12名武士组成的队伍，在护城河上方巡逻。每当暴风雨之夜，人们就能听见马蹄声和金属撞击声。当地老人告诫孩子：绝不要在雨夜靠近城堡，否则会被那支幽灵队列带走。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 护城河里的“绿宝石”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一个关于护城河的传说。据说在城堡建造期间，一位来自 <strong>康沃尔</strong> 的工匠不慎将一枚巨大的绿宝石掉进了护城河的淤泥里。工匠发誓如果找不到宝石，就永远无法完工。他搜索了三天三夜，最终在第四天黎明时找到宝石，但自己却被一个水鬼拖进了河底。城堡因此获得了“绿宝石城堡”的别称——尽管从未有人见过那枚宝石。如今，卡菲利的护城河以清澈的水面和丰富的野生鸟类闻名，但每逢大雾弥漫的日子，总有人声称看到了河底有一道幽幽的绿光。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡菲利是一座被时间凝固的小城。它不需要喧哗的游客来证明自己的价值，因为每块石头都在讲述故事。从吉尔伯特的雄心到德斯潘塞的暴虐，从伊莎贝拉的复仇到鬼魂的传说，卡菲利提供了一扇望向中世纪欧洲权力迷宫的窗户。这里没有宏伟的教堂或繁华的集市，只有一座沉默的石头巨兽，它身上每一道裂缝都是一次战争、每一个倾斜的塔楼都是一次博弈。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂卡菲利，就是读懂威尔士被征服与反抗的血泪史，也是读懂那个年代人性最极端的贪婪与最顽强的抵抗。当你站在城堡最高处的城墙望向山谷，你会明白：真正的历史，从不需要华丽的辞藻来粉饰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/silver-mountain-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    银\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">银山体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Silver Mountain Experience</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pen-y-fan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩尼范山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pen y Fan</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-man-of-hoy\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老人岩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Man of Hoy</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "silver-mountain-experience",
+          "name": "银山体验",
+          "englishName": "Silver Mountain Experience"
+        },
+        {
+          "slug": "pen-y-fan",
+          "name": "佩尼范山",
+          "englishName": "Pen y Fan"
+        },
+        {
+          "slug": "old-man-of-hoy",
+          "name": "老人岩",
+          "englishName": "Old Man of Hoy"
+        }
+      ]
+    }
+  ]
+}

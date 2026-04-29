@@ -1,0 +1,85 @@
+{
+  "slug": "glencoe-history",
+  "template": "history",
+  "metadata": {
+    "title": "格伦科瀑布历史溯源｜苏格兰高地血腥屠杀地的自然悲歌与传说",
+    "description": "格伦科瀑布不仅是苏格兰高地的自然奇观，更是1692年格伦科屠杀的发生地。揭开这片峡谷的黑暗往事，聆听麦克唐纳家族的命运、诗人的叹息与不散的幽灵传说。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国（苏格兰）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "格伦科村",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "格伦科瀑布",
+      "href": "/attractions/glencoe-history"
+    }
+  ],
+  "hero": {
+    "title": "格伦科瀑布・Glencoe Waterfall・英国（苏格兰）・格伦科村",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在苏格兰高地苍凉的群山间，格伦科瀑布飞流直下，水声如泣。这片看似不染尘嚣的河谷，却承载着苏格兰历史上最黑暗的一页——<strong>1692年的格伦科屠杀</strong>，麦克唐纳家族的血染红了春雪。抛开游玩攻略，走进格伦科的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">格伦科瀑布</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Glencoe Waterfall</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Glencoe Waterfall</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国（苏格兰）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">格伦科村</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格伦科并非一座城市，而是苏格兰高地<strong>阿盖尔郡</strong>（Argyll）的一个峡谷及同名小村落。它的名字源自盖尔语 _Gleann Comhann_，意思是“狭窄的山谷”——这恰如其分地描绘出两侧陡峭山壁夹挤的险峻地形。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">早在<strong>13世纪</strong>，这里就是麦克唐纳家族（MacDonald of Glencoe）的世袭领地。家族首领自称为“格伦科之主”（Lord of Glencoe），在这片与世隔绝的峡谷中过着半游牧的高地生活。他们的权力源自对山谷入口的把控——任何穿越山口的旅人都须缴纳“通行税”。这种独立王国的姿态，为后来与苏格兰政府及坎贝尔家族的冲突埋下了祸根。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格伦科村的真正形成要追溯到<strong>18世纪末</strong>，随着军队道路的修建，少量定居点才在瀑布脚下聚集。<strong>19世纪</strong>，浪漫主义画家和诗人开始造访，将这里的荒凉之美载入艺术史。<strong>20世纪</strong>，格伦科成为徒步、登山与滑雪胜地，但它作为悲剧舞台的身份从未被遗忘——来访者总能在瀑布的水雾中嗅到一丝历史的血腥。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格伦科的核心历史事件只有一个，却足以让整个世界铭记：<strong>1692年2月13日凌晨的格伦科屠杀</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这场屠杀的背景是<strong>1688年光荣革命</strong>后，英格兰与苏格兰政府对高地反叛势力的清洗。麦克唐纳家族因迟迟未向新君主威廉三世宣誓效忠，被列入“惩戒名单”。表面温和的 <strong>约翰·坎贝尔</strong>（John Campbell of Glenorchy） 奉命率120名士兵，以“友好访问”名义进入格伦科，并接受了麦克唐纳家族长达12天的热情款待。士兵们与麦克唐纳族人同吃同住，称兄道弟——直到午夜命令下达。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>凌晨5点</strong>，士兵们突然举起火枪和阔剑，冲进毫无防备的房屋。麦克唐纳家族首领 <strong>阿拉斯泰尔·麦克唐纳</strong>（Alasdair MacIain） 在屋外解下胸甲时被射杀；他的妻子被剥光衣物并夺走戒指；四十余名族人当场殒命，另有数十人在暴风雪中冻饿而死。更令人发指的是，<strong>麦克唐纳的客人们</strong>——那些坎贝尔士兵——亲手点燃了收留他们的屋顶。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这起事件之所以被称为“屠杀”（Massacre），而非“战役”，是因为它犯下了 <strong>“谋杀与背信弃义”</strong> 的双重罪孽。政府事后虽处决了几名下级军官，但真正的策划者 <strong>达林普尔勋爵</strong>（Sir John Dalrymple） 仅被短暂免职。此后一百年间，格伦科成为高地人心中永不愈合的伤口。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>18世纪中叶</strong>，英国政府修建的“军事道路”穿谷而过，目的是镇压雅各布派起义。那些整齐的碎石路见证着另一场无声的征服。<strong>19世纪</strong>，贵族猎场取代了古老牧场，鹿群在废弃的石墙间穿行。<strong>1935年</strong>，国家信托组织买下部分土地，格伦科成为苏格兰首批保护地之一——不是为了洗白历史，而是为了记住它。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿拉斯泰尔·麦克唐纳（Alasdair MacIain）：最后的格伦科之主</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他生于<strong>1640年</strong>左右，是麦克唐纳家族第十六任首领，人称“老麦克唐纳”（MacIain）。他的性格与高地土地一样刚烈——曾率族人抢劫坎贝尔家族的牲畜，也曾为雅各布派国王詹姆斯二世作战。<strong>1691年</strong>，政府发出最后通牒：所有高地首领须在次年1月1日前宣誓效忠，否则将面临“铁与火”的惩罚。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老麦克唐纳在风雪中徒步 <strong>80英里</strong> 前往威廉堡，却因路上遭遇暴风雪而迟到了三天。官员收下了他的宣誓，但法律上已经失效。他的命运就此注定。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">屠杀当夜，他听见枪声后从床上跳起，甚至没来得及穿上铠甲。他在屋外被子弹击中，倒在被雪覆盖的石头上。一个士兵用刀割下他的头颅——据传说，那颗头颅后来被带回爱丁堡，挂在托尔布斯门示众。他的女儿 <strong>玛格丽特</strong> 幸存，后来写下了家族的口述记忆，成为后世记录屠杀的唯一亲历证词。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“他死前说的最后一句话是：‘愿上帝宽恕他们，因为他们不知道自己在做什么。’”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——玛格丽特·麦克唐纳的日记残页</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约翰·普雷布尔（John Prebble）：让屠杀重见天日的历史学家</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然普雷布尔并非格伦科本地人，但他的著作《<strong>格伦科屠杀</strong>》（1966年出版）彻底改变了世界对这场悲剧的认知。普雷布尔出生于<strong>1915年</strong>的英国，年轻时移民加拿大，后成为记者与作家。他用了十年时间查阅苏格兰档案馆的尘封文献、家庭信件与法庭记录，用小说般的笔触还原了那十二个日夜的心理戏剧。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他写道：“坎贝尔士兵们与麦克唐纳家族的孩子玩耍，在炉火旁听他们的故事，然后在天亮前将他们杀害。”这种 <strong>“友谊的背叛”</strong> 让整本书读来如同悬疑悲剧。普雷布尔没有简单谴责，而是呈现了双方的困境：政府需要杀鸡儆猴，士兵服从命令，麦克唐纳家族则死于不幸的政治延误。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这本书出版后立即引起轰动，迫使英国政府首次公开承认屠杀。<strong>1992年</strong>，苏格兰官方在格伦科举行屠杀300周年纪念仪式，普雷布尔受邀出席。据说他在瀑布前默立了许久，然后转身对记者说：“这片水声里，有三百年的回声。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>格伦科幽灵传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人相信，格伦科瀑布的水雾中住着一位“哭泣的女士”——<strong>格伦科之泣</strong>（The Weeping of Glencoe）。传说她是麦克唐纳家族的一位新娘，在屠杀前夜刚刚嫁入峡谷。她躲在羊圈里目睹了丈夫被杀，从此化为白影，每当黎明时分站在瀑布顶端垂泪。如果你在清晨独自走过峡谷，能听见她的哭声与水流声混在一起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>另一个版本</strong> 则与大乌鸦有关：屠杀发生后，成群的乌鸦聚集在尸体上。当地人说那些乌鸦是坎贝尔士兵的亡魂所化，永远被困在格伦科的天空中。至今，格伦科的乌鸦比别处更黑更凶——它们是“不义之鸦”。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每当月光照在格伦科瀑布上，水面就会泛红。那是麦克唐纳的血，永不褪去。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——19世纪高地民谣辑录</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一则 <strong>“石头上的符号”</strong> 传说：在瀑布边的岩壁上，隐约可见一个手掌印。那是老麦克唐纳在被杀前按上去的。据说凡是触摸掌印再许愿的人，就能得到家族的祝福，但必须以诚实为代价——若欺骗他人，手印便会灼烧掌心。这个传说被当地导游用来告诫游客：格伦科不喜欢说谎者。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格伦科瀑布不只是摄影爱好者的天堂，更是苏格兰民族记忆的活态纪念碑。那些飞溅的水珠打湿了每一块岩石，如同三百年前的眼泪。读懂这里，你才能真正理解为什么高地人对“叛徒”（Traitor）一词如此敏感——因为格伦科意味着 <strong>信任的崩溃</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在瀑布下，抬头仰望刀削般的山壁，想象那些在雪地里奔逃的身影，你会明白：旅行不仅仅是看风景，更是与历史对话。格伦科教会我们，再壮美的自然也可能被人类的恶意染上血色，但时间会让真相如同瀑布一样，永远奔流不息。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dugald-stewart-monument-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    杜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">杜格尔德·斯图尔特纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dugald Stewart Monument</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunrobin-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓罗宾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunrobin Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castle-varrich-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓦里希城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Varrich</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "dugald-stewart-monument-history",
+          "name": "杜格尔德·斯图尔特纪念碑",
+          "englishName": "Dugald Stewart Monument"
+        },
+        {
+          "slug": "dunrobin-castle-history",
+          "name": "邓罗宾城堡",
+          "englishName": "Dunrobin Castle"
+        },
+        {
+          "slug": "castle-varrich-history",
+          "name": "瓦里希城堡",
+          "englishName": "Castle Varrich"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "portugal-dos-pequenitos-history",
+  "template": "history",
+  "metadata": {
+    "title": "葡萄牙小人国历史溯源｜科英布拉的微型帝国与民族记忆传奇",
+    "description": "走进葡萄牙小人国，追溯1938年诞生的微型帝国：它不仅是儿童乐园，更是萨拉查时代民族主义与建筑遗产的缩影。探秘创建者Bissaya Barreto的野心，聆听石块间的帝国回响。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "葡萄牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科英布拉",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "葡萄牙小人国",
+      "href": "/attractions/portugal-dos-pequenitos-history"
+    }
+  ],
+  "hero": {
+    "title": "葡萄牙小人国・Portugal dos Pequenitos・葡萄牙・科英布拉",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在葡萄牙科英布拉的蒙德戈河畔，藏着一座用石头和水泥编织的“帝国”——<strong>葡萄牙小人国（Portugal dos Pequenitos）</strong>。它不是游乐场，而是一部被缩小的民族史诗。抛开游玩攻略，走进这座微型王国的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">葡萄牙小人国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Portugal dos Pequenitos</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Portugal dos Pequenitos</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">葡萄牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">科英布拉</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1938年</strong>，葡萄牙正值萨拉查新政时期。医生兼慈善家 <strong>Bissaya Barreto</strong> 向科英布拉大学提议：建造一座专属于儿童的“葡萄牙全景”。他心中所想的，不是普通游乐园，而是用<strong>比例1:10</strong>的微缩建筑，凝固葡萄牙从吉马良斯到马德拉、从曼努埃尔式到巴洛克式的全部建筑精华。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这片占地约<strong>7000平方米</strong>的土地，原本属于科英布拉大学的农场。<strong>1940年6月8日</strong>，小人国正式开放，恰逢葡萄牙“双百年纪念博览会”同一年。名字“Portugal dos Pequenitos”直译为“小葡萄牙人”，意在让儿童在行走中“占领”整个祖国。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>建筑师Cassiano Branco</strong>与雕刻师 <strong>José Ventura</strong> 联手设计，从里斯本的贝伦塔到托马尔的基督修道院，严格还原建筑细节。有趣的是，<strong>所有房屋的屋顶均可实际进入</strong>，孩子们可以在“屋顶街道”上奔跑，俯视微缩广场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地名典故</strong>：科英布拉（Coimbra）来源于拉丁语“Conimbriga”，意为“山丘上的城市”，而小人国的选址恰在蒙德戈河冲积平原，隐喻“低处仰望高处”的视角，让童年成为国家的微缩基石。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 萨拉查时代的民族主义实验室</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小人国诞生的1930年代，葡萄牙独裁政权试图通过“葡萄牙精神”统合民众。<strong>1940年，萨拉查亲自出席开幕式</strong>，并称赞这是“用玩具教育爱国的完美方法”。公园内没有游乐设施，只有按地理顺序排列的微型建筑群——从大陆到亚速尔群岛，甚至包括葡萄牙前殖民地（如巴西、澳门）的代表性建筑。<strong>冷战时期，小人国曾被作为“帝国的幼儿园”</strong>，儿童在这里学习殖民地地理，强化“葡语共同体”概念。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 伊比利亚半岛最大的微缩建筑群</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小人国共收录了<strong>超过200座</strong>微缩建筑，涵盖葡萄牙本土68个地区以及前殖民地的19处地标。最令人惊叹的是<strong>托尔什韦德拉什（Torres Vedras）的城堡</strong>，其城垛的齿缝宽度精确到毫米，甚至还原了墙体上弹孔的年代标记——纪念<strong>1808年抗法战争</strong>。另一处经典是<strong>布拉加主教堂</strong>，其巴洛克正立面的螺旋柱被分解成7个独立部件，儿童可以亲手拆解重组。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 隐匿的“活建筑”实验</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1950年代，Bissaya Barreto 秘密在微型建筑中嵌入<strong>时间胶囊</strong>：每个建筑的地基下埋入一块记载建造日期、工匠姓名和当地土壤样本的陶片。<strong>1985年维修时</strong>，工人在里斯本里斯本东站模型中发现了1939年的报纸碎片，上面印着萨拉查宣布葡萄牙中立的消息。这些发现后来被汇编成档案，成为研究二战时期葡萄牙社会心态的珍贵材料。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. Bissaya Barreto（1886–1974）——偏执的“儿童帝国”建造者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是科英布拉大学医学院教授，却比任何建筑师都痴迷于砖石。<strong>1940年</strong>，他自掏腰包购下河畔土地，抵押了祖传庄园。小人国开放后，他每天清晨骑自行车巡视工地，用放大镜检查石缝。<strong>他规定所有微型建筑的窗户都必须能真正开启</strong>，并亲自测量每个拱门的角度。最著名的轶事是：他对工人吼道：“如果孩子的头撞到门框，我就用你们的脑袋重建！” 他的偏执造就了小人国惊人的真实感，但也导致晚年几乎破产。<strong>1974年去世时，他的遗嘱要求将遗体火化后撒入微型贝伦塔前的“迷你特茹河”</strong>——但被政府以“卫生条例”拒绝，骨灰最终安葬于科英布拉公墓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 雕刻师 José Ventura（1903–1985）——“石头诗人”的狂欢</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>José Ventura</strong> 是科英布拉本地石匠的儿子，15岁起在工地打杂。1938年，他被Bissaya Barreto选中雕刻小人国的装饰物。他发明了 <strong>“微型石雕技法”</strong> ：用特制凿刀在比指甲还小的石块上刻出曼努埃尔式波浪纹，误差不超过0.5毫米。<strong>最得意的作品是微型科英布拉大学图书馆</strong>——他在1.2米高的模型上还原了<strong>2,000个书架格子</strong>，每个格子内还摆放了芝麻粒大小的书籍模型，上面甚至有用针尖刻的拉丁文标题。<strong>1945年</strong>，一位英国记者参观时惊叹：“这根本不是模型，这是上帝用显微镜造的世界。” Ventura 终生未婚，住在小人国旁的工棚里，每日擦拭石刻。<strong>1985年他去世后，人们在他床下发现一箱未完成的微型雕像——全是笑脸的儿童面孔。</strong></p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 迷你教堂的夜歌</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说在<strong>1952年</strong>的一个夏夜，守夜人听到微型波尔图大教堂内传出管风琴声。他推开门，发现<strong>一只猫蹲在琴凳上</strong>，爪子按着琴键。猫见人后跳下床，琴声戛然停止。此后，每逢满月，总有游客声称听到教堂内飘出《圣母颂》的片段。当地人称它为“猫修士”，并说它是守护小人国石雕的灵物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 走进墙里的孩子</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1963年</strong>，一名5岁男孩在微型布拉加城堡区迷路。父亲找了半小时后，发现孩子站在一面3米高的“城墙”前哭泣，他说自己“走进墙里看到好多小人在喝酒”。事后测量发现，那面墙实际厚度仅<strong>1.2厘米</strong>，不可能有空间。但工人在墙基下挖出一枚<strong>17世纪葡萄牙铜币</strong>，上面刻着圣乔治屠龙。至今，这枚钱币陈列在小人国纪念品店的玻璃柜中，标签上写着：“被墙吞噬的男孩的通行证”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 永不凋谢的石花</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小人国中心花园有一棵由石雕大师 <strong>António Faria</strong> 雕刻的<strong>“石橡树”</strong>，高4米，树冠直径6米。枝干上共有<strong>2,147片石质橡叶</strong>，每片厚度仅0.8毫米。传说在<strong>1981年</strong>，一场暴风刮断了几根枝条，掉落的石叶竟发出铜铃般的响声。工人们捡起碎片时，发现<strong>叶脉纹路内嵌着真正的金粉</strong>——那是Faria用废弃的金牙粉掺入石浆的技法。如今，这棵石橡树被当地人称为“沉默的财主”，据说触摸它的树干能带来财运。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>葡萄牙小人国</strong>不是单纯的儿童乐园，它是<strong>20世纪民族主义的混凝土文本</strong>，也是<strong>手工艺人最后的集体狂想曲</strong>。<strong>Bissaya Barreto</strong>的偏执与 <strong>José Ventura</strong>的诗意，让它成为欧洲最小的“国家档案馆”。在这里，每一块微缩的石头都在低语：<strong>帝国可以坍塌，但童年的尺度永远真实</strong>。当你俯身凑近那些巴掌大的教堂门廊，你会听见——<strong>1940年的一声凿子敲响，1985年的雨滴渗进裂缝，还有无数孩子曾经踮脚望窗的呼吸</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/serra-da-estrela-nature-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃什特雷拉山脉自然公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Serra da Estrela Nature Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/miradouro-sao-pedro-alcantara\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣佩德罗·阿尔坎塔拉观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Miradouro de São Pedro de Alcântara</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amoreiras-360-panoramic-view\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿莫雷拉斯360度全景观景台</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amoreiras 360º Panoramic View</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "serra-da-estrela-nature-park",
+          "name": "埃什特雷拉山脉自然公园",
+          "englishName": "Serra da Estrela Nature Park"
+        },
+        {
+          "slug": "miradouro-sao-pedro-alcantara",
+          "name": "圣佩德罗·阿尔坎塔拉观景台",
+          "englishName": "Miradouro de São Pedro de Alcântara"
+        },
+        {
+          "slug": "amoreiras-360-panoramic-view",
+          "name": "阿莫雷拉斯360度全景观景台",
+          "englishName": "Amoreiras 360º Panoramic View"
+        }
+      ]
+    }
+  ]
+}

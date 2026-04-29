@@ -1,0 +1,85 @@
+{
+  "slug": "centre-of-wales-history",
+  "template": "history",
+  "metadata": {
+    "title": "威尔士中心历史溯源｜兰德洛斯的尘封往事、名人传奇与独立之魂",
+    "description": "探秘威尔士心脏地带——兰德洛斯。从罗马古道到中世纪集镇，从威尔士独立运动到工业革命遗迹，走进地理中心背后的边陲传奇与不为人知的名人轶事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "兰德洛斯（Llanidloes）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "威尔士中心（兰德洛斯）",
+      "href": "/attractions/centre-of-wales-history"
+    }
+  ],
+  "hero": {
+    "title": "威尔士中心（兰德洛斯）・The Centre of Wales・英国・兰德洛斯（Llanidloes）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">如果说威尔士是一幅被群山与溪谷缝制的挂毯，那么它的中心点——兰德洛斯便是挂毯上最古老的那根金线。这座被称为“威尔士心脏”的小镇，不仅占据着大不列颠岛西南部的几何原点，更承载着凯尔特人抵抗英格兰王权、工业资本家与淘金者追逐梦想的往事。抛开游玩攻略，走进兰德洛斯的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">威尔士中心（兰德洛斯）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">The Centre of Wales</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">The Centre of Wales</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">兰德洛斯（Llanidloes）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一切要从地理与神话的交织说起。<strong>兰德洛斯</strong>的名字源于威尔士语“Llan Idloes”，意为“圣伊德洛伊斯的教堂”。相传 <strong>6 世纪</strong>，一位名叫伊德洛伊斯的隐修士沿着塞文河逆流而上，在群山环抱的河谷中建起了一座小教堂。这便是这座聚落的起点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但人类在此栖息的痕迹远早于修士钟声。<strong>罗马时期</strong>，一条连接北威尔士与南威尔士的军事通道从附近穿过，考古学家曾在镇北的泥炭层中发现罗马银币与陶片。中世纪早期，威尔士诸侯林立的时代，这里属于<strong>波伊斯王国</strong>的核心腹地。<strong>13 世纪</strong>，英格兰国王爱德华一世征服威尔士后，颁发特许状，兰德洛斯正式成为“自治市镇”，镇中心至今保留着当时的市场十字纪念碑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最耐人寻味的是名字背后的权力博弈。威尔士语中“Llan”本指“教堂围墙内的神圣土地”，但诺曼领主入驻后，强行将其拉丁化为“Llanidloes”。<strong>小镇的出生证，便是一纸被两种语言撕裂的契约。</strong></p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你在兰德洛斯的老街散步，脚下踩过的石板下可能埋着 <strong>17 世纪</strong>铅矿工人的骨骸。<strong>铅矿与呢绒</strong>是这座小镇的两个历史标签。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1693 年</strong>，当地农民在凡恩山脚下发现了一条富含铅锌矿的矿脉。消息传遍了整个波伊斯，一时间，来自德文郡和康沃尔的矿工像潮水般涌入。矿工们住在塞文河边的简陋木屋里，每周工作六天，每天十二小时，用十字镐和火药炸开岩层。矿石被运往纽敦的熔炼厂，冒出的浓烟熏黑了山坡上的羊群。<strong>铅矿开采持续了整整两百年</strong>，直到 <strong>20 世纪初</strong>国际市场铅价暴跌才终止。如今，废弃的矿井口像伤疤一样嵌在青山上，只有偶尔落下的碎石声提醒着那段黑暗的繁荣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个改变小镇命运的是<strong>呢绒工业</strong>。<strong>18 世纪末</strong>，水力织布机传入威尔士中部。兰德洛斯的商人斯蒂芬·詹金斯在塞文河边建起了一座三层楼高的呢绒厂，雇佣的工人超过三百人。它的“兰德洛斯条纹呢”一度是利物浦商人的最爱。然而，<strong>1830 年</strong>的一场大火烧毁了整座厂房，灰烬中再也未能重建。令人唏嘘的是，火灾的起因至今成谜——有人说是被解雇的童工伤心纵火，也有人说是蒸汽机的锅炉爆炸。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">除去工业遗迹，小镇最古老的建筑当属 <strong>圣伊德罗伊斯教堂</strong>。这座 <strong>14 世纪</strong>的教堂有着惊人的雕花木质屋顶——橡木梁上刻着 31 种动物面孔，从怒吼的雄狮到咧嘴的山猫，据说寓意着“人间百态皆在神明注视之下”。教堂的最高处嵌着一块 <strong>17 世纪</strong>的日晷，每逢夏至，光线会精准地照在“正午”二字上。当地老人说，日晷是当年一位名叫伊万·摩根的木匠制作的，他耗尽余生只为证明“威尔士的时间与英格兰一样精准”。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座只有三千人口的小镇，却养育了两段足以写入不列颠史册的传奇：一位是“威尔士最后一位吟游诗人”托马斯·埃利斯（Thomas Ellis），另一位是“威尔士独立运动的精神教父”约翰·埃利斯·琼斯（John Ellis Jones）。有趣的是，他们两人是邻居，住在同一条石头巷的两端。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>托马斯·埃利斯（1765–1848）——为凯尔特语言立碑的人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">托马斯出生在镇上“屠夫路”的一个皮匠家庭。他从六岁起跟着盲人外公上山采药，外公每采一株植物，就用威尔士语念一段咒语。<strong>托马斯后来回忆说：“每一棵草都有一个名字，每一个名字都是一首诗。”</strong> 他 15 岁进入镇上的文法学校，但不到一年就因交不起学费辍学。此后他给镏金匠当学徒，晚上却在烛光下抄写威尔士中古诗歌集《马比诺吉昂》。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1796 年</strong>，托马斯在兰戈伦的一次诗歌比赛上以一首《献给格拉摩根山谷的挽歌》一鸣惊人，被当时的威尔士贵族授予“吟游诗人”头衔。但他没有停留在桂冠上，而是用整整十年时间，徒步走遍威尔士的八百多座教堂墓地，抄录墓碑上的威尔士铭文。他相信，墓碑是“唯一没有被英格兰人改动过的威尔士语言档案”。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“当我跪在地上用拓纸拍下那些被苔藓覆盖的字母时，我觉得自己在与七百年前的我的祖先对话。”——托马斯·埃利斯给友人的信, 1803年。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1836 年</strong>，托马斯出版了《威尔士碑文集》，收录了 4,200 条铭文。这本书直接推动了威尔士语的现代标准化。如今，兰德洛斯图书馆一楼保存着他的手稿，泛黄的纸页上画满了十字架、橡叶和绞刑架——那是他发明的“符号速记法”，因为“威尔士语的字太少，记不下勇士的故事”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约翰·埃利斯·琼斯（1816–1890）——用平底锅敲响独立钟声的人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约翰是托马斯的侄子，但他的名气比叔叔更大——在整个威尔士，提起“约翰尼·平底锅”，几乎无人不晓。<strong>约翰尼·平底锅</strong>这个绰号来自他的职业：他是一名铜匠，专门修理农家的铜锅和锡壶。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1840 年代</strong>，英国议会通过《公共治安法》，试图在威尔士推行英格兰式的警察制度。约翰在当地酒馆里听到后，一拍桌子说：“他们派警察来，就是来看管我们这些威尔士人的嘴！”他连夜写了传单，印了三千份，趁赶集日散发。传单用威尔士语、英语和一种他自创的“凯尔特符号”写成，上面画着一只被锁链拴住的红龙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">同年 <strong>5 月 1 日</strong>，约翰组织了一次名为“塞文河之夜”的抗议活动。他在镇中心的广场上架起一口巨大的铜锅，用锤子猛敲锅底，发出震耳欲聋的响声。三百多位居民举着火把涌来，把锅围成了一圈。<strong>约翰站在锅台上演讲，说：“这口锅煮过我们祖先的燕麦粥，今天它要煮烂英格兰的律法！”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那次事件没有演变成暴力，但镇上的两名警察被吓得躲进了教堂钟楼。事后，约翰被指控“煽动骚乱”，在什鲁斯伯里的监狱里关押了三个月。出狱后，他变得更激进，写了一系列名为《红龙醒来的日子》的小册子，预言威尔士将在 <strong>1890 年</strong>恢复独立——虽然预言没有实现，但他在 <strong>1890 年</strong> 5 月 1 日去世，这一天正是他预言中的“独立日”。丧钟响起时，镇上所有铜匠铺都停止了工作，静默一小时。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约翰和托马斯的友谊也有一段轶事。叔叔托马斯晚年膝下无子，把自己最珍贵的威尔士语字典送给了约翰。约翰拿到后，却把字典撕成了两半，对托马斯说：“您写下的语言属于每一个威尔士人，不能只留给我一个人。”他把半个词典页用布包好，分发给镇上的孩子，让他们当作“抵御遗忘的盾牌”。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在兰德洛斯，每个孩子都知道“隐身修士”的故事。据说 <strong>13 世纪</strong> 一位名叫塞林（Celyn）的修士犯了戒律——他爱上了一名采石匠的女儿。修道院院长惩罚他不得开口说话，并令他独自修缮教堂的屋顶。塞林夜夜爬上木质屋顶，用锯子和锤子干到天明。有一天，女孩偷跑来看他，他激动之下失手将一块木头砸下，正击中了院长的头。院长当场死去，塞林却消失在了屋顶的椽木间。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>从那天起，每逢月圆之夜，人们就会听到屋顶传来轻轻的敲击声。</strong> 据说那是塞林的灵魂还在修补屋顶，他要把所有坏掉的木头替换成刻着“爱”字的橡木——每一根都指向女孩家的方向。直到今天，教堂东侧屋顶的最后三根橡木仍没有被换过，因为塞林还没来得及刻完。有些人相信，如果你在满月时带着一枝冬青爬上屋顶，把冬青放在缺木的位置，塞林就能得到解脱，升入天堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一种人文风俗是“五月花柱游行”。<strong>每年 5 月 1 日</strong>，镇上的男孩们要在黎明前上山砍回一根九米高的落叶松，剥去皮后插在广场中央。女孩则用彩色羊毛编织花环，挂在树干上。游行时，男孩拉着花柱绕镇跑三圈，女孩唱着威尔士古老的祝酒歌。这个传统据说是为了纪念约翰·埃利斯·琼斯当年的“塞文河之夜”——那口铜锅被固定在花柱顶端，里面盛满了啤酒。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">兰德洛斯从未成为“重要”的地方。它没有城堡，没有大教堂，没有国王在此下榻。但或许正是这种“不重要”，让它成为了威尔士精神的活化石。地理上处于中心，历史上处于边缘——这种矛盾恰是它的魅力。<strong>读懂兰德洛斯，就读懂了威尔士的真正面貌：一种在石头缝里生长的语言，一口在压迫下依然敲响的铜锅，以及一个永远在屋顶上隐身的爱。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你对这座小镇的实地旅行感兴趣——如何抵达、当地特色住宿、最佳徒步路线以及那些矿洞遗址的参观许可——请参阅我们的相关游记页。那里有完整的实用信息，以及更多关于塞文河两岸的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/scottish-parliament-building\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏格兰议会大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Scottish Parliament Building</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/roman-baths\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    罗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">罗马浴场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Roman Baths</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/royal-mile\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皇\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皇家英里大道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Royal Mile</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "scottish-parliament-building",
+          "name": "苏格兰议会大楼",
+          "englishName": "Scottish Parliament Building"
+        },
+        {
+          "slug": "roman-baths",
+          "name": "罗马浴场",
+          "englishName": "The Roman Baths"
+        },
+        {
+          "slug": "royal-mile",
+          "name": "皇家英里大道",
+          "englishName": "Royal Mile"
+        }
+      ]
+    }
+  ]
+}

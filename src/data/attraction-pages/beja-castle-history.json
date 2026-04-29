@@ -1,0 +1,85 @@
+{
+  "slug": "beja-castle-history",
+  "template": "history",
+  "metadata": {
+    "title": "贝雅城堡历史溯源｜葡萄牙边境要塞的前世今生与骑士传奇",
+    "description": "穿越千年烽火，探索贝雅城堡的秘密：从摩尔人堡垒到基督教王国的边境要塞，聆听围墙间的骑士传说与公主悲歌。一场关于权力、信仰与爱情的历史之旅。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "葡萄牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "贝雅",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "贝雅城堡",
+      "href": "/attractions/beja-castle-history"
+    }
+  ],
+  "hero": {
+    "title": "贝雅城堡・Beja Castle・葡萄牙・贝雅",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在葡萄牙阿连特茹平原的阳光下，贝雅城堡静静伫立，仿佛是时间刻在大地上的最后一道伤疤。它曾是摩尔人的军事堡垒，也是基督徒收复失地运动的战略支点，更是无数骑士与贵族命运的见证者。抛开游玩攻略，走进贝雅城堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">贝雅城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Beja Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Beja Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">葡萄牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">贝雅</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>贝雅</strong>，这座坐落在葡萄牙南部阿连特茹地区的小城，其历史可以追溯到古罗马时代。当时，它被称为 <strong>“Pax Julia”</strong>（尤利乌斯的和平），由凯撒大帝于公元前48年建立，作为罗马在卢西塔尼亚行省的重要定居点。城市名字的拉丁语来源暗示了它最初的和平使命：一个行政与贸易中心。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，和平并未持续太久。公元5世纪，西哥特人入侵；到了8世纪，摩尔人席卷伊比利亚半岛，将贝雅改名为 <strong>“Bajja”</strong>（阿拉伯语意为“白色”），因为当地石灰岩建筑在阳光下反射出刺眼的洁白。摩尔人在原有罗马城墙基础上，修建了更坚固的防御工事——那便是贝雅城堡的雏形。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>城堡的真正诞生</strong>要等到13世纪。1240年，在葡萄牙国王 <strong>阿方索三世</strong> 的领导下，基督徒军队从摩尔人手中夺回贝雅。为了巩固边境防御、遏制摩尔人反攻，阿方索三世下令在摩尔人旧堡基础上重建一座大型石质城堡。工程历时数年，于1250年左右完工，形成了我们今天看到的核心结构：高大的主塔楼（Torre de Menagem）、厚重的城墙以及深壕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡的名字“Beja”直接继承了城市的旧称，而城市本身则因城堡而重生。在随后的几个世纪里，<strong>贝雅城堡</strong>不只是一座军事要塞，更是葡萄牙王国向南扩张的象征，是基督教文明与伊斯兰文明交汇的沉默见证。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>收复失地的最后壁垒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">13世纪中叶，葡萄牙的国土边界尚未完全稳定。贝雅城堡作为边境要塞，多次抵御来自格拉纳达奈斯尔王朝的袭击。1282年，一场围城战让城堡名声大噪：摩尔人军队突袭贝雅，将城市洗劫一空，但城堡守军凭借坚固的主塔楼坚守数月，直到援军从埃武拉赶来。城堡内的 <strong>蓄水池系统</strong> 与秘密通道是坚持的关键——这些设施至今仍可从主塔底部探访。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>曼努埃尔式的优雅转型</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">进入16世纪，随着葡萄牙黄金时代的到来，国王 <strong>曼努埃尔一世</strong> 下令对贝雅城堡进行改造。工匠们为冷峻的军事建筑注入了曼努埃尔式装饰元素：主塔的窗户被雕刻成海藻与绳索的形状，大门上方增添了象征王权的浑天仪纹章。这种“军事与艺术”的矛盾融合，使城堡成为葡萄牙晚期哥特式建筑的独特范例。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1755年大地震后的重生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1755年里斯本大地震波及整个葡萄牙南部，贝雅城堡的城墙多处开裂，部分塔楼坍塌。随后的修复工程持续了整整一个世纪，直至19世纪末。修复者刻意保留了残缺的伤痕——如今你在城堡西南角看到的锯齿形缺口，就是地震留下的真实印记，仿佛一件被时光打磨的雕塑。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>迪尼斯王子：囚徒与诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>迪尼斯王子</strong>（Infante Dinis，1263-1325）是葡萄牙国王阿方索三世的孙子，一位被历史遗忘的骑士。他并非坐在王座上的统治者，却意外地与贝雅城堡结下不解之缘。1302年，因卷入王位继承之争，他被兄长迪尼斯一世囚禁在贝雅城堡主塔楼顶层，长达三年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这间仅十平米的石室里，迪尼斯王子用拉丁文和葡萄牙语写下了数十首诗歌，内容从失意到对自由的渴望，甚至夹杂着对楼上看守女儿的爱慕。他在诗中描述：“石墙是冷漠的书写者，而窗外的风是唯一的信使。”这段囚禁岁月成为葡萄牙中世纪抒情诗的重要篇章。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，主塔楼的“囚室”被改造成小型博物馆，展出的手稿复印件（原稿藏于里斯本国立档案馆）还原了这位贵族诗人的悲欢。当地人说，夜晚能听见念诗的低语——那是迪尼斯的灵魂在倾诉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛丽亚·德·卡斯特罗：城堡的“白色夫人”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说迪尼斯王子代表了城堡的男性悲剧，那么 <strong>玛丽亚·德·卡斯特罗</strong>（Maria de Castro，约1400-1470）则演绎了一段神秘的女性传奇。她是贝雅伯爵之女，一位被称为“白色夫人”的贵族小姐。传说她爱上了一位摩尔人俘虏——来自格拉纳达的王子萨阿德。这段禁忌之恋被发现后，萨阿德被处决，玛丽亚则在城堡主塔的密室中度过余生，每天穿着白色丧服，直至去世。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">历史学家在16世纪的编年史中找到零碎记载：贝雅城堡确实关押过一批摩尔贵族俘虏，一位当地贵族女子曾秘密为他们送食物。至于爱情故事，可能被后人渲染，但“白色夫人”的幽灵传说却流传至今。在满月的夜晚，游客和居民声称看到一位穿白裙的女子身影出现在主塔顶层窗口，向远方凝视。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>曼努埃尔一世：建筑艺术的赞助者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然曼努埃尔一世（1469-1521）并未在贝雅久居，但他对城堡的改造留下了难以磨灭的印记。他任命著名建筑师 <strong>弗朗西斯科·德·阿鲁达</strong>（Francisco de Arruda）负责城堡的曼努埃尔式装修。阿鲁达正是后来设计里斯本贝伦塔的艺术家，他将海洋元素与基督教象征完美结合。如今城堡大门上的 <strong>浑天仪浮雕</strong> 就是曼努埃尔时代对地理大发现的致敬——贝雅城堡因此成为连接中世纪与航海时代的时空坐标。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>塔楼下的“金苹果”宝藏</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在贝雅，老人们口耳相传着一个故事：摩尔人撤离时，将一批黄金和宝石藏入城堡下的地窖，上面覆盖一棵金苹果树（实为装饰性浮雕）。一位贪婪的西班牙军官在16世纪试图挖掘，但每当铁锹触碰到石板，主塔就会剧烈摇晃，仿佛城堡在发怒。传说只有一位纯真处女在午夜月食时点亮蜡烛，才能让宝藏现形。至今，这棵“金苹果树”的浮雕仍嵌在主塔基座，被当地人视为神灵的象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“幽灵骑士”的巡夜</strong></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每周三午夜，一位全身盔甲的骑士骑马绕着城堡跑三圈。他的马没有蹄声，但每次经过城门，铁门都会自动开合。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——当地口头传说记录，19世纪民俗学者收集</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个传说与城堡士兵的失踪事件有关。据记载，1320年，一名哨兵在值夜时神秘失踪，三天后被发现死在城墙下的沟渠里，手中紧握一封信，信上写着：“我看到了不该看的幽灵。”从此，每周三晚的守卫都被要求双人执勤。尽管早已没有士兵驻守，但现代游客仍有人声称在城堡外听到马蹄声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>主塔楼旋转楼梯的“命运”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">主塔楼内部的螺旋楼梯有137级台阶，奇怪的是，它们 <strong>逆时针旋转</strong>（通常是顺时针，以利于右手持剑的防守者）。当地解释是：当年建造的摩尔工匠故意设计成逆时针，以便他们在最后的抵抗中能占据优势（因为他们的刀剑通常佩在左侧）。而基督教征服者进驻后，并未修改——这个小小的细节，像一座沉默的纪念碑，记载着两个宗教的博弈。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝雅城堡不只是一堆石头。它是葡萄牙民族身份形成的活化石：从罗马和平到伊斯兰治下，从基督教收复到航海帝国，每一个时代都在城墙的纹路里刻下印记。那些囚徒的诗句、白夫人的泪水、逆时针的石阶，共同构成了一部缩小版的南欧历史书。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂贝雅城堡，就是理解中世纪欧洲边境的生存哲学：如何在暴力与诗意、信仰与宽容之间找到平衡。当你站在主塔顶上，俯瞰阿连特茹金色的麦田与橄榄树，你会明白——时间才是真正的征服者，而城堡是它留下的最后一位信使。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lisbon-cathedral\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    里\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">里斯本大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lisbon Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/xerez-megalithic-enclosure\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赫雷斯巨石围场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Xerez Megalithic Enclosure</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/santa-justa-lift\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣胡斯塔升降机</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Santa Justa Lift</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "lisbon-cathedral",
+          "name": "里斯本大教堂",
+          "englishName": "Lisbon Cathedral"
+        },
+        {
+          "slug": "xerez-megalithic-enclosure",
+          "name": "赫雷斯巨石围场",
+          "englishName": "Xerez Megalithic Enclosure"
+        },
+        {
+          "slug": "santa-justa-lift",
+          "name": "圣胡斯塔升降机",
+          "englishName": "Santa Justa Lift"
+        }
+      ]
+    }
+  ]
+}

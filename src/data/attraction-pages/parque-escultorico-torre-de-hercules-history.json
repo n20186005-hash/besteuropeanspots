@@ -1,0 +1,85 @@
+{
+  "slug": "parque-escultorico-torre-de-hercules-history",
+  "template": "history",
+  "metadata": {
+    "title": "拉科鲁尼亚赫拉克勒斯塔雕塑公园历史｜罗马灯塔与现代艺术的跨越时空对话",
+    "description": "走进西班牙拉科鲁尼亚的赫拉克勒斯塔雕塑公园，探索两千年罗马灯塔的传奇，倾听神话与当代艺术交织的冷门故事。这篇深度人文历史日志，带你发现这片海湾的时光密码。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "拉科鲁尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "赫拉克勒斯塔雕塑公园",
+      "href": "/attractions/parque-escultorico-torre-de-hercules-history"
+    }
+  ],
+  "hero": {
+    "title": "赫拉克勒斯塔雕塑公园・Parque Escultórico da Torre de Hércules・西班牙・拉科鲁尼亚",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在西班牙西北角的拉科鲁尼亚，一座古老的罗马灯塔仍面朝大西洋，守护着海岸线。它脚下的雕塑公园，以<strong>赫拉克勒斯塔</strong>为背景，串联起神话、历史和现代艺术。这里藏着凯尔特人的回声、罗马工程师的智慧、以及20世纪雕塑家的灵感。抛开游玩攻略，走进拉科鲁尼亚的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">赫拉克勒斯塔雕塑公园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Parque Escultórico da Torre de Hércules</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Parque Escultórico da Torre de Hércules</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">拉科鲁尼亚</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拉科鲁尼亚的历史可以追溯到<strong>公元前1世纪</strong>，当时这里是凯尔特部落的定居点。罗马人征服伊比利亚半岛后，在<strong>公元1世纪末</strong>建立了<strong>布里甘提姆</strong>（Brigantium）要塞，并修建了这座至今仍屹立的灯塔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“赫拉克勒斯塔”的名字源于<strong>希腊神话</strong>中的大力神赫拉克勒斯。传说中，赫拉克勒斯在完成十二项任务时，途经此地，斩杀巨人<strong>格里昂</strong>（Geryon），并将头颅埋于地下。<strong>灯塔的基石</strong>据说就压在这颗巨头上，确保其永世不得翻身。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗马人以其高超的工程技艺，用花岗岩砌成了这座<strong>55米高</strong>的灯塔。它在<strong>中世纪</strong>曾经历多次地震和修缮，但主体结构从未坍塌。1994年，西班牙政府将灯塔周边改造为<strong>雕塑公园</strong>，邀请多位当代艺术家创作作品，与这个千年遗迹形成对话。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">灯塔的建造本身就是一场<strong>工程史诗</strong>。公元<strong>2世纪</strong>，罗马建筑师<strong>盖乌斯·塞维乌斯·卢普斯</strong>（Gaius Sevius Lupus）奉命设计，他来自北非的<strong>埃米尼乌姆</strong>（今葡萄牙科英布拉）。灯塔采用<strong>三层收缩结构</strong>，底层为方形基座，向上逐渐收窄，顶部曾设有<strong>火炬</strong>，火光可被几十公里外的船只看到。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>中世纪</strong>时，灯塔被改建成<strong>城堡</strong>，周围加筑了防御工事。<strong>1589年</strong>，英国私掠船<strong>弗朗西斯·德雷克</strong>（Francis Drake）袭击拉科鲁尼亚，市民倚靠灯塔的瞭望台发出预警，最终击退入侵者。<strong>18世纪</strong>，西班牙国王<strong>卡洛斯三世</strong>下令全面修复灯塔，将其恢复为原来的灯塔功能，并增建了<strong>旋梯</strong>和<strong>照明系统</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1990年代</strong>，雕塑公园的建立是历史与现代的再次握手。<strong>28件</strong>户外雕塑散布在灯塔周围的绿地与岩石间，材料包括花岗岩、铁、玻璃等，它们与灯塔的粗犷石材形成质感对比。<strong>1997年</strong>，公园正式对外开放，被联合国教科文组织列为<strong>世界遗产</strong>的灯塔，从此有了一个充满呼吸感的当代伴侣。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><em>盖乌斯·塞维乌斯·卢普斯：罗马建筑师</em></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是这座灯塔的第一个“名人”。<strong>考古学家</strong>在灯塔基座发现了一块铭文，刻着：“盖乌斯·塞维乌斯·卢普斯，埃米尼乌姆的建筑师，建造了这座灯塔，献给海神尼普顿。”他的生平几乎无迹可考，但<strong>一块石头</strong>让他留名两千年。据说他为了测量地基，曾在夜间观察<strong>北极星</strong>的方位，用简单的绳索和铅垂线完成了精准的定位。灯塔每块花岗岩的接缝处都严丝合缝，<strong>无需灰浆</strong>，仅靠巨石自重互相咬合，这种技术让他成为那个时代的<strong>工程传奇</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><em>马诺洛·帕斯：加利西亚雕塑家</em></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当代雕塑家<strong>马诺洛·帕斯</strong>（Manolo Paz，1946- ）是雕塑公园的核心人物。他的作品《门户》（Portal）位于灯塔正南侧，由两块巨大的<strong>黑色花岗岩</strong>构成，中间留出狭窄的裂缝，正对着大西洋的海平面。帕斯曾回忆创作时的感受：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我站在灯塔下，看着海浪拍打礁石，突然意识到这座塔就是一道连接天与地的门。我的作品只想做它的小妹妹，一个沉默的入口。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">帕斯来自加利西亚的<strong>庞特维德拉</strong>，幼年常在海边打磨石子。他坚持用当地花岗岩创作，认为“石头里有祖先的呼吸”。《门户》的裂缝宽仅80厘米，游人需侧身通过，仿佛穿越回罗马时代。马诺洛·帕斯还有一件作品《船骸》（Naufraxio）放置在公园边缘，用生铁铸造的海藻形态暗示沉船的悲壮，与灯塔的灯塔功能形成<strong>生与救赎</strong>的隐喻。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><em>玛丽亚·皮塔：拉科鲁尼亚的女英雄</em></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然未直接与灯塔相关，但这位<strong>16世纪的女商贩</strong>在城市历史上如雷贯耳。<strong>1589年</strong>，德雷克舰队攻城时，玛丽亚·皮塔（María Pita）在城墙上亲手刺死了敌军旗手，并把旗帜扔下悬崖。城内居民受到鼓舞，最终击退英军。如今灯塔下的一块纪念牌，便写着“献给玛丽亚·皮塔和她的勇气”。她的故居在旧城区，但每年<strong>8月</strong>的守护节庆，市民会举着火把登上灯塔，纪念那段沸腾的岁月。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最著名的传说关于<strong>赫拉克勒斯与巨人格里昂</strong>的决斗。格里昂是<strong>三头巨人</strong>，拥有三具身体和六条手臂，住在西班牙西部的<strong>加迪尔群岛</strong>。赫拉克勒斯夺取格里昂的牛群时，巨人袭击了他。战后，赫拉克勒斯将格里昂的头颅埋在<strong>布里甘提姆的海角</strong>，并竖起一座灯塔作为永恒镇压的标记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个更诡谲的版本是：<strong>魔鬼曾帮助罗马人建造了灯塔</strong>。据说工人们白天砌好的石头，夜间总被海潮冲垮。魔鬼提出交易：他负责完成建造，但灯塔完工后的<strong>第一个灵魂</strong>要献给他。一位聪明的工匠用猎犬的图案画在石头上，灯塔建成后，魔鬼误认为猎犬是第一个灵魂，气得将灯塔尖顶踢歪。直到今天，灯塔的<strong>顶部微微向西斜</strong>，传说就是魔鬼那一脚的痕迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地还有一个习俗：<strong>新婚夫妇要在灯塔下交换信物</strong>，并顺时针绕塔三圈，这样赫拉克勒斯会保佑他们生养多子。这种仪式在<strong>1960年代</strong>前还非常普遍，如今虽然淡化，但仍有老人会在黄昏时给灯塔浇水，仿佛它是一株需要滋养的石树。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">赫拉克勒斯塔雕塑公园是一本<strong>摊开的石质史书</strong>。两千年的罗马遗迹与当代雕塑并肩而立，神话、工程、战争、民俗都凝固在花岗岩的纹理中。这里没有喧闹的景点或网红打卡点，只有海风穿过裂缝的呜咽声，以及<strong>历史上那些沉默的灵魂</strong>——从建筑师卢普斯到现代艺术家帕斯，他们都在用石头对话。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座城，就是读懂人类对<strong>大海与天空</strong>的敬畏。灯塔始终亮着，而雕塑公园则让过去有了一个可以触摸的现代身体。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cabezo-rajao\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡贝佐拉哈奥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cabezo Rajao</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/begur-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝古尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Begur</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ermita-de-san-vitor\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣维托隐修院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ermita de San Vítor</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "cabezo-rajao",
+          "name": "卡贝佐拉哈奥",
+          "englishName": "Cabezo Rajao"
+        },
+        {
+          "slug": "begur-history",
+          "name": "贝古尔",
+          "englishName": "Begur"
+        },
+        {
+          "slug": "ermita-de-san-vitor",
+          "name": "圣维托隐修院",
+          "englishName": "Ermita de San Vítor"
+        }
+      ]
+    }
+  ]
+}

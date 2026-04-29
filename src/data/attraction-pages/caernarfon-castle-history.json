@@ -1,0 +1,85 @@
+{
+  "slug": "caernarfon-castle-history",
+  "template": "history",
+  "metadata": {
+    "title": "卡那封城堡历史溯源｜威尔士征服者的石头史诗与帝王传承",
+    "description": "探索卡那封城堡的前世今生，从爱德华一世的铁血征服到查尔斯王子的加冕仪式。这座联合国教科文组织世界遗产，隐藏着罗马帝国的梦境、威尔士民族的血泪与英国王权的权谋。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡那封",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡那封城堡",
+      "href": "/attractions/caernarfon-castle-history"
+    }
+  ],
+  "hero": {
+    "title": "卡那封城堡・Caernarfon Castle・英国・卡那封",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>卡那封城堡</strong>——威尔士征服的终极象征，也是英国王储加冕的永恒舞台。1283年，英格兰国王 <strong>爱德华一世</strong> 用石头刻下征服的誓言；1969年，<strong>查尔斯王子</strong> 在此戴上威尔士亲王冠冕。抛开游玩攻略，走进卡那封城堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">卡那封城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Caernarfon Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Caernarfon Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卡那封</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡那封的名字，源自威尔士语 <strong>“Y Gaer yn Arfon”</strong>（阿芳河畔的堡垒）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">早在罗马时代，这里就有一座名为 <strong>“塞贡提乌姆”</strong> 的要塞，但真正让这座小城登上历史舞台的，是13世纪末的战争。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1283年，<strong>爱德华一世</strong> 横扫威尔士，将最后一个独立的威尔士亲王 <strong>卢埃林·阿普·格鲁菲德</strong> 斩于马下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他选择在这片战略要地——梅奈海峡的咽喉——建造一座前所未有的石头巨堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡的设计并非模仿英格兰传统，而是刻意模仿 <strong>君士坦丁堡</strong> 的城墙：多边形的塔楼、彩色的石灰岩和砂岩层叠交错。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">爱德华一世希望通过这座城堡，向威尔士人传递一个信号：<strong>他的权力如同罗马帝国一样，不可动摇。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡建成后，卡那封成为北威尔士的行政中心，整个城镇围绕城堡向外延伸，形成如今的格局。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1284年：征服者的法律与石头</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">就在城堡动工的第二年，爱德华一世在此颁布 <strong>《威尔士法》</strong>（Statute of Rhuddlan），将威尔士正式纳入英格兰王国的管辖。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">同年，他的儿子 <strong>爱德华二世</strong> 在城堡中出生——这位注定成为 <strong>第一任威尔士亲王</strong> 的王子，成为英格兰王室控制威尔士的人质与棋子。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡的建造持续近40年，耗资约2.5万英镑（相当于今天数千万美元）。每一块石头都浸透着威尔士工匠的汗水与屈辱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1400年：起义的烈火</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>欧文·格兰道尔</strong> 率领威尔士人起义，直扑卡那封城堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但城堡防御设计极为精妙：三重城墙、水门与护城河环绕，起义军围城数月，始终未能攻破。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在围攻期间，城内守军曾将滚烫的铅水从鹰塔浇下，浇灭敌人的攻城锤。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最终，起义失败，城堡成为镇压威尔士民族主义的象征，屹立不倒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1969年：现代王权的仪式</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">整整685年后，<strong>查尔斯王子</strong> 在城堡的 <strong>鹰塔</strong> 前被正式授予威尔士亲王称号。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这场全球直播的仪式，既是古老传统的延续，也是英国王室对威尔士的世纪和解。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡的城墙见证了从征服到加冕的轮回——巨石之间，回荡着权力与血泪的历史回声。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>爱德华一世：征服者的野心与执着</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">爱德华一世是卡那封城堡的灵魂建造者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位被称为 <strong>“长腿爱德华”</strong> 的国王，一生征战，最痴迷的却是城堡设计。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在威尔士修建了 <strong>“铁环城堡”</strong> 系列，卡那封是其中最宏伟、花费最昂贵的一座。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说爱德华一世曾向威尔士人承诺，会给他们一位“不说英语、出生在威尔士的亲王”——于是他将刚出生的儿子爱德华二世带到卡那封，使其成为第一位威尔士亲王。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>这既是政治诡计，也是文化霸凌。</strong> 爱德华一世用石头与谎言，彻底改变了威尔士的命运。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>查尔斯王子：从加冕到反思</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1969年的加冕仪式，对于21岁的查尔斯而言，是一场精心策划的公关秀。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但鲜为人知的是，他在威尔士大学学习威尔士语期间的经历，让他对威尔士文化产生了真正的认同。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在仪式上，他用流利的威尔士语致辞，令在场威尔士人震惊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">多年后，查尔斯在回忆录中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“在卡那封城堡的鹰塔下，我感受到一种沉重的责任——那不是征服的荣耀，而是继承和解的使命。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他成为英国历史上第一位真正学习威尔士语的威尔士亲王。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，城堡中仍保留着加冕仪式的影像资料，游客可以在鹰塔的展览中看到当年查尔斯佩戴的冠冕复制品。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>罗马皇帝的马格纳斯之梦</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在威尔士古老的传说中，公元4世纪的罗马皇帝 <strong>马格纳斯·马克西姆斯</strong> 曾在梦中见到一座宏伟的城堡：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“他梦见一座海边的堡垒，城墙由彩色石头砌成，塔楼像巨鹰的翅膀般展开。一位声音告诉他：‘你将在此建立你的君权。’”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当爱德华一世修建卡那封城堡时，工匠们发现城堡的选址恰好符合传说中马格纳斯所见的景象——</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>于是，城堡的多边形塔楼和彩色石料，被刻意设计成罗马风格的“鹰之城堡”。</strong> 当地人相信，爱德华一世是有意借用罗马皇帝的梦境，为自己披上正统的合法性外衣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>鹰塔的预言</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡最高处的 <strong>鹰塔</strong> 上，雕刻着一只铸铁的雄鹰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">民间传说，当雄鹰发出三声长鸣时，威尔士将重获独立。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今，每逢风大时，鹰塔的窗棂会发出呜呜声响——老人们总会停下脚步，侧耳倾听。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当然，雄鹰从未真正鸣叫，但这个故事让城堡多了一丝神秘的忧伤。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡那封城堡不只是石头与护城河——它是英国王权与威尔士民族认同的永恒对话。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这里，你可以触摸征服者的野心，听见起义者的怒吼，感受王室和解的诚意。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每一块彩色的砂岩，都镌刻着权力与文化的碰撞。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座城堡，就是读懂英国历史的深层裂痕与缝合线。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/manorafon-farm-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    曼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">曼诺拉方农场公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Manorafon Farm Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/beauly-priory\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博利修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Beauly Priory</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/george-square\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    乔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">乔治广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">George Square</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "manorafon-farm-park",
+          "name": "曼诺拉方农场公园",
+          "englishName": "Manorafon Farm Park"
+        },
+        {
+          "slug": "beauly-priory",
+          "name": "博利修道院",
+          "englishName": "Beauly Priory"
+        },
+        {
+          "slug": "george-square",
+          "name": "乔治广场",
+          "englishName": "George Square"
+        }
+      ]
+    }
+  ]
+}

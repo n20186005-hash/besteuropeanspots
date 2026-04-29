@@ -1,0 +1,85 @@
+{
+  "slug": "senedd-history",
+  "template": "history",
+  "metadata": {
+    "title": "塞内德历史溯源｜威尔士权力中心的诞生、民主精神与建筑隐喻",
+    "description": "走进加的夫湾的塞内德，追溯威尔士议会从1404年抗争到1997年公投的传奇历程，聆听政治家与建筑师的秘密故事。抛开游玩攻略，发现这一现代地标背后隐藏的古老灵魂。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "加的夫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "塞内德（威尔士议会大楼）",
+      "href": "/attractions/senedd-history"
+    }
+  ],
+  "hero": {
+    "title": "塞内德（威尔士议会大楼）・Senedd・英国・加的夫",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>塞内德</strong>——威尔士语的“议会”——不只是一座玻璃与钢的穹顶，更是 <strong>威尔士民族身份</strong> 在千禧年后的实体宣言。它伫立在加的夫湾的潮汐之间，仿佛一只倒扣的船，承载着七个世纪的政治波澜。从1404年欧文·格林德召集首场议会，到1997年全民公投唤回自治权，每一块威尔士石板都浸透着抗争与妥协的记忆。抛开游玩攻略，走进塞内德的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">塞内德（威尔士议会大楼）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Senedd</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Senedd</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">加的夫</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">加的夫湾在19世纪曾是 <strong>全球吞吐量最大的煤炭港口</strong>，运出的黑金点燃了半个帝国的工业革命。然而当煤炭时代落幕，码头区沦为 <strong>锈带与荒地</strong>。1990年代末，威尔士权力下放浪潮催生了一个大胆的梦：在这片退潮后的泥滩上，建造一座象征民主与透明的玻璃圣殿。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“塞内德”</strong> 一词源自古威尔士语 <em>Synod</em>（宗教会议）和拉丁语 <em>Senatus</em>（元老院），威尔士人在中世纪就用它称呼自己的议事机构。但 <strong>现代塞内德大楼</strong> 的选址却充满争议：有人主张建在历史核心卡迪夫城堡旁，最终却选择了海边这块“一无所有”的土地。设计师解释说：“我们希望议会像海平面一样平坦，向所有人敞开。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2000年，威尔士议会租下一栋废弃的饼干工厂</strong> 作为临时议所——那里曾飘着水果蛋糕的甜香，直到2006年塞内德大楼真正落成。建筑工人在打地基时挖出了 <strong>18世纪的码头木桩</strong>，上面还残留着船工的名字和诗歌。这些木桩后来被镶嵌在议会入口的玻璃地板下，成为 <strong>“工业记忆”</strong> 的隐喻。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1404年，威尔士王子欧文·格林德</strong> 在马汉莱特召集了历史上第一个独立威尔士议会，并用四种语言颁布了律法。然而，随着起义失败，威尔士的自治权被英格兰彻底吞没，此后近六百年，<strong>威尔士人的声音只能通过伦敦的议会回响</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1997年9月18日</strong>，威尔士举行权力下放公投，仅以 <strong>0.6% 的微弱多数</strong>（50.3%对49.7%）通过了建立威尔士议会的决议。那一夜，加的夫城堡的城墙被投影灯染成红色——支持者高唱《土地之歌》，反对者沉默散去。<strong>零点三十分</strong>，投票结果公布，一位老妇人当场哭了出来：“我们等了六百年。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2006年3月1日</strong>，圣大卫节，塞内德大楼正式启用。女王伊丽莎白二世在演讲中特意用威尔士语说了一句“<strong>Croeso i'r Senedd</strong>”（欢迎来到议会），但更动人的细节是：<strong>建筑屋顶铺设了威尔士石板，所有座椅的木质来自威尔士橡树林，会议厅的玻璃墙让湾区的天鹅和潮汐成为背景墙。</strong> 然而，第一个在塞内德发言的议员<strong>罗斯玛丽·巴特勒</strong> 却闹了笑话：她不慎碰倒了话筒架，却大声说：“<strong>这不是失误，这是民主的侧倾！</strong>”全场起立鼓掌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2017年，塞内德通过了《威尔士未来世代福祉法案》</strong>，成为全球首个将可持续发展写入宪法框架的议会。这座建筑也因此被称为<strong>“会呼吸的冰川”</strong>——它利用潮汐落差自然通风，夏季无需空调，年碳排放量仅为同等规模建筑的1/4。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>罗德里·摩根（Rhodri Morgan）</strong>——威尔士第一位首席大臣，在塞内德任职长达九年。他以其标志性的 <strong>蓬乱白发和粗呢夹克</strong> 闻名，被戏称为“<strong>威尔士的老农民</strong>”。但正是这个看似随和的人，在2003年执意要求把议会办公桌摆放成 <strong>U字形</strong>，而不是传统的对峙格局。“我想让议员们看到彼此的眼睛，而不是后脑勺。”他与妻子 <strong>朱莉·摩根</strong>（后成为威尔士农业大臣）常在塞内德的咖啡厅公开辩论，有一次竟吵到差点打翻展柜里的 <strong>“团结杯”</strong>——那是1404年欧文·格林德使用过的复制品。<strong>2009年，摩根退休前最后一次走进塞内德，他摸着会议厅的威尔士橡木桌面说：“木材里有六百年的声音，我今天终于听见了。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>理查德·罗杰斯（Richard Rogers）</strong>——这位意大利裔英国建筑大师，在塞内德的设计中压上了自己的声誉。他拒绝了传统议会大楼的 <strong>封闭与厚重</strong>，坚持用 <strong>全玻璃穹顶</strong> 象征透明。但威尔士多雨的天气让玻璃屋顶经常起雾，议员们抱怨看不清选民的脸。罗杰斯得知后，亲自带团队在屋顶上安装了 <strong>隐藏式的电热膜</strong>，同时保留了一层 <strong>可调节的百叶</strong>——当阳光太强时，百叶会像鱼的鳞片般闭合。他不顾预算超支 <strong>40%</strong>，坚持使用 <strong>回收的威尔士石板</strong> 铺地面，每块石板都来自一座废弃的煤矿工人住宅。“每一块石板都沾过汗水。”他说。然而，最动人的轶事发生在开幕前夜：罗杰斯发现会议厅的声学效果让演讲者的声音变得沉闷，于是他连夜指挥工人挂起了 <strong>一百多片手工折叠的帆布板</strong>，模仿威尔士教堂里的木雕声学结构。第二天女王进场时，声音清澈如泉涌。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在加的夫湾的老渔民口中，流传着一个关于 <strong>“玻璃鲸”</strong> 的故事。他们说，<strong>塞内德大楼的波浪形屋顶</strong> 并不是设计师的灵感，而是因为建筑工人在打地基时，曾用声呐探测到海底有一条沉睡的 <strong>巨型鲸鱼化石</strong>。据传那条鲸鱼是 <strong>“格温”</strong>——威尔士神话中守护海洋的古老精灵。当议会的锤子第一次落下，格温的魂灵被惊醒，它张开大口吞下了所有机器噪音，然后化作了屋顶的浪纹。<strong>每到雾夜，有人看见玻璃窗上映出鲸鱼的轮廓</strong>，尾巴拍打水面时，议会的灯光会闪烁三下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地还有一种习俗：<strong>每位新任首席大臣上任第一天</strong>，必须赤脚踏过议会门口的 <strong>“潮汐步道”</strong>——一条随海水涨落的鹅卵石小径。传说如果脚步踏在退潮的瞬间，他的任期将顺风顺水；若踏在涨潮时，则需小心暗流。2018年上任的马克·德雷克福德故意选在暴雨天光脚，结果滑倒摔进了泥潭，村民们大笑说：“格温在提醒他别太骄傲。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂塞内德，就是读懂 <strong>威尔士的自我发现之旅</strong>。这座建筑不止是玻璃与钢的纪念碑，更是 <strong>民族记忆的容器</strong>：它容纳了1404年起义的火焰、1997年公投的悬丝，以及每一位议员用威尔士语颤抖着说出第一个词时的激动。当你站在它的穹顶下，能听见潮声与掌声交织，看见海鸥与文档齐飞。它提醒我们：<strong>民主从来不是冰冷的程序，而是一个民族用数百年时光捏成的陶胚，在火焰与海风中渐次成型。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/manorafon-farm-park-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马诺拉丰农场公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Manorafon Farm Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-dinosaur-park-tenby\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    滕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">滕比恐龙公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Dinosaur Park Tenby</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/centre-of-wales-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士中心（兰德洛斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Centre of Wales</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "manorafon-farm-park-history",
+          "name": "马诺拉丰农场公园",
+          "englishName": "Manorafon Farm Park"
+        },
+        {
+          "slug": "the-dinosaur-park-tenby",
+          "name": "滕比恐龙公园",
+          "englishName": "The Dinosaur Park Tenby"
+        },
+        {
+          "slug": "centre-of-wales-history",
+          "name": "威尔士中心（兰德洛斯）",
+          "englishName": "The Centre of Wales"
+        }
+      ]
+    }
+  ]
+}

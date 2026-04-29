@@ -1,0 +1,85 @@
+{
+  "slug": "castelo-de-sao-jorge-history",
+  "template": "history",
+  "metadata": {
+    "title": "圣乔治城堡历史溯源｜里斯本制高点上的摩尔人城堡与葡萄牙王宫传奇",
+    "description": "从西哥特人到摩尔人，从王室宫殿到军事要塞，圣乔治城堡见证了里斯本千年的沧桑。走进城堡，探寻葡萄牙建国前的秘密与航海时代的荣光。深层故事，一触即发。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "葡萄牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "里斯本",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "圣乔治城堡",
+      "href": "/attractions/castelo-de-sao-jorge-history"
+    }
+  ],
+  "hero": {
+    "title": "圣乔治城堡・Castelo de São Jorge・葡萄牙・里斯本",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在里斯本七丘之巅，圣乔治城堡如一头沉睡的石狮，俯瞰着塔霍河的银带与红瓦屋顶。它的名字来自英格兰的守护圣徒，但根基深扎在伊比利亚的千年血泪中。 <strong>这里曾是摩尔人的王廷、葡萄牙的摇篮、航海时代的瞭望台</strong>，每一块城砖都藏着征服与背叛的秘密。抛开游玩攻略，走进圣乔治城堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">圣乔治城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Castelo de São Jorge</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Castelo de São Jorge</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">葡萄牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">里斯本</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡所在的 <strong>阿尔法玛山丘</strong>，早在公元前2世纪就是罗马人筑垒之地。那时，它叫 <strong>波利蒂亚</strong>（Olisipo），一个不大不小的河港。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了公元5世纪，西哥特人占领了这里，留下粗粝的石砌围墙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正的转变始于 <strong>711年</strong>——摩尔人跨过直布罗陀，将整座山丘打造成 <strong>兵家必争的要塞</strong>。他们用伊比利亚方言称它为 <strong>“卡斯特卢·阿勒·卡迪尔”</strong>（Castelo Al-Cadir），意为“将军的堡垒”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字的由来充满实用主义：摩尔统治者在此控制着通往大西洋的河流要道。每一块加厚的城墙，都是为了抵御基督教王国从北方的反扑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">8世纪到12世纪，这里不仅仅是军事据点——摩尔人修建了蓄水池、清真寺和澡堂，让山丘 <strong>从兵营变成了微型城市</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到1147年，一位葡萄牙王子挥剑劈开了城门，这座城堡才有了今天的轮廓。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1147年10月25日</strong>，是城堡命运的转折点。葡萄牙开国君主 <strong>阿方索一世</strong>（Afonso Henriques）率领十字军，经过长达五个月的围城，终于攻陷了摩尔人的最后堡垒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说城堡陷落那天，摩尔守将 <strong>奥马尔</strong>（Omar）将自己的女儿交给阿方索以求宽恕，但王子拒绝谈判——他命令士兵用攻城锤撞碎最后一堵门。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这一战，里斯本落入基督教之手，城堡被重命名为 <strong>“圣乔治城堡”</strong>，因为攻城那天正好是圣乔治节（更准确地说，阿方索将城堡献给英格兰的援军，而圣乔治是英格兰的主保圣人）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此后三百年，城堡变成了葡萄牙王室的 <strong>核心宫殿</strong>。若昂一世（João I）在此庆祝与英国公主菲利帕的婚礼；曼努埃尔一世（Manuel I）在城堡东侧修建了著名的 <strong>“曼努埃尔宫”</strong>——一座融合哥特、摩尔和文艺复兴风格的杰作，可惜在1755年里斯本大地震中化为齑粉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1755年地震</strong>彻底改变了城堡的功能。王宫迁往山下的贝伦宫，城堡被改作军事监狱和兵营。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到20世纪初，葡萄牙政府将其列为国家古迹，开始了漫长的修复。今天的城堡，既是游客的观景台，也是历史的 <strong>三维档案</strong>。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">一块城墙的剖面图显示：罗马的基座、摩尔人的加固、基督教的箭塔，层层叠叠，像压在地质层中的化石。</blockquote>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿方索一世（Afonso Henriques，1109–1185）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是葡萄牙的缔造者，更是一位 <strong>赌徒国王</strong>。1147年围城时，他只有38岁，却已与摩尔人鏖战二十年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡的攻克并非全靠武力——阿方索巧妙地利用了 <strong>弗兰德斯和英格兰的十字军舰队</strong>，这些水手在里斯本港口上岸，用他们湿漉漉的战靴踩碎了摩尔人的护墙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后，阿方索将城堡的日常管理交给了 <strong>圣殿骑士团</strong>，但自己定期住在城堡的塔楼上，俯瞰着他梦寐以求的里斯本。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在这里接见过教皇使节，签署了王国最早的法规。城堡的 <strong>阿尔克亚维卡塔楼</strong>（Torre de Alcaçova）据说就是他私人书房的所在——从那里，他可以看到塔霍河上游的船只。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">关于他的一则轶事：阿方索在城堡庭院里种了一棵橄榄树，以示和平。橄榄树活了两百年，至今仍是城堡花园中最古老的灵魂。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣伊莎贝尔王后（Rainha Santa Isabel，1271–1336）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她是一位西班牙公主，嫁给了葡萄牙国王迪尼什一世（Dinis I）。但真正让她与城堡产生羁绊的，是她在丈夫去世后 <strong>搬进城堡的修道院</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊莎贝尔以慈悲著称，每天晚上她都会从城堡的秘密小门溜出，给穷人送去面包和金币。传说有一次，国王怀疑她私藏银两，命令士兵搜查。伊莎贝尔打开斗篷，面包 <strong>瞬间变成了一束玫瑰花</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个奇迹使她后来被封为 <strong>圣徒</strong>。城堡的西侧至今保留着 <strong>“玫瑰门”</strong>（Porta das Rosas），据说是她当年出入的通道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊莎贝尔死后，城堡逐渐失去了王室居所的功能，但玫瑰门成为朝圣者的必经之地。在1755年大地震中，门廊奇迹般完好无损，被当地人视为圣迹。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">伊莎贝尔的日记碎片（保存在里斯本档案馆）描述：“我每天祈祷时，都能听到城墙上摩尔人哭泣的回声。时间将一切磨成粉末，唯独爱流连于此。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在圣乔治城堡的地基下，流传着一个 <strong>爱、背叛与石化的故事</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传12世纪初，摩尔国王 <strong>阿尔科斯</strong>（Alcácer）的独生女 <strong>莱拉</strong>（Leila）爱上了城堡里的一名基督教俘虏——年轻骑士 <strong>罗德里戈</strong>。她偷偷递给罗德里戈一杯酒，将他迷晕后带到了自己的阁楼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">两人在月光下海誓山盟，莱拉承诺帮助罗德里戈逃跑。她画了一张城堡地下隧道的地图——这条隧道直通塔霍河岸，是她父亲用来运水的密道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">计划在行动前夜被泄露。公主的女仆嫉妒她的爱情，向国王告密。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">国王愤怒地将罗德里戈关进地牢，并命令巫医将莱拉变成一尊石像—— <strong>永远矗立在城墙上，看着河流的方向</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说每逢满月之夜，城堡的东南角就会传来女人的啜泣声，而石像的轮廓会在月光下浮现。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人说，如果你把耳朵贴在城墙的某个缺口（如今被青苔覆盖），还能听到莱拉低语：“罗德里戈，我在这里等你。”</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">考古学家从未找到那条隧道，但1930年的一次修缮中，工人在东墙下方发现了一道奇怪的砖砌拱门——门后是空的。</blockquote>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣乔治城堡不是一座简单的观景台。它是里斯本 <strong>熵变的见证者</strong>——从罗马要塞到摩尔杰作，从王宫到废墟，再到今日的国家象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">站在城堡西侧的平台，你能看到贝伦塔在河口的轮廓，那是航海时代启航的地方。而脚下这片土地，埋着 <strong>葡萄牙最古老的城市密码</strong>：罗马的瓦片、伊斯兰的几何纹、基督教的十字架，都在同一块石头上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座城的旅行意义，在于 <strong>感受时间的叠加</strong>。它不是被抹平的平面，而是层层堆叠的岩层。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</strong></p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/pilar-7-bridge-experience\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮拉尔7号桥体验</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pilar 7 - Bridge Experience</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/linhares-da-beira-castle-paragliding\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利尼亚雷斯-达贝拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Linhares da Beira</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/obidos-wedding-city-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥比杜什婚礼之城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Óbidos</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "pilar-7-bridge-experience",
+          "name": "皮拉尔7号桥体验",
+          "englishName": "Pilar 7 - Bridge Experience"
+        },
+        {
+          "slug": "linhares-da-beira-castle-paragliding",
+          "name": "利尼亚雷斯-达贝拉",
+          "englishName": "Linhares da Beira"
+        },
+        {
+          "slug": "obidos-wedding-city-history",
+          "name": "奥比杜什婚礼之城",
+          "englishName": "Óbidos"
+        }
+      ]
+    }
+  ]
+}

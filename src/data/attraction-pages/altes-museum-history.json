@@ -1,0 +1,85 @@
+{
+  "slug": "altes-museum-history",
+  "template": "history",
+  "metadata": {
+    "title": "柏林博物馆岛溯源｜旧博物馆的前世今生与十九世纪艺术史传奇",
+    "description": "踏入柏林博物馆岛，走进旧博物馆。从普鲁士皇家珍宝到现代艺术殿堂，解密建筑大师申克尔的新古典主义哲学，聆听洪堡兄弟的文化野心与二战硝烟里的幸存故事。这是一场纯粹的历史漫游。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "德国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "柏林",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "旧博物馆",
+      "href": "/attractions/altes-museum-history"
+    }
+  ],
+  "hero": {
+    "title": "旧博物馆・Altes Museum・德国・柏林",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在博物馆密布的柏林，它并非最恢宏的那一座，却是现代博物馆的“出生证明”。<strong>旧博物馆</strong>，作为柏林博物馆岛的基石与第一座落成之作，是普鲁士国王威廉三世的野心之作，更是一场关于“公民教育”与“公共艺术”的启蒙实验。抛开游玩攻略，走进旧博物馆的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">旧博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Altes Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Altes Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">德国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">柏林</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">柏林的建城史并不久远，始于13世纪初。但真正让它跃升为欧洲文化中心的，是18世纪<strong>普鲁士王国</strong>的崛起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧博物馆的诞生，恰恰根植于普鲁士由军事强国向文化帝国转型的宏大野心。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">彼时，柏林的城市建设毫无章法，更像一个大型兵营。国王<strong>弗里德里希·威廉三世</strong>在拿破仑战争后，深感民族精神需要文化凝聚。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他眼中的巴黎卢浮宫，不仅是战利品的陈列室，更是法兰西民族骄傲的公共教堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">于是，在1815年，国王下令将皇家艺术藏品向公众开放。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是一个石破天惊的决定——艺术不再是国王的私藏，而应成为“全体公民的学校”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧博物馆坐落的<strong>施普雷岛</strong>，当时还只是的沙洲与牧场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">为了给它选址，国王亲自介入。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它必须面朝城市宫殿，背倚大教堂，占据柏林城的中轴心。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建筑大师<strong>卡尔·弗里德里希·申克尔</strong>接过了这个烫手山芋。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他要在一片荒地上，建造一座足以让德意志民族自豪的“众神殿”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字“Altes Museum”直白而谦逊。在1848年新博物馆建成后，它才有了“旧”的前缀。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但这座建筑本身，就是城市起源处最坚定的文化宣言。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧博物馆的故事，写满了时代的风暴与抉择。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一个印记：建筑师与国王的“众神殿”之争</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1830年</strong>，博物馆开馆。申克尔的设计石破天惊。他放弃了当时流行的哥特复兴，直接引用了古希腊的<strong>柱廊</strong>与<strong>圆形大厅</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">长87米、宽55米的巨大方体，正面是18根爱奥尼柱式的巨柱廊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是对古希腊圣殿的礼貌问候，更是对民主与理性的公开致敬。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但建造并非一帆风顺。国王希望它像罗马万神殿一样圆顶巍峨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">而申克尔坚持使用平整的屋顶与中央的圆形大厅，用天光照明。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“博物馆不应是教堂，它应该是城市广场。人民需要阳光，而不是神谕。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最终，申克尔妥协了一部分，但保留了标志性的<strong>扁平穹顶</strong>与<strong>中央圆厅</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个圆厅后来成为柏林最庄重的空间，模仿的是古罗马的万神殿，却赋予了它全新的公共含义。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二个印记：火与灰烬的重生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战是旧博物馆最残酷的雕刻刀。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1945年</strong>，柏林战役尾声。盟军轰炸与巷战让博物馆严重损毁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">屋顶坍塌，爱奥尼柱廊被弹片削去一半，三层楼高的穹顶只剩骨架。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更可怕的是，馆内珍藏的100余尊古希腊雕像，被苏联红军作为“战利品”打包运往圣彼得堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后，旧博物馆孤零零地站在东柏林废墟中，像一个巨大的空棺材。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但东德政府在冷战对峙期，却选择了它作为城市复兴的象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1966年</strong>，修复开始。但意识形态也渗透了进来：部分“贵族化”的柱头细节被简化处理，以符合社会主义实用美学。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到<strong>1998年</strong>，德国统一后，经过彻底的历史主义修复，它的原貌才被忠实复原。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，站在它的回廊里，你依然能看到弹孔的痕迹被刻意保留在廊柱上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这不是伤痕，是勋章。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧博物馆的传奇，由两位巨人共同书写。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 卡尔·弗里德里希·申克尔：建筑界的“哲学家刑具”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">申克尔不仅仅是旧博物馆的作者，他是<strong>普鲁士新古典主义的灵魂</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他生于<strong>1781年</strong>，成长于拿破仑战争的时代。他坚信，建筑必须传递道德力量与民族精神。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当他接下博物馆的委托时，国内充斥着反对声：建一个“希腊神庙”在柏林？这太不合时宜。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">申克尔用行动回击。他不仅设计了建筑，还亲手设计了馆内的每一把椅子、每一盏灯、甚至钥匙孔的造型。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>轶事</strong>：据说在准备开幕时，申克尔和国王因为一个<strong>青铜狮子喷泉</strong>的位置争执不下。申克尔坚持狮子应该面朝人民，以示“知识的威严”。国王认为应该朝王宫。最终，狮子眼朝外，屁股对着国王。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">游客今天在博物馆前广场上看到的那个巨大的盆形喷泉（名为<strong>盥洗盆</strong>），其实是申克尔设计的另一个隐喻。盆中巨大的鲸鱼喷水，象征着从远方海洋带回知识的“航海者”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在晚年，申克尔几乎失聪，但他每周依然会拄着拐杖来到他的圆厅，静静坐一整个下午，看着天光洒在中央的宙斯雕像上。<strong>1835年</strong>，他去世前，托人将博物馆的钥匙模型放进了自己的棺材。他一生最伟大的作品，与他长眠。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 威廉·冯·洪堡：那个把图书馆与博物馆融为一体的改革者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说申克尔给了建筑骨骼，那么<strong>威廉·冯·洪堡</strong>就给了它灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位以语言学家和教育家身份闻名于世的名人，正是柏林洪堡大学的创始人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但很少有人知道，他才是旧博物馆真正的<strong>内容策划人</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">洪堡提出了一套惊世骇俗的理念：<strong>“没有书籍的博物馆，只是一个仓库。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他坚持，博物馆必须配有大型公共阅览室和研究室，让学者与市民在雕塑与油画旁阅读古典文献。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">于是，旧博物馆在一层陈列古希腊雕塑，在地下室（当时是开放的）就摆放了<strong>皇家图书馆</strong>的副本。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“在美面前阅读智慧，在知识面前感受美。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是洪堡对旧博物馆的定义。他希望柏林人能在这里度过一整天：上午看拉奥孔群像，下午读柏拉图对话录。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这种“博物馆+图书馆+大学”的复合理念，后来影响了整个欧洲博物馆运动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">洪堡还有一个疯狂的习惯：他会在闭馆后，独自一人提着煤油灯，在展厅里穿行。他坚持每周更换一幅重要画作的挂放位置，以确保光线在一年四季中以最佳角度照射。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>在他去世前的最后一周（1835年）</strong>，他甚至写了一封信给博物馆管理委员会，道歉说：“抱歉，我明天无法来挂画了。我需要离开一下。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在柏林老城区，至今流传着一个关于旧博物馆的<strong>“沉默女管家”</strong>传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说在19世纪末，一位名叫<strong>海德薇格</strong>的女馆长助理，极爱收藏馆内的古希腊陶罐。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">某一天，一只她从希腊带回来的陶罐被她不小心打碎。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她害怕被责罚，偷偷将其藏在了中央圆厅的穹顶通风口里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当晚，柏林下起罕见的大雷雨。管理处的夜班守卫却声称，听到了从圆厅传来的女人低沉的<strong>吟唱声</strong>，混杂着希腊语祷词。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二天，人们在通风口找到了那只破罐。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从那以后，每当博物馆有珍贵文物被盗或损坏，馆内总会几天内出现神秘的<strong>柔和女声吟唱</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">人们说那是海德薇格在忏悔，或者说是她在为希腊的众神祈祷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有趣的是，二战轰炸最猛烈的夜晚，仍有居民信誓旦旦地称，看到博物馆穹顶<strong>有一股无形的光罩</strong>，让炸弹绕开。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，如果你在靠近穹顶下方的空间驻足屏息，当地的老讲解员会悄悄对你说：</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“千万别碰任何展柜……否则，今晚海德薇格会在你床头唱歌。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这当然只是一个奇谈，却为这座庄严的美学殿堂，增添了一抹温柔的灵性。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧博物馆不仅仅是一座收藏古物的房子，它是一场关于 <strong>“公共性”</strong> 的革命。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在那18根巨大的爱奥尼柱廊下，脚下是罗马式的大理石台阶，你踩中的是西方现代民主与艺术启蒙的脉搏。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它见证了普鲁士从一个军阀国家到文化帝国的蜕变，经历了二战战火的生死考验，又在冷战废墟中倔强重生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂旧博物馆，你就读懂了现代德国的精神起点——<strong>让艺术属于人民</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它教会我们的，不是如何摆放雕塑，而是如何安放一个民族的文化灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kaufbeuren-travel-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考夫博伊伦</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kaufbeuren</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/miltenberg-old-town-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米尔滕贝格老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Miltenberg Old Town</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/zittau-germany-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    齐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">齐陶</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zittau</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "kaufbeuren-travel-guide",
+          "name": "考夫博伊伦",
+          "englishName": "Kaufbeuren"
+        },
+        {
+          "slug": "miltenberg-old-town-history",
+          "name": "米尔滕贝格老城",
+          "englishName": "Miltenberg Old Town"
+        },
+        {
+          "slug": "zittau-germany-history",
+          "name": "齐陶",
+          "englishName": "Zittau"
+        }
+      ]
+    }
+  ]
+}

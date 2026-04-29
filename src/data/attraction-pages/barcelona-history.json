@@ -1,0 +1,85 @@
+{
+  "slug": "barcelona-history",
+  "template": "history",
+  "metadata": {
+    "title": "巴塞罗那历史溯源｜高迪之外的传奇：加泰罗尼亚首府的两千年时光与名人秘闻",
+    "description": "从罗马小城Barcino到中世纪地中海的商业霸主，再到现代主义运动的摇篮。避开人潮，深入巴塞罗那的尘封记忆，遇见加泰罗尼亚的灵魂、建筑师与疯子的故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "巴塞罗那",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "巴塞罗那",
+      "href": "/attractions/barcelona-history"
+    }
+  ],
+  "hero": {
+    "title": "巴塞罗那・Barcelona・西班牙・巴塞罗那",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>巴塞罗那</strong>，一座被地中海阳光与高迪曲线包裹的城市。但鲜有人知，这里曾是罗马帝国的边疆哨所，是阿拉贡王国最耀眼的海外港口，也是炸药、罢工与先锋艺术的温床。抛开游玩攻略，走进巴塞罗那的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">巴塞罗那</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Barcelona</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Barcelona</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">巴塞罗那</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">巴塞罗那的起点，远在公元前15年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗马皇帝奥古斯都麾下的士兵，在蒙特惠奇山脚下的一片平缓高地上划出了第一道城墙。这座殖民地被命名为 <strong>Barcino</strong>——一个至今仍在加泰罗尼亚语中流传的古名。名字的由来至今众说纷纭：最流行的说法是它源自迦太基的 <strong>巴卡家族</strong>，那位令罗马人闻风丧胆的汉尼拔的父亲，曾在此处扎营。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但历史的尘土盖过了战象的脚印。更可靠的考证显示，Barcino只是一个普通的罗马地名，意为“小山坡上的定居点”。现代考古发掘出完整的 <strong>罗马神庙</strong> 遗址，就藏在哥特区狭窄的巷弄深处，四根科林斯柱默然撑起两千年前的天空。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">老城的地下，埋着三世纪的浴场和制酒作坊。当游客踩过铺满鹅卵石的长街，他们脚下四米深处，依然回荡着罗马商人的叫卖声。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的命运转折发生在 <strong>公元415年</strong> 之后——西哥特人攻陷这里，将其更名为 <strong>Barcinona</strong>。而后摩尔人来了，又走了。加泰罗尼亚伯爵们抓住权力真空，将这座城市锻造成地中海西部最桀骜不驯的城邦之一。<strong>1137年</strong>，巴塞罗那伯爵与阿拉贡女王联姻，开启了加泰罗尼亚-阿拉贡王国的黄金时代。这座城从此不再只是军事要塞，而是成了商船、银行家和航海图的中心。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 海上帝国的权力密码</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">13世纪的巴塞罗那，是地中海最繁忙的码头。阿拉贡王国的商船从这里的港口出发，直抵西西里、雅典和君士坦丁堡。<strong>1283年</strong>，国王佩德罗三世颁布了全球第一部成文海商法——《海事领事法》，确立了巴塞罗那作为中世纪商业法典摇篮的地位。你今天在兰布拉大道旁看到的 <strong>皇家广场（Plaça Reial）</strong>，几百年前就是水手和妓女争夺金币的地方。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 现代主义：一座城的反抗与美学</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1854年</strong>，巴塞罗那拆除了最后一圈罗马城墙，城市向平原膨胀。<strong>塞尔达（Ildefons Cerdà）</strong> 规划了笔直的扩展区（Eixample），但真正让这些方格街道发光的，是一场源自加泰罗尼亚民族主义与艺术解放的运动——<strong>现代主义</strong>。它不是高迪的独角戏：路易斯·多梅内克·蒙塔内尔设计了 <strong>加泰罗尼亚音乐宫</strong>，圣保罗医院也是他的作品；何塞普·普伊赫·卡达法尔克建造了 <strong>阿马特耶之家</strong>。这些建筑上的彩色马赛克、铁艺阳台和怪兽滴水嘴，是从中世纪传统里汲取的民族身份呐喊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 血色与重生：内战与佛朗哥</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1936年西班牙内战爆发，巴塞罗那是共和派的最后堡垒，也是 <strong>乔治·奥威尔</strong> 笔下《向加泰罗尼亚致敬》的战场。佛朗哥上台后，加泰罗尼亚语被禁，独立旗帜被封印。直到 <strong>1975年</strong> 佛朗哥死后，巴塞罗那才重新找回自己的声音。1992年奥运会成为爆点，整座城市沿海岸线翻新，从工业废墟变身为全球设计之都。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安东尼·高迪：献给上帝的建筑赌徒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他没有巴塞罗那，巴塞罗那也没有他。<strong>安东尼·高迪（1852-1926）</strong> 出生于小镇雷乌斯，却将生命最后43年全部倾注在这座城。他性格孤僻，终身未婚，只有建筑和信仰。他设计的 <strong>圣家族大教堂</strong>，至今未完工——但这正是他的意图：他称之为“上帝的工程”，只有永恒才能完成。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">高迪晚年变得极度宗教化，为了节约资金，他甚至亲自上街乞讨。<strong>1926年6月7日</strong>，他在从教堂前往忏悔室的路上，被一辆电车撞倒。因衣着破旧，路人以为只是个流浪汉，无人施救，最终在穷人医院孤独离世。两天后，人们才发现这位乞丐正是加泰罗尼亚的灵魂。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我的客户不急，”高迪曾说，“因为我的客户是上帝。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他死后被安葬在圣家族大教堂的地下室，至今仍吸引无数朝圣者。他留给巴塞罗那的不仅是七项世界遗产，更是一套用自然曲线和光影讲述的加泰罗尼亚神话。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>路易斯·多梅内克·蒙塔内尔：被高迪掩盖的色彩大师</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在所有现代主义者中，<strong>路易斯·多梅内克·蒙塔内尔（1850-1923）</strong> 最该被记住，却最常被忽略。他是加泰罗尼亚议会主席、语言学家、建筑师。他设计的 <strong>加泰罗尼亚音乐宫</strong>，内厅用了大量马赛克、彩色玻璃和陶瓷柱，完全打破了罗马式对称，像一个被掀翻的珠宝盒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他坚持使用本地工匠和材料，将传统锻造技术融入现代结构。<strong>1908年</strong> 音乐宫开幕时，所有座位都配备了当时最先进的可伸缩舞台和电力系统。如今，这座建筑依然在使用，每晚都有弗拉明戈或古典乐演出，成为巴塞罗那最鲜活的历史遗迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">多梅内克的另一杰作 <strong>圣十字圣保罗医院</strong>，更像一座花园城市：色彩缤纷的病房楼之间镶嵌着绿地和地下隧道。他说：“病人需要美，阳光和色彩就是最好的药。”这座医院一直运营到2009年，直到老去才改为博物馆。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣梅尔塞的奇迹与鸽子</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">巴塞罗那的主保圣人 <strong>圣母梅尔塞（Mare de Déu de la Mercè）</strong> 的传说，与一场瘟疫有关。<strong>1637年</strong>，蝗虫、干旱和黑死病同时袭击城市，市民跪在 <strong>和平广场</strong> 祈祷。突然，天空中出现圣母的幻影，她身旁绕满白色鸽子，手一挥，成千上万只蝗虫瞬间消失，病床上的患者奇迹般痊愈。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，每年9月24日，巴塞罗那人会举办 <strong>梅尔塞节</strong>，放鸽子、叠人塔、燃放烟花。最奇特的习俗是 <strong>Correfoc</strong>——穿魔鬼装的人点燃烟花，在街道上追逐人群，模拟圣梅尔塞驱赶恶魔的场面。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个关于 <strong>兰布拉大道</strong> 的传说：它本是一条干涸的河床，中世纪时是朝圣者的路，后来成为流浪艺人、小贩和盗贼的舞台。当地人说，如果你在晚上11点走到 <strong>博盖利亚市场</strong> 门口，偶尔能看到一位穿着17世纪斗篷的女人，手里举着一枝枯萎的玫瑰——她是死于情杀的 <strong>玛丽亚·德尔·皮拉尔</strong>，至今还在等她的爱人。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂巴塞罗那，就是读懂层层叠叠的时光：脚底的罗马砖，头顶的现代主义穹顶，鼻尖的海风和火药味。这座城市从不满足于当观光客的明信片——它是加泰罗尼亚人用了一千年建筑的圣地，是失败者和疯子的避难所，是每一次改造都伴随伤疤的活体。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在 <strong>蒙特惠奇城堡</strong> 俯瞰港口时，闭上眼睛：你能听见高迪的凿子声，内战的枪声，还有圣梅尔塞节日的钟鼓声。这才是巴塞罗那真正的不朽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/portal-of-zumalacarregui\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    祖\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">祖玛拉卡雷吉门廊</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portal of Zumalacarregui</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/old-hospital-of-the-five-wounds\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    五\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">五伤旧医院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old Hospital of the Five Wounds</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/multiaventura-park-madrid\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马德里欧洲公园探险乐园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Multiaventura Park en Madrid - Parque Europa</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "portal-of-zumalacarregui",
+          "name": "祖玛拉卡雷吉门廊",
+          "englishName": "Portal of Zumalacarregui"
+        },
+        {
+          "slug": "old-hospital-of-the-five-wounds",
+          "name": "五伤旧医院",
+          "englishName": "Old Hospital of the Five Wounds"
+        },
+        {
+          "slug": "multiaventura-park-madrid",
+          "name": "马德里欧洲公园探险乐园",
+          "englishName": "Multiaventura Park en Madrid - Parque Europa"
+        }
+      ]
+    }
+  ]
+}

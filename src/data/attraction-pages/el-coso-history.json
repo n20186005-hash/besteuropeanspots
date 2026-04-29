@@ -1,0 +1,85 @@
+{
+  "slug": "el-coso-history",
+  "template": "history",
+  "metadata": {
+    "title": "阿尔卡尼兹埃尔科索广场历史溯源｜西班牙阿拉贡秘境的前世今生与名人传奇",
+    "description": "探秘西班牙北部阿拉贡小镇阿尔卡尼兹的埃尔科索广场：从罗马商道到骑士团驻地，教皇本笃十三世的避难所与中世纪巫术传说。一段被时光尘封的伊比利亚记忆。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "阿尔卡尼兹 (Alcañiz)",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "埃尔科索广场",
+      "href": "/attractions/el-coso-history"
+    }
+  ],
+  "hero": {
+    "title": "埃尔科索广场・El Coso・西班牙・阿尔卡尼兹 (Alcañiz)",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在阿拉贡的荒原与橄榄树之间，阿尔卡尼兹的埃尔科索广场如同一块被岁月磨光的石板，静卧在中世纪城堡的阴影下。这座广场并非观光客的打卡地，而是<strong>西班牙宗教与权力更迭的露天剧场</strong>。从卡拉特拉瓦骑士团的铁蹄到反教皇的隐秘流亡，每一块砖石都浸染着信仰与背叛的印记。抛开游玩攻略，走进埃尔科索广场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">埃尔科索广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">El Coso</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">El Coso</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">阿尔卡尼兹 (Alcañiz)</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃尔科索广场的诞生，与一座小镇的崛起紧密相连。<strong>阿尔卡尼兹</strong>最早见于罗马文献，当时只是<strong>伊比利亚-罗马人</strong>的零星聚居地，控制着从萨拉戈萨到地中海的商路。公元8世纪，摩尔人占领后修建了防御工事，但真正奠定小镇格局的，是<strong>1157年</strong>——阿拉贡国王<strong>阿方索二世</strong>将此地赐予<strong>卡拉特拉瓦骑士团</strong>。骑士团即刻在山顶建造城堡，并在山脚下规划出一片开阔的集市空间——这正是埃尔科索的前身。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“埃尔科索”一词源自拉丁语 <strong>“cursus”</strong> ，意为“跑道”或“通道”。中世纪时，骑士团定期在此举行马术比赛与比武大会——广场的椭圆形轮廓便是为了容纳奔马与观众。十三世纪末的文献记载，广场中央竖立着一根<strong>高大的石柱</strong>，顶端刻着骑士团的十字标志，既是集会布道的地点，也是惩罚罪犯的耻辱柱。石柱至今仍存，但十字早已被风化侵蚀，只留下斑驳的凹痕。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记一：骑士团的血色权杖（13世纪末-15世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃尔科索广场不仅是市场，更是<strong>卡拉特拉瓦骑士团</strong>的执法与庆典中心。每年圣乔治节，骑士们全身甲胄列队进入广场，在石柱前进行效忠宣誓。广场北侧的<strong>市政厅</strong>（建于14世纪）底层原是审判法庭，铁栅栏后悬挂着叛徒的头颅。1487年，一名被指控与摩尔人私通的骑士在此被当众斩首，鲜血渗入石板缝隙，传言每逢满月仍会渗出暗红。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记二：反教皇的最后堡垒（1417-1423年）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>教皇本笃十三世</strong>——阿拉贡贵族出身、被天主教世界称为“对立教皇”的佩德罗·德·卢纳，在1417年康斯坦茨会议被废黜后，逃回故乡阿拉贡。他在阿尔卡尼兹城堡隐居，而埃尔科索广场则成为他争取支持的最后舞台。<strong>1423年5月17日</strong>，他在广场临时搭建的祭坛上为最后一批追随者施洗，宣告“唯一的真教会”仍在坚守。两周后，他在城堡密室中去世，遗体被秘密安葬——广场旁的圣玛丽亚大教堂至今保留着一面刻有“Luna”纹章的彩窗，见证着这场失败的抵抗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记三：独立战争的火种（1809年）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拿破仑军队入侵西班牙时，阿尔卡尼兹是少数未被占领的阿拉贡城镇之一。1809年2月，游击队长<strong>胡安·马丁·迪亚斯</strong>（绰号“牛虻”）在埃尔科索广场召集民兵，宣布成立“阿拉贡独立义勇军”。他站在石柱上怒吼：“要么自由，要么化成灰烬！” 三小时后，500名农民手持镰刀与猎枪，沿着广场下坡冲向法国炮兵阵地——尽管死伤惨重，却为后续的反攻赢得了时间。广场至今立着一块简朴的碑石，刻着：“此地曾响起自由的第一声枪响。”</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇一：教皇本笃十三世——阿拉贡最后的固执者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>佩德罗·德·卢纳</strong>（1328-1423），出生于阿尔卡尼兹附近的伊鲁恩庄园，26岁成为红衣主教，1394年被选举为教皇，统治阿维尼翁教廷。当整个基督教世界试图终结大分裂时，他拒绝退位，宣称“教廷的传承不容妥协”。1417年被废后，他带着仅有的12名侍从逃回故乡。在阿尔卡尼兹的最后六年，他每天清晨从城堡步行至埃尔科索广场，在圣玛丽亚大教堂做弥撒。广场居民回忆，这位年近九旬的老人总是裹着破旧的白袍，嘴里喃喃自语。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“他们叫我固执（Obstinatus），但真理从不向人数屈服。”——本笃十三世日记片段（藏于特鲁埃尔档案馆）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他晚年最著名的举动是：<strong>1422年</strong>，他将自己的法典手稿埋入广场石柱的基座中，声称“当末日审判时，这些文字将证明谁才是真正的牧羊人”。直到1980年，一场地震震裂石柱底座，考古学家才发现了密封的铅盒——里面除了手稿，还有一枚雕刻着“Luna”字样的金戒指。如今这些文物陈列在阿尔卡尼兹城堡博物馆，手稿上的羊皮纸依然散发着松脂与樟脑的气味。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇二：玛丽亚·德尔·里奥——女巫审判的受害者与“圣人”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说教皇代表了宗教的极权，那么<strong>玛丽亚·德尔·里奥</strong>（约1570-1610）则代表了宗教的暴力。这位住在埃尔科索广场南街的草药商，因精通植物药理学，经常为贫困妇女处理流产与家暴伤口。1609年，宗教裁判所的特聘医生指控她“用魔鬼的草药腐蚀上帝的羊群”。她在广场已多次接受公开质问，但最终在<strong>1610年2月14日</strong>被绑在石柱上焚烧——死前她大声朗诵采集的每一种药草的名字，声音穿过广场的拱廊，令围观者沉默。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">近四百年后，2011年，当地妇女团体在广场石柱旁为她立了一座小铜碑，上面没有名字，只雕刻了一株<strong>迷迭香</strong>和一行字：“她用大地治疗疼痛，大地替她说话。” 每年2月14日，一些女人会悄悄在铜碑前放一束干草药——这已成为埃尔科索广场不成文的习俗。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在阿尔卡尼兹老人口中，埃尔科索广场的<strong>石柱</strong>并非人造，而是<strong>魔鬼的手指</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在13世纪骑士团打算修建广场时，施工队发现无论白天怎么夯实土地，夜晚土壤都会隆起成一个半径三米的土堆。第七夜，一个披黑斗篷的陌生人出现在营地，提议用“活人的脖颈”填充土堆。骑士团团长听闻后，持圣剑在土堆上划了一个十字，厉声喝道：“此地在上帝名下，不容撒旦戏耍！” 话音刚落，土堆炸裂，露出一截不知从哪冒出的青石柱——柱顶呈弯曲状，酷似中指。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">骑士们相信这是魔鬼挑衅的证据，便在柱顶刻上十字镇住它。然而几百年间，每逢风雨交加的夜晚，居民仍能听见柱子传来低沉的嗡鸣声。更有甚者说，如果对着石柱连续念三遍“笨蛋”，柱顶就会反方向弯曲一度。当地旅游局曾试图立牌辟谣，但游客（尤其是孩子）乐此不疲，于是牌子上改成了：“请尊重文物，勿使咒语。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一则传说到今仍被母亲用来吓唬小孩：“午夜后还在广场玩耍的孩子，会被石柱底下的‘指头鬼’捏住后颈扔进城堡地牢。” 当然，没有人真正被扔进去，但广场周围的老居民至今会警告访客：<strong>半夜一点至三点，不要在石柱正下面站着</strong>——因为那是魔鬼最执拗的时刻。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃尔科索广场绝不是一座普通的石板广场。它是一面镜子，映照着<strong>西班牙宗教狂热的辉煌与暴力、骑士精神的忠诚与背叛、普通民众的坚韧与迷信</strong>。当你在午后阳光中踏入这片空地，脚下的石板曾承接教皇的圣袍、骑士的长靴、草商的眼泪与自由战士的鲜血。每一处斑驳都是历史不肯褪去的疤痕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂了埃尔科索，你就读懂了阿拉贡叛逆的灵魂——永远固执，永远骄傲，永远在广场中央立着一根不被上帝也不被魔鬼征服的石柱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rupit-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鲁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鲁皮特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rupit</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/acceso-a-cueva-de-la-serreta\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塞雷塔洞穴入口</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Acceso A Cueva De La Serreta</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rupit-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鲁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鲁皮特（悬崖上的火山岩小镇）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rupit</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "rupit-village",
+          "name": "鲁皮特",
+          "englishName": "Rupit"
+        },
+        {
+          "slug": "acceso-a-cueva-de-la-serreta",
+          "name": "塞雷塔洞穴入口",
+          "englishName": "Acceso A Cueva De La Serreta"
+        },
+        {
+          "slug": "rupit-history",
+          "name": "鲁皮特（悬崖上的火山岩小镇）",
+          "englishName": "Rupit"
+        }
+      ]
+    }
+  ]
+}

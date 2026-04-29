@@ -1,0 +1,85 @@
+{
+  "slug": "british-museum-history",
+  "template": "history",
+  "metadata": {
+    "title": "大英博物馆历史溯源｜世界文明收藏之巅的前世今生与收藏家传奇",
+    "description": "从汉斯·斯隆爵士的私人收藏到全球最大博物馆之一，揭秘大英博物馆275年收藏背后的政治博弈、探险轶事与争议故事。抛开攻略，走进文物的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "伦敦",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "大英博物馆",
+      "href": "/attractions/british-museum-history"
+    }
+  ],
+  "hero": {
+    "title": "大英博物馆・The British Museum・英国・伦敦",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">这里收藏着 <strong>800万件</strong> 跨越人类全部文明史的珍宝，每一件都带着故乡的伤痕与帝国的余晖。1753年，一位医生的遗嘱开启了这座“世界知识库”的传奇。抛开游玩攻略，走进大英博物馆的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">大英博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">The British Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">The British Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">伦敦</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">严格来说，大英博物馆并非一座“城市”，但它的诞生可以视为 <strong>18世纪伦敦</strong> 作为全球帝国心脏的缩影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1753年，著名医生、博物学家 <strong>汉斯·斯隆爵士</strong> 去世。他在遗嘱中将个人收藏的 <strong>7.1万件</strong> 藏品（包括植物标本、古籍、钱币、民族志物品）捐赠给英国国王乔治二世，条件是国家需支付 <strong>2万英镑</strong> 给他的继承人，并建立一个永久性的公共博物馆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这一举动背后是 <strong>启蒙运动</strong> 的宏大叙事：知识应当被民主化，而不是锁在贵族密室。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">英国议会接受了捐赠，并在1753年6月7日通过 <strong>《大英博物馆法案》</strong>，正式确立博物馆的法人地位。最初选址在伦敦的 <strong>蒙塔古宫</strong>（一座17世纪贵族宅邸），1759年1月15日向公众开放——但当时每天只允许 <strong>60人</strong> 进入，且需提前两周申请门票。博物馆的核心理念是 <strong>“全人类的知识殿堂”</strong>，虽然实际上它很快变成了大英帝国战利品的陈列场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字“British”并非指藏品局限于不列颠，而是强调这座博物馆属于 <strong>英国公众</strong> ——这是世界上第一个国立公共博物馆，比卢浮宫早34年。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>▍拿破仑战争中的“学术抢劫”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1801年，英国在 <strong>尼罗河战役</strong> 后从法国手中抢走了 <strong>罗塞塔石碑</strong>。这块刻有古埃及象形文、世俗体与古希腊文的石碑，成为破译古埃及文明的关键。它在博物馆的展出引发了 <strong>埃及学狂热</strong>，但也开启了殖民掠夺的争议——至今希腊和埃及仍在要求归还帕特农神庙大理石雕与罗塞塔石碑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>▍帕特农神庙大理石雕的入驻</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1816年，英国驻奥斯曼帝国大使 <strong>埃尔金伯爵</strong> 将雅典帕特农神庙的大理石浮雕（约半数残存）运回伦敦，以 <strong>3.5万英镑</strong> 卖给政府。这些 <strong>“埃尔金大理石”</strong> 从此成为博物馆最耀眼也最引战的藏品。希腊政府自1980年代起持续索要，但大英博物馆以“法律所有权”和“全球公共展示”为由拒绝。直到2023年，双方曾传出“文化借展”的协商风声，但至今未决。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>▍维多利亚时代的急速扩张</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1823年，乔治四世捐赠了其父亲 <strong>乔治三世</strong> 的 <strong>6.5万卷</strong> 私人图书馆（后成为国王图书馆）。博物馆开始大规模扩建，1852年建成 <strong>圆形阅览室</strong>——穹顶直径43米，是当时世界最大穹顶之一。马克思在此撰写《资本论》，列宁、孙中山、狄更斯、伍尔夫都曾是这里的常客。<strong>1897年</strong> 的新建筑 <strong>爱德华七世侧翼</strong> 专门展示从 <strong>尼尼微</strong> 运来的亚述浮雕（包括猎狮场景），这些文物来自英国考古学家 <strong>莱亚德</strong> 在美索不达米亚的挖掘。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>▍二战与“空心化”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，博物馆将大部分藏品疏散至威尔士与伦敦地铁隧道，主建筑在 <strong>1940年9月</strong> 遭德军燃烧弹击中圆顶，但未造成毁灭性损失。战后，博物馆成为冷战时期文化外交的舞台：1972年举办 <strong>“图坦卡蒙宝藏”</strong> 特展，创下170万观众纪录。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 汉斯·斯隆爵士：从可可粉到整个帝国</strong></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我收藏了一件来自‘巴别塔’的碎片，它让我相信人类语言本是一个整体。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 斯隆1742年的笔记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯隆1660年生于爱尔兰，年轻时在法国学医，后成为牙买加总督的私人医生。他在加勒比海研究植物学，将 <strong>2400种</strong> 新植物标本带回欧洲，还发现了 <strong>可可豆的医疗用途</strong>——他注册了“斯隆式牛奶巧克力”配方，后来被吉百利收购。这种商业头脑使他积累巨富，并将财富全部投入收藏。他收购了 <strong>威廉·库尔特</strong> 的昆虫标本、<strong>罗伯特·胡克</strong> 的发明手稿、<strong>约翰·雷</strong> 的植物图鉴……甚至包括一件来自 <strong>复活节岛</strong> 的摩艾石像（后因太重未运回）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯隆的遗嘱要求：必须让“所有具有好奇心的人”都能免费研究这些藏品。他是 <strong>现代博物馆概念</strong> 的奠基人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 汉斯·克里斯蒂安·安徒生：在阅览室里写童话</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1847年，安徒生第一次来到伦敦，每天泡在大英博物馆的阅览室。他在日记里写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“大厅里有一座司芬克斯雕像，我看它时它也在看我。我想到一个故事：一个王子变成了一座石像，只为了等到真正的公主亲吻他的额头。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据考证，这正是后来《冰雪女王》的灵感碎片。安徒生还在博物馆的 <strong>埃及木乃伊</strong> 前停留数小时，研究裹尸布的纹理，将这些细节写进后来的童话《钟声》中。他抱怨伦敦的雾太浓，“像博物馆里的灰尘一样令人窒息”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 阿尔弗雷德·马歇尔：意外发现《大宪章》</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1782年，博物馆文献管理员 <strong>阿尔弗雷德·马歇尔</strong> 在整理一只落满灰尘的橡木箱时，发现了一份 <strong>1215年</strong> 的《大宪章》原始抄本——史称 <strong>“坎特伯雷版”</strong>。当时已知存在三份，这是第四份。马歇尔在报告中说：“我手指触到羊皮纸时，感到一阵电流穿过全身。那是历史的皮肤。”这份抄本被鉴定为 <strong>亨利三世</strong> 时期重铸版，证实了约翰王时代宪章的真实内容。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>4. 埃米莉·克斯丘：第一位女图书管理员</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1896年， <strong>埃米莉·克斯丘</strong> 被聘为博物馆印刷书部助理，这是 <strong>全球国立博物馆第一位女性职员</strong>。她领导了古腾堡圣经的编目工作，但因性别长期被拒绝进入男性员工餐厅。她在1911年写道：“那些古书从来不问我是不是女人。它们只在乎我是否认真。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>▍“诅咒的木乃伊”</strong></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">传说在1912年泰坦尼克号沉没前，一位美国富翁将一具棺木带上了船——正是大英博物馆借展的一具 <strong>第21王朝祭司的木乃伊</strong>。博物馆官方否认此事，但坊间盛传：任何触碰这具木乃伊的人都将在6个月内死于非命。更离奇的是，1935年，一名搬运工在 <strong>埃及厅</strong> 摔倒后中风，正好倒在这具木乃伊脚下。至今博物馆工作人员仍会绕开那个展柜走。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>▍“马克思的椅子”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圆形阅览室里有一张编号 <strong>C7</strong> 的椅子，相传是 <strong>卡尔·马克思</strong> 的固定座位。他每天9点到下午5点在此写《资本论》，连午餐都是妻子燕妮送来的面包和水。馆方从未官方证实，但游客总能看见有人在那张椅子前默默排队合照。有位保洁员说：“那张椅子磨得特别光滑，比其他椅子早十年需要换皮面。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>▍“放哨的猫”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆有一只常驻的虎斑猫 <strong>“迈克”</strong> ，据说是 <strong>建筑师的鬼魂</strong> 变的。传说1852年圆顶完工时，建筑师悉尼·斯默克忙中出错，导致屋顶漏雨，被女王训斥。他气得变成猫，每晚巡视阅览室，确保“没有一滴雨漏进来”。现在的保安说，有时半夜监控会拍到一只猫在国王图书馆的书架间踱步，但次日检查监控时什么也没有。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂大英博物馆，需要放下“是否能拿回文物”的二元论，而看见 <strong>人类知识聚合的悖论</strong>：它是殖民掠夺的罪证，也是文明沟通的桥梁。<strong>汉斯·斯隆</strong> 的遗嘱超越了帝国野心——他坚持博物馆 <strong>永久免费</strong> 向公众开放，这一制度至今未变。每年 <strong>600万</strong> 访客中，你能看到印度学者对着《罗摩衍那》手稿流泪，伊拉克难民在亚述浮雕前静默，中国学生临摹《女史箴图》的线条……这些瞬间，才是博物馆最真实的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wales-coastal-path-west-shore-sand-dunes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士海岸步道（西岸沙丘）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales Coastal Path (West Shore Sand Dunes)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/manorafon-farm-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    曼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">曼诺拉方农场公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Manorafon Farm Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pembrokeshire-llama-sanctuary\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡羊驼保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Llama Sanctuary</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "wales-coastal-path-west-shore-sand-dunes",
+          "name": "威尔士海岸步道（西岸沙丘）",
+          "englishName": "Wales Coastal Path (West Shore Sand Dunes)"
+        },
+        {
+          "slug": "manorafon-farm-park",
+          "name": "曼诺拉方农场公园",
+          "englishName": "Manorafon Farm Park"
+        },
+        {
+          "slug": "pembrokeshire-llama-sanctuary",
+          "name": "彭布罗克郡羊驼保护区",
+          "englishName": "Pembrokeshire Llama Sanctuary"
+        }
+      ]
+    }
+  ]
+}

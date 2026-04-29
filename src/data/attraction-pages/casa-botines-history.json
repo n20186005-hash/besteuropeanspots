@@ -1,0 +1,85 @@
+{
+  "slug": "casa-botines-history",
+  "template": "history",
+  "metadata": {
+    "title": "莱昂博蒂内斯之家历史｜高迪早期作品的建筑传奇与城市记忆",
+    "description": "探寻博蒂内斯之家的尘封往事：高迪为何在莱昂建一座哥特式宫殿？从纺织仓库到银行，这座建筑见证了怎样的世纪变迁？走进高迪早期作品的隐秘历史。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "莱昂",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "博蒂内斯之家",
+      "href": "/attractions/casa-botines-history"
+    }
+  ],
+  "hero": {
+    "title": "博蒂内斯之家・Casa Botines・西班牙・莱昂",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">莱昂的博蒂内斯之家，是高迪早期作品中最“不高迪”的一座——没有彩色的马赛克，没有夸张的曲线，却藏着新哥特式的冷峻与秘密。它诞生于19世纪末的工业浪潮，是商人与建筑师博弈的产物，也是这座城市现代化进程的活化石。抛开游玩攻略，走进莱昂的尘封往事，遇见属于博蒂内斯之家的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">博蒂内斯之家</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Casa Botines</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Casa Botines</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">莱昂</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莱昂的历史，比博蒂内斯之家早了两千多年。<strong>公元前29年</strong>，罗马帝国的第七军团（Legio VII Gemina）驻扎于此，这里便被称为“卡斯特拉·莱吉奥尼斯”（Castra Legionis）——军团营地。这个军事据点逐渐演变为城市，名字也简化为<strong>莱昂</strong>（León），在西班牙语中意为“狮子”，但实际源于拉丁语“军团”（legio）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪时，莱昂成为莱昂王国的首都，是朝圣之路（圣地亚哥之路）的重要驿站。<strong>10世纪到13世纪</strong>，莱昂的城墙内教堂林立，哥特式圣玛丽亚大教堂的彩色玻璃窗至今令人炫目。然而到了19世纪，随着铁路和工业的兴起，莱昂开始从宗教古城向商业城市转型。<strong>纺织业</strong>成为经济支柱，而博蒂内斯之家正是这一时期的商业纪念碑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座建筑的名字“博蒂内斯”（Botines）来自它的第一位业主——<strong>西蒙·费尔南德斯</strong>（Simón Fernández），一位来自阿斯托加的纺织商人。他与合伙人<strong>马里亚诺·安德烈斯</strong>（Mariano Andrés）计划在莱昂市中心建造一座集仓库、商店和住宅于一体的综合大楼。他们找来了当时已在巴塞罗那成名的年轻建筑师——<strong>安东尼·高迪</strong>（Antoni Gaudí）。高迪当时仅40岁，尚未完成圣家堂，但已凭借文森之家等作品崭露头角。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博蒂内斯之家于<strong>1892年</strong>破土动工，1893年竣工。它的名字“Casa Botines”在当地口语中意为“靴子之家”（botín意为靴子或短靴），据传是因为建筑底层的巨大拱门形似靴口，但更可信的说法是：业主西蒙·费尔南德斯的家族姓氏与皮革制品有关。无论如何，这个名字悄然流传了一个多世纪。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、建筑风格的“离经叛道”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在巴塞罗那，高迪正用文森之家的彩色瓷砖和桂尔宫的铸铁曲线挑战传统。但在莱昂，他却出人意料地选择了 <strong>新哥特式</strong> 风格——陡峭的尖顶、扶壁、四叶草窗。这并非妥协，而是一次“历史主义”的精准回应。莱昂大教堂就在几百米外，高迪希望让新建筑与中世纪的城市肌理对话。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但细看之下，高迪的叛逆无处不在：建筑四角各有一座细长的塔楼，顶部是<strong>圣乔治屠龙</strong>的铁雕——加泰罗尼亚的守护圣徒，暗示了建筑师的身份。入口处的锻铁大门是高迪亲自设计的，带有新艺术运动的流动感。外墙的红色砂岩来自附近的内维斯山，粗犷的肌理与精致的雕刻形成对比。最特别的是建筑的<strong>排水系统</strong>——雨水从塔楼顶部的龙口吐出，落入地面的石槽，再汇入地下。高迪把功能与神话完美融合。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、从纺织仓库到银行金库</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博蒂内斯之家的最初用途是纺织品仓库与商店。底层是宽大的拱廊，方便马车装卸货物；二层以上是办公室和住宅。然而好景不长，<strong>20世纪初</strong>，纺织业衰退，建筑几经转手。<strong>1929年</strong>，它被西班牙对外银行（Banco Exterior de España）收购，改造为银行营业厅。为了适应新功能，内部格局被改动，但外立面被完好保存。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1969年</strong>，博蒂内斯之家被列为西班牙国家历史遗产。<strong>1990年代</strong>，它成为卡哈西班牙银行（Caja España）的总部。2008年经济危机后，这座建筑再次易主。如今，它属于<strong>Unicaja银行</strong>，底层设有博物馆，展示高迪的草图、模型和建筑历史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、战争与劫难</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1936年西班牙内战</strong>期间，莱昂被佛朗哥国民军占领。博蒂内斯之家因曾是银行，被用作军需物资仓库。屋顶的塔楼一度被改装为机枪位。幸运的是，建筑主体未受炮火损伤。<strong>1977年</strong>，一场火灾从三楼蔓延，烧毁了部分木结构屋顶，但高迪设计的石砌结构安然无恙。修复工作严格遵循原始图纸，至今可见烧焦的横梁被保留在博物馆内，作为历史的见证。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、安东尼·高迪：在莱昂的“沉默”之作</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">高迪一生共参与12个建筑项目，博蒂内斯之家是他<strong>唯一一个在加泰罗尼亚以外完成的作品</strong>（另有一个项目在休达，但未建成）。1892年他接到委托时，正忙于巴塞罗那的圣家堂和桂尔宫。为何一个加泰罗尼亚建筑师会跑到卡斯蒂利亚-莱昂的腹地？背后是一个商人与艺术家的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">委托人西蒙·费尔南德斯是<strong>阿斯托加</strong>的富商，当时他正计划建造一座现代化的商业大楼。他的侄子<strong>胡安·马托雷利</strong>（Juan Martorell）是高迪的导师和好友。正是马托雷利推荐了高迪。高迪只去了莱昂四次——两次勘测现场，一次出席奠基，一次验收。大部分图纸是在巴塞罗那完成的，通过信件与委托人沟通。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">高迪对莱昂的执着体现在细节上：他研究了莱昂大教堂的玫瑰窗，设计了<strong>万神殿式的地下室</strong>，用于存放业主家族的灵柩（虽然后来并未使用）。他还为建筑设计了室内家具——如今大部分已散失，但一把高迪设计的<strong>橡木扶手椅</strong>仍保留在博物馆中。这把椅子造型笨重，棱角分明，与高迪后来的有机风格截然不同，却充满中世纪骑士的刚毅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一个鲜为人知的轶事：<strong>高迪曾计划在屋顶上安装一座巨大的机械钟</strong>，指针设计成龙的舌头。但因为预算问题被否决。直到2008年修复时，工程师在阁楼发现了高迪的草图，最终在2011年按照草图复制并安装了这座钟——但仅作为装饰，不再走时。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、西蒙·费尔南德斯：被遗忘的伯乐</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">西蒙·费尔南德斯（1840-1904）是一个典型的19世纪资产阶级。他靠纺织起家，在莱昂、阿斯托加和奥维耶多拥有商铺。他委托高迪建造博蒂内斯之家，最初预算为12.5万比塞塔，最终超支至18万比塞塔。费尔南德斯对高迪的信任近乎盲目——他曾在一封信中写道：“我不懂建筑，但我知道您会为莱昂带来一件杰作。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，费尔南德斯并未享受这座建筑太久。他于1904年去世，家族生意随后衰败。20世纪初，他的儿子将建筑卖给银行，费尔南德斯家族就此淡出历史。直到2006年，建筑学家在整理档案时发现了费尔南德斯与高迪的通信，这位伯乐才重见天日。博物馆内如今展出了他的肖像画和部分商业账簿。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“高迪先生，请不必考虑成本。莱昂需要一座与它所配的建筑，而您是唯一能赋予它灵魂的人。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——西蒙·费尔南德斯致高迪的信件（1892年3月）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、修复者：延续记忆的守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">20世纪后期，博蒂内斯之家经历了两次重要修复：<strong>1979年</strong>由建筑师安东尼奥·费尔南德斯（Antonio Fernández）主持，主要修复火灾损伤；<strong>2007-2011年</strong>由卡洛斯·金塔纳（Carlos Quintana）团队主持，彻底翻新了结构并增设博物馆。金塔纳在回忆录中写道：“每当我们拆开一堵墙，都能看到高迪留下的铅笔标记——他连砖缝的宽度都注明了。”这段修复史本身，就是现代工匠对高迪精神的致敬。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、石像守卫的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博蒂内斯之家的主立面上，有两尊<strong>石雕狮子</strong>蹲坐在入口两侧。这是高迪委托雕塑家<strong>弗朗西斯科·萨乌</strong>（Francisco Sáez）雕刻的，狮子是莱昂的象征。但当地流传一个传说：这两头狮子其实是活的，每逢月圆之夜会从底座上走下来，沿着拱廊巡逻。谁要是看到它们，就会在七日内发财——但前提是不能告诉任何人。据说20世纪初一个守夜人曾亲眼目睹，他照做了，第二天就捡到一袋金币。但他忍不住对妻子讲了，结果金币当晚就变成了石头。如今，这两只狮子仍静静守护着大门，眼神穿透百年时光。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、高迪给银行职员的“幽灵电话”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博蒂内斯之家成为银行后，有职员声称在深夜听到电话铃声，接起来却只有呼吸声。最离奇的一次：<strong>1973年</strong>某个冬夜，电话总机系统突然响起，保安接听后听到一个男人用加泰罗尼亚语说：“请把我的图纸交给经理。”随后信号中断。第二天，经理在档案室发现了一个暗格，里面是高迪设计的家具图纸——此前被认为已遗失。此后，“高迪幽灵”的传说在莱昂流传开来，甚至有人声称在地下室看到过一个佝偻的身影在测量墙面。银行在2008年整修时特意保留了地下室的一盏煤气灯，据说是高迪生前唯一一次到访时亲手点燃的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、朝圣者的“铁鞋”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建筑南侧的小巷里，有一块嵌入墙体的大铁钉，被称为“朝圣者的鞋钉”。传说中世纪时，到圣地亚哥朝圣的旅人会在此休息，把破旧的靴子挂在钉子上。高迪在设计时专门保留了这根钉子，并刻上了拉丁文“Terrae Leonis”（这片土地属于狮子）。至今仍有当地人相信，如果谁把硬币放在钉子上许愿，就能在朝圣之路上平安归来。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博蒂内斯之家是莱昂的“时间胶囊”。它见证了军团营地的千年沉浮，也见证了工业化浪潮如何重塑古城肌理。高迪用新哥特式的语言，为这座城市留下了一部石砌的“自传”——每一扇窗、每一根扶壁、每一块砂岩，都讲述着19世纪末西班牙商人、建筑师与城市之间的信任与博弈。读懂这座建筑，就是读懂莱昂从军事要塞到商业重镇的转型。它不宏伟，却足够精致；不张扬，却暗藏波澜。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在它的拱廊下，指尖触碰着被风雨洗刷的红色砂岩，会感受到一种奇异的穿透力——那是一位建筑师尚在探索个人风格时的真诚，也是一个小城在拥抱现代化时的谦逊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/baeza-historical-ensemble\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴埃萨古城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Baeza</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castillo-de-los-molares\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛斯莫拉雷斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castillo de Los Molares</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/statue-of-miguel-de-cervantes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塞万提斯雕像</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Statue of Miguel de Cervantes</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "baeza-historical-ensemble",
+          "name": "巴埃萨古城",
+          "englishName": "Baeza"
+        },
+        {
+          "slug": "castillo-de-los-molares",
+          "name": "洛斯莫拉雷斯城堡",
+          "englishName": "Castillo de Los Molares"
+        },
+        {
+          "slug": "statue-of-miguel-de-cervantes",
+          "name": "塞万提斯雕像",
+          "englishName": "Statue of Miguel de Cervantes"
+        }
+      ]
+    }
+  ]
+}

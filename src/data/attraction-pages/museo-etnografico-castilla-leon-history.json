@@ -1,0 +1,85 @@
+{
+  "slug": "museo-etnografico-castilla-leon-history",
+  "template": "history",
+  "metadata": {
+    "title": "卡斯蒂利亚-莱昂民族志博物馆历史溯源｜西班牙西北部民间记忆的宝库与村落传奇",
+    "description": "穿过萨莫拉的石板巷，走进卡斯蒂利亚-莱昂民族志博物馆，从古老农具到节日面具，揭开西班牙乡村生活的原始密码。听谷仓里的歌谣，看木偶里的战争——这里的每一件藏品都是农民口中未被书写的历史。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "萨莫拉",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡斯蒂利亚-莱昂民族志博物馆",
+      "href": "/attractions/museo-etnografico-castilla-leon-history"
+    }
+  ],
+  "hero": {
+    "title": "卡斯蒂利亚-莱昂民族志博物馆・Museo Etnográfico de Castilla y León・西班牙・萨莫拉",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在西班牙西北部，萨莫拉是一座被罗马城墙和罗曼式教堂包围的寂静古城。而藏在其间的卡斯蒂利亚-莱昂民族志博物馆，却是整个西班牙最被低估的人类学宝库。它不止是玻璃柜里的陶罐和织机，而是一部用木头、铁器和褪色的刺绣写成的民间史书。所有关于“何谓卡斯蒂利亚”的答案，都藏在农夫的犁铧和牧羊人的歌谣里。抛开游玩攻略，走进博物馆的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">卡斯蒂利亚-莱昂民族志博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Museo Etnográfico de Castilla y León</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Museo Etnográfico de Castilla y León</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">萨莫拉</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座博物馆的诞生，并非朝夕之功。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的物理根脉，深扎在一座16世纪的古老建筑里——<strong>拉莫塔之家（Casa de la Mota）</strong>。这栋文艺复兴风格的宅邸，最初由萨莫拉贵族家族建造，带有典型的西班牙庭院和铁艺回廊。几个世纪里，它当过私宅、军营、甚至谷仓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到 <strong>1980年代</strong>，卡斯蒂利亚-莱昂自治区政府决定，必须为即将消失的乡村文明修建一座诺亚方舟。于是，拉莫塔之家被选定为博物馆的永久馆址。经过长达十年的改造与扩展，博物馆于 <strong>2002年</strong>正式对公众开放。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆的名字——<strong>“民族志”</strong>——来自希腊语 “ethnos”（民族）和 “graphia”（描述）。但这里没有枯燥的人类学理论，只有锅碗瓢盆、犁耙镰刀、以及节日里被戴上的恐怖面具。它不讲述国王和主教，只讲述那些在田野里弯腰、在灶台前弯腰的人。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>1999年的一份征集公告上写道：“我们寻找的不是古董，而是记忆。任何一件被祖父的手磨出凹痕的工具，都比黄金更贵重。”</strong></blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这便是它的起源：一场对抗遗忘的集体行动。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆的收藏脉络，本身就是一部浓缩的乡村史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一次重击：工业化的绞杀。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1950年代，西班牙农村开始大规模向城市迁徙。拖拉机取代了耕牛，塑料桶取代了陶罐。老人们死去，他们的手艺——编筐、织布、打铁——也随之入土。博物馆的早期收藏者，像考古学家一样在废弃的村庄里翻找，从倒塌的屋顶下抢救出最后一批手工纺车。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二次转折：节日的复燃。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一件展品让博物馆名声大噪：<strong>“El Colacho”的狂欢面具</strong>。这是卡斯蒂利亚-莱昂地区特有的一种节日传统——男人穿着魔鬼装束，跳越过婴儿床，以驱除邪灵。博物馆收集了几十种不同村庄的面具，每一张都带着不同的呲牙和角。它们不仅是艺术品，更是信仰的化石：中世纪农民对疾病和死亡的全部恐惧，都雕刻在这些张狂的木头上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三次重塑：声音的回归。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2010年，博物馆启动了一个声音档案项目。馆长带着录音机走遍村落，录下老人们哼唱的 <strong>“霍塔”（jota）</strong> 和割麦时节的劳动号子。这些声音被装进展厅的耳机里，游客可以一边看锈迹斑斑的镰刀，一边听百年前收割者们的喘息声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">正是这三层印记——抢救、复活、再造——让博物馆成了活的记忆载体。它不只是展示过去，而是用过去回应现在。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与这座博物馆共生的名人，并非政治领袖或文学家，而是两位用脚步丈量田野的“普通人”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 胡安·安东尼奥·德尔·巴里奥（Juan Antonio del Barrio）——最后一个走方郎中</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德尔·巴里奥生于1935年的萨莫拉农村，家族三代都是 <strong>“sacristán”（教堂司事）</strong>兼草药郎中。他从小跟着祖父走村串巷，用圣水、迷迭香和几串拉丁祷文治疗村民的牙痛和风湿。1960年代，正规医疗覆盖到乡村，他的营生迅速消亡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但德尔·巴里奥做了一件奇怪的事：他开始收集自己用过的药瓶、草药罐、还有刻着诅咒符号的“护身符”。到了1990年代，他听说萨莫拉正在筹建民族志博物馆，便主动联系，把整整一屋子的 <strong>“民间医药档案”</strong>捐了出来。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>他在捐赠清单后附了一封信：“这些不是药，是故事。每个瓶子里都曾有一个人求活的眼神。”</strong></blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，博物馆专门辟出一间展厅陈列他的藏品，墙上投影着他手写的《草药配方录》，旁边放着干枯的鼠尾草和一罐罐发黄的药膏。德尔·巴里奥于2014年去世，但他的名字永远刻在博物馆的捐赠墙上——他是最后一个拿着圣水瓶穿过麦田的走方郎中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 玛丽亚·德·拉斯·尼韦斯（María de las Nieves）——织布机边的女作家</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽亚·德·拉斯·尼韦斯（1931-2009）是卡斯蒂利亚-莱昂地区唯一一位既写书又织布的民间艺术家。她出生在萨莫拉以南的卡瓦哈尔村，一辈子没离开过那条河。18岁起，她就在家里的织布机上工作，同时用铅笔头在报纸边角写诗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她的诗，写的全是织布时的感受：经线是时间，纬线是劳作。1997年，她的第一本诗集《织机的回声》出版，但几乎没有引起任何注意。倒是博物馆的策展人读到了其中一首诗：“我的手指记得每一根线/就像河水记得旧桥的倒影。”策展人被震撼了，找到她，请她为博物馆的纺织展厅录制一段口述历史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽亚不仅录了音，还亲手织了一块 <strong>“记忆布”</strong>，用亚麻线编织出萨莫拉的田野和教堂轮廓。这块布现在挂在展厅中央，旁边是她的诗和录音。她在录音里说：“将来没人会织布了，但只要你看着这块布，就能感到我的手指还活着。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2010年，博物馆以她的名字设立了“玛丽亚·德·拉斯·尼韦斯民间创作奖”，至今每年奖励一位仍在从事传统手工艺的卡斯蒂利亚女性。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这两位人物，一位是最后的草药郎中，一位是织布女诗人。他们都不是传统意义上的“伟人”，但正是他们，让博物馆里的每一件展品都附上了灵魂的重量。他们活着的痕迹，比石碑更重。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡斯蒂利亚-莱昂的乡村里，最著名的传说叫做 <strong>“La Patas de Cabra”</strong>（山羊脚）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在15世纪的一个夏夜，萨莫拉以北的村庄里，有一个年轻人爱上了邻村的姑娘。姑娘的父亲是当地最富有的磨坊主，他看不起穷小子，于是提出条件：只要能在三天内，把整条杜罗河的河水都引到他的磨坊里，就把女儿嫁给他。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">年轻人绝望地跪在河边哭泣。这时，一个有着山羊蹄子的男人从阴影里走出来——他是<strong>魔鬼</strong>。魔鬼说：“我能帮你。但七年后，你要把灵魂给我。”年轻人答应了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二天，河水真的改道了。磨坊的水车疯狂转动，姑娘的父亲惊得说不出话。婚礼办成了，但第七年的前夜，年轻人开始颤抖。他的妻子发现了他手上的契约，哭着去找村里最老的牧羊人。牧羊人给了她一串铃铛，说：“等午夜钟声敲响时，你站在磨坊外，用力摇铃。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">午夜，魔鬼果然来了。但他一听见铃铛声就痛苦地捂住耳朵——<strong>因为卡斯蒂利亚的牧羊人铃铛，是用教堂钟声熔化的金属做的，能驱邪</strong>。年轻人趁机撕毁契约，魔鬼尖叫着跳进杜罗河，变成了一个漩涡。从此，河边的芦苇丛里，偶尔还能听到铃铛的响声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆专门收藏了一组牧羊人的铜铃，据说它们就是当年驱赶魔鬼的那几串。在民俗展厅里，你甚至能摇动一个复制品——那沉闷的响声，仿佛仍带着中世纪夜晚的寒意。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂一座博物馆，就是读懂一个民族的皱纹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡斯蒂利亚-莱昂民族志博物馆的意义，远不止于陈列。它提醒我们：文明并非只存在于宫殿的穹顶下，也存在于农夫的粗手上。那些正在消失的手艺、节庆和歌谣，是我们理解西班牙西北部灵魂的唯一钥匙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在拉莫塔之家的庭院里，看着阳光穿过石榴树，听着从展厅深处传来的霍塔旋律——你会明白，这座博物馆不是在保存过去，而是在为未来保留一种可能的叙述。下一次，当你走进一个西班牙小村庄，听见老人的咳嗽声或看见墙上挂着的旧面具，你会想起：那不是物件，那是未曾断绝的呼吸。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/museo-casa-de-la-canana-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡萨·德拉卡纳纳博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museo \"Casa de la Canana\"</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/teatro-romano-cartagena\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡塔赫纳罗马剧场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Teatro Romano de Cartagena</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tren-del-parc-catalunya\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加泰罗尼亚公园小火车</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tren del Parc Catalunya</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "museo-casa-de-la-canana-history",
+          "name": "卡萨·德拉卡纳纳博物馆",
+          "englishName": "Museo \"Casa de la Canana\""
+        },
+        {
+          "slug": "teatro-romano-cartagena",
+          "name": "卡塔赫纳罗马剧场",
+          "englishName": "Teatro Romano de Cartagena"
+        },
+        {
+          "slug": "tren-del-parc-catalunya",
+          "name": "加泰罗尼亚公园小火车",
+          "englishName": "Tren del Parc Catalunya"
+        }
+      ]
+    }
+  ]
+}

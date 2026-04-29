@@ -1,0 +1,85 @@
+{
+  "slug": "castell-cricieth-history",
+  "template": "history",
+  "metadata": {
+    "title": "克里基厄斯城堡历史溯源｜威尔士小众秘境的前世今生与名人传奇",
+    "description": "威尔士独立战争的要塞，Owain Glyndŵr曾在此激战，城堡下的暗影传说至今未解。走进克里基厄斯城堡，聆听石墙里的中世纪呐喊与诗人之泪。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国（威尔士）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "克里基厄斯",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "克里基厄斯城堡",
+      "href": "/attractions/castell-cricieth-history"
+    }
+  ],
+  "hero": {
+    "title": "克里基厄斯城堡・Castell Cricieth・英国（威尔士）・克里基厄斯",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>克里基厄斯城堡</strong>不是游客地图上的热门坐标，却是威尔士历史最倔强的见证者。它伫立在爱尔兰海的风中，见证过君王与叛贼的角力，也收藏过诗人与囚徒的叹息。抛开游玩攻略，走进克里基厄斯的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">克里基厄斯城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Castell Cricieth</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Castell Cricieth</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国（威尔士）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">克里基厄斯</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克里基厄斯小镇的名字源于威尔士语“Crug Caeth”，意为<strong>“被囚禁的土丘”</strong>——一个地名便道尽了这片土地的宿命。早在罗马时代，这里便是通往爱尔兰的海路哨点。但真正的历史起点，发生在<strong>13世纪初</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当时，北威尔士的统治者 <strong>Llywelyn the Great</strong>（伟大的卢埃林）看中了这块伸入卡迪根湾的岩石岬角。他于<strong>1230年左右</strong>下令建造一座石砌城堡，作为控制沿海贸易通道的军事前哨。城堡最初的设计并不宏伟，只有一座单薄的矩形塔楼和外墙。但在威尔士亲王的手中，它很快成为抵御英格兰扩张的堡垒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1247年</strong>，卢埃林去世后，城堡落入其孙子 <strong>Llywelyn ap Gruffudd</strong> 手中。正是这位末代威尔士亲王，在<strong>1267年</strong>凭借《蒙哥马利条约》短暂统一了威尔士，克里基厄斯城堡成为他王权的象征之一。然而，<strong>1282年</strong>，爱德华一世的军队席卷而来，城堡在被围攻后投降，从此成为英格兰王室的财产。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这座城堡从未被攻破——直到那个叫爱德华的入侵者用饥饿征服了它的看守。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 16世纪威尔士编年史家伊欧卢·威廉姆斯</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">爱德华一世随即扩建了城堡，增建了外堡、高大的门楼和双层城墙。他决心用石头将威尔士的抵抗碾碎。克里基厄斯从此成为英格兰在威尔士沿海的枷锁之一，与康威、博马里斯等城堡遥相呼应。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1282年的陷落</strong>是城堡命运的分水岭。Edmund Mortimer率领的英格兰军队围困城堡数月，守军因补给耗尽而投降。爱德华一世随后任命英国贵族为城堡总管，并在此驻扎常备军。城堡的威尔士石匠被迫用本土石材为征服者加固城墙——这种讽刺在威尔士的许多城堡中都曾上演。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1404年</strong>，历史迎来了戏剧性转折。威尔士民族英雄 <strong>Owain Glyndŵr</strong> 发动起义，率领数千人包围克里基厄斯城堡。当时的守军只有不足百人，但城堡墙体厚达3米，难以直接攻破。GlyndŲr采取围困战术，切断海路补给。经过数月对峙，城堡终于在<strong>1405年</strong>陷落——这是威尔士人自1282年后首次重新掌控这座堡垒。Glyndŵr将其作为自己的指挥部之一，并在城堡内召开了短暂的议会。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我站在塔楼的废墟上，试图想象那些夜晚：爱尔兰海的风吹熄了火把，石墙外是威尔士人的战歌，墙内是英格兰士兵的祈祷。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 旅行作家乔治·博罗，1862年</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但起义最终被镇压。<strong>1410年后</strong>，城堡再次回到英格兰手中，并逐渐失去军事价值。<strong>17世纪英国内战</strong>期间，城堡被保王党占据，1646年被议会军攻占后，部分墙体被故意炸毁，以防止再次被用作要塞。从此，克里基厄斯城堡变成一片废墟，任由海风侵蚀。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>建筑本身的奥秘</strong>：城堡最独特的设计在于它的“D形塔楼”——一种弯曲的防御结构，能有效抵御投石机。站在城堡最高处的看台，你可以望见斯诺登尼亚山脉的轮廓——那是威尔士抵抗者的最后避难所。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Owain Glyndŵr</strong> —— 威尔士最后的独立王子</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说Llywelyn the Great是威尔士王权的奠基者，那么 <strong>Owain Glyndŵr</strong> 就是威尔士民族魂的化身。这位大约出生于<strong>1354年</strong>的贵族，曾为英格兰国王理查二世效力，担任过军官。但在<strong>1400年</strong>，因土地纠纷与邻居领主发生冲突后，他毅然举起反旗，自封威尔士亲王。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Glyndŵr不只是一名战士，更是一位<strong>杰出的政治家和战略家</strong>。他曾在牛津大学学习法律，精通多门语言。他建立的威尔士议会、与法国结盟的外交手腕，让这个长期被压制的民族看到了复兴的希望。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克里基厄斯城堡是Glyndŵr辉煌时刻的象征。<strong>1405年</strong>，当他骑马进入这座城堡时，威尔士的独立事业达到了顶峰。他在城堡内接待了法国盟友的使节，并计划统一南北威尔士。城堡的海角上飘扬着威尔士红龙旗帜——这是自1282年以来第一次。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但命运弄人。<strong>1410年以后</strong>，英格兰军队的反攻以及内部叛徒的出卖，让Glyndŵr的起义逐渐瓦解。他最后消失在历史迷雾中，无人知道他的最终葬身地。但关于他的传说从未消失：有人说他藏身于斯诺登尼亚的洞穴，静待时机；也有人说他化身为一只乌鸦，永远守护着威尔士的群山。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>David ap Gwilym</strong> —— 吟游诗人的哀歌</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位与克里基厄斯城堡紧密相连的名人是 <strong>David ap Gwilym</strong>（约1320-1370），中世纪威尔士最伟大的诗人。他曾受邀在城堡的宴会上吟唱，却因爱上城堡总管的女儿而遭囚禁。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我听见石头在低语，它们记得你的长发，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">比爱尔兰海的泡沫更柔软，比斯诺登尼亚的雪更白。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">而我，被锁在冰冷的塔中，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">只能用押韵的镣铐，敲击你的窗棂。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— David ap Gwilym， 《囚歌》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位诗人的爱情与反抗精神，为城堡染上了一层悲壮而浪漫的色彩。他的诗歌至今仍是威尔士文学的重要遗产。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>幽灵女仆与消失的通道</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地古老的传说中，城堡的南塔曾经住着一位侍女，名叫 <strong>玛哈雷德</strong>（Mared）。她是城堡总管的女儿——也许正是那位让诗人David ap Gwilym坠入爱河的姑娘。相传她在<strong>1405年</strong>起义期间爱上了一名威尔士叛军战士，两人计划私奔。但玛哈雷德的父亲发现后，将她关进塔楼顶层的房间。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那个月夜，她的爱人用一根绳索爬上塔楼，想救她出去。但绳索断裂，两人坠入海中。从此，玛哈雷德的亡灵便在城堡的废墟中游荡，有时会在月圆之夜出现在北塔的窗口，轻哼一首威尔士情歌——据说正是David ap Gwilym为她写下的那首。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一种说法：城堡地下有一条秘密隧道，从地牢直通海边的洞穴。爱德华一世曾用它来秘密运输补给。这条隧道至今未被找到，但一些村民说，在暴风雨的夜晚，能听见隧道里传来铁链拖拽的声音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>当地的亡灵节传统</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年<strong>11月5日</strong>，克里基厄斯居民会在城堡废墟点燃篝火——这个习俗源自威尔士古老的“Calan Gaeaf”（冬节）。人们相信，在这一夜，死者的灵魂会回到城堡，与生者共舞。与英格兰的篝火夜不同，这里不烧盖伊·福克斯的雕像，而是抛洒燕麦和盐，以安抚那些未能安息的亡灵。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克里基厄斯城堡的价值，不在于它的规模或完好程度，而在于它承载的<strong>威尔士民族之魂</strong>。每一块被风化的石头，都刻着被征服者的眼泪与反抗者的血迹。它提醒我们：历史从来不是胜利者单方面的叙事——城堡下的秘密通道，诗中的隐喻，传说里的幽灵，都是失语者在暗处的低语。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座城堡，就是读懂威尔士的韧性：它被英格兰人改造过，被内战炸毁过，被岁月侵蚀过，但始终没有消失。它依然站在那里，面向大海，仿佛在等待另一个Owain Glyndŵr的归来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/blue-lagoon-abereiddi-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蓝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蓝湖（阿贝雷迪）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Blue Lagoon - Abereiddi</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abergwesyn-common-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    国\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">国家信托-阿伯格维森公地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Abergwesyn Common</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/betws-y-coed-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝图斯-科德</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Betws-y-coed</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "blue-lagoon-abereiddi-history",
+          "name": "蓝湖（阿贝雷迪）",
+          "englishName": "Blue Lagoon - Abereiddi"
+        },
+        {
+          "slug": "abergwesyn-common-history",
+          "name": "国家信托-阿伯格维森公地",
+          "englishName": "National Trust - Abergwesyn Common"
+        },
+        {
+          "slug": "betws-y-coed-history",
+          "name": "贝图斯-科德",
+          "englishName": "Betws-y-coed"
+        }
+      ]
+    }
+  ]
+}

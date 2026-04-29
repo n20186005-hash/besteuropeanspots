@@ -1,0 +1,85 @@
+{
+  "slug": "madrid-history",
+  "template": "history",
+  "metadata": {
+    "title": "马德里历史溯源｜从摩尔人城堡到哈布斯堡王朝的前世今生与传奇人物",
+    "description": "深入马德里尘封的往事：摩尔要塞的崛起、查理五世的帝国梦、戈雅笔下的战争与和平。抛开游玩攻略，跟随历史向导的脚步，触摸这座西班牙心脏的真实脉搏。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马德里",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马德里",
+      "href": "/attractions/madrid-history"
+    }
+  ],
+  "hero": {
+    "title": "马德里・Madrid・西班牙・马德里",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">当赛格威车队穿行于太阳门广场，很少有人注意到脚下石板曾浸染摩尔人的血。马德里并非生来就是西班牙首都——它在1561年才被腓力二世选中，从一个不起眼的防御据点蜕变为哈布斯堡帝国的中心。抛开游玩攻略，走进马德里的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">马德里</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Madrid</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Madrid</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">马德里</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>公元9世纪</strong>，科尔多瓦埃米尔穆罕默德一世下令在曼萨纳雷斯河畔修建一座堡垒，取名“马吉里特”（Mayrit），意为“水源丰沛之地”。这片高地是摩尔人控制北部平原的战略要塞，城堡周围逐渐聚集了最早的居民。<strong>1085年</strong>，卡斯蒂利亚国王阿方索六世收复此地，改称为“马德里”，但长久以来它只是托莱多辖区下的一个小村庄，人口不足两千。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正改变命运的转折点发生在<strong>1561年</strong>。当时的西班牙国王腓力二世厌倦了托莱多的宗教束缚，也嫌弃巴利亚多利德的潮湿，突然下令将宫廷迁至马德里。原因至今成谜——有人说是为了靠近埃斯科里亚尔修道院的建筑工地，也有人说是国王看中了这里清新的空气和开阔的猎场。一夜之间，马车队载着王公贵族蜂拥而至，小村庄被塞进庞大的行政机器，街道以惊人的速度扩展。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>名字的渊源</strong>也充满争议。除了“水源丰沛”的阿拉伯语起源，还有说法认为它来自拉丁语“Matrix”（母体），指向城市早期的犹太社区。无论哪种解释，马德里的身份始终与“接纳”和“混合”紧密相连——这是欧洲少数没有罗马地基却成为帝国心脏的城市之一。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1808年5月2日</strong>，西班牙民众在太阳门广场起义反抗拿破仑军队，血流成河。这一天被戈雅永远定格在画布上：马穆鲁克骑兵挥刀砍向赤手空拳的平民，白色衬衫上的血迹尚未干透。起义虽被镇压，却在全西班牙点燃了独立战争的火焰。此后数十年，马德里成为自由主义与绝对王权反复拉锯的战场，每一次政变都让城市肌理增添一道伤疤。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1936年西班牙内战</strong>，马德里成为共和派最后坚守的堡垒。佛朗哥的军队围城两年零八个月，炮弹如雨般落在格兰大道，电话交换所大楼的钟楼至今留有弹孔。城市居民在地铁站里过夜，用废墟中的砖石搭建街垒。当时流传着一句口号：“No pasarán”（他们休想通过）。直到1939年3月，饥饿与背叛才让这座城市陷落。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>建筑背后的故事</strong>：马德里王宫建在摩尔人城堡的原址上，工人们挖地基时发现了一整座阿拉伯浴室——如今宫殿的某些地下室仍保留着马蹄形拱门。而著名的马约尔广场曾举行过宗教审判的火刑，也举办过王室婚礼和斗牛表演，地面下的暗渠至今流淌着16世纪的排水系统。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 弗朗西斯科·戈雅（1746-1828）——用画笔撕裂马德里灵魂的斗士</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">戈雅在马德里度过了人生中最辉煌也最黑暗的岁月。他28岁来到这座都城，凭借为皇家挂毯绘制的草图迅速赢得声誉，最终成为查理四世的宫廷画家。但他的画笔从不粉饰太平——《查理四世一家》中，国王呆滞的眼神和王妃丑陋的面容让整个王室颜面尽失，戈雅却拒绝修改。<strong>1808年法国入侵</strong>后，他躲在家里透过窗户偷看街头的屠杀，随即创作了《1808年5月3日》——那幅画中的士兵没有脸，只有一排整齐的枪口，而受刑者张开双臂，像被钉在路灯光晕里的基督。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">戈雅在聋人别墅的墙壁上画下“黑色绘画”系列时，邻居们说经常在深夜听到屋里传来低沉的咆哮声。当他去世时，那间屋子的墙皮已经因为颜料太厚而剥落。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">晚年的戈雅因政治迫害流亡波尔多，但他的骨殖最终被运回马德里，安葬在圣安东尼奥·德拉·弗洛里达教堂。每年5月3日，总有陌生人将一枝白色康乃馨放在他墓前——没有人知道是谁放的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 洛佩·德·维加（1562-1635）——马德里黄金时代的“凡人编剧”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位写过1500多部戏剧的文学巨匠，一生都与马德里纠缠不清。他出生在太阳门附近的裁缝家庭，年轻时因与女演员私奔被教会放逐，却在天主教卫道士和情场浪子之间反复横跳。洛佩每天凌晨三点起床写作，早餐前就能完成一部三幕喜剧。他笔下的马德里女人说话粗俗、精明狡猾，男人则醉醺醺地在街头打架——这些场景直接取自他居住的墨水街。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>他与马德里最传奇的轶事</strong>：一次，他在剧院目睹自己的新剧被观众喝倒彩，气得当场跳上舞台对观众喊道：“我的剧本是最好的！你们之所以不喜欢，是因为你们的品位被驴踢了！”然后他掏出随身携带的匕首，割断了自己的腰带，提上裤子扬长而去。第二天，那部戏的票房涨了三倍。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 曼努埃尔·阿萨尼亚（1880-1940）——共和国最后的守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">作为西班牙第二共和国的最后一任总理，阿萨尼亚的马德里记忆充满了失败与尊严。他曾在普拉多博物馆对面的小公寓里撰写回忆录，窗外就是戈雅的画。1939年他流亡法国时，只带走了一本塞万提斯的《堂吉诃德》和一只装满泥土的布袋——土来自马德里阿托查火车站前的空地。他在日记里写道：“我死了，可马德里还活着。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“马德里熊与草莓树”</strong> 的传说要追溯到中世纪。据说在城郊的树林里，一头熊为了吃草莓爬到树上，被路过的猎人射杀。熊倒下的地方恰好是后来马德里的中心——太阳门广场。城市的徽章上因此保留着熊前爪攀着草莓树的图案，但很少有人知道，这只熊其实是对城市名字“熊城”（Ursa）的谐音误解。更离奇的版本说，熊是摩尔人公主的化身，她为了躲避战乱变成了熊，守护着城中的水源。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>另一个诡异的风俗</strong>：每年11月1日，老城区的居民会悄悄在门口放一碗牛奶，这是为了安抚“疯修士”的亡灵。传说16世纪有一位奥古斯丁修士因为偷了教堂的黄金圣杯，被诅咒永远在午夜寻找没人喝的牛奶。如果你听到门外的脚步声，千万别开门——因为他也可能在找你。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马德里的魅力在于它从不掩饰自己的疤痕。戈雅的涂鸦、洛佩的粗话、内战的弹孔，都嵌在街道的每一道裂缝里。当你站在德波神庙俯瞰城市，脚下是埃及文物，远处是哈布斯堡的尖顶，更远处是弗兰科修建的巨型十字架——这座城市把三千年的对抗与妥协都摊开在日光下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂马德里，就是读懂西班牙如何从帝国碎片中挣扎出今天的模样。它不需要精美规整的审美，它只需要你愿意蹲下去，摸一摸太阳门砖块上的划痕，偶尔抬头，看见阳台上一盆快要枯死的天竺葵，和晾衣绳上飘扬的红黄旗帜。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</blockquote>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/osuna-andalusia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥苏纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Osuna</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/puente-viejo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Puente Viejo</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/plasencia-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普拉森西亚</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Plasencia</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "osuna-andalusia",
+          "name": "奥苏纳",
+          "englishName": "Osuna"
+        },
+        {
+          "slug": "puente-viejo",
+          "name": "老桥",
+          "englishName": "Puente Viejo"
+        },
+        {
+          "slug": "plasencia-history",
+          "name": "普拉森西亚",
+          "englishName": "Plasencia"
+        }
+      ]
+    }
+  ]
+}

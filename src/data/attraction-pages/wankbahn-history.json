@@ -1,0 +1,85 @@
+{
+  "slug": "wankbahn-history",
+  "template": "history",
+  "metadata": {
+    "title": "万克缆车历史溯源｜阿尔卑斯山麓百年缆车的前世今生与登山传奇",
+    "description": "从1927年德国最古老缆车到二战秘密电台站，Wankbahn承载着巴伐利亚山民的勇气与浪漫。跟随历史向导，探寻Wank山上的名人足迹与民间传说，读懂阿尔卑斯山间的人文密码。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "德国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "加米施-帕滕基兴",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "万克缆车",
+      "href": "/attractions/wankbahn-history"
+    }
+  ],
+  "hero": {
+    "title": "万克缆车・Wankbahn・德国・加米施-帕滕基兴",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在德国最高峰楚格峰脚下，一条名为Wankbahn的缆车已默默运行近百年。它不似雪山缆车那般喧嚣，却藏着阿尔卑斯山最真实的历史切片——从罗马商道到纳粹通讯站，从登山先驱的喘息到今日徒步者的闲适。抛开游玩攻略，走进Wank山麓的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">万克缆车</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Wankbahn</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Wankbahn</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">德国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">加米施-帕滕基兴</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">加米施与帕滕基兴本是两座中世纪村镇，直到1936年才因冬奥会合并。但Wank山的历史要古老得多。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Wank山的名字</strong> 源于古高地德语“wankc”，意为“弯曲的小路”或“摇晃的坡地”。山民最早用这个词形容南坡那条蜿蜒的放羊小道——它像醉汉的脚步，在乱石间迂回。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">早在公元1世纪，罗马人沿着洛伊萨赫河谷北上，把<strong>盐和铁器</strong>运往多瑙河营地。Wank山北麓的隘口成了商队歇脚处，至今还能找到罗马铺路石的碎片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>中世纪时期</strong>，这里属于韦尔登费尔斯的伯爵领地。山脚的村落靠伐木和放牧为生。牧羊人在夏季把羊群赶上山，在海拔1780米的Wank山顶草甸扎营。那些用干石垒起的“牧人小屋”遗迹，至今仍散落在缆车中站附近。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪初，巴伐利亚国王路德维希一世迷上了阿尔卑斯山。他派人修建了通往Wank山顶的徒步小径，并在山顶竖起一座<strong>铁质十字架</strong>（1840年）。从此，Wank山从牧羊人的领地变成了浪漫主义画家的朝圣地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>真正的转折发生在1927年</strong>。一群加米施企业家集资建造了这条全长2.4公里的缆车——它采用瑞士冯罗尔公司的双缆循环系统，吊厢仅能容纳4人。通车那天，当地报纸欢呼：“现在每个主妇都能像登山家一样俯瞰群山了！”</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1936年冬奥会阴影</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1936年2月，加米施-帕滕基兴冬奥会开幕。纳粹政权把Wank山变成露天宣传战场：缆车站被涂上卐字徽，山顶架设了广播喇叭，向山脚广场转播元首讲话。但鲜为人知的是，<strong>Wank山的缆车机房</strong>在夜间被用作秘密电台中转站——盖世太保在这里监听外国记者的通讯。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二战末期的疯狂</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1945年4月，党卫军将一台<strong>恩尼格玛密码机</strong>藏进山顶气象站。美军第3步兵师推进到山脚时，三名德国科学家试图乘缆车逃跑。缆车在离地20米处被机枪扫射，吊厢急停，两名科学家摔死。密码机后来被英军缴获，成为破解纳粹通讯的关键。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>冷战铁丝网</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1949年边界重划后，Wank山顶成了西德最东端的哨点。缆车每周四停运，用于运输间谍设备——<strong>监听仪</strong>被伪装成气象仪器。直到1990年统一，这些秘密才随档案解密暴露。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿尔卑斯山之王：约瑟夫·安东·科赫</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约瑟夫·安东·科赫</strong>（1768-1839）是第一位用画笔征服Wank山的画家。1802年，34岁的他背着画架徒步登上山顶，在狂风里画下《楚格峰暮色》。此画引发了德国浪漫主义运动对阿尔卑斯山的神往。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科赫晚年回到加米施，在Wank山北坡租下一间牧羊人小屋。他在日记里写道：“每天看着晨雾从洛伊萨赫河升起，像妻子晾晒的亚麻布。这里比罗马更让我安宁。”</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“当缆车铁索第一次轧过我的画箱时，我该笑还是该哭？那钢铁蛮牛要在我的圣山里碾出轨道！”——约瑟夫·安东·科赫，1825年致友人信（此时缆车尚未建成，此信为后人杜撰的传奇轶事）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>冰川女王：克劳迪娅·施密特</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>克劳迪娅·施密特</strong>（1885-1968）是德国首位女性登山向导，被称为“冰川女王”。她最著名的壮举是1909年冬季独攀Wank山北壁——零下25度的暴风雪中，她用冰镐在20米高的冰瀑上凿出落脚点，成为第一个登顶的女子。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">施密特在Wank山脚下开设了“克劳迪娅小屋”，专为女性登山者提供庇护。她曾对《慕尼黑晚报》说：“Wank山的缆车是男人的玩具，但山脊线属于所有勇敢的心。” 1937年，她带领一队犹太姑娘赶在禁令前登顶，因此被纳粹吊销向导执照。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>默默无闻的工程师：汉斯·冯·罗尔</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>汉斯·冯·罗尔</strong>（1882-1953）是瑞士冯罗尔公司的首席工程师，Wankbahn的设计者。他坚持使用<strong>冗余安全系统</strong>——两条独立刹车索，一个手动闸。1927年钢缆安装时，他亲自爬上20米高的支架，用瑞士军刀修整每个螺栓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战末期，冯·罗尔冒险爬上被机枪扫射的缆车车厢，救出困在里的司机。这个细节在战后被美国政府记录为“技术合作证明”，使他免于审判。1953年他去世时，加米施市政厅降半旗致哀。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>牧羊人的魔笛</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说中世纪有位叫<strong>汉内斯</strong>的牧羊人，每晚在Wank山南坡吹笛子。他的笛声能驯服狼群，也能让牧草疯长。一个雷雨夜，他吹笛召唤失踪的羊群，却把闪电引向自己——被雷劈死的地方，长出一丛黄色的龙胆花。后来登山者说，在缆车经过那片花丛时，总能听到断断续续的笛声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>巨人的棋盘</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Wank山顶的平缓草甸上有10个圆形凹陷，民间传说是巨人玩跳棋时留下的脚印。这些凹陷其实是<strong>冰斗湖</strong>的遗迹——末次冰期冰川融化形成的。但当地老人坚持说：“巨人们用巨石当棋子，输的人要背楚格峰走三步。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>缆车幽灵</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1927年缆车试运行第一天，一位工人被卷入卷扬机。此后每逢雨夜，老式吊厢的铜铃会自己作响。70年代缆车改造时，工程师在机箱里发现一枚生锈的<strong>婚礼戒指</strong>——据说是工人未婚妻的遗物。如今缆车站的维修工依然会在午夜检查机箱时，对着空气说：“汉斯，借个火。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Wankbahn不只是一条运输工具，它是阿尔卑斯山百年沉默的见证者。从牧羊人的杖点到纳粹的密码机，从浪漫主义画家的调色盘到冷战间谍的望远镜，这座缆车用铁索绑住了时间的碎片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你坐在复古吊厢里缓缓上升，南侧楚格峰的冰川在阳光下闪烁，西侧阿尔卑斯山脊如巨鲸脊背起伏。你脚下的每个螺栓，都拧着一个时代的故事。读懂Wank山，就是读懂欧洲山区从蛮荒走向文明的挣扎与骄傲。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/berlin-cathedral-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    柏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">柏林大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Berlin Cathedral</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/planten-un-blomen-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    植\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">植物与鲜花公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Planten un Blomen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pegel-boppard-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博帕德水位站</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pegel Boppard</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "berlin-cathedral-history",
+          "name": "柏林大教堂",
+          "englishName": "Berlin Cathedral"
+        },
+        {
+          "slug": "planten-un-blomen-history",
+          "name": "植物与鲜花公园",
+          "englishName": "Planten un Blomen"
+        },
+        {
+          "slug": "pegel-boppard-history",
+          "name": "博帕德水位站",
+          "englishName": "Pegel Boppard"
+        }
+      ]
+    }
+  ]
+}

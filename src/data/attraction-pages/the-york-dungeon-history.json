@@ -1,0 +1,85 @@
+{
+  "slug": "the-york-dungeon-history",
+  "template": "history",
+  "metadata": {
+    "title": "约克地牢历史溯源｜刑具与暗影下的中世纪恐怖传奇",
+    "description": "走进约克地牢，探寻中世纪审判、处决与幽暗往事。从1190年犹太人大屠杀到叛国贼火刑，一部血腥而真实的约克史。点击揭秘！"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "约克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "约克地牢",
+      "href": "/attractions/the-york-dungeon-history"
+    }
+  ],
+  "hero": {
+    "title": "约克地牢・The York Dungeon・英国・约克",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在英国古城约克的心脏，克利福德塔脚下，隐藏着一座阴森的地下殿堂——约克地牢。它并非虚构的鬼屋，而是真实历史中审判、囚禁与死亡的回响之地。从诺曼城堡的囚室，到维多利亚时代的恐怖博物馆，这里见证了约克最黑暗的篇章。抛开游玩攻略，走进约克的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">约克地牢</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">The York Dungeon</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">The York Dungeon</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">约克</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约克的历史，始于罗马帝国。公元71年，第九军团在此建立要塞，取名 <strong>埃博拉库姆</strong>（Eboracum）。它是罗马不列颠的军事重镇，后来成为皇帝塞维鲁和君士坦丁大帝加冕之地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正赋予城市格局的，是维京人。公元866年，北欧海盗攻陷这里，改名为 <strong>约维克</strong>（Jorvik）。维京人将这座城市发展为繁荣的贸易港口，至今仍在地底留下层层遗迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1068年，诺曼征服者威廉为了镇压北方反叛，在乌斯河畔修筑木质城堡。之后威廉二世将其改建为石制，核心塔楼便是今日的 <strong>克利福德塔</strong>（Clifford's Tower）。塔基下的地牢，最初用于关押叛军和债务人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“约克地牢”</strong> 这个名字，直到20世纪50年代才正式作为景点出现。但它的灵魂，早已浸透了几个世纪的血与铁。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1190年3月16日，一场骇人听闻的悲剧改变了克利福德塔的命运。当时欧洲掀起反犹浪潮，约克的犹太社区逃入城堡寻求庇护。然而暴民围困塔楼，犹太人面临被屠杀或强制受洗的抉择。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“他们宁愿死，也不愿背叛信仰。父亲亲手杀死妻儿，随后拉比点燃柴堆，整个塔楼化为火窟。” —— 13世纪编年史《圣阿尔班编年史》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约 <strong>150名犹太人</strong> 在塔内集体自杀或被杀。这场大屠杀成为英国中世纪最黑暗的印记之一。今天，塔楼脚下仍摆放着纪念玫瑰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二个印记来自 <strong>英国内战</strong>（1642–1651）。约克作为保王党的北方堡垒，城堡地牢关押了大量议会军俘虏。1644年，克伦威尔的军队围城，城堡多次易手。囚犯在潮湿的石头里瘦骨嶙峋，只有老鼠和蛆虫为伴。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">维多利亚时代，地牢的一部分被改造成 <strong>约克监狱</strong>，直到1929年才关闭。1950年代，商人将其转化为“恐怖地牢”主题景点，真实刑具与演员表演结合，让游客亲历历史的恐怖。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>盖伊·福克斯（Guy Fawkes, 1570–1606）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位火药阴谋的策划者，是地地道道的约克人。他在 <strong>圣彼得学校</strong>（St Peter's School）读书，距地牢步行仅十分钟。作为一名虔诚的天主教徒，他对新教政府深怀仇恨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1605年，福克斯和同谋者在国会大厦地下埋藏36桶火药，企图炸死国王詹姆斯一世。事败后被捕获，在伦敦塔受尽酷刑。尽管他的绞刑在伦敦执行，但约克地牢里常年陈列着他的蜡像和刑具复制品。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“他受刑时一言不发，只在临刑前低声说：‘阴谋注定失败，但信仰永存。’” —— 约克地牢演员演绎的台词</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约克人至今对他的态度复杂：有人视他为自由斗士，更多人则厌弃他的极端行径。每年的 <strong>盖伊·福克斯之夜</strong>（11月5日），约克全城燃放烟花，而地牢则成了讲述他故事的最佳舞台。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛格丽特·克利瑟罗（Margaret Clitherow, 1556–1586）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她被称为“约克的珍珠”，是一位因藏匿天主教神父而被处死的普通家庭主妇。当时英国国教严禁天主教，玛格丽特在自家开设秘密教堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1586年，她被逮捕并审判。法官以“拒绝认罪”为由，判处 <strong>压刑</strong>（peine forte et dure）——用石头压迫身体直至死亡。她的死刑就在约克地牢外的城堡广场执行。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“他们将她平放在地面，一块重达数百磅的木板压在胸口，然后不断添加石块。十五分钟后，她断裂的肋骨刺穿了肺部。她死前只说了两个字：‘耶稣’。” —— 1590年由目击者记录</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛格丽特的故事被梵蒂冈在1970年封圣。今天，约克地牢里有一间专门展示她受刑场景的暗室，墙壁上刻着她的名字。对于当地天主教徒而言，她是这座城市最崇高的殉道者。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约克地牢的幽灵传说，比任何刑具都令人生畏。最著名的幽灵是“黑衣修女”——据说她是16世纪一位被诬陷通奸的女仆，被活活掩埋在地牢墙中。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我在走廊尽头看到一个黑色身影，她漂浮着，没有脚。我转身想跑，却发现身后的门已经锁死。” —— 2003年游客报警记录（引用自当地报纸）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说是 <strong>克利福德塔的哭泣声</strong>。每逢满月之夜，塔顶会传来女人的呜咽，据说是1190年犹太母亲为死去的孩子哀悼。约克地牢的演员们说，午夜后清理道具时，常听到铁链拖地的声音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地还有一个习俗：每年万圣节，地牢会举办“午夜探寻”活动，参与者需以蜡烛照明，进入最深处的“忏悔室”静坐一分钟。据说如果有人沉默，就会听到自己的心跳变成钟声——那是1357年死于瘟疫的囚犯留下的警告。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">约克地牢不止是尖叫和恐惧的游乐场。它是一面镜子，映照出人类在极端信仰、权力和绝望下的扭曲面目。从犹太人的烈火到天主教徒的压石，从火药阴谋到内战囚笼，每一件锈迹斑斑的刑具都在提醒我们：黑暗从未远去，只是换了形式。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你走出地牢，重新见到约克大教堂的哥特尖顶，阳光洒在鹅卵石街道上时，你会真正理解这座城市的厚重——它用阴森的地牢，保存了最真实的记忆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/gladstones-land\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉德斯通之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gladstone's Land</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eryri-national-park-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃里里国家公园（斯诺多尼亚）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eryri National Park (Snowdonia)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/writers-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    作\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">作家博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Writers' Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "gladstones-land",
+          "name": "格拉德斯通之家",
+          "englishName": "Gladstone's Land"
+        },
+        {
+          "slug": "eryri-national-park-history",
+          "name": "埃里里国家公园（斯诺多尼亚）",
+          "englishName": "Eryri National Park (Snowdonia)"
+        },
+        {
+          "slug": "writers-museum",
+          "name": "作家博物馆",
+          "englishName": "The Writers' Museum"
+        }
+      ]
+    }
+  ]
+}

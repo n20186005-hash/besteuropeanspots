@@ -1,0 +1,85 @@
+{
+  "slug": "museu-de-la-ciencia-i-de-la-tecnica-de-catalunya-history",
+  "template": "history",
+  "metadata": {
+    "title": "加泰罗尼亚科学技术博物馆历史｜工业遗产的前世今生与科学传奇",
+    "description": "走进特拉萨的工业遗产，探寻这座由纺织厂蜕变的科技博物馆。蒸汽机、现代主义建筑、加泰罗尼亚发明家——尘封的工业革命故事等你来听。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "特拉萨（Terrassa）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "加泰罗尼亚科学技术博物馆",
+      "href": "/attractions/museu-de-la-ciencia-i-de-la-tecnica-de-catalunya-history"
+    }
+  ],
+  "hero": {
+    "title": "加泰罗尼亚科学技术博物馆・Museu de la Ciència i de la Tècnica de Catalunya・西班牙・特拉萨（Terrassa）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在巴塞罗那郊外的织造之都特拉萨，一座红砖锯齿屋顶的建筑沉默矗立。这里曾是加泰罗尼亚工业革命的心脏——<strong>Vapor Aymerich</strong> 纺织厂。如今，它化身加泰罗尼亚科学技术博物馆，收藏着蒸汽机的轰鸣与科学的理性之光。抛开游玩攻略，走进这座工业圣殿的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">加泰罗尼亚科学技术博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Museu de la Ciència i de la Tècnica de Catalunya</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Museu de la Ciència i de la Tècnica de Catalunya</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">特拉萨（Terrassa）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">特拉萨的历史，与羊毛和蒸汽长在一起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">早在罗马时代，这里就以陶器闻名，但真正的转折发生在 <strong>19世纪末</strong>。加泰罗尼亚成为西班牙工业革命的引擎，特拉萨凭借靠近巴塞罗那港口和纺织传统，迅速崛起为“加泰罗尼亚的曼彻斯特”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆的实体建筑，源自 <strong>1907年</strong>落成的 <strong>Vapor Aymerich, Amat i Jover</strong> 纺织厂。“Vapor”在加泰罗尼亚语中意为“蒸汽”——这个单词直接揭示了城市的灵魂：那些驱动纺织机的蒸汽锅炉，正是工业时代的图腾。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建筑师 <strong>Lluís Muncunill</strong> 为工厂设计了标志性的锯齿形屋顶，以便自然采光，同时用铸铁柱和钢桁架迎合现代生产。这座建筑本身就是一部浓缩的工业史：<strong>红砖外墙上还残留着烟囱的斑驳</strong>，仿佛时间从未离去。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“museu de la ciència i de la tècnica”这个加泰罗尼亚语名称，直译便是“科学与技术博物馆”——它刻意避开了“工业”二字，而将目光聚焦于更广阔的人类智慧。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">机器是时代的刻痕。 <strong>Vapor Aymerich</strong> 在 <strong>1907年至1970年代</strong> 间持续运转，生产羊毛纺织品，供养着特拉萨数千名工人。这座工厂见证了 <strong>加泰罗尼亚工业的黄金时代</strong>：纺锤日夜不休，蒸汽喷吐，铁路列车满载布料驶向巴塞罗那港。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，随着1970年代全球纺织业结构调整，工厂关闭，机器停转。厂房废弃，成为流浪猫和拾荒者的领地。直到 <strong>1980年代</strong>，加泰罗尼亚政府意识到这座现代主义工业建筑的文化价值，决定将其改造为科技博物馆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1985年</strong>，博物馆正式向公众开放。它并未推倒重来，而是保留了几乎所有的原始结构——<strong>蒸汽锅炉、纺织机、水塔</strong>，甚至地面的铸铁排水盖。在这里，你可以触摸到 <strong>工业革命在伊比利亚半岛的体温</strong>。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“当蒸汽机重新转动，整座建筑仿佛活了过来——那是九十年后，机器第一次吐出白雾。”——博物馆修复师回忆录</blockquote>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 建筑师：Lluís Muncunill（1868-1931）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Muncunill 是加泰罗尼亚现代主义建筑运动的代表人物，但他的名字常被高迪的阴影遮蔽。他一生设计过四十多座工业建筑，其中最骄傲的作品正是这座纺织厂。他巧妙融合了 <strong>英国工业建筑的理性</strong> 与 <strong>加泰罗尼亚新艺术风格的装饰性</strong>：锯齿屋顶采用铁木混合结构，而主入口的锻铁花窗却是手工艺时代的余晖。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>轶事一则</strong>：据传，Muncunill在建造蒸汽机房时，亲自监督工人从英国进口的锅炉安装。工程延误了三个月，只因他要确保锅炉的每一颗铆钉都与建筑轴线垂直。这种近乎偏执的精确，使厂房在百年后仍能完好承载巨型蒸汽机。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 发明家：Narcís Monturiol（1819-1885）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然Monturiol出生于菲格拉斯，但他的灵魂从未离开加泰罗尼亚的科技冒险。博物馆的永久展厅里陈列着他的 <strong>Ictíneo I 潜艇模型</strong>——这艘木质潜水器是人类历史上第一艘依靠人工动力和无氧化学反应的潜艇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Monturiol 是理想主义者、共和主义者，也是科学家。他醉心于探索海洋，却在一次次试验中耗尽家产。他不计成本地追求完美：为了制造潜艇的铜制压载舱，他甚至变卖了妻子的珠宝。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我宁愿死在海底，也不愿让我的构想沉入遗忘。” —— Narcís Monturiol 日记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆为他的潜艇模型设置互动展项：参观者可以操作手柄模拟下潜，体会那种 <strong>十九世纪工程师独自对抗海洋的孤独与勇敢</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">特拉萨的老工人之间流传着一个故事：工厂蒸汽机房里的那台 <strong>200马力的考克瑞尔发动机</strong> 藏着一个“铁精灵”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在1915年一个寒冷的冬夜，值夜班的工人 <strong>Pau</strong> 听到锅炉房传来说话声。他悄悄探头，看见一个由蒸汽凝聚成的人影正抚摸着机器外壳，嘴里哼着古老的纺织歌谣。Pau吓得跌坐在地，此后每次夜班都会在机器旁放一小杯葡萄酒作为供奉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">神奇的巧合是：自从有了这个“酒供奉”，那台昂贵的考克瑞尔发动机三十年从未出过一次重大故障。1948年工厂扩建时，工人们仍坚持在发动机底座下埋入一枚 <strong>5 pesetas硬币</strong>，据说可以保佑机器平安。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今博物馆的导览员有时会指着那台静默的发动机，低声告诉孩子们：“看，铁精灵还在那里。只是它现在更喜欢阳光。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">加泰罗尼亚科学技术博物馆是 <strong>欧洲最迷人的工业遗产转化案例之一</strong>。它的价值不在于展品的稀世程度，而在于 <strong>整座建筑本身就是一件展品</strong>——齿轮与砖石同在，蒸汽管道穿梭于展厅，工业考古与科学实验比邻而居。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">对于闯入这座博物馆的旅行者而言，它是一本翻开的 <strong>加泰罗尼亚工业编年史</strong>。那些被油污浸透的木地板、被工人摸得光滑的铁制手柄、以及依然干净的蒸汽机黄铜铭牌，都在提醒我们：科技史不仅是天才的赞歌，更是无数无名者劳作与梦想的集合。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">每一次走进这里，你都会听见两种声音：一是机器启动时的轰鸣，二是人心叩问未来的回响。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/orenes-gran-casino-murcia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥雷内斯格兰赌场穆尔西亚</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Orenes Gran Casino Murcia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/comb-of-the-wind-san-sebastian\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    风\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">风之梳（爱德华多·奇利达，1976年）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Comb of the Wind (Eduardo Chillida, 1976)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/allariz-travel-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿利亚里斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Allariz</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "orenes-gran-casino-murcia",
+          "name": "奥雷内斯格兰赌场穆尔西亚",
+          "englishName": "Orenes Gran Casino Murcia"
+        },
+        {
+          "slug": "comb-of-the-wind-san-sebastian",
+          "name": "风之梳（爱德华多·奇利达，1976年）",
+          "englishName": "Comb of the Wind (Eduardo Chillida, 1976)"
+        },
+        {
+          "slug": "allariz-travel-guide",
+          "name": "阿利亚里斯",
+          "englishName": "Allariz"
+        }
+      ]
+    }
+  ]
+}

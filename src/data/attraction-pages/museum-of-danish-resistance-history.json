@@ -1,0 +1,85 @@
+{
+  "slug": "museum-of-danish-resistance-history",
+  "template": "history",
+  "metadata": {
+    "title": "哥本哈根丹麦抵抗博物馆历史｜二战地下抵抗运动的前世今生与名人传奇",
+    "description": "走进哥本哈根丹麦抵抗博物馆，揭开二战期间地下抵抗运动的神秘面纱。从暗杀计划到犹太人大逃亡，这里有最真实的勇气与牺牲故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "丹麦",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "哥本哈根",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "丹麦抵抗博物馆",
+      "href": "/attractions/museum-of-danish-resistance-history"
+    }
+  ],
+  "hero": {
+    "title": "丹麦抵抗博物馆・Museum of Danish Resistance・丹麦・哥本哈根",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在哥本哈根海港边的丘吉尔公园，一座低调的混凝土建筑里，藏着丹麦人最不愿遗忘的黑色记忆与白色希望。这里不是英雄博物馆，而是普通人如何在高压下选择成为英雄的见证。抛开游玩攻略，走进丹麦抵抗博物馆的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">丹麦抵抗博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Museum of Danish Resistance</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Museum of Danish Resistance</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">丹麦</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">哥本哈根</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">哥本哈根最初是维京时代的一个小渔村，名叫“Havn”（意为港口）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1167年</strong>，主教阿布萨隆在海岸边筑起一座城堡，抵御海盗侵袭。这座城堡后来成为哥本哈根的摇篮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市名字源于丹麦语“København”——<strong>商人之港</strong>，可见其从诞生起就与贸易和海港绑定。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了15世纪，埃里克七世将首都从罗斯基勒迁至哥本哈根，这座城才真正走上历史舞台。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但让全世界记住哥本哈根的，是它在中世纪后的北欧霸权，以及<strong>1940年4月9日</strong>清晨那场不流血的投降——那天德国坦克驶入街头，丹麦国王下令抵抗六小时后即停火，却开启了长达五年的地下战争。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1943年10月：拯救丹麦犹太人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是抵抗运动最壮丽的一页。当纳粹计划逮捕所有丹麦犹太人时，地下组织发动了<strong>72小时紧急疏散</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">渔民们冒着北海的巨浪，用渔船将<strong>7,000多名犹太人</strong>运往瑞典。博物馆的一角陈列着当时的渔船模型和伪装用的渔网。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“那天晚上，整个哥本哈根的海岸线都成了无声的船队。没有人说话，只有发动机的低吼和孩子的哭声。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——摘自《丹麦抵抗者回忆录》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1944年：自由委员会与暗杀行动</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">丹麦抵抗运动在1943年夏天成立“自由委员会”，协调全国抵抗力量。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最著名的暗杀行动是针对<strong>盖世太保线人</strong>的清除。博物馆里保存着一支被改装过的<strong>消音手枪</strong>，以及一份手写的暗杀目标名单。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有一次，抵抗战士伪装成邮差，在光天化日之下射杀了一名叛徒，然后骑着自行车消失在街角。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1945年：“自由热线”的地下报纸</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">丹麦人创办了超过<strong>300种</strong>地下报纸，传播真实战况。其中《自由热线》发行量一度达到12万份。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆里展出用油印机印刷的报纸残页，油墨味道仿佛还在。这些报纸的编辑绝大多数被盖世太保抓获并处决。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>莫妮卡·维希菲尔德（Monica Wichfeld）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她是丹麦最著名的女抵抗战士。<strong>莫妮卡</strong>生于爱尔兰贵族家庭，后嫁给丹麦男爵。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战爆发后，她在自己位于洛兰岛的庄园里建立了<strong>抵抗组织据点</strong>。她以女爵身份作掩护，参与护送英国特工、接收空投武器。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1944年，她因叛徒出卖被捕。在审讯室里，盖世太保问她为什么要背叛德国，她回答：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我没有背叛德国，我背叛的是邪恶。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她被判处死刑，后减为终身监禁，1945年死于德国集中营。她的遗物——一条沾满泥土的珍珠项链，就陈列在博物馆的玻璃柜里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>弗莱明·容克（Flemming Juncker）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是丹麦抵抗组织的情报天才。<strong>弗莱明</strong>职业是工程师，却凭一己之力在哥本哈根建立了一套秘密通讯网络。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他利用<strong>电话交换机的漏洞</strong>，将抵抗组织的地下电台与丹麦电话局线路并联，盖世太保每次监听时只会听到忙音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有一次，他伪装成电话维修工，进入盖世太保总部大楼，偷走了即将实施的围捕计划文档。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后，他拒绝任何勋章，回归普通工程师生活。直到1970年代，这段故事才被解密。博物馆复原了他那间堆满无线电零件的秘密工作室。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“国王的字母”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1940年丹麦投降后，国王克里斯蒂安十世每天骑马穿过哥本哈根街头，以此表达不屈。民间传说称，国王在马鞍上缝了一颗<strong>黄色的六角星</strong>，象征与犹太人站在一起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">事实上国王并未戴过星，但这个传说迅速传遍全丹麦。<strong>抵抗运动成员在袖口缝上黄色布条</strong>，成为无声的抵抗符号。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆的展板上复制了一封匿名信，上面写着：“我们不知道谁是犹太人，但我们都知道丹麦人是什么样的人。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“会说话的邮票”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">丹麦抵抗组织曾利用邮票传递情报。他们将极微小的文字用特制墨水写在邮票背面，只有用紫外线灯才能看到。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">邮差们心照不宣地传递这些“会说话的邮票”，即使被盖世太保截获，也会假装没看见。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说有一张邮票上写着一行字：“今晚八点，码头仓库，带红帽子的男人。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">丹麦抵抗博物馆不是一座冰冷的建筑，它是<strong>勇气与良知</strong>的活档案。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这里，你能看到普通人如何在黑暗中举起火把——渔夫、教师、电话接线员、工程师……他们并肩作战，不计代价。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座博物馆让人相信：即使在最极端的压迫下，人性的选择依然可以照亮历史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走过这些展柜，你带回的不仅是一段历史，更是一种对“自由”最具体的理解。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/tivoli-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒂\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒂沃利花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tivoli Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bakken\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴肯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bakken</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/den-gamle-by\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    老\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">老城博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Old Town</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "tivoli-gardens",
+          "name": "蒂沃利花园",
+          "englishName": "Tivoli Gardens"
+        },
+        {
+          "slug": "bakken",
+          "name": "巴肯",
+          "englishName": "Bakken"
+        },
+        {
+          "slug": "den-gamle-by",
+          "name": "老城博物馆",
+          "englishName": "The Old Town"
+        }
+      ]
+    }
+  ]
+}

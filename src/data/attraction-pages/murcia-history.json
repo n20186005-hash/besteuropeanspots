@@ -1,0 +1,85 @@
+{
+  "slug": "murcia-history",
+  "template": "history",
+  "metadata": {
+    "title": "穆尔西亚历史溯源｜西班牙东南秘境的前世今生与宗教雕塑大师萨尔斯洛传奇",
+    "description": "逃离海滩，走进穆尔西亚的千年故事。从摩尔人的灌溉智慧到萨尔斯洛的巴洛克圣像，这座西班牙阳光之城藏着怎样的历史密码？点击揭秘。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "穆尔西亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "穆尔西亚",
+      "href": "/attractions/murcia-history"
+    }
+  ],
+  "hero": {
+    "title": "穆尔西亚・Murcia・西班牙・穆尔西亚",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>穆尔西亚</strong>，一座被遗忘在西班牙东南部的历史重镇。当游客涌向海岸线时，它那由摩尔人设计的灌溉系统、文艺复兴式的圣玛丽亚大教堂、以及孕育了西班牙巴洛克雕塑巅峰的城市肌理，依然在阳光下静静呼吸。抛开游玩攻略，走进穆尔西亚的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">穆尔西亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Murcia</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Murcia</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">穆尔西亚</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">穆尔西亚的历史始于<strong>罗马帝国</strong>时期，当时这里只是塔拉科西班牙行省边陲的一个农业定居点，名为“Mvrca”。但它的真正诞生要归功于<strong>摩尔人</strong>。公元<strong>825年</strong>，科尔多瓦的埃米尔<strong>阿卜杜勒-拉赫曼二世</strong>下令在塞古拉河畔修建一座新城，作为控制周边农业带的军事与行政中心。他将其命名为“Madinat Mursiya”——阿拉伯语中“桃金娘之城”，因为河边遍生这种芬芳的灌木。另一种说法认为名称源于拉丁语“Murta”（桃金娘），但摩尔人赋予了它新的生命。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座城市的布局严格遵循伊斯兰城市规划：一座建有堡垒的城堡（Alcázar Mayor）、一座大清真寺（今大教堂所在）、以及纵横交错的河渠网络。<strong>塞古拉河</strong>被改造成<strong>七条灌溉渠</strong>，将荒原变为果园与菜圃——这些水渠至今仍在部分街区流淌。穆尔西亚因此成为摩尔人“水之文明”的杰作，也被后世称为“欧洲的果园”。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>13世纪基督教收复与三王并立</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1243年，卡斯蒂利亚国王<strong>费尔南多三世</strong>通过《阿尔卡拉斯条约》将穆尔西亚并入基督教王国，但保留了穆斯林社区的自洽。真正的巨变发生在<strong>1266年</strong>：国王<strong>智者阿方索十世</strong>平定当地穆斯林起义后，将大清真寺改建为圣玛丽亚大教堂，并引入来自加泰罗尼亚与法国南部的移民。他亲自掌管城市重建，赋予穆尔西亚<strong>《市政法》</strong>，确立了此后数个世纪的行政框架。这段“三王并立”的时期——基督教居民、穆德哈尔穆斯林与犹太人共居——留下了<strong>圣尼古拉斯教堂</strong>、<strong>圣希尔德教堂</strong>等融合穆德哈尔风格（红砖与几何装饰）的珍贵建筑，至今在老城转角可见其痕迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>18世纪洪水与巴洛克的复兴</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1653年与1700年的两次特大洪水几乎摧毁了穆尔西亚。城市选择在原址重建，却意外催生了西班牙最壮观的<strong>巴洛克建筑群</strong>。市政厅、主教宫、修道院纷纷以华丽的曲面立面回应灾难。最著名的是<strong>大教堂正立面</strong>（1749年完工），由设计师<strong>何塞·洛佩斯</strong>与雕塑家<strong>弗朗西斯科·萨尔斯洛</strong>合作打造。萨尔斯洛为这座被洪水重创的城市雕刻了<strong>六组圣像</strong>，它们至今伫立于大教堂门廊，成为穆尔西亚的精神图腾。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>18世纪纺织业与城市富裕</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一个鲜为人知的事实：18世纪的穆尔西亚是欧洲<strong>丝绸贸易中心</strong>之一。摩尔人留下的桑树种植技术与犹太商人的商业网络结合，使这座城市生产出闻名西欧的丝绸缎带。<strong>丝绸交易所（Lonja del Seda）</strong>的遗迹——一座带柱廊的庭院——至今隐藏在老城某条巷子里，静默诉说着那段“丝绸黄金年代”。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>弗朗西斯科·萨尔斯洛：巴洛克圣像的“人间雕刻师”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果要为穆尔西亚选一位灵魂人物，那必然是<strong>弗朗西斯科·萨尔斯洛</strong>（Francisco Salzillo，1707-1783）。他出生在这座城市，也终老于此，一生从未离开穆尔西亚五十公里之外。他的父亲<strong>尼古拉斯·萨尔斯洛</strong>是来自那不勒斯的雕塑家，弗朗西斯科从小在父亲的作坊里学习木雕与彩绘。父亲早逝后，20岁的他接管了家族作坊，并很快展现出惊人的才华。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">萨尔斯洛的作品几乎全部服务于穆尔西亚的宗教需求。他擅长用<strong>彩色木材</strong>制作真人大小、可穿着真实服装的<strong>圣周游行圣像</strong>。这些圣像并非冰冷的神祇——它们有微张的嘴唇、含着泪水的玻璃眼珠、甚至真人的头发与眉毛。最著名的是<strong>“耶稣被捕”（El Prendimiento）</strong>群雕，其中出卖耶稣的犹大被雕刻成<strong>金钱袋与山羊胡</strong>的贪婪形象，据说当时当地的贵族愤然指责萨尔斯洛影射他们。但艺术史家认为，他真正想表达的是人性在神性面前的挣扎。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">萨尔斯洛曾在日记中写道：“我雕的不是圣徒，是穆尔西亚的邻居。他们脸上的皱纹、弯曲的脊背、颤抖的双手，就是这座城市教给我的神。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">萨尔斯洛一生创作了<strong>超过500件雕塑</strong>，大部分藏在穆尔西亚的教堂与博物馆里。<strong>萨尔西略博物馆</strong>（Museo Salzillo）位于老城一栋18世纪宅邸中，收藏了他的<strong>80件代表作</strong>，包括他最著名的“祈祷基督”（Cristo de la Obra）——一个全身布满鞭痕、被钉在十字架上的男人，肋骨突出，嘴唇干裂，每个细节都令人战栗。每年圣周期间，这些雕塑被抬上街道游行，使得穆尔西亚的圣周被列为<strong>西班牙国际旅游节庆</strong>。萨尔斯洛本人的墓就在大教堂内，守望着他雕刻的每一尊圣像。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安东尼奥·德·拉·托雷：被遗忘的丝路商人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相比萨尔斯洛的盛名，另一位穆尔西亚出生的<strong>安东尼奥·德·拉·托雷</strong>（Antonio de la Torre，约1580-1640）几乎被历史湮没。他原是一名丝绸商人，但在一场生意失败后，机缘巧合加入了<strong>西班牙东部的传教团</strong>，前往菲律宾与明朝。他在马尼拉生活了二十年，学会了福建话和官话，甚至写下了<strong>《中华帝国风土记》</strong>手稿，详细记录了明末的市集、戏曲与刑律。这份手稿现藏于穆尔西亚大学图书馆，因其“充满了商人的世俗眼光”而成为研究晚明社会的重要史料。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有趣的是，德·拉·托雷在最后一章写道：“穆尔西亚的桑树和中国的丝绸本是一对情人。”他试图将中国的蚕种偷偷带回欧洲，但海上航行中蚕种全部死亡，这个梦想最终葬身在太平洋。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>大教堂的“会说话的钟”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">穆尔西亚大教堂的钟楼高<strong>93米</strong>，是西班牙第二高的主教座堂钟楼（仅次于塞维利亚大教堂）。民间流传着一个关于<strong>“会说话的钟”</strong>的故事。相传在<strong>15世纪晚期</strong>，大教堂的钟匠是一个聋哑人，名叫<strong>佩德罗·穆德</strong>。他花费十年时间铸造了一口大钟，并刻上了一句拉丁文：“Vox Domini super aquas multas”（主的声音响彻众水之上）。但钟铸成后，无论怎么敲打，它都发不出任何声音。人们惊恐地认为这是不祥之兆，甚至要处死佩德罗。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">佩德罗在审判前用手语比划：“要听到这口钟的声音，必须在日出前将一桶塞古拉河水洒在钟身上，然后让九只白鸽绕着钟楼飞三圈。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">法官半信半疑地照做了。果然，当第九只白鸽飞过钟顶时，那口钟发出了一阵低沉悠长的轰鸣，声音大得连三十英里外的海岸都能听见。从此，这口钟被命名为<strong>“白鸽钟”</strong>，据说每次敲响前都会有三声低语般的“鸽子叫”。直到今天，大教堂司钟员依然会在重大节日时模仿鸽鸣，作为不成的规矩。慕名而来的旅行者常常会问：“为什么钟声里似乎藏着鸽子的翅膀？”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>塞古拉河的“淘金者”传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个流传更广的传说是关于塞古拉河。穆尔西亚的摩尔人统治者曾将大量黄金藏在河底的泥沙中，并用一道符咒守护。<strong>16世纪</strong>起，常有穷人在河滩淘金，但从未有人找到过真正的宝藏。当地老人说，只有<strong>在月圆之夜、赤脚站在河水里背诵阿拉伯祷词的人</strong>，才能看见河床下那层闪闪发光的金色沙砾。但据说那位背诵祷词的人会立刻被符咒变成一只夜莺，永远在河岸的橄榄树林里歌唱——因为夜莺的歌声与祷词的旋律一样动人。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">穆尔西亚是一部未被翻阅的史册。摩尔人的水渠、萨尔斯洛的圣像、丝绸商人的冒险、大钟的鸽鸣，共同拼出了这座城市的灵魂——它不是海滩边廉价的日落，而是文明碰撞中沉淀的坚韧与美丽。读懂穆尔西亚，就等于读懂西班牙的另一种真实：既不过分喧闹，也不刻意沉默。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/begur-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝古尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Begur</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/teatro-circo-murcia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    穆\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">穆尔西亚马戏剧院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Teatro Circo Murcia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/caminito-del-rey-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    国\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">国王步道</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Caminito del Rey</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "begur-history",
+          "name": "贝古尔",
+          "englishName": "Begur"
+        },
+        {
+          "slug": "teatro-circo-murcia",
+          "name": "穆尔西亚马戏剧院",
+          "englishName": "Teatro Circo Murcia"
+        },
+        {
+          "slug": "caminito-del-rey-history",
+          "name": "国王步道",
+          "englishName": "Caminito del Rey"
+        }
+      ]
+    }
+  ]
+}

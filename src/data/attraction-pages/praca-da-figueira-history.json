@@ -1,0 +1,85 @@
+{
+  "slug": "praca-da-figueira-history",
+  "template": "history",
+  "metadata": {
+    "title": "里斯本菲盖拉广场历史溯源｜无花果树广场的前世今生与英雄传说",
+    "description": "从皇家医院到喧闹市场，再到今日交通枢纽，菲盖拉广场承载着里斯本五百年的沧桑。走进广场的故事，遇见一位被遗忘的作曲家和起义者的血泪。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "葡萄牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "里斯本",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "菲盖拉广场",
+      "href": "/attractions/praca-da-figueira-history"
+    }
+  ],
+  "hero": {
+    "title": "菲盖拉广场・Praça da Figueira・葡萄牙・里斯本",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">这里是里斯本最古老的广场之一，名字却来自一棵无花果树。它曾是城市的医疗中心，也曾是商贩吆喝的市场，更见证过一场民族觉醒的怒吼。抛开游玩攻略，走进菲盖拉广场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">菲盖拉广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Praça da Figueira</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Praça da Figueira</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">葡萄牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">里斯本</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>菲盖拉广场</strong> 的葡萄牙语 “Figueira” 意为“无花果树”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说中世纪时，广场所在区域曾有一棵巨大的无花果树，枝繁叶茂，成为当地人聚集的自然地标。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正的城市起源要从 <strong>16世纪初</strong> 说起。当时，葡萄牙国王曼努埃尔一世下令在里斯本修建一座宏伟的 <strong>皇家万圣医院</strong>（Hospital Real de Todos-os-Santos）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">医院选址在如今的广场位置，于1502年动工，占地广阔，设有病房、教堂和药房，是当时欧洲最大的医院之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，<strong>1755年11月1日</strong> 的里斯本大地震将医院彻底摧毁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地震后，废墟被清理，留下一片开阔地。由于靠近旧时的无花果树遗址，人们开始称这里为 “Praça da Figueira”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪初，这里逐渐演变为一个露天市场，贩卖蔬果、鱼类和家禽。直到 <strong>1850年代</strong>，市政正式将市场标准化，建起金属结构的棚架。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">市场于1885年迁至他处后，广场在20世纪中期被重新设计为交通枢纽和公共广场。名字始终保留着——那棵消失的无花果树，成了永恒的地名。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场的表面平静，地下却埋着两段震撼欧洲的历史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一段：皇家医院的废墟与重生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1755年地震后，医院废墟中发现了大量尸骨。重建时，葡萄牙首相蓬巴尔侯爵下令将废墟填平，作为市场用地。这一决策不仅快速恢复了城市功能，更让广场成为里斯本重建的象征。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当时一位法国旅行者写道：“废墟上筑起木棚，鱼贩的歌声比教堂的钟声更有活力。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二段：1890年的民族怒吼</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1890年1月11日，英国向葡萄牙发出最后通牒，要求其放弃非洲殖民地（即“粉色地图”争端）。消息传到里斯本，民众聚集在菲盖拉广场，群情激愤。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场上爆发了 <strong>葡萄牙历史上最大的反英游行</strong>。人们高喊“反对英国！”，焚烧英国国旗。这次运动直接催生了葡萄牙共和主义浪潮及新的国歌《葡萄牙人》（A Portuguesa）。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当年报纸描述：“无花果树广场变成了愤怒的海洋，每一块石头都在颤抖。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三段：雕像的流转与记忆</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场中心现在矗立着 <strong>国王若昂一世</strong> 的骑马雕像。但很少有人知道，这里最初曾计划放置一位共和英雄的塑像。1971年，萨拉查政权为纪念民族认同，把这座表现中世纪王权的雕像放在这里，试图压制广场的共和国记忆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，雕像的阴影下，每天有数千人匆匆而过，却不知脚下的每一寸土地都承载着革命与重建的双重烙印。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿尔弗雷多·凯尔（Alfredo Keil，1850-1907）</strong> —— 广场上诞生的国歌之父</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿尔弗雷多·凯尔并非职业政治人物，而是一位葡萄牙作曲家和画家。他出生在里斯本一个瑞士裔家庭，从小在音乐和绘画中度日。但真正让他青史留名的，是一首诞生于菲盖拉广场愤怒中的歌曲。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1890年冬天</strong>，凯尔亲眼目睹了广场上的民众抗议。他看到人群挥舞拳头，听到绝望的呐喊。当晚，他回到家，满脑子都是广场上的节奏。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他立即找到诗人 <strong>恩里克·洛佩斯·德·门东萨</strong>，二人合作完成了 <strong>《葡萄牙人》</strong>（A Portuguesa）的第一版。歌词充满战斗号召：“祖国，祖国，拯救祖国！反对英国人的炮弹！”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这首歌立刻在街头传唱。1891年1月，波尔图起义的共和军高唱着它冲向市政厅。1910年共和国成立后，被正式定为国歌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一个鲜为人知的插曲</strong>：凯尔本人其实是一位温和的君主主义者，但他写下的旋律却成了共和国的象征。他晚年常坐在广场边的咖啡馆里，听着自己的作品从街头艺人手中飘出，沉默不语。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">凯尔在日记中写道：“那天广场上空的云很低，我只想让人们不再沉默。音乐比子弹更有力量，但它流过的血同样真实。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二位传奇人物：玛丽亚·达斯·多雷斯（Maria das Dores，1867-1952）</strong> —— 市场的最后一位女摊主</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽亚是广场市场的传奇人物。她从小帮父母卖鱼，17岁开始独自经营摊位。她以嗓音洪亮、性格刚烈闻名，人称“菲盖拉广场的母狮”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1910年共和国宣告成立那一天</strong>，共和派军队经过广场，玛丽亚用她的鱼筐挡住军车，坚持要士兵付清欠她已故丈夫的鱼钱。士兵们哭笑不得，只好凑钱给她。这件事被当作“平民的胜利”写进了地方新闻。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽亚晚年见证了市场在1940年代被拆除。她成为最后一位离开的摊主。据说她走的那天，广场上所有的流浪猫都跟着她，一直走到阿尔法玛区。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">玛丽亚的孙女回忆：“奶奶常说，广场不是石头和路牌，是人和鱼、叫喊和眼泪。如今这些都没了，但无花果树还在——不是树，是名字。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>无花果树的眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在1755年大地震前夜，一名守夜人看见广场那棵百年无花果树突然滴下乳白的汁液，如同哭泣。他跑去报告主教，但无人相信。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二天，灾难降临。医院倒塌，无数的病人在惨叫声中死去。可那棵无花果树竟然奇迹般毫发无损，矗立在瓦砾中。人们认为它预见了灾难，用哭泣警告世人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">后来，市场建起时，那棵树就在市场中心。每到地震纪念日，树皮就会慢慢渗出水珠。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1885年</strong>，市场迁走，树也被砍伐。但奇怪的是，树桩在原地长了三年嫩芽才死去。传说最后一批嫩芽被一位意大利花匠带回罗马，种在梵蒂冈的某处花园里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今，里斯本老人仍告诫孩子：如果在菲盖拉广场的某个角落看见树叶落地时打旋，那就是无花果树在提醒——历史不会忘，灾难总会来。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">菲盖拉广场不是一座雄伟的纪念碑，而是一面镜子。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它映照出里斯本从帝国辉煌到地震重生、从殖民地屈辱到民族觉醒的过程。那些鱼贩的吆喝、抗议者的吼声、凯尔的音符、玛丽亚的泼辣——它们都没有被刻在石头上，却渗入了广场每一道缝隙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂菲盖拉广场，就是读懂葡萄牙平民的历史：没有王冠，只有生活；没有征服，只有坚持。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">下次你站在若昂一世雕像下，请别忘了低头看看脚下的方格地砖。每块砖都听过千种语言，每粒沙都记着一段往事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/almourol-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔莫罗城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Almourol Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bom-jesus-staircases\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    山\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">山上仁慈耶稣朝圣所台阶</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bom Jesus do Monte</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sines-castle-birthplace-of-vasco-da-gama\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    锡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">锡内什</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sines</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "almourol-castle",
+          "name": "阿尔莫罗城堡",
+          "englishName": "Almourol Castle"
+        },
+        {
+          "slug": "bom-jesus-staircases",
+          "name": "山上仁慈耶稣朝圣所台阶",
+          "englishName": "Bom Jesus do Monte"
+        },
+        {
+          "slug": "sines-castle-birthplace-of-vasco-da-gama",
+          "name": "锡内什",
+          "englishName": "Sines"
+        }
+      ]
+    }
+  ]
+}

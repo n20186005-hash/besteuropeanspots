@@ -1,0 +1,85 @@
+{
+  "slug": "wales-history",
+  "template": "history",
+  "metadata": {
+    "title": "威尔士历史溯源｜凯尔特王国的城堡传奇与亚瑟王神话的诞生地",
+    "description": "走进红龙旗帜飘扬的威尔士，揭开凯尔特人最后的堡垒。从康威城堡的工匠低语到亚瑟王剑冢的迷雾，听一位博学的历史向导讲述这片土地的前世今生。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡迪夫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "威尔士",
+      "href": "/attractions/wales-history"
+    }
+  ],
+  "hero": {
+    "title": "威尔士・Wales・英国・卡迪夫",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">威尔士，不列颠岛上最倔强的凯尔特之魂。这里没有伦敦的浮华，只有千年城堡的斑驳石墙、矿工村庄的凄楚挽歌，以及深藏在梅林与亚瑟王传说里的神秘血脉。<strong>康威城堡</strong>的号角声穿过七百年，<strong>斯诺登尼亚</strong>的群山依然守护着远古德鲁伊的祭坛。抛开游玩攻略，走进威尔士的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">威尔士</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Wales</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Wales</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卡迪夫</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">威尔士的根扎在史前迷雾中。<strong>公元前3000年</strong>，新石器时代的先民在彭布罗克郡海岸竖起巨石墓穴，那些沉默的石板至今仍在海风中低语。真正的形成期要追溯到<strong>罗马帝国统治时期</strong>（公元1-5世纪）。罗马人将不列颠岛原住民称为“布立吞人”，他们讲布里索尼语，信奉德鲁伊教。当罗马军团撤走后，西部的布立吞人在盎格鲁-撒克逊人的挤压下退入群山，逐渐形成了独立的部落联盟。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“威尔士”这个名字来自古英语“<strong>Wealas</strong>”，意为“外族人”或“奴隶”。这是撒克逊人给他们的蔑称，但威尔士人自己称自己的土地为“<strong>Cymru</strong>”，意为“同胞之地”。<strong>9世纪</strong>的《卡马森预言》最早用诗歌形式描绘了威尔士将重新统治不列颠的传说，这份自豪感深深刻入了民族基因。<strong>12世纪</strong>，诺曼人试图征服威尔士，却只留下了沿海的一串城堡。真正让威尔士从地理概念变成政治实体的，是<strong>1284年</strong>的《里兹兰法令》——英格兰国王爱德华一世用武力吞并了威尔士公国，并在北部海岸修建了康威、卡那封、博马里斯等“铁环城堡”，试图将威尔士人永远锁在铁幕之下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而征服者忽略了更重要的事：威尔士的语言和诗意从未死去。<strong>16世纪</strong>的《敬拜法案》试图禁止威尔士语，却催生了<strong>1588年</strong>首部威尔士语《圣经》——这部译作成了保存语言的诺亚方舟。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>康威城堡：工匠的叹息与国王的野心</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">站在康威城堡的塔楼上，你能看见<strong>爱德华一世</strong>的冷酷计算。这座城堡建于<strong>1283-1287年</strong>，动用了超过<strong>1500名</strong>工匠和石匠，其中许多人是被迫从英格兰各地征召的。他们被禁止使用本族语言，每天工作十小时，报酬却只有普通士兵的十分之一。传说城堡落成的那天，爱德华一世在港口的船上举行宴会，而工匠们只能眼巴巴看着海浪拍打城墙——他们中许多人因为饥饿和疲劳，再也没有回到家乡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡的设计是军事工程的杰作：八座独立的塔楼通过吊桥连接，即使敌人攻破外城墙，每座塔楼仍可独立防守。但威尔士人找到了更聪明的武器：<strong>饥荒</strong>。<strong>1294年</strong>，起义领袖马多克·阿普·卢埃林（Madog ap Llywelyn）围攻城堡长达半年，切断补给线，迫使英格兰守军吃掉了所有马匹和甚至老鼠。最终，爱德华一世不得不从爱尔兰调来舰队运粮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>格温内思王国的崩塌：最后一任威尔士王子的悲剧</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">威尔士历史的转折点是<strong>1282年</strong>。最后一任威尔士本土统治者卢埃林·阿布·格鲁菲德（Llywelyn ap Gruffudd）在伊尔凡战役中战死，他的头颅被割下，送到伦敦用柳条装饰后挂在伦敦塔上示众。更残忍的是，爱德华一世将卢埃林年幼的女儿格温莉安囚禁在铁笼里，在威斯敏斯特宫展出，以羞辱威尔士王室。这段历史被威尔士诗人达菲德·阿布·格威兰姆写进挽歌，至今仍在卡马森郡的民谣中传唱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>矿业时代的血色黎明</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说城堡是威尔士的中世纪徽章，那么<strong>煤矿和板岩矿</strong>就是它的近代烙印。<strong>18-19世纪</strong>，卡迪夫从一个小渔村变成世界最大的煤炭出口港。在朗达谷和南威尔士谷地，成千上万的矿工每天深入地下200米的矿井，每周工作六天，瓦斯爆炸和塌方是家常便饭。<strong>1913年</strong>，威尔士产煤<strong>5700万吨</strong>，但每1000名矿工中就有1.2人死于事故。矿工们唱着“<strong>Tonypandy</strong>”的民谣走上街头罢工，<strong>1910年</strong>的“汤尼潘迪暴动”中，威斯顿·丘吉尔曾调遣军队镇压，至今仍是威尔士工人阶级记忆中的伤痕。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>亚瑟·王与梅林：被威尔士群山守护的永恒传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">威尔士的每一寸土地都回荡着亚瑟王的蹄声。虽然英格拉的角斗士文学让亚瑟成为“英格兰之王”，但所有严肃的学者都承认：<strong>亚瑟是地地道道的威尔士人</strong>。最早的亚瑟传说见于<strong>9世纪</strong>的威尔士编年史《不列颠人的历史》，其中亚瑟是一位抗击撒克逊人的凯尔特将领，他曾在<strong>巴顿山战役</strong>（约公元500年）中击退盎格鲁-撒克逊人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">威尔士南部的<strong>卡马森郡</strong>坚称自己是亚瑟的故乡。在卡马森城堡遗址附近，有一棵被称为“<strong>梅林的橡树</strong>”的古老椴木，传说梅林——那位预言家、变形者——就是在这棵树下向亚瑟预言了红龙与白龙的争斗。威尔士中部的<strong>阿伯加文尼</strong>附近的<strong>亚瑟之墓</strong>是一块长仅3米的石板，当地人相信亚瑟死后被秘密葬在这里。最令人着迷的是<strong>格温内思郡</strong>的“<strong>亚瑟之桌</strong>”——一座巨大的史前石圈，每年夏至日出时，阳光会穿过石头缝隙照亮中心的祭坛石。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“亚瑟永远没有死去，他只是去了阿瓦隆。当威尔士面临最大的危险时，他将骑着白马，带着剑从湖中归来。”——威尔士民间传说《马比诺吉昂》残篇</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>狄兰·托马斯：醉酒的天使与拉恩小岛的诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果要选一位威尔士文学的灵魂人物，那一定是<strong>狄兰·托马斯</strong>（Dylan Thomas，1914-1953）。他出生的那间位于斯旺西的排屋如今变成了博物馆，但真正让他魂牵梦绕的是卡马森郡的<strong>拉恩</strong>（Laugharne）小镇。他在那里居住了最后四年，每天泡在“<strong>捕鹅者</strong>”酒吧里，喝掉威士忌后用潦草的字迹写下《牛奶树下》和《不要温和地走进那个良夜》。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拉恩的<strong>船屋</strong>是他的家——一栋被潮水声包围的白墙小屋。屋后有一张长椅，托马斯常坐在那里凝视塔菲河的泥滩，听着海鸥的叫声。<strong>1953年11月9日</strong>，他在纽约切尔西酒店连续喝了18杯威士忌后死于酒精中毒，年仅39岁。但他的遗体被运回拉恩，葬在圣马丁教堂的墓地。每年秋天，拉恩都会举行“狄兰·托马斯节”，诗人在酒吧的桌子被当地酒鬼们称为“神圣的祭坛”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">托马斯有一句名言形容威尔士：“<strong>一个充满激情与阴影的小</strong>国。”他说的“阴影”，既指矿山的黑暗，也指威尔士人性格中那种倔强的忧郁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>欧文·格林德沃：威尔士独立的最后悲歌</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说亚瑟王是神话中的英雄，那么<strong>欧文·格林德沃</strong>（Owain Glyndŵr，约1354-1416）是现实中最后的威尔士王子。他出身古老贵族，成为牛津大学的法律学生，后来又侍奉过英格兰国王。但<strong>1400年</strong>，因为与邻居乡绅的土地纠纷，他揭竿而起，在威尔士北部点燃了抗英的火焰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的崛起快得惊人：短短两年内，他控制了整个威尔士，召开了自己的议会，甚至与法国国王查理六世结盟。<strong>1404年</strong>，他在<strong>马钦莱斯</strong>的城堡里加冕为威尔士王子，制定了独立外交政策和教育计划。然而英格兰国王亨利四世集中了全部兵力反扑。<strong>1409年</strong>，欧文最后一座要塞——<strong>阿布林杜德城堡</strong>被攻破，他的妻子和两个孩子被俘。欧文本人逃入深山，像传说中的凯尔特武士一样消失在了迷雾中。再也没有人见过他，关于他的死讯有不下十种说法——有人说他饿死在树林里，有人说他伪装成修士活到了80岁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>500年后</strong>，威尔士民族主义者在卡迪夫广场为他立起雕像，他的形象出现在英国硬币上，而威尔士语学校的孩子们依然背诵着赞颂他的诗歌：“欧文·格林德沃，月亮在等待着你。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>红龙与白龙：威尔士最古老的图腾之战</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在威尔士人心目中，<strong>红龙</strong>的象征意义远大于任何旗帜。传说在不列颠岛的史前时代，国王莱恩·阿布·伊奥尔（Llyr ap Iowerth）在迪尼菲尔城堡下挖掘时，发现了一个秘密地窖。地窖里囚禁着<strong>两条巨龙</strong>——一条红龙、一条白龙。红龙代表威尔士人，白龙代表撒克逊入侵者。两条龙苏醒后立刻开始搏斗，红龙起初处于劣势，但一位智者梅林预言：当红龙最终战胜白龙时，威尔士人将重新统治整个不列颠。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个传说在<strong>1136年</strong>被蒙茅斯的杰弗里写入《不列颠诸王史》，成为亚瑟王传说的前奏。至今你仍能在卡地夫城堡的城堡大厅看到瓷砖壁画上红龙喷火的场景。威尔士人用这个传说来教育孩子：即使表面上被打败，真正的凯尔特之魂永远不死。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>盖尔人古歌：死者婚礼的荒诞习俗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在威尔士乡村，特别是彭布罗克郡的古老圣诞习俗中，有一个被称为“<strong>Y Fari Lwyd</strong>”（灰白马）的神秘仪式。村民们用马头骨和白色织物制成一匹木马，由两人扮演，在圣诞节期间挨家挨户唱歌讨要食物和酒。如果主人不开门，他们会用威尔士语上演一场即兴的对骂诗战。这其实是凯尔特人祭祀马神的异教传统残留，和死者灵魂的归途相关。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更奇特的是“<strong>棺材队</strong>”（Corpse Candle）的传说。煤矿工人相信，如果看到一团蓝色的鬼火在矿场周围飘荡，那意味着明天将有一名矿工死亡。有时候，鬼火会沿着某条山路移动，那正是几天后出殡队伍将会经过的路线。至今一些老矿工仍然会在深夜避开那些被称为“鬼火路”的山径。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">威尔士的历史不是写在羊皮卷上的——而是刻在每一块城堡石缝里，渗入每一口煤矿的烟尘中，回荡在拉恩的潮水声里。当你站在康威城堡的垛口，看着灰蒙蒙的大西洋时，你能听见爱德华一世工匠们的锤声；当你走进卡马森郡的教堂墓地，抚摸着亚瑟之墓的苔藓时，你能感受到梅林在橡树下的低语。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这片土地教会我们：<strong>被征服者的记忆永远比征服者的城堡更持久</strong>。威尔士语至今被60万人使用，红龙的旗帜从未被降下，矿工合唱团的红碗歌谣依然在酒吧里传唱。读懂威尔士，就是读懂一种<strong>倔强的温柔</strong>——用诗歌来记忆战争，用微笑来承受苦难。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/portmeirion-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波特梅里恩灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portmeirion Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/swansea-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯旺西城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Swansea Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/folly-farm-adventure-park-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    福\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">福丽农场冒险公园与动物园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Folly Farm Adventure Park and Zoo</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "portmeirion-lighthouse",
+          "name": "波特梅里恩灯塔",
+          "englishName": "Portmeirion Lighthouse"
+        },
+        {
+          "slug": "swansea-castle-history",
+          "name": "斯旺西城堡",
+          "englishName": "Swansea Castle"
+        },
+        {
+          "slug": "folly-farm-adventure-park-history",
+          "name": "福丽农场冒险公园与动物园",
+          "englishName": "Folly Farm Adventure Park and Zoo"
+        }
+      ]
+    }
+  ]
+}

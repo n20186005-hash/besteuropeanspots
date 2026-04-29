@@ -1,0 +1,85 @@
+{
+  "slug": "claerwen-dam-history",
+  "template": "history",
+  "metadata": {
+    "title": "克莱尔文水坝历史溯源｜威尔士堰塞湖的前世今生与水利工程传奇",
+    "description": "克莱尔文水坝，威尔士埃尔河谷最年轻的水利巨构。从伯明翰的供水命脉到二战劳工营地，一段关于水、权力与记忆的百年史诗。走进山谷，聆听混凝土下的故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "埃尔河谷",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "克莱尔文水坝",
+      "href": "/attractions/claerwen-dam-history"
+    }
+  ],
+  "hero": {
+    "title": "克莱尔文水坝・Claerwen Dam・英国・埃尔河谷",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在威尔士中部坎布里安山脉的荒芜腹地，<strong>克莱尔文水坝</strong>如一道灰色巨墙，沉默地锁住百万加仑的淡水。它不是古老的城堡，却承载着更现代的野心：为150公里外的伯明翰输送生命之源。这座1952年竣工的巨型拱坝，是埃尔河谷水利工程的最后乐章，也是战时劳工血汗的纪念碑。抛开游玩攻略，走进克莱尔文水坝的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">克莱尔文水坝</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Claerwen Dam</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Claerwen Dam</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">埃尔河谷</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克莱尔文水坝所在的<strong>埃尔河谷</strong>，在19世纪以前不过是威尔士最荒凉的牧羊地——石南丛生，暴雨如注，零星的农舍散落在山坡上。真正的转折来自工业革命的远水之渴。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1880年代，<strong>伯明翰</strong>这座英国工业心脏因人口暴增而陷入供水危机。当时的城市工程师<strong>詹姆斯·曼瑟格（James Mansergh）</strong>提出一个疯狂计划：在威尔士荒山修建一系列水库，通过重力输水管道跨越150公里，将雨水送入伯明翰的水龙头。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1893年，<strong>《埃尔河谷水库法案》</strong>获得通过，伯明翰公司开始征用这片河谷。到20世纪初，四座大坝拔地而起：<strong>克雷格戈赫、彭奇戈赫、加尔克诺和科恩戈赫</strong>。但曼瑟格的宏伟蓝图中还预留了第五座——克莱尔文大坝，它因二战推迟，直到1946年才动工，1952年正式蓄水。<strong>克莱尔文</strong>在威尔士语中意为“洁白之河”，源于河床上的白色砾石，如今却沉入百米深的人工湖底。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当年征购土地时，一位老牧羊人对官员说：“你们用《法案》买走了我的河流，但我将留下它的名字——克莱尔文。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 混凝土的战争遗产</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克莱尔文水坝的建设恰逢<strong>二战后的重建潮</strong>。为了节省钢材，设计师<strong>威廉·霍尔克罗夫特爵士（Sir William Halcrow）</strong>采用<strong>重力拱坝</strong>结构——依靠自身巨大的重量抵抗水压，而非依赖大量钢筋。工程动用了超过<strong>25万立方米混凝土</strong>，在1950年那个机械化程度有限的年代，几乎全靠人力浇筑。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">一位年迈的威尔士工人曾回忆：“我们像蚂蚁一样，在钢架和木模之间爬行。水泥灰钻进肺里，咳嗽声在峡谷里回荡四十年。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 战俘营与“莫尔”传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">水坝工地上曾驻扎着一个<strong>意大利战俘营</strong>。1946-1948年间，数百名被俘的意大利士兵被“派遣”到克莱尔文，参与凿石、修路等繁重劳动。他们与本地工人混住，甚至有些战俘后来留在威尔士成家。至今，当地人仍称水坝南侧一条石阶为<strong>“意大利阶梯”</strong>，据说是战俘们用碎石拼出的一行文字：“Mille grazie”——“万分感谢”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 蓄水后的生态代价</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1952年水坝关闭闸门，河水开始淹没上游的<strong>克莱尔文山谷</strong>。一座18世纪的石桥、三座农舍和一片古橡树林永远沉入水底。每年枯水期，水位下降时，这些遗迹的轮廓会如幽灵般浮现，成为当地“沉没村落”的口述史景观。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 詹姆斯·曼瑟格——远见者与独裁者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>詹姆斯·曼瑟格（James Mansergh, 1834–1905）</strong>，一位留着浓密胡须的维多利亚时代工程师，是埃尔河谷水利系统的灵魂。他早在1865年就预见到伯明翰的用水危机，并在1870年代起草了《埃尔河谷方案》。他不仅负责设计，更亲自与威尔士地主、威尔士民族主义者周旋。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">曼瑟格最著名的一则轶事：他在提案听证会上，面对质疑者漫不经心地用铅笔在地图上画了一条线——那条线后来成了<strong>克莱尔文输水隧道的实际走向</strong>。他声称：“水一定会沿着这条路径流到伯明翰，因为我是这样计算的。”这种近乎霸道的自信，也体现在他对威尔士当地习俗的无视。他曾下令拆除一座<strong>威尔语教堂墓园</strong>以铺设管道，引发了当地人的强烈抗议，最终被迫改道。曼瑟格死于1905年，没能看到克莱尔文水坝的落成，但他的铜像至今立在<strong>伯明翰水务办公室</strong>的门厅里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 威廉·霍尔克罗夫特——战后重生者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>威廉·霍尔克罗夫特爵士（Sir William Halcrow, 1883–1958）</strong>，英国著名的土木工程师，在二战期间设计了<strong>多佛尔海峡的秘密防波堤</strong>和<strong>诺曼底登陆的临时港口（桑树港）</strong>。战后，他接手了克莱尔文水坝的设计。他的创新在于<strong>将水坝的溢洪道设计成天然弯曲的滑坡</strong>，既节约成本，又减少视觉冲击。霍尔克罗夫特曾写信给妻子：“克莱尔文是威尔士脊背上的最后一颗钉子，我要让它看起来像从山体里长出来的。”实际上，水坝表面粗糙的凿石纹理正是他刻意模仿周围岩层的结果。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">传说1950年水库放水试验时，一只被冲下来的老绵羊卡在溢洪道里，导致水压不均。霍尔克罗夫特亲自用绳索下到陡壁上，用帽子把羊赶走。此事被当地报纸称为“工程师与羊的较量”。</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在埃尔河谷的牧羊人中流传着一个关于<strong>“克莱尔文女巫”</strong>的故事。据说水坝修建前，一位独居山谷的老妇人<strong>布丽吉德·摩根</strong>拒绝搬离自己的石屋。她声称自己能与河神交谈，警告建造者们“如果截断克莱尔文河，河神会将愤怒化作白雾”。工程队强行拆房时，布丽吉德消失在山林里，从此再无人见过她。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">水坝蓄水后的第一个冬季，湖区经常出现<strong>神秘的白雾</strong>——从大坝底部升腾，贴着湖面蠕动，有时甚至笼罩整座峡谷。当地人坚信这是布丽吉德的诅咒。更有甚者说，在月圆之夜，趴在坝顶的栏杆上能听见水底传来低沉的威尔士语歌声。尽管气象学家解释白雾是冷空气遭遇湖水形成的平流雾，但传说仍被一代代人口耳相传。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>人文习俗</strong>：每年八月，埃尔河谷居民会举行<strong>“白河节”</strong>，在克莱尔文湖上放逐手工编织的柳条船，船内载着一根蜡烛和一小撮泥土——象征对沉没村庄的纪念与和解。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克莱尔文水坝至今仍在运转，每天向伯明翰供应<strong>大约1.35亿升</strong>净水。但它的意义早已超越工程本身，成为威尔士与英格兰之间<strong>资源与记忆的对话</strong>。当你在坝顶俯瞰那一泓深蓝时，脚下是二战劳工的汗水、维多利亚工程师的执念、以及一个沉睡的山谷和它的白色河流。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂克莱尔文水坝，就是读懂现代文明的代价与馈赠——它用混凝土的沉默，承载了一座工业城市的呼吸，也埋葬了一段威尔士乡愁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/neist-point-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奈斯特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neist Point Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/loch-lomond\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛蒙德湖</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Lomond</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/creag-meagaidh-national-nature-reserve\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克里格梅盖迪国家自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Creag Meagaidh National Nature Reserve</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "neist-point-lighthouse",
+          "name": "奈斯特角灯塔",
+          "englishName": "Neist Point Lighthouse"
+        },
+        {
+          "slug": "loch-lomond",
+          "name": "洛蒙德湖",
+          "englishName": "Loch Lomond"
+        },
+        {
+          "slug": "creag-meagaidh-national-nature-reserve",
+          "name": "克里格梅盖迪国家自然保护区",
+          "englishName": "Creag Meagaidh National Nature Reserve"
+        }
+      ]
+    }
+  ]
+}

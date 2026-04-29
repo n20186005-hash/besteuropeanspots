@@ -1,0 +1,85 @@
+{
+  "slug": "museum-of-navarre-history",
+  "template": "history",
+  "metadata": {
+    "title": "纳瓦拉博物馆历史溯源｜西班牙潘普洛纳的时光宝盒与纳瓦拉王国传奇",
+    "description": "揭开纳瓦拉博物馆的尘封往事，从古罗马遗迹到纳瓦拉王国荣光，桑乔三世大帝与潘普洛纳主教座堂的千年对话。一段穿越西班牙北境的人文秘境之旅。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "潘普洛纳",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "纳瓦拉博物馆",
+      "href": "/attractions/museum-of-navarre-history"
+    }
+  ],
+  "hero": {
+    "title": "纳瓦拉博物馆・Museum of Navarre・西班牙・潘普洛纳",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">纳瓦拉博物馆，一座隐身于潘普洛纳老城区的时光容器，它用石墙和画框锁住了西班牙北境最复杂的身份变迁——从巴斯克部落的边界到古罗马的军事据点，从中世纪纳瓦拉王国的王冠荣耀到现代西班牙的省份。抛开游玩攻略，走进纳瓦拉博物馆的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">纳瓦拉博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Museum of Navarre</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Museum of Navarre</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">潘普洛纳</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">潘普洛纳的诞生，始于一位罗马将军的野心。<strong>公元前74年</strong>，庞培（Pompey）在阿尔加河畔扎下冬季营帐，这座被称为“庞培之城”（Pompaelo）的营地，便是潘普洛纳的雏形。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座古城从未真正远离过权力和宗教的博弈。<strong>公元6世纪</strong>，西哥特人短暂统治后，穆斯林军队在<strong>公元8世纪</strong>涌入，直到<strong>公元778年</strong>，查理曼大帝的侄子罗兰在附近的龙塞斯瓦列斯隘口遭遇伏击——史诗《罗兰之歌》让这片土地蒙上传奇色彩。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正定义潘普洛纳命运的是<strong>公元10世纪</strong>的纳瓦拉王国。潘普洛纳成为王都，与阿拉贡和卡斯蒂利亚分庭抗礼。<strong>城市名字“伊鲁尼亚”（Iruña）</strong>在巴斯克语中意为“城市”，至今本地人仍用这个古老发音称呼它。中世纪时，<strong>圣地亚哥朝圣之路</strong>横穿城区，带来了欧洲各地的商人和朝圣者，也带来了哥特式建筑与文艺复兴的种子。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">纳瓦拉博物馆本身就是一个历史叠加物。它坐落在<strong>16世纪</strong>的一座医院旧址——<strong>“慈悲圣母医院”</strong>，由查理五世下令修建，专为朝圣者与穷人提供庇护。<strong>建筑立面保留了文艺复兴的冷静线条</strong>，但内部却藏着更古老的秘密：古罗马城墙的基石、巴斯克石碑的碎片，甚至一座<strong>12世纪的穆德哈尔风格小礼拜堂</strong>，无声诉说着基督教与伊斯兰教的交汇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆的核心展品，反映了纳瓦拉王国最荣耀的岁月。<strong>一张1234年的羊皮卷</strong>上，记录着“智者”特奥巴尔多一世向潘普洛纳主教赐予的特权——这是地方自治权的雏形。<strong>13世纪的圣塞西莉亚祭坛画</strong>，将金箔和矿物颜料堆叠出哥特式的肃穆，画中天使的翅膀上还残留着火灾烟熏的痕迹——那是<strong>1590年</strong>潘普洛纳大教堂火灾的烙印。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最震撼的史诗来自<strong>1521年</strong>的潘普洛纳围城战。当法国-纳瓦拉联军攻入城内，守城的一名年轻军官——<strong>依纳爵·罗耀拉</strong>——在炮火中腿部被炸伤。这个巴斯克贵族在漫长康复中读遍了圣徒传记，最终皈依基督，创立了<strong>耶稣会</strong>。博物馆里那幅<strong>17世纪的版画</strong>，精确刻画了依纳爵受伤时的堡垒位置，成为这位圣徒人生转折的永恒见证。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 桑乔三世大帝（Sancho III the Great，约985–1035年）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是纳瓦拉王国最辉煌的君主，统治时期几乎统一了伊比利亚半岛北部的所有基督教王国。<strong>桑乔三世是潘普洛纳的奠基者</strong>——他扩建了城墙，重建了主教座堂，并在<strong>1010年</strong>设立了皇家铸币厂。博物馆中一枚<strong>银质第纳尔</strong>上，刻着他的拉丁文头衔“Sancio Rex Navarrae”。有趣的是，这枚钱币在<strong>19世纪</strong>西班牙内战期间被一名士兵从废墟中挖出，后来辗转成为博物馆镇馆之宝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 何塞·德·里贝拉（Jusepe de Ribera，1591–1652年）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位西班牙巴洛克画派的重要人物虽生于瓦伦西亚，却长期旅居那不勒斯。博物馆收藏了他的<strong>《圣巴塞罗缪殉难》</strong>（1640年），画风黑暗而充满力量，肌肉的暴烈与圣徒的平静形成反差。<strong>里贝拉笔下的人物总是带着底层劳动者的粗粝感</strong>——因为他相信，圣徒也曾是尘世的凡人。这幅画在<strong>1937年</strong>的西班牙内战中险些被炸毁，博物馆馆长冒着危险将画作藏在地下室，用石膏封住入口，直到战争结束。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 卡门·拉福雷特（Carmen Laforet，1921–2004年）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位纳瓦拉出生的作家，二十五岁时以小说《一无所有》震动西班牙文坛。<strong>她曾在博物馆所在的老城区度过童年</strong>，记忆中的石拱门与手工作坊后来成为小说中“巴塞罗那底层”的隐喻。博物馆档案室里保存着她<strong>1944年</strong>寄给出版商的亲笔信，字迹颤抖地写道：“这座城市的气味，比任何故事都更真实。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人至今爱讲一个关于“纳瓦拉博物馆的灵魂”的故事：每当圣费尔明节前夕，博物馆地下室的<strong>古罗马城墙石缝里会渗出红色的水</strong>——人们说那是公元<strong>68年</strong>被罗马军团钉死在城墙上的巴斯克部族首领的眼泪。<strong>19世纪末</strong>，一名保安曾因连续三天夜班时听见石头敲击声而辞职，后来修缮时发现墙壁中竟嵌着一具<strong>14世纪</strong>的骸骨，墓穴入口被刻意封死。民间传说他是当年修建医院的石匠，因不满克扣工钱，被活埋在墙体里——<strong>博物馆地砖下压着的，不仅是石板，还有整个纳瓦拉的记忆。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一则传说与博物馆收藏的<strong>“哭泣圣母”木雕</strong>有关。<strong>14世纪的一位寡妇</strong>连续七个夜晚梦见圣母像落泪，于是捐出全部嫁妆请人雕刻。博物馆闭馆后，据说雕像的眼睛会在月光下泛起光泽——当然，这或许是潮湿空气中菌类反射的光，但潘普洛纳人更愿意相信，那是圣母为逝去的朝圣者落下的泪。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">纳瓦拉博物馆不是一座陈列冷僻古董的仓库，而是一本用石头、画布和羊皮纸写成的“纳瓦拉简史”。从罗马军团踏过的石块，到桑乔三世君临天下的钱币，再到依纳爵·罗耀拉的血与信仰——<strong>每一件藏品都是时空的切片</strong>，拼凑出一个夹在法国、巴斯克与卡斯蒂利亚之间，始终保留桀骜野性的西班牙北境。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座博物馆，也就读懂了潘普洛纳的倔强：它既不愿被遗忘在历史褶皱里，也不屑于只用奔牛节向世界打招呼。那些沉默的展品，恰恰是它最骄傲的低语。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/flamenco-alhambra-tours\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    弗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">弗拉门戈与阿尔罕布拉宫之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Flamenco & Alhambra Tours</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cycling-tour-barcelona\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴塞罗那骑行摄影之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cycling Tour Barcelona (Bike & Photo-Shooting)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cueva-del-puerto\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波尔图洞穴</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cueva Del Puerto</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "flamenco-alhambra-tours",
+          "name": "弗拉门戈与阿尔罕布拉宫之旅",
+          "englishName": "Flamenco & Alhambra Tours"
+        },
+        {
+          "slug": "cycling-tour-barcelona",
+          "name": "巴塞罗那骑行摄影之旅",
+          "englishName": "Cycling Tour Barcelona (Bike & Photo-Shooting)"
+        },
+        {
+          "slug": "cueva-del-puerto",
+          "name": "波尔图洞穴",
+          "englishName": "Cueva Del Puerto"
+        }
+      ]
+    }
+  ]
+}

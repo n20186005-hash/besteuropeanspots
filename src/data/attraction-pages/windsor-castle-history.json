@@ -1,0 +1,85 @@
+{
+  "slug": "windsor-castle-history",
+  "template": "history",
+  "metadata": {
+    "title": "温莎城堡历史溯源｜千年王室居所的前世今生与温莎公爵的传奇爱情",
+    "description": "从诺曼征服到二战密室，温莎城堡隐藏着亨利八世的婚礼、维多利亚的哀伤与温莎公爵的惊世之恋。走进不列颠最古老王室堡垒，聆听石墙内的权力与柔情。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "温莎",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "温莎城堡",
+      "href": "/attractions/windsor-castle-history"
+    }
+  ],
+  "hero": {
+    "title": "温莎城堡・Windsor Castle・英国・温莎",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>温莎城堡</strong>，世界上最大、最古老的仍有人居住的城堡，九百年来一直是英国王室的代名词。它不仅是君主权力的象征，更是一座活着的档案室：每一块石头都见证过王朝更迭，每一扇窗都曾映出爱情与背叛的脸庞。抛开游玩攻略，走进温莎的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">温莎城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Windsor Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Windsor Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">温莎</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">温莎的历史远比城堡本身更古老。早在公元8世纪，盎格鲁-撒克逊人便在此建立定居点，“温莎”这个名字源于古英语“Windles-ore”，意为“蜿蜒河岸边的居所”——泰晤士河在此优雅转弯，形成天然屏障。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，真正改写这片土地命运的，是<strong>1070年</strong>。诺曼征服者威廉一世为了巩固对伦敦西大门的控制，下令在泰晤士河畔的高地上建造一座木制城堡。最初的温莎城堡只是军事据点，用泥土和木材垒成环形工事，控制着通往伦敦的水陆要道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“城堡建在险峻的白垩峭壁上，俯瞰着低洼的沼泽地，任何从西面来袭的敌人都会暴露在箭矢之下。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">——12世纪编年史家对威廉一世城堡的描述</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到<strong>亨利二世</strong>（1154-1189年）统治时期，木制城堡才逐渐被石材取代。他将圆形基座改为石砌塔楼，并首次修建了后来的<strong>圆塔</strong>雏形。此时的温莎不再仅仅是堡垒，开始承载王室的起居功能。而“温莎城堡”这个名字，也第一次被记录在皇室档案中。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>爱德华三世的骑士梦：嘉德勋章的诞生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1348年，一场盛大的庆典在温莎城堡举行。英王<strong>爱德华三世</strong>宣布创立<strong>嘉德勋章</strong>——英格兰最高级别的骑士勋章。传说在加莱的一次舞会上，索尔兹伯里伯爵夫人的吊袜带意外掉落，引发朝臣窃笑。国王却从容捡起，将袜带系在自己腿上，厉声道：“心存邪念者可耻！”并以此作为勋章格言。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“Honi soit qui mal y pense.”（心存邪念者，可耻！）</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——嘉德勋章格言</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">爱德华三世随即大兴土木，在城堡原址上扩建了<strong>圣乔治礼拜堂</strong>的雏形，将其打造为嘉德骑士的精神殿堂。至今，每年六月嘉德日，英国君主都会在温莎城堡主持授勋仪式，这项传统已延续近七百年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>亨利八世的爱情囚笼</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1509年登基的<strong>亨利八世</strong>，将温莎城堡彻底改造为文艺复兴式的宫廷。他扩建了<strong>国事公寓</strong>，用意大利壁画和佛兰德挂毯装点墙壁，意图与法国的枫丹白露宫匹敌。然而，城堡也见证了他最残酷的爱情游戏：<strong>安妮·博林</strong>在被处决前三天，正是在温莎城堡的<strong>斗剑塔</strong>里度过最后的囚禁时光。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“王后最后一眼望向窗外，泰晤士河仍像往日一样流淌。三天后，她的头颅将落在伦敦塔的斧下。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——历史学家艾莉森·威尔对安妮·博林的描写</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>乔治四世的东方幻梦</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪初，摄政王<strong>乔治四世</strong>（当时还是王子）彻底重塑了温莎城堡的样貌。他请来建筑师杰弗里·怀亚特维尔，以他迷恋的哥特复兴风格全面改建城堡外表，同时内部装潢却极尽<strong>东方风情</strong>：中国壁纸、印度象牙家具、日本漆器……“滑铁卢厅”里挂满了击败拿破仑的将军肖像，而隔壁的“国王寝宫”却像一座宝莱坞宫殿。这种矛盾之美，恰恰是乔治四世戏剧化人格的写照。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>维多利亚与阿尔伯特：城堡里的永恒眷侣</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1837年，18岁的<strong>维多利亚女王</strong>登上王座。她第一次见到温莎城堡时写道：“它如此巨大、阴郁，不像家，倒像一座监狱。”然而，当她在1840年与表弟<strong>阿尔伯特亲王</strong>结婚后，温莎成了他们最爱的避风港。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿尔伯特亲王亲自设计了城堡中的<strong>私人花园</strong>，并引入当时最先进的供暖系统和排水管道。他在城堡东翼建造了<strong>“蓝厅”</strong>，用于陈列他收藏的拉斐尔草稿。每逢周末，这对夫妇会带着孩子们在城堡草坪上野餐，女王弹钢琴，亲王朗诵诗作，这短暂的宁静是王室婚姻中最璀璨的时光。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但1861年12月14日，一切戛然而止。42岁的阿尔伯特因伤寒病逝于温莎城堡的<strong>“蓝厅”</strong>。女王伏在灵床前痛哭：“世界就此凋零。”此后近四十年，维多利亚几乎常年居住在温莎城堡，却再未踏入“蓝厅”一步。她称自己为“温莎的寡妇”，终日穿着黑色丧服，城堡成为她哀悼的圣殿。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“他走了，我的生命也随之死去。这里每一扇门后都有他的影子，我无法离开，也无法忘记。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——维多利亚女王在阿尔伯特去世后两周写给长子的信</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">女王的执念反而保存了城堡的原始面貌：她禁止任何改变，甚至不许更换“蓝厅”的窗帘。直到1901年女王去世，温莎城堡才逐渐从哀悼中苏醒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>爱德华八世：不爱江山爱温莎</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个改变温莎城堡命运的名人，是<strong>温莎公爵</strong>——即退位的<strong>爱德华八世</strong>。1936年，继位不足一年的爱德华八世执意迎娶两度离异的美国女子<strong>沃利斯·辛普森</strong>，引发英国政坛地震。在温莎城堡的<strong>“奥克厅”</strong>里，他最终签署了退位诏书。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我发现，没有我所爱的女人的帮助和支持，我无法承担国王的重任和履行我的职责。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——爱德华八世退位广播讲话</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">退位后，乔治六世册封他为<strong>温莎公爵</strong>。这个称号刻意保留了“温莎”二字，象征他永远是王室之子。然而，他余生再未回到温莎城堡居住——那里已属于他的弟弟和侄女。1972年，温莎公爵在巴黎去世，遗体被运回温莎安葬于<strong>圣乔治礼拜堂</strong>的皇家墓穴。讽刺的是，他生前逃避的王室责任，死后却得以回归这片土地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣乔治礼拜堂的隐藏者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最后一位值得一提的名人，是<strong>查尔斯三世</strong>。2022年伊丽莎白二世女王去世后，查尔斯在温莎城堡的<strong>圣乔治礼拜堂</strong>为母亲举行了最后一场国葬。而该礼拜堂最著名的安息者，其实是亨利八世和简·西摩——亨利八世唯一正妻的儿子、后来的爱德华六世之母。亨利八世在死前选择葬在简·西摩身边，而非他的任何一位王后，这或许是最耐人寻味的墓志铭。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>温莎城堡的幽灵漫步</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在城堡最古老的<strong>圆塔</strong>里，流传着“赫恩猎人的故事”。据说一名叫<strong>赫恩</strong>的猎场看守因失守职责被处以绞刑，死后灵魂化作幽灵在城堡的塔楼间游荡。<strong>莎士比亚</strong>在《温莎的风流娘儿们》中曾引用这个传说，描绘成一个戴着鹿角的鬼魂在黑夜里哭泣。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“赫恩，老赫恩，夜复一夜游荡在橡树下，怀里抱着死鹿，眼中流着血泪。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——《温莎的风流娘儿们》对赫恩猎人的描述</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更近代的鬼故事来自<strong>女王母后</strong>的回忆：她曾在城堡的红色会客厅听到无人弹奏的钢琴自动响起《索恩河畔的华尔兹》，后来证实那是乔治四世的偏爱曲目。城堡的警卫也多次报告在<strong>亨利八世套间</strong>看到一位身着绿色长袍的高大男子——那正是亨利八世本人，他穿着绿色猎装，腰悬匕首，在走廊里踱步。据传，每当他出现的夜晚，温莎附近的泰晤士河总会涨潮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣乔治礼拜堂的祈祷时刻</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个有趣的人文习俗是“温莎祈祷仪式”。每天上午11点整，温莎城堡内都会响起古老的拉丁语诵经声，这是圣乔治礼拜堂的牧师们为王室成员念诵的“与国同修”祈祷。这个传统始于1348年嘉德勋章创立时，至今已677年。城堡附近的居民常说，当钟声响起时只要面朝城堡许愿，愿望便会随着泰晤士河水流向大海，最终到达上帝耳中。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>走进这座活着的史书</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">温莎城堡绝非一座冰冷的皇家博物馆。它是英格兰君主制度的活化石：从征服者威廉的泥土堡垒，到爱德华三世的骑士殿堂；从亨利八世的爱情囚牢，到维多利亚的哀悼圣殿；从温莎公爵的退位地，到伊丽莎白二世的最后归宿——九百年时光在石墙上刻满了权力、爱情与命运的密码。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你穿过国事公寓的镀金大门，看着嘉德勋章在玻璃展柜里静默闪烁，忽然就会懂：为什么英国人愿意用一座城堡来承载整个国家的记忆。你若想真正读懂温莎城堡，不要只抬头看圆塔的尖顶——试着抚摸那些被无数代君主手掌摩挲过的橡木楼梯扶手，听它诉说岁月如何如山风般呼啸而过。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/old-college-edinburgh\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    爱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">爱丁堡大学旧学院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Old College, The University of Edinburgh</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/britannia-bridge-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里坦尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge (Pont Britannia)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/hafna-lead-mine-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈夫纳铅矿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Hafna Lead Mine</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "old-college-edinburgh",
+          "name": "爱丁堡大学旧学院",
+          "englishName": "Old College, The University of Edinburgh"
+        },
+        {
+          "slug": "britannia-bridge-history",
+          "name": "布里坦尼亚桥",
+          "englishName": "Britannia Bridge (Pont Britannia)"
+        },
+        {
+          "slug": "hafna-lead-mine-history",
+          "name": "哈夫纳铅矿",
+          "englishName": "Hafna Lead Mine"
+        }
+      ]
+    }
+  ]
+}

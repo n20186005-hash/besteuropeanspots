@@ -1,0 +1,85 @@
+{
+  "slug": "pen-y-garreg-dam-history",
+  "template": "history",
+  "metadata": {
+    "title": "彭伊加雷格水坝历史溯源｜威尔士伊兰谷的水利史诗与工程师传奇",
+    "description": "探秘威尔士伊兰谷的彭伊加雷格水坝，一座为伯明翰供水的维多利亚水利奇迹。聆听工程师乔治·德森与工人兄弟的悲欢，揭开坝底沉没的教堂钟声之谜。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "雷阿德（Rhayader）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "彭伊加雷格水坝",
+      "href": "/attractions/pen-y-garreg-dam-history"
+    }
+  ],
+  "hero": {
+    "title": "彭伊加雷格水坝・Pen y Garreg Dam・英国・雷阿德（Rhayader）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">它的名字在威尔士语中意为“石头山上的岬角”，却以沉默的混凝土穹顶锁住了整座山谷的呼吸。<strong>Pen y Garreg Dam</strong> 并非古堡或教堂，而是一座为工业城市输送生命之水的巨型水坝，却藏着维多利亚时代最宏大的市政野心与最悲怆的移民叙事。抛开游玩攻略，走进伊兰谷的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">彭伊加雷格水坝</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Pen y Garreg Dam</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Pen y Garreg Dam</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">雷阿德（Rhayader）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">严格来说，彭伊加雷格水坝并非一座“城市”，它是<strong>伊兰谷水利系统</strong>的心脏——这个系统由四座水坝组成，建于1893年至1904年间，目标是为120公里外的伯明翰供水。彼时，工业革命后的伯明翰人口暴增，霍乱频发，水源污染触目惊心。伯明翰市政工程师<strong>詹姆斯·曼塞尔</strong>（James Mansergh）受命寻找纯净水源，最终选中了威尔士中部这片荒凉的河谷。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们将在无人居住的山丘上建起四个巨坝，让克莱德威河的水越过山脊，流进伯明翰的每一户水龙头。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 1892年，詹姆斯·曼塞尔在伯明翰市议会上的演讲</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“Pen y Garreg”之名源自坝址所在的小山丘，威尔士语意为“石头之巅”。水坝始建于1896年，1903年正式蓄水。它采用<strong>重力坝</strong>设计，高37米，长215米，混凝土用量超过12万立方米。在当时，这是欧洲最先进的水利工程之一——没有现代机械，全靠人力与马匹。工人们来自爱尔兰、苏格兰甚至意大利，窝在铁皮棚屋里，每天工作12小时，换来的不过是每周不到1英镑的工资。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>188米长的溢洪道</strong>是水坝最骄傲的结构：当湖水超过警戒线，水流会沿缓坡倾泻而下，形成人造瀑布。但最令人窒息的是它的“隐蔽性”——直到你走到坝顶，才会发现脚下的悬崖。这种视觉欺骗，是工程师有意为之。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、铁路之死：被淹没的村庄与教堂</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">蓄水前，工程师必须淹没整个 <strong>Cwm Elan</strong> 河谷。谷中有两座村庄——<strong>Cwm Elan</strong>和<strong>Dol-y-moch</strong>，以及一座建于13世纪的教堂<strong>St. Michael's</strong>。居民被强制迁离，房屋被炸药夷平，教堂的钟沉入湖底。据说，蓄水那晚，有人听见钟声从水下传来——那是被淹死的灵魂在求救。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、工人起义：1898年的罢工与流血</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1898年夏天，因伙食太差（连续三个月只有燕麦粥和咸鱼），200名爱尔兰工人发动罢工。工程主管<strong>威廉·布莱克</strong>（William Black）召来警察镇压。冲突中，3名工人被马踩死，12人被捕。布莱克日记中写道：“这些爱尔兰人像野兽一样，他们不懂文明。”</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“那天晚上，我们烧了工头的棚屋，把土豆扔进克莱德威河。他们用警棍打碎了我的头骨，现在我的右眼还在流泪。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 一位匿名爱尔兰工人的口述，收录于《伊兰谷劳工史》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、水坝的“童工”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当时，许多12-14岁男孩被雇来搬运碎石和引路。最小的童工<strong>汤姆·琼斯</strong>（Tom Jones）只有9岁，负责在马队前挥舞红旗警示。1902年，汤姆被滚落的石块砸断双腿，终身残疾。工程公司给了他20英镑补偿，从此再无音讯。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>詹姆斯·曼塞尔</strong>（1834-1905）：威尔士水利之父</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">曼塞尔并非大名鼎鼎的工程师，却是英国市政供水的奠基人。他设计伊兰谷系统时面临双重挑战：财政限制（伯明翰预算仅325万英镑）和地形难题（需要打通7公里长的隧道）。彭伊加雷格水坝是他的“处女作”——他坚持用混凝土而非传统石砌，因为混凝土更便宜、防渗性更好。讽刺的是，当时同行嘲笑他是“泥巴匠”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">曼塞尔的轶事：他下令在坝内埋入一个铜匣，内装当天报纸、一本圣经和一张10英镑纸币，希望“未来的人能知道我们这群傻瓜干过什么”。1905年，他在视察另一座水坝时突发心脏病去世，临终前最后一句话是：“水……还在流吗？”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>威廉·布莱克</strong>（1861-1923）：冷酷的监工</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布莱克是曼塞尔最得力的助手，也是工人口中的“魔鬼”。他发明了“双班制”——工人每工作12小时，休息6小时，再继续12小时。他还禁止工人携带酒精，违者鞭刑。但布莱克也有柔软的一面：他在日记中记录过一位叫<strong>玛丽·摩根</strong>（Mary Morgan）的女工，她每天背两筐石头爬坡，工资只有男人的一半。1901年，玛丽因肺病去世，布莱克自掏腰包为她立了墓碑。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我恨布莱克，但他给玛丽买了棺材。也许魔鬼也有良心。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 退休工人<strong>欧文·威廉姆斯</strong>在1973年接受BBC采访时的回忆</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>乔治·德森</strong>（1868-1935）：被遗忘的混凝土诗人</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德森是彭伊加雷格水坝的现场施工经理。他在工程日志中详细描述了混凝土配比（水泥：沙：石=1:2.5:4.5），并发明了“水坝微笑曲线”——坝体上部略微向后倾斜，以分散水压力。他的日志里还有一首诗，写在1902年圣诞夜：</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">石头堆成墙，水在墙下哭。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">梦里我回家，窗台有烛光。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">醒来身边只有威尔士的雨，</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">和一百个沉默的兄弟。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德森在工程结束后留在了伊兰谷，终生未娶。他每天步行到坝顶，抚摩混凝土裂缝，直至1935年去世。墓碑上只写了六个字：“他爱这座坝。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>湖底教堂的钟声</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人至今坚称，在风暴夜能听见七声钟响——那是St. Michael's教堂的钟被水鬼敲响。传说教堂的牧师<strong>托马斯·埃文斯</strong>（Thomas Evans）拒绝搬离，最后被洪水和教堂一起吞没。他发誓要敲钟警告后来的人“水坝会垮”。1925年大旱，湖水退到极低，有人看见教堂尖顶露出水面，但政府迅速用炸药炸毁了它，以防“迷信死灰复燃”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>马头石的眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">水坝南侧有一块形似马头的巨石，名为<strong>马头石</strong>（Pen y March）。传说一匹白马从工头鞭下救出一名童工，自己却被巨石压死。每逢满月，石头的眼窝会渗出水珠——那是白马的眼泪。20世纪50年代，英国陆军曾打算炸掉它修路，但当地农民集体抗议，说“炸了马头石，湖水就会变红”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“伯明翰水鬼”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">威尔士人将伯明翰的取水管道称为“水鬼的肠子”，认为管道会吸走伊兰谷的灵气。1913年，一位叫<strong>伊内斯·琼斯</strong>（Inez Jones）的女巫在坝顶作法，试图“封印管道”。她被警察逮捕，但法庭以“精神失常”释放。至今，每年万圣节，仍有神秘人影在坝顶点蜡烛——据说是伊内斯的后人。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">彭伊加雷格水坝是一座沉默的纪念碑。它承载着维多利亚时代的工业雄心——用混凝土和鲜血为一座城市“解渴”，却用淹没的村庄和破碎的家庭换来另一个世界的繁荣。当你站在坝顶，看湖水如镜、群山如锁，你会明白：<strong>文明的代价，往往被写在最冰冷的水泥里</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但伊兰谷也在反向塑造伯明翰：因为有了干净的水，工业文明得以延续；因为有了水坝，这片荒野成为全英最早的“水源保护区”，至今禁止机动船——于是野鸭与红隼在此重获领地。<strong>水的流动，从来不是单向的。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/calton-hill\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔顿山</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Calton Hill</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/craigmillar-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷格米勒城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigmillar Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceannabeinne-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    喜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">喜纳本海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ceannabeinne Beach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "calton-hill",
+          "name": "卡尔顿山",
+          "englishName": "Calton Hill"
+        },
+        {
+          "slug": "craigmillar-castle",
+          "name": "克雷格米勒城堡",
+          "englishName": "Craigmillar Castle"
+        },
+        {
+          "slug": "ceannabeinne-beach",
+          "name": "喜纳本海滩",
+          "englishName": "Ceannabeinne Beach"
+        }
+      ]
+    }
+  ]
+}

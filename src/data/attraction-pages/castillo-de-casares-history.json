@@ -1,0 +1,85 @@
+{
+  "slug": "castillo-de-casares-history",
+  "template": "history",
+  "metadata": {
+    "title": "卡萨雷斯城堡历史溯源｜安达卢西亚白色村庄的前世今生与摩尔人传奇",
+    "description": "从摩尔人防御要塞到基督教征服之地，卡萨雷斯城堡见证西班牙南部八百年风云。探寻隐藏于白色悬崖上的中世纪传奇、当地名人与神秘传说。抛开游玩攻略，走进这座安达卢西亚灵魂深处的时光密室。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡萨雷斯",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡萨雷斯城堡",
+      "href": "/attractions/castillo-de-casares-history"
+    }
+  ],
+  "hero": {
+    "title": "卡萨雷斯城堡・Castillo de Casares・西班牙・卡萨雷斯",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在西班牙安达卢西亚的白色村庄中，卡萨雷斯城堡像一只鹰巢般悬于石灰岩峭壁之上。它曾目睹摩尔王国的最后一缕余晖，也聆听过天主教双王的战鼓声。没有游客的喧嚣，只有风穿过拱门的低语。抛开游玩攻略，走进卡萨雷斯的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">卡萨雷斯城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Castillo de Casares</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Castillo de Casares</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卡萨雷斯</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡萨雷斯这个名字的来源至今充满争议。一种说法来自拉丁语“Casa”（房屋），另一种源于阿拉伯语“Qasr”（城堡），后者更符合它被山巅堡垒守护的形态。考古发现表明，早在罗马帝国时期，这里已有人类定居。公元三世纪，古罗马人在山脚下开采石灰岩，留下一条至今仍可辨认的“罗马之路”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正定义这座小镇的，是<strong>711年</strong>开始的摩尔人统治。柏柏尔人从北非渡海而来，看中了这座易守难攻的悬崖。他们在<strong>13世纪</strong>修建了最初的城堡核心——一个简单的瞭望塔，用以监控从直布罗陀海峡到龙达的山间通道。此后数百年，城堡不断扩建成拥有三重城墙的军事要塞。小镇则沿着城堡南坡层层叠叠地铺开，白色石灰墙壁、狭窄石阶、天竺葵阳台……形成了今天安达卢西亚典型的“白色村庄”景观。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>名字的演变</strong>也藏着故事。14世纪的阿拉伯地理学家伊本·白图泰在游记中称这里为“Qasr Ibn Salim”——意为“萨利姆之子的城堡”。传说一名叫萨利姆的摩尔酋长在此建立据点，并命名了这片山地。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1485年，基督教收复失地运动的铁锤砸向了卡萨雷斯。</strong> 卡斯蒂利亚军队在国王费迪南德二世指挥下，包围了这座看似坚不可摧的堡垒。摩尔守军在弹尽粮绝后选择了投降——条件是被允许安全撤离到格拉纳达。城堡大门敞开的那一刻，天主教的十字架升上了塔顶。作为交换，当地摩尔人继续居住了近一个世纪，直到<strong>1570年</strong>的摩里斯科人起义被血腥镇压，所有穆斯林被迫改宗或流放。城堡的石墙内壁至今留有摩尔人雕刻的祷告经文，诉说着两种文明的血与火。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>18世纪，城堡经历了第二次“生命蜕变”。</strong> 西班牙王位继承战争期间（1701-1714），卡萨雷斯成为卡洛斯二世与菲利普五世军队争夺的战略据点。法国工程师曾加固堡垒，在东南角增设了棱堡。今天游客看到的倾斜炮台和弹药库，大多是这一时期留下的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>19世纪初的拿破仑战争</strong>又给城堡添了新伤。法国军队占领卡萨雷斯，将城堡改为军营和监狱。当地老人至今会指着北墙的弹孔讲述反抗军如何用简陋的猎枪狙击法军哨兵。1850年后，城堡逐渐荒废，但它的轮廓却成为诗人和画家的灵感源泉——<strong>1875年</strong>，安达卢西亚画家何塞·古铁雷斯曾多次在城堡脚下写生，留下一系列描绘废墟与野花的水彩画，如今收藏在马拉加博物馆。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 阿尔-穆塔米德·伊本·阿拔斯——摩尔诗人的最后庇护所</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位曾统治塞维利亚的泰法王国君主（1040-1095），以诗歌和慷慨著称。1074年在对卡斯蒂利亚的战争中战败后，他被流放到卡萨雷斯。在这座孤悬悬崖的城堡里，阿尔-穆塔米德度过了生命最后八年。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这座城堡像一只折断翅膀的鹰，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">我将喙插入石缝，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">却再也叼不回塞维利亚的玫瑰。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——摘自阿尔-穆塔米德囚禁期间的诗句</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他每天在塔顶眺望南方的天空，据说写下了一百多首怀念故土的诗歌。当地农民至今会在满月夜声称听到城墙上的吟唱声。1180年，他的遗骸被移往摩洛哥马拉喀什，但城堡西侧那扇被他称为“断肠门”的小拱门，至今保留着他的石刻画押。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 马努埃拉·德·洛斯·里奥斯——西班牙最早的女性探险家之一</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马努埃拉（1780-1855）出生于卡萨雷斯山脚下的一个酿酒家族。年轻时她女扮男装，加入一支探索新西班牙的探险队，成为历史上第一位从安达卢西亚徒步走到墨西哥湾的西班牙女性。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“母亲总说，城堡的石阶会指引女孩走向远方。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">我走了三步，就踏上了通往美洲的路。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——马努埃拉晚年回忆录</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1846年她回到家乡，在城堡废墟中开设了小镇第一所学校。她教授孩子们阅读、数学和地图绘制，并把自己的探险日记捐给了马拉加档案馆。今天，卡萨雷斯的市政广场上有一尊她手握指南针的青铜像——雕像的手指方向，正对着当年她凝视过的城堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 曼努埃尔·罗德里格斯·“卡萨雷斯”——西班牙传奇斗牛士</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位19世纪末的斗牛士以艺名“卡萨雷斯”闻名，因为他出生在城堡脚下的窑洞中。他发明了著名的“卡萨雷斯式闪避”——在公牛冲来时单腿跪地，身体后仰，这一动作至今被斗牛学校传承。1892年他在一次表演中重伤，临终前坚持让人把他抬回城堡，看着夕阳咽下最后一口气。城堡内的一个石龛如今安放着他的斗篷复制品。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“幽灵公主的蓝光”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地最广为人知的传说是关于一位摩尔公主。14世纪，城堡主人之女莱拉与一名基督教俘虏相恋。她的父亲发现后，将情人从城堡北侧的悬崖推下。莱拉悲痛欲绝，在同一个地方跳崖自尽。从此，每逢月缺的夜晚，城堡塔楼会泛起幽幽蓝光——那是莱拉公主提着裙摆寻找爱人的魂魄。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“石梯与三枚金币”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说城堡地下有一条密道，直通5公里外的赫尼尔河。密道的入口需要三枚金币来开启——一枚来自建城时的摩尔酋长，一枚来自收服的基督教骑士，一枚来自斗牛士的鲜血。至今有许多冒险者带着金属探测器在城堡周围挖掘，但所有人都只找到碎石和蜥蜴。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>婚礼传统</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到20世纪初，卡萨雷斯的新娘在婚礼前一天必须独自登上城堡最高处，向东南方向抛三朵白色康乃馨——以此纪念当年被迫离开的摩里斯科妇女。如今这一习俗已演变为情侣在城堡内挂同心锁，但古老的歌曲仍在酒馆里被传唱：“姑娘啊，别忘了城堡上的风，它会把你的思念吹到北非的海岸……”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡萨雷斯城堡不像阿尔罕布拉宫那样金碧辉煌，也没有圣家堂般的现代光环。它的价值在于“真实”——每一道裂缝都刻着摩尔工匠的指纹，每一处弹坑都记录着战争与和解。站在塔顶，你能看见时间如何像白色的石灰浆一样层层叠加：罗马的基石、伊斯兰的拱券、基督教的十字架、现代的游客脚印。这是一本用石头写成的安达卢西亚编年史，等待有心人来翻阅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂卡萨雷斯，就是读懂欧洲边缘文明碰撞的缩影。它不是博物馆，而是一座有呼吸的纪念碑。当你离开时，靴子上沾着的红色尘土，正是这片土地上最古老的记忆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/covadonga-shrine-sanctuary\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科瓦东加（隐没在皮科斯欧洲山脉中的圣母朝圣山洞与大教堂）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Covadonga</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/peniscola-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佩\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佩尼斯科拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Peñíscola</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cala-raja-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡拉拉哈湾</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cala Rajá</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "covadonga-shrine-sanctuary",
+          "name": "科瓦东加（隐没在皮科斯欧洲山脉中的圣母朝圣山洞与大教堂）",
+          "englishName": "Covadonga"
+        },
+        {
+          "slug": "peniscola-castle",
+          "name": "佩尼斯科拉",
+          "englishName": "Peñíscola"
+        },
+        {
+          "slug": "cala-raja-history",
+          "name": "卡拉拉哈湾",
+          "englishName": "Cala Rajá"
+        }
+      ]
+    }
+  ]
+}

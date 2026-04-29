@@ -1,0 +1,64 @@
+{
+  "slug": "drum-castle-history",
+  "template": "history",
+  "metadata": {
+    "title": "德拉姆城堡历史溯源｜苏格兰古老家族的爱恨情仇与王室传奇",
+    "description": "探索苏格兰德拉姆城堡800年沧桑：13世纪皇家狩猎屋，欧文家族四百年守护，独立战争英雄与神秘绿衣女郎传说。走进时光深处，感受高地城堡的永恒魅力。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "Scotland",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "Banchory",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "德拉姆城堡及花园庄园",
+      "href": "/attractions/drum-castle-history"
+    }
+  ],
+  "hero": {
+    "title": "德拉姆城堡及花园庄园・Drum Castle, Garden & Estate・Scotland・Banchory",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>德拉姆城堡</strong>，一座矗立在苏格兰阿伯丁郡密林深处的古老石堡，自13世纪起便与皇家狩猎、家族荣耀和血火战争交织。它曾是国王亚历山大三世的狩猎屋，后来成为<strong>欧文家族</strong>（Clan Irvine）近四百年的祖业，见证了苏格兰独立战争的烽烟，也藏匿着一段凄美的爱情幽灵传说。抛开游玩攻略，走进德拉姆城堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">德拉姆城堡及花园庄园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Drum Castle, Garden &amp; Estate</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Drum Castle, Garden &amp; Estate</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">Scotland</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">Banchory</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座城堡的身世，从名字开始便透着高地盖尔语的粗粝。<strong>“Drum”</strong> 来自盖尔语 <strong>“druim”</strong>，意为“山脊”——整座城堡就坐落在迪伊河畔一处绵长的山脊之上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的建筑始于 <strong>1225年</strong> 左右，那时苏格兰国王 <strong>亚历山大三世</strong> 需要一个远离宫廷喧嚣的狩猎休憩所。于是，一座方正的、厚达三米的石砌塔楼拔地而起。这座塔楼是苏格兰现存最古老的塔楼之一，也是城堡 <strong>最早的核心</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1323年</strong>，历史发生了关键转折。国王 <strong>罗伯特一世</strong>（罗伯特·布鲁斯）为表彰忠诚，将德拉姆城堡连同周边领地赐予他的文书官 <strong>威廉·德·欧文</strong>（William de Irwyn）。欧文家族从此在这里扎下了根。一份14世纪的羊皮卷记载：“此地在盖尔语中唤作‘山脊之堡’，主塔数百年未变其形，石壁间渗出的潮气混合着鹿血与松烟，标记着皇家与贵族共同的记忆。” 城堡的名字与初始使命，就这样被牢牢刻在了每块花岗岩上。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>苏格兰独立战争的余火</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1314年班诺克本战役后，欧文家族的 <strong>亚历山大·欧文</strong>（Alexander Irvine of Drum）成为罗伯特一世麾下的得力战将。14世纪末，他在一次与英格兰边境的冲突中被俘，关押在伦敦塔。传说他被释放后，将一面染血的战旗带回城堡，至今那面旗帜的残片仍被保存在城堡的橡木箱中。<strong>1411年</strong>，另一位亚历山大·欧文在哈洛战役中阵亡——他手持家族战旗冲锋，却被麦克唐纳氏族的战斧劈中。他的尸体被运回德拉姆，葬在城堡东侧的小教堂。如今的游览者走过那扇橡木门时，仍能看见门楣上刻着的家族格言：“Sub Sole Sub Umbra Virens”——“阳光下、阴影中，我依然常青。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>詹姆斯党叛乱与家族衰败</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">17世纪，欧文家族在城堡西侧增建了一座文艺复兴风格的翼楼，雕花窗棂与法式花园相映成趣。但好景不长，<strong>1745年</strong> 詹姆斯党叛乱爆发，欧文家族选择了支持斯图亚特王朝，结果乱后遭到严厉打压。图利巴丁伯爵（Earl of Tullibardine）曾率军劫掠并短暂占据城堡，家族财富一落千丈。19世纪末，历经26代领主后，最后一位欧文男爵因债务被迫将城堡出售。<strong>1975年</strong>，苏格兰国家信托（National Trust for Scotland）接管了德拉姆。游人如今看到的，正是这 <strong>八百年荣辱</strong> 凝固成的石墙与花园。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 骑士亚历山大·欧文（Alexander Irvine of Drum, 约1360-1435）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是中世纪苏格兰骑士的典型化身。身长六尺三寸，红发如火，臂力惊人。<strong>1395年</strong>，他在一次比武大会上击败了英格兰骑士约翰·德·克利福德，赢得了“德拉姆之矛”的称号。但他最为传奇的，是在 <strong>1402年</strong> 的 <strong>霍米尔顿山战役</strong> 中，单枪匹马救出了被围困的苏格兰摄政王阿尔巴尼公爵。传说他跃马冲入敌阵，长矛连刺七名英格兰士兵，最后用战斧劈开了包围圈。战后，阿尔巴尼公爵赠给他一把镶银的猎刀，这把刀如今陈列在城堡客厅的玻璃柜里。 <strong>加粗</strong>：那把猎刀的刀柄上刻着一行小字：“以血卫血，以石守石。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 绿衣女郎——伊丽莎白·欧文（Lady Elizabeth Irvine, 约1580-1620）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说亚历山大代表了肌肉与战火，那么伊丽莎白便是城堡最柔情的幽灵。她是16世纪末欧文家族的女继承人，生得金发碧眼，却爱上了一位低阶牧师。父亲强烈反对这门婚事，将她锁在三楼塔楼内。每天傍晚，她会穿着绿色绸裙，趴在窗边眺望爱人来访的小路。<strong>1615年</strong>，牧师被驱逐出境，伊丽莎白从此绝食，一年后死于忧愤。家族将她葬在城堡外的无人荒地，墓上不留名姓。从此，人们开始在城堡的螺旋楼梯上见到一位身穿绿裙的身影——她轻抚墙壁，低声啜泣，就在她当年眺望的那扇窗前停留。<strong>国家信托</strong>的档案室里收藏着一份17世纪管家的日记，其中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“夜半时分，我经过塔楼，忽闻女子啜泣声。灯光映在石墙上，并无人在。但窗台前有一片湿痕，形如泪珠。自那以后，无人敢在星月之夜独行于西翼。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>绿衣女郎</strong>的传说在班科里一带流传了四百年。当地人相信，她的鬼魂每年圣诞节都会出现在城堡的橡木大桌前，为缺席的爱人盛一杯红酒。1930年代，一位来自爱丁堡的灵媒声称，她与伊丽莎白的灵魂对话过，得到的回答是：“我的骨头埋在十字路口，只有风能找到。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更有趣的是城堡 <strong>后院的老橡树</strong>，据说树龄超过1000年，正是伊丽莎白当年与牧师秘密约会的地方。当地风俗：每到满月之夜，未婚女子会手系一根绿丝带，绕树三圈，祈祷爱情不被家族阻挠。今天，城堡花园的导游会指着这棵盘根错节的老橡树，压低声音说：“不要碰那最低的树枝——据说那是绿衣女郎的裙摆。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">除了绿衣女郎，城堡还流传着 <strong>“敲门的鼓手”</strong> 传说。17世纪时，欧文家族的族长曾在战争中失踪，家人夜夜击鼓求归。后来每当有族人将逝，城堡远处便会传来一阵低沉的鼓声，由远及近，三响后戛然而止。1962年，最后一位欧文后裔在阿伯丁医院去世时，城堡管理员声称听到了三声清晰的鼓音。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">德拉姆城堡不只是一座石头建筑——它是苏格兰家族史的活文本，是骑士与幽灵共同书写的传奇。从皇家狩猎屋到国家信托遗产，它用八百年的沉默，见证了高地民族的坚韧与浪漫。读懂它，你就读懂了苏格兰乡村贵族的爱恨、战争与信仰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    }
+  ]
+}

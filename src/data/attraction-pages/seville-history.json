@@ -1,0 +1,85 @@
+{
+  "slug": "seville-history",
+  "template": "history",
+  "metadata": {
+    "title": "塞维利亚历史溯源｜安达卢西亚的黄金时代与传奇人物",
+    "description": "从罗马祂斯帕利斯到伊斯兰伊什比比利亚，再到新大陆的财富之门。走进塞维利亚的尘封往事，聆听哥伦布、委拉斯开兹与唐璜的时光回响。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "塞维利亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "塞维利亚",
+      "href": "/attractions/seville-history"
+    }
+  ],
+  "hero": {
+    "title": "塞维利亚・Seville・西班牙・塞维利亚",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">塞维利亚，安达卢西亚的心脏，一座被三种文明反复雕刻的城市。这里曾是罗马帝国西部的农业重镇，是摩尔人精致若梦的宫廷花园，也是西班牙帝国从新大陆攫取黄金的唯一口岸。抛开游玩攻略，走进塞维利亚的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">塞维利亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Seville</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Seville</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">塞维利亚</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞维利亚的诞生藏在一段模糊的腓尼基拓殖记忆里。约公元前8世纪，腓尼基人在瓜达尔基维尔河畔建起小贸易站，名为 <strong>“斯帕尔”</strong> （意为“低地”）。真正让此地成为城市的，是罗马人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元前206年，罗马将军 <strong>西庇阿</strong> 在第二次布匿战争后征服了整个伊比利亚西南部。他在这里设立殖民地，命名为 <strong>“祂斯帕利斯”</strong> 。这个名字源自腓尼基语，意为“平原上的城市”。罗马人修建了防御工事、引水渠和横跨河流的木桥，城市迅速扩张为贝提卡行省的司法中心。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">老普林尼在《自然史》中写道：“祂斯帕利斯是贝提卡最肥沃的土地，橄榄油从这里运往整个帝国。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元712年，摩尔人渡过直布罗陀海峡，征服了这座城市。他们将名字阿拉伯化，称其为 <strong>“伊什比比利亚”</strong> 。这个发音最终演变成今天的“塞维利亚”。摩尔人修建了宫墙、浴场与清真寺，引入先进的灌溉系统，让城市在伊斯兰统治下成为安达卢斯的文化明珠。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到1248年，卡斯蒂利亚国王 <strong>费尔南多三世</strong> 率领基督徒军队围城十六个月，最终收复塞维利亚。城市的名字从此固定下来，但骨血里早已融入了罗马的秩序、摩尔人的精巧与基督教的虔诚——三种基因共同刻写了塞维利亚的起源密码。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>阿尔卡萨宫的叠影</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞维利亚最深沉的历史印记藏在 <strong>阿尔卡萨宫</strong> 的每一道石膏雕花里。这里是权力更迭的活化石：最初的宫殿由西哥特人修建，摩尔人将其扩建为穆斯林总督的府邸，而基督教征服后，佩德罗一世却在同一地基上命令工匠建造新的哥特式宫殿。他特意保留了部分穆德哈尔风格的庭院、马蹄形拱门与镶嵌瓷砖，让两种信仰的审美奇迹般地共存。如今游客穿行于少女中庭与大使厅，脚下踩过的石砖曾见证阿方索十世起草天文表，也见证费尔南多与伊莎贝拉在这里接见哥伦布。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>大教堂：清真寺的再生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1401年，塞维利亚人推倒了城中的大清真寺，决定建造一座“让后世以为我们疯了”的教堂。他们保留了原有的 <strong>希拉尔达塔</strong> ——原清真寺的宣礼塔，将其改造成钟楼。塔身下部是摩尔式砖雕，上部是文艺复兴风格的钟楼尖顶，两种风格像连体婴般融合。教堂内部则安放着 <strong>克里斯托弗·哥伦布</strong> 的棺椁。四名身着华丽服装的“抬棺者”雕像分别代表卡斯蒂利亚、莱昂、纳瓦拉和阿拉贡四个西班牙王国，象征着哥伦布带来的荣耀由整个西班牙共享。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>黄金塔：财富的哨兵</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">瓜达尔基维尔河畔的 <strong>黄金塔</strong> 建于13世纪初，当时是摩尔人防御工事的一部分。名字源于它外墙铺设的金色瓷砖，在阳光下熠熠生辉。但真正让它载入史册的是16至18世纪：所有从新大陆运往塞维利亚的黄金、白银、香料和奴隶，都必须在黄金塔前卸货、清点、登记。这座八角形塔楼是西班牙帝国垄断大西洋贸易的物理象征，也是美洲白银流入欧洲的起点。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>委拉斯开兹：从塞维利亚走出的宫廷之眼</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>迭戈·罗德里格斯·德·席尔瓦-委拉斯开兹</strong> 于1599年出生在塞维利亚一个普通律师家庭。少年时，他师从当地画家弗朗西斯科·帕切科，后者敏锐地发现了他的天赋。委拉斯开兹在塞维利亚绘制了大量厨房静物画与肖像，比如《煎蛋的老妇人》和《塞维利亚的卖水人》，画面中的人物总带着一丝街头市井的粗粝质感。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1623年，24岁的委拉斯开兹带着一幅 <strong>费利佩四世</strong> 的肖像画前往马德里，从此成为宫廷首席画家。但他从未忘记塞维利亚的光影：他笔下著名的《宫娥》中，背景墙上挂着的两幅画作据说就是他早期在塞维利亚临摹的鲁本斯作品；画中那个正在给公主递水的小宫女，脖颈和手臂的线条与塞维利亚街头卖水少年如出一辙。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">委拉斯开兹在晚年写给朋友的信中说：“每当我画人物时，总会想起塞维利亚菜市场里那些鲜活的面孔——他们才是光与影的老师。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞维利亚的 <strong>圣卡洛斯大教堂</strong> 旁的巷子里，至今保留着委拉斯开兹受洗的告示牌。如果你在城市的某个阳光斜照的庭院里看到一只陶瓷水罐投下的影子，那可能就是大师眼里的光。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>哥伦布：在塞维利亚计划的新世界</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">尽管哥伦布出生在热那亚，但他真正的精神故乡是塞维利亚。1486年，他第一次来到塞维利亚的 <strong>阿尔卡萨宫</strong>，向 <strong>伊莎贝拉一世</strong> 女王陈述西航计划。女王当时并未立刻答应，但塞维利亚的码头与造船厂让哥伦布看到了实现梦想的可能。他在这里结交了来自热那亚的商人同行，学习潮汐与风向规律，甚至参加了当地航海学校的考试。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1492年8月3日，哥伦布从塞维利亚以南的 <strong>帕洛斯-德拉弗龙特拉</strong> 启航。返航后，他径直骑马回到塞维利亚，在 <strong>黄金塔</strong> 旁的新大教堂前跪下祈祷。这座城市从此成为他事业的基地：他后来的三次航行都从塞维利亚出发，他的长子迭戈定居于此，城堡般的 <strong>哥伦布之家</strong> 至今仍矗立在圣克鲁斯街区。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1888年，哥伦布的遗骸被从古巴运回西班牙，最终安葬在塞维利亚大教堂。他的棺椁由四尊君主雕像高高抬起，仿佛他仍活在五次航海归来后、站在黄金塔下清点来自新大陆的银子时的骄傲里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>唐璜：虚构的塞维利亚浪子</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1616年，莫利纳修士的戏剧《塞维利亚的骗子》首次塑造了 <strong>唐璜</strong> 这个形象。故事设定就在塞维利亚的 <strong>特里亚纳区</strong>。唐璜被设定为一个英俊、傲慢、毫无道德底线的贵族青年，他引诱了多位女性，最后被石像拖入地狱。传说中他居住的宅邸遗址就在 <strong>圣克拉拉修道院</strong> 附近，据说夜晚能从墙缝里听见花哨的响板声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的塞维利亚人对唐璜又爱又恨：他让这座城市背上“诱惑之都”的名声，却也催生了独一无二的街头即兴演出。每年四月的 <strong>塞维利亚四月节</strong> 上，总会出现几个扮成唐璜的年轻人，黑色斗篷、宽檐帽、匕首和玫瑰花，他们跟在马车后面朝姑娘们眨眼——这是城市对自身传奇的戏谑和解。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>马卡雷纳圣母的眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞维利亚有超过一百座圣母像，但最受爱戴的是 <strong>马卡雷纳圣母</strong>。传说在13世纪，一个叫 <strong>马卡雷纳</strong> 的犹太女子在自家院子里发现了一口钟，敲响后里面藏着木雕的圣母像。她将其秘密供奉，后来被基督徒发现，被认为是圣迹。圣母像的银色泪珠刻画得极为精细，每根睫毛都是手工嵌入的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年圣周，整个塞维利亚都会为这尊圣母像屏息。抬圣像的 <strong>兄弟会成员</strong> 穿着紫色长袍、面罩只露出双眼，他们赤足扛着数吨重的木制圣轿穿行在狭窄的老街道。当圣母像被抬出教堂时，围观的人群会突然静默，只有沉重的脚步声和远处的鼓点。传说每年四月节的第一场雨，就是马卡雷纳圣母替这座城市流的温柔泪水。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>特里亚纳的歌谣</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">瓜达尔基维尔河对岸的 <strong>特里亚纳区</strong> 是弗拉门戈的产地之一。这里流传着一个故事：一位吉普赛女人被负心汉抛弃后，在河边的碎瓷片上起舞，她的眼泪滴在砖地上，每一滴都变成了一首深深的 <strong>“索莱亚”</strong> 歌调。至今你走进特里亚纳的陶瓷工坊，还能听见老艺人在打磨釉彩时顺嘴哼唱这种古老旋律。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞维利亚是一座不需要刻意寻找历史的城市。你走在 <strong>圣克鲁斯犹太区</strong> 的迷宫里，脚下的鹅卵石可能是12世纪摩尔人铺设的；你在 <strong>西班牙广场</strong> 的河畔坐下，这里1914年建造的瓷砖长椅正描绘着西班牙所有的省份。三种文明的密码藏在阿尔卡萨宫的马赛克花纹里、藏在教堂净手池的阿拉伯铭文里、藏在犹太区忽然变得狭窄的巷子里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂塞维利亚，就是读懂中世纪的西班牙如何把自己变为一个帝国。这个城市教会我们：真正的历史不是博物馆里的展品，而是你推开一扇古老木门时，门轴发出的那声叹息。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/allariz-travel-guide\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿利亚里斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Allariz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/moncloa-lighthouse-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙克洛亚灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Moncloa Lighthouse (Faro de Moncloa)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castillo-de-alhama\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔阿马城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castillo de Alhama</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "allariz-travel-guide",
+          "name": "阿利亚里斯",
+          "englishName": "Allariz"
+        },
+        {
+          "slug": "moncloa-lighthouse-history",
+          "name": "蒙克洛亚灯塔",
+          "englishName": "Moncloa Lighthouse (Faro de Moncloa)"
+        },
+        {
+          "slug": "castillo-de-alhama",
+          "name": "阿尔阿马城堡",
+          "englishName": "Castillo de Alhama"
+        }
+      ]
+    }
+  ]
+}

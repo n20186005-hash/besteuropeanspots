@@ -1,0 +1,85 @@
+{
+  "slug": "casa-batllo-history",
+  "template": "history",
+  "metadata": {
+    "title": "巴特罗之家历史｜高迪的龙脊骨与巴塞罗那现代主义建筑的传奇往事",
+    "description": "探秘高迪杰作巴特罗之家：从纺织品大亨的私宅到世界遗产，建筑背后的海洋寓言、圣乔治传说与加泰罗尼亚身份觉醒。一次穿越时光的建筑人文之旅。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "巴塞罗那",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "巴特罗之家",
+      "href": "/attractions/casa-batllo-history"
+    }
+  ],
+  "hero": {
+    "title": "巴特罗之家・Casa Batlló・西班牙・巴塞罗那",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在巴塞罗那的格拉西亚大道上，一栋外墙如龙脊般起伏的建筑，总让路人驻足屏息。这不是童话，而是<strong>高迪</strong>为纺织业巨头<strong>巴特罗家族</strong>打造的私宅——<strong>巴特罗之家</strong>。它诞生于1904年，是加泰罗尼亚现代主义运动的巅峰，更是一首用瓷砖、锻铁与彩色玻璃谱写的海洋与龙的史诗。抛开游玩攻略，走进巴特罗之家的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">巴特罗之家</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Casa Batlló</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Casa Batlló</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">巴塞罗那</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">巴塞罗那的现代主义浪潮，源于19世纪末的工业繁荣与<strong>“文艺复兴”运动</strong>。随着1870年城墙拆除，<strong>扩建区（Eixample）</strong>网格状街区拔地而起，成为新兴资产阶级展示财富的舞台。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">建筑师高迪曾说：“直属于人，曲线属于上帝。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">正是在这种崇尚自然、反对直线的艺术氛围中，<strong>1900年</strong>，纺织大亨<strong>何塞·巴特罗</strong>买下了格拉西亚大道43号一栋平庸的旧楼。他邀请当时已名声斐然的<strong>安东尼·高迪</strong>进行彻底改建。高迪接手后，几乎推倒了原有结构，用<strong>曲线、马赛克与光影</strong>重新定义了这座住宅。从外部起伏的蓝色陶瓷立面，到内部天井的渐变瓷砖，每一处都是对自然与海洋的致敬。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">巴特罗之家的名字本身，就承载着家族史。<strong>巴特罗家族</strong>是加泰罗尼亚工业革命的缩影，而这座建筑，则成为其身份与信仰的纪念碑。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1904-1906年的奇迹改造</strong>是高迪建筑生涯的转折点。他并未建造新楼，而是像外科医生般对老宅进行“骨骼重塑”。他拓宽了内部天井，修建了屋顶的<strong>龙脊拱廊</strong>，并将外墙铺满<strong>破碎的瓷砖与玻璃碎片</strong>——这种技术被称为“trencadís”，灵感来自穆德哈尔传统，却在高迪手中化为奇幻的海洋生物表皮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建筑落成后，巴特罗家族在此居住至1954年。随后几经易主，甚至一度被用作办公室和商店。<strong>1969年</strong>被列为西班牙国家文物，<strong>2005年被联合国教科文组织列入世界遗产</strong>。但真正让巴特罗之家重获新生的，是<strong>1995年</strong>由伯纳特家族（Bernat）的收购。他们进行了长达数年的修复，并在2002年开放为文化景点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一个鲜为人知的细节：建筑内部顶楼的<strong>洗衣房与屋顶蓄水池</strong>，曾见证了巴特罗家仆人们的日常劳作。如今游客漫步的优雅空间，百年前却是浆洗声与肥皂气味的所在。这种阶级的痕迹，被高迪用艺术悄然掩盖，却又在修复中被小心保留。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安东尼·高迪</strong>无疑是巴特罗之家的灵魂。这位1852年生于雷乌斯的建筑天才，一生信奉自然与信仰。他为巴特罗家族设计时，已构思出日后在米拉之家与圣家堂中更激进的理念。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">高迪在日记中写道：“这座房子必须像一座花园，从土地中生长出来。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他与屋主<strong>何塞·巴特罗</strong>的默契，是这段传奇的关键。巴特罗并非单纯的赞助人，而是参与了设计讨论——他要求建筑体现加泰罗尼亚的身份象征。高迪为此将<strong>圣乔治屠龙</strong>的故事融入立面：屋顶的陶瓷鳞片是龙身，烟囱是插入龙背的剑柄，而楼梯间十字架形状的通风塔，则是圣乔治的剑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正让巴特罗之家与众不同的，是高迪对<strong>光与空间的革命性处理</strong>。他设计了中空的天井，利用不同蓝色瓷砖的渐变，让光线从顶层到首层逐渐柔和，仿佛潜入深海。天井的窗扇可以手动调节开合，实现自然通风——这在1906年堪称超前。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">巴特罗家族后世中，<strong>阿马利娅·巴特罗</strong>（Amalia Batlló）作为女主人，在丈夫去世后继续与高迪合作，并坚持保留建筑的艺术完整性。她曾拒绝开发商改建公寓的提议，说：“高迪的曲线不容切割。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>另一个传奇人物是修复者琼·巴斯克斯（Joan Vázquez）</strong>，他在1990年代主导了耗时十年的修复。他用显微镜分析原始颜料，甚至从垃圾堆中找回被丢弃的原始瓷砖碎片，最终恢复了立面那层闪着虹彩的陶瓷釉面。如今游客触摸的每一片马赛克，都浸透着修复者的执着。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在巴塞罗那老城区，流传着一个关于巴特罗之家的隐秘故事：据说高迪在设计天井时，曾让巴特罗家的孩子们脱掉鞋子，在未完工的楼梯上奔跑。孩子们抱怨脚被粗糙的砖块磨痛，高迪却笑着说：“这就是我要的效果——你们在体验未来房子里的每一次触感。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更广为人知的是<strong>“龙之传说”</strong>。当地人坚持认为，巴特罗之家的屋顶就是一条被圣乔治刺穿的龙。龙脊的鳞片在日落时分泛着金红，那是龙血凝结的颜色。每年4月23日圣乔治节，格拉西亚大道的玫瑰花摊会沿路摆开，而巴特罗之家的露台会垂下一条巨型红玫瑰毯——仿佛呼应着龙血滋养的传奇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个趣味细节：建筑正面那些像骷髅头一样的阳台栏杆，其实并非高迪的设计，而是当时工匠的误读。高迪的原意是抽象化的海百合与海星，但工人理解成了颅骨。高迪见到后沉默片刻，只说：“那就留下吧，死亡与生命本是一体。”如今这成了游客最爱的拍照点。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">巴特罗之家不仅是一座建筑，它是<strong>加泰罗尼亚现代主义运动的宣言</strong>，是工业资产阶级的文化野心，更是一个时代对自然与形式的终极探索。读懂它，就读懂了巴塞罗那如何从地中海的小渔村蜕变为前卫之都。当你站在那面龙脊外墙下，阳光透过彩色玻璃窗在瓷砖上投下流动的光斑，你会明白：历史从未静止，它只是被高迪凝固成了建筑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/medina-azahara-cordoba\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    麦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">麦地那·阿萨哈拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Medina Azahara</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/san-isidro-park-los-pedregales\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣伊西德罗公园（石砌之地）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">El Parque de San Isidro (Los Pedregales)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/arco-de-los-gigantes\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巨人拱门</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Arco de los Gigantes</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "medina-azahara-cordoba",
+          "name": "麦地那·阿萨哈拉",
+          "englishName": "Medina Azahara"
+        },
+        {
+          "slug": "san-isidro-park-los-pedregales",
+          "name": "圣伊西德罗公园（石砌之地）",
+          "englishName": "El Parque de San Isidro (Los Pedregales)"
+        },
+        {
+          "slug": "arco-de-los-gigantes",
+          "name": "巨人拱门",
+          "englishName": "Arco de los Gigantes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "tenement-house-national-trust-for-scotland-history",
+  "template": "history",
+  "metadata": {
+    "title": "格拉斯哥出租屋博物馆历史｜苏格兰工人阶级生活故事与前世今生",
+    "description": "走进格拉斯哥的出租屋博物馆，这是一座保存完好的20世纪早期公寓，记录着普通家庭的生活琐碎与城市记忆。感受时光胶囊般的历史温情，发现苏格兰平民的日常史诗。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "格拉斯哥",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "出租屋博物馆",
+      "href": "/attractions/tenement-house-national-trust-for-scotland-history"
+    }
+  ],
+  "hero": {
+    "title": "出租屋博物馆・The Tenement House (National Trust for Scotland)・英国・格拉斯哥",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在格拉斯哥市中心，一栋看似普通的维多利亚式公寓楼里，藏着一扇通往20世纪初苏格兰平民生活的时空之门。这里没有王公贵族的奢华，只有账单、煤炉、缝纫机和发黄的照片，却比任何宫殿都更真实地讲述着<strong>工业革命后城市居民</strong>的日常与尊严。抛开游玩攻略，走进出租屋博物馆的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">出租屋博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">The Tenement House (National Trust for Scotland)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">The Tenement House (National Trust for Scotland)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">格拉斯哥</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格拉斯哥在18至19世纪因烟草贸易和重工业迅速膨胀，<strong>1850年代</strong>后人口突破百万。为了解决大量工人和移民的居住问题，城市涌现出成片的多层公寓楼——<strong>tenement</strong>。这个词源自拉丁语“tenere”，意为“拥有”，在苏格兰则特指<strong>独立产权但共用楼梯的多层住宅</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">出租屋博物馆所在的建筑建于<strong>1892年</strong>，位于格拉斯哥的<strong>Garnethill</strong>区。当时，这里属于中下层家庭聚居地。每层有三到四户，共用一个狭窄的楼梯间（俗称“close”）。公寓内部设计紧凑：客厅、厨房、两间卧室，以及一个储藏室。煤炉是取暖和做饭的核心，<strong>煤斗、熨斗、洗衣桶</strong>是每个家庭的标配。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座建筑的诞生，正是格拉斯哥<strong>工业黄金时代</strong>的缩影。它没有贵族宫殿的辉煌，却承载了城市最真实的脉搏——<strong>工人的汗水、家庭的温暖、邻里的互助</strong>。名字“Tenement House”后来成为这栋公寓的官方称谓，仿佛在提醒世人：普通人的历史，同样值得被铭记。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. Agnès Toward的“时间胶囊”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">出租屋博物馆最迷人的部分，源于一位名叫<strong>Agnès Toward</strong>的普通女性。她生于<strong>1911年</strong>，与母亲同住在三楼这套公寓里，父亲早逝。从<strong>1938年</strong>开始，她独自照料母亲，并终身未婚。为了维持生计，她做了<strong>记账员</strong>，每日精打细算。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">令人惊叹的是，<strong>Agnès几乎保留了公寓原状</strong>——从家具到锅碗瓢盆，从账单到旧报纸，甚至墙上的挂历和角落里的煤灰桶。1965年母亲去世后，她搬离了这间公寓，但所有物品都留了下来。<strong>1982年</strong>，National Trust for Scotland将其买下，并原封不动地修复开放。如今，推开门，你看到的正是<strong>1965年</strong>那个秋天的样子：桌上有未读完的信，碗橱里叠着印花桌布，床旗还是手工编织的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 后二战时期的城市变迁</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1940年代</strong>至<strong>1960年代</strong>，格拉斯哥经历大规模“贫民窟清理”。很多旧的出租屋被推倒，居民迁往新兴的<strong>高层住宅区</strong>。而Garnethill区因靠近大学和商业中心，得以幸存。出租屋博物馆在这场浪潮中成为<strong>活历史</strong>，它代表了一个即将消失的居住模式——邻里共用楼梯间的亲密，煤炉旁取暖的夜晚，以及<strong>每周一次的公共洗衣日</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些墙壁见证了两次世界大战、经济大萧条和福利国家的兴起。<strong>冰箱、电视机、电话</strong>逐渐出现在公寓里，但Agnès的家里依然保持着旧日的朴素。这种<strong>缓慢的现代化</strong>，恰恰是苏格兰普通家庭最真实的轨迹。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Agnès Toward：一个普通人的史诗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Agnès Toward</strong>不是国王，不是作家，不是发明家。她只是一个<strong>记账员</strong>，一个照顾母亲的女儿，一个终身未婚的女性。但她的故事，比任何虚构小说都更具力量。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>出生与成长</strong>：1911年，她出生在格拉斯哥。父亲是一位<strong>石匠</strong>，但在她很小的时候就去世了。母亲靠做<strong>洗衣工</strong>和出租房屋维生。Agnès从小就知道生活不易，她读完了中学，学会打字和记账，1930年代进入一家<strong>小企业</strong>工作。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>与这座城的羁绊</strong>：她一生几乎都住在格拉斯哥。这间公寓是她母亲在1909年租下的，后来母亲去世，她独自续租。她的日常半径不超过几条街：上班的办公室在<strong>Buchanan Street</strong>，买面包的店铺在<strong>Sauchiehall Street</strong>，周末和母亲去<strong>Kelvingrove Park</strong>散步。她从不旅游，最大的奢侈是偶尔去<strong>电影馆</strong>看一场无声电影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>留下的痕迹</strong>：Agnès保存了一切——<strong>1939年</strong>的购物清单，<strong>1950年</strong>的圣诞卡，<strong>1963年</strong>的电视机购买合同。这些纸张上的字迹，记录着价格从便士到先令的演变。她还留下了自己精心缝补的衣物、手工编织的毛衣，以及无数关于<strong>邻居八卦</strong>的日记片段。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“今天Mrs. Campbell又在楼梯间抱怨天气太冷。我往她的煤桶里添了几块煤，假装没看见她红肿的手指。在这座城市里，没有人能独自熬过冬天。”——来自Agnès日记，约1947年</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>轶事</strong>：National Trust的工作人员发现，她<strong>从不扔掉任何东西</strong>，哪怕是生锈的别针。厨房壁橱里有一罐<strong>1962年</strong>的豆子罐头，已经过期。她甚至保存了<strong>父亲1905年</strong>的死亡证明副本，用橡皮筋捆好。这些细节，让她从一个历史人物变成了一个有血有肉的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>为何值得铭记</strong>：Agnès的故事，是<strong>20世纪苏格兰普通女性</strong>的缩影。她没有丈夫、没有孩子、没有财富，却用一箱箱旧物捍卫了自己的存在。出租屋博物馆，是她无声的自传。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格拉斯哥的出租屋文化，核心是“<strong>close</strong>”——即共用楼梯间。邻里之间在狭窄的过道里相遇，聊着天气、病痛和物价。传说，有些老close藏着<strong>秘密通道</strong>，曾被走私者用来搬运威士忌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于出租屋博物馆，流传着一个<strong>温馨的鬼故事</strong>：有人说，深夜闭馆后，偶尔会听到<strong>缝纫机的嗡嗡声</strong>。那是<strong>Agnès的幽灵</strong>在为自己缝制新围裙。她生前的缝纫机就放在卧室窗边，阳光和月光交替照过她的作品。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有当地老居民回忆，<strong>1960年代</strong>冬天极冷时，煤商短缺。Agnès曾把积攒的煤块分给楼下的<strong>贫苦寡妇</strong>。后来那位寡妇搬走后，每年圣诞节都会寄来一张手绘贺卡，直到1978年去世。这些贺卡同样被Agnès保存在鞋盒里，如今陈列在博物馆的抽屉中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>人文习俗</strong>：在格拉斯哥老出租屋里，有一个传统叫“<strong>washing day</strong>”（洗衣日）。各户轮流在底层洗衣房使用大铜锅，邻居们互相帮忙拧干床单。<strong>晾衣绳横跨后院</strong>，彩色被单在空中飘扬，成为城市的一道风景。出租屋博物馆的后院至今保留着洗衣房遗迹，供人凭吊。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">出租屋博物馆是一面镜子，照见了<strong>普通人的尊严</strong>。它让我们意识到：历史不是只有国王和战争，还有煤灰、账单、缝补过的袜子和邻里的轻声问候。<strong>Agnès Toward</strong>用一生守护了家庭记忆，而这间公寓成为了<strong>苏格兰社会史的珍贵标本</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座城的意义，就是学会在平凡中看见史诗。每一道墙皮剥落的痕迹，每一封泛黄的信件，都是那些无声者存在的证明。<strong>出租屋博物馆</strong>是一个谦卑而伟大的句号，为维多利亚时代到战后的平民生活画下了圆满的注脚。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/craigmillar-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克雷格米勒城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Craigmillar Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/neist-point-lighthouse\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奈斯特角灯塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Neist Point Lighthouse</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cairngorms-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    凯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">凯恩戈姆国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cairngorms National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "craigmillar-castle-history",
+          "name": "克雷格米勒城堡",
+          "englishName": "Craigmillar Castle"
+        },
+        {
+          "slug": "neist-point-lighthouse",
+          "name": "奈斯特角灯塔",
+          "englishName": "Neist Point Lighthouse"
+        },
+        {
+          "slug": "cairngorms-national-park",
+          "name": "凯恩戈姆国家公园",
+          "englishName": "Cairngorms National Park"
+        }
+      ]
+    }
+  ]
+}

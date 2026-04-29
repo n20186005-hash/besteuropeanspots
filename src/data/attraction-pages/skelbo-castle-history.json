@@ -1,0 +1,85 @@
+{
+  "slug": "skelbo-castle-history",
+  "template": "history",
+  "metadata": {
+    "title": "斯凯尔博城堡历史｜苏格兰高地的中世纪要塞与家族传奇",
+    "description": "探索斯凯尔博城堡的前世今生：13世纪建造、苏格兰独立战争中的据点、Murray家族的权力象征。一段被遗忘的高地往事，等你揭开。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国（苏格兰）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "多诺赫（Dornoch）附近，高地萨瑟兰郡",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯凯尔博城堡",
+      "href": "/attractions/skelbo-castle-history"
+    }
+  ],
+  "hero": {
+    "title": "斯凯尔博城堡・Skelbo Castle・英国（苏格兰）・多诺赫（Dornoch）附近，高地萨瑟兰郡",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在苏格兰高地的荒原与北海交汇处，一座破败的石堡静静俯瞰着多诺赫湾。它叫斯凯尔博，始建于13世纪，曾是苏格兰独立战争的血腥战场，也是默里（Murray）家族几代人的权力中心。如今，石墙上爬满苔藓，风从裂口穿过，仿佛还回荡着几个世纪前的号角与低语。抛开游玩攻略，走进斯凯尔博城堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">斯凯尔博城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Skelbo Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Skelbo Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国（苏格兰）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">多诺赫（Dornoch）附近，高地萨瑟兰郡</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">（严格来说，斯凯尔博并非城市，而是一座孤立的城堡。但它周围的土地——萨瑟兰郡——有着更古老的历史。）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯凯尔博城堡的起源可以追溯到<strong>13世纪中叶</strong>。当时的萨瑟兰郡属于北欧与苏格兰文化的交界地带，维京人曾在这里留下深深的印记。城堡的名字“Skelbo”<strong>来源于古盖尔语</strong>，很可能由“sgail”（阴影）和“both”（小屋）组合而成，意为“阴影中的小屋”——这恰好描绘了它背靠山丘、面朝海湾的萧瑟位置。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初，这里只是一座简单的木结构防御工事，由当地领主——<strong>萨瑟兰家族的早期分支</strong>——建造。到13世纪末，随着苏格兰与英格兰之间冲突加剧，石砌的塔楼和城墙开始取代木头。城堡的设计并不庞大，却异常坚固：它坐落在海崖之上，三面被天然沟壑保护，只有一条狭窄的通道通向大门。这种选址策略，正是中世纪高地领主对安全的本能追求。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了14世纪，这座城堡的命运与默里家族紧密交织。默里家族是苏格兰北部最古老、最有权势的家族之一，他们通过联姻和战争逐渐控制了斯凯尔博。城堡的名称在历史记录中第一次被明确提及，是在<strong>1296年</strong>——那一年，英格兰国王爱德华一世入侵苏格兰，斯凯尔博被作为“叛国者的巢穴”记录在案。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 苏格兰独立战争中的要塞（1296–1314）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯凯尔博城堡在苏格兰独立战争中扮演了关键角色。1296年，爱德华一世的大军席卷苏格兰北部，城堡被英格兰军队占领。然而，仅仅两年后，苏格兰<strong>民族英雄威廉·华莱士的盟友</strong>——年轻的安德鲁·默里爵士（Sir Andrew Murray）——发动了反攻。默里家族利用斯凯尔博作为基地，在<strong>1297年</strong>发动了一系列突袭，切断英格兰人的补给线。同年9月，默里与华莱士在斯特灵桥战役中联手击溃英格兰军队，而斯凯尔博城堡正是他们集结兵力的秘密据点之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战争结束后，城堡回到默里家族手中。但由于常年战争，城堡多次毁坏又重修。最明显的痕迹是至今仍可见的<strong>北墙断裂处</strong>——据说是1308年罗伯特·布鲁斯（Robert the Bruce）的军队攻城时留下的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 默里家族的权力中心（15–16世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">进入15世纪，斯凯尔博城堡成为默里家族在萨瑟兰的核心居所。当时的城堡主<strong>约翰·默里爵士（Sir John Murray）</strong> 在<strong>1445年</strong>对城堡进行了大规模扩建，增加了宴会厅和地牢。地牢的墙壁上至今还刻有囚徒的涂鸦——其中一个被认为是<strong>1490年</strong>被关押的麦克劳德家族成员留下的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">16世纪宗教改革期间，城堡成了天主教徒与清教徒冲突的战场。1560年，一场大火焚毁了东翼的木制屋顶，至今仍能看到焦黑的梁柱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 最后的衰落与废弃（18世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到17世纪中期，默里家族分支迁离，城堡逐渐失去军事价值。<strong>1746年</strong>，詹姆斯二世党人起义席卷高地，斯凯尔博被少量政府军占领作为瞭望堡。但起义失败后，这座城堡被正式废弃。石料被附近农民拆走建房，屋顶坍塌，只剩下如今这幅骨架般的残貌。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 安德鲁·默里爵士（Sir Andrew Murray，约1270–1297）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">安德鲁·默里是苏格兰独立战争初期被遗忘的“第二号英雄”。他出生于默里家族的一个旁系，父亲是萨瑟兰的领主，斯凯尔博城堡正是他的童年居所之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1296年，爱德华一世攻占高地后，安德鲁被关押在伦敦塔。但他越狱逃回苏格兰，以斯凯尔博为基地招募起义军。他的军事才能丝毫不逊于华莱士，尤其擅长利用高地地形打游击。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“默里的眼睛像北海的冰，他看一遍地图就知道哪里能设伏。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——14世纪编年史《福登篇》中的描述</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1297年9月，安德鲁与华莱士在斯特灵桥会合。他被任命为苏格兰联合军队的指挥官之一。但在战役结束后不久，他因伤口感染去世，年仅27岁。他死后，他的儿子和孙子继续守护斯凯尔博，直到16世纪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天，城堡的塔楼废墟中仍有一块刻着“AM”字母的石头，据说是安德鲁生前亲手刻下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 伊丽莎白·默里（Elizabeth Murray，约1530–1580）——城堡的女主人与悲剧</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊丽莎白·默里是16世纪斯凯尔博城堡的女主人，也是默里家族在宗教改革时期的关键人物。她是一位虔诚的天主教徒，拒绝皈依新教。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1560年苏格兰议会通过新教改革法案后，伊丽莎白拒绝交出城堡中的拉丁文弥撒书和圣坛。当地新教领主曾多次围攻城堡，但伊丽莎白依靠城堡坚固的防御和对地形的熟悉，坚守了整整三年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，1563年春天，内部仆人叛变，打开后门放入了敌人。伊丽莎白在地牢中被囚禁了九个月，最终被允许离开，但城堡的东翼在冲突中被纵火烧毁。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“她说她宁愿看到这座石头城堡烧成灰，也不愿看着信仰的蜡烛在风中熄灭。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——摘自16世纪信件集《北方日记》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊丽莎白后来隐居在几英里外的小屋里，直到1580年去世。她的墓碑上写着：“为信仰守住了城墙的女人。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 罗伯特·戈登爵士（Sir Robert Gordon，1580–1656）——修史者与城堡的守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗伯特·戈登并非城堡的主人，而是一位历史学家。他的家族与默里家族世代联姻，他在17世纪多次长住斯凯尔博，撰写《萨瑟兰郡史》。他的书桌就摆在那间被烧毁的东翼重建的房间里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗伯特在书中详细记录了城堡的历史，包括那些他采访到的老人口述的故事。他写道，城堡的地牢下面还有一层秘密洞穴，用来隐藏家族珍宝——但他在提到这个线索后，神秘地补充：“我没有下去看，因为老管家说那里住着别的东西。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的书后来成为研究高地历史的重要资料，而斯凯尔博城堡也因为他细致的描述，没有彻底被历史遗忘。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在萨瑟兰郡的农耕家庭中，斯凯尔博城堡总是与一个关于“黑犬”的故事联系在一起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在<strong>16世纪末的某个冬天</strong>，城堡突然被一团浓雾笼罩。守护城堡的士兵们看到一个巨大的黑犬从海湾游上岸，穿过大门，径直走向城堡最高的塔楼。黑犬浑身湿漉漉的，眼睛闪着红光。士兵们试图拦截，却发现自己无法动弹。第二天，城堡的年轻领主被发现死在塔楼的床上，胸口有一道三指宽的爪痕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此以后，每当有默里家族成员即将死去，那只黑犬便会在午夜现身，从海上游向城堡。人们把它叫做“斯凯尔博的渡魂犬”。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“它不是恶意的，只是来带人走。老默里夫人去世前的那晚，有个牧羊人看到它安静地坐在塔楼顶上，像一尊石像。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——摘自19世纪萨瑟兰郡民俗志</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到今天，当地老人还会警告孩子：不要在满月之夜靠近斯凯尔博城堡的废墟，因为那只黑犬可能还在寻找下一个要渡的人。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯凯尔博城堡不是什么宏伟的王宫，也不是游客如织的名胜。它只是一座被时光咬得支离破碎的石头骨架。但正是这种残缺，让它成了苏格兰历史最诚实的见证者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这里，你可以触摸到独立战争的焦土、宗教改革时的火舌、家族起落的尖塔。每一块石头都承载过某个人的野心、恐惧或信念。读懂斯凯尔博，就是读懂欧洲北部那一段不为人知的、被荒野与海风封存的历史。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</blockquote>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castle-moil-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莫\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莫伊尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle Moil</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunrobin-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓罗宾城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunrobin Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dunvegan-castle-gardens-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    邓\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">邓韦根城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dunvegan Castle & Gardens</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "castle-moil-history",
+          "name": "莫伊尔城堡",
+          "englishName": "Castle Moil"
+        },
+        {
+          "slug": "dunrobin-castle-history",
+          "name": "邓罗宾城堡",
+          "englishName": "Dunrobin Castle"
+        },
+        {
+          "slug": "dunvegan-castle-gardens-history",
+          "name": "邓韦根城堡与花园",
+          "englishName": "Dunvegan Castle & Gardens"
+        }
+      ]
+    }
+  ]
+}

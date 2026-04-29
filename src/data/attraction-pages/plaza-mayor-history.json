@@ -1,0 +1,85 @@
+{
+  "slug": "plaza-mayor-history",
+  "template": "history",
+  "metadata": {
+    "title": "马德里主广场历史溯源｜西班牙权力中心的百年沧桑与名人传奇",
+    "description": "从鱼市到皇家庆典场，从宗教裁判火刑柱到斗牛狂欢地。走进马德里主广场的砖石记忆，聆听哈布斯堡王朝的回声与塞万提斯的足迹。一个广场，半部西班牙史。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马德里",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马德里主广场",
+      "href": "/attractions/plaza-mayor-history"
+    }
+  ],
+  "hero": {
+    "title": "马德里主广场・Plaza Mayor・西班牙・马德里",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">它从未被城墙包围，却比任何城堡都更深刻地见证了西班牙帝国的兴衰。马德里主广场，这座诞生于十六世纪哈布斯堡王朝鼎盛期的方正庭院，最初是鱼市，后来成为加冕、斗牛、审判甚至处决的公共舞台。四百年间，它的砖石渗入了国王的权谋、平民的欢呼与圣徒的虔诚。 抛开游玩攻略，走进马德里主广场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">马德里主广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Plaza Mayor</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Plaza Mayor</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">马德里</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>主广场的诞生，源于一位国王的野心与一场火灾的契机。</strong> 1561年，腓力二世将宫廷从托莱多迁至马德里，这座原本默默无闻的小镇一夜之间成为帝国心脏。但马德里的市集脏乱不堪，鱼贩沿街吆喝，臭味熏天。国王需要一个足以彰显帝国威严的“王室客厅”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1580年，建筑师胡安·德·埃雷拉受命设计一个矩形广场。</strong> 他的灵感来自文艺复兴的和谐比例——四周统一的三层阳台，底下拱廊环绕，北侧立着面包房之家（Casa de la Panadería），原本是面包市场，却以奢华的壁画和苏黎世钟楼成为广场的视觉中心。但埃雷拉并未看到完工：广场在1617年才最终落成，此时已由他的弟子胡安·戈麦斯·德·莫拉接手，增加了尖顶塔楼和马德里市徽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>名字本身就有故事。“Mayor”在西班牙语中意为“主要的”，但最初它叫“Plaza de Arrabal”（郊区广场）</strong>，因为那时马德里城墙外只有零星村落。后来更名“Plaza Real”（皇家广场），直到十九世纪才正式定名“Plaza Mayor”。有趣的是，广场从一开始就被设计为多功能场所：地面铺着粗糙的卵石，中间设有石质十字架，既是市场，又是斗牛场，甚至还曾蓄水成湖，举办模拟海战——马德里人把地中海搬到了高原上。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一个印记：权力的舞台与火刑的阴影。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场最黑暗的一页发生在十七世纪。宗教裁判所曾多次在此举行“信仰审判”（Auto de fe）。<strong>1623年，一场针对“犹太化基督徒”的公开宣判在广场中央的临时木台上演</strong>，数百名被告身穿黄色悔罪服，在数万围观者的注视下被宣布有罪。死刑犯随后被带往城外的火刑柱。西班牙黄金时代的繁荣，背面始终燃烧着不宽容的火焰。广场东侧的皇家面包房窗口，是国王与王室成员观看这些“表演”的专属包厢——他们甚至称其为“美德剧场”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二个印记：斗牛的血色狂欢与皇家的消遣。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与火刑同样频繁的是斗牛。<strong>十八世纪前，广场每年举行数十场斗牛，最多时一天屠杀五十头公牛。</strong> 贵族骑在战马上用长矛刺牛，鲜血染红卵石，观众从阳台扔下鲜花或臭鸡蛋。1737年，一场庆祝费尔南多六世诞生的斗牛中，国王的阳台木板突然断裂，国王险些坠落，从此斗牛被移至城外新建的环形广场。但主广场的斗牛传统并未完全消失——如今每年圣伊西德罗节，广场上仍有仿古的“斗牛氛围”，只是不再有杀戮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三个印记：拿破仑铁蹄下的广场变脸。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1808年，拿破仑军队占领马德里，主广场被改名为“拿破仑广场”。 <strong>法国人拆除了广场中央的青铜骑士像（腓力三世像）</strong>，将其熔铸成大炮。马德里市民在1808年5月2日的起义中，从广场奔涌而出，与法军展开巷战。戈雅的名画《1808年5月3日的枪杀》虽不在广场，但广场见证了起义的起点。战后，雕像在1848年被重新竖立——那尊腓力三世骑马的青铜像，至今仍是广场的绝对地标，马匹的前蹄被设计为抬起，据说是因为国王要求“我的马不能像驮货的骡子”。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一位：弗朗西斯科·德·戈雅——广场边的“暗黑记录者”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">戈雅从未在主广场居住，但他租住过广场南侧的房子（如今部分改为住宅和画廊）。<strong>1790年代，戈雅担任皇家美术学院院长时，常在面包房之家的阳台上画速写</strong>，记录广场上的市井百态：卖水的女孩、耍猴的艺人、被押送的女巫嫌疑人。他在一组名为《奇想集》的蚀刻版画中，直接以广场为背景，描绘了“理性沉睡，恶魔苏醒”的寓言——一头巨兽般的教皇雕像立在广场中央，四周是尖叫的人群。戈雅或许是唯一一个在广场上看到“超现实”一面的画家。如今，广场西北角的戈雅雕像（位于圣米格尔市场旁）注视着熙攘人流，仿佛仍在记录西班牙的暗面。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二位：佩德罗·卡尔德隆·德拉·巴尔卡——广场剧本中的“公共舞台”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位黄金时代剧作家曾为腓力四世撰写了大量宫廷戏剧，他的许多作品首演就在主广场的临时舞台上。<strong>1636年，卡尔德隆的《人生如梦》改编为街头剧</strong>，演员在广场北侧搭起的双层舞台上表演，观众挤满卵石地面，国王和王后从面包房阳台观赏。剧中的名言“人生如梦，梦如人生”在广场的回响中显得尤为讽刺——因为就在同一年，广场的另一个角落正在焚烧异端书籍。卡尔德隆后来成为宫廷司铎，他的葬礼队伍从广场经过，马德里全城为他默哀。今天，广场一角的纪念牌用西班牙语刻着他的诗句：“整个生活皆是舞台，我们都是演员。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三位（小众，强化差异化）：托马斯·德·托雷洪——被遗忘的广场大盗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">十八世纪的传奇窃贼“毛贼托雷洪”（Torrejón el Tuerto）专在主广场作案。<strong>他独眼，戴宽边帽，混迹于鱼市和香料摊</strong>，靠模仿外国人腔调骗过巡警。1756年，他在广场北侧的面包房地下室藏匿赃物，却被一名卖面包的女工告发。托雷洪在广场中央的木枷上示众三天，脖子上挂着标语“我偷了国王的银子”。但马德里穷人视他为罗宾汉，偷偷给他送水和熏肠。传奇越传越神：有人说他后来越狱，逃往美洲；也有人说他死后，广场的鸽子每年复活节都会在他受刑处停下。今天，老马德里人仍会指着面包房拱门下的一块石头说：“那是托雷洪靠过的柱子。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>石像流泪的传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">主广场四周的拱廊共有137个拱券，每个拱券上方都装饰着不同的家族纹章或神话浮雕。其中最著名的是面包房之家的西面浮雕——<strong>一尊“哭泣的女人”头像</strong>，据说是十七世纪一位少女的化身。传说她爱上了一位广场上的面包师学徒，学徒却被诬陷偷窃白银，被吊死在广场中央的绞架上。少女每日在拱廊下哭泣，最终化为了石像。每逢西班牙国庆日（10月12日）清晨，石像的右眼会“流出”水珠——其实是露水，但老马德里人坚信那是少女的眼泪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>腓力三世铜像的“活马”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场中央的腓力三世骑马像，传说马匹在满月之夜会微微抖动鬃毛，甚至发出低沉的嘶鸣。<strong>一个中世纪传说称，这匹马是由巫师施过法的真马</strong>，它曾在1616年驮着腓力三世穿越广场时突然腾空，国王差点坠地。工匠为了安抚马魂，在铜马肚里塞了七枚银币和一片圣徒骨片。至今，每年6月圣胡安节，仍有孩子偷偷往马嘴里丢小石子，祈祷自己的愿望能随马鸣传上天。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“不存在的门”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在广场南侧，有一扇永远锁死的拱门，门楣上刻着无名氏的题词“这里曾有门”。<strong>民间说法是：这扇门通向地下一个被诅咒的赌窟</strong>，十八世纪时，一名赌徒在这里输光了家产，用匕首刺穿自己心脏后消失在黑暗中。此后，所有试图撬开门锁的人都会听见门后传来骰子滚动的声音。如今，这扇门被砖墙堵死，但游客仍能看见门框的轮廓，不少人在门前照相时故意避开它，生怕听见那神秘的骰子声。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">四百年的时光像面包房之家的钟摆，在马德里主广场的四个角落来回敲击。 <strong>这里不是巴黎的协和广场，没有断头台的冰冷；也不是罗马的纳沃纳，没有贝尼尼的喷泉。</strong> 它就是一个方方正正的盒子，装满了西班牙最激烈的矛盾：信仰与火刑、斗牛与戏剧、皇家与市井。每一块卵石都浸透了大航海时代的金银与十九世纪的鲜血。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你坐在拱廊下的咖啡座，抬头看到那些百叶窗后透出的灯光，你会意识到这些窗户见证了戈雅的画笔、卡尔德隆的台词、托雷洪的逃亡，以及无数马德里人平凡的晨昏。 <strong>读懂主广场，就是读懂西班牙公共生活的本质：一个永远开放的剧场，每个人都在台上，也都在台下。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/iberostar-waves-royal-andalus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊波罗之星皇家安达卢斯酒店</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Iberostar Waves Royal Andalus</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/museo-nacional-del-prado\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    普\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">普拉多博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museo Nacional del Prado</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/belmonte-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    贝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">贝尔蒙特城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Belmonte Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "iberostar-waves-royal-andalus",
+          "name": "伊波罗之星皇家安达卢斯酒店",
+          "englishName": "Iberostar Waves Royal Andalus"
+        },
+        {
+          "slug": "museo-nacional-del-prado",
+          "name": "普拉多博物馆",
+          "englishName": "Museo Nacional del Prado"
+        },
+        {
+          "slug": "belmonte-castle-history",
+          "name": "贝尔蒙特城堡",
+          "englishName": "Belmonte Castle"
+        }
+      ]
+    }
+  ]
+}

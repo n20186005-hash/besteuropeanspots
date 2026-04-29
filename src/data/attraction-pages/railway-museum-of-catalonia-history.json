@@ -1,0 +1,69 @@
+{
+  "slug": "railway-museum-of-catalonia-history",
+  "template": "history",
+  "metadata": {
+    "title": "加泰罗尼亚铁路博物馆历史溯源｜蒸汽机车与加泰罗尼亚工业革命的前世今生",
+    "description": "从19世纪蒸汽机车到工业革命浪潮，加泰罗尼亚铁路博物馆藏着怎样的铁轨传奇？走进比拉诺瓦的老机车库，聆听工程师、火车司机与一列列火车头背后的故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "比拉诺瓦和拉赫尔特鲁 (Vilanova i la Geltrú)",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "加泰罗尼亚铁路博物馆",
+      "href": "/attractions/railway-museum-of-catalonia-history"
+    }
+  ],
+  "hero": {
+    "title": "加泰罗尼亚铁路博物馆・Railway Museum of Catalonia・西班牙・比拉诺瓦和拉赫尔特鲁 (Vilanova i la Geltrú)",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在巴塞罗那以南的海滨小城比拉诺瓦和拉赫尔特鲁，一座红砖砌成的扇形机车库默默矗立。这里曾是加泰罗尼亚铁路公司的核心机务段，见证了19世纪末钢铁巨龙如何撕裂地中海沿岸的寂静。如今，它变身为加泰罗尼亚铁路博物馆，用生锈的轮轴、褪色的信号旗，诉说着一个关于速度、权力与平民记忆的时代。抛开游玩攻略，走进这片铁轨与蒸汽的时空，遇见属于加泰罗尼亚工业革命的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">加泰罗尼亚铁路博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Railway Museum of Catalonia</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Railway Museum of Catalonia</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">比拉诺瓦和拉赫尔特鲁 (Vilanova i la Geltrú)</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">比拉诺瓦和拉赫尔特鲁的诞生，与中世纪农田里的新橙树有关。<strong>1274年</strong>，阿拉贡国王佩德罗三世特许在此建立 <strong>“Vilanova de la Mar”</strong>（海边新城），以松绑港口贸易的税收限制。名字中的“Geltrú”则源于一位名叫 **Gualter</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/vitoria-gasteiz-city-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    维\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">维多利亚-加斯泰斯城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Vitoria-Gasteiz City Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castillo-de-montemayor\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙特马约尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castillo de Montemayor</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/las-charcas\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉斯查卡斯天然泳池群</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Las Charcas</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "vitoria-gasteiz-city-walls",
+          "name": "维多利亚-加斯泰斯城墙",
+          "englishName": "Vitoria-Gasteiz City Walls"
+        },
+        {
+          "slug": "castillo-de-montemayor",
+          "name": "蒙特马约尔城堡",
+          "englishName": "Castillo de Montemayor"
+        },
+        {
+          "slug": "las-charcas",
+          "name": "拉斯查卡斯天然泳池群",
+          "englishName": "Las Charcas"
+        }
+      ]
+    }
+  ]
+}

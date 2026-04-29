@@ -1,0 +1,85 @@
+{
+  "slug": "eryri-national-park-history",
+  "template": "history",
+  "metadata": {
+    "title": "埃里里国家公园历史溯源｜威尔士高山上的龙之传说与最后的凯尔特抵抗",
+    "description": "揭开埃里里（斯诺多尼亚）的尘封往事：从罗马人的矿井到传奇王子Owain Glyndŵr的起义，从亚瑟王的战场到威尔士诗人的灵感之源。走进这片群山，遇见不列颠最古老的灵魂。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡那封（Caernarfon）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "埃里里国家公园（斯诺多尼亚）",
+      "href": "/attractions/eryri-national-park-history"
+    }
+  ],
+  "hero": {
+    "title": "埃里里国家公园（斯诺多尼亚）・Eryri National Park (Snowdonia)・英国・卡那封（Caernarfon）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在威尔士西北部，一片苍茫的山脉以 <strong>Eryri</strong> 之名屹立千年——罗马人称之为“鹰之巢”，撒克逊人却唤作“雪丘”。这里曾是凯尔特人最后退守的堡垒，是神话中巨龙的巢穴，也是诗人与起义者共同的圣山。抛开游玩攻略，走进埃里里的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">埃里里国家公园（斯诺多尼亚）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Eryri National Park (Snowdonia)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Eryri National Park (Snowdonia)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卡那封（Caernarfon）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃里里（Eryri）之名，源自古威尔士语 <strong>eryr</strong>，意为“鹰”——这片高耸的岩壁与幽深的山谷，自古便是金雕盘旋的领地。而英文名称 <strong>Snowdonia</strong> 则来源于撒克逊人眼中的“雪穹”（Snow Hill），两种语言在此碰撞，早已暗示了这片土地的冲突与融合。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">早在罗马帝国占领不列颠之前，凯尔特部落 <strong>Ordovices</strong> 便在高山深处挖掘铜矿。公元78年，罗马总督 <strong>阿格里科拉</strong> 率军征讨，在 <strong>Mynydd y Gwyddel</strong>（意为“爱尔兰人之山”）附近击溃了当地酋长。但罗马人始终未能真正驯服这片群山——那些隐藏在雾霭中的隘口和沼泽，成了不列颠最后一块凯尔特自治领的天然屏障。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市 <strong>卡那封</strong>（Caernarfon）正是罗马要塞 <strong>Segontium</strong> 的遗迹之上建立。公元3世纪，罗马人在这里驻军以控制通往埃里里的要道。然而真正赋予这座城市不朽之名的，是13世纪英格兰国王 <strong>爱德华一世</strong>——他占领威尔士后，在卡那封河口修建了那座令人生畏的 <strong>石砌城堡</strong>，并在此册封长子为“威尔士亲王”，试图从政治和象征上彻底征服这片土地。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这里从未被驯服，只是暂时沉睡了。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 威尔士民间谚语</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1284年</strong>，爱德华一世颁布《威尔士条例》，将埃里里山区的林地与牧场划为王室狩猎地。但威尔士人的反抗从未停息。<strong>1400年</strong>，威尔士贵族 <strong>欧文·格林杜尔</strong>（Owain GlyndŪr）在埃里里的山脚下点燃了起义的烽火。他自称威尔士亲王，利用山地的地形优势，以游击战击退英格兰军队。在 <strong>Machynlleth</strong> 的议会大厦里，他甚至建立了临时的威尔士议会。虽然起义最终在1415年失败，但格林杜尔的身影永远留在了埃里里的云雾中——没有人知道他最后葬身何处，民间相信他仍沉睡在某条山谷的石灰岩洞穴里，等待威尔士再次自由的时刻。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>19世纪</strong>，工业革命的浪潮涌向这里。石板矿工用锤子和炸药在 <strong>Llanberis</strong> 和 <strong>Blaenau Ffestiniog</strong> 的山坡上凿开巨大的采石场。这些石板被运往伦敦、巴黎甚至纽约，铺成了半个欧洲的屋顶。但矿工的血汗也刻进了埃里里的骨髓——罢工、镇压、童工，以及那些坍塌的矿洞里永远熄灭的矿灯。如今，那些废弃的采石场如同古罗马的剧院，沉默地诉说着另一种征服与抵抗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>户外运动的兴起</strong>则彻底重塑了这片土地的面貌。20世纪初，英国登山协会开始在 <strong>Pen y Pass</strong> 建立营地，将埃里里视为“英国阿尔卑斯”。但真正让这里成为旅行者圣地的，是诗人 <strong>W.H. 戴维斯</strong>（W.H. Davies）那句：“在斯诺登山巅，我触摸到了天空的骨骼。”</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>托马斯·特尔福德</strong>（Thomas Telford，1757-1834）——这位苏格兰工程师，将埃里里从地理屏障变成了英国工业的主动脉。<strong>1805年</strong>，特尔福德受命修建从伦敦到霍利黑德的邮政干道。当他进入埃里里山区时，遭遇了近乎绝望的挑战：陡峭的 <strong>Nant Ffrancon</strong> 峡谷和 <strong>Betws-y-Coed</strong> 的密林。他创造性地设计了 <strong>斯诺登山路段</strong>（A5公路前身），以最小坡度穿越山脉，并在 <strong>Conwy</strong> 河谷架设了当时世界最长的铸铁拱桥 <strong>Conwy Suspension Bridge</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">特尔福德的日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这里的岩石像是巨人堆砌的废墟，我的工人必须用铁索悬挂在悬崖上钻孔。但当你站在峰顶，看见海浪般的山峰向天际延伸，会明白为何威尔士人宁死也不放弃此地。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更鲜为人知的是，特尔福德还在此发现了罗马人开采铜矿的古隧道。他将其改建成排水渠，并写道：“两千年前的工程师与我在同一块石头上刻下了印记。”他的工程不仅连接了英格兰和爱尔兰，更将埃里里的石板、铜矿和羊毛运向了世界，却也彻底改变了山民的传统生活方式——牧羊人变成了矿工，羊肠小道变成了货车公路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>R.S. 托马斯</strong>（R.S. Thomas，1913-2000）——这位威尔士的诗人/牧师，被称作“埃里里的隐士”。他出生在卡迪夫，却选择在 <strong>Aberdaron</strong> 和 <strong>Llanbadrig</strong> 的偏僻教堂度过大半生。他的诗里充满了对威尔士语消亡的绝望，以及对埃里里荒原近乎宗教般的虔诚。他在《山脉》中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这些石头不是无言的——它们用威尔士语低语/关于龙和战争/关于跪着祈祷的巨人的膝盖。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">托马斯常常独自徒步进山，在 <strong>Tryfan</strong> 峰的巨石间露营，用铅笔在背面的纸上写诗。他拒绝将埃里里视为旅游胜地，认为游客的喧嚣亵渎了它的神性。<strong>1996年</strong>，他在一次访谈中愤怒地说：“他们来这里是为了征服山峰，而不是被山峰征服。真正的埃里里只属于那些愿意被它改变的人。”他的故居 <strong>Y Rhiw</strong> 如今已是一处小型纪念馆，墙上挂着他手抄的威尔士古歌谣——那些关于亚瑟王和圆桌骑士的凯尔特传说，据说就发生在埃里里的山脚下。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在埃里里深处，几乎每块巨石都附着传说。最著名的当属 <strong>龙之谷</strong>（Cwm-y-Dragon）的故事。据说，公元5世纪，布立吞国王 <strong>伏提根</strong>（Vortigern）试图在 <strong>Dinas Emrys</strong> 的山丘上建造一座要塞。但每晚总有神秘的力量推倒墙壁。智者告诉他，必须用一名没有父亲的男孩的血来祭祀土地。男孩名叫 <strong>梅林</strong>（Merlin），他揭开了真相：地下有两头巨龙在争斗，一红一白，它们的搏斗震塌了地基。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">梅林预言：红龙代表凯尔特人，白龙代表撒克逊人。终有一天，红龙会重新崛起，将白龙赶回大海。这个传说后来演变为威尔士国旗上的红龙图案——而Dinas Emrys山丘，就在埃里里国家公园的南端。至今，当地人仍会在满月之夜听见地下的低吼，那是巨龙还在沉睡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此外，在 <strong>Llyn Ogwen</strong> 湖畔，流传着 <strong>湖中骑士</strong>的故事。传说亚瑟王的骑士 <strong>贝德维尔</strong>（Bedivere）在战后将重伤的亚瑟王带到这里，湖中仙女乘白船来接亚瑟前往阿瓦隆。贝德维尔将 <strong>王者之剑</strong> 抛入湖中，一只手臂从水面伸出接住长剑，然后消失。如果你在清晨的薄雾中站太久，或许会看见涟漪下浮动的金光——那是剑柄在等待下一个真正的不列颠之王。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">埃里里的意义远不止于自然风光。它是威尔士民族认同的脊梁——每一道山脊都刻着反抗与坚守的印记，每一块石板都浸透着矿工的汗水与诗人的墨迹。当你在 <strong>Snowdon</strong> 山巅俯瞰北海与爱尔兰海之间的苍茫大地，你会明白为什么罗马人放弃征服，为什么格林杜尔选择在此起义，为什么特尔福德要用铁索挂悬崖修路，为什么托马斯至死守护威尔士语的脆弱火焰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座国家公园是一座活的历史化石：凯尔特人的低语、罗马人的铜矿、爱德华的城堡、工业革命的矿渣、反叛者的篝火，以及诗人们不会停止的吟唱，都沉淀在每一条山谷的空气中。读懂埃里里，就是读懂不列颠最古老的灵魂——高傲、坚韧、悲伤又充满希望。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/borth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dynamic-earth\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    动\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">动感地球</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dynamic Earth</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/buckingham-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    白\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">白金汉宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Buckingham Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "borth",
+          "name": "博斯",
+          "englishName": "Borth"
+        },
+        {
+          "slug": "dynamic-earth",
+          "name": "动感地球",
+          "englishName": "Dynamic Earth"
+        },
+        {
+          "slug": "buckingham-palace",
+          "name": "白金汉宫",
+          "englishName": "Buckingham Palace"
+        }
+      ]
+    }
+  ]
+}

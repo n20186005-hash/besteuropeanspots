@@ -1,0 +1,85 @@
+{
+  "slug": "morbitorium-history",
+  "template": "history",
+  "metadata": {
+    "title": "莫比托里乌姆历史溯源｜托斯卡纳瘟疫隔离所的隐秘往事与修道院传奇",
+    "description": "这个名字意为“疾病之地”的古镇，曾是中世纪黑死病隔离所与朝圣驿站。走进莫比托里乌姆，听修道院钟声下的人性与救赎故事，探寻欧洲公共卫生史的冷门一页。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "意大利",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "圣塞波尔克罗（Sansepolcro）附近",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "莫比托里乌姆古镇遗址",
+      "href": "/attractions/morbitorium-history"
+    }
+  ],
+  "hero": {
+    "title": "莫比托里乌姆古镇遗址・Morbitorium・意大利・圣塞波尔克罗（Sansepolcro）附近",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>莫比托里乌姆</strong>，一个连意大利本地人都鲜少听闻的名字。它深藏在托斯卡纳东部的丘陵褶皱中，名字源自拉丁语 <strong>morbus</strong>（疾病）与 <strong>-torium</strong>（场所），直译便是“疾病之地”。14世纪黑死病肆虐时，这里是佛罗伦萨共和国设立的隔离检疫站。后来，方济各会修士在此建立修道院，将绝望之地变为祈祷之所。抛开游玩攻略，走进这座尘封的石头废墟，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">莫比托里乌姆古镇遗址</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Morbitorium</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Morbitorium</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">意大利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">圣塞波尔克罗（Sansepolcro）附近</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“1348年，当死神踏遍欧洲，佛罗伦萨颁布了最早的公共卫生法令：凡疫区来人，须在城外隔离四十日。——这是‘隔离’（quarantena）一词的诞生。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莫比托里乌姆正是在这一年启动建设。当时的佛罗伦萨执政团选中这片远离主干道、靠近溪流与森林的缓坡，筑起石墙与木栅，收容来自疫区的商旅、难民与伤患。最初它只是一排简陋的棚屋与一座小型礼拜堂，取名 <strong>Domus Morbidorum</strong>——“病患之家”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地名中的 <strong>-torium</strong> 后缀暗示了它的功能性：它是一座“场所”，而非定居点。直到1450年后，瘟疫周期性爆发，佛罗伦萨人不断扩建，石砌的隔离病房、修士宿舍、储水池和药草园逐渐成形。 <strong>莫比托里乌姆</strong>这个名字被正式刻在入口的砂岩拱门上，一直保留至今。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、隔离制度的活化石</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1374年，佛罗伦萨共和国颁布《瘟疫应对法令》，要求所有隔离站必须配置“健康通行证”与焚烧炉。莫比托里乌姆现存的地基中，考古学家发现了当时用于燃烧衣物与尸体的 <strong>双口陶窑</strong>，以及刻有“40”字样的木桩——那是计算隔离天数的原始记录。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、修道院的二次生命</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">16世纪初，瘟疫平息，隔离站废弃。1523年，一位名叫 <strong>乔瓦尼·达·圣塞波尔克罗</strong> 的方济各会修士路过此地，梦见圣母指示在此重建圣所。他带领十名修士在废墟上修建教堂与回廊，将曾经的“疾病场所”转化为 <strong>圣玛利亚康复修道院</strong>。修士们采集草药，为周边村庄提供医疗与教育，直到1796年拿破仑军队将其解散。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>三、石墙上的档案</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">教堂南墙至今残存大量 <strong>涂鸦与铭文</strong>，是不同时代的病人、修士和士兵留下的。最著名的一行字刻于1630年：“ <strong>健康是借来的，死亡是确定的。</strong> ”下方是十四个短横符号，据考证代表某位隔离者死前的天数计数。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 费德里科·德·蒙特费尔特罗（Federico da Montefeltro，1422-1482）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位乌尔比诺公爵是文艺复兴时期最杰出的雇佣兵队长与艺术赞助人。鲜为人知的是，他的母亲 <strong>伊丽莎白·德·格里利</strong> 在1448年曾因鼠疫隔离于莫比托里乌姆，并在此产下一名夭折的男婴。公爵后来秘密资助修道院的壁画工程，在教堂的祭坛画中，他母亲的侧影被画师描绘成圣母身边的虔诚信女。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 修女玛尔塔·利蒂（Marta Liti，1595-1670）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛尔塔是当地农民的女儿，因在瘟疫中照顾患者而被隔离于此。隔离期满后她选择剃发为修女，余生六十年都住在修道院。她留下了一本细腻的日记，记录草药配方、病人的梦呓，以及她如何用 <strong>葡萄酒与迷迭香</strong> 涂抹患者的溃疡。1734年，这本日记被一位路过的英国收藏家购走，现存于牛津大学博德利图书馆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 无名的石匠</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">教堂回廊的柱头上，有一组异乎寻常的浮雕：一只公鸡啄食葡萄藤下腐败的人骨，而旁边刻着拉丁文“ <strong>Sicut flos, sic vita nostra</strong> ”（如花一般，我们的生命）。艺术史家认为，作者可能是一位身份卑微的石匠——他曾在1560年至1570年间参与修缮，利用工余时间刻下对瘟疫的黑色幽默。他的名字已不可考，但这份作品被誉为“托斯卡纳最沉痛的民间艺术”。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每逢满月之夜，隔离站的幽灵会提着油灯，沿着溪流数亡者的数目。若你听见铁链声，那是死神在清点自己的账本。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人至今会讲述一个关于 <strong>白袍修士</strong> 的传说。据说17世纪末，修道院遭雷击起火，一位名叫 <strong>贝内德托</strong> 的修士抢救出了所有记载病人名字的羊皮卷。大火吞噬了他的眼睛，但他依然摸黑将羊皮卷抱到溪边。从此，他的灵魂永远在石墙间徘徊，每到11月2日（万灵节），人们能见到一个模糊的白影在废墟中弯腰书写——他仍在记录未被超度的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一个习俗：每年初春，村民会带着 <strong>面包与无花果干</strong> 来到遗址，撒向溪流。象征为四百年前死于隔离的病人提供最后的圣餐。这一习俗在2010年被联合国教科文组织列入意大利非物质遗产示范项目。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莫比托里乌姆不是一座宏伟的城堡，也不拥有璀璨的艺术品。它的价值在于—— <strong>用石墙和尘土，记住了人类面对瘟疫时最原始的恐惧、勇气与仁爱</strong>。从隔离制度到修道院慈善，每一块砖都浸透了生与死的博弈。读懂它，就是读懂欧洲公共卫生史的一页侧影，也是触摸到普通人如何在绝望中保持尊严。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">若你厌倦了游人如织的佛罗伦萨，不妨驱车来到这片宁静的丘陵。站在拱门斑驳的“Morbitorium”拉丁刻字前，你会忽然明白： <strong>疾病从未真正离开，但人性的光芒也从未熄灭。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/su-nuraxi-di-barumini-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏努拉西（撒丁岛上保存最完整的史前巨石塔楼建筑群）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Su Nuraxi di Barumini</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cividale-del-friuli-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奇\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奇维达莱德尔弗留利</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cividale del Friuli</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alberobello-trulli\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔贝罗贝洛圆顶石屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alberobello</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "su-nuraxi-di-barumini-history",
+          "name": "苏努拉西（撒丁岛上保存最完整的史前巨石塔楼建筑群）",
+          "englishName": "Su Nuraxi di Barumini"
+        },
+        {
+          "slug": "cividale-del-friuli-history",
+          "name": "奇维达莱德尔弗留利",
+          "englishName": "Cividale del Friuli"
+        },
+        {
+          "slug": "alberobello-trulli",
+          "name": "阿尔贝罗贝洛圆顶石屋",
+          "englishName": "Alberobello"
+        }
+      ]
+    }
+  ]
+}

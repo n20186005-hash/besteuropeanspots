@@ -1,0 +1,85 @@
+{
+  "slug": "royal-mile-history",
+  "template": "history",
+  "metadata": {
+    "title": "皇家一英里历史溯源｜爱丁堡中世纪街道的前世今生与苏格兰国王的传奇故事",
+    "description": "穿越千年时光，探寻皇家一英里的尘封往事：从爱丁堡城堡到荷里路德宫，这条石头路上曾走过玛丽女王、邦尼王子查理，也回荡着女巫审判的尖叫。抛开游玩攻略，走进苏格兰历史的血脉。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "爱丁堡",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "皇家一英里",
+      "href": "/attractions/royal-mile-history"
+    }
+  ],
+  "hero": {
+    "title": "皇家一英里・Royal Mile・英国・爱丁堡",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">皇家一英里不是一条路，而是苏格兰历史的活体切片。从11世纪的城堡山到16世纪的宫殿门，这条长约一英里的街道用石板记录了宗教改革、王朝更迭、女巫火刑和启蒙运动的星火。它的每一块石头都浸透着鲜血与荣耀，每一栋建筑都藏着秘密。抛开游玩攻略，走进皇家一英里的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">皇家一英里</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Royal Mile</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Royal Mile</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">爱丁堡</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">皇家一英里并非一次规划而成。它的雏形出现在 <strong>11世纪</strong>，当时 <strong>马尔科姆三世</strong> 在火山岩上建造了 <strong>爱丁堡城堡</strong>，城堡下方的缓坡逐渐形成一条通往修道院的小径。但真正的“城市”诞生于 <strong>12世纪</strong>，大卫一世授予爱丁堡皇家自治市地位，商人和工匠沿着这条坡道建房，形成了 <strong>“皇家大道”</strong> 的雏形。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地名渊源： “Royal Mile” 这个称呼其实很年轻，直到 <strong>1901年</strong> 才被正式使用。在此之前，它被分为四个独立路段：城堡山、草坪市场、高街、修道院街。但它的灵魂早在 <strong>中世纪</strong> 就已凝固——这是一条从城堡到宫殿的仪式通道，所有苏格兰国王加冕后都必须骑马走过这条街，接受臣民的欢呼，前往荷里路德修道院举行弥撒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的街道远比现在狭窄。房屋高耸，层层向外挑出，底层是店铺，楼上住人。没有下水道，垃圾直接倾倒在路上，所以 <strong>“皇家一英里”</strong> 其实是一条臭气熏天的泥泞坡道。但正是这种混乱和拥挤，催生了爱丁堡独特的 <strong>“封闭庭院”</strong> 结构——每一条主路背后都藏着迷宫般的小巷，被称为 <strong>“wynds”</strong> 和 <strong>“closes”</strong>，它们才是普通人真正的生活空间。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1732年的日记记载：“这里的空气如此污浊，贵族们不得不戴着香袋行走。但夜晚的烛火从每个窗户溢出，整条街像一条金色的河流。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 女巫审判的血色十字</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从 <strong>1590年</strong> 到 <strong>1682年</strong>，超过三百名女性在皇家一英里的 <strong>草坪市场</strong> 被处以火刑。最著名的是 <strong>1591年的“北贝里克女巫案”</strong>，詹姆斯六世亲自参与审讯，指控一群女巫用魔法企图杀死他。审判地点就在 <strong>圣吉尔斯大教堂</strong> 旁边。如今草坪市场地上有一块铜制 <strong>“女巫之井”</strong> 纪念砖，铭记着那些被恐惧吞噬的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 玛丽女王的一跃</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1566年</strong>，怀孕的玛丽女王在 <strong>圣吉尔斯大教堂</strong> 参加弥撒时，突然有一种强烈的预感——她必须立刻离开。据说她跳上一匹白马，沿着高街狂奔回城堡。仅仅两个小时后，大卫·里齐奥（她的意大利秘书）就在霍利鲁德宫被乱刀砍死。这场刺杀改变了苏格兰宗教格局，也开启了玛丽女王跌宕命运的序幕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 启蒙运动的咖啡馆</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>18世纪</strong>，皇家一英里的 <strong>高街</strong> 变成了思想的熔炉。<strong>大卫·休谟</strong>、<strong>亚当·斯密</strong> 经常在 <strong>“幸运斯宾斯咖啡馆”</strong> 辩论。休谟甚至因为太专注，在鹅卵石路上滑倒，被一个女商贩嘲笑：“你这聪明人，怎么连路都走不稳？” 这条街的咖啡馆孕育了苏格兰启蒙运动，让爱丁堡获得了 <strong>“北方的雅典”</strong> 称号。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛丽·斯图亚特：行走在刀锋上的女王</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛丽一世</strong>（1542-1587）与皇家一英里密不可分。她6岁被送往法国，18岁丧夫回国，从荷里路德宫到爱丁堡城堡，这条街是她权力与囚禁的双重象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1561年</strong>，她乘船抵达利斯港，骑马沿着皇家一英里进入爱丁堡。市民们涌上街头，鲜花和欢呼不断。但仅仅五年后，她在 <strong>圣吉尔斯大教堂</strong> 的弥撒中听到大卫·里齐奥遇刺的尖叫——刺客们沿着高街追杀她的秘书，鲜血溅在教堂台阶上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于里齐奥之死有一个流传已久的传说：刺客 <strong>达恩利勋爵</strong>（玛丽的丈夫）堵住霍利鲁德宫的晚餐室门，玛丽挺着大肚子跪在里齐奥身上，但匕首仍从她的裙摆间刺入。她哭喊着：“放过他，他是无辜的！” 无济于事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">后来玛丽被囚禁在 <strong>洛克利文城堡</strong>，但她最终逃出，集结军队。最后一战在 <strong>卡伯里山</strong> 惨败，她骑马穿过皇家一英里前往南边流亡。<strong>1568年</strong>，她越过边界进入英格兰，从此再也未踏上这条街道。<strong>1587年</strong>，她被伊丽莎白一世处决。皇家一英里上的 <strong>玛丽女王之家</strong>（Moiled House）至今保留着一段传说中她藏身的密室。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>罗伯特·伯恩斯：醉倒在脚巷的诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位与皇家一英里结缘的名人是苏格兰国宝诗人 <strong>罗伯特·伯恩斯</strong>。<strong>1786年</strong>，伯恩斯从艾尔郡来到爱丁堡寻求出版《苏格兰方言诗集》。他住在 <strong>高街</strong> 附近的一间出租屋里，晚上经常在 <strong>“白鹿酒吧”</strong> 喝酒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伯恩斯爱在 <strong>阿尔卑斯街</strong> 和 <strong>神圣十字街</strong> 之间游荡。他被视为“天才农夫”，爱丁堡的贵族们争相邀请他参加沙龙，但他更爱与普通酒鬼聊天。一次他在 <strong>“约翰尼·沃克”</strong> 酒吧喝醉，在鹅卵石路上摔倒，被一个女裁缝扶起来。伯恩斯当即写了一首即兴诗：“我的膝盖亲吻了古老的路，而你的手扶起了诗人的尊严。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他还在 <strong>圣吉尔斯大教堂</strong> 的墓碑上刻下过一行小诗——后来被擦掉，但传说仍流传。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>詹姆斯·博斯韦尔：与约翰逊博士的夜游</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1773年</strong>，传记作家 <strong>詹姆斯·博斯韦尔</strong> 带着大文豪 <strong>塞缪尔·约翰逊</strong> 游览皇家一英里。约翰逊博士当时已经64岁，气喘吁吁地爬上城堡山，抱怨“这条路是给山羊走的”。但在高街，他被一座 <strong>刘易斯岛</strong> 的石头迷住，声称“这座岛应该属于所有诗人”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博斯韦尔在日记里写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们穿过草坪市场时，一个醉汉冲着约翰逊大喊：‘喂，你是个胖教士吗？’博士正色回答：‘不，我是来看你们怎么浪费阳光的。’我们走进一家咖啡馆，博士喝了两杯雪利酒，然后对着壁炉说：‘如果英格兰也有这样的街，我们就不用去巴黎了。’”</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>幽灵马车与白衣女郎</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老人说，每逢万圣节前夕，皇家一英里的高街会出现一辆没有马匹的黑色马车，由一位戴面纱的白衣女郎驾驶。她会在 <strong>“倒钩门”</strong> 前停下，接上一位无头骑士。据说这是17世纪一位被丈夫背叛的贵妇的亡魂，她每晚寻找她的爱人头颅。如果你在午夜看见车辙印，千万不要回头，否则会被邀请上车。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“幸运的石头”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在 <strong>草坪市场</strong> 的 <strong>“女巫之井”</strong> 附近，有一个凹陷的石头。传说 <strong>15世纪</strong> 一位女巫被处决前，在石头上留下了一个诅咒：“谁碰这石头，谁就会在七天内收到一封信。” 起初人们害怕，但后来变成许愿石——只要你用左手摸它，心里默念愿望，并且不告诉任何人，愿望就会成真。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“国王的脚印”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣吉尔斯大教堂</strong> 门口的台阶上，有一个浅凹痕。传说 <strong>1593年</strong> 詹姆斯六世在去教堂的路上，被一个乞丐绊了一下，他的靴子印在湿水泥上。乞丐说：“陛下，您的脚印会永远留在这里，就像您的仁慈。” 国王下令保护这个印记，至今游客还能看到。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂皇家一英里，就是读懂苏格兰的两种灵魂：一边是城堡的军事威严，一边是宫殿的政治阴谋；一边是女巫火刑的血腥，一边是启蒙运动的光辉。这条街没有安静的角落，每一扇铁门后面都藏着过去。当你踩在凹陷的石板上，脚下是几百年前国王、诗人、女巫和酒鬼的脚步声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它不是博物馆，而是活着的记忆。如果你想亲身体验这些故事的温度——从 <strong>爱丁堡城堡</strong> 的 <strong>“玛丽的禁闭室”</strong> 到 <strong>“玛丽女王之家”</strong> 的秘密楼梯，从 <strong>“女巫之井”</strong> 到 <strong>“白鹿酒吧”</strong> 的古董吧台，所有地址和开放时间都在另一篇文章里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/parc-arfordirol-penrhos-coastal-park-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭罗斯海岸公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Parc Arfordirol Penrhos Coastal Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/britannia-bridge-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里坦尼亚桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Britannia Bridge (Pont Britannia)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/staffa-national-nature-reserve-fingals-cave\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    芬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">芬戈尔洞（斯塔法岛国家自然保护区）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Staffa National Nature Reserve - Fingal's Cave</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "parc-arfordirol-penrhos-coastal-park-history",
+          "name": "彭罗斯海岸公园",
+          "englishName": "Parc Arfordirol Penrhos Coastal Park"
+        },
+        {
+          "slug": "britannia-bridge-history",
+          "name": "布里坦尼亚桥",
+          "englishName": "Britannia Bridge (Pont Britannia)"
+        },
+        {
+          "slug": "staffa-national-nature-reserve-fingals-cave",
+          "name": "芬戈尔洞（斯塔法岛国家自然保护区）",
+          "englishName": "Staffa National Nature Reserve - Fingal's Cave"
+        }
+      ]
+    }
+  ]
+}

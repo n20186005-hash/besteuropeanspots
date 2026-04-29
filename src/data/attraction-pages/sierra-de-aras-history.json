@@ -1,0 +1,85 @@
+{
+  "slug": "sierra-de-aras-history",
+  "template": "history",
+  "metadata": {
+    "title": "阿拉斯山脉历史溯源｜西班牙南部秘境的前世今生与隐修传奇",
+    "description": "探索西班牙科尔多瓦郊外的阿拉斯山脉：从罗马采石场到隐修士的冥想之地，揭开古老碑刻、洞穴教堂与中世纪传说。一个被时间遗忘的宗教与权力交汇点。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科尔多瓦（Córdoba）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "阿拉斯山脉",
+      "href": "/attractions/sierra-de-aras-history"
+    }
+  ],
+  "hero": {
+    "title": "阿拉斯山脉・Sierra de Aras・西班牙・科尔多瓦（Córdoba）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在科尔多瓦以南20公里，一片布满白色石灰岩的起伏山脊从橄榄林中拔地而起——<strong>阿拉斯山脉（Sierra de Aras）</strong>。这里没有游客的喧嚣，只有风蚀的岩壁、失落的隐修洞穴，以及刻在石头上的千年记忆。罗马人曾在这里凿山取石，摩尔人将其视为神圣边界，而18世纪的僧侣则在绝壁上建造了令人惊叹的圣坛。抛开游玩攻略，走进阿拉斯山脉的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">阿拉斯山脉</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Sierra de Aras</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Sierra de Aras</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">科尔多瓦（Córdoba）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿拉斯山脉并非一座城市，而是一座绵延30公里的石灰岩山脉，位于卡布雷拉（Cabrera）与卢塞纳（Lucena）之间。它的名字源于伊比利亚语“Aras”，意为“祭坛”——早在公元前，当地部落就相信这座山是众神降临之处。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">考古学家在岩缝中发现了<strong>新石器时代的燧石工具</strong>，证明人类在6000年前已在此活动。真正改变山脉命运的是<strong>古罗马人</strong>：公元1世纪，他们发现了这里质密洁白的石灰岩，将其开辟为“科尔多瓦采石场”。大量石块被运往下游，用于修筑科尔多瓦的水道、城墙与桥梁。至今，岩壁上仍清晰可见罗马凿痕与采石留下的阶梯。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">随着罗马帝国衰落，阿拉斯山脉沦为无人区。8世纪，摩尔人统治安达卢西亚时，将山脊视为自然屏障，在山脚下修建了瞭望塔。<strong>地名“Aras”被阿拉伯人改造为“Al-aras”（神之殿堂）</strong>，但真正赋予山脉神秘色彩的，是后来隐居于此的基督教修士。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 失落的洞穴教堂群落</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在16世纪宗教改革浪潮中，一群信奉处女玛丽亚的隐修士从格拉纳达逃难至此。他们发现阿拉斯山脉的天然洞穴如同上帝恩赐的避难所——干燥、隐蔽，且视野开阔。修士们用铁凿在石灰岩壁上开凿出小礼拜堂、卧室和蓄水池，最多时容纳<strong>超过50名修士</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最壮观的遗迹是<strong>“天使洞窟”（Cueva del Ángel）</strong>：洞穴入口高12米，内部被分割为三层。底层是圣母礼拜堂，壁龛中残留着17世纪的彩色泥塑圣母像；中层为修士诵经的场所，岩壁上刻有拉丁文祷词；顶层则是墓地，至今可辨认出六具骸骨轮廓。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 拿破仑与采石场的二次生命</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1810年，法国军队占领安达卢西亚。拿破仑的工程师重新发现了阿拉斯的石灰岩：这批岩石硬度极高，适合筑造军事工事。法军强征当地农民开采，并将隐士们逐出洞穴。不到三年，超过5000吨石块被运往马拉加修建炮台。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，洞穴口仍可看到法军留下的标记：一个刻有“NAPOLEON 1811”的圆形印记和军规编号“3e Régiment de Génie”。当地人说，每到月圆夜，山风穿过采石场会发出低沉的呜咽，那是隐士们被驱逐时的哭泣。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 隐修士胡安·德·拉·克鲁斯（Fray Juan de la Cruz）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1634年—1712年</strong>，这位生于科尔多瓦的卡梅尔会修士被认为是阿拉斯山脉最传奇的居民。他并非那位同名的著名神秘神学家，而是<strong>一位自学的草药医生</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">胡安曾患重病，在深山养病期间发现当地仙人掌与地衣的药用价值。康复后，他选择永久隐居于此，在“天使洞窟”上部开凿了一个名为“草药之间”的小室。他每天采集植物、蒸馏精油，为山脚村庄的穷苦人治病。<strong>传说他能用七种本地草木调制出万能止血膏</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1675年大瘟疫期间，胡安拒绝离开，独自照顾数百名患者。村庄记录显示，他治疗的患者存活率高达70%。当地人称他为“阿拉斯的神医”。他去世后葬于洞窟墓地，但墓穴在1800年山体滑坡中被掩埋。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 考古学家玛丽亚·洛佩斯（María López）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1898年—1975年</strong>，这位科尔多瓦大学第一位女性考古教授，因研究阿拉斯山脉的史前岩画而闻名。1923年夏天，她在山脉东麓的“白色岩棚”发现了一组<strong>旧石器时代晚期的野牛与巫师的岩刻</strong>，共134个图案。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她的发现颠覆了学界认知：此前人们认为安达卢西亚的内陆山区并无史前艺术。玛丽亚的丈夫同样是一名考古学家，但却在1936年西班牙内战中被处决。玛丽亚独自继续研究，在战乱中偷偷将岩画拓片藏在修道院墙内。<strong>直到1962年，她的研究著作才得以发表</strong>，被公认为西班牙史前艺术研究的里程碑。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“月夜骑士”的故事</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在阿拉斯山脉脚下的阿尔莫多瓦小镇，老人们口口相传着一个传说：每个满月之夜，会有一位身披黑色斗篷的骑士骑着白马在山脊上疾行。他名叫<strong>罗德里戈</strong>，是13世纪一位摩尔公主的恋人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传公主被父亲囚禁在城堡顶楼，罗德里戈试图骑马闯入营救，却在山崖失足坠亡。死前他向神祈祷：若能带公主逃离，他愿永生守夜。从此他的灵魂骑马巡逻山脊。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“如果你在满月时看见山顶有隐约的白光，千万不要靠近——那是骑士寻找公主的马蹄铁在火石上迸出的火花。他会误以为你是敌人，引你走入深渊。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个传说深刻影响了当地宗教习俗：每年8月的第一个满夜，小镇居民会举着火把巡游山区，在骑士坠崖处撒下花瓣和欧芹，据说是为了安抚亡魂。这项传统至今已持续500年。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿拉斯山脉是一本摊开的石质史书：新石器时代的狩猎者、罗马的凿石奴隶、隐居的修士、拿破仑的军队，以及执着的考古学家——都在石灰岩上刻下了自己的印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂它，需要你暂时忘记醉人的安达卢西亚阳光。当指尖触摸着罗马人凿出的阶梯边缘，当视线回荡在修士们低吟圣经的洞穴穹顶，你会明白：<strong>真正的秘境，不在于与世隔绝，而在于它承载着那些被主流历史遗忘的孤独灵魂</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/navalcarnero-traditional-castilian-town\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    纳\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">纳瓦尔卡内罗</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Navalcarnero</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sagunto-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨贡托</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sagunto</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/casita-del-pescador\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    渔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">渔夫小屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Casita del Pescador</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "navalcarnero-traditional-castilian-town",
+          "name": "纳瓦尔卡内罗",
+          "englishName": "Navalcarnero"
+        },
+        {
+          "slug": "sagunto-castle",
+          "name": "萨贡托",
+          "englishName": "Sagunto"
+        },
+        {
+          "slug": "casita-del-pescador",
+          "name": "渔夫小屋",
+          "englishName": "Casita del Pescador"
+        }
+      ]
+    }
+  ]
+}

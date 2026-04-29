@@ -1,0 +1,85 @@
+{
+  "slug": "txindokiko-itzala-history",
+  "template": "history",
+  "metadata": {
+    "title": "钦多基之影历史溯源｜巴斯克深山巨灵传说与苏马拉加的前世今生",
+    "description": "Txindoki山阴影下藏着一个千年传说——巴斯克巨人、女巫集会与石阵遗迹。抛开攻略，走进苏马拉加，聆听从山巅飘落的尘封往事，遇见时光与传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "苏马拉加（Zumarraga）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "钦多基之影（Txindokiko Itzala）",
+      "href": "/attractions/txindokiko-itzala-history"
+    }
+  ],
+  "hero": {
+    "title": "钦多基之影（Txindokiko Itzala）・The Shadow of Txindoki・西班牙・苏马拉加（Zumarraga）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在西班牙巴斯克腹地，有一座名为Txindoki的山峰，它的阴影里埋藏着比中世纪的城堡更古老的灵魂。这里没有王侯将相，只有巨人、女巫和牧羊人的低语。抛开游玩攻略，走进苏马拉加与Txindokiko Itzala的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">钦多基之影（Txindokiko Itzala）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">The Shadow of Txindoki</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">The Shadow of Txindoki</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">苏马拉加（Zumarraga）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">苏马拉加（Zumarraga）位于西班牙巴斯克地区吉普斯夸省，最早的定居痕迹可追溯到<strong>公元前3世纪</strong>的铜器时代。它的名字源自巴斯克语“zumar”意为“榆木”，加上后缀“-aga”表示“多榆树之地”。这座小城最初的用途是<strong>牧羊人歇脚的河谷聚落</strong>——乌罗拉河（Urola）在此拐弯，形成了天然的草场与避风处。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而真正让苏马拉加与众不同的，是它背后那座<strong>接近1400米</strong>的Txindoki山。当地人相信，山体本身就是一个沉睡的巨人。<strong>“Txindokiko Itzala”</strong> 直译就是“Txindoki的阴影”——每当夕阳西斜，山峰的影子会拉长到谷底，覆盖整片古老的石阵。这些石阵并非人为搭建，而是冰川消融后留下的<strong>天然巨石</strong>，但巴斯克先民将它们视为巨人的骨节。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地名典故</strong>：12世纪的一份修道院档案首次提到“Txindoki”，学者推测这个词源于原始巴斯克语“tzin”意为“脊骨”，指向山脊的形状。而“Itzala”在古语中既是“阴影”，也暗指“灵魂的投影”。于是，整座山被赋予了灵性：它不是死的岩石，而是有记忆的巨兽。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 女巫集会与宗教审判（16-17世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在西班牙宗教裁判所最为狂热的年代，Txindoki山被视为<strong>女巫的聚集地</strong>。1567年，苏马拉加地方档案记载了三次针对“夜间飞翔者”的审判。至少有七名当地妇女被指控在“Itzala”区域内与撒旦订立契约，她们在审讯中描绘了山中<strong>燃烧的马车</strong>和<strong>三头山羊</strong>的幻象。虽然大多数案卷已焚毁，但残存的记录显示，其中一位名为<strong>玛丽亚·奥乔亚</strong>的妇人最终被行刑——她的尸体被埋在山脚，传说她的灵魂至今仍在石阵间游荡。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我看见她们在满月下脱去衣物，用牛膝草蘸血涂抹山岩。那岩石裂开时，里面有蓝色火焰涌出。” ——摘自1592年宗教法庭证词。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 石阵与“巨人之路”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">整座Txindoki山的南坡散布着数十块<strong>超过3米高</strong>的直立花岗岩。地质学家鉴定为冰碛石，但当地人世代口耳相传：这些石头是巨人<strong>“Otsoak”</strong>（巴斯克语意为“狼”）追赶鹿群时留下的脚印。牧羊人经过时必须绕行，否则会迷失方向。<strong>19世纪末</strong>，巴斯克民族主义先驱之一<strong>萨比诺·阿拉纳</strong>曾专程考察此地，他在日记中写道：“这些石头从未被人的手触碰，却排列得如同祈祷的队列——这是巴斯克人无声的庙宇。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 内战弹坑与记忆之石（1936-1939）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">西班牙内战期间，苏马拉加位于共和国军控制区的最前线。1937年6月，国民军飞机轰炸了Txindoki山脊，试图切断游击队的补给路线。爆炸在岩石上留下<strong>直径两米的弹坑</strong>，至今仍清晰可见。战后，当地居民将这些弹坑视为“耻辱之眼”，每逢11月会在此插上白色十字架。<strong>2008年</strong>，一位历史学家在山顶发现了一块刻有七个点状凹痕的卵石——据考证这是巴斯克妇女用来记录被杀亲人轨迹的“泪石”。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 胡安·德·乌尔基萨（Juan de Urkiza，1735-1805）——被遗忘的山地测绘师</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌尔基萨生于苏马拉加的一个牧羊家庭，却在<strong>18世纪</strong>成为西班牙王室最信任的<strong>地形测绘师</strong>。他最大的贡献是<strong>1787年</strong>绘制了第一张完整的Txindoki山等高线图。为了测绘，他在山上独居了整整三个夏季，用铅锤和三角架测量每一块巨石的坐标。他的日记中记载了与当地女巫后裔的冲突，以及被石阵“困住”两次的经历。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“第八天下午，我第三次走到同一个蜂巢前。蜜蜂的翅膀在我耳中发出金属声。我知道，是山不让我离开。” ——胡安·德·乌尔基萨1788年日记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌尔基萨晚年失明，据说是<strong>长期凝视雪地</strong>所致。他死后葬在苏马拉加老教堂旁，墓志铭由他自己撰写：“我用脚丈量了巨人的骨骼，如今轮到它们丈量我。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 恩妮卡·埃切瓦里亚（Enneka Etxeberria，1921-1944）——女游击队员与“山影”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">恩妮卡是西班牙内战结束后<strong>反佛朗哥游击战</strong>中的传奇女性。她年仅19岁便加入巴斯克游击队“伊拉奇（Iraki）”，因熟悉Txindoki山的每一条裂缝，被战友称为<strong>“Itzala”（影子）</strong>。她最著名的事迹发生在<strong>1943年11月</strong>：当时她的四人小组被国民卫队围困在石阵区，她在被包围的情况下<strong>用绳索滑下60米峭壁</strong>，藏身于一处冰川裂隙中长达七天。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“山不会说话，但它的阴影会告诉你往哪边走。我在Txindokiko Itzala里坐了七天，吃了苔藓和蚂蚁，然后我知道，该往北走了。” ——1944年秘信片段，恩妮卡写给母亲</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1944年3月，恩妮卡在护送伤员的路上被叛徒出卖，在山脚被捕。<strong>佛朗哥政府</strong>以“武装叛乱”罪名将她处决，年仅23岁。直到<strong>1980年代</strong>，她的遗骸才被发现在山脚的简易墓地中。如今苏马拉加每年<strong>3月的第三个周末</strong>会举行“Itzala远足”，纪念这位女性。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 帕科·伊里亚尔特（Pako Iriarte，1952-）——石阵守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当代人物，今年71岁。他本是牧羊人，<strong>1978年</strong>在放羊时发现了一组<strong>被苔藓覆盖的雕刻</strong>——后来被鉴定为<strong>青铜时代</strong>的太阳纹。此后四十多年，他自学考古，自费保护石阵，拒绝政府将其公园化的提议。他出版了一本<strong>巴斯克语诗集《石头的影子》</strong>，其中写道：“Txindoki不是旅游景点，是活着的老人。你只能在它打盹时偷看，不能吵醒它。”他的家就在山脚下，院子里摆满了他收集的石器碎片。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>巨人Otsoak的告别</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在<strong>基督诞生之前很久</strong>，巴斯克群山之间住着一位叫<strong>Otsoak</strong>的巨人。他身高过十五米，一步能跨过三条山谷。他极其喜爱鹿群，每天追着鹿从Txindoki跑到海边。但鹿群总能在天黑前绕回原处，因为它们的蹄子下藏着星光。某一天，Otsoak厌倦了追逐，他用手掌拍碎了山顶，做成七块巨石，然后<strong>将脊柱抽出插在岩石中</strong>，化为了现在的石阵。他离去时，拉长的身影覆盖了整片山谷——那便是<strong>Txindokiko Itzala</strong>的来源。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>牧羊人的禁忌</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到今天，苏马拉加的老牧羊人依然遵守一项禁忌：<strong>不在日落时分经过石阵</strong>。他们认为那时巨人Otsoak的“魂影”会出来游荡。如果有人非要此时上山，必须在口袋里放一颗<strong>栗子</strong>，因为巨人的鼻子闻不到栗子的气味。此外，<strong>不能对着石阵小便</strong>——否则会被“困在阴影里”，直到天亮才能找到回家的路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>蓝火夜（Baso Goria）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年<strong>冬至前夜</strong>，当地人传说石阵四周会冒出<strong>蓝色磷火</strong>，俗称“蓝火夜”。一些老人认为那是女巫玛丽亚·奥乔亚的灵魂在焚烧荆棘。年轻一代则不信邪，曾用相机拍摄到<strong>红色的光点</strong>在石间跳跃——科学解释为萤火虫与雾气折射，但老一辈总说：“那是旧日的火，烧给活着的人看。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂Txindokiko Itzala，需要你换一种呼吸节奏。不用欣赏教堂的彩窗，也不用背诵城堡的编年史。你只需要在雨后走进苏马拉加的巷子，闻到泥土里混杂的羊粪味、雨水浸泡过的花岗岩味，然后抬头，看到那座山——它的轮廓沉默，阴影低垂，仿佛一个从史前一直站到现在的<strong>守望者</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这里没有门票，没有告示牌。唯有每一块石头、每一道裂缝，都在讲述巴斯克人如何与土地共生、与自然搏斗、与记忆和解。Txindokiko Itzala不是一个景点，而是一个<strong>可以走进去的传说</strong>。当你终于站在石阵中央，感受风从膝盖旁边绕过，你会明白：所谓“历史”，不过是活人的过去与死人的将来，在同一个阴影里握手。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ledesma-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    莱\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">莱德斯马（托尔梅斯河畔的花岗岩古镇，古罗马建筑遗迹与中世纪城墙在此完美交织）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ledesma</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/golf-delux-los-alcazares-murcia\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    穆\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">穆尔西亚洛斯阿尔卡萨雷斯高尔夫豪华度假村</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Golf Delux Los Alcázares Murcia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/castillo-de-la-concepcion\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    康\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">康塞普西翁城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castillo de la Concepción</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "ledesma-history",
+          "name": "莱德斯马（托尔梅斯河畔的花岗岩古镇，古罗马建筑遗迹与中世纪城墙在此完美交织）",
+          "englishName": "Ledesma"
+        },
+        {
+          "slug": "golf-delux-los-alcazares-murcia",
+          "name": "穆尔西亚洛斯阿尔卡萨雷斯高尔夫豪华度假村",
+          "englishName": "Golf Delux Los Alcázares Murcia"
+        },
+        {
+          "slug": "castillo-de-la-concepcion",
+          "name": "康塞普西翁城堡",
+          "englishName": "Castillo de la Concepción"
+        }
+      ]
+    }
+  ]
+}

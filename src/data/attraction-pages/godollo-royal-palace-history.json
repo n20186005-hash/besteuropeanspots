@@ -1,0 +1,85 @@
+{
+  "slug": "godollo-royal-palace-history",
+  "template": "history",
+  "metadata": {
+    "title": "格德勒皇宫历史溯源｜茜茜公主的夏日行宫与匈牙利王室的隐秘往事",
+    "description": "茜茜公主最爱的匈牙利行宫，见证奥匈帝国辉煌与衰落。走进格德勒皇宫，探寻她的爱情悲剧与王室传奇。小众欧洲秘境，历史人文深度解读。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "匈牙利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "格德勒",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "格德勒皇宫",
+      "href": "/attractions/godollo-royal-palace-history"
+    }
+  ],
+  "hero": {
+    "title": "格德勒皇宫・Royal Palace of Gödöllő・匈牙利・格德勒",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在布达佩斯东北三十公里处，藏着一座被森林与草坪包围的巴洛克宫殿——<strong>格德勒皇宫</strong>。它曾是匈牙利最有势力的贵族私邸，更因一位皇后而闻名于世：<strong>奥地利皇后伊丽莎白</strong>，我们熟知的<strong>茜茜公主</strong>。她称这里为“唯一可以呼吸的地方”。抛开游玩攻略，走进格德勒的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">格德勒皇宫</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Royal Palace of Gödöllő</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Royal Palace of Gödöllő</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">匈牙利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">格德勒</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格德勒小镇的历史可以追溯到13世纪。当时，它只是多瑙河支流畔的一片沼泽边缘，以农牧为主。匈牙利人称之为“Gödöllő”，这个词源于古斯拉夫语的“gödölye”，意为“小丛林中的空地”——这正是小镇最初的地理面貌：一片被橡树林环绕的荒野洼地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的转折发生在18世纪。1730年代，匈牙利显赫贵族<strong>安东·格拉萨科维奇伯爵（Count Antal Grassalkovich）</strong>看中了这片土地的静谧与丰饶。他决定在格德勒建造一座足以彰显其权势的巴洛克宫殿，以取代风雨侵蚀的中世纪城堡。1741年奠基，到1750年代基本完工，格德勒从一个无名小村，一跃成为匈牙利最炫目的贵族领地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伯爵不仅是建筑狂人，更是精明的政治家。他深得哈布斯堡王朝<strong>玛丽亚·特蕾莎女王</strong>的信任，宫殿也因此多次迎来女王的驾临。小镇的命运从此与王室紧密相连。19世纪中叶，随着奥匈帝国的诞生，格德勒被选为匈牙利王室的正式行宫，小镇的街道、教堂、市场纷纷围绕宫殿扩建，形成了如今宁静却带着昔日荣光的格局。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1. 伯爵的野心之宫</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">整座宫殿由奥地利建筑师<strong>安德烈亚斯·迈尔霍费尔（Andreas Mayerhofer）</strong>设计，融合了巴洛克的华丽与法式洛可可的轻盈。正立面长达160米，中央是三层高的主楼，两侧对称伸出翼楼。内部有100多个房间，最宏伟的是<strong>镜厅</strong>和<strong>圣母小教堂</strong>。宫殿竣工时，格拉萨科维奇伯爵举办了连续三天的庆典，整个匈牙利贵族都为之侧目。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2. 茜茜公主的避风港</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1867年奥匈帝国成立后，<strong>弗兰茨·约瑟夫一世</strong>将这座宫殿作为加冕礼物赠予皇后伊丽莎白——茜茜。她立刻爱上了这里。与奢华的维也纳霍夫堡皇宮不同，格德勒是“生机勃勃的田野与森林”。茜茜亲自参与园林改造，开辟了骑马小径、玫瑰园和柠檬温室。她在这里度过了每个夏天，直至1898年在日内瓦遇刺。宫殿的二楼至今保留了她的卧室、书房和健身器材，墙上挂着她的画像——眼神忧郁，却透着安宁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">3. 废墟与重生</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战后，苏联红军占领了格德勒，将宫殿改为兵营和仓库。珍贵的水晶吊灯被砸碎，壁画被硝烟熏黑，花园沦为训练场。1990年代匈牙利政府开始修复，1996年作为博物馆重新开放。如今，游客可以走进茜茜的私人套房，感受百年前她的呼吸与心跳。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">茜茜公主（伊丽莎白皇后，1837-1898）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她全名<strong>伊丽莎白·阿玛莉亚·欧根妮</strong>，原为巴伐利亚公爵之女。16岁嫁给奥地利皇帝弗兰茨·约瑟夫一世，却因宫廷繁文缛节而痛苦压抑。她热爱自由、骑马和诗歌，厌恶维也纳的虚伪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>与格德勒的羁绊</strong>始于1867年。皇帝送她这座宫殿，她形容它是“世界上唯一属于我的角落”。她让设计师在花园里修建了一条长达3公里的骑马道，每天清晨必策马驰骋。她还在此秘密会见匈牙利民族主义领袖<strong>安德拉西伯爵</strong>——传言他才是她真正的精神伴侣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">茜茜还酷爱写诗。在格德勒的书房里，她留下了大量日记和诗稿。其中一首写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“在维也纳，我是被圈养的鸟；在格德勒，我才感到翅膀还能张开。这里的梧桐比任何金笼都美。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1890年代，她因儿子鲁道夫在<strong>梅耶林</strong>自杀而陷入抑郁，格德勒成了她最后的避风港。她要求宫殿所有镜子都蒙上黑纱，直到痊愈才取下。1898年，她在日内瓦被刺杀，遗体在返回维也纳途中，曾短暂停灵于格德勒的圣母教堂——小镇万人空巷，为她守夜。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">弗兰茨·约瑟夫一世（1830-1916）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">作为丈夫和皇帝，他对茜茜的爱是深沉的，却也是无奈的。他每年夏天都会来格德勒陪伴妻子，即使公务繁忙。他特意在宫殿旁修建了一座<strong>皇家火车站</strong>（至今仍存），方便从维也纳乘坐专列直达。历史学家说，这是他一生中唯一愿意妥协的地方。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格德勒流传最广的传说是关于茜茜的“幽灵骑士”。当地老人说，在月圆之夜，能够听见清脆的马蹄声从花园深处的古道上传来。一位白裙女子骑着一匹白马，在雾气中一闪即逝——正是茜茜公主的灵魂，她至今仍无法割舍这片自由的土地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一则关于<strong>女仆玛莎</strong>的故事。玛莎是茜茜最信任的女仆，1898年茜茜遇刺后，她悲痛欲绝，每日擦拭茜茜的梳妆台，直至双目失明。据说她的哭泣声仍会在深夜从二楼的仆人房传出。宫内的导游常打趣：如果你在镜厅感到一阵凉意，别怕，那是玛莎在为你递上一杯热茶。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">匈牙利人还有一种独特的人文习俗：每年7月，格德勒会举办<strong>茜茜节</strong>。市民们穿上19世纪的宫廷服饰，重现当年皇后抵达时的场景，马车、军乐队、鲜花喷泉。这不仅是旅游秀，更是当地人对那位“疯狂的巴伐利亚公主”最朴素的怀念。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格德勒皇宫不仅是匈牙利巴洛克建筑的巅峰之作，更是一面镜子——映照出奥匈帝国的兴衰、王室爱情的悲欢，以及一个民族对自由的渴望。茜茜为何独爱这里？答案就在那些沉默的壁画、幽静的骑马道、以及风中摇动的玫瑰丛中。读懂格德勒，你就读懂了一段欧洲的另类史。读到这里，你是否也想亲身感受百年前的呼吸？</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/zalaegerszeg-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    佐\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">佐洛埃格塞格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Zalaegerszeg</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sopron\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    肖\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">肖普朗老城</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sopron</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/diosgyor-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    迪\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">迪欧什焦尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Diósgyőr Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "zalaegerszeg-history",
+          "name": "佐洛埃格塞格",
+          "englishName": "Zalaegerszeg"
+        },
+        {
+          "slug": "sopron",
+          "name": "肖普朗老城",
+          "englishName": "Sopron"
+        },
+        {
+          "slug": "diosgyor-castle",
+          "name": "迪欧什焦尔城堡",
+          "englishName": "Diósgyőr Castle"
+        }
+      ]
+    }
+  ]
+}

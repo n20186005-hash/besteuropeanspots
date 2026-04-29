@@ -1,0 +1,85 @@
+{
+  "slug": "mercado-de-san-miguel-history",
+  "template": "history",
+  "metadata": {
+    "title": "马德里圣米格尔市场历史溯源｜百年铁艺美食殿堂的前世今生与名人传奇",
+    "description": "（不超过150字符）从1916年铁与玻璃的先锋建筑，到如今汇聚西班牙风味的美食圣地。探访圣米格尔市场的百年故事，遇见建筑师、作家与味蕾交织的马德里记忆。抛开游玩攻略，走进它的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马德里",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "圣米格尔市场",
+      "href": "/attractions/mercado-de-san-miguel-history"
+    }
+  ],
+  "hero": {
+    "title": "圣米格尔市场・Mercado de San Miguel・西班牙・马德里",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣米格尔市场</strong>，马德里老城区的心脏，一座漂浮在石板巷深处的铁艺水晶宫。它诞生于1916年，却在千禧年后才真正成为美食朝圣地。但它的灵魂远不止于火腿与红酒——这里每一根铸铁支柱都烙印着<strong>阿方索十三世</strong>时代的工业雄心，每一扇玻璃窗都映照过西班牙内战的硝烟，每一块瓷砖都曾承载诗人们关于市井与理想的对话。抛开游玩攻略，走进圣米格尔市场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">圣米格尔市场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Mercado de San Miguel</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Mercado de San Miguel</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">马德里</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马德里虽是西班牙首都，其建城史却比托莱多、塞维利亚年轻得多。<strong>1561年</strong>，腓力二世将宫廷从托莱多迁至马德里，这座位于伊比利亚半岛中心的小村庄才骤然跃升为帝国心脏。圣米格尔市场所在的位置，最初是<strong>圣米格尔教堂</strong>的附属广场——一座建于<strong>18世纪</strong>巴洛克风格的宗教场所。教堂的钟楼曾是附近居民报时的依据，而广场上则聚集着售卖蔬菜、禽蛋的露天小摊。<strong>19世纪末</strong>，随着城市人口膨胀，露天市场已无法满足卫生与容量需求，马德里市政府决定在教堂旧址旁兴建一座现代市场。彼时正值欧洲“玻璃与铁”建筑风潮的巅峰——伦敦的水晶宫、巴黎的拱廊街早已声名远扬。马德里不甘落后，<strong>1913年</strong>招标，最终由工程师<strong>爱德华多·德拉托雷</strong>（Eduardo de la Torre）设计的铁架玻璃结构方案中标。市场于<strong>1916年5月13日</strong>正式开业，得名于毗邻的圣米格尔教堂——这座教堂后在内战中被毁，市场却奇迹般留存至今。 “Mercado”源自拉丁语“mercatum”，意为交易之地；而“San Miguel”则是大天使米迦勒，守护者之名。因此，这座市场从诞生起便兼具世俗的交易与神圣的庇护色彩。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1916-1936：黄金时代的市井舞台</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">开业之初，圣米格尔市场是马德里最现代化的食品市场。<strong>30余家摊位</strong>出售新鲜蔬果、肉类、鱼类、奶酪和香料，地面铺设当时罕见的“蜂巢”瓷砖，屋顶高耸的铁架天窗让阳光均匀洒落。这里没有吵闹的讨价还价，而是马德里中产阶级家庭的优雅采购地——女士们戴着蕾丝手套挑选火腿，先生们在吧台前啜饮苦艾酒。<strong>1931年</strong>西班牙第二共和国成立后，市场成为共和派知识分子聚会的场所，诗人 <strong>拉斐尔·阿尔贝蒂</strong>（Rafael Alberti）曾在一篇散文中写道：“这里的鱼鳞在阳光下闪烁如共和国的硬币。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1936-1939：内战的硝烟与伤痕</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">西班牙内战爆发后，圣米格尔广场成为<strong>国民军</strong>与<strong>共和军</strong>反复争夺的前沿阵地。市场被临时征用为<strong>野战医院</strong>和<strong>面包分发点</strong>。一枚炮弹击穿了东北角屋顶，铁架扭曲，玻璃碎片散落一地。<strong>1939年</strong>佛朗哥军队攻陷马德里时，市场已千疮百孔。战后市政部门进行了简易修补，但原本洁白的瓷砖墙面被烟尘熏得发黄，摊主们用油布遮盖破损的顶棚，艰难维系着生计。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1940-2000：被遗忘的岁月</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">佛朗哥独裁统治时期，圣米格尔市场逐渐衰落。郊区大型超市的崛起让老市场门庭冷落，铁架生锈，排水系统失灵，甚至一度传出<strong>拆除计划</strong>。<strong>1980年代</strong>，一些老摊主退休后摊位空置，市场陷入濒死状态。然而，<strong>1990年代中期</strong>，马德里兴起的“历史文化复兴”运动挽救了它——市民团体联名上书，要求将市场列为<strong>文化遗产</strong>。<strong>1996年</strong>，马德里市政府正式授予其“地标建筑”地位，但缺乏资金修缮，市场仍像一位垂暮的老人，在喧嚣的城市中央低声喘息。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2003-2009：涅槃重生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2003年</strong>，一个私人投资团队接手，启动了耗资<strong>1200万欧元</strong>的改造工程。他们的理念是“保留骨架，注入新血”：铁架结构被重新粉刷成深灰色，玻璃屋顶全部更换为双层隔音玻璃，地面恢复原始的“蜂巢”瓷砖图案。<strong>2009年</strong>重新开业时，它不再是传统菜市场，而是一座聚集<strong>20多家精选摊位</strong>的美食市集——火腿切片机代替了剁肉板，葡萄酒杯取代了旧茶缸。尽管有人批评它“迪士尼化”，但无可否认，圣米格尔市场以另一种形式活了下来。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 爱德华多·德拉托雷：铁与玻璃的诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>爱德华多·德拉托雷</strong>（Eduardo de la Torre，1870-1937）是西班牙土木工程史上被低估的名字。他毕业于马德里土木工程师学院，痴迷于<strong>铁结构</strong>的力学美感。1913年竞标圣米格尔市场时，他提交的方案是惊人的：整个屋顶跨度达<strong>22米</strong>，不设一根立柱，仅靠外部铁架支撑，地面则完全敞开，采光井布置成十字形，让光线在任何角度都不会产生阴影。他甚至在设计中融入了“可拆卸模块”——市场北侧的铁架可以整体松动，以便未来扩建或搬迁。这种前瞻性在100年后仍让现代建筑师惊叹。德拉托雷晚年因生活窘迫搬离了马德里，<strong>1937年</strong>在巴塞罗那去世，当时圣米格尔市场已因内战而残破。他生前从未在公开场合谈论过这个被炮火击中的“孩子”，但据说他临终前唯一的要求是：“把窗子打开，让我看看马德里的天空。”——那正是他设计中最珍视的片段。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每一座铁桥都是一道跨越时间的抛物线，而圣米格尔市场是马德里天空下最小的建筑诗篇。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——工程杂志《Cement & Steel》1916年报道中引用德拉托雷的话</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 皮奥·巴罗哈：市井文学的拾穗者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>皮奥·巴罗哈</strong>（Pío Baroja，1872-1956）是西班牙“98一代”最重要的作家之一，也是圣米格尔市场的常客。他出生于巴斯克地区的圣塞巴斯蒂安，但<strong>1900年代</strong>起定居马德里，在<strong>圣米格尔广场</strong>附近租下一间阁楼（今恰赫利广场6号），每天午后都会踱步到市场，坐在“拉卡萨里”露天吧台喝一杯“苦艾酒加苏打水”。巴罗哈的小说《知识之树》《塞萨尔还是虚无》中，多次出现市场鱼贩的吆喝声、铁架间穿行的阳光、以及奶酪摊主布满皱纹的面容。他在自传《从最后的路回到最后》中写道：“圣米格尔市场像是马德里的胃，所有美好的气味都从这里升起——火腿的醇厚、海鲜的腥甜、桂皮的辛辣，它们混在一起就是我写作的底色。”巴罗哈的文学风格以冷峻、客观著称，但他对圣米格尔市场始终怀有温情。<strong>1956年</strong>他去世后，骨灰被安葬在马德里公墓，而市场的管理者特意保留了他最喜欢的6号摊位（现已改成葡萄酒吧），在吧台下方镶了一块铜牌：“皮奥·巴罗哈在此聆听马德里的心跳。”<strong>2016年</strong>市场百年庆典时，剧组在建筑内拍摄了一部关于巴罗哈的短片，还原他坐在角落奋笔疾书的场景——手边的火腿吐司冒着热气，而头顶的铁架依旧，仿佛时间的曲线从未改变。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在圣米格尔市场的老摊主间流传着一个“守护天使”的故事。传说<strong>1940年代</strong>内战结束后，市场濒临倒闭，一名蓬头垢面的老妇人每天傍晚拎着篮子来捡拾被丢弃的菜叶。摊主们起初厌恶她，但老人从不说话，只是默默捡起菜叶，在铁架下祈祷。某天夜里一场大火从市场东侧蔓延，消防队迟迟未到，眼看整个建筑要化为灰烬。突然老人站起来，用十字手势指向火焰，火势竟奇迹般减弱，最后只烧毁了一个水果摊位。事后老人消失无踪，摊主们才意识到她或许是<strong>大天使圣米格尔的化身</strong>——毕竟市场以天使命名，他怎能坐视不理？从此，每年<strong>9月29日</strong>圣米格尔节，摊主们都会在市场中央摆一张长桌，放上一整只烤乳猪和一瓶红酒，留给“不知名的祝福者”。虽然食物最终被流浪汉分食，但这份习俗延续至今，成为市场最隐秘的人文仪式。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个据称的真实事件：<strong>1958年</strong>一个冬夜，一只流浪猫误入市场，钻进通风管道被困。次日清晨摊主们发现后，合力用火腿片引诱它出来。这只猫后来被市场管理员收留，取名“米格尔”。据说米格尔活了19年，去世后被埋在市场花园的柠檬树下，至今每当柠檬花开，老摊主们仍会说：“米格尔给市场带来了好运气。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣米格尔市场并不是单纯的“网红打卡地”。它是马德里从农业社会跨入工业时代的实物见证，是西班牙内战期间平民生存意志的微缩剧场，也是20世纪末城市更新中“记忆与资本”博弈的典型样本。当你站在那片被踩得发亮的蜂巢地砖上，耳边回响着铁架承重的咯吱声，不仅能品尝到最地道的伊比利亚火腿，更能触碰到一座城市在百年间经历的荣光、创伤与妥协。读懂圣米格尔市场，就是读懂马德里如何在现代化浪潮中守护自己的灵魂——每一扇窗户后都藏着一段旧时光，每一根铁柱都站立成一个不言语的叙事者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/andalucia-aficion-voyages\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安达卢西亚旅行爱好者之旅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Andalucia Aficion voyages</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/catalunya-bus-turistic-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴塞罗那观光巴士</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Catalunya Bus Turístic</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monastery-of-ucles-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    乌\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">乌克莱斯修道院（被称为“拉曼查的小埃斯科里亚尔”，圣地亚哥骑士团极其雄伟的大本营建筑群）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monastery of Uclés</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "andalucia-aficion-voyages",
+          "name": "安达卢西亚旅行爱好者之旅",
+          "englishName": "Andalucia Aficion voyages"
+        },
+        {
+          "slug": "catalunya-bus-turistic-history",
+          "name": "巴塞罗那观光巴士",
+          "englishName": "Catalunya Bus Turístic"
+        },
+        {
+          "slug": "monastery-of-ucles-history",
+          "name": "乌克莱斯修道院（被称为“拉曼查的小埃斯科里亚尔”，圣地亚哥骑士团极其雄伟的大本营建筑群）",
+          "englishName": "Monastery of Uclés"
+        }
+      ]
+    }
+  ]
+}

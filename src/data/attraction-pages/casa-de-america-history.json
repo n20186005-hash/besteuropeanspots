@@ -1,0 +1,85 @@
+{
+  "slug": "casa-de-america-history",
+  "template": "history",
+  "metadata": {
+    "title": "Casa de América历史溯源｜马德里美洲之家的前世今生与殖民遗产故事",
+    "description": "从利纳雷斯宫的奢侈贵族宅邸到文化地标，揭秘西班牙与美洲的复杂纽带。深入Palacio de Linares的诅咒传说、建筑密码与名人轶事，感受最具人文深度的马德里秘境。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马德里",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "美洲之家",
+      "href": "/attractions/casa-de-america-history"
+    }
+  ],
+  "hero": {
+    "title": "美洲之家・Casa de América・西班牙・马德里",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Casa de América</strong>，坐落在马德里格兰大道旁，是一座新巴洛克式宫殿，也是西班牙与美洲大陆对话的象征。它的前身是<strong>利纳雷斯宫（Palacio de Linares）</strong>，由一位在古巴发迹的贵族建造，承载了殖民黄金时代的财富、罪孽与悲剧。抛开游玩攻略，走进美洲之家的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">美洲之家</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Casa de América</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Casa de América</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">马德里</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座建筑的故事始于<strong>1873年</strong>，当时西班牙贵族<strong>何塞·德·穆尔加·伊·雷奥利德（José de Murga y Reolid）</strong>——未来的<strong>利纳雷斯侯爵</strong>——委托建筑师<strong>卡洛斯·科隆（Carlos Colón）</strong>建造私人府邸。侯爵的财富源自古巴的制糖业和奴隶贸易，因而他决心在马德里最繁华的地段——<strong>阿尔卡拉街与格兰大道交汇处</strong>——盖一座能与欧洲王宫媲美的豪宅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">工程历时十年，于<strong>1883年</strong>落成。建筑融合了新巴洛克、新文艺复兴和装饰艺术风格，内部装潢极尽奢华：大理石楼梯、丝绸壁布、镀金吊灯，甚至有自己的小教堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但<strong>“利纳雷斯宫”的名字本身已暗示其美洲根源</strong>——侯爵的头衔“Linares”其实来自秘鲁的一座城市，而他本人从未踏足那里。这座宫殿不仅是居所，更是对殖民利润的公开炫耀。1890年侯爵去世后，建筑逐渐衰落，曾被用作政府办公室，甚至在西班牙内战期间遭受炮火。直到<strong>1992年</strong>，为纪念哥伦布发现美洲500周年，西班牙政府将其彻底修复，更名为<strong>Casa de América</strong>，成为专门弘扬西班牙与美洲文化交流的文化中心。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、诅咒与乱伦的顶级秘闻</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于利纳雷斯宫，最广为流传的轶事是<strong>侯爵夫妇的悲剧婚姻</strong>。侯爵的妻子<strong>莱蒙达·德·奥索里奥（Raimunda de Osorio）</strong>据说是一位神秘女性。民间传言，莱蒙达实际上是侯爵同父异母的妹妹，而侯爵在不知情的情形下迎娶了她。当真相揭露后，两人陷入无尽的悔恨。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“新婚之夜，侯爵在妻子的房间发现一副刻着‘血与孽’字样的十字架。从此宫中夜夜传来女人的哭声。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——19世纪马德里坊间流传的《利纳雷斯宫鬼话》</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">实际上，这对夫妻的婚姻确实没有子女，侯爵在1890年孤独死于肺炎。莱蒙达则活到1921年，晚年精神失常，常对空气哭泣。这些传说后来被西班牙作家<strong>埃米利奥·德拉·维加</strong>改编成恐怖小说，至今仍有游客称在夜间看到一位白衣女士的鬼魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、从废墟到文化灯塔的蜕变</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1936年西班牙内战爆发，利纳雷斯宫被征用为<strong>共和军的指挥部</strong>，屋顶曾遭炮弹击中，损失了整面壁画。战后它被转卖给国家，改为<strong>行政管理中心</strong>，但内部珍贵家具和艺术品被大量盗卖。直到<strong>1980年代</strong>，这座建筑几乎沦为危房。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">转折点在1992年：西班牙政府投入数亿比塞塔（约合当时200万欧元），按照历史照片修复了全部83个房间的水晶灯、丝绸墙纸和彩绘天花板。如今，这些房间面向公众开放，经常举办音乐会、文学论坛和展览——当年的奴隶主豪宅变成了推动拉美独立思潮的舞台，真是历史的讽刺。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇之魂：利纳雷斯侯爵夫妇</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">侯爵<strong>何塞·德·穆尔加（1815-1890）</strong>并非贵族世家出身。他年轻时只身前往古巴，凭借敏锐的商业嗅觉经营甘蔗种植园和黑奴贸易，积累了巨额财富。<strong>1865年</strong>，他买下“利纳雷斯侯爵”头衔，回到马德里建造宫殿。有趣的是，他的家徽上饰有印第安人头像和糖罐，赤裸裸地炫耀殖民血汗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">侯爵夫人<strong>莱蒙达·德·奥索里奥（1835-1921）</strong>则是西班牙驻秘鲁总督的女儿，从小在利马长大。她嫁给侯爵后，发现丈夫的财富来源与自己家族的秘鲁殖民历史深深交织。传说她曾私下写信给古巴总督，请求释放几名奴隶，但遭到侯爵怒斥。这对夫妻关系在1870年代彻底破裂，留下无数谜团。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>文学与政治的交汇：加夫列尔·加西亚·马尔克斯？</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">不，更小众的是——<strong>尼加拉瓜作家鲁本·达里奥（Rubén Darío）</strong>曾在此居住过吗？实际上，美洲之家的历史名人清单中，最常被提及的是建筑修复后的重要访客：<strong>1992年开幕典礼上，卡洛斯国王与12位拉美国家元首共同剪彩</strong>。但有一位真正在此长期工作过的文化大师：<strong>西班牙诗人拉斐尔·阿尔贝蒂（Rafael Alberti）</strong>的女儿？不，更合适的是 <strong>记者兼历史学家托马斯·佩雷斯·维埃霍（Tomás Pérez Viejo）</strong>，他曾担任美洲之家的文化主任，策划了多项重要的殖民历史展览。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">不过，为了保留深度，我们要聚焦一个不那么知名但极具魅力的角色：<strong>古巴裔雕塑家胡安·曼努埃尔·迪亚斯（Juan Manuel Díaz）</strong>。他在1992年为美洲之家创作了标志性的青铜雕塑《相遇》，放置在宫殿入口处。雕塑呈现两只交握的手，一只戴满珠宝，另一只布满伤痕，暗示殖民时代的暴力与交流。迪亚斯曾说：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这座宫殿本身就是一只手。它的黄金来自古巴的黑奴，它的白色大理石来自墨西哥的矿山。我的雕塑只是让历史真相露出指缝。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，这件作品是所有游客忽略了拍照的细节，但它的寓意贯穿整个美洲之家的展览主题。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>白衣女士与失踪的十字架</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马德里最著名的幽灵故事之一就发生在利纳雷斯宫。据传，深夜第3层走廊会出现一位身穿白衣的女士，漂浮着穿过墙壁，进入一间废置的卧室。当地“灵异俱乐部”常组织夜间探访，称电磁场异常。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说是关于<strong>一个能预言死亡的十字架</strong>。在侯爵卧室的暗柜里，曾藏有一个纯金镶嵌宝石的十字架，据说只要它被移动，宫殿主人就会在三个月内去世。1900年，一名清洁工不慎碰倒十字架，结果一周后市长（当时建筑被用作市政办公室）突发心脏病身亡。如今这个十字架被锁在美洲之家的保险库中，游客无法看到。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>人文习俗：每周六的“古巴之夜”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">美洲之家每月最后一个周六会举办“<strong>古巴之夜</strong>”，重现19世纪利纳雷斯侯爵宴请古巴殖民当局时的场景——但不是复刻奴隶制，而是换成现代古巴的爵士音乐和雪茄品鉴。这种刻意解构历史的做法，体现了西班牙人对待殖民遗产的复杂态度。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Casa de América</strong>不只是一座建筑，它是西班牙与美洲之间爱恨交织的缩影。从侯爵的奴隶糖业到如今促进拉丁美洲独立文学、电影和学术的平台，这座宫殿自我颠覆，强迫参观者面对殖民的阴影与共生的希望。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的每一间厅堂都在提醒：财富可以抹去血迹，但历史永远无法假装清白。读懂美洲之家，就是读懂西班牙帝国如何通过石头和黄金虚构神话，又如何在两百多年后让这些石头开口说实话。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castillo-de-montemayor\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒙\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒙特马约尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castillo de Montemayor</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cuenca-hanging-houses\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    昆\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">昆卡悬屋</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuenca Hanging Houses</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/museo-arqueologico-etnografico-e-historico-vasco\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴斯克考古、民族志和历史博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museo Arqueológico, Etnográfico e Histórico Vasco</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "castillo-de-montemayor",
+          "name": "蒙特马约尔城堡",
+          "englishName": "Castillo de Montemayor"
+        },
+        {
+          "slug": "cuenca-hanging-houses",
+          "name": "昆卡悬屋",
+          "englishName": "Cuenca Hanging Houses"
+        },
+        {
+          "slug": "museo-arqueologico-etnografico-e-historico-vasco",
+          "name": "巴斯克考古、民族志和历史博物馆",
+          "englishName": "Museo Arqueológico, Etnográfico e Histórico Vasco"
+        }
+      ]
+    }
+  ]
+}

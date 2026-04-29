@@ -1,0 +1,85 @@
+{
+  "slug": "roald-dahl-plass-history",
+  "template": "history",
+  "metadata": {
+    "title": "卡迪夫湾历史溯源｜罗尔德·达尔广场的前世今生与文学传奇",
+    "description": "从废弃码头到文学圣地，罗尔德·达尔广场承载着卡迪夫湾的工业兴衰与奇幻童年。走进这片广场，听威尔士港口的老故事与《查理和巧克力工厂》的诞生秘密。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡迪夫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "罗尔德·达尔广场",
+      "href": "/attractions/roald-dahl-plass-history"
+    }
+  ],
+  "hero": {
+    "title": "罗尔德·达尔广场・Roald Dahl Plass・英国・卡迪夫",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">这里是《查理和巧克力工厂》作者罗尔德·达尔的故乡印记，也是卡迪夫湾从锈迹码头蜕变为文化地标的时空坐标。一片平凡的水泥广场，脚下却埋藏着大英帝国煤炭贸易的沉重回响，头顶则飘扬着一位童话大师的天马行空。抛开游玩攻略，走进罗尔德·达尔广场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">罗尔德·达尔广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Roald Dahl Plass</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Roald Dahl Plass</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卡迪夫</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡迪夫的历史始于 <strong>罗马帝国</strong> 时期，但真正让这座威尔士首府崛起的，是 <strong>19世纪</strong> 的工业革命。1839年， <strong>第二比特侯爵</strong> 约翰·克赖顿-斯图尔特在塔夫河口的泥滩上开凿了 <strong>卡迪夫港</strong>，从此，南威尔士山谷的煤炭如黑金般涌入这里。到20世纪初，卡迪夫已成为 <strong>全球最大的煤炭出口港</strong>，其吞吐量甚至超越了伦敦。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗尔德·达尔广场所在地，正是当年港口的核心区—— <strong>“老虎湾”</strong>（Tiger Bay）。这个地名源于早期水手对这里的戏称：因为海员们在此上岸后常遇到凶悍的码头地头蛇。老虎湾是真正的国际熔炉， <strong>索马里、也门、希腊、中国</strong> 的水手聚居于此，街头充斥着阿拉伯语、希腊语和威尔士语。到了 <strong>20世纪60年代</strong>，随着煤炭贸易衰落，码头区沦为铁锈地带，仓库坍塌，运河淤塞。直到 <strong>1990年代</strong>，卡迪夫湾开发公司启动 <strong>“海湾复兴计划”</strong>，才将这片衰败之地重新填土、疏浚，并修建了这座以罗尔德·达尔命名的广场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场的名字本身就是一个历史转折： <strong>1999年</strong> 正式落成时，它被命名为 <strong>“椭圆形广场”</strong>（Oval Basin），但在2005年，卡迪夫市议会为了纪念这位出生在 <strong>兰达夫</strong>（距此仅3英里）的文学大师，正式改名为 <strong>“罗尔德·达尔广场”</strong>。广场中央那根 <strong>高30米</strong> 的白色桅杆式雕塑，名为 <strong>“水之信标”</strong>（Water Beacon），由艺术家 <strong>彼得·弗雷</strong> 设计，它像一支巨大的羽毛笔，在风中记录着海湾的变迁。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 老虎湾的种族暴动与融合</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1919年，战后的卡迪夫陷入严重失业，种族紧张在老虎湾爆发。 <strong>6月11日</strong>，数千名白人水手袭击了阿拉伯裔和索马里裔社区，持续三天的 <strong>“老虎湾暴动”</strong> 导致三人死亡，数十人受伤。这场冲突在威尔士历史上留下尴尬一页，但也催生了后来的社区融合政策。如今广场的铺地砖上，特意镶嵌了代表不同族裔的 <strong>彩色铜片</strong>，游客踩过时，仿佛能听到百年前不同语言的争吵与和解。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 煤炭码头的离心机传奇</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在广场地下约 <strong>5米</strong> 处，仍埋藏着 <strong>1892年</strong> 安装的巨型蒸汽离心机——它曾是世界上效率最高的煤炭装载系统。矿车从山谷运来煤炭后，通过离心机旋转甩入船仓，每小时可装载 <strong>400吨</strong>。机器在1964年停用后被原地掩埋，成为广场的“隐形心脏”。当地老人说，夜深人静时，把耳朵贴在地面，还能听到 <strong>“轰隆隆”</strong> 的煤炭倾泻声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 挪威教堂的流亡岁月</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场东侧矗立着一座木质尖顶建筑—— <strong>挪威教堂</strong>（Norwegian Church）。它建于 <strong>1868年</strong>，专为停泊在卡迪夫港的挪威海员设立。二战期间，这里成为 <strong>挪威流亡政府</strong> 的秘密联络点，国王哈康七世曾在此与英国情报机构会面。罗尔德·达尔本人童年时常随母亲来此参加圣诞派对，他后来在自传中写道：“那座教堂的姜饼味，总是让我想起挪威外婆的海盗故事。”</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>罗尔德·达尔（1916—1990）——从广场走到世界尽头</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗尔德·达尔虽出生于兰达夫的 <strong>费尔沃特路</strong>，但他的文学基因正是在卡迪夫湾的码头边发芽的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 童年与码头</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">达尔的父亲哈拉尔德·达尔是挪威移民，在卡迪夫经营船舶经纪业务。小罗尔德每周被母亲带着穿越老虎湾去挪威教堂的挪威语学校上课。他曾在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“水手们总是往我口袋里塞异国糖果——土耳其软糖、椰枣、椰子片，那些味道让我相信，世界是一块巨大的巧克力。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这段经历直接启发了 <strong>《查理和巧克力工厂》</strong> 中的旺卡工厂场景——码头仓库里堆满来自全球的货物，就像旺卡工厂里来自世界各地的糖果秘密。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 青少年的反叛</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">达尔的父亲在他3岁时去世，母亲为了让他接受英国精英教育，把他送入 <strong>雷普顿公学</strong>。但每逢暑假，他都会溜回卡迪夫湾，在挪威教堂的地下室里和小混混们赌“弹子机”。1934年高中毕业后，达尔拒绝上大学，而是加入 <strong>壳牌石油公司</strong>，被派往东非。在出发前夜，他站在老虎湾的煤码头，用刀在木桩上刻下自己的名字——那块木桩后来被拆走，但当地传说， <strong>刻字的痕迹在月光下会泛出巧克力色</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 战时飞行员与传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战爆发后，达尔加入英国皇家空军，成为 <strong>飓风战斗机</strong> 飞行员。1940年利比亚沙漠中弹迫降后，他因剧烈头痛被遣返回英国疗养。正是在卡迪夫湾的挪威教堂里，他偶遇 <strong>C.S. 福雷斯特</strong>（《非洲女王号》作者），后者劝他把空战经历写成小说。达尔的处女作《利比亚上空的魔鬼》由此诞生，稿酬 <strong>900英镑</strong> 被他用来在老虎湾买下一艘旧游艇。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>4. 未完成的回归</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">晚年达尔定居英国白金汉郡，但始终计划在卡迪夫湾建造一座 <strong>“奇幻博物馆”</strong>。他在1988年给卡迪夫市议会的信中写道：“想让那些煤码头变成会说话的乌龟、巨大的桃子、能把人缩小到老鼠大小的电梯。”可惜1990年他因病去世，计划搁浅。2005年广场改名时，他的遗孀菲利西亚·达尔在揭幕式上洒下了 <strong>一罐挪威教堂的泥土</strong>——那是达尔童年最珍视的味道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>5. 另一个被遗忘的灵魂——奥莉芙·惠勒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">除了达尔，广场还与一位 <strong>威尔士女权主义者</strong> 紧密相关。奥莉芙·惠勒（Olive Wheeler，1886—1970）是 <strong>威尔士大学</strong> 首位女性心理学教授，她在老虎湾开设了 <strong>“码头女子学院”</strong>，教渔民妻子读写算。1926年大罢工期间，她顶着矿工们的嘲弄，在广场上搭起帐篷图书馆，被当地报纸称为 <strong>“码头女巫”</strong>。如今广场西侧的长椅上刻着她的名言：“知识比煤炭更耐烧。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 海妖的银钥匙</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老虎湾老水手间流传：海底住着一位叫 <strong>莫尔瓦</strong>（Môr-wen，威尔士语“海之白女”）的海妖。每当新船下水，她会在夜里游到挪威教堂的尖顶下，用银钥匙敲三下钟。据说听到钟声的水手，能保证 <strong>七年不遇海难</strong>。1943年盟军登陆诺曼底前夕，挪威水手们集体在广场上竖了一根桅杆，挂上 <strong>绘有银钥匙</strong> 的旗帜——后来那艘登陆艇真的全员生还。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 作家的影子</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场附近的酒吧老板声称，在 <strong>罗尔德·达尔诞辰</strong>（9月13日）的午夜，广场的喷泉会变成 <strong>巧克力色</strong>，且空气中弥漫 <strong>太妃糖</strong> 的气味。更离奇的是：2010年有游客拍下照片，广场地砖上出现了一个 <strong>巨大的铅笔影子</strong>，酷似达尔低头写作的侧影。尽管监控证明当时无人经过，但卡迪夫旅游局至今未否认此传闻。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗尔德·达尔广场不是一座简单的城市地标——它是煤炭与糖果、种族与融合、战争与童话的交汇点。当你站在那根白色桅杆下，脚下是承载亿吨煤炭的工业地基，头顶是挪威教堂的尖顶与海鸥，你会忽然明白： <strong>一部伟大的文学作品，往往诞生于最粗粝的现实土壤中。</strong> 这里曾经是老虎湾水手们的酒馆与码头，现在却是孩子们追逐巧克力幻想的天堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/brynich-aqueduct-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    布\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">布里尼奇水道桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Brynich Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pen-dinas-hill-fort-site\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭迪纳斯山堡遗址</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pen Dinas Hill Fort Site</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/llangollen-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    兰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">兰戈伦博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Llangollen Museum</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "brynich-aqueduct-history",
+          "name": "布里尼奇水道桥",
+          "englishName": "Brynich Aqueduct"
+        },
+        {
+          "slug": "pen-dinas-hill-fort-site",
+          "name": "彭迪纳斯山堡遗址",
+          "englishName": "Pen Dinas Hill Fort Site"
+        },
+        {
+          "slug": "llangollen-museum",
+          "name": "兰戈伦博物馆",
+          "englishName": "Llangollen Museum"
+        }
+      ]
+    }
+  ]
+}

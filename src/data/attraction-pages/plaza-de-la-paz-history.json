@@ -1,0 +1,85 @@
+{
+  "slug": "plaza-de-la-paz-history",
+  "template": "history",
+  "metadata": {
+    "title": "布尔戈斯和平广场历史溯源｜西班牙卡斯蒂利亚古城的前世今生与名人传奇",
+    "description": "走进布尔戈斯和平广场，聆听千年回响。从犹太聚居区到卡斯蒂利亚权力中心，这里见证了宗教审判、拿破仑铁蹄与和平洗礼。一位犹太财政官的传奇人生，一段关乎信仰与宽容的隐秘往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布尔戈斯",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "和平广场",
+      "href": "/attractions/plaza-de-la-paz-history"
+    }
+  ],
+  "hero": {
+    "title": "和平广场・Plaza de La Paz・西班牙・布尔戈斯",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>和平广场</strong>是布尔戈斯最古老的公共空间之一，它的石板记录着从犹太聚居区到现代城市广场的千年嬗变。这里曾是热闹的市场、肃穆的刑场，也是天主教双王与犹太金融家共商的暗室。抛开游玩攻略，走进和平广场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">和平广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Plaza de La Paz</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Plaza de La Paz</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布尔戈斯</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场的起源可追溯至<strong>11世纪</strong>，当时它并非中心，而是城墙外的犹太聚居区边缘地带。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">彼时布尔戈斯作为卡斯蒂利亚王国都城扩建，旧城墙被推倒，这片空地逐渐成为商贩云集的<strong>Plaza del Mercado</strong>（市场广场）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">市集的喧嚣与犹太金匠的锤声在此交织，每逢周三，来自北方的羊毛商与南方的摩尔织匠在此交易。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于“和平”之名，民间流传两种说法：一是<strong>1874年</strong>为纪念西班牙结束第三次卡洛斯战争，正式更名为“Plaza de la Paz”；另一版本更富传奇——<strong>1492年</strong>天主教双王在此颁布驱逐犹太人的法令，一位犹太拉比为祈求和解，每天黄昏在此放飞白鸽，直到广场被称为“鸽子广场”，后演变为“和平广场”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">无论哪种溯源，广场始终是城市变迁的<strong>显微镜</strong>：城墙拆除后，它从边缘跃为核心；巴洛克风格的回廊与铸铁路灯在<strong>18世纪</strong>被统一增设，成为布尔戈斯市民消夏散步的“会客厅”。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1480年：天主教双王的秘密计谋</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在广场东侧的旧市政厅内，<strong>伊莎贝拉一世</strong>与<strong>费尔南多二世</strong>曾多次密议财政改革。当时国家财政由犹太籍总财务官<strong>亚伯拉罕·塞尼奥尔</strong>掌管，他经常从广场北角的犹太会堂步行至市政厅。双王在此向他展示收复格拉纳达的军事计划，并暗示“如果犹太人皈依，可保留财产”。塞尼奥尔最终于1492年接受洗礼，但广场上的犹太社区从此消散。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1813年：拿破仑的最后一个夏天</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">半岛战争期间，法军元帅<strong>苏尔特</strong>将广场改造为兵营与马厩。市民回忆：法军砍倒广场四周的榆树当柴烧，在圣玛丽亚拱门两侧架设大炮。据日记记载，<strong>8月12日</strong>，一位法国中尉在广场上被愤怒的妇人用偷藏的剪刀刺死——那是布尔戈斯人第一次公开反抗。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1895年：广场下的秘密</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在铺设现代下水道时，工人们意外发现一条地下通道，连接广场与城市西郊的圣胡安修道院。传说这是中世纪基督徒、犹太人与摩尔人三族长老秘密议和的通道，被称为<strong>“三重门”</strong>，每次议和都在广场下方达成脆弱的互不侵犯协议。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">布尔戈斯老居民口述：</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">小时候祖母常说：“广场的每一块石头底下都藏着三个灵魂——一个基督徒的骸骨，一个犹太人的银币，一个摩尔人的陶罐。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>亚伯拉罕·塞尼奥尔（Abraham Senior， 1412 – 1493）</strong> — — 广场上的双面人生</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他或许是广场历史上最有权势的犹太人。塞尼奥尔出生在布尔戈斯犹太区，年轻时已在广场北角的会堂担任拉比。凭借出色的理财能力，他成为<strong>卡斯蒂利亚王室总财政官</strong>，被伊莎贝拉女王直接称为“我的好犹太人”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞尼奥尔在广场拥有三处房产：紧邻广场的宅邸、地下室直通广场的仓库，以及会堂旁的密室。他每天都在广场上处理政务：商人向他递上账本，法官向他呈交判决书，甚至摩尔使节也会在此转交金币。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而<strong>1492年3月31日</strong>，命运的齿轮在阿兰布拉宫作响。天主教双王签署《驱逐法令》，布尔戈斯的犹太人必须在四个月前离开或改宗。塞尼奥尔跪在广场中央，面对数千名哭嚎的同胞，宣布接受洗礼，改名<strong>费尔南多·佩雷斯·科罗内尔</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在广场上建造了第一座<strong>基督教礼拜堂</strong>以表忠诚，但传闻他每晚仍会绕行广场七圈——那是希伯来语中“纪念”的象征数字。一年后，他在广场边的宅邸中去世，葬礼上，广场被黑白两色蜡烛铺满：白色来自新基督徒，黑色来自秘密挥别的犹太旧友。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">留下的只有广场角落里一块不起眼的石板，刻着他的希伯来名“Abraham”与西班牙语名“Fernando”——至今无人敢去修复，仿佛那是广场上唯一不肯被时间抹去的秘密。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣多明我·德·古斯曼（Santo Domingo de Guzmán， 1170 – 1221）</strong> — — 广场边缘的童年记忆</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">很少有人知道，这位道明会的创始人与和平广场有隐秘的羁绊。多明我出生于布尔戈斯南部的卡莱鲁埃加，但童年时常随父亲到广场售卖羊皮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一次，他在广场中心的十字架下听到商贩辱骂摩尔人，便突然跳上市场石台，用拉丁语背诵圣奥古斯丁的《论天主之城》。父亲惊恐地拉他下来，他却说：“我听见天使在这广场上哭泣，因为他们不配拥有和平。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">后来成为修士的多明我，始终主张“以宣讲而非刀剑”对抗异端。他在广场的十字架下设立临时讲坛，向犹太人、基督徒与摩尔人同时布道。历史学家认为，西班牙<strong>13世纪短暂的“三种文化共融”</strong>，正是在广场这类公共空间里由底层民众自发形成。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>白鸽与黑猫</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在<strong>16世纪</strong>的一个耶稣受难日，广场上突然聚集了999只白鸽，它们盘旋在三棵古老橄榄树上方，时近午夜才消失。人们以为神迹降临，但次日清晨却发现所有白鸽的尸体堆在广场中央，脖颈上系着细小的黑色丝线。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">居民坚信这是犹太区最后的拉比在诅咒——他的灵魂化成黑猫，每晚从地下室爬出，用爪子剪断鸽子的命运之线。至今，布尔戈斯老人仍会在午夜避开广场，尤其是<strong>星期五子时</strong>，据说能看到一只独眼黑猫蹲在拱门下，尾巴上系着鸽子羽毛。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣玛丽亚拱门的低语</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场西侧的圣玛丽亚拱门，曾是犹太人与基督徒的秘密约会点。传说如果一对恋人同时在午夜绕着拱门走三圈——一圈顺时针代表信仰，两圈逆时针代表和解，三圈画十字——他们就能听见门内传来古老的希伯来祝福。至今仍有人尝试，但从未有人成功过：因为每次走到第三圈门槛，总有一只黑猫突然现身。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">和平广场并不大，却像一座<strong>倒置的金字塔</strong>，所有布尔戈斯的关键叙事都汇聚于此。从犹太金匠的锤声到拿破仑军队的靴音，从伊莎贝拉女王的密令到黑猫与白鸽的传说，这里不仅是城市的地理中心，更是<strong>卡斯蒂利亚灵魂的隐喻</strong>：冲突与和解、信仰与怀疑、记忆与遗忘，全部嵌在方寸之地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在广场中央，抬头看两侧巴洛克风格的铸铁路灯——它们曾照亮过阿尔罕布拉的密使、犹太拉比的泪光，以及一位法国中尉流血的胸膛。和平广场从未真正和平，它只是将所有对立压缩成瞬间的沉默，等待有缘人俯身倾听。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/puente-colgante-de-ojos\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    奥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">奥霍斯吊桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Puente Colgante de Ojós</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/barcena-mayor\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    巴\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">巴尔塞纳马约尔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bárcena Mayor</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/monument-to-christopher-columbus\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哥\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哥伦布纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Monument a Colom</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "puente-colgante-de-ojos",
+          "name": "奥霍斯吊桥",
+          "englishName": "Puente Colgante de Ojós"
+        },
+        {
+          "slug": "barcena-mayor",
+          "name": "巴尔塞纳马约尔",
+          "englishName": "Bárcena Mayor"
+        },
+        {
+          "slug": "monument-to-christopher-columbus",
+          "name": "哥伦布纪念碑",
+          "englishName": "Monument a Colom"
+        }
+      ]
+    }
+  ]
+}

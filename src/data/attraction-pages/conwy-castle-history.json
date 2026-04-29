@@ -1,0 +1,85 @@
+{
+  "slug": "conwy-castle-history",
+  "template": "history",
+  "metadata": {
+    "title": "康威城堡历史溯源｜英国威尔士中世纪军事要塞的传奇与名人故事",
+    "description": "康威城堡，爱德华一世征服威尔士的标志性杰作。揭开这座世界遗产背后的血腥历史、建设奇迹与幽灵传说。走进尘封往事，遇见威尔士的骄傲与悲歌。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "康威（Conwy）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "康威城堡",
+      "href": "/attractions/conwy-castle-history"
+    }
+  ],
+  "hero": {
+    "title": "康威城堡・Conwy Castle・英国・康威（Conwy）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>康威城堡</strong>，北威尔士海岸线上最完整的中世纪军事要塞，<strong>爱德华一世</strong>“铁环计划”的巅峰之作，八座巨型塔楼和完整的城墙让它在七百年后依然散发着不容侵犯的威严。抛开游玩攻略，走进这座城堡的尘封往事，遇见属于威尔士的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">康威城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Conwy Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Conwy Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">康威（Conwy）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">康威城堡的诞生，本身就是一场<strong>血腥征服</strong>的开端。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1282年，英格兰国王<strong>爱德华一世</strong>决心彻底吞并威尔士公国。他选择了康威河入海口的一处战略要地——这里曾是<strong>威尔士本土修道院</strong>和一座木制城堡的遗址。为什么是这里？因为康威河是天然屏障，扼守通往斯诺多尼亚山区的门户，而那个山区正是威尔士反抗者的最后藏身地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的<strong>野蛮行为</strong>发生在1283年：爱德华下令拆除威尔士最后一任王子<strong>卢埃林·阿普·格鲁菲德</strong>的宫殿和修道院，用其石材建造这座象征英格兰统治的堡垒。更令人震惊的是，他强迫<strong>超过400名威尔士劳工</strong>从爱尔兰运来巨石，日夜不停地施工。仅仅四年，这座当时欧洲最先进的同心式城堡便拔地而起。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字“Conwy”源自威尔士语 <strong>Cynwy</strong>，意为“河流交汇处”——康威河与海潮在此相遇。但这座城从诞生之初，就与威尔士人的自由与苦难紧密交织。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地编年史记载：“那一年，国王的马车载着石头碾过祖先的骸骨，城墙在眼泪中长高。威尔士从此有了锁链。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡落成后，<strong>1301年</strong>发生了一件改变英国王室传统的大事：爱德华一世在这里将威尔士亲王头衔授予自己的儿子（后来的<strong>爱德华二世</strong>），宣称他是“生于威尔士、不会说英语的王子”。这一政治秀延续至今——每个英国王储都会被册封为威尔士亲王，却很少有人知道那个起点在康威城堡的<strong>大礼堂</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1399年</strong>，另一位英国国王<strong>理查二世</strong>的命运与康威城堡纠缠在一起。当他从爱尔兰返回时，发现堂兄亨利·博林布鲁克（后来的亨利四世）已经夺权。理查逃入康威城堡，试图依靠这座坚固要塞重整旗鼓。然而亨利耍了花招——他谎称愿意谈判，却在康威附近的<strong>弗林特城堡</strong>设伏逮捕了理查。这次背叛直接导致了兰开斯特王朝的开启，也开启了<strong>玫瑰战争</strong>的序幕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">17世纪英国内战期间，康威城堡成了<strong>保皇派</strong>的最后据点。1646年，议会军围攻它长达五个月，用当时最先进的加农炮轰击南墙。城堡虽然最终投降，但那些弹孔至今密密麻麻地嵌在石壁上，像伤疤一样提醒着人们战争的残酷。战后，查理二世下令拆除城堡防御设施，<strong>屋顶铅皮被熔炼成子弹</strong>，石墙被当地居民偷走建房，只留下空洞的躯壳。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这并非衰败的开始，而是另一种生命的延续。19世纪，浪漫主义浪潮让废墟成为画家和诗人的缪斯。<strong>透纳</strong>的水彩画《康威城堡》让这座废墟重新获得世界关注。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>詹姆斯·德·圣乔治（James of St. George）——城堡总设计师</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">很少有城堡能与一个具体建筑师的名字如此紧密相连。詹姆斯来自法国萨伏依，是欧洲顶尖的军事建筑大师。<strong>1283年</strong>，爱德华一世用天价年薪（相当于今天的高级将军收入）将他请到英格兰。在康威，詹姆斯实现了军事工程学上的突破：<strong>首次将城墙与城堡连为一体</strong>，形成长达1.2公里的完整防御圈；八座塔楼间隔不等，确保任何角度都能交叉射击；城堡内部的水井深达30米，即使被包围也能自给自足。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但这位大师也留下了冷酷的传说。为了赶工期，他允许监工用鞭子驱赶威尔士劳工。当地民谣里唱：“圣乔治的城堡拔地而起，圣乔治的鞭子抽在背上。”他晚年因愧疚在修道院度过，临终前说：“我建的每一块石头，都压着威尔士人的骨头。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>理查德·普利斯（Richard Pulleston）——最后的驻军指挥官</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1646年议会军攻破康威时，守将<strong>理查德·普利斯</strong>面临着一个两难选择：要么投降，要么看着城内百姓饿死。他选择了前者，亲自打开城门交出钥匙。然而议会法庭事后指控他“消极通敌”，没收了他所有财产。这位忠诚于国王的军官，最终贫困潦倒地死在伦敦一间陋室里。康威当地人至今会在城堡的<strong>国王塔</strong>前放一朵白花，纪念这个为平民牺牲自己的悲剧人物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>威廉·巴特勒·叶芝（William Butler Yeats）——诗歌中的城堡</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然这位爱尔兰诗人从未长居康威，但他1890年代旅居威尔士时，曾专程来此。在日记中他写道：“塔楼像沉默的巨人，海浪在脚下啃噬石头。康威不是城堡，是威尔士的心跳。”他的诗作《记忆之塔》的灵感，部分来自康威城堡的<strong>钟楼</strong>——那里曾存放着一口据说能“唤醒沉睡的龙”的铜钟。这口钟在英国内战中被熔成炮弹，但叶芝的文字让它的回声永远留在文学史中。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">康威城堡最著名的传说，藏在<strong>监狱塔</strong>的地下室里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传13世纪有一位叫 <strong>格温莉安（Gwenllian）</strong> 的威尔士公主，在父亲被爱德华一世杀死后，被囚禁在这座塔中整整三十年。她从未见过阳光，唯一的陪伴是一只从海边飞来的海鸥。每天晚上，她都会用威尔士语唱一首母亲教的摇篮曲。据说那首歌能<strong>让守夜士兵陷入沉睡</strong>。二十年后的一个暴风雨夜，士兵发现歌声停止了——公主已经死在墙角，但她的嘴唇依然保持着歌唱的形状。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，住在康威老城的人声称，在满月的夜晚，如果站在监狱塔下屏住呼吸，就能听到一阵模糊的歌声，像潮水一样从石头缝里渗出来。更诡异的是，<strong>城堡的官方导游手册</strong>曾记录过：2017年一位游客在监狱塔拍照，照片中塔内角落出现了一个身穿中世纪长裙的模糊影像——后来鉴定专家说，照片未经过处理。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个民俗与<strong>城堡城墙上的乌鸦</strong>有关。当地人相信，这些乌鸦是威尔士古代战士的化身。只要康威城堡还有一只乌鸦，威尔士的语言就永远不会消亡。现在，城堡管理处会固定喂养它们，而每当幼鸟学飞时，总有威尔士语学校的孩子们在城墙下齐声朗诵诗歌——这是延续了数百年的传统。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">康威城堡不只是教科书中“爱德华一世军事征服”的注脚。它是欧洲第一座<strong>平民与统治者的对话场</strong>：国王曾在这里作秀，将军曾在这里痛苦抉择，诗人曾在这里找到灵感，而威尔士人则在这里埋下自由的种子。每一块石头都记着两种语言——英语的命令与威尔士语的祈祷。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座城堡，就能读懂威尔士七百年的<strong>骄傲与悲伤</strong>。它不是冰冷的废墟，而是一个民族如何用<strong>沉默的墙壁</strong>对抗记忆消失的证明。当你在塔楼上眺望康威河入海口时，会突然明白：真正的历史不是发生在过去，而是始终沉在现在的水面之下——只要你愿意俯身，就能捞起一把闪光的碎片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cymer-abbey\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    赛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">赛默修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cymer Abbey</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cardiff-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    加\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">加的夫城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cardiff Castle</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pembrokeshire-coast-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    彭\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">彭布罗克郡海岸国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pembrokeshire Coast National Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "cymer-abbey",
+          "name": "赛默修道院",
+          "englishName": "Cymer Abbey"
+        },
+        {
+          "slug": "cardiff-castle-history",
+          "name": "加的夫城堡",
+          "englishName": "Cardiff Castle"
+        },
+        {
+          "slug": "pembrokeshire-coast-national-park",
+          "name": "彭布罗克郡海岸国家公园",
+          "englishName": "Pembrokeshire Coast National Park"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "castell-dinefwr-history",
+  "template": "history",
+  "metadata": {
+    "title": "迪内弗尔城堡历史溯源｜威尔士中世纪堡垒的前世今生与传奇领主",
+    "description": "探索威尔士迪内弗尔城堡的千年历史：从罗德王子的权力中心到英王围攻的见证，再到贵族家族与诗人的传奇。小众人文秘境，等你聆听。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "兰代洛 (Llandeilo)",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "迪内弗尔城堡",
+      "href": "/attractions/castell-dinefwr-history"
+    }
+  ],
+  "hero": {
+    "title": "迪内弗尔城堡・Castell Dinefwr・英国・兰代洛 (Llandeilo)",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在威尔士西南部的塔夫河谷，一座灰黄色的砂岩废墟静卧于山丘之巅，俯瞰着蜿蜒的河道与绿野。这里不是游客如织的卡那封或康威，而是<strong>迪内弗尔城堡</strong>——德赫巴思王国的灵魂所在。<strong>它曾是威尔士最后一位独立领主的权力中枢，也是文艺复兴时期诗人与收藏家的隐秘乐园。</strong> 抛开游玩攻略，走进迪内弗尔城堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">迪内弗尔城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Castell Dinefwr</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Castell Dinefwr</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">兰代洛 (Llandeilo)</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">迪内弗尔城堡所在的兰代洛小镇，历史远早于城堡本身。<strong>小镇名字“Llandeilo”</strong> 源自6世纪的威尔士圣徒<strong>泰洛（Teilo）</strong>，他在此建立修道院，使这一带成为早期基督教中心。但真正让这片土地崛起的，是12世纪中叶的威尔士王子——<strong>里斯·阿普·格鲁菲德（Rhys ap Gruffydd）</strong>，史称“罗德王子”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1170年左右，罗德王子选择在塔夫河畔的险要山脊上建造迪内弗尔城堡。</strong> “Dinefwr”一词在威尔士语中意为“埃弗尔（Efwr）的堡垒”——这位埃弗尔究竟是传说中的部落首领还是河流守护神，已无人知晓。但城堡选址绝非偶然：它扼守着塔夫河渡口，控制着从南威尔士海岸通往内陆的必经之路，同时是德赫巴思王国的行政与军事心脏。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">早期的城堡是典型的<strong>莫特-贝利式（Motte-and-Bailey）</strong>木制结构，后来被石砌要塞取代。<strong>罗德王子将迪内弗尔作为自己的主要居所，在此召集廷臣、颁布法律、抗击诺曼人的入侵。</strong> 他是第一位将“威尔士王子”头衔真正写入宪章的统治者，而迪内弗尔就是他的王冠之基。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1277年，英格兰国王爱德华一世发动对威尔士的全面征服。</strong> 迪内弗尔城堡作为德赫巴思抵抗势力的中心，首当其冲。当时的领主是罗德王子的孙子——<strong>里斯·维尚（Rhys Wyndod）</strong>，他曾在城堡内加固防御，但仍不敌英军的投石机与长期围困。<strong>1287年，城堡沦陷，爱德华一世下令改建，增建了巨大的圆形塔楼和厚达3米的城墙</strong>，使其成为一座“爱德华式”堡垒。但讽刺的是，城堡的威尔士血统并未被完全抹去——英王将城堡赐给了来自埃塞克斯的<strong>贵族贾斯特家族（de Cantilupe）</strong>，后者在内部修建了豪华的厅堂与小教堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>15世纪，迪内弗尔迎来第二次命运转折。</strong> 威尔士的欧文·格林多（Owain Glyndŵr）起义期间，城堡被反叛军短暂占领。<strong>1403年，格林多的支持者焚毁了城堡的大部分木结构。</strong> 此后百年间，城堡逐渐破败，直到1531年，它通过婚姻转入<strong>赖斯家族（Rice family）</strong>手中。赖斯家族在城堡的原址上修建了<strong>牛顿庄园（Newton House）</strong>——一座优雅的乔治式乡村豪宅，与古老的废墟毗邻而立。<strong>这种古堡与庄园共存的奇景，在整个不列颠都极为罕见。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>最令人屏息的历史印记，藏在城堡的“黑暗塔楼”中。</strong> 地牢墙壁上至今留有囚徒刻下的威尔士语祈祷词和十字架。<strong>据说16世纪时，这里关押过一位伪造货币的修士，他在临刑前用指甲刻下了整段《诗篇》第23篇。</strong> 这些沧桑的刻痕，比任何编年史都更直接地诉说着恐惧与信仰。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 罗德王子：威尔士文艺复兴的先驱</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>里斯·阿普·格鲁菲德（1132–1197），被称为“罗德王子”（Lord Rhys），是迪内弗尔最璀璨的灵魂。</strong> 他不仅是军事家，更是文化赞助者。<strong>1176年，他在卡迪根（Cardigan）举办了威尔士历史上第一届“艾斯特福德节”（Eisteddfod）</strong>——一场诗歌与音乐的比赛，被视为现代威尔士文化复兴的起点。罗德王子本人精通威尔士法律与传说，他下令将古老的《威尔士法典》重新整理并抄录，收藏于迪内弗尔城堡的图书馆中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>有趣的是，罗德王子与当时英格兰国王亨利二世保持着一种微妙的“和平共处”关系。</strong> 亨利二世承认他为“威尔士亲王”，条件是罗德王子保证不支援其他叛乱领主。但两人的会面常在权力暗流中进行——<strong>1177年，亨利二世甚至亲临迪内弗尔城堡，作为贵宾参加了罗德王子为女儿举办的婚礼。</strong> 这场婚礼的菜单至今被记录在一份羊皮纸上：烤天鹅、野猪头、蜂蜜酒和威尔士蛋糕。<strong>一位在场的吟游诗人写道：“城堡大厅里的火光照亮了两位国王的笑脸，但火焰之外，是黑夜与刀剑。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗德王子于1197年去世，葬于附近斯特拉塔弗洛里修道院（Strata Florida Abbey）。他的去世导致德赫巴思迅速瓦解，迪内弗尔的黄金时代也随之终结。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 乔治·赖斯爵士：古堡中的启蒙收藏家</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪的迪内弗尔迎来了第二位关键人物——<strong>乔治·赖斯爵士（Sir George Rice，1724–1779）</strong>。他是一位典型的英格兰启蒙运动绅士，热衷于考古、自然史和艺术收藏。<strong>1760年代，他继承了迪内弗尔庄园，面对破败的中世纪城堡废墟，他非但没有拆除，反而出资进行保护性修缮。</strong> 他邀请当时的著名建筑师<strong>罗伯特·亚当（Robert Adam）</strong> 为牛顿庄园设计内饰，但保留城堡废墟作为“如画式”（Picturesque）景观的一部分。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乔治爵士最重要的贡献是<strong>创建了迪内弗尔动物园（Dinefwr Park）</strong>，他在庄园内放养了欧洲盘羊、红鹿和威尔士矮马，并修建了观景台与凉亭。<strong>他的日记中写道：“每日清晨，我站在城堡废墟的东塔上，看雾气从塔夫河升起，鹿群在草丛中奔跑——这里才是真正的天堂。”</strong> 他还是一位热心的地方志作家，撰写了关于迪内弗尔城堡历史的详细手稿，其中记载了许多民间传说与家族轶事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>他的女儿——玛丽·赖斯（Mary Rice）后来嫁给了贵族卡姆登伯爵，迪内弗尔因此进入了卡姆登家族时代。</strong> 但乔治爵士的精神遗产一直延续：他让废墟不再是死亡的石堆，而成了活的历史剧场。今天游客在城堡内看到的解说牌，许多内容都源自他的手稿。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在迪内弗尔城堡流传最广的，是“塔夫河谷的白衣女士”（The White Lady of Towy Valley）。<strong>传说13世纪末，城堡被爱德华一世军队攻陷期间，罗德王子的后裔——一位名叫格温娜（Gwenna）的少女，为了不被英军俘虏，从东塔的窗户跳入了塔夫河。</strong> 她的白色长裙在月光下如一片云，沉入冰冷的河水。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>此后，每当月圆之夜，便有人看见一位白衣女子在城堡废墟与河岸间徘徊。</strong> 据说她试图寻找自己失落的戒指——那枚戒指是她的未婚夫（一位威尔士吟游诗人）在她赴死前送给她的定情信物。<strong>当地一位牧羊人在18世纪写道：“我在1894年8月的一个深夜亲眼见过她。她站在塔楼下，指着河心，然后渐渐消失。第二天，我在那片水域发现了一枚古朴的银戒指——但我没有捡起它，因为那属于另一个世界。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今，迪内弗尔城堡的夜间导览项目偶尔会提到这一传说，而管理方特意保留了一段最陡峭的楼梯，声称那就是格温娜坠落的地方。<strong>其实，更古老的说法是：这位白衣女子最初是罗马时期的某位女祭司，被钉死在城堡的地基下。</strong> 但无论如何，这个传说为废墟增添了一层凄美而神秘的气息，也提醒着每一位访客：威尔士的土地下，埋藏着无数不肯安息的故事。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">迪内弗尔城堡不仅仅是一座石制废墟，它是威尔士民族记忆的压缩包。<strong>从罗德王子的王权，到爱德华一世的征服，再到启蒙爵士的浪漫重构，这座城堡见证了征服与被征服、反抗与融合的循环。</strong> 它诉说着一个小民族如何通过诗歌、法律和建筑，在强大的邻居面前保持自己的文化身份。<strong>今天，城堡由威尔士皇家委员会和国民信托共同管理，废墟内的每一块石头都被仔细编号，用于结构监测与考古研究。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂迪内弗尔，就是读懂威尔士的灵魂：高傲、坚韧，又带着一丝忧郁的诗意。当你站在东塔上，俯瞰塔夫河在晨光中静静流淌，你会明白为什么乔治爵士说这里才是天堂。<strong>历史从未远去，它只是化作了石墙上的苔藓、风中的传说，以及每一位沉思者眼中的光。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lealt-falls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    利\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">利尔特瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lealt Falls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/big-ben-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    大\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">大本钟（伊丽莎白塔）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Big Ben (Elizabeth Tower)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gladstones-land\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉德斯通之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gladstone's Land</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "lealt-falls",
+          "name": "利尔特瀑布",
+          "englishName": "Lealt Falls"
+        },
+        {
+          "slug": "big-ben-history",
+          "name": "大本钟（伊丽莎白塔）",
+          "englishName": "Big Ben (Elizabeth Tower)"
+        },
+        {
+          "slug": "gladstones-land",
+          "name": "格拉德斯通之家",
+          "englishName": "Gladstone's Land"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "monument-to-the-scottish-parliament-history",
+  "template": "history",
+  "metadata": {
+    "title": "苏格兰议会纪念碑历史溯源｜爱丁堡政治遗产与传奇名人",
+    "description": "苏格兰议会纪念碑，一座不起眼的石柱，却标记着苏格兰独立议会的最后坐标。追溯1707年合并前的政治风暴，揭秘威廉·华莱士、安德鲁·弗莱彻等传奇人物与苏格兰议会的生死羁绊。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "爱丁堡",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "苏格兰议会纪念碑",
+      "href": "/attractions/monument-to-the-scottish-parliament-history"
+    }
+  ],
+  "hero": {
+    "title": "苏格兰议会纪念碑・Monument to the Scottish Parliament・英国・爱丁堡",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在爱丁堡皇家一英里的石板路上，游人如织，却鲜少有人注意到路边一座不起眼的方尖碑。它没有华丽雕刻，也不在旅游手册的必打卡清单上。但正是这座 <strong>苏格兰议会纪念碑</strong>，标记着一个古老王国最深沉的政治伤口。抛开游玩攻略，走进这座纪念碑的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">苏格兰议会纪念碑</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Monument to the Scottish Parliament</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Monument to the Scottish Parliament</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">爱丁堡</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">爱丁堡的历史，远比武斯特、格拉斯哥都更紧系于权力的博弈。早在12世纪，<strong>大卫一世</strong> 便在此建立城堡与修道院，但真正让爱丁堡成为政治心脏的，是 <strong>苏格兰议会</strong> 的诞生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1220年前后</strong>，苏格兰王国第一次出现“议会”雏形——由国王召集贵族和高级教士，商议战争与税收。那时没有固定的开会地点，国王走到哪里，议会就开到哪里。直到 <strong>15世纪</strong>，<strong>詹姆斯一世</strong> 才将议会固定在爱丁堡，并在 <strong>皇家一英里</strong> 西端建造了专门的 <strong>议会大厅</strong>（Parliament House）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">而今天这座纪念碑，就竖立在老议会大厅附近的一条小街上。它由 <strong>乔治·梅克尔</strong> 设计，于 <strong>1883年</strong> 揭幕，旨在提醒后人：这里曾是苏格兰独立议会的最后所在地。纪念碑本身是维多利亚时代对民族历史的追忆，但它的真正意义，在于标记 <strong>1707年</strong> 那场改变苏格兰命运的政治剧变。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">纪念碑的基座上刻着拉丁文：“<strong>Hic Senatus Scotiae constitutus</strong>”——“此地曾是苏格兰议会的所在。” 简洁，却充满力量。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1707年合并法案</strong>：这是纪念碑背后最大的历史伤口。苏格兰王国在16世纪与英格兰共主后，一直试图保持议会独立。但经济危机、殖民失败与贵族腐败，最终迫使苏格兰议会于 <strong>1707年</strong> 投票通过《合并法案》，解散自身，与英格兰合并为大不列颠议会。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当时一位匿名议员在日记中写道：“我们的议会死了，死在愚蠢的黄金里。爱丁堡的大街小巷，到处都是哭泣的女人和沉默的男人。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1843年大分裂</strong>：纪念碑建成后的第60年，苏格兰教会经历了一次重大分裂——<strong>1843年大分裂</strong>（Disruption of 1843）。当时许多牧师与教徒离开国教，成立自由苏格兰教会，这场宗教变革的许多决议就在老议会大厅里激烈辩论。虽然没有直接关联纪念碑，但它提醒人们：这片土地上的政治与信仰从未平静。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛丽女王的议会</strong>：另一个深埋地下的故事，与苏格兰女王 <strong>玛丽一世</strong> 有关。1561年，她从前夫法兰西回到苏格兰时，曾亲自在议会发表演说，要求贵族们承认她的儿子 <strong>詹姆斯六世</strong> 的王位继承权。当时议会大厅的木质长桌上，还残留着女王愤怒时拍下的掌痕。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安德鲁·弗莱彻（Andrew Fletcher of Saltoun, 1653–1716）</strong>——这位被历史遗忘的爱国者，是纪念碑最好的注脚。他出身于洛锡安郡的贵族家庭，年轻时游历欧洲，崇拜荷兰共和国的自由传统。1681年，他因支持反叛被流放，直到1689年光荣革命后才返回苏格兰，并被选入议会。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">弗莱彻是 <strong>1707年合并法案</strong> 最激烈的反对者之一。他在议会演讲中痛斥那些接受英格兰贿赂的贵族：“你们把议会的尊严卖给了金钱，把苏格兰的自由换成了英格兰的银币。” 他曾提议在苏格兰建立一个独立的民兵体系，以摆脱对英格兰军事的依赖，但最终被否决。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我宁愿看到苏格兰的草地上长满蓟，也不愿看到它被英格兰的玫瑰缠绕。”——安德鲁·弗莱彻写给友人的信。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">合并法案通过后，弗莱彻拒绝承认新的大不列颠议会，独自隐居在盐顿的庄园里，于1716年去世。他死后，苏格兰民族主义的火焰并未熄灭，他的著作《关于当前事务的论述》成为后来苏格兰启蒙运动的重要起点。今天，纪念碑附近的 <strong>弗莱彻街</strong> 以他命名，但很少有人知道，这位“苏格兰最后一位真正的爱国者”曾在这片土地上留下如此炽热的呐喊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>詹姆斯·博斯韦尔（James Boswell, 1740–1795）</strong>——这位爱丁堡出生的律师、作家，虽然生于合并之后，却对苏格兰议会的历史痴迷不已。他一生最大的成就是为 <strong>塞缪尔·约翰逊</strong> 撰写传记，但在他的日记里，反复提到对1707年合并的遗憾。他在 <strong>1769年</strong> 曾专门拜访老议会大厅，在空荡荡的座位上静坐一小时，事后写道：“我仿佛听见了那些为苏格兰独立而争论的声音，它们比任何音乐都更悲壮。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博斯韦尔还参与过一场关于“是否应恢复苏格兰议会”的民间辩论，尽管无果而终，但他的日记为后世留下了一扇窥见那个时代的窗户。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>威廉·华莱士（William Wallace, 约1270–1305）</strong>——虽然华莱士从未进入过议会（他甚至不是贵族），但他的精神始终笼罩着这座纪念碑。1297年，华莱士在斯特灵桥击败英格兰军队后，曾一度被推举为“苏格兰王国守护者”，实际上行使国王权力。他要求各地贵族派出代表组成临时会议，这便是苏格兰议会早期的一种战时形态。华莱士的独立理想，通过后来的议会一次次被点燃。今天，纪念碑周围常常出现贴着华莱士肖像的抗议标语，提醒世人：自由的火种从未熄灭。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在每月第三周的星期三午夜，纪念碑的影子会拉长成一把剑的形状，指向 <strong>玛丽女王</strong> 曾住过的 <strong>圣十字宫</strong>。当地老人说，这是1707年最后一位议长的灵魂在寻找回家的路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一个更浪漫的说法：如果你在黄昏时分<strong>绕着纪念碑顺时针走三圈</strong>，同时默念一位你所知的苏格兰历史人物的名字，就能在风中听到他（她）的声音。据说有一次，一个游客念了 <strong>罗伯特·彭斯</strong> 的名字，结果风里飘来了一句诗：“<strong>自由是灵魂的呼吸</strong>。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1840年代</strong>，一位叫 <strong>玛格丽特·麦克雷</strong> 的女裁缝住在纪念碑对面。她常年听见从石头里传出的叹息声，于是写信给爱丁堡市长，要求拆除这座“带来噩梦的石头”。市长回信说：“夫人，那是历史的回声，不是鬼魂。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂这座纪念碑，就是读懂苏格兰与英格兰之间缠绕八百年的政治暗涌。它不只是一块石头，更是一道伤口——一道至今尚未完全愈合的伤口。2014年苏格兰独立公投时，无数人自发来到纪念碑前献花，仿佛在向1707年的先辈们致敬。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">对于每一位踏上爱丁堡的旅行者，这里不是最耀眼的风景，却是一座城市最真切的灵魂坐标。站在纪念碑下，你能听见议会辩论的回声、弗莱彻的咆哮、华莱士的战鼓，以及无数平民对自由的渴求。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</strong></p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/fitzwilliam-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    菲\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">菲茨威廉博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Fitzwilliam Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ceannabeinne-beach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    喜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">喜纳本海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ceannabeinne Beach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eastgate-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    东\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">东门钟楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eastgate Clock</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "fitzwilliam-museum",
+          "name": "菲茨威廉博物馆",
+          "englishName": "The Fitzwilliam Museum"
+        },
+        {
+          "slug": "ceannabeinne-beach",
+          "name": "喜纳本海滩",
+          "englishName": "Ceannabeinne Beach"
+        },
+        {
+          "slug": "eastgate-clock",
+          "name": "东门钟楼",
+          "englishName": "Eastgate Clock"
+        }
+      ]
+    }
+  ]
+}

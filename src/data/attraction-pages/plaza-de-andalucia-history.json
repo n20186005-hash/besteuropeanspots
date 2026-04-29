@@ -1,0 +1,85 @@
+{
+  "slug": "plaza-de-andalucia-history",
+  "template": "history",
+  "metadata": {
+    "title": "阿尔梅里亚历史溯源｜安达卢西亚广场的前世今生与摩尔人遗风传奇",
+    "description": "深入西班牙东南部小城阿尔梅里亚，探寻安达卢西亚广场背后的摩尔王朝、地震重生与诗人秘闻。一段被阳光与风沙雕刻的时光故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "阿尔梅里亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "安达卢西亚广场",
+      "href": "/attractions/plaza-de-andalucia-history"
+    }
+  ],
+  "hero": {
+    "title": "安达卢西亚广场・Plaza de Andalucía・西班牙・阿尔梅里亚",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">它没有塞维利亚广场的喧嚣，也没有格拉纳达阿尔罕布拉宫的盛名。但阿尔梅里亚的安达卢西亚广场，却是这座城市跳动千年的心脏。 <strong>从摩尔人的集市到地震后的重生</strong>，每一块石板都浸透着地中海的热风与王朝的更迭。抛开游玩攻略，走进安达卢西亚广场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">安达卢西亚广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Plaza de Andalucía</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Plaza de Andalucía</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">阿尔梅里亚</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿尔梅里亚这个名字，源于阿拉伯语 <em>Al-Mariyya</em>，意为“瞭望塔”或“镜子之海”。公元 <strong>955年</strong> ，在科尔多瓦哈里发阿卜杜勒·拉赫曼三世（Abd al-Rahman III）的命令下，一座防御堡垒在海岸线上拔地而起，这就是阿尔卡萨瓦城堡（Alcazaba）。而城堡脚下的开阔地带，逐渐形成了商旅往来的<strong>大广场</strong>——这便是安达卢西亚广场的前身。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场最初并非如今规整的模样。它只是集市马车临时停靠的泥土地，周围挤满了贩卖丝绸、香料和奴隶的棚屋。 <strong>11世纪的泰法王朝时期</strong>，阿尔梅里亚成为地中海最繁忙的港口之一，广场上堆满了来自埃及的亚麻、中国的瓷器。直到 <strong>1489年</strong>，天主教双王收复这里，广场被重新命名为“皇家广场”，并铺设了首批石板。但当地人依然私下称它为“老市场广场”，因为这里永远弥漫着烤鱼与橙花的味道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>名字的真正定型发生在19世纪</strong>。为了响应西班牙19世纪地方主义思潮，市政厅在1850年代正式将其命名为“安达卢西亚广场”。但它的灵魂，始终是那个摩尔人脚下尘土飞扬的十字路口。走进广场，你脚下踩着的，正是千年商队的足迹。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场的历史，是一部浓缩的<strong>战争与灾变</strong>编年史。最深刻的印记来自 <strong>1522年</strong> 那场几乎摧毁整个阿尔梅里亚的地震。当时广场中央的伊斯兰风格喷泉倒塌，四周的木制房屋轰然碎裂。幸存者们在废墟上重建时，刻意抬高了广场的地面，并将残存的<strong>摩尔人石柱</strong>嵌入新建筑中——现在你还能在广场东侧的老药房外墙上看到那些刻有库法体铭文的柱子。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二个印记属于内战时期</strong>。1936-1939年西班牙内战期间，广场成为共和派与佛朗哥军队拉锯的前线。北侧的圣玛丽亚教堂被炮弹击中，穹顶坍塌，但祭坛后的<strong>巴洛克浮雕</strong>奇迹般保留了下来。当地人传说，在轰炸最猛烈时，广场上的鸽子全部飞向大海，三天后战争就结束了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">而最奇妙的印记，是广场地下那条<strong>被遗忘的摩尔人水道</strong>。2017年市政改造工程中，工人在广场下方3米处发现了一段完整的坎儿井（qanat）系统，深达5公里。这条建于11世纪的暗渠，用陶管将雪水从内华达山脉引入广场，滋养了曾经的水池与花园。如今这段水道被封闭保护，但你可以在广场东北角的金属井盖上，透过玻璃窥见黑色水流缓缓移动——那是千年不息的脉搏。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 诗人与逃亡者：弗朗西斯科·维拉埃斯佩萨（Francisco Villaespesa）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位 <strong>19世纪末</strong> 出生的阿尔梅里亚诗人，将安达卢西亚广场写进了西班牙现代主义文学的星空。维拉埃斯佩萨年轻时每天傍晚都会坐在广场北侧的咖啡馆（已毁于内战），面对摩尔城堡的剪影，用诗句捕捉黄昏的颜色。他的代表作《阿尔梅里亚的黄昏》中曾写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“广场的橙树在风中窃窃私语，每一片叶子都是摩尔人遗失的信笺。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但他在 <strong>1936年</strong> 内战中因为支持共和派而被追捕。据说他躲进广场下方一条密道（正是后来发现的水道分支），靠着居民偷偷运送的面包和水存活了三个月。战后他流亡墨西哥，至死未能回到广场。如今广场上立着他的半身铜像，铜像的右手始终指向地下——那是对于逃亡岁月的隐秘纪念。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 摄影师的叛离：莉莉安·萨拉戈萨（Lilian Zaragoza）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1930年代，女摄影师 <strong>莉莉安·萨拉戈萨</strong> 从马德里来到阿尔梅里亚，被广场上摩尔与基督混杂的建筑纹理震撼。她用当时罕见的彩色胶片记录下广场的日常：卖鱼妇的流苏披肩、孩子们在喷泉边追着橘子皮踢球、老绅士们坐在铁椅上用方言争论佛朗哥的言论。其中最著名的一张照片《安达卢西亚的午后》，被《国家地理》选为 <strong>1934年</strong> 年度图片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而莉莉安后来被佛朗哥政权指控为“间谍”，原因是在她照片中，广场的背景里总有一座被故意虚化的教堂——当局认为她在掩盖教堂外墙的“革命标语”。实际上那只是她的构图偏好。<strong>1941年</strong> 她被迫离开西班牙，将所有底片藏在广场旁一位朋友的阁楼里。直到2005年，这批底片才被发现并公之于众。如今，你可以在广场北侧的“安达卢西亚摄影档案馆”看到这些彩色世界——那是战前最后的宁静。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于广场最大的传说，是<strong>午夜摩尔公主的叹息</strong>。据说在月亮最圆的夜晚，如果你独自一人站在广场中央的八角形地砖拼花（现代修复时特意保留的摩尔风格图案）上，会听到若有若无的叹息声，伴着水流的呜咽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">故事要追溯到 <strong>14世纪</strong>，当时阿尔梅里亚被格拉纳达王国统治。广场边住着一位美丽的摩尔公主 <strong>法蒂玛</strong>，她爱上了一位基督教骑士。国王震怒，将骑士关入阿尔卡萨瓦城堡的地牢。公主每晚偷偷来到广场，对着城堡方向哭泣。为了救出爱人，她答应嫁给一位阿拉伯王子，王子却在新婚之夜将她毒死——因为怀疑她失贞。她的灵魂从此被禁锢在广场，等待永远不会到来的骑士。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地老人说：“如果你在深夜听到叹息，千万不要回头。那是法蒂玛还在寻找她的爱人。你只要把一枚橙子放在喷泉边，她的灵魂就会暂时安息。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个习俗是 <strong>“橙子节”</strong> 。每年4月最后一个周末，阿尔梅里亚人会在广场上堆满上千斤鲜橙，孩子们可以免费领取。这源自16世纪修道院的传统：为了纪念某次旱灾后奇迹般丰收的柑橘。但民间更愿意相信，这是为了安抚法蒂玛——因为橙子是她生前最爱的水果。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">安达卢西亚广场不是一座冷冰的纪念碑，而是一本<strong>翻开的历史书</strong>。它的每一道裂缝都浸着摩尔人的智慧与天主教剑的冷光，空气里飘着咖啡、橙花和尘土的混合味。读懂它，你便读懂了整个安达卢西亚——那个被阳光、战争、诗和伤痛共同喂养的传奇大地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你坐在广场的长椅上，看孩子们追逐鸽子，老人下着西洋棋，不妨想象脚下那条千年暗渠仍在流淌，头顶的树枝里藏着诗人的叹息。这座广场不需要华丽的辞藻，它本身就是最动人的叙述者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/segovia-aqueduct\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塞哥维亚罗马水道桥</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Segovia Aqueduct</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pamplona-city-walls\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    潘\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">潘普洛纳古城墙</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pamplona City Walls</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/tarragona-amphitheatre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塔拉戈纳圆形剧场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Tarragona Amphitheatre</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "segovia-aqueduct",
+          "name": "塞哥维亚罗马水道桥",
+          "englishName": "Segovia Aqueduct"
+        },
+        {
+          "slug": "pamplona-city-walls",
+          "name": "潘普洛纳古城墙",
+          "englishName": "Pamplona City Walls"
+        },
+        {
+          "slug": "tarragona-amphitheatre",
+          "name": "塔拉戈纳圆形剧场",
+          "englishName": "Tarragona Amphitheatre"
+        }
+      ]
+    }
+  ]
+}

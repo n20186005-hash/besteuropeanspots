@@ -1,0 +1,85 @@
+{
+  "slug": "pavilhao-do-conhecimento-history",
+  "template": "history",
+  "metadata": {
+    "title": "里斯本知识馆历史溯源｜世博会遗产与现代科学殿堂的前世今生",
+    "description": "从1998年世博会的未来之窗，到葡萄牙科学传播的旗舰地标。探索知识馆的建筑秘密、科学家轶事与万国公园的尘封往事。抛开游玩攻略，走进这座现代神庙的时光传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "葡萄牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "里斯本",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "知识馆 - 活科学",
+      "href": "/attractions/pavilhao-do-conhecimento-history"
+    }
+  ],
+  "hero": {
+    "title": "知识馆 - 活科学・Pavilhão do Conhecimento - Ciência Viva・葡萄牙・里斯本",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在特茹河畔的万国公园，一座白色穹顶建筑如巨眼凝视着里斯本的天际线。<strong>它不是古老的城堡，却承载着葡萄牙对未来的野心。</strong> 1998年，世界博览会的“知识馆”诞生；今天，它是Ciência Viva（活科学）网络的心脏。抛开游玩攻略，走进这座现代科学殿堂的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">知识馆 - 活科学</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Pavilhão do Conhecimento - Ciência Viva</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Pavilhão do Conhecimento - Ciência Viva</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">葡萄牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">里斯本</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>万国公园</strong>并非古老的里斯本街区，而是1990年代葡萄牙为1998年里斯本世博会（Expo'98）从工业废墟中重塑的“未来之城”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这里曾是炼油厂、屠宰场和贫民窟的聚集地，污染严重。政府决定借世博会主题“海洋：未来的遗产”，彻底更新城市东郊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1993年</strong>，规划启动，葡萄牙建筑师<strong>João Luís Carrilho da Graça</strong>接手设计一座标志性展馆——知识馆。名字“Pavilhão do Conhecimento”直译“知识之亭”，意在展示人类对科学、技术与海洋的探索成果。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">世博会结束后，这座建筑没有沦为临时展览，而是转型为永久性互动科学中心，隶属于国家科学文化机构<strong>Ciência Viva</strong>，成为葡萄牙“活科学”教育的象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的起源，本身就是一次从工业衰败到知识复兴的城市实验。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>世博会的遗产</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Expo'98是20世纪欧洲最后一场大型世博会。知识馆作为核心展馆，接待了超过1000万游客。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">展馆内设有<strong>“海洋实验室”</strong>和<strong>“发现之塔”</strong>，模拟深海探险与航海科技。<strong>1998年9月30日</strong>，世博会闭幕，许多人担心它会像其他临时建筑一样被拆除。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但葡萄牙政府决定保留并改造，使其成为<strong>欧洲首个永久性国家科学中心</strong>。这一决策，让知识馆成为世博会可持续利用的经典案例。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>建筑的隐喻</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">知识馆的建筑造型极具象征意义：巨大的白色混凝土穹顶覆盖着半透明玻璃，如同<strong>一只凝视天空的眼睛</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建筑师Carrilho da Graça曾说：“它代表人类的好奇心——不断向上、向外探索。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">穹顶内部没有一根柱子，依靠预应力混凝土技术实现<strong>81米的无支撑跨度</strong>，是当时欧洲最大的自由跨度之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这种结构本身就是一个工程传奇，隐喻“知识的支撑无需立柱，而是由好奇与想象撑起。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Ciência Viva网络</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2000年，知识馆正式成为<strong>Ciência Viva</strong>的总部。这是一个覆盖葡萄牙全国的<strong>科学普及网络</strong>，如今包括21个互动中心。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">馆内常设展览“挑战极限”（Desafiar o Limite）让游客体验失重、模拟地震、操纵机器人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2009年</strong>，这里举办了欧洲最大的科学节“Ciência 2009”，吸引了超过20万人。这里不仅是展厅，更是葡萄牙科学传播的神经中枢。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>若泽·马里亚·德·埃萨·德·凯罗斯？不，是科学家与诗人的双面人生：Rómulo de Carvalho</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">虽然知识馆没有直接与某位历史名人绑定，但<strong>Rómulo de Carvalho（1906-1997）</strong> 的名字与Ciência Viva精神高度契合。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是葡萄牙<strong>物理学家、教育家和诗人</strong>，笔名<strong>António Gedeão</strong>。他毕生致力于将科学带入大众生活，尤其是在中学推行实验教学。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Carvalho在里斯本大学任教，编写了影响深远的科学教材。<strong>1972年</strong>，他出版《科学教学中的实验》，主张“科学不是背诵公式，而是动手体验。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这一理念正是Ciência Viva的核心。1996年，国家科学文化机构成立时，就以“活科学”命名，向Carvalho致敬。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">知识馆内设有专门纪念他的空间，展示他的手稿和实验仪器。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“科学是一首没有句点的诗。”——Rómulo de Carvalho，在日记中写道。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他曾说，孩子们最喜欢的实验是<strong>用蜡烛和玻璃杯制作“真空”</strong>，正如知识馆最受欢迎的互动项目——“制作云朵”一样，让抽象变得触手可及。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>建筑师João Luís Carrilho da Graça：用混凝土写诗的人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">设计知识馆的Carrilho da Graça是葡萄牙当代建筑大师，<strong>2011年获得密斯·凡·德·罗奖</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他偏爱极简几何与光影游戏。在知识馆，他故意让穹顶的玻璃幕墙<strong>随着太阳角度变换色彩</strong>，内部空间在一天中不断“流动”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一个轶事：建筑竞赛时，评委质疑穹顶结构是否可行。Carrilho da Graça拿出一张餐巾纸，画了三条曲线，说：“我用数学证明给你们看。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">结果他赢了。如今，这座建筑被《建筑评论》列为<strong>20世纪90年代欧洲十大标志性建筑</strong>之一。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">里斯本出租车司机中流传着这样一个说法：<strong>“知识馆的屋顶晚上会发光，像外星人的UFO停在那里。”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">实际上，那是穹顶的玻璃在特茹河反射月光的效果。但当地人坚信，世博会期间曾有宇航员从太空看到它，说这是地球上一个“发光的眼睛”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个更诗意的传说：<strong>1998年世博会的最后一天，一位老渔民偷偷爬上穹顶，将一小袋大西洋的沙撒在玻璃上。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他说：“这里讲的是海洋的未来，不能没有真实的沙。”工作人员没有赶他走，反而将沙粒嵌入了穹顶的接缝中——至今仍能看见细微的闪光点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">不管真假，这个小故事成了知识馆“连接海洋与未来”的民间注脚。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">知识馆不是一座古老遗迹，但它的历史价值恰好在于<strong>见证了一个国家如何用科学重新定义自身</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从大航海时代的海洋帝国，到21世纪的知识经济，葡萄牙在这里完成了精神传承的现代化转型。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走进馆内，你会看到孩子用积木搭建桥梁、用磁力模拟宇宙。那些笑容与惊呼，和500年前里斯本港口的商人计算星图时的专注，其实一脉相承。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>读懂这座博物馆，就是读懂葡萄牙拥抱未来的勇气。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/portalegre\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    波\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">波塔莱格雷</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Portalegre</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/macedo-de-cavaleiros-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马塞杜-迪卡瓦莱鲁什</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Macedo de Cavaleiros</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/museu-nacional-do-azulejo\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    国\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">国家瓷砖博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museu Nacional do Azulejo</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "portalegre",
+          "name": "波塔莱格雷",
+          "englishName": "Portalegre"
+        },
+        {
+          "slug": "macedo-de-cavaleiros-history",
+          "name": "马塞杜-迪卡瓦莱鲁什",
+          "englishName": "Macedo de Cavaleiros"
+        },
+        {
+          "slug": "museu-nacional-do-azulejo",
+          "name": "国家瓷砖博物馆",
+          "englishName": "Museu Nacional do Azulejo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "karlsplatz-history",
+  "template": "history",
+  "metadata": {
+    "title": "卡尔广场历史溯源｜维也纳城市广场的前世今生与名人传奇",
+    "description": "从郊外沼泽到音乐之都的十字路口，卡尔广场见证哈布斯堡王朝的雄心与分离派的叛逆。卡尔教堂的传说、分离派展览馆的诞生、克里姆特的青年时代，在尘封的档案中还原一个真实的维也纳。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "奥地利",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "维也纳",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卡尔广场",
+      "href": "/attractions/karlsplatz-history"
+    }
+  ],
+  "hero": {
+    "title": "卡尔广场・Karlsplatz・奥地利・维也纳",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">维也纳的卡尔广场，不是游客手册上的打卡地标，而是哈布斯堡王朝末期一扇被遗忘的时光之门。它曾是帝王与平民的边界，也是现代艺术叛逆者们的秘密战场。抛开游玩攻略，走进卡尔广场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">卡尔广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Karlsplatz</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Karlsplatz</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">奥地利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">维也纳</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡尔广场的起点，藏在一场瘟疫里。<strong>1713年</strong>，维也纳爆发黑死病，神圣罗马帝国皇帝<strong>查理六世</strong>在绝望中向守护圣徒<strong>圣查理·波洛梅奥</strong>许愿：若疫情平息，便建造一座宏伟教堂作为谢礼。三年后，瘟疫消散，皇帝兑现承诺，下令修建<strong>圣查理教堂</strong>（Karlskirche）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但当时这里并非维也纳的核心——教堂选址在<strong>郊外的河滩地</strong>，维也纳河蜿蜒流过，两岸是渔民的草棚与淤泥。德语“Karlsplatz”直译即为“卡尔之地”，但最初的名字与“沼泽”挂钩。直到<strong>18世纪中叶</strong>，哈布斯堡王朝的玛丽亚·特蕾西亚女皇启动大规模城市改造，维也纳河被部分覆盖，广场才逐渐成型。老地图显示，这里曾是一个<strong>士兵操练场</strong>，尘土飞扬，与今天的优雅毫无关联。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正奠定卡尔广场身份的，是<strong>19世纪末</strong>的环城大道建设。维也纳老城墙被拆除，取而代之的是宽阔的环城大道与一片新的公共空间。卡尔广场被规划为城市的“第二心脏”，与霍夫堡皇宫、国家歌剧院形成三角轴线。广场南侧建起了<strong>维也纳音乐协会大楼</strong>（金色大厅），北侧则是<strong>分离派展览馆</strong>与<strong>维也纳科技大学</strong>。至此，卡尔广场从边缘沼泽变为艺术与科学的交汇地。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、卡尔教堂：帝国最后的巴洛克狂想</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡尔教堂穹顶上，<strong>32米高</strong>的立柱如天梯般直指云霄。皇帝查理六世不仅为还愿，更想以此象征帝国的永恒。圆顶内部壁画《圣查理·波洛梅奥的升天》由<strong>约翰·米夏埃尔·洛特迈尔</strong>绘制，耗时十年。最惊人的是教堂前的<strong>双柱</strong>，灵感来自<strong>图拉真圆柱</strong>，却雕刻着圣查理生前的事迹——这是巴洛克艺术最后一次在维也纳倾尽国力。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但历史的讽刺在于，教堂刚落成不久（<strong>1737年</strong>），查理六世便去世，女儿玛丽亚·特蕾西亚继位，开始了奥地利王位继承战争。卡尔教堂从此成为哈布斯堡王朝余晖的纪念碑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、分离派建筑：叛逆者的宣言</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场另一端，一座<strong>金色圆顶</strong>的白色立方体建筑在<strong>1898年</strong>拔地而起，与古典风格的卡尔教堂形成激烈对峙。这就是<strong>分离派展览馆</strong>，其正门上刻着格言：“<strong>为时代而艺术，为自由而艺术</strong>”。设计师<strong>约瑟夫·玛丽亚·奥尔布里希</strong>是维也纳分离派运动的先锋，他的初衷是打破美术学院对艺术的垄断，让现代艺术有自己的展场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场上的分离派展览馆与教堂之间恰恰隔了一条电车轨道，仿佛历史分界线：一边是旧帝国的威严，一边是青年艺术家们对未来的狂想。据说建造时，保守派贵族多次抗议，认为金色圆顶“像一颗多余的洋葱”。但奥尔布里希回应：“艺术永远不会属于那些只懂繁复装饰的人。”</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>一、约瑟夫·玛丽亚·奥尔布里希：与广场共生的建筑师</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约瑟夫·玛丽亚·奥尔布里希</strong>（Joseph Maria Olbrich，1867–1908）是维也纳分离派的灵魂人物之一。他出生在奥匈帝国的奥帕瓦，23岁进入维也纳美术学院，师从<strong>奥托·瓦格纳</strong>。瓦格纳当时正在设计维也纳地铁，他交给奥尔布里希的任务是：为城市广场增添一个“既现代又谦逊”的标志性建筑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥尔布里希观察了卡尔广场很久。他发现广场的轴线被卡尔教堂的圆顶统治，周围缺乏一个能让市民停留的视觉焦点。于是他在广场边缘、靠近维也纳河的位置设计了一个<strong>小型建筑</strong>——分离派展览馆。他故意让建筑体型低矮，用白色抹灰墙面与镀金月桂叶圆顶做对比，仿佛教堂后长出的一个白蘑菇。这个设计在建筑界引起轩然大波，有人骂它“丑陋的立方体”，但奥尔布里希在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这个广场需要一场新的对话！旧教堂的曲线已经说了三百年，而我的直角与金色圆顶，将说出下一个世纪的句子。他们现在咒骂我，但未来的人会记住这个地方。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他没能看到那一天。1908年，奥尔布里希因白血病去世，年仅41岁。而分离派展览馆很快成为维也纳艺术圈的中心，<strong>古斯塔夫·克里姆特</strong>、<strong>埃贡·席勒</strong>、<strong>科罗曼·莫泽</strong>都曾在这里展出作品。如今，广场半地下通道的瓷砖壁画仍有奥尔布里希设计的几何图案，仿佛他的签名一直埋在地下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二、古斯塔夫·克里姆特：广场旁的叛逆青年</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>古斯塔夫·克里姆特</strong>（Gustav Klimt，1862–1918）在卡尔广场留下了更隐秘的印记。1897年，他是分离派的创始成员之一，但最初并没有自己的工作室。他常租住在广场旁<strong>Bösendorferstraße</strong>街的一间小公寓里，从窗户能望见卡尔教堂的穹顶。据说他每天清晨穿过广场，去分离派展览馆布展，晚上则混迹于广场边的咖啡馆“Café Sperl”（仍在营业）——那里是艺术家、作家、音乐家的据点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与奥尔布里希的严肃不同，克里姆特在广场的轶事更富戏剧性。一次，他因画作《哲学》被维也纳大学拒收，气得在Café Sperl里当着数位教授的面撕碎抗议信。老板娘后来回忆：“克里姆特先生一脚踩上桌子，挥舞着酒杯大叫：‘这广场将来只会记住我的画，而不是他们那些乏味的课表！’”果然，<strong>1902年</strong>，克里姆特在分离派展览馆展出著名的<strong>贝多芬壁画</strong>，成为现代艺术里程碑。而当年反对他的教授，早已被历史遗忘。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克里姆特于1918年因中风去世，葬在维也纳的Hietzing公墓。但他的工作室如今还保留在卡尔广场西北角的<strong>Schillerplatz</strong>上，玻璃门后偶尔能看见他当年的调色板与旧画架，仿佛他从未离开过这个广场。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>教堂地基下的颅骨</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">维也纳老居民间流传一则怪谈：卡尔教堂奠基时，工人在地下挖出了一具<strong>古罗马士兵的颅骨</strong>。皇帝查理六世听闻后，非但没害怕，反而下令将颅骨埋入教堂地基的正中心——据说这样能“吸纳古代英雄的力量，保佑帝国永不衰败”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但工匠们暗地里议论，那个颅骨下葬当晚，教堂工地的篝火会变成诡异的蓝绿色。一位老石匠在日记里写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“月圆之夜，我在木板棚里听见低语声，像是拉丁文的咒语。第二天，我在祭坛的石头上发现一道裂纹，形状像一把短剑。没人敢告诉皇帝，我们悄悄用水泥糊住了。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到今天，教堂地基里是否真的埋有古罗马颅骨，已无从考证。但每年圣诞夜的弥撒后，总有守夜人偷偷用十字架敲三下祭坛石，说是“与那位勇士打招呼”。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡尔广场，不是维也纳最辉煌的景点，却是一面能照见帝国兴衰的镜子。站在这里，你能同时看到巴洛克的余晖、分离派的勇气、艺术的烽火，以及普通市民的喜怒哀乐。它提醒每一位访者：欧洲的历史，从来不只藏在宏伟的宫殿里，更藏在那些被游客忽略的广场角落。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/wels-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    韦\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">韦尔斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wels</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/salzwelten-shop-infocontainer-hallstatt\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    哈\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">哈尔施塔特盐矿游客中心与商店</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Salzwelten Shop & Infocontainer Hallstatt</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/sankt-veit-an-der-glan\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格兰河畔圣法法伊特</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Sankt Veit an der Glan</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "wels-history",
+          "name": "韦尔斯",
+          "englishName": "Wels"
+        },
+        {
+          "slug": "salzwelten-shop-infocontainer-hallstatt",
+          "name": "哈尔施塔特盐矿游客中心与商店",
+          "englishName": "Salzwelten Shop & Infocontainer Hallstatt"
+        },
+        {
+          "slug": "sankt-veit-an-der-glan",
+          "name": "格兰河畔圣法法伊特",
+          "englishName": "Sankt Veit an der Glan"
+        }
+      ]
+    }
+  ]
+}

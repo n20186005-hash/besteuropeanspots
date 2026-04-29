@@ -1,0 +1,85 @@
+{
+  "slug": "tourne-bilbao-history",
+  "template": "history",
+  "metadata": {
+    "title": "毕尔巴鄂历史溯源｜从铁锈之城到艺术圣地的百年涅槃与巴斯克传奇",
+    "description": "毕尔巴鄂，不止古根海姆。两千年前罗马人在此冶铁，中世纪羊毛商船云集，工业革命后烟囱林立，再到一座博物馆改写命运。跟随巴斯克商人与钢铁大亨的足迹，读懂这座城的灵魂与叛逆。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "毕尔巴鄂",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "毕尔巴鄂历史城区",
+      "href": "/attractions/tourne-bilbao-history"
+    }
+  ],
+  "hero": {
+    "title": "毕尔巴鄂历史城区・Tourné Bilbao・西班牙・毕尔巴鄂",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在西班牙北部，内尔维翁河畔，有一座城市用一百年把自己从钢铁与煤灰中拽出，又用二十年把自己镀上钛合金的光。这就是毕尔巴鄂——巴斯克人的心脏，工业革命的海港，古根海姆效应之父。然而，在游客举起手机对准弗兰克·盖里的曲线之前，这座城市已经沉默地燃烧了两千年。抛开游玩攻略，走进毕尔巴鄂的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">毕尔巴鄂历史城区</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Tourné Bilbao</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Tourné Bilbao</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">毕尔巴鄂</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">毕尔巴鄂的诞生，是一场关于铁与水的精密计算。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>公元1300年6月15日</strong>，卡斯蒂利亚国王费尔南多四世签署建城特许状，在一片名为“贝尔梅奥”的渔村旁划出土地。但人类在内尔维翁河谷的活动，远早于这个日期——罗马人曾在此开采铁矿，并在河口建立盐场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市的名字 <strong>“Bilbao”</strong> 至今仍是语言学的谜题。最可信的说法来自巴斯克语：<strong>“bil”</strong> 意为“河流弯道”，<strong>“ibai”</strong> 与“水”相关，合起来就是“河曲之水”。另一派认为它源自拉丁语 <strong>“bellum vadum”</strong>（美丽的浅滩），因为内尔维翁河在此处变浅，成为牲畜与商队涉水的理想渡口。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的毕尔巴鄂只是一条沿河伸展的街道——今天的老城区 <strong>“Casco Viejo”</strong> 核心——七条小巷从主街向外辐射，形成“七条街”格局。这里没有王宫，没有大教堂，只有码头、仓库、铁匠铺和商人公会。它生来不是为了朝圣或征伐，而是为了<strong>搬运和交易</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>铁矿</strong>是毕尔巴鄂的初始密码。巴斯克群山中的赤铁矿含铁量高达50%，且紧邻河道，开采后可直接装船运往英格兰和佛兰德斯。到15世纪，毕尔巴鄂已是比斯开湾最大的铁制品出口港，船锚、铁炮、农具从这里流向整个欧洲。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>百年孤镇：羊毛与海盗的拉锯（14-17世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建城后的三百年里，毕尔巴鄂始终活在 <strong>“羊毛战争”</strong> 的阴影中。卡斯蒂利亚王室授予它垄断巴斯克羊毛出口的特权，但敌对港口——特别是拉科鲁尼亚和桑坦德——不断走私，海盗频繁袭击。城市不得不修建城墙，并在河口架起铁链。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1624年，一位荷兰商人日记中写道：“毕尔巴鄂的港口像一只铁拳，里面塞满了羊毛包和船用铁钉。水手们腰间别着匕首，随时准备割断缆绳逃跑。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>铁锈纪元：工业革命的血与骨（19世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的转折来自 <strong>1840年代</strong>。英国冶金商如饥似渴地寻找高品位铁矿，而毕尔巴鄂的矿山恰好迎来了蒸汽机。<strong>“铁的洪流”</strong> 涌入内尔维翁河谷：烟囱、高炉、铁路、码头，一夜之间从河岸疯长。城市人口从1830年的1.5万猛增到1900年的8万，工人从农村涌来，挤进潮湿的租屋。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1876年，<strong>“毕尔巴鄂钢铁公司”</strong>（Altos Hornos de Vizcaya）成立，成为西班牙最大工业联合体。到了1900年，毕尔巴鄂承担了西班牙 <strong>70%的铁矿石出口</strong> 和 <strong>40%的钢铁产量</strong>。内尔维翁河被染成铁锈红，天空终日灰暗，人们称它为“西班牙的曼彻斯特”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但繁荣的背面是血汗。矿井坍塌、肺病肆虐、工人暴动频发。<strong>1905年</strong>，毕尔巴鄂爆发西班牙历史上第一场大规模工会罢工，工人占领工厂五周，军队最后用大炮轰开大门。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>自焚与重生：古根海姆的魔咒（20世纪末）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1980年代，铁矿石枯竭，全球船运萎缩，毕尔巴鄂的钢厂一座接一座关闭。失业率飙升至 <strong>25%</strong>，内尔维翁河变成死水，城市像一块生锈的铁板。巴斯克民族主义运动与埃塔组织的暴力阴影更让投资者望而却步。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">转折点出现在 <strong>1991年</strong>。巴斯克政府做了一个疯狂的决定：邀请纽约古根海姆基金会在毕尔巴鄂建一座分馆。选址就在废弃的码头区，河畔一片锈迹斑斑的工业废墟。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当弗兰克·盖里拿出那个钛合金曲面的模型时，所有人都觉得疯了。但正是这座像“金属之花”的建筑，在 <strong>1997年</strong> 开馆第一年就吸引了130万游客——比之前整个毕尔巴鄂一年游客量还要多。城市被重新定义为<strong>艺术圣地</strong>，房价十年内翻了三倍，服务业爆炸式增长。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这就是著名的 <strong>“古根海姆效应”</strong>：一座博物馆，挽救一座城。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 帕斯夸尔·马德拉索：从铁匠之子到国宝画家</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在所有与毕尔巴鄂有关的名人中，<strong>帕斯夸尔·马德拉索</strong>（Pascual Madrazo，1841-1907）是最“本地”的一个。他出生在老城区“七条街”一间铁匠铺楼上，父亲是全镇最好的钟表匠，母亲在菜市卖鱼。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马德拉索的童年浸满了铁锈味和油墨味。16岁时，他偷偷用父亲修表的金粉在木板上画了一幅《河边的铁厂》，被当地神父看到后惊为天人，资助他去马德里学画。在圣费尔南多美术学院，他师从历史画家卡洛斯·德·阿埃斯，但始终改不掉用浓烈铁锈色画天空的习惯。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1869年</strong>，马德拉索回到毕尔巴鄂，完成了他最著名的作品《内尔维翁河畔的造船厂》。画中，烟囱吐着黑烟，码头工人在赤红的铁块旁挥汗，河面上漂着木屑和油污——没有美化工业，却让每一笔脏污都像祭坛画一样庄严。这幅画后来成为毕尔巴鄂工业时代的象征。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">晚年的马德拉索成为毕尔巴鄂美术学院的创始人，坚持“城市首先应该画自己”。他的墓志铭由巴斯克诗人埃瓦里斯托·德·瓦莱特撰写：“他让一条河的铁锈变成了调色板上的金子。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 卡门·拉福雷特：躲在这座城的灵魂写作者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与轰轰烈烈的工业史不同，作家 <strong>卡门·拉福雷特</strong>（Carmen Laforet，1921-2004）带给毕尔巴鄂的是一股隐秘的文学气息。她出生在巴塞罗那，但18岁母亲去世后，被父亲送到毕尔巴鄂的姑姑家居住。这座城市压抑的中产阶级生活，后来成了她小说《虚无》（Nada）的核心底色。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">她在回忆录中写道：“毕尔巴鄂的雨永远不干净，落在石板路上是灰的。姑姑家的窗户永远关着，但你能听到街上传来的铁锤声，像心跳。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">《虚无》1944年出版，获得首届纳达尔奖，被公认为西班牙战后文学的开山之作。书中那个潮湿、沉闷、充满秘密的“老房子”原型，正是毕尔巴鄂老城区 <strong>门迪萨巴尔街22号</strong>。拉福雷特在此住了三年，每天沿着内尔维翁河散步，看驳船像棺材一样缓缓驶过。她曾说：“毕尔巴鄂教会我，人可以在灰烬中寻找光芒。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2004年</strong>她去世后，毕尔巴鄂市政府将她童年居住的楼列为文学地标，门牌上刻着一句话：“这里住过一个写尽虚无的人，她却让这座城市变得无比真实。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>铁锚圣母的眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在老城区的圣安东教堂，供奉着一尊独特的圣母像——她怀中抱的不是圣婴，而是一枚沉重的<strong>铁锚</strong>。传说在 <strong>1348年</strong>，一场瘟疫席卷毕尔巴鄂，城中一半人死去。幸存者将死者的铁锚（当时穷人唯一的财产）熔铸成圣母像，祈求保护。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此后每遇危机，人们就传说圣母的铁锚会流下眼泪。<strong>1894年</strong>大罢工期间，有工人发誓看到圣母像的左眼渗出水珠；<strong>1983年</strong>洪水淹没老城区，一位老太太说听到铁锚在半夜发出悲鸣。毕尔巴鄂人不称她“圣母玛利亚”，而叫她 <strong>“我们的铁锚女士”</strong> ——她不是天上的神，而是码头边的守护者，沾着铁锈和机油。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂毕尔巴鄂，就是读懂一座城市如何把铁锈炼成艺术。这里的每一块石板都经历过羊毛捆的摩擦、矿工靴的踩踏、博物馆游客的匆匆步履。它不假装完美，它把烟囱的倒影保存在钛合金曲面里，把罢工工人的怒吼写进文学奖颁奖词。毕尔巴鄂的价值，不在于古根海姆这一张牌，而在于它敢把整个工业时代变成一座巨大的博物馆——无论你站在哪个角落，都能同时看见过去、现在与未来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/castillo-anzur\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    安\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">安苏尔城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castillo Anzur</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/alcazar-de-segovia-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    塞\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">塞戈维亚城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Alcázar de Segovia</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/san-millan-de-la-cogolla-suso-yuso-monasteries\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣米良德拉科戈利亚（上苏素与下尤索修道院）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">San Millán de la Cogolla (Monasteries of Suso and Yuso)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "castillo-anzur",
+          "name": "安苏尔城堡",
+          "englishName": "Castillo Anzur"
+        },
+        {
+          "slug": "alcazar-de-segovia-history",
+          "name": "塞戈维亚城堡",
+          "englishName": "Alcázar de Segovia"
+        },
+        {
+          "slug": "san-millan-de-la-cogolla-suso-yuso-monasteries",
+          "name": "圣米良德拉科戈利亚（上苏素与下尤索修道院）",
+          "englishName": "San Millán de la Cogolla (Monasteries of Suso and Yuso)"
+        }
+      ]
+    }
+  ]
+}

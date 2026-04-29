@@ -1,0 +1,85 @@
+{
+  "slug": "andalucia-tours-and-discovery-history",
+  "template": "history",
+  "metadata": {
+    "title": "安达卢西亚发现之旅历史溯源｜西班牙南部秘境的前世今生与摩尔人传奇",
+    "description": "走进安达卢西亚的尘封往事：从摩尔王朝的黄金时代到天主教双王的征伐，探访阿尔罕布拉宫的密语与科尔多瓦大清真寺的宗教熔炉。一段跨越八世纪的文明史诗。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "安达卢西亚自治区（多城联动，以格拉纳达、科尔多瓦、塞维利亚为核心）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "安达卢西亚发现之旅",
+      "href": "/attractions/andalucia-tours-and-discovery-history"
+    }
+  ],
+  "hero": {
+    "title": "安达卢西亚发现之旅・Andalucia Tours and Discovery・西班牙・安达卢西亚自治区（多城联动，以格拉纳达、科尔多瓦、塞维利亚为核心）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安达卢西亚</strong>，欧洲最南端的十字路口，曾被罗马人称为“巴埃蒂卡”，被摩尔人唤作“安达卢斯”。这里不是一座单一的城市，而是一片由<strong>格拉纳达、科尔多瓦、塞维利亚</strong>编织成的历史琥珀——摩尔人的最后堡垒、犹太人的黄金摇篮、文艺复兴的隐秘前哨。抛开游玩攻略，走进安达卢西亚的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">安达卢西亚发现之旅</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Andalucia Tours and Discovery</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Andalucia Tours and Discovery</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">安达卢西亚自治区（多城联动，以格拉纳达、科尔多瓦、塞维利亚为核心）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">安达卢西亚的文明起点，远比你想的更古老。<strong>公元前11世纪</strong>，腓尼基人便在加的斯登陆，设立贸易据点；罗马帝国时期，这里成为<strong>橄榄油与葡萄酒</strong>的帝国粮仓。然而真正赋予这片土地灵魂的，是<strong>711年</strong>跨过直布罗陀海峡的摩尔人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“安达卢西亚”之名，源自阿拉伯语 <strong>“Al-Andalus”</strong> ，意为“汪达尔人的土地”——尽管汪达尔人早已离去，摩尔人却在此扎根近八百年。他们引水灌溉，引入桔树与柑橘，将科尔多瓦建成<strong>欧洲最大的城市</strong>，图书馆藏书超过四十万卷，而当时巴黎仅有一千卷。<strong>929年</strong>，后倭马亚王朝的哈里发阿卜杜勒·拉赫曼三世宣布科尔多瓦独立，安达卢西亚成为伊斯兰世界在西方的明珠。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而摩尔人的统治并非铁板一块。<strong>1212年</strong>纳瓦斯德托洛萨战役后，基督教势力南压，摩尔人退守格拉纳达。<strong>1238年</strong>，奈斯尔王朝建立，以阿尔罕布拉宫为象征的<strong>最后摩尔王国</strong>开始了长达两个半世纪的落日余晖。安达卢西亚的名字，从此烙上了摩尔与基督的<strong>双重基因</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>科尔多瓦大清真寺：宗教血泪熔炉</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>785年</strong>，倭马亚王朝王子阿卜杜勒·拉赫曼一世在西哥特教堂废墟上，建起了科尔多瓦大清真寺。这座拥有<strong>856根红白马蹄形拱柱</strong>的奇迹，是伊斯兰建筑在西方最辉煌的遗产。但<strong>1236年</strong>卡斯蒂利亚费尔南多三世攻陷科尔多瓦后，清真寺被强行改为教堂。<strong>16世纪</strong>，主教在中央墓穴上加盖文艺复兴式<strong>主祭坛</strong>，硬生生在伊斯兰几何森林里插入哥特尖顶——西班牙国王卡洛斯五世曾痛骂：“你们为建造平凡的教堂，毁掉了举世无双的杰作！”</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据当时编年史记载，改宗完成后，穆斯林长老捧着古兰经痛哭：“每根石柱都记得宣礼的声音，现在只回荡着拉丁弥撒的沉默。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>格拉纳达：摩尔王朝的眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1492年1月2日</strong>，摩尔苏丹博阿布迪尔在格拉纳达城外交出城门钥匙，结束了<strong>781年</strong>的穆斯林统治。传说他策马离去时，在阿尔罕布拉宫半山腰的“摩尔人叹息地”回首眺望，泣不成声。母亲阿伊莎冷嘲：“你哭得像个女人，却没能像男人一样守住它。”这座<strong>纳塞瑞斯宫殿</strong>以其精密的钟乳石穹顶、狮子庭院和阿拉伯铭文“除真主外，别无胜者”，成为了摩尔建筑最后的挽歌。如今游客排队数小时，只为窥一眼那一夜失国的悲怆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>塞维利亚黄金时代：大航海的前奏</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>13世纪</strong>费尔南多三世收复塞维利亚后，这里迅速成为<strong>新大陆的黄金口岸</strong>。<strong>1503年</strong>，塞维利亚被授予“印度群岛贸易独家垄断权”，黄金船队从瓜达尔基维尔河源源不断驶入。<strong>塞维利亚王宫</strong>（皇家阿尔卡萨）更是奇迹：穆斯林工匠被基督国王强留，用穆德哈尔风格雕刻出十字架与古兰经经文共存的穹顶。<strong>基里科·德·苏巴朗</strong>等画家在此为黄金舰队绘制圣母像，而<strong>哥伦布的遗骨</strong>曾几次辗转，最终葬于塞维利亚大教堂——一个犹太商人、穆斯林工匠、卡斯提尔贵族共同见证的帝国缩影。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>伊本·哈兹姆：科尔多瓦的孤独恋歌</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>994年</strong>，科尔多瓦出生的穆斯林哲学家伊本·哈兹姆，写下《鸽子的颈环》——一部关于爱情的阿拉伯语杰作。他本是倭马亚王朝贵族后裔，却在<strong>1010年</strong>科尔多瓦内战中家族败落。他流亡乡野，用泉水与桔花香记录对逝去荣耀的哀悼。<strong>他的情诗充满几何般严谨的比喻</strong>：“爱情像安达卢西亚的泉水，只有虔诚者才配饮其甘醇。”如今科尔多瓦大清真寺附近的桔树庭院，据说就是他当年写作的地方。<strong>他死于1064年</strong>，死后一度被保守派焚烧著作，但《鸽子的颈环》通过阿尔罕布拉宫的阿拉伯学者秘密保存，直至19世纪才被欧洲重新发现。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>苏丹女诗人瓦拉达：塞维利亚的叛逆玫瑰</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1070年</strong>，塞维利亚摩尔王国出现了一位惊世骇俗的女诗人：瓦拉达·宾特·阿尔-穆塔米德。她是苏丹的后裔，却拒绝面纱，穿着印有诗句的<strong>透明织物</strong>在宫廷行走。她与情人、宰相伊本·扎敦以诗歌互怼：瓦拉达写“爱情是易碎的玻璃杯”，扎敦回“别碰我的心如荆棘”。他们的情书被刻在塞维利亚阿尔卡萨宫的灰泥墙上，直到15世纪天主教国王涂刷覆盖时才被人发现。<strong>瓦拉达的诗集手稿</strong>现存于马德里国家图书馆，其中一句最为惊世：“我的身体是一本打开的书，所有男人都只看到标题。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>博阿布迪尔：最后的苏丹与“摩尔人的叹息”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1460年</strong>出生在格拉纳达的博阿布迪尔，是奈斯尔王朝的末代君主。他的一生被权力游戏撕裂：母亲阿伊莎为了保他上位，毒死了他的父亲，又与他兄弟内战数年。<strong>1482年</strong>他被西班牙人俘虏，被迫签订割地条约。释放后，他回到阿尔罕布拉宫却发现宫内已被亲信出卖。<strong>1492年1月2日</strong>，他走出赫内拉利费宫的门槛，将钥匙交给天主教双王。传说费尔南多国王问他：“你想从这里带什么走？”他只带走了阿尔罕布拉宫花园里的<strong>一枚石榴籽</strong>。如今在阿尔拜辛区的观景台，向导会指着远山说：“看那座山，就是博阿布迪尔回望时哭泣的地方——摩尔人的叹息。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>盐与桔树的魔法</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在科尔多瓦的老城区，至今流传着一条不成文的规矩：<strong>任何新建的房屋，必须在门口种一棵桔子树</strong>。传说<strong>9世纪</strong>，科尔多瓦的哈里发因一位妻子思念家乡大马士革的桔香，命人从叙利亚运来几千株桔树。但水路漫长，树苗枯死过半。一位犹太巫师建议在每一棵枯树根下埋一撮<strong>死海盐</strong>，说这样能让树记住故乡的灵魂。奇迹般，所有桔树复活并结出苦果——这种苦橙至今用于制作英国马麦酱的原料。当地人说，如果你在桔树下听到低语，那是亡者在用阿拉伯语朗诵《古兰经》的开篇章。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>塞维利亚的“流浪猫法庭”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>16世纪</strong>，塞维利亚主教发现大教堂的圣器室里总有猫脚印，怀疑是魔鬼作祟。他下令建立“猫法庭”，每周三开庭审判偷吃圣饼的猫。<strong>历史档案</strong>显示，一只黑猫被判处流放至瓜达尔基维尔河对岸，但因无人押送，便强迫十二个修士组成合唱团，唱歌把猫赶走。如今塞维利亚王宫的柱廊上，仍有一只<strong>铸铁猫雕像</strong>，据说是当年被驱赶的猫的灵魂所化——游客若摸它尾巴三次，就能在塞维利亚找到真爱。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">安达卢西亚不只属于摩尔人、天主教徒或犹太人，它是<strong>文明熔炉的最后遗迹</strong>。当你站在阿尔罕布拉宫的狮子庭院，听着水声从雪山下流来；当你触摸科尔多瓦大清真寺的拱柱，数算那856种纹理；当你听见塞维利亚弗拉明戈歌者在深夜唱出摩尔式的哭泣——你会明白，这片土地的血脉里流淌着<strong>比战争更持久的对话</strong>。历史从未逝去，它只是换了一种方式呼吸。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/albarracin-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿尔瓦拉辛</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Albarracín</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cuevas-del-aguila\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    鹰\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">鹰巢洞穴</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cuevas del Águila</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fuente-del-peregrino\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    朝\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">朝圣者喷泉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fuente del Peregrino</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "albarracin-history",
+          "name": "阿尔瓦拉辛",
+          "englishName": "Albarracín"
+        },
+        {
+          "slug": "cuevas-del-aguila",
+          "name": "鹰巢洞穴",
+          "englishName": "Cuevas del Águila"
+        },
+        {
+          "slug": "fuente-del-peregrino",
+          "name": "朝圣者喷泉",
+          "englishName": "Fuente del Peregrino"
+        }
+      ]
+    }
+  ]
+}

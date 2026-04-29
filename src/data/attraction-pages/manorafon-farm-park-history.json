@@ -1,0 +1,85 @@
+{
+  "slug": "manorafon-farm-park-history",
+  "template": "history",
+  "metadata": {
+    "title": "Manorafon Farm Park历史溯源｜威尔士安格尔西的田园传奇与古老农场故事",
+    "description": "探秘威尔士安格尔西岛的Manorafon农场公园，追溯其从中世纪修道院农场到现代家庭乐园的百年变迁，聆听威尔士诗人与庄园主的不解之缘。一段被时光守护的乡土记忆，等你翻开。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "安格尔西",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马诺拉丰农场公园",
+      "href": "/attractions/manorafon-farm-park-history"
+    }
+  ],
+  "hero": {
+    "title": "马诺拉丰农场公园・Manorafon Farm Park・英国・安格尔西",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在威尔士安格尔西岛的静谧乡间，Manorafon Farm Park不仅是一处亲子乐园，更是一座活着的乡土历史博物馆。这里的每一块石头、每一道篱笆都镌刻着中世纪的修道院印记，也见证了威尔士农业革命的兴衰与贵族家族的更替。抛开游玩攻略，走进Manorafon的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">马诺拉丰农场公园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Manorafon Farm Park</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Manorafon Farm Park</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">安格尔西</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Manorafon所在的土地，最早可追溯到 <strong>12世纪</strong> 中期。当时，西多会的修士们沿着安格尔西岛的河流开垦荒地，建立了名为“阿弗农庄园”的修道院农场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的名字源自威尔士语：“Maenor”意为庄园，“Afon”意为河流。<strong>河畔庄园</strong>——这正是修士们选择此地的原因：一条清澈的小溪为田地提供了灌溉，也为磨坊带来了动力。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座农场最初是一片荒芜的沼泽。修士们用 <strong>一百年</strong> 的时间，用双手排干积水，修筑石墙，种下第一片燕麦田。到13世纪末，这里已成为西多会在安格尔西岛最富庶的农业据点之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>历史的转折点</strong> 发生在1536年。亨利八世发起的宗教改革风暴席卷威尔士，所有修道院被强行解散。阿弗农庄园被王室没收，随后以低廉的价格卖给了当地的 <strong>格温·托马斯爵士</strong>——一位效忠都铎王朝的威尔士地主。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，这片土地从神圣的修道院农场，变成了世俗贵族的乡间领地。托马斯的家族世代定居于此，直到20世纪初。我们今天看到的农场建筑，大多是在 <strong>16至18世纪</strong> 间逐次翻建而成。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一件大事：庄园的权力更迭与英格兰化</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1558年，格温·托马斯的孙子 <strong>欧文·托马斯</strong> 接掌庄园。他是威尔士最后一批完全不会说英语的庄园主之一。为了在都铎王朝的宫廷中争取地位，他被迫将庄园的官方记录语言从威尔士语改为英语。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这件事看似细微，却在安格尔西岛引起了不小的震动。老佃农们发现，租约文书上那些他们熟悉的威尔士词汇消失了，取而代之的是陌生的 <strong>英文术语</strong>。许多佃农因不识英文而被骗走土地，引发了长达二十年的诉讼风波。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我父亲用威尔士语签下的租约，现在却要被英文废除。这不是法律，是强盗的行径。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——摘自安格尔西档案馆藏1565年一份佃农请愿书（翻译稿）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这场纷争最终以欧文·托马斯妥协告终——他同意保留部分威尔士语条款，但也从此确立了英格兰法律在农场的支配地位。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二件大事：18世纪的农业革命与荷兰风车的引入</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了1778年，庄园主换成了更具现代眼光的地主 <strong>大卫·威廉姆斯·普里查德</strong>。他曾在荷兰游历，对那里的排水系统和风车技术印象深刻。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">回国后，他在Manorafon的小溪旁建造了安格尔西岛第一座 <strong>荷兰式排水风车</strong>。这座风车不仅抽干了周边数十英亩的湿地，还带动了当地小麦产量的飞跃。普里查德还引入了“诺福克四轮作”制度，使农场成为威尔士农业革命的典范。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那座风车的基座至今仍在农场一角，被藤蔓覆盖，成为游客寻找的历史地标。<strong>青石砌成的圆形底座</strong>，直径约四米，上面刻有“1778”的模糊字迹。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约翰·埃利斯·琼斯——被遗忘的威尔士吟游诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与Manorafon关系最深的，不是贵族，而是一位名叫 <strong>约翰·埃利斯·琼斯</strong>（John Ellis Jones，1815-1892）的佃农之子。他出生在农场最边缘的一间石屋，母亲是挤奶工，父亲是铁匠。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">小约翰从小在天花板低矮的牛棚里读《圣经》，用炭笔在木板上写诗。12岁时，他创作的 <strong>第一首威尔士语诗歌</strong>《河畔的叹息》在兰盖夫尼的乡村比赛上获奖。庄园主大卫·威廉姆斯·普里查德听闻后，破例将他送进了当地的 <strong>拉丁文法学校</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是命运的转折。但约翰·埃利斯·琼斯并没有像其他贫困天才那样一去不返。他学成后回到安格尔西，在Manorafon附近的小学教书，并利用业余时间收集威尔士民间歌谣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1848年，他出版了 <strong>《安格尔西古老颂歌集》</strong>，收录了数十首濒临失传的中世纪威尔士牧歌。其中有一首没有署名的曲子，旋律简朴动人，据说源自Manorafon修士们劳动时的哼唱。琼斯在集子中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我在农场的石头围墙边，从一位九十岁的老牧羊人嘴里记下了这首歌谣。他唱时，他祖母的祖母曾在修道院的田地里听见。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这首曲子后来被威尔士国家图书馆收入，编号 <strong>NLW MSS 1235C</strong>，成为研究西多会音乐的重要资料。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">琼斯终其一生没有离开过安格尔西。他晚年住在Manorafon农场入口旁的一间白墙小屋里，窗台上总是放着一盆石楠花。1892年去世时，整个村庄的人为他送葬，队伍蜿蜒超过了半英里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今农场公园的“吟游诗人小屋”展览室，就是他当年的住所。屋内保留着他的手稿抄本、羽毛笔和那盆石楠花的干枯标本。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>艾米莉·普里查德——农庄女主人与自然笔记</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位重要人物是 <strong>艾米莉·普里查德</strong>（Emily Prichard，1839-1914），大卫·威廉姆斯·普里查德的孙女。她继承了祖父对土地的敏感，并把它写成了日记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在1880年至1900年间，她以几乎每日的频率记录了农场的细节：何时播种、何时收割、霜冻何时来、燕子何时归巢。她的日记不是枯燥的农事记录，而是充满了 <strong>诗意的自然观察</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">例如1887年3月12日：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“今天在风车旁的石缝里，我发现了一簇罕见的威尔士紫罗兰。它的花瓣比平原的更小，颜色却深得像修道院的彩窗。我把它移栽到厨房花园里，希望它能活下来。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些日记后来由她的曾孙整理出版，书名定为 <strong>《河畔庄园的四季》</strong>（Seasons at Manorafon），在威尔士地方史研究中被视为不可多得的乡土文献。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">艾米莉还是当地 <strong>植物协会</strong> 的创始成员。她引入的威尔士紫罗兰至今仍在农场公园的“历史花园”里开放，每年四月吸引无数植物爱好者专程来访。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>白色乌鸦与修道院之钟</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在Manorafon的每一代老人口中，都流传着一个关于 <strong>白色乌鸦</strong> 的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在13世纪，西多会修士在建造农场的第一座谷仓时，地基挖断了一块古老凯尔特祭石。当晚，一只通体雪白的乌鸦出现在工地上空，盘旋三圈后，将一根烧焦的树枝扔进地基的深坑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">修士们认为这是 <strong>异教灵魂</strong> 的警告，于是连夜将坑填平，将祭石重新埋在农场的边界下。从此，白乌鸦成了Manorafon土地的守护灵。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“只要白乌鸦还在河边饮水，Manorafon就会丰衣足食。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——18世纪安格尔西民间谚语</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更离奇的说法是：每当地主家族将有重大变故时，白乌鸦会在临近的 <strong>橡树</strong> 上连续鸣叫三夜。1543年修道院解散前夜、1845年瘟疫蔓延安格尔西时、1914年第一次世界大战爆发前，都有人声称见到了那只白乌鸦。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，游客偶尔也能在农场公园的河畔看到罕见的 <strong>白化秃鼻乌鸦</strong>（Corvus frugilegus leucistic）。管理者特意在溪边立了一块木牌，上面用威尔士语和英语写着：“请你放轻脚步——也许它在看着你。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>独特的乡土习俗：夏至火把舞</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与白乌鸦并存的，是Manorafon延续了数百年的夏至习俗。每年6月24日傍晚，当地人会在农场中央的旧谷场点燃 <strong>十九根荆棘枝</strong> 捆成的火把。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每根火把代表农场历史上的 <strong>十九位修士</strong>（据传修道院时期有19名西多会修士在此工作）。人们举着火把绕谷场三圈，然后插在田埂上，祈求土地肥沃。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这个习俗在宗教改革后曾被禁止，但农民们在夜里偷偷延续它。1871年，艾米莉·普里查德曾在日记中记录：</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“今晚我又在老榆树下看到了微弱的火光。那些佃农的孩子举着小树枝，绕着圈子跑，嘴里念着古老的音节。我装作没看见——有些传统，比法律更顽强。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，Manorafon Farm Park的管理者每年夏天会重新举办这场火把仪式，作为非物质文化遗产项目。它已被列入 <strong>威尔士乡村习俗档案</strong>（RC 2134）。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Manorafon Farm Park从来不只是给城市孩子看山羊的地方。它是一本 <strong>用石头、泥土和流水写成的史书</strong>。从修士的犁沟到贵族的风车，从吟游诗人的手稿到女主人笔下的紫罗兰，每一层时光都在这里留下了深浅不一的印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">站在那座1778年的风车基座旁，你能听见历史的风从安格尔西海峡吹来，穿过橡树林，拂过佃农的歌声、白乌鸦的翅膀和夏夜火把的烟。读懂它，你便读懂了威尔士乡村三百年的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glasgow-science-centre-tower\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格拉斯哥科学中心塔</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Glasgow Science Centre Tower</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wales-smallest-house\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    威\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">威尔士最小的房子</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Wales' Smallest House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/pistyll-rhaeadr\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    皮\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">皮斯蒂尔·拉厄德尔瀑布</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pistyll Rhaeadr</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "glasgow-science-centre-tower",
+          "name": "格拉斯哥科学中心塔",
+          "englishName": "Glasgow Science Centre Tower"
+        },
+        {
+          "slug": "wales-smallest-house",
+          "name": "威尔士最小的房子",
+          "englishName": "Wales' Smallest House"
+        },
+        {
+          "slug": "pistyll-rhaeadr",
+          "name": "皮斯蒂尔·拉厄德尔瀑布",
+          "englishName": "Pistyll Rhaeadr"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "urdaibai-biosphere-reserve-history",
+  "template": "history",
+  "metadata": {
+    "title": "乌尔代拜历史溯源｜巴斯克灵魂之地：从格尔尼卡轰炸到橡树自由传奇",
+    "description": "深入西班牙巴斯克地区乌尔代拜生物圈保护区，探寻格尔尼卡轰炸的血色记忆、千年橡树的民主象征，以及巴斯克神话中的神秘生灵。一部自然与人文交织的史诗。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "格尔尼卡-卢莫（Gernika-Lumo）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "乌尔代拜生物圈保护区",
+      "href": "/attractions/urdaibai-biosphere-reserve-history"
+    }
+  ],
+  "hero": {
+    "title": "乌尔代拜生物圈保护区・Urdaibai Biosphere Reserve・西班牙・格尔尼卡-卢莫（Gernika-Lumo）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">这里是巴斯克人的精神原乡，一片被炮弹与诗意同时刻印的土地。<strong>乌尔代拜生物圈保护区</strong>不仅拥有欧洲最壮丽的河口湿地，更藏着一座小城<strong>格尔尼卡</strong>的名字——它曾因1937年的爆炸而成为人类苦难的符号，又因一株千年橡树而成为自由的火种。抛开游玩攻略，走进乌尔代拜与格尔尼卡的尘封往事，遇见属于巴斯克的时间与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">乌尔代拜生物圈保护区</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Urdaibai Biosphere Reserve</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Urdaibai Biosphere Reserve</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">格尔尼卡-卢莫（Gernika-Lumo）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌尔代拜这个名字，在巴斯克语中意为<strong>“水中的桥”</strong>（Ur：水，dai：桥）。早在罗马人到来之前，这里便是坎塔布里亚人（Cantabri）与巴斯克先民的交汇点。但更让历史学家着迷的，是保护区核心地带——格尔尼卡城的诞生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在<strong>1266年</strong>，卡斯蒂利亚国王阿方索十世为巩固边疆，下令在奥卡河（Oka）畔一个叫<strong>Lumo</strong>的小村落附近建立新城。他用巴斯克语中的<strong>“Ge”</strong>（火）与<strong>“ika”</strong>（许多）组合，意为“焚烧过的土地”——这似乎预言了七百年后的浩劫。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正的城市灵魂，并非这座新城的砖石，而是城外那棵<strong>格尔尼卡橡树</strong>。早在13世纪，巴斯克领主们便约定在这棵橡树下集会，商讨法律与赋税。橡树成为巴斯克自治权的<strong>活石碑</strong>。每年<strong>7月25日</strong>，比斯开省的省议会在此召开，议员们面朝橡树宣誓：“我们宣誓尊重你们的特权，否则法律不再神圣，而我们不再高贵。”</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地谚语：“没有橡树，就没有巴斯克。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这棵橡树并非孤例，而是整个区域的隐喻——<strong>Urdaibai</strong>本身就是一座巨大的露天纪念馆，记录着人类与自然、权力与抵抗的千年角力。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 1937年4月26日——战争罪行的教科书</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那是一个普通的周一，集市日。下午4点，德制<strong>He 111</strong>轰炸机出现在奥卡河上空。在纳粹秃鹰军团和意大利法西斯航空队的协同下，<strong>格尔尼卡</strong>被狂轰滥炸三小时——燃烧弹、高爆炸药、机枪扫射，整个城镇陷入火海。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">官方数字是<strong>1,654人</strong>死亡，但幸存者说实际数字更高。最残忍的是，轰炸机故意攻击平民和逃难人群，这是人类史上第一次针对无设防平民的“地毯式轰炸”。毕加索得知后，用两个月画出了那幅同名巨作《格尔尼卡》，将暴行钉在艺术史的耻辱柱上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">轰炸之后，格尔尼卡的伤口并未愈合。<strong>佛朗哥政权</strong>掩盖事实，谎称是“巴斯克人自己纵火”。直到<strong>1997年</strong>，德国政府才正式道歉，并在原址建立<strong>和平博物馆</strong>。如今，你依然能在老城区看到保留着弹痕的旧墙——它们没有被修复，只为了“让记忆活着”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 千年橡树——民主的活化石</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">恐怖的另一面，是坚韧。在轰炸中，那棵象征自由的橡树竟毫发无损。这棵橡树并非最初的那株（原树因风暴在19世纪死亡），但其枝条被移植，代代相传。现在的“老人”是<strong>1860年</strong>栽下的，但它的根茎连接着更古老的血脉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1463年</strong>，卡斯蒂利亚国王亨利四世在此签署法令，承认比斯开省的特殊法律。<strong>1872年</strong>，巴斯克人被剥夺自治权，橡树下却仍有人秘密集会。<strong>1978年</strong>西班牙民主宪章生效后，巴斯克议会再次回到橡树前宣誓。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">美国作家马克·吐温曾在游记中写道：“这棵树比任何法律规定都更牢固。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安东尼奥·特鲁埃巴（Antonio Trueba）——巴斯克的吟游诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">（1819年出生在格尔尼卡，1889年死于马德里）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他穿着粗呢外套，嘴里嚼着烟草，在格尔尼卡的酒馆里为矿工和渔夫朗诵诗句。特鲁埃巴不是贵族，只是一个<strong>铁匠之子</strong>。但他的一生都在做一件事：把巴斯克口头传说变成铅字。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他收集了数百首<strong>贝尔特索（bertsos）</strong>——巴斯克拉乌头诗人的即兴对唱，并创作了《巴斯克的传说》（Cuentos populares vascos）。在书中，他写道：“我们的森林里住着巴斯贾恩（Basajaun），一个毛茸茸的巨人，他懂得所有农作物的秘密；而拉米亚（Lamia）会在满月之夜，坐在水边梳头，引诱路过的牧羊人。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>特鲁埃巴与乌尔代拜的羁绊</strong>：他的童年就在奥卡河畔度过，每天看着渔船和盐沼。他笔下的神话，背景几乎都取自这片湿地——<strong>马蒂亚沼泽（Matiakos）</strong>里的水妖，<strong>伊图斯（Iturritxu）</strong>瀑布下的仙女。他甚至为那棵橡树写过一首诗，开头是：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“老橡树啊，你的枝叶是法律，你的根茎是记忆。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>他与毕加索的跨时空对话</strong>：特鲁埃巴去世47年后，他的家乡被夷为平地。他在诗里写过的“铁钟”和“橡树”，被毕加索画成了扭曲的碎片。今天的博物馆里，特鲁埃巴的手稿和毕加索的版画被放在同一个玻璃柜中——一个用文字预言，一个用颜料控诉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛尔塔·伊戈阿（Marta Irago）——沉默的幸存者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">（1925年生，2018年去世，民间和平活动家）</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她不是什么名人，却是整个乌尔代拜最不该被忘记的声音。<strong>1937年4月26日</strong>，12岁的玛尔塔正跟着母亲在集市卖鸡蛋。第一枚炸弹落下时，她躲在<strong>圣玛丽亚教堂</strong>的地下室里，听到墙壁被撕裂的声音。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“我看到神的眼睛被炸碎了。”她在<strong>1995年</strong>的口述史中说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">轰炸后，玛尔塔被送到法国边境的难民营。<strong>1960年</strong>她回到故乡，发现老房子变成了停车场。她沉默了几十年，直到<strong>80岁</strong>才第一次接受采访。她的回忆录《橡树下的灰烬》用巴斯克语写成，只印了500册，却在巴斯克地区疯传。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛尔塔留下的痕迹</strong>：她每年4月26日都会去和平博物馆，坐在一个特定的座位上。她说：“我听见子弹穿过风的声音。”2018年她去世后，博物馆将那个座位永久保留，贴上一张纸条——“她记得”。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>拉米亚与圣水井</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在乌尔代拜的深处，有一口被苔藓覆盖的井，当地人叫它<strong>“拉米亚之眼”</strong>。传说这口井是一位名叫<strong>伊多伊特</strong>的拉米亚（半人半鱼的精灵）的眼泪化成的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">很久以前，一个年轻的牧羊人爱上伊多伊特，但她必须在午夜前回到水里。牧羊人偷了她的金梳子，让她无法变身。伊多伊特哭了三天三夜，泪水汇聚成泉。从此，如果有人在月圆之夜用这口井的水洗脸，就会看到自己未来伴侣的影子。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但切记：<strong>不能把井水带走</strong>，否则会遭遇厄运。1970年代，一个游客偷偷装了一瓶水回家，据说他的房子隔年就被闪电击中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>巴斯贾恩的麦田圈</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这片洪泛平原上，农民常发现麦田出现奇怪的漩涡图案。巴斯克老人会笑着解释：那是<strong>巴斯贾恩</strong>睡过的痕迹。传说这个森林巨人只现身于收割季节，他会教农夫如何种出更壮的燕麦。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">上世纪30年代，一位女猎人声称在伊巴龙多（Ibarrondo）看见了巴斯贾恩：“他的脚印有两只手并起来那么大，头发像枯草，手里握着松树枝。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，保护区仍保留着一块被称为<strong>“巴斯贾恩的床”</strong>的麦田，每年秋天，村民会故意不去收割中间的圆形区域——算是留给巨人的报酬。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌尔代拜从不只是湿地的芦苇与水鸟。它是巴斯克人的<strong>记忆容器</strong>——橡树年轮里刻着自由，弹坑里睡着亡魂，而拉米亚的歌声始终在盐雾中回荡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂乌尔代拜，就是读懂一种文明如何在毁灭与延续之间找到平衡。<strong>轰炸没有杀死格尔尼卡，正如历史没有杀死传说</strong>。这里的每一粒沙都在说：比记住更难的，是原谅；比原谅更难的，是让下一代继续相信，那棵橡树会永远站在风里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/plaza-de-parejas\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    情\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">情侣广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Plaza de Parejas</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/los-alcazares-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛斯阿尔卡萨雷斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Los Alcázares</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/guadix-cave-houses\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    瓜\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">瓜迪斯洞穴之家</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Guadix Cave Houses</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "plaza-de-parejas",
+          "name": "情侣广场",
+          "englishName": "Plaza de Parejas"
+        },
+        {
+          "slug": "los-alcazares-history",
+          "name": "洛斯阿尔卡萨雷斯",
+          "englishName": "Los Alcázares"
+        },
+        {
+          "slug": "guadix-cave-houses",
+          "name": "瓜迪斯洞穴之家",
+          "englishName": "Guadix Cave Houses"
+        }
+      ]
+    }
+  ]
+}

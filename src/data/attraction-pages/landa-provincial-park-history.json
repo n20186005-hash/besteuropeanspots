@@ -1,0 +1,85 @@
+{
+  "slug": "landa-provincial-park-history",
+  "template": "history",
+  "metadata": {
+    "title": "锡耶纳兰达省级公园历史溯源｜托斯卡纳秘境的中世纪修道院与贵族传奇",
+    "description": "隐藏在托斯卡纳丘陵间的兰达省级公园，曾是13世纪修道院与美第奇家族的夏日别苑。遇见叛逆修士的日记与文艺复兴画家的秘密，探寻尘封六百年的时光之园。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "意大利",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "锡耶纳省兰达镇",
+      "href": "/destinations/italy"
+    },
+    {
+      "label": "兰达省级公园",
+      "href": "/attractions/landa-provincial-park-history"
+    }
+  ],
+  "hero": {
+    "title": "兰达省级公园・Landa Provincial Park・意大利・锡耶纳省兰达镇",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在锡耶纳南部的橄榄林与石墙之间，有一片被时光遗忘的省级公园——<strong>兰达（Landa）</strong>。它的石阶上曾走过隐修士、流亡画家与美第奇的情妇。抛开游玩攻略，走进兰达的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">兰达省级公园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Landa Provincial Park</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Landa Provincial Park</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">意大利</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">锡耶纳省兰达镇</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">兰达省级公园并非天然园林，它的根扎在 <strong>13 世纪中叶</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">彼时，一位来自法国克莱尔沃的西多会修士——<strong>贝尔纳多·德·兰达</strong>，在托斯卡纳的荒丘上建立了 <strong>圣玛利亚修道院</strong>。修士们开垦梯田、引水凿渠，将野生的橡树林改造成规整的草药园与葡萄园。公园的名字 “Landa” 其实源自高卢语“荒地”——正如修士初到时所见的那片不毛之地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>修道院的食堂、地窖与回廊</strong>，构成了公园最早的建筑骨架。直到今天，你仍能在公园东北角的残墙上看到哥特式尖拱，那是 1275 年扩建时留下的印记。而“省级公园”的身份，却是 <strong>1873 年</strong> 才被意大利王国正式授予——当时这片土地被收归国有，成为锡耶纳省的第一座公共园林。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1873 年 5 月 12 日，锡耶纳省议会的纪要里写着：“将修道院废墟及其周围的 42 公顷林地辟为‘省级漫步之所’，供市民休憩。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">自此，宗教的静默转向世俗的漫步，兰达从修士的祈祷之地，变成了诗人的灵感之源。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">兰达的石墙里，镌刻着两段深深的时代刻痕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一段：1527 年的劫难与隐藏</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">那年春天，神圣罗马帝国的军队席卷托斯卡纳。一支雇佣兵纵队闯入修道院，年轻的修士 <strong>洛伦佐·迪·兰达</strong> 将修道院珍藏的 <strong>《圣母子与天使》</strong> 三联画拆成三块，藏进地窖的暗格里。自己则换上平民服装逃往罗马。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">画作直到 <strong>1873 年公园开放</strong> 时才被一位采药人发现——它静静躺在橡木箱里，颜料依然鲜艳。如今这幅画保存在锡耶纳国立美术馆，但暗格的位置被画在了公园入口的石碑上，成为寻宝者津津乐道的传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二段：17 世纪美第奇的夏日别苑</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1615 年，托斯卡纳大公 <strong>科西莫二世·德·美第奇</strong> 看中了这里的泉水与阴凉。他下令将废弃的修道院改造成夏宫，增建了 <strong>巴洛克式的凉亭与柑橘园</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">美第奇家族的徽章——六颗药丸，至今刻在凉亭的拱顶石上。传说大公的 <strong>情妇玛格丽塔</strong> 曾在这里的喷泉边与诗人 <strong>吉安巴蒂斯塔·马里诺</strong> 幽会，马里诺为此写下长诗《兰达的叹息》。凉亭的墙壁上，仍可辨认出其中几句十四行诗的涂鸦，被玻璃框保护起来。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">兰达遇见的两位奇人，一位是叛逆的隐修士，一位是流亡的疯子画家。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 叛逆修士——乔瓦尼·贝尔蒂尼（1490-1554）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝尔蒂尼本应是圣玛利亚修道院最沉默的抄经人。1510 年，他接手了僧侣们世代相传的 <strong>《植物与草药志》</strong> 手稿的修订工作。但他却偷偷在书页的边角画满了嘲讽教皇与贵族的漫画。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1515 年 2 月 3 日，贝尔蒂尼在日记中写道：“他们吩咐我画菖蒲的根茎，我却画了教皇的鼻子——尖得像一根荨麻刺。如果院长发现，我大概会被关进地窖。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">院长没有发现。这份手稿在 1700 年被美第奇家族带回佛罗伦萨，直到 1965 年才被艺术史学家 <strong>萨拉·利西</strong> 在乌菲兹档案馆的角落里发掘。那些漫画成了研究宗教改革前民众情绪的重要材料。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝尔蒂尼最终死于瘟疫，他的尸体被埋在公园的橡树下。<strong>没有墓碑</strong>，但每年的 2 月 3 日，都会有匿名者在树下放一枝紫色鸢尾——那是他在手稿里画得最多的植物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 疯子画家——米歇尔·潘尼尼（1728-1784）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">潘尼尼出生在锡耶纳贫困家庭，因精神失常被送进修道院的临时收容所。<strong>1755 年</strong> 的一个夜晚，他逃出收容所，躲在公园的柑橘园里。用烧焦的木炭在石灰墙上画出一系列狂野的 <strong>“末日审判”</strong> 壁画——天使与恶魔扭打在一起，圣母的衣袍被风撕裂，基督的眼中流出墨汁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他到 <strong>1762 年</strong> 才被再次发现，但此时他已在公园的四个凉亭内完成了 <strong>28 幅壁画</strong>。美第奇家族的后人竟然没有下令涂掉它们，反而请来工匠用石灰水保护表面。如今这些壁画因潮湿而斑驳，但那种疯狂的笔触仍让观者战栗。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">潘尼尼的最后一幅画，署名下方的题字是：“我是米歇尔，而不是天使。但我画出了天使的恐惧。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他于 1784 年死于肺结核，葬在公园西墙外的穷人公墓。公墓已不复存在，但公园的管理员说，每年春天那片地方会最先长出野蔷薇。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于兰达公园，流传最广的是 <strong>“午夜祈祷的修女”</strong> 的传说。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在 13 世纪修道院初建时，有一群来自法国的女隐修士寄住于此。某年冬天，大雪封路，女修院的院长 <strong>埃莉萨</strong> 在暴风雪中迷路，冻僵在通往佩鲁贾的山路上。等她被救回时，已经说不出话，只反复指着一棵老橄榄树。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二年春天，那棵橄榄树的枝干间竟然长出了 <strong>白色浆果</strong> ——修士们从未见过这种植物。他们摘下果实酿成酒，喝了之后整夜都梦见埃莉萨院长在雪中微笑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今公园的东南角有一棵据说已存活七百年的橄榄树，<strong>树干中空</strong>，游客可以钻进树洞。当地人相信，在满月之夜钻过树洞，就能梦见一位说着法语的修女，她会告诉你来年的运气。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">兰达省级公园不是一般的野餐地。它是一座露天档案柜，锁着抄经人的叛逆、画家的疯狂与贵族的秘密。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂兰达，就是读懂托斯卡纳 <strong>被宏大教堂掩盖的民间史</strong>。每一块修道院残石，每一抹褪色的壁画颜料，都在申诉着微小生命与时间对抗的痕迹。当你坐在凉亭的石凳上，耳边是喷泉的流水声，也许还能听见科西莫大公的情妇在吟诗，或是贝尔蒂尼在画纸上沙沙地落笔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/borghetto-sul-mincio\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博尔盖托</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Borghetto sul Mincio</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ferla-sicily\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    费\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">费尔拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ferla</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/palazzo-fava\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    法\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">法瓦宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Palazzo Fava</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "borghetto-sul-mincio",
+          "name": "博尔盖托",
+          "englishName": "Borghetto sul Mincio"
+        },
+        {
+          "slug": "ferla-sicily",
+          "name": "费尔拉",
+          "englishName": "Ferla"
+        },
+        {
+          "slug": "palazzo-fava",
+          "name": "法瓦宫",
+          "englishName": "Palazzo Fava"
+        }
+      ]
+    }
+  ]
+}

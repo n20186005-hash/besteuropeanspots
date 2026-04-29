@@ -1,0 +1,85 @@
+{
+  "slug": "setas-de-sevilla-history",
+  "template": "history",
+  "metadata": {
+    "title": "塞维利亚都市阳伞历史｜现代巨伞之下的古罗马遗迹与建筑传奇",
+    "description": "塞维利亚都市阳伞是现代奇迹，更是考古秘境。它悬空而立，脚下埋藏着罗马神庙与摩尔民居的残垣。走进蜿蜒廊道，听建筑师与千年泥土对话，重温一座古城的隐秘岁月。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "塞维利亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "塞维利亚都市阳伞",
+      "href": "/attractions/setas-de-sevilla-history"
+    }
+  ],
+  "hero": {
+    "title": "塞维利亚都市阳伞・Setas de Sevilla・西班牙・塞维利亚",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">它不像教堂般庄严，也不似宫殿般辉煌，却用一把巨大的木伞撑起了塞维利亚最奇幻的古今对话。<strong>“都市阳伞”</strong> 横跨在恩卡纳西翁广场之上，脚下是两千年层层叠叠的历史遗骸。抛开游玩攻略，走进塞维利亚都市阳伞的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">塞维利亚都市阳伞</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Setas de Sevilla</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Setas de Sevilla</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">塞维利亚</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞维利亚西南角这片土地，从来不是空白的画板。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元前二世纪，罗马人在这里建起 <strong>希斯帕利斯</strong> ，城区延伸至瓜达尔基维尔河畔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今都市阳伞所处的恩卡纳西翁广场，原本是古罗马城市边缘的 <strong>神庙与集市区</strong> ——考古学家在此挖出了石灰岩柱基、陶制排水管以及保存完好的嵌石马赛克。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元712年，摩尔人征服塞维利亚，此地演变为稠密的摩尔街区：狭窄的巷弄、带喷泉的内院、白墙与彩釉瓷砖混杂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">两千年来，每一寸泥土都被不同文明反复填埋、重建、废弃。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到16世纪，西班牙天主教王朝拆除了这片区域的清真寺，建起恩卡纳西翁修道院——广场的名字便源于此。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1810年拿破仑战争期间，修道院在教堂的拆除法令下化为瓦砾，广场沦为露天市场，汽车站和废弃摊位混杂，被称为 <strong>“塞维利亚的阑尾”</strong> 。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一座被遗忘的废墟，在20世纪90年代突然惊醒——地下停车场的施工挖出了完整的罗马民居遗址，考古界沸腾。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">从此，这把阳伞的根须，必须绕开两千年的骨骸生长。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一块：罗马宅邸的沉默守候。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1990年，恩卡纳西翁广场地下停车场项目启动。工人在两米深处撞见一截大理石柱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">随后层层发掘，一座 <strong>公元1世纪的贵族宅邸（Domus）</strong> 与一座 <strong>公共浴场</strong> 完整露出。墙壁壁画残片清晰可辨，陶罐里还残留着橄榄核。政府被迫停工，几番博弈后，决定将地下停车场改建成 <strong>文物博物馆</strong>。而地上的城市更新计划，也必须同时保护这片遗迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二块：都市阳伞的“悬浮救赎”。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2005年，塞维利亚市政府面向全球征集设计方案，要求：覆盖广场、隐藏下方考古区、提供遮阳场所。德国建筑师 <strong>Jürgen Mayer-Hermann</strong> 交出了一份疯狂答卷——一把巨型木伞，六根空心立柱支撑起蜂窝状格栅，下方完全开放。这不仅仅是一座凉棚，更是一台 <strong>时间机器</strong>：游客登上伞顶步道，脚下是玻璃地板，可以俯视罗马地砖与摩尔庭院；而伞面木格栅本身就是现代工业与古文明筋骨的交织。2011年开放时，它被称为 <strong>“世界上最大的木质结构建筑”</strong> ，但更令人惊叹的是：它把两千年历史悬在了半空，而不是压在水泥之下。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三块：争议与修复的伤痕。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的伞面使用了 <strong>新型复合胶合木</strong> ，但塞维利亚的酷热和暴雨导致木材开裂、钢筋锈蚀。2019年，市政厅斥资数百万欧元更换了部分木条，并喷上防紫外线的纳米涂层。如今，游客抬头能看见深浅不一的木纹——那便是时间与自然反复撕扯的碑文。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Jürgen Mayer-Hermann：用木头写历史的“叛逆者”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">生于1965年的德国建筑师，曾在斯图加特大学学习建筑，师从 <strong>彼得·埃森曼</strong>（解构主义大师）。他的作品一向游走于建筑与艺术之间，而都市阳伞是他的 <strong>成名之作</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当年竞标时，他提交的模型被塞维利亚评委嘲笑为“外星菌菇”——六根蘑菇状的柱子支撑着波浪形伞面，与安达卢西亚的摩尔传统格格不入。但Mayer强调：“我的灵感恰恰来自当地‘帕蒂奥’（内院）的围合与遮蔽，只是把它举到了天上。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他为了保留地下罗马遗址，主动修改了基础方案：将原本的混凝土桩基换成 <strong>悬浮式钢结构</strong>，让柱子像踩高跷一样避开文物层。施工期间，他每周两次从柏林飞到塞维利亚，蹲在坑边观察罗马壁画受湿度的变化。工人们回忆，他曾用手指蘸着泥土抹在木料上，喃喃道：“让木头和罗马石头一起呼吸。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，Mayer在塞维利亚几乎成了“城市魔术师”的代名词。当地诗人写道：“他不造房子，他造悬浮的花园。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>塞维利亚编年史家：Bartolomé de las Casas（虽非本地，但与这片土地命运交缠）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">16世纪多明我会修士，以捍卫美洲原住民权利闻名。他的遗迹虽不在都市阳伞下，但 <strong>恩卡纳西翁广场曾是方济各会传教士的集结地</strong> ，那些准备渡海前往新大陆的修士，常在此地聆听美洲归来的布道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传1520年，Las Casas在广场边的一个小酒馆里，向当地商人描述印第安人被银矿奴隶主钉死的惨状。一位在场的金银匠后来写道：“那个修士的眼泪落在陶杯里，比酒还要苦。” 这段轶事被刻在如今广场旁的一面瓷砖壁画上，字迹已被风雨侵蚀——但都市阳伞的阴影，恰好庇护了那面墙，让斑驳的铭文能再多活几十年。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">老塞维利亚人总说，恩卡纳西翁广场地下住着“摩尔王的珠宝匠”。传说公元9世纪，一位名叫Al-Mutamid的摩尔工匠，因拒绝给科尔多瓦哈里发锻造金冠而被追杀。他躲进当时广场所在的地下陶窑，一连三日滴水未进。第四日，哈里发卫兵挖开窑口时，只看到满地陶片和一枚戒指，戒指上刻着：“我的宝藏，是泥土，不是金子。” 据说，每逢满月夜，都市阳伞的木格栅里会传出陶土碎裂的细响——那是工匠正在地底继续敲打他最后的器皿。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座传说，实际上取材于塞维利亚罗马遗址出土的 <strong>陶工印章</strong>（上面有简朴的几何纹，无金饰）。考古学家发现，许多陶罐底部的指纹清晰可辨，来自同一只手。人们猜想，那可能是一位被奴役的手艺人，他把自己的手印留在每个罐底，作为无声的署名。如今，都市阳伞地下博物馆里，专门陈列了一批这样的陶罐，上面贴着标签：“无名工匠的手，公元1世纪。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塞维利亚都市阳伞，是一座用现代建筑致敬大地记忆的 <strong>活体博物馆</strong> 。它不像大教堂那样高高在上，也不像斗牛场那样血性沸腾——它像一株百年老树的树冠，把根须深深扎入罗马砖石、摩尔陶罐和殖民时期烟尘里，再用枝丫为你撑起阴凉。读懂它，就等于同时翻开了塞维利亚的罗马卷宗、摩尔诗集和现代混凝土的合同。历史在这里不是陈列品，而是可以踩在脚下的玻璃地板，是抬头时木缝间泄露的天光。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/museu-del-cau-ferrat\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考费拉特博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Museu del Cau Ferrat</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/molinos-de-viento-de-consuegra\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    孔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">孔苏埃格拉风车群</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Windmills of Consuegra</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/el-coto-las-canteras\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔科托拉斯坎特拉斯海滩</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">El Coto Las Canteras</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "museu-del-cau-ferrat",
+          "name": "考费拉特博物馆",
+          "englishName": "Museu del Cau Ferrat"
+        },
+        {
+          "slug": "molinos-de-viento-de-consuegra",
+          "name": "孔苏埃格拉风车群",
+          "englishName": "Windmills of Consuegra"
+        },
+        {
+          "slug": "el-coto-las-canteras",
+          "name": "埃尔科托拉斯坎特拉斯海滩",
+          "englishName": "El Coto Las Canteras"
+        }
+      ]
+    }
+  ]
+}

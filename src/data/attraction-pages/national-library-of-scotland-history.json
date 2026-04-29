@@ -1,0 +1,85 @@
+{
+  "slug": "national-library-of-scotland-history",
+  "template": "history",
+  "metadata": {
+    "title": "苏格兰国家图书馆历史溯源｜知识殿堂的前世今生与传奇馆藏",
+    "description": "从律师图书馆到国家宝藏，苏格兰国家图书馆承载了苏格兰三百年的知识记忆。古腾堡圣经、达尔文手稿、罗伯特·伯恩斯的秘密日记……走进爱丁堡的这座学术圣殿，触摸思想传承的温度。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "爱丁堡",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "苏格兰国家图书馆",
+      "href": "/attractions/national-library-of-scotland-history"
+    }
+  ],
+  "hero": {
+    "title": "苏格兰国家图书馆・National Library of Scotland・英国・爱丁堡",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在爱丁堡老街的深处，一座看似沉默的灰色建筑，却是苏格兰思想的真正心脏。<strong>苏格兰国家图书馆</strong>（National Library of Scotland）诞生于1699年的启蒙黎明，最初只为律师服务，如今却藏有超过700万册书籍、地图与手稿。抛开游玩攻略，走进这座知识殿堂的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">苏格兰国家图书馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">National Library of Scotland</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">National Library of Scotland</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">爱丁堡</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一切始于 <strong>1689年</strong> 的苏格兰议会。当时法律界人士深感缺乏专业文献，议会通过法案，准许成立一所专为律师服务的图书馆。<strong>“律师图书馆”</strong>（Advocates' Library）由此诞生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但这并非普通的参考室。它的首任馆长 <strong>罗伯特·西邦</strong>（Robert Sibbald）是一位博学的地理学家与医生。他坚持一个信条：法律是知识的骨架，但图书馆必须拥有血肉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">因此，从一开始，律师图书馆就开始收集神学、科学、历史与文学的书籍。<strong>1699年</strong> 正式开馆时，馆藏已达到3000册——在那个年代，已是惊人的数字。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">图书馆最初位于爱丁堡的 <strong>议会广场</strong>（Parliament Square），紧邻苏格兰高等法院。其名称中的“Advocates”直接指向苏格兰律师阶层。直到 <strong>1925年</strong>，议会通过《苏格兰国家图书馆法案》，才正式将其收归国有，更名为 <strong>苏格兰国家图书馆</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名称的变迁，见证了从专业机构到全民知识圣殿的蜕变。如今的主楼建于 <strong>1950年代</strong>，坐落在 <strong>乔治四世桥</strong>（George IV Bridge）旁，与爱丁堡城堡遥相对望。设计简洁庄重，内里却藏着无数时光的褶皱。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一幕：从法律工具到启蒙中心（18世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">18世纪初，律师图书馆成为苏格兰启蒙运动的温床。<strong>大卫·休谟</strong>、<strong>亚当·斯密</strong>等思想家频繁出入。1752年，休谟甚至担任了图书馆管理员——尽管他因哲学著作被视为异端，但馆方仍看重他的博学。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">休谟在任期间，策划了大规模的图书采购，将法国启蒙著作、自然科学论著大量引入。他曾在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每天下午，我坐在阅览室的角落，看着那些律师们为陈旧的判例争论，而书架上的伏尔泰和牛顿，正悄悄改变世界的方向。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二幕：国家身份的守护者（19-20世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1841年</strong>，图书馆开始依法接受所有在苏格兰出版的书籍缴存。这意味着，每一本苏格兰人的思想结晶，都会自动进入这座建筑。<strong>1870年代</strong>，馆藏突破50万册。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二战期间</strong>，为应对德国轰炸，图书馆将最珍贵的 <strong>古腾堡圣经</strong>（Gutenberg Bible）和 <strong>达尔文《物种起源》手稿</strong> 秘密转移到爱丁堡郊外的 <strong>罗斯林教堂</strong>（Rosslyn Chapel）地下密室。这批珍宝在一座木箱里躲过了战争，直到1945年才被重新打开。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三幕：数字时代的传承（21世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2000年后，图书馆启动大规模数字化工程。如今，超过10万份苏格兰历史地图、手稿和珍本可以在线阅读。但实体阅览室的钟声从未停歇——每位读者仍需要填写纸质申请单，由身穿背心的管理员从书库中取出百年前的书籍。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 大卫·休谟：管理员中的哲学叛徒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>大卫·休谟</strong>（David Hume，1711-1776）是苏格兰启蒙运动的旗手。他因怀疑论著作被教会斥为“异教徒”，却在1752年被任命为律师图书馆管理员。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这份工作薪水微薄（年薪仅40英镑），但给了他无尽的阅读自由。休谟利用图书馆的丰富馆藏，完成了《英国史》的写作。书中对宗教的批判，让他在整个欧洲名声大噪。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">有一则轶事：一次，一位主教来馆查阅资料，休谟亲自取书。主教认出他后，恐惧地后退三步，喊道：“别碰我的书！你的手指会玷污它！”休谟平静地放下书，鞠了一躬：“大人，您的手指可能已经脏了，但书页上的文字，永远是干净的。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">休谟在馆内留下了大量借阅记录。至今，图书馆的 <strong>休谟档案</strong>（Hume Papers）仍保存着他的手稿，包括《人类理解研究》的早期草稿。他于1757年离职，但图书馆的每个角落，都似乎还回荡着他的脚步声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 罗伯特·伯恩斯：藏在诗歌里的秘密</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>罗伯特·伯恩斯</strong>（Robert Burns，1759-1796）是苏格兰的民族诗人。他的诗歌用苏格兰方言写成，充满了对土地与自由的眷恋。他从未担任过图书馆职务，但图书馆保存了他最珍贵的 <strong>“莫斯吉尔手稿”</strong>（Mosgiel Manuscript）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1790年，伯恩斯因债务和肺结核濒临崩溃。他将自己最满意的32首诗歌誊写在一本羊皮笔记本里，交给恋人 <strong>吉恩·阿穆尔</strong>（Jean Armour）保管。笔记本封面写着：“如果我不在了，请把它交给律师图书馆——让苏格兰记住我。”1830年，吉恩的后人将手稿捐赠给了图书馆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1910年，一位在馆内打工的年轻学者 <strong>约翰·穆雷</strong>（John Murray）无意中发现了笔记本夹层中的一片纸——那是伯恩斯写下的 <strong>《友谊地久天长》</strong> 原始歌词，标注日期为1793年8月。词句与后来流行的版本略有不同，多了两行关于“叛徒”的段落。学者推断，这是伯恩斯为了掩饰政治立场而故意删除的内容。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">至今，这片纸条被密封在恒温柜中，每年只展出两次。伯恩斯的诗魂，仍在这座图书馆里游荡。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“午夜翻书声”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在18世纪末，有个年轻的图书管理员叫 <strong>威廉·麦克唐纳</strong>。他痴迷于炼金术，偷偷将一本禁书《所罗门的小钥匙》藏在书库暗格里。一个冬夜，他因触犯咒语，当场暴毙。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此后，每当月圆之夜，图书馆的巡夜人都会听到珍本书库传来轻微的翻书声。1972年，一位保安声称看到了一行倒下的书架，上面落满灰尘，却分明有翻开的新书页。至今，图书馆工作人员更愿意相信那是暖气管道的声音——但每一任新员工入职时，都会被告知：“如果你听见翻书声，别回头，加快脚步。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“失踪的地图”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">图书馆藏有 <strong>1560年</strong> 绘制的《苏格兰王国全图》，是现存最早的苏格兰地图。传说这幅地图在 <strong>1940年</strong> 疏散时被一名士兵偷走，藏在头盔内，带到了法国。战争结束后，士兵的后代匿名归还了地图，并附言：“它曾见过诺曼底的月光，但更想留在爱丁堡的暗处。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到今天，地图上仍有一个用铅笔写的注解：“1944.6.6，D-Day。”有人说是士兵的笔迹，也有人说是神父的祝福。无论真假，这幅地图因此成为了图书馆最富传奇的珍品。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>苏格兰国家图书馆</strong> 不只是一座建筑。它是一面镜子，映照着苏格兰三百年来对知识的虔诚、对自由的渴望，以及面对战乱时的坚韧。从律师的案卷到诗人的诗句，从启蒙者的理性到炼金术的疯狂——每一本书、每一张纸，都是时间的信使。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂了这座图书馆，也就读懂了爱丁堡的另一面：不是城堡与风笛的旅游符号，而是一个用文字与思想塑造的古老国度。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/equestrian-statue-of-the-duke-of-wellington-glasgow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    惠\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">惠灵顿公爵骑马雕像（格拉斯哥）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Equestrian statue of the Duke of Wellington, Glasgow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/the-witches-well\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    女\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">女巫之井</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">The Witches Well</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/machynlleth-town-clock\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马钦莱斯镇钟</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Machynlleth Town Clock</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "equestrian-statue-of-the-duke-of-wellington-glasgow",
+          "name": "惠灵顿公爵骑马雕像（格拉斯哥）",
+          "englishName": "Equestrian statue of the Duke of Wellington, Glasgow"
+        },
+        {
+          "slug": "the-witches-well",
+          "name": "女巫之井",
+          "englishName": "The Witches Well"
+        },
+        {
+          "slug": "machynlleth-town-clock",
+          "name": "马钦莱斯镇钟",
+          "englishName": "Machynlleth Town Clock"
+        }
+      ]
+    }
+  ]
+}

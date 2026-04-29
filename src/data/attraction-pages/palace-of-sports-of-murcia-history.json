@@ -1,0 +1,85 @@
+{
+  "slug": "palace-of-sports-of-murcia-history",
+  "template": "history",
+  "metadata": {
+    "title": "穆尔西亚体育宫历史溯源｜西班牙东南秘境的前世今生与传奇人物",
+    "description": "从摩尔人堡垒到现代体育圣殿：穆尔西亚的千年岁月与体育宫背后的城市记忆。一位王后、一场瘟疫、一段被遗忘的王朝更替。抛开攻略，走进穆尔西亚的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "西班牙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "穆尔西亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "穆尔西亚体育宫",
+      "href": "/attractions/palace-of-sports-of-murcia-history"
+    }
+  ],
+  "hero": {
+    "title": "穆尔西亚体育宫・Palace of Sports of Murcia・西班牙・穆尔西亚",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在西班牙东南部，穆尔西亚体育宫的穹顶下，现代欢呼与古老回声交织。这座看似年轻的建筑，却矗立在一座拥有<strong>千年历史</strong>的城市核心——这里曾是摩尔人的繁华都城，是天主教双王征服的战场，也是西班牙黄金时代被遗忘的粮仓。抛开游玩攻略，走进穆尔西亚的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">穆尔西亚体育宫</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Palace of Sports of Murcia</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Palace of Sports of Murcia</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">西班牙</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">穆尔西亚</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">穆尔西亚的起源可以追溯到<strong>公元825年</strong>。当时，科尔多瓦的阿拉伯统治者<strong>阿卜杜勒·拉赫曼二世</strong>下令在塞古拉河畔修建一座新城，以取代叛乱不断的旧都。他选择了这片肥沃的河谷地带，依托<strong>灌溉系统</strong>将荒原变为果园林地。城市的名称来源于拉丁语“Murta”（意为“桃金娘”，一种芳香灌木），经阿拉伯语演变为“Mursiya”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最初的穆尔西亚是一座<strong>军事要塞</strong>，城墙环绕，清真寺林立。它的位置恰好位于西班牙内陆与地中海的交汇点，很快成为<strong>丝绸与瓷器</strong>贸易的中心。到11世纪，穆尔西亚已经成为伊比利亚半岛东南部最繁荣的王国之一，被誉为“丝绸之城”。塞古拉河灌溉的果园出产柑橘、柠檬和无花果，这些特产至今仍是穆尔西亚的骄傲。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">体育宫所在的区域，在历史上曾是<strong>摩尔人王宫</strong>的花园地带。后来，这片土地被改造成修道院、磨坊，最终在21世纪初化为现代体育综合体。你脚下的每一寸土地，都埋藏着多层文明的碎片。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1243年</strong>，卡斯蒂利亚王国与穆尔西亚王国签订《阿尔卡拉斯条约》，穆尔西亚成为基督教附庸国。但真正的转折发生在<strong>1266年</strong>，<strong>海梅一世</strong>的阿拉贡军队强势占领穆尔西亚城，开启了基督教统治时代。为了稳固统治，大量加泰罗尼亚和阿拉贡移民涌入，带来了新的语言与习俗。至今，穆尔西亚方言中仍保留着浓郁的加泰罗尼亚语痕迹。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>18世纪</strong>的丝绸贸易使穆尔西亚迎来黄金时代。城内建起了巴洛克风格的<strong>大教堂</strong>、修院与贵族府邸。但<strong>1648年</strong>的一场<strong>黑死病</strong>几乎摧毁了穆尔西亚——三分之一的人口死亡，经济停滞近半个世纪。如今，大教堂内仍保存着当时为祈求庇护而竖立的<strong>“瘟疫十字架”</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1810年</strong>，拿破仑军队攻陷穆尔西亚，市民奋起抵抗，在<strong>圣玛丽亚教堂</strong>废墟上进行最后巷战。今天，体育宫附近的<strong>旧城墙遗迹</strong>和<strong>阿卡萨巴城门</strong>默默诉说着那段血色岁月。1936-1939年的西班牙内战中，穆尔西亚是共和派据点，遭受了多次轰炸，许多历史建筑毁于一旦，但城市的精神并未消亡。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 伊莎贝尔·拉·卡托利卡（天主教王后伊莎贝拉一世）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊莎贝拉一世与穆尔西亚的羁绊始于<strong>1477年</strong>。当时她正与丈夫费迪南德一起整合王国，穆尔西亚因其重要的丝绸贸易成为战略焦点。她曾多次造访这座古城，并在<strong>大教堂</strong>旁的小宫殿中处理政务。据说，她曾在此签署赋予穆尔西亚市民特权的诏书，鼓励发展丝绸行业。更引人入胜的是一段轶事：伊莎贝拉在一次巡视时，看到塞古拉河泛滥淹没果园，亲自下令修建<strong>水坝工程</strong>，保护了数百户农户。这些水坝至今仍在使用，被称为<strong>“女王水坝”</strong>。穆尔西亚的老城区至今保留着一座以她命名的广场——<strong>Plaza de Isabel la Católica</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 胡安·德·拉·克鲁斯（Juan de la Cruz，神秘主义诗人）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位16世纪的著名神学家与穆尔西亚有着不为人知的交集。<strong>1578年</strong>，胡安·德·拉·克鲁斯被派往穆尔西亚的<strong>加尔默罗修院</strong>担任院长。正是在这里，他写下了部分<strong>《灵歌》</strong>和《心灵的黑夜》。传说，他经常在塞古拉河畔的橄榄树林中独行冥想，与当地牧羊人交谈。有一次，他在暴雨中迷路，被一位农妇收留，农妇的朴实信仰触动了他，他在随后的诗作中写道：“在暴雨中，我找到了最纯净的心灵。”如今，穆尔西亚大学的神学院仍保留着他的手稿复制品。穆尔西亚体育宫外的广场上，有一棵古老的橄榄树，据说是他当年倚靠过的那棵。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地流传着一则关于<strong>塞古拉河</strong>的神话：很久以前，一条巨龙沉睡在河底，每年春天都会翻身，引发洪水。摩尔人国王为了安抚巨龙，每年献上一名少女做祭品。有一年，一位名叫<strong>法蒂玛</strong>的少女主动请求成为祭品。她站在河心石头上吹奏长笛，笛声感动了巨龙，巨龙化作一座石桥，永远守护着城市。这座桥就是如今的<strong>“老桥”（Puente Viejo）</strong>。穆尔西亚的孩子们至今会唱一首童谣：“巨龙睡了，桥在微笑，法蒂玛的笛声永不消逝。”每年4月的<strong>穆尔西亚春之节</strong>，当地人会手持长笛模型在桥上跳舞，纪念这位勇敢的女孩。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个与体育宫直接相关的传说：在体育宫原址上曾有一座<strong>圣胡安修道院</strong>，修道士们在地下挖掘出了一尊圣母像，据说每当有人不敬，圣母便会流泪。1936年内战时期，修道院被毁，圣母像神秘失踪。当地人相信，她的眼泪化作了体育宫下方的一口井，井水具有治愈效力。虽然无人验证，但施工期间确实发现了一口古老的井，被保护在体育宫的地下停车场内。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">穆尔西亚体育宫虽然年轻，但它脚下的土地承载了<strong>穆斯林文明、基督教征服、瘟疫、战争与现代复兴</strong>的全部记忆。当你站在体育宫的看台上，听到的不仅是比赛的喧嚣，还有千年前摩尔人的祈祷、王后的诏令、诗人的吟唱和龙的故事。读懂这座城，就是读懂西班牙的缩影——<strong>在每一片瓦砾下，都藏着一个被时间掩埋的传奇</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/edificio-carrion-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡里翁大楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Edificio Carrión</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/estacion-museo-de-chamberi\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    C\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Chamberí地铁博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Estación Museo de Chamberí</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gandarias-san-sebastian\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    甘\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">甘达里亚斯</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gandarias</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "edificio-carrion-history",
+          "name": "卡里翁大楼",
+          "englishName": "Edificio Carrión"
+        },
+        {
+          "slug": "estacion-museo-de-chamberi",
+          "name": "Chamberí地铁博物馆",
+          "englishName": "Estación Museo de Chamberí"
+        },
+        {
+          "slug": "gandarias-san-sebastian",
+          "name": "甘达里亚斯",
+          "englishName": "Gandarias"
+        }
+      ]
+    }
+  ]
+}
