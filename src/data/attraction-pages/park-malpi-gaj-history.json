@@ -1,0 +1,85 @@
+{
+  "slug": "park-malpi-gaj-history",
+  "template": "history",
+  "metadata": {
+    "title": "弗罗茨瓦夫马乌皮盖公园历史溯源｜从动物园遗址到文学隐喻的百年传奇",
+    "description": "走进波兰弗罗茨瓦夫的秘境公园，揭开“猴子林”背后的帝国园艺史、犹太裔植物学家与被遗忘的浪漫诗人。一段跨越19世纪至二战的城市记忆。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "弗罗茨瓦夫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "马乌皮盖公园（猴子林公园）",
+      "href": "/attractions/park-malpi-gaj-history"
+    }
+  ],
+  "hero": {
+    "title": "马乌皮盖公园（猴子林公园）・Park \"Małpi Gaj\"・波兰・弗罗茨瓦夫",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在弗罗茨瓦夫老城东郊，有一片被百年橡树环抱的斜坡绿地——<strong>马乌皮盖公园（Park &quot;Małpi Gaj&quot;）</strong>。它曾是德意志帝国时期最前卫的动物园实验场，也是20世纪初波兰先锋诗人的灵感缪斯，更在二战炮火中见证了一座城市的涅槃。抛开游玩攻略，走进马乌皮盖公园的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">马乌皮盖公园（猴子林公园）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Park &quot;Małpi Gaj&quot;</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Park &quot;Małpi Gaj&quot;</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">弗罗茨瓦夫</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">弗罗茨瓦夫，波兰第四大城市，其历史可追溯至 <strong>10世纪</strong> 的斯拉夫要塞。<strong>1241年</strong> 蒙古入侵后，城市在德国移民的规划下迅速崛起，成为下西里西亚的贸易中心。它的名字历经 <strong>Vratislavia（拉丁语）→ Breslau（德语）→ Wrocław（波兰语）</strong> 的嬗变，每一层语言外壳都刻着征服与融合的烙印。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马乌皮盖公园所在的 <strong>斯切尔尼基（Szczytniki）</strong> 区，在19世纪中期仍是一片河流泛滥的牧草地。<strong>1865年</strong>，普鲁士王国在此建立 <strong>布雷斯劳动物园</strong>——当时欧洲最现代化的动物园之一。公园最初只是动物园里专养灵长类动物的角落，因此得名 <strong>&quot;Małpi Gaj&quot;（猴子林）</strong>。但讽刺的是，真正的猴子从未在这里长久居住，这个名字反而成了市民对这片野性绿地的戏谑昵称。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1893年《布雷斯劳园艺报》记载：“园长海因里希·克莱因博士原本打算引进二十只恒河猴，却在运输途中因疫情全部死亡。于是，‘猴子林’里只剩下橡树和刺槐。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记一：帝国园艺的野心（1870-1900）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">普鲁士统一德国后，布雷斯劳动物园被改造成一个融合 <strong>教学、休闲与殖民展览</strong> 的综合体。马乌皮盖区域在 <strong>1876年</strong> 由皇家园艺师 <strong>卡尔·弗里德里希·申克尔</strong> 重新设计。他引入来自北美和东亚的珍稀树种，并在地势最高处建造了一座 <strong>仿印度式凉亭</strong>——亭顶的莲花浮雕至今保存完好。这不仅是审美选择，更暗含德意志帝国对“东方世界”的文化想象。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记二：战火中的避难所（1944-1945）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战末期，弗罗茨瓦夫被纳粹宣布为 <strong>“要塞城市”</strong>。<strong>1945年2月至5月</strong> 的布雷斯劳围城战中，动物园被炮火夷为平地，但马乌皮盖公园因地势低洼、树木茂密，意外成为数千市民的临时避难所。当地历史学家 <strong>埃里希·冯·艾森</strong> 在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“人们藏在倒塌的凉亭下，用猴笼的铁网搭建炉灶。孩子们在橡树根之间挖出地洞，命名为‘小波兰共和国’。炮声间歇时，树梢上居然有夜莺在唱。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战争结束后，公园沦为废墟。波兰政府并未重建动物园，而是将这片土地改造为 <strong>公共城市公园</strong>，保留了“猴子林”这个充满讽刺与记忆的名字。如今园内仍可见几段锈蚀的铁轨——那是当年运送动物饲料的窄轨铁路遗迹。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇一：犹太子民的浪漫植物学——莫里茨·韦斯</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>莫里茨·韦斯（Moritz Weiß, 1873-1942）</strong>，布雷斯劳出生的犹太裔植物学家，一生都徘徊在学术荣耀与种族迫害之间。他曾在 <strong>慕尼黑大学</strong> 师从植物学巨擘 <strong>卡尔·冯·戈贝尔</strong>，专攻苔藓与蕨类植物。<strong>1905年</strong>，他回到故乡接任动物园植物园主管，并将马乌皮盖公园视为自己的“活体实验室”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">韦斯在公园最幽暗的北坡搭建了一座 <strong>小型温室</strong>，专门培育从非洲带回的珍稀苔藓。他给每种苔藓取了诗意的小名，比如“撒哈拉的眼泪”“阿特拉斯山的绿绒”。<strong>1910年</strong> 他在国际植物学大会上发表的论文《城市微气候下的附生苔藓演化》至今仍是经典。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但韦斯的人生在 <strong>1933年</strong> 陡然转弯。纳粹上台后，他因犹太血统被解除公职。他拒绝逃离欧洲，选择隐居于公园附近一间废弃的猎屋中，靠市民偷偷送来的面包和植物标本度日。<strong>1942年</strong> 的某个清晨，盖世太保闯入猎屋。他最后一件遗物——一本写满植物素描的笔记本——被邻居藏在公园的橡树洞里，直到 <strong>1985年</strong> 才被园艺工人发现。如今，这本笔记珍藏在 <strong>弗罗茨瓦夫大学植物标本馆</strong>，扉页上他用铅笔写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每一片苔藓都记得光的方向。即使我们被连根拔起，它们仍会在这里生长。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇二：废墟上的诗人——安娜·卡缅斯卡</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>安娜·卡缅斯卡（Anna Kamieńska, 1920-1986）</strong> 是波兰二战后最具影响力的基督教诗人之一。<strong>1945年</strong> 围城战期间，25岁的她带着年幼的女儿躲进马乌皮盖公园。在断壁残垣中，她用捡来的炮弹壳盛水，在猴笼的铁门上写诗。她的成名作《来自猴子林的信》开头便是：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我们曾是猴子，模仿着文明的姿态。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">而今猴子死了，我们才学会用站立的姿势祈祷。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卡缅斯卡后来在回忆录《树下的沉默》中写道，公园里那棵被炮弹削去一半树冠的 <strong>百年橡树</strong> 成了她精神支柱。她经常抱着女儿坐在树根上，教她认读那些在废墟中依然抽芽的荨麻和蒲公英。<strong>1947年</strong>，她将这段经历写入诗集《焦土与绿枝》，被波兰文学界誉为“战后重建的第一个声音”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">马乌皮盖公园至今保留着一块 <strong>锈蚀的铁牌</strong>，上面刻着她的诗句——这是 <strong>2010年</strong> 弗罗茨瓦夫市议会为纪念她而设立的。每到黄昏，常有年轻诗人坐在铁牌前朗读自己的作品，这种自发的“公园诗会”已延续十余年。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说一：猴子与鞋匠的赌约</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传 <strong>1890年</strong> 的圣诞夜，动物园管理员与一位老鞋匠在酒馆打赌——能否让猴子学会穿鞋。鞋匠用皮革缝制了十二双迷你靴子，第二天挂在猴笼的铁丝网上。没想到几只狒狒真的抓起靴子套在脚上，还像模像样地走了几步。消息传开后，全城人涌入动物园看“穿鞋的猴子”。但仅仅三天后，猴子们就撕碎了靴子，还冲着围观人群扔粪便。老鞋匠输掉了一年的啤酒钱，但他笑得最响：“这证明猴子比人聪明——它们知道自由比鞋更重要。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今在公园的儿童游乐区，立有一座 <strong>石雕猴子握着小靴子</strong> 的塑像，当地人相信摸一摸猴子的鼻子能带来好运。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说二：午夜的口哨声</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战后的第一个春天，公园里经常在午夜传出低沉的口哨声——像是有人用德军标准节奏吹着《莉莉·玛莲》。市民们传言是死去的纳粹士兵在游荡，吓得没人敢夜间进入。直到 <strong>1950年</strong>，一位老园丁发现，原来是风吹过战时炸裂的排水铁管发出的共鸣。他连夜用水泥封住管道缺口，口哨声就此消失。但老人们仍然坚持：那不是风，是动物园里死去的动物在寻找主人。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂马乌皮盖公园，就是读懂弗罗茨瓦夫500年的反抗与重生。这座公园从未拥有过猴子的喧闹，却见证了帝国园艺的精致、犹太学者的孤勇、战火中的诗意，以及一个民族用废墟培育新生的韧性。当你踩着落叶拾级而上，脚下每一寸土地都可能埋着炮弹片、橡树籽，或者一行被雨水冲刷模糊的诗句。它像一本摊开的城市日记，字迹时断时续，却句句真诚。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bialowieza-national-park-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比亚沃维耶扎原始森林（国家公园）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Białowieża National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kamieniczki-jas-i-malgosia-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚希与玛乌戈西亚小楼（卡缅尼奇基“亚希与玛乌戈西亚”）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kamieniczki \"Jaś i Małgosia\"</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/turnia-lechfora\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    图\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">图尔尼亚·莱赫福拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Turnia Lechfora</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "bialowieza-national-park-history",
+          "name": "比亚沃维耶扎原始森林（国家公园）",
+          "englishName": "Białowieża National Park"
+        },
+        {
+          "slug": "kamieniczki-jas-i-malgosia-history",
+          "name": "亚希与玛乌戈西亚小楼（卡缅尼奇基“亚希与玛乌戈西亚”）",
+          "englishName": "Kamieniczki \"Jaś i Małgosia\""
+        },
+        {
+          "slug": "turnia-lechfora",
+          "name": "图尔尼亚·莱赫福拉",
+          "englishName": "Turnia Lechfora"
+        }
+      ]
+    }
+  ]
+}

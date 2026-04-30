@@ -1,0 +1,85 @@
+{
+  "slug": "kotor-history",
+  "template": "history",
+  "metadata": {
+    "title": "科托尔历史溯源｜黑山峡湾深处的威尼斯印记与航海传奇",
+    "description": "亚得里亚海东岸的千年古城，威尼斯共和国留下的迷宫城墙，藏着海盗、商人、圣人与地震的史诗。抛开游玩攻略，走进科托尔的尘封往事，遇见属于它的时光与传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "黑山",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科托尔",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科托尔",
+      "href": "/attractions/kotor-history"
+    }
+  ],
+  "hero": {
+    "title": "科托尔・Kotor・黑山・科托尔",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在亚得里亚海最隐蔽的峡湾深处，<strong>科托尔</strong>如一枚嵌在石灰岩山脊上的海螺，被威尼斯、奥斯曼、拿破仑和奥匈帝国轮番敲响。它的历史不是单调的编年表，而是一部用海盐、火药和圣徒传说写就的航海史诗。抛开游玩攻略，走进这座被联合国教科文组织双重保护的古城，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">科托尔</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Kotor</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Kotor</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">黑山</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">科托尔</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科托尔的诞生与 <strong>伊利里亚人</strong> 有关。公元前3世纪，这个擅长航海与劫掠的部落最先在博卡科托尔斯卡湾最深处扎下营地。希腊人随后叫它“阿斯卡塔”（Askata），意为“隐秘的入口”——水手们从开阔海面驶入峡湾，绕过层层山壁，猛然见到这座依山而建的石城，无人不惊叹于它的隐蔽与易守难攻。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的建城始于 <strong>罗马帝国</strong> 时期，当时它被称为“阿克罗伊”（Acruvium）。公元6世纪，东罗马皇帝查士丁尼一世下令在岩壁上修筑第一道防御工事，城市雏形由此奠定。但“科托尔”这个名字却来自 <strong>中世纪拉丁语</strong>“Cattaro”，而这个词又源于希腊语“Katero”——意为“下方”，指代山脚与海湾之间的狭长平地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪的科托尔是 <strong>塞尔维亚王国</strong> 的重要出海口。国王斯特凡·尼曼尼奇赋予它自治权，让它成为东西方贸易的枢纽：来自波斯尼亚的银矿、来自东方的丝绸与香料，在此装船运往威尼斯。城市纹章上至今保留着一只 <strong>展翅的金狮</strong>——那是威尼斯人到来前，塞尔维亚人留下的权力符号。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1420年—1797年：威尼斯黄金时代</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是科托尔最辉煌的时期，也被称为“<strong>圣马可雄狮的庇护所</strong>”。威尼斯总督不把这里当作殖民地，而是当成亚得里亚海的“副都”。他们拆除了自建的城墙（是的，威尼斯人曾毁掉一部分原有的防御工事，因为它“不符合文艺复兴军事美学”），重新修筑了长达4.5公里的环形堡垒与钟楼，并在山脊上建造了 <strong>圣乔瓦尼要塞</strong>（San Giovanni）。如今攀爬1350级台阶登顶，俯瞰整个峡湾，每一块石头都镌刻着威尼斯船队在这里停泊、补给、防抗奥斯曼海寇的记忆。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">威尼斯商人在日记中写道：“科托尔的石墙比任何海图都可靠。船锚落下的声音，是回家最安全的信号。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1667年大地震与重生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1667年4月6日，一场震中在杜布罗夫尼克的大地震摧毁了半个科托尔。最著名的 <strong>圣特里丰大教堂</strong>（Cathedral of Saint Tryphon）——始建于1166年的罗马式瑰宝——险些倒塌。修复工程持续了整整二十年，工匠们将坍塌的石柱重新立起，并在中殿增添了一面 <strong>拜占庭风格的圣像屏风</strong>，至今仍是黑山最珍贵的宗教艺术遗产。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1797年—1814年：帝国交替的夹缝</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拿破仑的军队在1810年短暂占据科托尔，随后被英军海军封锁。英国人在圣乔瓦尼要塞上架起炮台，迫使法军投降，但仅仅一年后，维也纳会议将这座城市划归奥匈帝国。科托尔从“自由港”沦为帝国边疆的军港，商船被迫改挂双头鹰旗帜。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣特里丰（Saint Tryphon）——猫与修道院的神秘传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科托尔的守护圣人并非本地人。<strong>圣特里丰</strong> 是公元3世纪小亚细亚（今土耳其）的一位少年殉道者，以驱逐魔鬼、治愈疯狗闻名。他的圣髑（右手手指）原本存放在君士坦丁堡，但在 <strong>809年</strong>，一位威尼斯商人在航海途中遭遇风暴。他发誓：若能平安抵达科托尔，愿将最珍贵的宝物献给当地教堂。风暴过后，他在航行箱中发现了一截闪耀着光芒的手指骨——至今无人解释这圣髑如何出现。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣髑被安放在科托尔的主保教堂中，从此这座城市再也没有遭受过严重的黑死病。更有趣的是，科托尔是著名的 <strong>“猫城”</strong>——城中广场、台阶上随处可见慵懒的野猫。传说圣特里丰曾化身猫群，在1667年地震前夜集体哀嚎，警告居民逃亡。当地人因此从不驱赶猫，甚至在古城专门建造了 <strong>“猫博物馆”</strong> 来纪念这些守护者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>伊万·马祖拉尼奇（Ivan Mažuranić）——从科托尔走出的泛斯拉夫诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪初，这位来自克罗地亚的诗人被任命为奥匈帝国驻科托尔的移民官。在任期（1839-1840年）内，他创作了长诗《<strong>小兹维达的死亡</strong>》（Smrt Smail-age Čengić），这是南斯拉夫浪漫主义文学的巅峰之作。诗歌的背景正是科托尔湾上的 <strong>佩拉斯特岛</strong>——他经常乘小船前往岛上的圣母岩教堂，在烛光下记录当地渔民的口头传说。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">马祖拉尼奇在信中写道：“科托尔湾的月光比维也纳的煤气灯更明亮，水手们每划一次桨，我就能听见一个古老的灵魂在唱歌。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>约瑟普·布罗兹·铁托（Josip Broz Tito）</strong> ——鲜为人知的科托尔岁月</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">南斯拉夫领导人铁托年轻时曾在奥匈帝国海军服役。<strong>1908年</strong>，16岁的他作为电报员被派驻科托尔军港。他在回忆录中提到，科托尔的喀斯特地貌让他第一次理解“游击战”的地形优势。据说他曾在 <strong>圣卢卡教堂</strong> 的地下室里藏匿过反帝国宣传册，这段经历影响了他后来在二战中组建游击队的方式。如今，科托尔沿海的步道上还有一块纪念牌，标注着“铁托水兵时代的观察哨”。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“钟楼里的影子”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在科托尔主广场的钟楼，每到午夜十二点整，会有模糊的黑影掠过钟面。传说那是 <strong>维耶科·布科瓦茨</strong>（Vjeko Bukovac）的灵魂——一位19世纪的石匠，因在修缮钟楼时发现总督私藏金币，被活活砌在墙壁里。当地老人说，若在钟楼正下方对着黑影喊三遍“维耶科，金币在哪里？”，石头就会落下一枚铜币——却永远是空的。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“海妖礁上的婚礼”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科托尔湾入海口有一处暗礁，渔民叫它 <strong>“新娘岩”</strong>。传说17世纪，一位威尼斯船长的女儿与奥斯曼王子私奔，他们在礁石上举行婚礼时，突然风浪大作，将两人卷走。从此，每当有船只经过礁石，必须向海中抛下一枚银戒指，否则新娘的幽灵会掀起浪头。至今，当地邮轮经过此地时，船长仍会象征性地扔下一枚硬币。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科托尔的美不在于宏大的宫殿，而在于每一块被海风啃噬的石墙里，都藏着 <strong>帝国、圣徒、水手与诗人的呼吸</strong>。它是欧洲少有的、能让你同时触摸威尼斯商人的秤、奥斯曼士兵的弯刀、拿破仑的炮管和铁托的望远镜的城市。读懂科托尔，就像读完一部浓缩的 <strong>地中海文明冲突史</strong>——那些歪歪扭扭的台阶、被地震修复的教堂穹顶，以及傍晚海鸥飞过钟楼时留下的剪影，都是历史留下的最温柔的注脚。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/biogradska-gora-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    比\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">比奥格勒山国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Biogradska Gora</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/a-bay-to-remember-dolphin-wildlife-boat-trips-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    难\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">难忘海湾 - 海豚与野生动物船游</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">A Bay To Remember - Dolphin & Wildlife Boat Trips</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/herceg-novi-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    新\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">新海尔采格</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Herceg Novi</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "biogradska-gora-history",
+          "name": "比奥格勒山国家公园",
+          "englishName": "Biogradska Gora"
+        },
+        {
+          "slug": "a-bay-to-remember-dolphin-wildlife-boat-trips-history",
+          "name": "难忘海湾 - 海豚与野生动物船游",
+          "englishName": "A Bay To Remember - Dolphin & Wildlife Boat Trips"
+        },
+        {
+          "slug": "herceg-novi-history",
+          "name": "新海尔采格",
+          "englishName": "Herceg Novi"
+        }
+      ]
+    }
+  ]
+}

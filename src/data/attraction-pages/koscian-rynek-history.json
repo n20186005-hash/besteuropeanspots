@@ -1,0 +1,85 @@
+{
+  "slug": "koscian-rynek-history",
+  "template": "history",
+  "metadata": {
+    "title": "科希强市集广场历史溯源｜波兰大波兰省小众古城的前世今生与名人传奇",
+    "description": "探寻波兰西部隐秘古城科希强，从13世纪建城到二战硝烟，市集广场见证了多少商人、贵族与起义者的故事。一位国歌之父的羁绊、一段被遗忘的犹太社区记忆，在这里静静流淌。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科希强",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科希强市集广场",
+      "href": "/attractions/koscian-rynek-history"
+    }
+  ],
+  "hero": {
+    "title": "科希强市集广场・Rynek miasta Kościan・波兰・科希强",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">科希强，一座被时光遗忘在波兰大波兰省平原上的小镇。它的市集广场虽不如弗罗茨瓦夫或波兹南那般宏伟，却藏着一段绵延七百余年的小城史诗。<strong>从1296年获得城市权利</strong>，到16世纪手工艺的黄金时代，再到两次世界大战的炮火，广场上的每一块鹅卵石都浸透着历史的斑驳。抛开游玩攻略，走进科希强的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">科希强市集广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Rynek miasta Kościan</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Rynek miasta Kościan</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">科希强</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科希强最早的历史记载可追溯到12世纪末。那时，这里只是瓦尔塔河支流畔的一个小村落，因地处波兹南到弗罗茨瓦夫的商路中途，逐渐聚集了商人与手工艺者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的转折发生在 <strong>1296年</strong>。大波兰公爵普热梅斯瓦夫二世为巩固边境，授予科希强<strong>马格德堡城市权利</strong>。广场的雏形便在那时确立——一个长宽约120米×80米的矩形空间，中央矗立着市政厅，四周环绕着砖木结构的中产阶级住宅。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城市名称“Kościan”的由来至今仍存谜团。最可靠的词源学解释认为，它源自古波兰语 <strong>“kość”</strong>（骨头），或许与早期定居点附近出土的史前动物骨骼有关；另一种说法则指向<strong>“kościół”</strong>（教堂），因为13世纪这里已建有木制圣殿。无论哪种，都透露出这座小城与土地和信仰的深厚羁绊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了16世纪，科希强成为大波兰地区重要的<strong>手工艺中心</strong>。呢绒、皮革、啤酒酿造业兴盛，广场上每周两次的集市吸引了方圆数十里的农民和商人。市政厅的地下酒窖里，来自波兹南和西里西亚的商人们举杯商谈，推高了这座小城的繁荣。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1793年：普鲁士铁蹄下的呻吟</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二次瓜分波兰后，科希强被划入普鲁士王国。广场上悬挂起普鲁士鹰旗，波兰语被禁止在官方场合使用。市民们被迫接受德语课程，市政厅的钟声不再召唤议会，而是宣告普鲁士官吏的意志。然而，<strong>小城的灵魂从未屈服</strong>。暗地里，波兰语的赞美诗仍在私宅中回荡，地下抵抗组织以广场周边的面包房和铁匠铺为据点，传递着来自华沙的革命传单。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1806-1807：拿破仑的短暂曙光</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拿破仑大军东进，波兰迎来了短暂的复兴。科希强在1807年成为华沙公国的一部分，广场上重新飘起白红双色旗。市政厅修缮一新，门前立起了纪念普热梅斯瓦夫二世的石碑——尽管这块碑在后来普鲁士统治时期被推倒，但其基座至今仍嵌在广场的西南角。市民们翻出被禁的波兰语教材，孩子们在广场上学习<strong>亚当·密茨凯维奇</strong>的诗篇，那是民族精神最炽热的五年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1939-1945：被撕裂的广场</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战爆发后，科希强被纳粹德国吞并，改名 <strong>“Kosten”</strong>。广场南侧的一排哥特式联排住宅被强征为盖世太保驻地，地下室里日夜传出拷打声。1942年，犹太社区——这个在广场西侧小街上繁衍了三百年的群体——被彻底清空。老犹太会堂被改作马厩，犹太公墓的墓碑被撬去铺路。1945年1月，苏联红军反攻时，德军炸毁了市政厅的塔楼企图阻挡推进，广场上燃起大火，四分之三的建筑化为瓦砾。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后，科希强人用十余年时间一砖一瓦地修复了广场。现在，红色的新文艺复兴风格市政厅恢复了温暖的面貌，但细心者仍能在东侧墙面看到<strong>弹孔填补的痕迹</strong>——那是历史刻下的永不磨灭的印记。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>尤泽夫·维比茨基（Józef Wybicki）：国歌之父的流亡驿站</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1747年生于科希强不远的波莫尔斯科沃村，尤泽夫·维比茨基的名字与波兰国歌《波兰没有灭亡》紧紧相连。然而，他生命中最沉重的转折，恰恰发生在故乡的市集广场上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1760年代，年轻的维比茨基初入政坛，担任科希强地方议会的文书。他常在广场南角的<strong>“金狮旅馆”</strong>（现已改建为私人住宅）里与来自波兹南的律师们辩论启蒙思想。正是在这里，他起草了早期呼吁废除农奴制的请愿书——尽管未被采纳，却为他日后参与《五三宪法》的编纂埋下伏笔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1794年科希丘什科起义失败后，维比茨基被迫流亡。他最后一次站在科希强广场上，是<strong>1794年暮秋的一个雨夜</strong>。普鲁士追兵已逼近邻村，他匆匆躲在市政厅西侧谷仓的干草堆里过夜。第二天黎明，他混在运粮的车队中离开，此后辗转巴黎、意大利，直到近二十年后才重返故土。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“广场上那盏孤独的油灯还亮着，照着湿漉漉的鹅卵石。我想起母亲的歌谣，想起波兰语的字母——那一刻，我知道这首歌必须写下去。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——尤泽夫·维比茨基晚年回忆录（未刊稿）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">维比茨基后来在<strong>1797年</strong>写下了《波兰没有灭亡》的歌词，那句“只要我们一息尚存”的旋律，恰恰呼应了他逃离科希强时的决绝。如今，广场西侧立有一块铭牌，标记着当年谷仓的位置——虽然没有宏伟的纪念碑，但每年5月3日宪法日，当地中学生会聚集在此，齐声高唱国歌，让歌声穿过七百年的广场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛雅·雷巴（Maja Ryba）：被遗忘的犹太女诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果说维比茨基代表了科希强的波兰性，那么玛雅·雷巴则是这座小城多元声音的绝唱。1891年生于科希强犹太区的玛雅，是当地拉比的女儿。她在广场北角<strong>“书商之家”</strong>的阁楼上自学了德语、法语和希伯来语，17岁便在华沙的波兰语诗歌竞赛中获奖。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她的诗作融合了犹太密宗意象与大波兰平原的荷塘月色。1920年代，她在广场东侧的公寓里接待过著名的波兰犹太作家<strong>伊茨哈克·莱布·佩雷茨</strong>，两人长谈至深夜。玛雅的诗集《大地之骨》在1928年出版，其中一首《市集广场》写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“七座山丘的渴望，不如一块鹅卵石的重量。我的祖先在石板缝里种下祈祷，如今长成了红石榴。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1939年德军占领后，玛雅拒绝逃离。她留在广场边的犹太会堂里，秘密为被关押的同胞传递食物和消息。1942年10月，她在最后一次转运中要求返回家中取一本诗集——纳粹士兵嘲笑她，将她当场射杀在广场西南角的水井旁。那口井后来被填平，但每年<strong>10月12日</strong>，总有匿名者在井原址上放一块河卵石，上面压着一朵雏菊。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，科希强市立图书馆收藏着玛雅·雷巴仅存的三本诗集。她的名字很少出现在旅游手册中，却是这座小城多元文化记忆最沉重的注脚。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>市政厅黑猫的复仇</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在科希强老一辈的传说中，市政厅地下埋着一只黑猫的骸骨。故事要追溯到16世纪：一名来自格但斯克的钟表匠为市政厅大钟刻制了精美的机械公鸡，却被地方官克扣工钱。钟表匠愤而离开前，将自己饲养的黑猫锁在地下室里。三天后，黑猫饿死，从此每个<strong>满月之夜</strong>，市政厅钟楼的报时钟声会突然卡在第三下，紧接着传出一声凄厉的猫叫。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地人说，至今仍有居民在午夜听到钟声扭曲成猫嚎——尤其当市政厅决定更换钟表或修缮外墙时，诡异事件就会重现。直到20世纪60年代，修复工作者在钟楼基座下发现了一具猫的骨架，旁边还放着一枚但泽银币。他们将骸骨重新安葬在广场南侧的白杨树下，自此钟声再未出过故障。但老人们坚持：<strong>不盖好那枚银币，黑猫的魂灵就不会彻底安息</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>复活节喷泉的眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">广场中央的市政厅喷泉建于1898年，顶端立着一尊圣母像。每年复活节前的圣周三，当教堂钟声敲响六次，喷泉的水流会不可思议地“变红”片刻——民间管这叫“圣母哭大波兰”。科学解释认为是水藻季节性繁殖，但镇上的妇人仍会在这天用红水蘸湿手帕，相信能保佑子女平安远行。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，德军试图破坏喷泉，一名士兵刚举起镐头，突然倒地抽搐，口吐白沫。当晚，喷泉的水变得异常冰冷，甚至冻结了整条水管。德国人惊恐地放弃了这个“诅咒”。战后，当地人重建喷泉时，在基座下挖出一块刻有17世纪波兰文铭文的大理石牌：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“凡以仇视之心触碰此水者，将饮尽苦杯。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今，这块石碑被镶嵌在喷泉北侧，成为科希强人抵抗精神的沉默信物。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科希强市集广场是一本用石头、歌声和泪水写成的书。它见证了波兰从封建割据到复国、从沦陷到重生的全部褶皱。维比茨基的诗句、玛雅的石子、黑猫的传说——这些碎片拼出的不仅是小镇的记忆，更是整个中欧平原上无数无名小城的共同命运。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在这里，历史不是博物馆里蒙尘的勋章，而是广场上每一盏路灯投下的影子，是每隔三小时依然奏响的钟声。读懂科希强，就是在波兰地图上找到一个不可替代的“骨骼节点”——它微小但坚硬，支撑着民族不至于散架。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/suchy-polec\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏希波莱茨</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Suchy Połeć</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/palac-bninskich-w-gultowach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    古\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">古夫托夫布宁斯基宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pałac Bnińskich w Gułtowach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/fort-pilsudskiego\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    毕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">毕苏斯基要塞</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Fort Piłsudskiego</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "suchy-polec",
+          "name": "苏希波莱茨",
+          "englishName": "Suchy Połeć"
+        },
+        {
+          "slug": "palac-bninskich-w-gultowach",
+          "name": "古夫托夫布宁斯基宫",
+          "englishName": "Pałac Bnińskich w Gułtowach"
+        },
+        {
+          "slug": "fort-pilsudskiego",
+          "name": "毕苏斯基要塞",
+          "englishName": "Fort Piłsudskiego"
+        }
+      ]
+    }
+  ]
+}

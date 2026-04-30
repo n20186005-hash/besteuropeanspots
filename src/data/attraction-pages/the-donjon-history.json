@@ -1,0 +1,85 @@
+{
+  "slug": "the-donjon-history",
+  "template": "history",
+  "metadata": {
+    "title": "洛什主塔历史溯源｜法国中世纪城堡主塔的传奇故事与名人轶事",
+    "description": "探索法国洛什城堡主塔的前世今生，从军事要塞到王室监狱，见证百年战争与文艺复兴的沧桑。聆听中世纪名人传奇与囚徒涂鸦之谜，深入欧洲小众秘境。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "洛什",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "洛什主塔",
+      "href": "/attractions/the-donjon-history"
+    }
+  ],
+  "hero": {
+    "title": "洛什主塔・The Donjon of Loches・法国・洛什",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在法国卢瓦尔河谷的静谧小镇洛什，一座高耸的方形石塔静静矗立。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它曾是安茹伯爵的权杖、百年战争的烽火台，也曾是路易十一最阴森的囚牢。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">抛开游玩攻略，走进洛什主塔的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">洛什主塔</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">The Donjon of Loches</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">The Donjon of Loches</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">洛什</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">洛什的历史可追溯至高卢罗马时期，当时只是一个平凡的渡口村落。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正的崛起发生在公元9世纪，安茹伯爵在此建造了第一座木制堡垒，用以控制卢瓦尔河与安德尔河交汇处的战略要道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">11世纪时，<strong>富尔克三世</strong>（Fulk III Nerra，人称“黑鹰伯爵”）决定用石头重构权力象征，于1012年动工修建了这座高36米的巨型主塔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它是欧洲现存最古老的石砌城堡主塔之一，其名“Loches”源自拉丁语 <strong>“Locus”</strong>——意为“地方”，朴素地标记着这片土地的初始身份。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当时的工程耗时数十年，石材来自本地采石场，塔壁厚达3米，顶部设有弓弩手垛口。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">建成后，它不仅是军事据点，更是安茹伯爵对抗法兰西王室的前哨。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">百年战争期间，洛什主塔曾落入英军之手，直到1370年由法王查理五世的军队夺回。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正改变它命运的，是15世纪另一位法国国王——<strong>路易十一</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位被称为“蜘蛛国王”的君主极为多疑，他下令将主塔改造成 <strong>“国家监狱”</strong> ，专门关押政治对手和失宠贵族。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最触目惊心的，是塔内留下的<strong>囚徒涂鸦</strong>：墙上刻满了十字架、祈祷文、家族纹章，甚至还有一份完整的拉丁语弥撒誓词。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这些涂鸦不是艺术家即兴之作，而是绝望者在黑暗中用手指和铁链划出的痕迹——每一道凹痕都是一声叹息。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1590年代，主塔最后一次作为要塞抵御宗教战争中的天主教联盟；此后逐渐荒废，直至19世纪被列为历史古迹。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>菲利普·德·科米纳</strong>（Philippe de Commynes，1447–1511）是洛什主塔最著名的囚徒。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他本是勃艮第公爵的谋臣，后转投路易十一，成为法国首席外交官。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但因卷入一场反对国王的密谋，1487年被关进主塔顶层的牢房。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在黑暗的斗室中，科米纳没有沉沦，反而拿起鹅毛笔，开始撰写《回忆录》（<em>Mémoires</em>）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是一部冷峻的中世纪政治实录，他这样描写狱中的夜晚：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“墙壁渗出了苔藓的寒意，铁链的声响比祈祷词更持久。我试着在脑海中重绘每一场谈判，每一个盟约的细微起伏——因为当身体被囚禁，唯有记忆可以逃脱。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的著作后来被誉为“欧洲后世政治学的奠基之作”，而洛什主塔就是这部巨著的产房。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位传奇人物是骑士 <strong>拉·马尔凯</strong>（La Marche），他因参与贵族叛乱被囚。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传他在狱中用炭笔在墙上写下一首十四行诗，颂扬自由胜过“国王的黄金与天鹅绒寝床”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">尽管诗稿早已褪色，但19世纪的考古学家在修复时发现了部分诗句，如今被拓印后陈列在主塔底层。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">洛什主塔流传最广的，是关于 <strong>“白衣女士”</strong>（La Dame Blanche）的幽灵故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说15世纪末，一位名叫伊莎博的贵妇因被诬告通奸，被丈夫关入地牢。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她拒绝认罪，在潮湿的暗室中穿着白色礼服绝食而亡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此后每逢满月，夜巡人就会看到一个白色身影在主塔的窗洞间飘游，发出低沉的呜咽。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地老人笃信：“如果你在午夜时分将耳朵贴在地牢的铁门上，能听见裙摆摩擦石阶的声音——那是伊莎博夫人仍在寻找她的清白。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说则与法王查理七世的情人<strong>阿涅斯·索雷尔</strong>有关。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她确实曾居住在主塔的二楼房间，死后葬在附近的圣奥拉教堂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但民间故事说，她的灵魂并未离去，而是化作一只白色蝴蝶，在主塔的常春藤间徘徊。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">洛什主塔不仅是一堆冷静的石头，更是一部用血与墨写成的立体史书。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的每一层楼都对应不同的历史篇章：底层是黑暗的囚牢，中层是权力的客厅，顶层是灵魂的出口。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂它，就等于读懂了中世纪法国从中央集权到人性挣扎的缩影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cite-de-carcassonne\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    卡\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">卡尔卡松城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cité de Carcassonne</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mira-france\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    米\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">米拉</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mira</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/epoisses-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃普瓦斯城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château d'Époisses</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "cite-de-carcassonne",
+          "name": "卡尔卡松城堡",
+          "englishName": "Cité de Carcassonne"
+        },
+        {
+          "slug": "mira-france",
+          "name": "米拉",
+          "englishName": "Mira"
+        },
+        {
+          "slug": "epoisses-castle",
+          "name": "埃普瓦斯城堡",
+          "englishName": "Château d'Époisses"
+        }
+      ]
+    }
+  ]
+}

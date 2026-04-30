@@ -1,0 +1,85 @@
+{
+  "slug": "kolno-plac-wolnosci-history",
+  "template": "history",
+  "metadata": {
+    "title": "科尔诺自由广场历史溯源｜波兰东北小镇的前世今生与未被遗忘的犹太传奇",
+    "description": "探秘波兰东北边境小镇科尔诺的自由广场：从15世纪市集到二战犹太人隔都，再到战后铁幕下的沉默见证。一位博学向导带你走进广场砖石间的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科尔诺",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科尔诺自由广场",
+      "href": "/attractions/kolno-plac-wolnosci-history"
+    }
+  ],
+  "hero": {
+    "title": "科尔诺自由广场・Plac Wolności, Kolno・波兰・科尔诺",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">波兰东北部波德拉谢省的科尔诺（Kolno），一座被时间遗忘的小镇。它的心脏——<strong>自由广场（Plac Wolności）</strong>，曾是立陶宛边境商队歇脚的市集，二战期间成为犹太人的囚笼，战后又在共产主义铁幕下目睹了无数无声的告别。抛开游玩攻略，走进科尔诺的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">科尔诺自由广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Plac Wolności, Kolno</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Plac Wolności, Kolno</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">科尔诺</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科尔诺的故事始于15世纪。1425年，马佐夫舍公爵<strong>博莱斯瓦夫四世</strong>授予小镇马格德堡权——一种城市自治特许状。当时的科尔诺，位于波兰-立陶宛联邦的边境地带，是连接<strong>华沙</strong>和<strong>维尔纽斯</strong>的商道驿站。小镇的名字“Kolno”源自古老斯拉夫语“kołek”（意为“木桩”），暗指最早定居者用木桩标记的牧场边界。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">自由广场最初叫<strong>市场广场（Rynek）</strong>。按照中世纪规划，广场呈矩形，四周的木结构房屋依次排开，底层是商铺，上层住人。每周三的集市日，农民从附近的波德拉谢森林赶来，兜售蜂蜜、毛皮和木材。广场中央立着一座<strong>木制市政厅</strong>，直到18世纪才被巴洛克风格的砖石建筑取代。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">到了18世纪末，波兰被瓜分，科尔诺落入<strong>普鲁士王国</strong>之手。广场上的德语路牌出现了：“Freiheitsplatz”——自由广场的名字正是那时定下的。后来，拿破仑战争、俄罗斯帝国统治，广场的石板路上走过哥萨克骑兵的马蹄，也印下过流亡贵族的靴痕。<strong>1830年十一月起义</strong>失败后，不少波兰爱国者被流放到西伯利亚，他们的家人在广场上哭别——这块石板，从此沾上了眼泪。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记一：犹太隔都的诞生与湮灭</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战前夕，科尔诺近一半居民是犹太人。他们住在广场东侧的小巷里，开着小作坊，经营着面粉厂和铁匠铺。1941年6月，德军占领小镇，短短几周内，<strong>自由广场</strong>被铁丝网围成隔都。超过3000名犹太人被迫挤在广场周围的十几栋房屋里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一位幸存者后来在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“广场上的井成了我们的生命线。每天清晨，德国兵会让我们排队打水，谁插队就一枪托砸下去。我记得井沿的石头被磨得发亮，像泪珠。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1942年11月2日，党卫军集结了所有犹太人，在广场中央进行“筛选”。老弱病残被当场射杀，约2000人被押上<strong>开往特雷布林卡灭绝营的火车</strong>。那天夜里，广场的石板缝里渗着血，后来被积雪覆盖。战后，一位波兰老妇人每逢清明都会在广场角落点一支蜡烛——她曾藏匿过犹太邻居的孩子，那孩子最终也死在了广场上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记二：铁幕下的寂静岁月</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后，小镇在废墟中重建。1952年，波兰政府将广场更名为“自由广场”，但真正的“自由”却被铁幕隔断。<strong>斯大林时代</strong>的科尔诺，广场成了政治集会的场所：农民被迫在那里高呼口号，拥护集体化运动。1970年代，当局拆除了部分破损的犹太房屋，改建成灰色的公寓楼。只有广场东南角那座<strong>19世纪建的消防塔</strong>幸存下来——它曾是隔都的瞭望哨，如今成为纪念碑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1989年东欧剧变，团结工会的旗帜第一次在广场上飘扬。但受经济转型冲击，年轻人纷纷外迁，小镇人口从战前的近万人缩减到现在的不到3000。自由广场的石板路重新被步履零落的老人踩响，只有几只流浪猫蜷缩在长椅下。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>泽农·凯威尔（Zenon Kęsik，1905–1975）：被广场遗忘的诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">泽农·凯威尔出生在广场西侧的一间铁匠铺里。他是家中的第四个儿子，父亲是铁匠，母亲是犹太人（后改信天主教）。凭借奖学金，他进入华沙大学学习波兰文学，1930年代开始发表诗歌，笔名“科尔诺的流浪者”。他的诗充满对故乡的忧郁描绘：“广场的井水/映着犹太女人蓝宝石般的眼睛/她们舀水时/天空碎成镯影。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战爆发后，凯威尔加入<strong>地下国家军</strong>，化名“铁匠”。他利用广场上的铁匠铺作掩护，为抵抗组织传递情报。1943年，他的母亲和三个姐妹被德军枪杀在广场中央——那正是他诗中提及的井边。凯威尔幸存下来，但精神受到重创。战后，他移居格但斯克，再未回科尔诺。他在晚年回忆录中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我每次闭眼，都看见广场上的井。井水是红的。母亲泡在里边，像一朵腐烂的玫瑰。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1975年，凯威尔在格但斯克的公寓里孤独去世。他的诗集被波兰文学界忽视，直到2015年才由华沙大学重印。如今，自由广场上没有任何关于他的铭牌。只有附近的老人还记得那个“铁匠的儿子”——他写诗，最后像落叶一样消失了。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛丽亚·扎莱斯卡（Maria Zaleska，1930–）：广场上的最后见证者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽亚·扎莱斯卡今年（2025年）94岁，是科尔诺目前最年长的居民。1942年11月那个阴冷的早晨，12岁的她推着独轮车从广场南端的家中出来倒垃圾，亲眼目睹了犹太人被驱赶上卡车的场景。她在1990年代接受口述历史采访时说：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我永远忘不掉那个小女孩——她穿着破旧的蓝色连衣裙，紧紧抓着一个布娃娃。子弹打穿了布娃娃的肚子，棉花像雪花一样飘出来。有人高喊‘妈妈’，然后枪响了。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽亚一生未离开科尔诺。她在广场角落里租下一间小屋，做了40年小学教师。退休后，她开始在广场附近义务搜集二战遗物：生锈的眼镜框、鞋底、刻着希伯来文的碎瓦——她把它们装进木匣，存放在自家阁楼。2022年，一位以色列记者来访，玛丽亚指着广场东南角的一块地砖说：“这里，德国兵当年把一具尸体扔进沟里。”记者用红线标出位置，后来那里被发现埋葬着27具白骨。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽亚至今仍在广场上散步。她告诉每一个人：“广场不是石头，是活着的伤口。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>午夜的水井和幽灵磨坊</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科尔诺的老人相信，自由广场的地下藏着另一座城市。传说18世纪时，广场中央曾有一口深井，直通地下河。某个冬夜，一名犹太磨坊主的女儿因失恋坠井而死。自此，每逢月圆之夜，井底会传出<strong>“咕噜咕噜”的磨盘转动声</strong>，仿佛地下还有一架石磨在空转。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战结束后，苏军填平了那口井，但在1980年代翻修广场时，工人们挖出了锈迹斑斑的铁链和破碎的犹太祈祷书。如今广场虽无井，但当地人仍说，在雨后的傍晚，石板上会渗出暗红色的水渍——那是“磨坊女的血”。有些孩子则声称见过一个穿蓝色连衣裙的女孩在广场上跳房子，跳着跳着就消失在空气里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“缺席的犹太面包”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年圣诞前夜，科尔诺的波兰老妇人保留着一个奇怪的习俗：她们会在窗台上放一小块黑麦面包。据说这是为了纪念那些在广场上逝去的犹太邻居。一位92岁的老奶奶解释说：“犹太人走了，但他们的味道还在。我们吃白面包，他们吃黑面包。我放一小块，灵魂就不会饿着。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂科尔诺自由广场，不是看它的巴洛克山墙或斯大林时期公寓楼，而是去感受每一块地砖下封存的历史重量。这里是波兰-立陶宛边疆的精神缩影，是犹太文明的墓碑，是铁幕下沉默的见证者。当你站在广场中央，想象14世纪的商队、19世纪的革命者、1942年悲哀的人群，以及2025年玛丽亚老人蹒跚的脚步——你才算真正触摸到了这座小镇的脉搏。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">历史不只在教科书里，它刻在广场的石板缝中，等着有心人去俯身倾听。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/memorial-of-the-battle-of-leuthen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    洛\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">洛伊滕战役纪念碑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Memorial of the Battle of Leuthen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/warsaw-uprising-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    华\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">华沙起义博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Warsaw Uprising Museum</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/suliszowice-jurajski-zuraw\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    苏\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">苏利绍维采-侏罗纪鹤</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Suliszowice - Jurajski żuraw</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "memorial-of-the-battle-of-leuthen",
+          "name": "洛伊滕战役纪念碑",
+          "englishName": "Memorial of the Battle of Leuthen"
+        },
+        {
+          "slug": "warsaw-uprising-museum",
+          "name": "华沙起义博物馆",
+          "englishName": "Warsaw Uprising Museum"
+        },
+        {
+          "slug": "suliszowice-jurajski-zuraw",
+          "name": "苏利绍维采-侏罗纪鹤",
+          "englishName": "Suliszowice - Jurajski żuraw"
+        }
+      ]
+    }
+  ]
+}

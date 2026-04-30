@@ -1,0 +1,85 @@
+{
+  "slug": "upplands-museum-history",
+  "template": "history",
+  "metadata": {
+    "title": "乌普兰博物馆历史故事｜瑞典乌普萨拉的文化积淀与传奇人物",
+    "description": "走进乌普兰博物馆，探寻从维京祭祀到林奈标本的千年密码。乌普萨拉，这座大学城的前世今生，在北欧传奇与科学曙光之间永恒回响。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "瑞典",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "乌普萨拉",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "乌普兰博物馆",
+      "href": "/attractions/upplands-museum-history"
+    }
+  ],
+  "hero": {
+    "title": "乌普兰博物馆・Upplands Museum・瑞典・乌普萨拉",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">乌普兰博物馆是乌普萨拉的历史之眼，它收藏的每一件器物都在低语着从异教神坛到现代实验室的蜕变。抛开游玩攻略，走进这座博物馆的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">乌普兰博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Upplands Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Upplands Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">瑞典</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">乌普萨拉</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌普萨拉的根扎在比基督教更古老的土壤里。公元3世纪，这片土地就已崛起为 <strong>瑞典</strong> 的政治与宗教心脏。老乌普萨拉（Gamla Uppsala）是前基督教时期最重要的圣地，三座巨大的王室墓葬山冢至今仍在田野中沉默伫立。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说“Uppsala”一词来自古诺尔斯语的“Upp”和“Sal”，意为“高处的厅堂”。那是 <strong>北欧诸神</strong> 与人间国王共同宴饮的想象空间。直到 <strong>11世纪</strong>，基督教传入，老乌普萨拉的异教神庙被夷平，一座木制教堂取而代之。此后数百年，乌普萨拉逐渐转型为 <strong>瑞典大主教驻地</strong>，大教堂拔地而起，成为斯堪的纳维亚最大的哥特式建筑。城市的重心也从老乌普萨拉向南转移至今日所在。<strong>1477年</strong>，乌普萨拉大学成立——北欧最古老的高等学府之一，从此书卷气息与古老权力交织，铸就了这座城市独特的灵魂。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>16世纪宗教改革</strong> 是烙印在乌普萨拉最深的一道伤疤。<strong>古斯塔夫·瓦萨</strong> 国王在 <strong>1527年</strong> 推行路德宗，没收了教堂的财富，将乌普萨拉大教堂的圣物与宝藏尽数搬空。博物馆今天仍保存着宗教改革后幸存的中世纪祭坛画，那些金色的圣母像上隐约可见被刮去的痕迹——那是信仰撕裂的证词。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>老乌普萨拉的维京墓葬</strong> 则是另一个无法绕开的历史地标。那些巨大的土丘下，传说埋葬着 <strong>埃吉尔</strong>、<strong>奥丁</strong> 等神话中的英雄。19世纪的考古发掘证明，土丘内确实有火葬遗存和陪葬的武器。博物馆的维京展厅里，锈蚀的剑与马镫安静陈列，它们曾属于那些从北欧峡湾出发、劫掠欧洲海岸的战士。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>乌普萨拉大学</strong> 的崛起是第三道历史印记。从1477年至今，这所大学经历了两次关闭、一场大火，却始终是瑞典知识分子的摇篮。博物馆里有一间复原的18世纪学生宿舍：狭小、寒冷，桌上摊着拉丁文讲义——那是年轻学者们在烛光下与思想搏斗的时光。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>卡尔·林奈</strong> ——植物学之父，是乌普萨拉最骄傲的灵魂。他于 <strong>1741年</strong> 被任命为乌普萨拉大学医学教授，随后主持了 <strong>植物园</strong> 的重建。林奈的 <strong>《自然系统》</strong> 改变了人类对生物的分类方式。他经常带着学生在乌普兰的田野里采集标本，每发现一种新植物，就兴奋地用拉丁文命名。博物馆保存着他的手稿与亲手制作的植物标本，标签上是他那清晰而倔强的笔迹。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我看见了自然的秩序，就像上帝亲手写在叶脉上。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——林奈日记，1750年</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">林奈在乌普萨拉居住了三十年，他的家就在植物园旁。每天清晨，他都会沿着 <strong>菲里斯河</strong> 散步，思考分类学的细节。当他于 <strong>1778年</strong> 去世时，全城为他鸣钟。今天，你可以在博物馆里找到他的私人笔记本——里面不仅有植物素描，还有草药配方和学生的考试成绩，充满了人性的温度。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位与乌普萨拉密不可分的名人是 <strong>埃里克·古斯塔夫·盖耶尔</strong>（Erik Gustaf Geijer, 1783-1847）。他是历史学家、诗人、作曲家，也是乌普萨拉大学的铁杆教授。盖耶尔年轻时曾参加反对拿破仑的战争，后转向学术，撰写了 <strong>《瑞典人民史》</strong>。他在音乐上的成就同样辉煌，创作了许多民歌改编曲。博物馆的19世纪展厅里陈列着他的钢琴，琴键磨损严重，据说他常在深夜即兴弹奏，吸引邻居聚在窗外聆听。盖耶尔的一生挣扎于理性启蒙与浪漫主义之间，最终在乌普萨拉的宁静中找到了平衡。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说在 <strong>老乌普萨拉</strong> 的墓冢下，睡着三位金冠王：<strong>托尔</strong>、<strong>奥丁</strong> 和 <strong>弗雷</strong>。每年冬至之夜，他们会从土丘中走出，骑马巡视领地。如果看到有人在夜里劈柴，他们就会让木柴自动燃烧，作为祝福。如果看到有人迷路，他们会用手指点出回家的方向。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个故事关于 <strong>乌普萨拉大教堂</strong> 的尖塔。13世纪建造时，工匠们屡次在夜里停工后遭遇墙倒。一位老妇人告诉他们：必须用活物奠基。后来，工匠趁一名流浪汉在墙根熟睡时，将他砌入了地基。此后尖塔便再未倒塌。如今，教堂的墙壁上仍有一块特殊的石板，据说下面就是那个流浪汉的遗骨——夜晚偶尔能听到微弱的哭喊声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆的民俗展区里，有一件 <strong>“幸运靴”</strong>——据说在维京时代，新娘必须穿上一只由巨人脚跟皮制成的靴子，才能确保婚姻长久。那是乌普兰乡间延续数个世纪的婚俗，由老妇口头传承下来。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌普兰博物馆不是一个冰冷的玻璃柜集合，它是 <strong>乌普萨拉</strong> 千年脉搏的忠实记录者。从维京武士的剑，到林奈的标本；从宗教改革的圣像，到盖耶尔的钢琴——每一件展品都在诉说：这座城市的真正宝藏，是它从未中断的文化对话。在这里，你可以通过实物触摸瑞典从异教到启蒙的完整弧光，感受一个民族如何在历史的裂缝里反复重整自己的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/agard-forest-park-sport-recreation-center\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿加德森林公园运动休闲中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Agard Forest Park Sport and Recreation Center</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/granna\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格兰纳</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gränna</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/stockholm-city-hall-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯德哥尔摩市政厅</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Stockholm City Hall</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "agard-forest-park-sport-recreation-center",
+          "name": "阿加德森林公园运动休闲中心",
+          "englishName": "Agard Forest Park Sport and Recreation Center"
+        },
+        {
+          "slug": "granna",
+          "name": "格兰纳",
+          "englishName": "Gränna"
+        },
+        {
+          "slug": "stockholm-city-hall-history",
+          "name": "斯德哥尔摩市政厅",
+          "englishName": "Stockholm City Hall"
+        }
+      ]
+    }
+  ]
+}

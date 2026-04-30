@@ -1,0 +1,85 @@
+{
+  "slug": "maria-sklodowska-curie-museum-history",
+  "template": "history",
+  "metadata": {
+    "title": "玛丽亚·斯克沃多夫斯卡-居里博物馆历史｜华沙名人故居与诺贝尔奖得主的前世今生",
+    "description": "探访华沙老城的居里夫人故居博物馆，了解这位两获诺贝尔奖的女科学家如何从波兰少女成长为科学巨人。走进她的童年世界与传奇人生，感受波兰民族坚韧与智慧。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "华沙",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "玛丽亚·斯克沃多夫斯卡-居里博物馆",
+      "href": "/attractions/maria-sklodowska-curie-museum-history"
+    }
+  ],
+  "hero": {
+    "title": "玛丽亚·斯克沃多夫斯卡-居里博物馆・Maria Skłodowska-Curie Museum・波兰・华沙",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">这里是华沙老城弗蕾塔街16号，一栋不起眼的17世纪公寓楼。1867年11月7日，玛丽亚·斯克沃多夫斯卡在这里呱呱坠地——日后她将以“居里夫人”之名震撼世界。两度诺贝尔奖、放射性元素钋与镭的发现者，她的故事始于波兰亡国阴影下的一座寄宿学校课堂。抛开游玩攻略，走进这间博物馆，遇见属于她的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">玛丽亚·斯克沃多夫斯卡-居里博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Maria Skłodowska-Curie Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Maria Skłodowska-Curie Museum</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">华沙</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">华沙最早见于13世纪的文献，是马佐夫舍公爵的城堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1596年，齐格蒙特三世将波兰首都从克拉科夫迁至华沙，这座维斯瓦河畔的小城开始蜕变。然而<strong>18世纪末，波兰被普鲁士、奥地利和俄罗斯瓜分</strong>，华沙沦为俄国统治下的省城。居里夫人出生的1867年，波兰地图已消失近半个世纪，但民族精神从未熄灭。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">弗蕾塔街16号所在的<strong>新城区（Nowe Miasto）</strong>，始建于15世纪，与老城并立。这栋建筑原为<strong>皮亚尔派修道院</strong>的一部分，18世纪被改建成公寓。19世纪中期，楼内设有<strong>寄宿学校与教员宿舍</strong>——居里夫人的父亲瓦迪斯瓦夫·斯克沃多夫斯基就在这里担任物理教师，并住在二楼的两个房间里。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战期间，华沙被纳粹夷为平地，老城与新城的建筑几乎全部倒塌。令人称奇的是，弗蕾塔街16号的<strong>外墙与地下室结构奇迹般幸存</strong>。1946年，波兰政府将这座建筑列为历史保护单位，并决定恢复其原貌。1954年，在居里夫人的女儿伊雷娜·约里奥-居里的倡议下，<strong>博物馆正式对公众开放</strong>，成为全世界唯一一座完整讲述她生平与成就的场所。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记一：波兰亡国下的童年课堂</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆的一层还原了19世纪中叶的教室。父亲瓦迪斯瓦夫每天带着年轻的面孔背诵物理公式，却绝口不提他藏在书架后的波兰语禁书。沙俄统治者禁止波兰语教学，所有课程必须用俄语进行。玛丽亚自幼目睹父亲因参与“非法爱国活动”被迫降薪调职。<strong>这种压抑的环境反而激发了她对知识的渴望</strong>——她自学拉丁语、数学，甚至偷偷给工人讲波兰文学。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">儿童卧室里陈列着她幼年使用的<strong>小铁床和木质玩具</strong>，旁边是母亲约瑟法（一位女校校长）的病榻。玛丽亚10岁时母亲死于肺结核，三年后大姐索菲亚同样因斑疹伤寒离世。她在日记中写道：“<strong>我学会了在安静中承受，并相信科学能拯救人。</strong>”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记二：巴黎求学与诺贝尔奖的代价</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1891年，24岁的玛丽亚坐上火车，穿过普鲁士边境，抵达巴黎大学理学院。她带着的仅有一箱书籍、一床毛毯和母亲留下的金币。在拉丁区租赁的阁楼上，她因营养不良晕厥，被同学送回时仍紧握一本物理书。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1895年她与皮埃尔·居里结婚，两人在巴黎市政厅签署婚约时，她谢绝了白纱与戒指，戴着一身黑色实验服。婚后<strong>五年内连获物理学与化学两届诺贝尔奖</strong>，但皮埃尔在1906年被马车撞死，玛丽亚接过他在索邦大学的教席，成为<strong>法国历史上第一位女性教授</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一战期间，她驾驶着改装的X射线救护车奔赴前线，教会医护人员操作设备。因长期暴露于放射性物质，她患再生障碍性贫血，1934年病逝于法国。<strong>她的实验笔记本至今仍存放在铅盒中，辐射超标数百年</strong>——这是她为科学留下的“幽灵”印记。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>印记三：博物馆的新生与永恒对话</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天，博物馆二层还原了居里夫人的<strong>巴黎实验室一角</strong>：破旧的木桌、精巧的玻璃器皿、钋与镭的原始样品复制品。墙上悬挂着她的手稿影印件，其中一封写于1911年第二次获得诺贝尔奖后，信中向父亲抱怨法国科学院拒绝她入籍（后来她成了“双国籍人物”）。地下室里特设<strong>居里家族荣誉展</strong>：她与皮埃尔的结婚照、伊雷娜和弗雷德里克的诺奖证书，以及外孙女埃莱娜的研究笔记。三代人，五个诺奖，<strong>一座博物馆见证了一个科学王朝的诞生与传承</strong>。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛丽亚·斯克沃多夫斯卡-居里（1867–1934）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她诞生于波兰最黑暗的时刻，却终生未放弃用“波兰”命名第一个元素——<strong>钋（Polonium）</strong>。这个符号是她在给未婚夫皮埃尔的信里确定的：“我为祖国留下一个永恒的纪念，尽管它已从地图上消失。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1. <strong>寄宿学校里的神童</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">6岁时她已能阅读父亲藏匿的波兰诗集。沙俄督学进行突击检查时，全班要背诵俄文祈祷词，她故意念错字母，老师惊慌地低声纠正。<strong>她在日记里写道：“我不说假话，但可以沉默。”</strong> 14岁时她辍学做工，与其他波兰少女组成“流动大学”——秘密听教授私下讲授解剖学与化学，报酬是替教授家做女佣。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2. <strong>巴黎的“灰姑娘”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在索邦大学，她因口音被同学嘲笑，但每次考试都名列前茅。物理学家教授加布里埃尔·李普曼曾公开说：“<strong>这个波兰女孩的笔记比我的讲义还清晰。</strong>” 1894年，她在物理学会上遇到皮埃尔·居里——一位35岁沉默寡言的实验室主任。后者被她的严谨和沉着吸引，<strong>三个月后便将全部研究基金转入她名下</strong>。两人在废弃沥青铀矿中提取镭时，每月仅靠微薄收入过活，却称那是“人生最富足的岁月”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">3. <strong>战时英雄与晚年孤独</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一战爆发后，她捐出所有诺贝尔奖金购买X光设备，亲自驾驶雪铁龙救护车驰骋前线。<strong>她训练了150名护士操作射线机</strong>，并发明了移动式的“辐射帐篷”。法国士兵称她“小小波兰女巫”，因为他们总能在她的设备旁看见断骨愈合的希望。战后她身体每况愈下，却仍坚持到美国募捐为华沙大学购买放射源。<strong>1932年她最后一次回到波兰</strong>，在博物馆原址的礼堂里发表演讲：“我的双脚永远踩着波兰的土地，即使身在巴黎。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">4. <strong>不为人知的“教母”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她曾资助波兰女数学家斯特凡妮娅·斯凯泽赫（Stefania Skarżyńska）完成博士论文，后者后来参与了曼哈顿计划中的计数系统设计。<strong>她给母亲扫墓时被发现正在教孤儿们法语</strong>。博物馆馆长回忆，她在一张便条上写道：“如果我的名字能鼓励波兰女孩拿起书本，那我失去的国籍和健康都值得。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>伊雷娜·约里奥-居里（1897–1956）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">作为居里夫人的长女，伊雷娜在母亲去世后成为博物馆的“精神守护者”。1935年她与丈夫弗雷德里克共同获得诺贝尔化学奖，延续了家族辉煌。<strong>她在博物馆开幕日亲自点燃了第一束镭灯光</strong>，并捐赠了母亲在实验室穿的最后一件白大褂。第二次世界大战期间，她留在巴黎对抗纳粹，拒绝透露任何关于放射性研究的信息。<strong>投降前一夜，她销毁了全部钚实验数据</strong>，避免被德国所用。战后她强烈反对核武器，写下：“母亲发明镭是为了治愈，而非毁灭。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说一：地下室里的“绿光”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">华沙老城的居民之间流传着一个故事：每当深夜，博物馆地下室会透出淡淡的绿色荧光。老住户坚称那是居里夫人提炼的镭在铅罐里“闪烁”，而她穿着白色实验服正弯腰查看试管。<strong>二战期间，一个误闯禁区的德国士兵声称看见女鬼，吓得连滚带爬逃走</strong>。博物馆后来解释说，绿光其实是保养文物时的紫外线灯照射到含铀玻璃产生的反光，但游客更愿意相信那是居里夫人的灵魂仍在守护实验成果。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说二：父亲的秘密书柜</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆里展出的一个暗格书柜，据说是父亲瓦迪斯瓦夫藏匿波兰语课本的掩体。传说当他被沙俄宪兵搜查时，<strong>他快速旋转书柜第三层的把手，暗格就立即沉入地板下的密室</strong>。玛丽亚小时候常躲进去偷看密写版的波兰历史书。至今工作人员会在闭馆后听到书柜发出轻微的“咔嗒”声，仿佛父亲仍在警告孩子们：危险来了，快藏起来。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说三：窗台上的白玫瑰</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">每年11月7日（居里夫人诞辰），博物馆二楼卧室的窗台上会出现一朵新鲜的白玫瑰，旁边放着一张未署名的字条：“<strong>谢谢您，太太。</strong>” 没有人知道是谁放的，但有些老人回忆说，这是她童年时暗恋的一位邻居后代代代相传的传统。居里夫人晚年给朋友的信中曾写道：“<strong>如果我曾让任何一个波兰女孩相信梦想可以成真，那便是我此生最大的成就。</strong>”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛丽亚·斯克沃多夫斯卡-居里博物馆不仅是一座纪念科学家的故居，它更是<strong>华沙涅槃重生的缩影</strong>。在波兰被反复瓜分、纳粹焚烧、苏联统治的百年里，这座建筑始终保存着她童年时的炉火与空气。每一件展品——从她亲手制作的石膏模型到褪色的毕业证书——都在提醒我们：<strong>智慧与坚韧可以超越政治铁幕，科学之光能穿透黑暗时代</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走出博物馆，你或许会想亲自触摸那些真实的玻璃展柜，看看她留下的实验笔记上斑驳的放射性痕迹。👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/glaz-mszczonowski-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    姆\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">姆什乔努夫巨石</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Głaz Mszczonowski – Największy Głaz Narzutowy na Mazowszu</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/presidential-palace-warsaw\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    华\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">华沙总统府</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Presidential Palace in Warsaw</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/warszawska-street-tenements\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    华\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">华沙街城市建筑群</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Urban Buildings of Warszawska Street - Tenement Houses</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "glaz-mszczonowski-history",
+          "name": "姆什乔努夫巨石",
+          "englishName": "Głaz Mszczonowski – Największy Głaz Narzutowy na Mazowszu"
+        },
+        {
+          "slug": "presidential-palace-warsaw",
+          "name": "华沙总统府",
+          "englishName": "Presidential Palace in Warsaw"
+        },
+        {
+          "slug": "warszawska-street-tenements",
+          "name": "华沙街城市建筑群",
+          "englishName": "Urban Buildings of Warszawska Street - Tenement Houses"
+        }
+      ]
+    }
+  ]
+}

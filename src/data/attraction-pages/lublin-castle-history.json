@@ -1,0 +1,85 @@
+{
+  "slug": "lublin-castle-history",
+  "template": "history",
+  "metadata": {
+    "title": "卢布林城堡历史溯源｜波兰皇室、卢布林联合与千年古堡的前世今生",
+    "description": "波兰卢布林城堡，一座见证波兰立陶宛联邦诞生的皇家城堡，也曾是纳粹监狱。走进它的中殿、塔楼与地下牢笼，听城墙诉说齐格蒙特二世的野心与二战的血泪。抛开攻略，触摸波兰的千年脉搏。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卢布林",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卢布林城堡",
+      "href": "/attractions/lublin-castle-history"
+    }
+  ],
+  "hero": {
+    "title": "卢布林城堡・Lublin Castle・波兰・卢布林",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">波兰东部的卢布林古城，坐落着一座饱经风霜的城堡——卢布林城堡。它见证了波兰王国最辉煌的联合时刻，也承载了二战最黑暗的牢狱记忆。这里不是克拉科夫的瓦维尔，却同样拥有皇室的血统与民族的悲歌。抛开游玩攻略，走进卢布林的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">卢布林城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Lublin Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Lublin Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卢布林</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卢布林的历史比城堡更古老。<strong>公元6世纪</strong>，斯拉夫部落在此建起一座防御性的木制堡垒。 <strong>10世纪</strong>，波兰王国建立后，这里成为重要的行政和贸易中心。城市的名字“Lublin”可能源自斯拉夫语“lub”（爱）或古波兰语“lubić”（喜欢），暗示这里曾是人们喜爱定居的富饶之地。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的转折发生在 <strong>12世纪</strong>。当时的波兰公爵卡齐米日二世决定在卢布林山丘上建造一座石砌城堡，取代老旧的木结构要塞。城堡最初是座罗马式的小型宫殿，用于保护通往基辅的贸易路线。 <strong>13世纪</strong>，蒙古入侵摧毁了城堡，但很快被重建。到了 <strong>14世纪</strong>，卡齐米日大帝（Kazimierz Wielki）将其扩建为哥特式城堡，成为皇家驻地。这座城堡不仅是军事防御的堡垒，更是权力与信仰的中心——城堡内修建了圣三一礼拜堂，内部布满拜占庭风格的壁画，至今仍是欧洲罕见的艺术瑰宝。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>卢布林联合：改变东欧版图的时刻</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1569年</strong>，是卢布林城堡最灿烂的年份。波兰国王齐格蒙特二世·奥古斯特（Zygmunt II August）在这座城堡的大厅里，与立陶宛大公国的代表们一起签署了《卢布林联合》。这标志着波兰立陶宛联邦的正式成立，一个东欧超级大国就此诞生。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据记载，签署当日礼堂内争吵激烈。立陶宛贵族不愿放弃自治权，波兰国王愤怒地摔碎了签字用的羽毛笔，威胁如果不通过，他将亲自率军讨伐。最终，联合得以成立。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡的<strong>议会厅</strong>（现为博物馆的一部分）至今保留着当年的装饰。墙上悬挂着国王的画像，彩色的纹章诉说着联邦的辉煌。联邦延续了200多年，一度从波罗的海延伸至黑海，成为欧洲面积最大、人口众多的王国之一。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>从监狱到集中营：城堡的黑暗岁月</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1831年</strong>波兰十一月起义失败后，俄罗斯帝国将城堡改建为监狱。它关押过无数民族主义者和政治犯。最黑暗的时刻是 <strong>1940年</strong>，纳粹德国占领波兰后，城堡变成了集中营。<strong>1940年至1944年</strong>，超过4万人被囚禁于此，其中约2万犹太人被送往灭绝营或当场处决。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡内至今保留着牢房、刑讯室和处决墙。在监狱主楼的墙面上，还能看到囚犯们刻下的十字架和日期。<strong>1944年</strong>卢布林解放后，城堡曾短期作为苏联秘密警察的监禁中心。如今，城堡的博物馆里陈列着当年囚犯的遗物、照片和纳粹的档案，肃穆而沉重。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣三一礼拜堂：拜占庭与哥特的交融</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡内保存最完好的古迹是 <strong>圣三一礼拜堂</strong>，建于 <strong>14世纪</strong>卡齐米日大帝时期。它的特别之处在于：哥特式的建筑骨架，内部却覆盖着 <strong>1418年</strong>完成的拜占庭风格的壁画。这些壁画由卢布林东正教修士创作，融合了东西方两股基督教艺术传统。中世纪的红、蓝、金色彩依然鲜艳，描绘了圣母子、天使和使徒。二战期间，纳粹曾打算炸毁礼拜堂，但因壁画的历史价值而作罢。今天，它被联合国教科文组织列为波兰最珍贵的彩色壁画之一。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>齐格蒙特二世·奥古斯特：联合之父</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>齐格蒙特二世·奥古斯特</strong>（1520-1572）是雅盖隆王朝的最后一位男性继承人，也是波兰立陶宛联邦的缔造者。他与卢布林城堡的羁绊非常深厚：正是在这里，他用政治手腕和铁腕威胁，促成了立陶宛大公国与波兰王国的实质性合并。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">齐格蒙特二世性格复杂：他热爱艺术、珠宝和书籍，收藏了欧洲最大的挂毯系列之一（现藏于瓦维尔），也沉迷于炼金术和占星。他一生没有子嗣，因此通过联合来巩固自己的王朝遗产。传说他在卢布林城堡的密室中秘密会见过炼金术士，试图制造长生不老药。虽然他的统治结束了雅盖隆王朝，却开启了联邦时代，让波兰-立陶宛成为欧洲最重要的力量。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在城堡里，你可以看到他的肖像：身着文艺复兴时期盔甲，手握权杖，眼神中既有王者的权威，也有末代君主的落寞。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>马尔钦·克雷托维奇：联邦的编年史家</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一个更小众的名字：<strong>马尔钦·克雷托维奇</strong>（Marcin Kromer，约1512-1589），波兰历史学家、外交家，曾作为皇家秘书参与了卢布林联合的谈判。他是普鲁士采邑区的第一位正式主教，一生致力于记录波兰国家的历史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克雷托维奇是卢布林城堡的常客：1569年议会期间，他作为国王的书记官，见证了大厅内的每一场争论。他在自己的编年史《波兰国家记》中详细描述了联合签署前后的细节，成为后世了解这场峰会最重要的史料。书中写道：“立陶宛贵族们争吵得面红耳赤，国王在楼上踱步，直至深夜。仆人们送来的葡萄酒和面包被搁置一旁。这是一个国家的诞生，也是文明的阵痛。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天，城堡博物馆的一间展厅专门陈列了他的手稿复制品和早期印刷版。在他的文献中，我们看到了比官方记载更真实、更人性化的历史。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>扬·科哈诺夫斯基：文艺复兴诗人与卢布林的灵感</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">波兰文艺复兴最伟大的诗人，<strong>扬·科哈诺夫斯基</strong>（Jan Kochanowski，1530-1584），虽非卢布林人，却多次造访城堡。他曾在卢布林附近的兹沃尔希纳（Zwolen）担任神职，并在他的诗作中数次提到这座山丘上的城堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位诗人以法语“哀歌”闻名，他在女儿去世后写下的《挽歌》是波兰文学的巅峰。他曾在卢布林城堡的庭院里诵读自己的作品，诗稿在当地贵族间传抄。他的一个著名轶事是：有一次他在城堡的餐厅里与主教争吵关于饮酒的礼仪，最后竟用拉丁文即兴写了一首讽刺诗，让全场哄笑。今天，城堡里的咖啡馆墙上印着一句他的诗句：“人若没有故土，便如城堡没有基石。”这句诗成为卢布林人的格言。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地下通道里的幽灵骑士</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卢布林城堡的地牢和隧道系统据说绵延数公里，通往老城区的各个角落。民间传说中，一位 <strong>17世纪的瑞典军官</strong> 的幽灵常在午夜时分骑马穿行于地下通道。这名军官名叫埃里克·冯·哈根，在瑞典入侵波兰时死于城堡的牢房。他的马匹也被斩首，因此他无法投胎，只能在黑暗中策马狂奔。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">当地老人说，如果你把耳朵贴在城堡东墙的基石上，有时会听到马蹄的嗒嗒声，还有金属碰撞的叹息。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“哭泣的墙壁”的传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡北翼的一面石墙，据说在 <strong>1943年</strong> 的一个夜晚，整面墙发出了女性的哭泣声。那是纳粹处决犹太囚犯的高峰期。看守们以为是幻听，但连续三天都有同样的声音。后来发现，一位名叫汉娜·古德曼的女囚在死前将一枚戒指塞进了石缝，那戒指是她母亲的遗物。人们相信，是母亲的灵魂因为无法救女儿而哭泣。如今，那面墙被叫做“哭泣的墙壁”，石缝里至今有人塞鲜花和石头，以纪念死难者。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣三一礼拜堂的“神秘彩蛋”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">礼拜堂的壁画中隐藏着一处不为人知的细节：在最上方的天使群像里，有一位天使的眼睛被画成淡蓝色，而其余皆是深棕色。传说这是 <strong>15世纪的</strong> 画师德米特里故意为之，因为他是唯一用深蓝色青金石调色的画家，但他恋慕一位卢布林城女子，女子是蓝眼睛，于是他把颜料用在了天使身上。后来这位画家因高额颜料破产，却在临终前对弟子说：“天使的眼睛就是她的眼睛。”这幅壁画至今仍让来访者驻足寻找。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卢布林城堡不是一座静止的博物馆。它是一本用石头、壁画和牢房铁链写成的东欧历史书。从卡齐米日大帝的哥特堡垒，到齐格蒙特二世缔造联邦的议会厅，再到纳粹暴行的无声证人，每一层地基都沉淀着不同时代的文明与野蛮。读懂它，你便理解了波兰“从辉煌到破碎，再从废墟中重生”的民族精神。这座小众城堡的魅力不在于华丽，而在于真实：它从不掩饰自己的伤疤，也从不遗忘自己的荣耀。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/carmelite-church-warsaw\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    华\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">华沙加尔默罗教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Carmelite Church, Warsaw</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/jan-kazimierz-oak-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    扬\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">扬·卡齐米日橡树</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dąb Jan Kazimierz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/staszic-palace\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯塔西奇宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Staszic Palace</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "carmelite-church-warsaw",
+          "name": "华沙加尔默罗教堂",
+          "englishName": "Carmelite Church, Warsaw"
+        },
+        {
+          "slug": "jan-kazimierz-oak-history",
+          "name": "扬·卡齐米日橡树",
+          "englishName": "Dąb Jan Kazimierz"
+        },
+        {
+          "slug": "staszic-palace",
+          "name": "斯塔西奇宫",
+          "englishName": "Staszic Palace"
+        }
+      ]
+    }
+  ]
+}

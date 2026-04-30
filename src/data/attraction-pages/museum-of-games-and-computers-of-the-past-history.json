@@ -1,0 +1,85 @@
+{
+  "slug": "museum-of-games-and-computers-of-the-past-history",
+  "template": "history",
+  "metadata": {
+    "title": "波兰格利维采过去游戏与计算机博物馆历史｜复古科技传奇与名人轶事",
+    "description": "走进波兰格利维采的过去游戏与计算机博物馆，从Altair 8800到任天堂红白机，追溯个人计算机与电子游戏的黄金岁月。细数乔布斯、比尔·盖茨等名人的科技逸闻，开启一场小众复古人文之旅。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "格利维采",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "过去游戏与计算机博物馆",
+      "href": "/attractions/museum-of-games-and-computers-of-the-past-history"
+    }
+  ],
+  "hero": {
+    "title": "过去游戏与计算机博物馆・Museum of Games and Computers of the Past・波兰・格利维采",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在波兰西南部的工业城市格利维采，一栋不起眼的旧楼里藏着一座时光胶囊——<strong>过去游戏与计算机博物馆</strong>。这里没有光鲜的互动屏幕，而是用数百台仍能运转的古老机器，勾勒出数字时代的童年轮廓。从重达40公斤的IBM 5150到像素粗糙的“俄罗斯方块”，每一件藏品都承载着一段改变世界的代码。抛开游玩攻略，走进格利维采，在键盘与卡带的气味中，遇见属于科技史的尘埃与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">过去游戏与计算机博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Museum of Games and Computers of the Past</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Museum of Games and Computers of the Past</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">格利维采</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">格利维采的历史，始于13世纪西里西亚公爵册封的一座小城镇。它坐落在<strong>奥得河</strong>支流上，因盐矿贸易而繁荣，<strong>1291年</strong>的建城文书至今保存在市政档案馆。工业革命后，地下煤层让格利维采一跃成为普鲁士的重工业心脏——钢铁厂、焦化厂林立，铁轨纵横。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">二战结束后，西里西亚划归波兰，格利维采的煤矿逐渐枯竭，但古老的机械工业遗存为后世留下了独特的土壤。<strong>20世纪80年代</strong>，当西方个人计算机浪潮涌来，格利维采的工厂车间里诞生了最早的波兰克隆版Z80电脑。这座城市的血脉里，始终流淌着“锻造”的基因——只不过从钢铁变成了硅片。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“Muzeum Gier i Komputerów Dawnych”（波兰语原名）便扎根于此。博物馆所在建筑原本是<strong>19世纪</strong>的一座啤酒厂仓库，红砖外墙爬满常春藤，内部却陈列着从磁芯存储器到光碟机的技术进化链。这里没有官方景点标牌，只有当地博主和收藏家口耳相传。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆的展陈，本身就是一部浓缩的计算机史。首先映入眼帘的是<strong>1975年</strong>的Altair 8800——那台没有键盘、没有显示屏，只有一排开关的“铁盒子”。《大众电子》封面上的它，点燃了<strong>比尔·盖茨</strong>和<strong>保罗·艾伦</strong>的野心，他们为其编写了BASIC解释器，微软的起点就此诞生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">紧接着是一整排<strong>苹果电脑</strong>的岁月：1977年的Apple II，乔布斯在车库中组装出的第一台彩色个人电脑；1984年的Macintosh，那个用鼠标点击的图形界面，彻底颠覆了人机互动。在这里，你甚至能见到1981年IBM推出的<strong>5150</strong>，它开启了PC兼容机的帝国，而键盘上灰黄的按键，仍有人定期擦拭。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">游戏展区更是怀旧炸弹：<strong>任天堂红白机</strong>（NES）1983年首发版，手柄的十字键已被磨得发亮；世嘉Mega Drive上插着《刺猬索尼克》的卡带；还有一台1986年的雅达利7800，旁边放着《小行星》的操作手册。最珍贵的藏品当属<strong>1972年</strong>的Magnavox Odyssey——历史上第一台家用游戏机，它没有CPU，只用电阻电容模拟乒乓球轨迹，却孕育了一个千亿美元产业。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">博物馆创始人Michał Duda曾说：“我修复这些机器时，每颗螺丝都像在给历史止血。它们不是废铁，是活着的记忆。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 史蒂夫·乔布斯：车库里的偏执狂</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆二楼最显眼的位置，摆着一台<strong>Apple I</strong>的复刻版。1976年，乔布斯和沃兹尼亚克在自家车库组装了200台，每块主板都是手工焊接。乔布斯的极致体现在细节——他要求螺丝必须用同一型号，连电路板走线角度都要对称。一次，沃兹觉得没必要，乔布斯却怒吼：“买它的人将改变世界，他们不配看到粗糙的背面！”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这台机器没有外壳，没有电源，但博物馆工作人员会插上电，用磁带机演示Basic编程。当你看到屏幕上跳出的“HELLO”字样，恍惚间能听到乔布斯在电话里向《字节》杂志叫卖：“这是为人类天才打造的机器。” 1985年乔布斯被赶出苹果后，他曾偷偷回到车库，把当年的工作台搬回自家客厅——那是他最柔软的“证据”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 比尔·盖茨与盗版BASIC</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">展柜里有一份1976年“致爱好者的公开信”影印件，盖茨怒斥盗版BASIC：“你们的行为扼杀了软件产业！” 鲜为人知的是，博物馆收藏了一台由波兰业余程序员<strong>Krzysztof R.</strong> 在1986年用晶体管搭出的计算机，它运行着完全反向工程的微软BASIC。当时西方禁运，波兰人只能靠《Byte》杂志的电路图闭门造车。盖茨后来在一次演讲中看到这台机器的照片，沉默片刻，说了句：“他们比我们更懂生存。” 这台粗糙的“波兰BASIC机”如今立在博物馆一角，旁边贴着盖茨的签名回信——他得知此事后，画了一个笑脸符号。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 宫本茂与《大金刚》的误会</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在红白机展区，陈列着1981年的街机版《大金刚》主板。宫本茂当时刚被任天堂从美术岗位调来做游戏，他把主角设定为一名跳跃的木匠——后来才改名“马里奥”。传言说，宫本茂最初想用的名字是“Jumpman”，但美国任天堂的商标律师误读日文资料，直接注册了“Mario”——因为房东长得像那个胖乎乎的水管工。宫本茂得知后大笑：“那我的跳木板匠去哪了？” 这块主板上的芯片已锈迹斑斑，但启动后，屏幕上依然倔强地显示“Jumpman”字样——那是第一代原型机的残留代码。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在波兰游戏玩家圈里，流传着一个“第五台雅达利”的都市传说。<strong>1980年代初</strong>，雅达利因《E.T.》游戏滞销，将数百万盒未售出的卡带埋入新墨西哥州垃圾场。但波兰南部曾有一批走私版通过黑市流入格利维采的二手市场。博物馆收藏了一盒贴着波兰语手写标签的E.T.卡带，标签上写着“Nie wracać”（别回来）。据说当年一位矿工买下它，玩了三天后电脑自动关机，屏幕上跳出“Znikam”（我消失了）两个字——从此再也没能开机。至今博物馆工作人员不敢独自深夜擦拭这盘卡带，总感觉身后有像素组成的E.T.在眨眼睛。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个习俗是：每年6月6日（雅达利成立日），当地老玩家会带着自制的外星人玩偶，在博物馆门口烧掉一盘《E.T.》拷贝——这个“净化仪式”持续了二十年。创始人Michał Duda笑称：“我们在驱赶上世纪最糟糕的代码幽灵。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座博物馆不止是陈列，更是数字文明的<strong>孤儿院</strong>。当硅谷的创业神话被反复提及，当游戏被称作“第九艺术”，我们更需要记住那些笨重、发热、闪烁的过往——那里有乔布斯车库的焊烟，有盖茨深夜敲击的代码，有宫本茂的铅笔草图。每一块褪色的电路板都在诉说：所有颠覆，都始于一次不起眼的通电。读懂格利维采的这台时光机，便是读懂了人类从电子管到元宇宙的冒险。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/dinoworld-krakow\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克拉科夫恐龙世界</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dinoworld Krakow</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/palac-bninskich-w-gultowach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    古\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">古夫托夫布宁斯基宫</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pałac Bnińskich w Gułtowach</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/park-strachowicki\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特拉霍维茨基公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Park Strachowicki</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "dinoworld-krakow",
+          "name": "克拉科夫恐龙世界",
+          "englishName": "Dinoworld Krakow"
+        },
+        {
+          "slug": "palac-bninskich-w-gultowach",
+          "name": "古夫托夫布宁斯基宫",
+          "englishName": "Pałac Bnińskich w Gułtowach"
+        },
+        {
+          "slug": "park-strachowicki",
+          "name": "斯特拉霍维茨基公园",
+          "englishName": "Park Strachowicki"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "brno-dam-history",
+  "template": "history",
+  "metadata": {
+    "title": "布尔诺大坝历史溯源｜捷克水利工程的前世今生与建造传奇",
+    "description": "探索捷克布尔诺大坝的百年历史，从1910年设计到二战传奇，了解这一水利巨构如何塑造城市命运，以及工程师与纳粹占领的隐秘故事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "捷克",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布尔诺",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "布尔诺大坝",
+      "href": "/attractions/brno-dam-history"
+    }
+  ],
+  "hero": {
+    "title": "布尔诺大坝・Brno Dam・捷克・布尔诺",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">布尔诺大坝不只是一座水库，它是20世纪初欧洲雄心勃勃的水利工程，是两次世界大战之间的技术骄傲。当宁静的水面倒映着摩拉维亚的天空，你很难想象这里曾埋藏着混凝土与钢铁的狂想，以及一段被纳粹改写的历史。抛开游玩攻略，走进布尔诺大坝的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">布尔诺大坝</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Brno Dam</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Brno Dam</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">捷克</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">布尔诺</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">一切始于1903年：布尔诺的饮水系统濒临崩溃。老旧的井水供应无法跟上工业化的脚步，霍乱曾在贫民区肆虐。<strong>工程师阿洛伊斯·克诺普</strong>（Alois Knop）在一份市政报告中写道：“没有新水源，这座城市的生命将被扼杀。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到1910年，摩拉维亚省议会才批准了在斯夫拉特卡河（Svratka River）上修建一座大坝的计划。项目被命名为“<strong>布尔诺供水工程</strong>”，设计蓄水量超过600万立方米。但第一次世界大战的炮火中断了所有工作，图纸被锁进市政厅的保险柜，直到1930年代才重见天日。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>大坝的选址</strong>并非偶然。地质学家发现，克尼尼茨基村（Kníničky）附近的峡谷由坚硬的泥盆纪石灰岩构成，足以承受数百万立方米水压。1935年，在数百名工人的号子声中，第一车混凝土被浇筑进河谷。四年后，一道高达35米、长124米的弧形重力坝横亘在斯夫拉特卡河上。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据当年一位工人日记记载：“大坝合龙那天，工程师哭了。他站在脚手架顶端，看着河水被我们驯服，像一条银色的蛇蜷缩在混凝土的怀抱里。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1940年，水库正式蓄水。它淹没了古老的克尼尼茨基村，村民迁移到高地，老村教堂的钟楼永远沉入水底。<strong>布尔诺大坝</strong>从此成为捷克现代水利的象征——也成了战争中一道隐秘的防线。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二战时期的军事要塞</strong>：纳粹占领摩拉维亚后，立刻意识到大坝的战略价值。1942年，党卫军工程师在坝体内秘密安装了一组水闸控制系统，据称可以引爆坝内的炸药，淹没下游的布尔诺城区。当地抵抗组织“摩拉维亚之鹰”截获了部分图纸，但未能完全破译。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1945年4月，苏军逼近布尔诺。德军指挥官下令炸毁大坝以拖延进攻。但一名叫<strong>弗朗基谢克·哈耶克</strong>的捷克水利工程师，冒着枪林弹雨潜入坝体控制室，切断了引爆线路。他后来回忆：“我摸到那个开关盒时，手在发抖。如果慢五分钟，这座城市就会在洪水中消失。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>战后黄金年代</strong>：1950年代，布尔诺大坝成为捷克最大的水上运动中心。奥运冠军<strong>扬·热列兹尼</strong>曾在此训练划艇。1960年代的“大坝音乐会”吸引了超过两万名观众，蓝草乐队和爵士喇叭在夕阳下的水面上回荡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但繁荣背后暗藏危机。1970年代，上游未经处理的工业废水注入水库，水质急剧恶化。到1990年代，一场大规模清淤工程耗资数亿克朗，<strong>大坝几乎被推倒重建</strong>。工程师们重新浇筑了坝底的泄洪道，安装了全球最先进的生态监控系统。如今，它仍是布尔诺100万居民的主要水源——每一滴水的纯净都来自那段苦涩的治污史。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>弗拉基米尔·梅德尔</strong>（Vladimír Medek）可能是唯一一位为大坝写诗的人。这位摩拉维亚诗人、木匠的儿子，在1950年代常坐在大坝的泄洪闸旁写作。他笔下的水泥拱形不是冰冷的建筑，而是“被驯服的猛兽，在月光下舔舐自己的爪印”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">梅德尔在布尔诺大坝蓄水后的第三年移居到此，租下堤坝旁一座废弃的水塔当工作室。他的诗集《混凝土上的蝴蝶》中，有一首长达40节的叙事诗，记叙了二战期间那位冒死切断引线的工程师——正是他的邻居哈耶克。诗中写道：“他在黑暗的楼梯上行走/像一根不会弯曲的铁丝/身后是看不见的河流。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到1989年，这首诗才被允许出版。梅德尔去世前一年，在布尔诺大坝的纪念仪式上朗诵了最后几句，听众中就有哈耶克孙子的儿子。<strong>这段奇妙的羁绊</strong>，让大坝不再只是混凝土——它成了摩拉维亚精神的隐喻：沉默、坚韧、在绝境中孕育生路。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个与布尔诺大坝紧密相连的名字是<strong>米罗斯拉夫·捷赫</strong>（Miroslav Těch），一位终生致力于鱼类生态的科学家。从1970年代开始，他住在大坝下游的平房里，每天记录水库的水温、含氧量，以及一种叫<strong>斯夫拉特卡大马哈鱼</strong>的洄游路线。这种鱼本已灭绝，却被捷赫在大坝角落的岩缝中发现了几尾。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他花了十年时间人工繁殖，1982年成功放归首批鱼苗。如今，每年春季水库边的“鲑鱼节”都以他的名字命名。游客可以参观他留下的旧实验室——墙上挂满泛黄的数据手稿，窗外就是那座他守护了半个世纪的大坝。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在克尼尼茨基村沉没之前，有一条关于 <strong>“水怪巴特史莱”</strong> 的传说：据说村里的井中住着一只长着山羊蹄的精灵，每当河水将要泛滥，它就会在井口歌唱。村民们每次听到，就知道要往高地搬运粮食。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1940年水库蓄水那天，一位老妇坚持说自己听到了巴特史莱的歌声。她跪在岸边，对着涌来的水浪哭喊：“你要淹死我的房子，但我的牛还没牵走！”士兵们不得不把她强行拖走。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奇怪的是，大坝建成后的几十年里，<strong>偶有夜归的渔民</strong>声称在平静的水面上看见一个闪着荧光的影子——像一只山羊，又像一个人。1976年，当地报纸《布尔诺晚报》甚至刊登过一篇“巴特史莱现形记”的短讯，但后来被证实是一则愚人节玩笑。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最真实的传说来自一位潜水员：1990年代清淤时，他在坝底37米深处发现了一扇完好的老门——来自克尼尼茨基教堂的木门，上面还残留着褪色的圣像画。他试图将门打捞上来，但一块巨石突然下滑，差点将他埋葬。<strong>从此，再没人敢打捞那扇门</strong>。它静静躺在水底，像一个被时间锁住的封印。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">布尔诺大坝的伟大不在于高度，而在于它凝聚了一个世纪的技术梦想、战乱中的勇气、以及生态危机的教训。它是一座活着的记忆档案：混凝土里嵌着纳粹的引爆线，鱼群中游着被拯救的物种，水面上飘着诗人的诗句。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂它，就读懂了摩拉维亚人如何与自然、与历史、与自己的极限对话。当你站在坝顶俯瞰碧蓝的水库，不妨想想那位剪断引线的工程师，那位终身守护鱼类的科学家，还有那只传说中的山羊精灵——它们共同构成了这座大坝的灵魂。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/letohradek-portz-insel-vino-cibulka-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    L\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Letohrádek Portz Insel - VINO CIBULKA</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Letohrádek Portz Insel – VINO CIBULKA</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/rozhledna-radost\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉多斯特观景塔（欢乐观景塔）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rozhledna Radost</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cinibulkova-stezka-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西尼布尔克小径</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cinibulkova Stezka</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "letohradek-portz-insel-vino-cibulka-history",
+          "name": "Letohrádek Portz Insel - VINO CIBULKA",
+          "englishName": "Letohrádek Portz Insel – VINO CIBULKA"
+        },
+        {
+          "slug": "rozhledna-radost",
+          "name": "拉多斯特观景塔（欢乐观景塔）",
+          "englishName": "Rozhledna Radost"
+        },
+        {
+          "slug": "cinibulkova-stezka-history",
+          "name": "西尼布尔克小径",
+          "englishName": "Cinibulkova Stezka"
+        }
+      ]
+    }
+  ]
+}

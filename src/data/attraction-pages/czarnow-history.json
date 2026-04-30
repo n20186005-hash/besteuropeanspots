@@ -1,0 +1,85 @@
+{
+  "slug": "czarnow-history",
+  "template": "history",
+  "metadata": {
+    "title": "恰尔努夫历史溯源｜波兰下西里西亚秘境的中世纪城堡与黑骑士传奇",
+    "description": "探访波兰下西里西亚的隐秘村庄恰尔努夫，14世纪骑士城堡遗址、黑骑士的神秘传说与地牢中的骷髅，一段被胡斯战争与三十年战争湮没的中世纪往事。抛开攻略，只讲历史与传奇。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "下西里西亚省（克沃兹科县）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "恰尔努夫",
+      "href": "/attractions/czarnow-history"
+    }
+  ],
+  "hero": {
+    "title": "恰尔努夫・Czarnów・波兰・下西里西亚省（克沃兹科县）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在波兰与捷克边境的苏台德山脉褶皱里，藏着一个连多数波兰人都叫不出名字的村庄——恰尔努夫。它的名字源自波兰语“czarny”，意为“黑色的”。这里没有喧嚣的游客，只有一座早已倾颓的哥特式城堡废墟，以及缠绕在碎石间的黑骑士传说。<strong>这座城市的历史，是用剑与血写成的。</strong> 抛开游玩攻略，走进恰尔努夫的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">恰尔努夫</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Czarnów</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Czarnów</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">下西里西亚省（克沃兹科县）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">恰尔努夫的历史始于<strong>13世纪中叶</strong>。那时，下西里西亚公国处于皮亚斯特王朝的分裂割据中，边境需要坚固的防御堡垒。西里西亚公爵波列斯瓦夫二世在流经此地的尼萨·克沃兹卡河畔，选择了一块黑色页岩裸露的丘陵，开始兴建一座小型石头城堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">村庄的名字“Czarnów”直接来源于城堡——当地人称之为“Czarny Zamek”（黑色城堡）。一方面因为建造城堡的石头颜色发黑，另一方面，<strong>民间流传的第一任领主是位身着玄甲的骑士</strong>，他的到来让这片土地染上了神秘的色彩。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">始建年份被粗略定为 <strong>1263年</strong>。最初的城堡只是一座方形的石质塔楼与一圈城墙，驻扎着少量边防军，负责监视通往波希米亚的山隘。村庄在城堡脚下缓慢生长，居民多为农民与工匠，但始终无法脱离城堡的军事阴影。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到 <strong>1342年</strong>，皮亚斯特家族绝嗣，下西里西亚并入波希米亚王国，恰尔努夫城堡的命运也随之转向——它被授予了一个来自德意志的骑士家族：<strong>冯·罗森（von Rosen）</strong>。从此，黑骑士时代正式开启。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 胡斯战争中的铁血要塞（1425–1435）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">15世纪初，波希米亚的胡斯宗教改革运动燃遍中欧。作为波希米亚王国的一部分，恰尔努夫城堡被<strong>冯·罗森家族</strong>打造成天主教阵营的桥头堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1428年，一支胡斯军队从捷克边境突袭</strong>，攻占并焚烧了村庄，但城堡因高耸的黑色石墙与深井水源幸存。当时城堡领主<strong>汉斯·冯·罗森</strong>记录道：“他们用燃烧的马车冲击城门，但我们的弓箭手从垛口射退了他们。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座城堡从未被胡斯军正面攻克，成为当地天主教徒的避难所，也因此获得“西里西亚之盾”的称号。城堡扩建了两座半圆防御塔楼，如今仍可从废墟辨认。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 三十年战争的毁灭（1618–1648）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这是恰尔努夫最黑暗的篇章。<strong>1640年，瑞典军队（新教联盟）兵临城下</strong>。两倍于守军的围攻持续了整整六周。城堡内爆发瘟疫，守军也弹尽粮绝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最后的一战发生在 <strong>1640年11月11日</strong>。瑞典人用炸药炸开北侧塔楼底部，城墙崩塌。幸存者逃入地牢，但通道被瓦砾封死。根据此后城堡拍卖记录，<strong>26具守卫的骷髅在十年后才被清理出来</strong>。城堡从此废弃，再无重建。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">30年战争结束后，下西里西亚归于信奉天主教的哈布斯堡帝国，但恰尔努夫城堡已沦为废墟。<strong>18世纪末，当地农民开始拆走石材盖房</strong>，城堡在百年间被肢解成碎石。如今只剩下地基和一段高约8米的残墙。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 黑骑士：克劳斯·冯·罗森（Klaus von Rosen，约1360–1410）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他是冯·罗森家族的第二代领主，也是恰尔努夫历史上最具传奇色彩的人物。克劳斯身高接近2米，全身穿着特制的黑色板甲，因此被当地人称为“黑骑士”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在 <strong>1395年</strong> 率领30名骑兵，在边境伏击了一支波希米亚商队，夺走价值相当于城堡年收入十倍的丝绸与白银。这笔不义之财被用于扩建主楼——<strong>至今还有一扇刻有他盾徽的哥特式窗洞留在废墟中</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克劳斯的暴政激起当地农奴的多次反抗，最著名的一次是 <strong>1403年</strong> 的“镰刀起义”：200名农奴手拿农具冲击城堡大门，黑骑士骑马冲出，亲手砍倒了14人，鲜血染红了黑色铠甲。起义失败后，他用铁链将领袖锁在城堡塔楼最底层的地牢里，直到那人饿死。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">民间传说黑骑士与魔鬼有约，因此战无不胜。但他最终离奇死去：<strong>一位路过的磨坊主发现他死在山路旁的荆棘丛中，身上没有伤口，嘴唇发黑</strong>。有人说他是被自己贪财的仆从毒死的，也有人说魔鬼取走了他的灵魂。他的遗体葬在城堡礼拜堂的地下，但位置至今无人找到。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 浪漫主义先驱：约瑟夫·冯·艾兴多夫（Joseph von Eichendorff，1788–1857）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位德国后期浪漫主义诗人并非恰尔努夫本地人，却与村庄有着独特的羁绊。艾兴多夫家族在西里西亚拥有数处庄园， <strong>1804年</strong>，16岁的约瑟夫随父亲造访克沃兹科地区的亲戚时，偶然骑马来到了恰尔努夫城堡废墟。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我爬上长满常春藤的塔楼废墟，脚下是满月般银色的河谷。突然，一个老人从阴影里走出，穿着黑色的斗篷——他指着地面，低声说：‘玫瑰在这里枯萎，骑士的誓言会随着石头腐烂。’我转身逃下山坡，但他的声音在我耳边回荡了三天。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这段经历直接激发了他创作著名诗歌《月光下的废墟》（Mondnacht in der Ruine），发表于 <strong>1811年</strong>。后来学者考证，诗中的“黑塔与沉睡的深渊”正是恰尔努夫城堡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">诗人为此地注入了文学灵魂——尽管他一生只在这里逗留过几个小时。<strong>如今城堡废墟的木板路旁，立有一块德波双语铭牌</strong>，刻着艾兴多夫的诗句，这是2010年由德国、波兰双方文化机构共同设立的。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>黑骑士的夜巡</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在恰尔努夫最盛行的传说里，每逢 <strong>11月11日</strong>（1640年城堡陷落之日），黑骑士克劳斯的鬼魂会穿戴着那副漆黑铠甲，骑着骸骨战马在废墟周围巡逻。他不会攻击任何人，但当月光照到他胸甲上刻的玫瑰时，会留下一句预言：“当黑色石头流下血泪，西里西亚将重新被统一。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">村民至今相信，每一次波兰与德国在西里西亚发生重大边界变动时，废墟的黑色花岗岩上都会渗出红褐色的水渍——那是石头在“流泪”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>地下通道的宝藏</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更诱人的传说是城堡下有一条通往捷克边境的秘密通道。<strong>17世纪的当地编年史提到</strong>，胡斯战争期间，冯·罗森家族将大量金币与圣物藏于地下。三十年战争前夜，最后一任领主在通道入口设下咒语：只有用黑骑士的剑刺入石壁，大门才会打开。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">遗憾的是，<strong>1956年波兰考古学家曾试图找到入口</strong>，但在主楼地基下仅发现了一口深达15米的枯井，再往下是地下水。民间坚信，宝藏仍在某块未被移走的巨石之下，而黑骑士的剑就藏在下西里西亚的某个教堂里。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">恰尔努夫是理解中欧边境冲突史的一枚微小却锐利的碎片。<strong>一座黑色石头城堡，见证了两个帝国的兴衰、三次宗教战争、无数农奴的血泪与一位诗人的灵感。</strong> 它的废墟没有修复成光鲜的景点，而是用断壁残垣保留着最真实的历史肌理。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你站在那座长满青苔的残塔前，闭上眼，仍然能听到黑骑士的马蹄声——那是4个世纪前的回声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/presidential-palace-warsaw\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    华\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">华沙总统府</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Presidential Palace in Warsaw</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/psia-laczka\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    狗\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">狗草地</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Psia Łączka</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/palac-generala-dabrowskiego-winna-gora\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    温\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">温纳古拉的东布罗夫斯基将军宫殿</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Pałac Generała Dąbrowskiego w Winnej Górze</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "presidential-palace-warsaw",
+          "name": "华沙总统府",
+          "englishName": "Presidential Palace in Warsaw"
+        },
+        {
+          "slug": "psia-laczka",
+          "name": "狗草地",
+          "englishName": "Psia Łączka"
+        },
+        {
+          "slug": "palac-generala-dabrowskiego-winna-gora",
+          "name": "温纳古拉的东布罗夫斯基将军宫殿",
+          "englishName": "Pałac Generała Dąbrowskiego w Winnej Górze"
+        }
+      ]
+    }
+  ]
+}

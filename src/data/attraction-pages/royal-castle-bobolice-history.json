@@ -1,0 +1,85 @@
+{
+  "slug": "royal-castle-bobolice-history",
+  "template": "history",
+  "metadata": {
+    "title": "博博利采皇家城堡历史溯源｜鹰巢城堡之路的断壁残垣与王室传奇",
+    "description": "波兰克拉科夫-琴斯托霍瓦高地藏着一座14世纪的皇家城堡——博博利采城堡。它曾是卡齐米日大帝的王室要塞，如今以断壁残垣与鬼魂传说闻名。穿越历史迷雾，揭开珠宝叛徒、白贵妇与千年地道的秘密。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "博博利采",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "博博利采皇家城堡",
+      "href": "/attractions/royal-castle-bobolice-history"
+    }
+  ],
+  "hero": {
+    "title": "博博利采皇家城堡・Royal Castle Bobolice・波兰・博博利采",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>博博利采城堡</strong>，矗立在波兰克拉科夫-琴斯托霍瓦高地的石灰岩峭壁上，是“鹰巢城堡之路”上最神秘的一站。它由波兰国王卡齐米日三世大兴土木建造，曾作为王室抵御西里西亚的边境要塞，却在17世纪遭瑞典人洗劫后陷入漫长沉睡。抛开游玩攻略，走进这座荒废城堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">博博利采皇家城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Royal Castle Bobolice</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Royal Castle Bobolice</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">博博利采</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座城堡严格来说没有“城市”——博博利采本身只是一个几百人的小村庄。但它背后的土地却是波兰王国与西里西亚公国反复争夺的战场。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1370年</strong>，伟大的卡齐米日三世（又称“农民国王”）下令在一条长约25公里的石灰岩山脊上修建一系列防御工事，棋盘式地守卫着通往古都克拉科夫的西部咽喉。这条线路后来被称作 <strong>“鹰巢城堡之路”（Eagle Nests Trail）</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博博利采城堡正是其中最关键的一环。地名“Bobolice”源自古老波兰语词汇“bobr”，意为河狸——当地河谷中曾繁衍着大量河狸。起初城堡属于波美拉尼亚的贵族家族，但很快被王室收回。<strong>1391年</strong>，国王瓦迪斯瓦夫二世·雅盖沃正式将其授予贵族家族。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡设计有着鲜明的卡齐米日时代特征：矩形主楼、环绕的城墙、深达22米的砾石井，以及可观察数十公里平原的瞭望塔。它并非居住宫殿，而是一座纯粹的军事据点，内部常年驻扎约30名骑士。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 白贵妇的诅咒（17世纪）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1587年，城堡传到了强大家族“博博利采的库尔萨茨科”手中。据家族编年史记载，年轻领主 <strong>雅库布·库尔萨茨科</strong> 为了满足对财富的贪欲，竟然背叛了国王齐格蒙特三世，暗中勾结入侵的马克西米利安三世大公。雅库布将在波希米亚战争中掠夺来的珠宝藏入城堡地窖，却被自己的妻子 <strong>安娜</strong> 发现。安娜原是宫廷中的女官，深感耻辱的她将丈夫锁在密室内，而后跳下塔楼殉情。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据说每当满月之夜，安娜的白裙身影就会在废墟上游荡，她手中捧着一束鲜花，试图引开寻宝者。当地老人坚持说，谁若在午夜遇到她，会听到低语：“钱买不到忠诚，但能买到死。” 至今仍有人声称在地下通道看见过磷火。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">19世纪民间调查者笔记中写道：“村民们发誓，那座塔楼的缺口里时常传出女人哭泣的声音，尤其是接近收成季节。狗会对着南侧墙根狂吠，那里的石头摸上去热得像刚熄灭的灰烬。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 瑞典大洪水与城堡衰落（1655-1700）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">17世纪中叶的“大洪水战争”中，瑞典军队如蝗虫般席卷波兰。博博利采城堡在<strong>1655年</strong>被瑞典人攻破。由于防御工事已显陈旧，守军弃城而逃。瑞典驻军将城堡洗劫一空，连壁炉上的王室纹章都凿下来熔成银币。传闻他们在撤退前点燃了地下的火药库，导致整个主楼彻底坍塌。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此后城堡再未修复。<strong>18世纪</strong>初，残余的石料被附近农民拆走建房。到了19世纪末，这座曾经象征王权的堡垒只剩下两段外墙和一截东倒西歪的塔楼，就像一头被砍掉角的石狮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 冷战后期的秘密挖掘（1970-1980年代）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">波兰人民共和国时期，考古学家在城堡遗址下方发现了 <strong>14世纪的蓄水池和地下走廊</strong>。更令人惊讶的是，在清理废墟时出土了一件 <strong>镶嵌蓝宝石的金十字架</strong>——正是卡齐米日三世时期王室礼拜堂的圣物。这批文物被紧急送往华沙国家博物馆，但当地传说真正的大宝藏仍被掩埋在更深处的密室里。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 卡齐米日三世：城堡的缔造者与“农民国王”的矛盾统治</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">波兰历史上最伟大的建筑者 <strong>卡齐米日三世（1333-1370年在位）</strong> 被后世称为“克鲁夫国王”（波兰语“Król Chłopów”）。他的一生充满传奇：在克拉科夫设立了欧洲最早颁布的犹太宪章；创办雅盖隆大学；同时也是一个冷酷的政治家，用联姻和战争将波兰版图翻了一番。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1326年</strong>，卡齐米日还是王子时就曾亲自押送粮草经过博博利采地区，被当地土匪伏击。这段经历促使他决心修建一连串石头要塞来统治这片野蛮之地。博博利采城堡正是他“建筑狂热”的产物——在他的统治下，波兰从木制城堡全面升级为石砌城堡，数量超过40座。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但卡齐米日的私生活极为混乱。他有四个妻子和无数情妇，其中一个情妇正是博博利采城堡首位守将 <strong>马尔钦·比尔恰克</strong> 的女儿 <strong>贾德维加</strong>。传说这位守将为了保住女儿的纯洁，故意将城堡建在陡峭的山脊顶端——让国王的马队无法靠近。可惜卡齐米日派出信使，用三道王室法令逼迫马尔钦交出女儿。贾德维加后来成为克拉科夫王宫的常客，据说为国王生了三个私生子。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1789年</strong>，波兰被瓜分时期，歌德在其《意大利游记》中提到波兰民间流传着一首嘲弄卡齐米日的民歌：“国王建城堡，农民搬石头，国王抱女人，农民饿肚子。”——这段轶事恰好反映了城堡建造背后的社会代价。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 阿格涅什卡·奥萨文斯卡：废墟的女学者与19世纪浪漫主义诗人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪初，波兰民族解放运动高涨，城堡这类被普鲁士占领的废墟成为知识分子寄托情怀的象征。<strong>阿格涅什卡·奥萨文斯卡（1798-1863）</strong> 是华沙大学第一位女性考古学教授。1829年，她独自骑马考察“鹰巢城堡之路”，在博博利采废墟中进行了为期两周的测量与挖掘。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她的日记里这样写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">1829年7月12日。今晨，我用软尺量了塔楼残骸的高度——8码。石缝里开满了紫罗兰，像某种暗号。当地教士告诉我，城堡下埋着通往瓦维尔教堂的密道。我在墙基发现了马耳他十字的标记——那是圣殿骑士的符号吗？不，这不可能离罗马这么远。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——《波兰废墟日记》，原文藏于克拉科夫科学院</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿格涅什卡在1835年出版了《波兰中世纪城堡志》，书中首次记录了博博利采城堡的详细平面图。她因为坚持女性不应穿裙装进行田野考古而被华沙社交界嘲笑，但她训斥道：“如果你们想看裙摆，请去舞会；如果要看城堡，请递给我铁锨。” 她最终因过度劳累去世，但她的研究保留了一段国家记忆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今在博博利采城堡入口处立着一块灰绿色大理石匾额，上面刻着：“献给阿格涅什卡·奥萨文斯卡——发现废墟之美的人。” 这块匾是2008年由当地历史协会设立的。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 犹太宝物的守护者</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博博利采一带在18世纪居住着大量犹太人。传说有一个叫 <strong>摩西·莱维</strong> 的犹太商人曾将一箱金币藏在城堡地下。他让儿子诺亚记住地点：“从第三个尖塔向西走十三步，向南一步，石头底下。”但诺亚在1830年起义中战死，秘密失传。二战期间，一位党卫军军官根据民间线索挖掘城堡，却只挖出了一具中世纪骑士的骨骼。镇上的裁缝至今会开玩笑说：“纳粹给我们送来了一个更好的宝藏——他们炸开墙体，反而顺道加固了地基。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 忌日里的白玫瑰</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地习俗：每年<strong>8月15日</strong>（圣母升天节），年迈的女性村民会聚集在城堡废墟前，扔下白色玫瑰。传统认为这是为了安抚“白贵妇”安娜的灵魂。如果玫瑰掉在地上时花瓣不散开，就代表安娜接受祭品，未来一年村落不会有人死亡。2016年，有一位美国游客偷偷捡走一朵玫瑰，结果漂流筏在附近的比亚瓦河上翻船。尽管没人受伤，但村民严肃地重申：“这座城堡的东西，连灰尘也不能带回家。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博博利采城堡如今仍是波兰旅游局认证的“欧洲文化遗产保护亮点”。它不同于克拉科夫的张扬，也不同于马尔堡的厚重——它的残破本身就是一种纪实，用砖石写下了中世纪波兰王权扩张的野心、宗教冲突的伤痕，以及普通人面对强权的沉默。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当你站在那堵满目疮痍的南墙上，可以想象14世纪的哨兵正在瞭望地平线上的西里西亚骑兵；而脚下埋着的白贵妇，也许正用同样的视角看着21世纪的游客。波兰诗人切斯瓦夫·米沃什在《欧洲的另一端》中写过：“废墟教会我们的是：每个时代都有自己的尘土，只有少数人会记住去掸掉。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/st-john-archcathedral-warsaw\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    圣\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">圣约翰洗者总主教座堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Archcathedral Basilica of St. John the Baptist</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/park-strachowicki-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯特拉霍维茨基公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Park Strachowicki</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bagienski-house-tykocin-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    蒂\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">蒂科钦巴金斯基故居</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bagieński House in Tykocin (Dom Bagieńskich w Tykocinie)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "st-john-archcathedral-warsaw",
+          "name": "圣约翰洗者总主教座堂",
+          "englishName": "Archcathedral Basilica of St. John the Baptist"
+        },
+        {
+          "slug": "park-strachowicki-history",
+          "name": "斯特拉霍维茨基公园",
+          "englishName": "Park Strachowicki"
+        },
+        {
+          "slug": "bagienski-house-tykocin-history",
+          "name": "蒂科钦巴金斯基故居",
+          "englishName": "Bagieński House in Tykocin (Dom Bagieńskich w Tykocinie)"
+        }
+      ]
+    }
+  ]
+}

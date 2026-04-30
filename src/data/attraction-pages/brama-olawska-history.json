@@ -1,0 +1,85 @@
+{
+  "slug": "brama-olawska-history",
+  "template": "history",
+  "metadata": {
+    "title": "弗罗茨瓦夫奥瓦斯基门历史｜中世纪城门的烽火岁月与波兰女王传说",
+    "description": "探秘弗罗茨瓦夫最沧桑的城门——奥瓦斯基门。从13世纪砖砌堡垒到二战废墟上的重生，穿越百年波兰王国的兴衰脉络。一座城门，半部城市记忆。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "弗罗茨瓦夫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "奥瓦斯基门",
+      "href": "/attractions/brama-olawska-history"
+    }
+  ],
+  "hero": {
+    "title": "奥瓦斯基门・Brama Oławska・波兰・弗罗茨瓦夫",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">弗罗茨瓦夫，奥得河畔的千桥之城，曾在波希米亚、普鲁士、纳粹与苏联的怀抱中辗转。而在它斑驳的古城墙遗迹中，<strong>奥瓦斯基门（Brama Oławska）</strong> 是唯一一座未曾被彻底拆除的中世纪城门，沉默见证着帝国更迭、围城炮火与平民悲欢。抛开游玩攻略，走进奥瓦斯基门的尘封往事，遇见属于弗罗茨瓦夫的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">奥瓦斯基门</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Brama Oławska</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Brama Oławska</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">弗罗茨瓦夫</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">弗罗茨瓦夫的历史可以追溯到公元10世纪，但真正奠定其防御格局的是 <strong>13世纪中叶</strong>。当时，西里西亚地区处于皮亚斯特王朝的统治之下，城市开始用砖石砌筑城墙。奥瓦斯基门正是这座城墙体系中的南门，最初的名字“Oławska”来自通往东部小镇Oława（奥瓦瓦）的道路。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">据14世纪的编年史记载，城门最初是一座简单的木构塔楼，后经多次加固，最终在1499年建成我们今天看到的哥特式砖石结构。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它的存在不仅是为了防御，也是城市税收与贸易的关卡。所有从南部进入弗罗茨瓦夫的货物——盐、葡萄酒、布料——都必须经过这座门缴税。直到18世纪，城门上方仍保留着市政官员的观察室，用来监督商贾的通行。有趣的是，“Brama”在波兰语中意为“大门”，而“Oławska”的发音与“奥瓦瓦”关联，中间还藏着一段关于斯拉夫部落地名的古语演变：<strong>Oława</strong> 可能源于古波兰词“oleć”，意为“泥泞的河岸”。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1. 围城与炮火：三十年战争的见证者</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">17世纪上半叶，欧洲陷入<strong>三十年战争</strong>的泥潭。弗罗茨瓦夫作为哈布斯堡家族统治下的重要城市，多次遭到新教军队的围攻。<strong>1633年</strong>，瑞典军队包围弗罗茨瓦夫，奥瓦斯基门成为最激烈的战场之一。守城士兵在城门上架设火炮，用装满石块的麻袋堵住门洞。城墙上的弹痕直到20世纪仍清晰可见。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2. 拿破仑战争：城门的最后军事使命</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1806年，拿破仑的大军兵临城下。普鲁士守军用土袋和木板加固奥瓦斯基门，试图拖延法军的攻城步伐。但最终，城市在短暂抵抗后投降。<strong>法军将领</strong>下令拆毁大部分城墙以方便军队通行，却意外地保留了奥瓦斯基门——据说是因为它“美观且具有历史价值”。此后，城门失去防御功能，沦为仓库和看守人的住所。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">3. 二战的废墟与重生</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1945年，弗罗茨瓦夫成为“要塞城市”（Festung Breslau）。苏军猛烈的炮火将老城夷为平地，奥瓦斯基门严重受损，穹顶塌落，墙身开裂。战后重建时，波兰政府决定不恢复其完整防御形态，而是保留废墟作为历史的证物。今天，游客仍能看到西侧墙面上一块巨大的弹坑补丁——那是用不同颜色的砖块修补的，像一道永恒的疤痕。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1. 波兰女王玛格丽特·冯·安哈尔特</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">玛格丽特（Margarethe von Anhalt，<em>1450-1498</em>）是勃兰登堡选帝侯的女儿，1476年嫁给弗罗茨瓦夫公爵。据说她最喜爱的散步路线就是从公爵城堡出发，沿着城墙走到奥瓦斯基门，在门外的瞭望台上眺望远处田野。她在日记中写道：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每到傍晚，城门上的守卫会吹响号角，声音飘过麦田，像圣灵的叹息。我就站在门楼的阴影里，直到星星亮起。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">因为她的庇护，城门附近的商人免去了部分关税，使得奥瓦斯基门一带成为当时最热闹的市集。玛格丽特去世后，城门守军在塔楼内设置了一尊她的小型石像，如今保存在弗罗茨瓦夫国家博物馆。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">2. 建筑师扬·卡尔·巴甫洛夫斯基</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>扬·卡尔·巴甫洛夫斯基（Jan Karol Pawłowski，1872-1956）</strong> 是两次世界大战期间波兰最著名的建筑修复师之一。当纳粹占领时期，他冒着风险用石膏掩盖了城门上的波兰鹰徽，用德语木牌替换。战争结束后，他立刻带学生清理门洞内的废墟，并亲自爬上脚手架测量每一块砖的尺寸。他留下了一本详细的修复笔记：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这不是修复，而是为死者穿回衣服。每块砖的火烧痕迹都该被保留，因为它们比任何文字都更诚实地记录了1945年的春天。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在他的坚持下，奥瓦斯基门没有像其他历史建筑那样被彻底翻新，而是以“伤痕累累”的状态向公众开放。如今门楼下的一块铸铁铭牌上，刻着他的名字和这样一句话：“<strong>这里，历史没有粉饰。</strong>”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">相传在17世纪的一场瘟疫中，全城死了近一半人。一个叫卡塔日娜的洗衣妇路过奥瓦斯基门，看到墙壁渗出水珠，尝了一口竟是咸涩的眼泪味。她发誓这是<strong>圣母玛利亚的泪水</strong>。此后，每到月圆之夜，城门下的石缝里会渗出细小的水珠——当地人称之为“城门之泪”，认为它能治愈眼疾。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一个流传更广的传说：<strong>午夜十二点，守门人的鬼魂</strong>会从门洞内缓步走出，在他曾经站岗的位置来回踱步，直到晨钟敲响。据说他是在1793年一个雪夜被劫匪杀害的，至今依然忠于职守。当地孩子常互相怂恿：“你敢不敢在午夜站到门洞里，喊一声‘我向奥瓦瓦走去’？”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">奥瓦斯基门不是一座宏大的教堂，也不是一座华丽的宫殿。它只是弗罗茨瓦夫千万块砖石中沉默的一角。但当你的手贴上那粗糙、被火燎过的墙面，你触到的不仅是中世纪的泥浆与石灰，还有三十年战争的火药味、拿破仑军队的靴声、1945年冰凉的废墟，以及一位修复师固执的尊严。读懂这座城门，就读懂了这座城市的韧性——<strong>不彻底抹去痛苦，而是带着伤疤继续活下去</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/plac-pck\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    P\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">PCK广场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Plac PCK</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/villa-decius-association\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    德\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">德修斯别墅协会</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Villa Decius Association</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/adam-mickiewicz-museum-of-literature-warsaw-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    亚\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">亚当·密茨凯维奇文学博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Adam Mickiewicz Museum of Literature, Warsaw</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "plac-pck",
+          "name": "PCK广场",
+          "englishName": "Plac PCK"
+        },
+        {
+          "slug": "villa-decius-association",
+          "name": "德修斯别墅协会",
+          "englishName": "Villa Decius Association"
+        },
+        {
+          "slug": "adam-mickiewicz-museum-of-literature-warsaw-history",
+          "name": "亚当·密茨凯维奇文学博物馆",
+          "englishName": "Adam Mickiewicz Museum of Literature, Warsaw"
+        }
+      ]
+    }
+  ]
+}

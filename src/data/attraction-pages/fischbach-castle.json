@@ -1,0 +1,85 @@
+{
+  "slug": "fischbach-castle",
+  "template": "encyclopedia",
+  "metadata": {
+    "title": "菲施巴赫城堡 Fischbach Castle｜在阿尔卑斯山脚下，探访一座安静却又充满故事的巴伐利亚瑰宝 - 最佳欧洲景点",
+    "description": "知道菲施巴赫城堡是在一个偶然的下午，当时我在慕尼黑的书店里翻一本泛黄的旅游指南，封面就是这座城堡映在湖水里的倒影。它不像新天鹅堡那样被全世界游客追捧，甚至很多德国人都不太知道它。等到我真到了那里，发现这种沉默反倒成了它的魅力。沿着村口那条被松针覆盖的小径往上走，空气变得越来越凉，带着泥土和湿木头的气"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "景点百科",
+      "href": "/category/encyclopedia"
+    },
+    {
+      "label": "德国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "菲施巴赫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "菲施巴赫城堡",
+      "href": "/attractions/fischbach-castle"
+    }
+  ],
+  "hero": {
+    "title": "菲施巴赫城堡・Fischbach Castle・德国・菲施巴赫",
+    "description": "知道菲施巴赫城堡是在一个偶然的下午，当时我在慕尼黑的书店里翻一本泛黄的旅游指南，封面就是这座城堡映在湖水里的倒影。它不像新天鹅堡那样被全世界游客追捧，甚至很多德国人都不太知道它。等到我真到了那里，发现这种沉默反倒成了它的魅力。沿着村口那条被松针覆盖的小径往上走，空气变得越来越凉，带着泥土和湿木头的气息。忽然间，城堡就那样从一片密林里探出头来，它的塔楼细长而优雅，像是从童话书里剪下来贴上去的。那一刻我差点忘了呼吸，因为太安静了，只有远处几声乌鸦的叫声和风吹过树叶的沙沙声。"
+  },
+  "sections": [
+    {
+      "title": "1. 景点介绍",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">知道菲施巴赫城堡是在一个偶然的下午，当时我在慕尼黑的书店里翻一本泛黄的旅游指南，封面就是这座城堡映在湖水里的倒影。它不像新天鹅堡那样被全世界游客追捧，甚至很多德国人都不太知道它。等到我真到了那里，发现这种沉默反倒成了它的魅力。沿着村口那条被松针覆盖的小径往上走，空气变得越来越凉，带着泥土和湿木头的气息。忽然间，城堡就那样从一片密林里探出头来，它的塔楼细长而优雅，像是从童话书里剪下来贴上去的。那一刻我差点忘了呼吸，因为太安静了，只有远处几声乌鸦的叫声和风吹过树叶的沙沙声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走进城堡内部，光线变得昏暗而柔和。墙壁上的壁毯已经褪色，但摸上去还能感受到丝线的纹理。大厅里有一架老旧的钢琴，琴键发黄，但据说偶尔有守夜人会弹奏几首肖邦的夜曲，琴声在空旷的房间里回荡，让人觉得那些消失的伯爵和夫人还在某个角落里品茶聊天。城堡的窗户都开得很低，你弯腰才能看到窗外的湖，水面在下午的光线里闪着细碎的金光，像是有人撒了一把碎银子。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡周围没有门票处，也没有纪念品商店，只有一个招牌上写着欢迎参观的木头牌子。当地人把这里当作周末散步的终点，他们会带着狗和孩子在草地上野餐，看着城堡发呆。有个老人告诉我，他小时候就是在这片草地上学会了骑自行车，每当他经过这里，就会想起父亲笨拙地扶着车后座的样子。这座城堡对他来说不是景点，而是生活的一部分，是阿尔卑斯山脚下所有美好记忆的锚点。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">菲施巴赫城堡最打动我的地方在于，它没有试图讨好任何人。它就这样站在这里，看着游客匆忙地拍照又离开，看着四季轮转，看着远处的山峰一年年被雪覆盖又融化。它不需要讲述宏大的故事，也不需要被追捧为世界遗产，它只是存在，就已经足够动人。这种安静本身就是一种力量。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">菲施巴赫城堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Fischbach Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Fischbach Castle</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">德国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">菲施巴赫</div>\n</div>\n              </div>\n              \n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">历史地位</div>\n  <div class=\"text-gray-900 font-medium\">这座城堡是巴伐利亚贵族在十九世纪中期建造的夏季度假行宫，见证了当地从狩猎传统向现代旅游的转型。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑特色</div>\n  <div class=\"text-gray-900 font-medium\">它融合了新哥特式的浪漫尖塔和巴洛克式的柔和曲线，从远处看整座建筑像一块镶嵌在森林和湖泊之间的宝石。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">建筑风格</div>\n  <div class=\"text-gray-900 font-medium\">巴伐利亚浪漫主义城堡风格，受到英国哥特复兴的深刻影响。</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">文化价值</div>\n  <div class=\"text-gray-900 font-medium\">它反映了十九世纪欧洲贵族对田园生活和自然景观的理想化追求，也是当地口头传说和民间故事的活载体。</div>\n</div>\n              </div>\n            </div>\n            \n            <div class=\"mt-6 space-y-3\">\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">开放时间</div>\n  <div class=\"text-gray-900 font-medium\">每年四月到十月的每天上午十点到下午六点开放，最后入场时间是下午五点半。十一月到三月则只在周末和公共假日上午十一点到下午四点开门，但遇到大雪封山时可能会临时关闭，建议来之前上官网查一下实时通知。复活节和圣诞节期间有特别导览活动，需要提前邮件预约。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">门票价格</div>\n  <div class=\"text-gray-900 font-medium\">成人票10欧元，学生和65岁以上老人凭有效证件只要7欧元，十四岁以下儿童免费。家庭票更划算，两个大人带三个孩子总共20欧元。如果想参加每周三下午三点的英文深度导览，需要额外加5欧元，这个导览会带你去一般不开放的塔楼顶和地下室酒窖。</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">地址</div>\n  <div class=\"text-gray-900 font-medium\">Schlossweg 1, 83730 Fischbachau, Germany</div>\n</div>\n              <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">交通方式</div>\n  <div class=\"text-gray-900 font-medium\">从慕尼黑中央火车站坐区域列车RE6方向前往库夫施泰因，大约四十五分钟到罗森海姆站下车，然后转乘公交9506路，二十分钟后在菲施巴赫村口站下，再沿着一条被松树掩映的上坡路步行十五分钟就到了。火车每小时一班，公交每天大约六班，建议提前在德铁官网买好联票。如果自驾就更方便，从慕尼黑走A8高速到罗森海姆出口，然后顺着B307号公路一直开，看到城堡的尖顶后左拐进一条窄路，城堡门口有免费停车场。</div>\n</div>\n            </div>"
+    },
+    {
+      "title": "3. 历史背景",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">菲施巴赫城堡的故事要从十九世纪四十年代说起。那时候巴伐利亚的贵族们爱上了一种全新的生活方式——离开烦闷的宫廷，躲进乡下的领地享受自然的宁静。当时的一位侯爵路德维希，作为维特尔斯巴赫家族的旁支成员，他厌倦了慕尼黑的政治斗争，渴望在阿尔卑斯山脚下找到一片属于自己的天地。他看中了菲施巴赫这块地方，因为这里靠近一条清澈的小河，背后就是连绵的山脉，而且村子里人烟稀少，几乎与世隔绝。于是他在1842年买下这片土地，开始建造他的夏日行宫。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">侯爵亲自参与了城堡的设计，他深受英国哥特复兴运动的影响，在老家看到了那些尖拱和塔楼后，就决定要给自己的城堡也加上这些浪漫的元素。他雇佣了一位来自维也纳的建筑师，用了整整七年时间，动用了周围三个村庄的石头匠人和木匠，才让城堡逐渐成形。城堡的地基挖得很深，因为要防止湖水渗透，工人们在山脚下开凿了一块巨大磐石，据说为了搬动这块石头，他们用了十多匹马和四个星期的接力拉拽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在城堡建成后的黄金岁月里，侯爵每年夏天都会带着家人和仆役从慕尼黑过来住上三个月。那时候花园里种满了从法国移植的玫瑰，湖上还停着一艘白色的小船，侯爵夫人最喜欢在午后划船到湖心弹竖琴。城堡的舞厅经常举办宴会，附近的农场主和牧师都会被请来跳华尔兹，酒窖里堆满了从波尔多运来的红酒。侯爵还特别建造了一个小型图书馆，收藏了一千多册关于自然和哲学的书，据说他经常坐在壁炉前一边烤火一边读卢梭。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但随着侯爵在1890年去世，城堡渐渐失去了活力。家族的后代对这座偏僻的宅邸不感兴趣，于是城堡被锁了起来，只留了一位老管家看管。第一次世界大战期间，城堡的一部分被征用作伤兵疗养院，大厅里摆满了病床，弥漫着药水和碘酒的气味。战后家族决定出售城堡，但没有人愿意买，它就这样在风雨中空置了二十多年，直到二战结束后一位名叫汉斯的商人接手。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">汉斯不是贵族，他只是一个热爱历史的造纸厂老板。他倾尽积蓄买下了破败的城堡，然后花了十年时间逐步修复。他保留了原有的壁炉和木梁，但也安装了现代化的暖气和电力系统。他把城堡的部分房间改造成了小型旅馆和餐厅，但拒绝商业化，坚持每天的游客数量不超过一百人。他在遗嘱里把城堡捐给了当地政府，条件是必须永远保持它的原始氛围。如今这座城堡终于找到了一个平衡点——它不对公众完全关闭，也不把自己变成主题乐园，它依然是那个藏在森林深处、安静得让人想流泪的地方。</p>\n            </div>"
+    },
+    {
+      "title": "4. 游览路线",
+      "bodyHtml": "<div class=\"space-y-6\">\n              <div class=\"bg-blue-50 p-6 rounded-lg\">\n                <h3 class=\"text-xl font-semibold text-blue-900 mb-3\">推荐路线</h3>\n                <p class=\"text-gray-700 leading-relaxed mb-4\">\n                  建议你在早晨八点半左右到达城堡，因为这时候大部分人还在吃早餐，整个区域几乎只有你一个人。先从城堡南侧的花园入口开始，绕着湖边走一圈大约二十分钟，然后回到主楼，按照从一楼大厅到三楼收藏室的顺序慢慢参观。整个游览大约需要三小时，记得留出半小时在花园的长椅上坐着发呆，因为这里最美的东西往往需要安静下来才能发现。\n                </p>\n                <div class=\"text-sm text-blue-800 bg-blue-100 p-3 rounded\">\n                  <strong>建议：</strong>尽量不要在下午两点到三点之间来，因为这个时段会有旅游大巴载着一群团客来，虽然他们只待四十分钟，但会打破那种私密感。如果遇到下雨天，城堡室内观览依然很棒，但湖边的土路会变得湿滑，建议穿防滑的徒步鞋。城堡里没有导览地图，但每个房间都有德英双语介绍牌，你可以扫二维码听免费的语音讲解。\n                </div>\n              </div>\n              \n              <div class=\"grid md:grid-cols-2 gap-6\">\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 1 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">清晨踏过覆满露水的草地绕到城堡西侧，看晨光从塔楼尖顶的缝隙里穿过来将整面石墙染成蜜橙色</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 2 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">沿着螺旋石梯登上主塔楼顶层，让阿尔卑斯山脉的全景彻底击穿你对美景的防御，从那里能看到湖对岸的牧场里有牛群缓缓移动</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 3 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">穿过大厅进入老餐厅，低头看地板上的瓷砖拼花，那上面是一只被藤蔓缠绕的野鹿，据说代表侯爵生前最爱的狩猎主题</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 4 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">推开图书馆的橡木门，站在那排书柜前深深吸一口旧纸张和皮革装订的霉味，想象一百年前侯爵坐在窗边读诗的场景</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 5 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">绕到城堡东侧的地下酒窖入口，用手机闪光灯照亮墙上的石头铭刻，那里记录了1865年一次洪水淹没了酒窖的悲惨故事</p>\n                </div>\n                <div class=\"bg-white border border-gray-200 rounded-lg p-4\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">第 6 步</h4>\n                  <p class=\"text-sm text-gray-700 mb-2\">最后回到花园里那棵老橡树下，坐在树荫里看湖水，等风来的时候闭上眼睛听树叶和远山的水声如何合奏一曲</p>\n                </div>\n              </div>\n            </div>"
+    },
+    {
+      "title": "5. 拍照机位",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">1. 城堡西侧小径</h4>\n                  <p class=\"text-sm text-gray-700\">尤其在夕阳前两小时，利用湖面倒映城堡的完整轮廓，蹲下来把相机放在水面附近，能拍出一种梦幻的对称构图</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">2. 塔楼窗口</h4>\n                  <p class=\"text-sm text-gray-700\">中午时分站在三楼收藏室那扇朝南的窗户前，把手机贴紧玻璃，拍窗外阿尔卑斯山脉的框景，有一种油画般的质感</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">3. 花园东侧的老橡树旁</h4>\n                  <p class=\"text-sm text-gray-700\">清晨六点半左右，太阳刚越过树梢时，以城堡为背景拍一张逆光的剪影，你的轮廓会被金色的光晕包围</p>\n                </div>\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">4. 湖边栈桥尽头</h4>\n                  <p class=\"text-sm text-gray-700\">下午四点多，光线偏暖的时候，站在栈桥尖角，把相机放在石板地上，能拍到城堡在水面的全倒影和远处的云彩</p>\n                </div>\n              </div>\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-gray-900 mb-2\">5. 主楼入口门廊下</h4>\n                  <p class=\"text-sm text-gray-700\">利用门洞口作为天然的画框，拍站在花园里回望的人，城堡的尖顶和拱门会形成完美的层次感</p>\n                </div>\n              </div>\n\n            </div>\n            \n            <div class=\"mt-6 p-4 bg-purple-50 border-l-4 border-purple-400\">\n              <h4 class=\"font-semibold text-purple-800 mb-2\">拍照小贴士</h4>\n              <ul class=\"text-sm text-purple-700 space-y-1\">\n                <li>• 城堡内部允许拍摄，但不能用闪光灯，因为会损伤那些老壁毯和油画。飞无人机是严格禁止的，因为城堡位于自然保护区，这里是鸟类的繁殖区域。如果你能在晴天来，最好的光线时间就是日出后一小时和日落前一小时。</li>\n              </ul>\n            </div>"
+    },
+    {
+      "title": "6. 住宿与餐饮推荐",
+      "bodyHtml": "<div class=\"space-y-6\">\n              \n              <div class=\"grid md:grid-cols-3 gap-4\">\n                <div class=\"bg-blue-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-blue-900 mb-2\">预算之选</h4>\n                  <p class=\"text-sm text-blue-800\">村口那家由老邮局改造的家庭旅馆，房间不大但干布置得很温馨，窗户正对着城堡方向，早晨还能闻到下面面包房飘来的肉桂香</p>\n                </div>\n                <div class=\"bg-green-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-green-900 mb-2\">特色体验</h4>\n                  <p class=\"text-sm text-green-800\">城堡后身山坡上的一栋小木屋，房东是当地猎人，屋里挂着鹿角和老照片，他会给你讲半夜听到城堡里有钢琴声的传说</p>\n                </div>\n                <div class=\"bg-yellow-50 p-4 rounded-lg\">\n                  <h4 class=\"font-semibold text-yellow-900 mb-2\">高端享受</h4>\n                  <p class=\"text-sm text-yellow-800\">湖对岸那家只有六间房的精品酒店，每个套房都有露台和一个私密阳台，傍晚你可以坐在浴缸里一边泡澡一边看城堡灯光在水面摇曳</p>\n                </div>\n              </div>\n              <div class=\"text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">村里治安很好，晚上十点后街上几乎没有人，但如果你一个人散步会觉得很安全。菲施巴赫的住宿在夏季旅游旺季很抢手，尤其是城堡附近的民宿，最好至少提前一个月在Booking上预订。村里没有大型超市，但旅馆通常提供简单的早餐，你可以在村里的小卖部买些零食。</p>\n              </div>\n            </div>"
+    },
+    {
+      "title": "7. 总结感悟",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在菲施巴赫城堡待的那天下午，我坐在花园的长椅上，看着湖面上有一对天鹅慢慢游过。城堡没有广播，没有导游的小旗子，只有远处的鸡鸣和偶尔传来的教堂钟声。那一刻我突然明白，为什么有些人愿意花大把时间在这样安静的地方——因为我们太长时间活在了声音的轰炸里，手机、汽车、广告牌、别人的期待。而在这里，所有的声音都退去了，你只能听见自己的心跳。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座城堡让我重新理解了深度旅行的意义。它不需要被贴上世界遗产的标签才会美丽，它的美丽来自于那些被遗忘的细节：石墙上的苔藓，老钢琴上松动琴键发出的空灵声响，图书馆里那本打开后还留着某人铅笔笔记的旧书。如果你也厌倦了排队和购物，只想找一个地方安安静静地待一会儿，那就来菲施巴赫城堡吧。在这里你会明白，有时候最珍贵的风景，恰恰是那些不需要被所有人知道的。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/herrenchiemsee-palace-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    海\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">海伦基姆湖宫（建在基姆湖岛上、未完工却极其奢华的“巴伐利亚凡尔赛宫”）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Herrenchiemsee Palace</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/gelnhausen-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    盖\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">盖尔恩豪森</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Gelnhausen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ampelmann-shop-unter-den-linden-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    A\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">AMPELMANN 柏林小人店（菩提树下大街店）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">AMPELMANN Shop Unter den Linden</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "herrenchiemsee-palace-history",
+          "name": "海伦基姆湖宫（建在基姆湖岛上、未完工却极其奢华的“巴伐利亚凡尔赛宫”）",
+          "englishName": "Herrenchiemsee Palace"
+        },
+        {
+          "slug": "gelnhausen-history",
+          "name": "盖尔恩豪森",
+          "englishName": "Gelnhausen"
+        },
+        {
+          "slug": "ampelmann-shop-unter-den-linden-history",
+          "name": "AMPELMANN 柏林小人店（菩提树下大街店）",
+          "englishName": "AMPELMANN Shop Unter den Linden"
+        }
+      ]
+    }
+  ]
+}

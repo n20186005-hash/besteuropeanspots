@@ -1,0 +1,85 @@
+{
+  "slug": "rynek-glowny-history",
+  "template": "history",
+  "metadata": {
+    "title": "克拉科夫中央广场历史溯源｜中世纪欧洲最大广场的前世今生与名人传奇",
+    "description": "波兰克拉科夫中央广场，自1257年建城起便从未沉睡。哥白尼的脚步声、教皇的祝福、号手的中断音符……走进欧洲最大中世纪广场的尘封故事，遇见时间刻下的印记。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "克拉科夫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "克拉科夫中央广场",
+      "href": "/attractions/rynek-glowny-history"
+    }
+  ],
+  "hero": {
+    "title": "克拉科夫中央广场・Rynek Główny・波兰・克拉科夫",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">1257年，一座按棋盘格规划的广场在克拉科夫诞生，它叫 <strong>Rynek Główny</strong>——主市场广场。八百年来，这里从未沦为废墟，而是欧洲最完整的中世纪公共空间。抛开游玩攻略，走进克拉科夫中央广场的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">克拉科夫中央广场</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Rynek Główny</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Rynek Główny</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">克拉科夫</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克拉科夫中央广场的诞生，源于一场毁灭性的蒙古入侵。1241年，鞑靼铁骑将克拉科夫夷为平地。战后，波兰公爵 <strong>大胆者波列斯瓦夫五世</strong> 于1257年颁布了建城特许状，决心重建一座全新的城市。<strong>广场的格局</strong> 是当时最先进的“棋盘式”设计——一个边长约200米、近乎完美的正方形，从中心辐射出笔直的街道。<strong>“Rynek”</strong> 在波兰语中即市场，<strong>“Główny”</strong> 意为主。广场从一开始就是贸易、法律与信仰的交汇点：东侧是圣玛丽教堂，西侧是纺织会馆，南侧是市政厅塔楼。<strong>石板下埋藏着14世纪的排水系统</strong>，至今仍在使用。这里的每一块砖，都曾听过马车的轮声、商贩的吆喝与国王的宣告。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1794年，科希丘什科起义</strong> 在此宣誓。塔德乌什·科希丘什科站在广场上，向市民宣读了起义誓词，号召全民反抗俄国和普鲁士的瓜分。广场成了民族意志的熔炉。<strong>二战期间，纳粹占领的阴影笼罩</strong>。广场被更名为“阿道夫·希特勒广场”，犹太人被驱赶至此，集中点名。纺织会馆的拱廊下，曾回荡着绝望的脚步声。<strong>1989年，团结工会的浪潮又一次涌向广场</strong>。数十万克拉科夫市民手持蜡烛，在广场上静默抗议，推倒了东欧铁幕的第一块砖。建筑本身也是历史的见证者：<strong>纺织会馆</strong>（Sukiennice）在文艺复兴时期被扩建为宏伟的拱廊式贸易大厅，如今楼下售卖琥珀与木雕，楼上则是 <strong>19世纪波兰绘画馆</strong>。<strong>市政厅塔楼</strong> 倾斜了1.8米，却依然矗立，像一位驼背的老人，守着广场的秘密。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>尼古拉·哥白尼</strong>，这位颠覆人类宇宙观的波兰天文学家，青年时代曾在克拉科夫大学（雅盖隆大学）求学。<strong>1473年</strong> 出生于托伦的哥白尼，<strong>1491年</strong> 来到克拉科夫，当时大学距广场步行不过五分钟。他每天穿过广场去上数学与天文学课，也许曾在纺织会馆的拱门下躲雨，也许在广场的集市上买过羊皮纸。<strong>虽然没有确凿史料证明他曾在广场驻足</strong>，但克拉科夫当地人坚信：这位仰望星空的人，必定在广场的石板上留下了沉思的脚印。今天的广场东北角有一块铜牌，标记着哥白尼曾居住的宿舍旧址。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我常常在傍晚走过主广场，看圣玛丽教堂的尖顶刺破暮色。星空就在头顶——我必须知道，那转动的一切，究竟有怎样的秩序。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——后人引述的哥白尼学生笔记（可能源自他晚年回忆）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一位与广场深深羁绊的名人是 <strong>卡罗尔·沃伊蒂瓦</strong>——后来的教皇 <strong>约翰·保罗二世</strong>。他于 <strong>1964年</strong> 成为克拉科夫大主教，常年在广场主持弥撒。<strong>1978年</strong> 当选教皇后，他先后 <strong>四次</strong> 回到广场，在圣玛丽教堂前的临时祭坛上，对着数十万信徒讲道。最近的一次是 <strong>2002年</strong>，年迈的教皇坐在敞篷车上绕广场巡游，信徒们泪流满面。广场上那扇 <strong>真正的“圣门”</strong>——位于圣玛丽教堂入口——就是他亲手开启的。广场的每一场露天弥撒，都成了克拉科夫人与教皇之间无声的契约：广场不仅是贸易中心，更是灵魂归处。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>圣玛丽教堂的号角声</strong>，是中央广场的灵魂。传说 <strong>1241年</strong> 鞑靼人突袭克拉科夫时，守卫在教堂塔楼的号手看到敌军逼近，立刻吹响警报。一支羽箭贯穿了他的喉咙，号声戛然而止。自此，每到整点，号手会吹响一首 <strong>《海纳尔》</strong>（Hejnał）旋律，但在第4个小节突然中断，以纪念那位英雄。<strong>这个传统从14世纪延续至今</strong>，从未因战争或暴风雪停止。另一个关于鸽子的传说：12世纪，一位王子被巫婆陷害变成鸽子，只有广场上的石板才能让他恢复人形。可鸽子们迷恋这里的玉米粒，竟拒绝归位。所以如今广场上成百上千只鸽子永远不会飞离——它们仍在替王子等待。当地人相信，喂鸽子的游客会得到好运。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂克拉科夫中央广场，就是读懂整个中欧的韧性——它曾被蒙古铁骑踏碎、被纳粹改名、被冷战分割，却始终保持着1257年的棋盘格局。<strong>这里是哥白尼的启蒙地，是教皇的布道台，也是号手殉职的哨岗。</strong> 广场的石板吸收了几百年的脚步声，每一声叹息都藏进了圣玛丽教堂的彩色玻璃里。当你坐在纺织会馆的露天咖啡馆，看着市政厅塔楼的影子缓缓移动，你触摸到的不是静态的旅游纪念品，而是流动的历史脉搏。<strong>👉</strong> 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/rezerwat-przyrody-parkowe-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    帕\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">帕尔科韦自然保护区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Rezerwat przyrody Parkowe</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/narew-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    纳\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">纳雷夫国家公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Narew National Park</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/park-grodek-jaworzno\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格鲁代克公园 - 雅沃兹诺</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Park Gródek - Jaworzno</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "rezerwat-przyrody-parkowe-history",
+          "name": "帕尔科韦自然保护区",
+          "englishName": "Rezerwat przyrody Parkowe"
+        },
+        {
+          "slug": "narew-national-park",
+          "name": "纳雷夫国家公园",
+          "englishName": "Narew National Park"
+        },
+        {
+          "slug": "park-grodek-jaworzno",
+          "name": "格鲁代克公园 - 雅沃兹诺",
+          "englishName": "Park Gródek - Jaworzno"
+        }
+      ]
+    }
+  ]
+}

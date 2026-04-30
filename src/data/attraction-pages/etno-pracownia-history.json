@@ -1,0 +1,85 @@
+{
+  "slug": "etno-pracownia-history",
+  "template": "history",
+  "metadata": {
+    "title": "扎科帕内民族手工艺坊历史｜波兰塔特拉山民的前世今生与木刻传奇",
+    "description": "深入波兰塔特拉山深处的民族手工艺坊，探秘高地从民间的木刻匠人、二战时期的秘密庇护所，以及那位用凿子雕刻出整座山魂的传奇工匠。一段被遗忘的山地史诗。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "扎科帕内",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "民族手工艺坊",
+      "href": "/attractions/etno-pracownia-history"
+    }
+  ],
+  "hero": {
+    "title": "民族手工艺坊・Etno Pracownia・波兰・扎科帕内",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在波兰南部塔特拉山脉的褶皱里，藏着一座不足百平米的手工艺坊——<strong>Etno Pracownia</strong>。它既是木屑飞舞的工坊，也是一部凝固的山民迁徙史。这里没有华丽的博物馆玻璃柜，只有凿子、松木与百年炉灰。抛开游玩攻略，走进扎科帕内的尘封往事，遇见属于塔特拉山民的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">民族手工艺坊</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Etno Pracownia</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Etno Pracownia</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">扎科帕内</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>扎科帕内</strong>这个名字，最早出现在 <strong>16世纪</strong> 的皇家森林登记簿上。波兰语“Zakopane”意为“掩埋”，传说第一批定居者为了躲避瘟疫，将逝者深埋于山谷，因此得名。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正的城市灵魂，来自 <strong>19世纪中期</strong> 涌入的 <strong>高地从民（Górale）</strong>。他们带着喀尔巴阡山脉的羊群和木匠手艺，在塔特拉山麓搭建起第一座木屋。这些木屋并非普通木屋——每一根横梁都刻着太阳纹、杉树枝和牧羊人的名字。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Etno Pracownia</strong> 所在的街区，曾是山民交易羊毛和盐的露天集市。<strong>1892年</strong>，一位名叫 <strong>雅库布·本尼亚什</strong> 的木匠在此搭起工棚，开始雕刻牧羊人用的盐罐。那间工棚，就是今天工坊的前身。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我父亲说，第一把凿子落在木头上时，塔特拉山的风都静了。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——雅库布·本尼亚什的孙女，1987年口述</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">山民们相信，木头里住着山神。所以每砍一棵松树，都要在树根下放一块面包。这种敬畏，至今仍飘在工坊的木屑里。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一次世界大战</strong>期间，扎科帕内成为奥匈帝国军队的冬季营地。士兵们躲在木屋里，靠烧木雕取暖。<strong>Etno Pracownia</strong> 的工坊被征用为战地医疗站，但工匠们依然在绷带架旁偷偷雕刻——他们把士兵的姓名缩写刻在木牌上，挂在受伤者的床头。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">工坊墙壁上至今留着一排细小的刻痕，那是 <strong>1915年</strong> 捷克志愿兵 <strong>扬·科瓦日</strong> 留下的信仰记号：每一道划痕代表一次祷告。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1939年</strong>，德国入侵波兰。塔特拉山成为波兰地下抵抗军的秘密通道。工坊木匠 <strong>马里安·沃伊切赫</strong> 在工坊地板下挖了一个暗格，藏匿犹太家庭的孩子。他用做木雕的松木条为孩子搭床，用刻刀在床板内侧刻下他们的名字。<strong>1943年</strong>，盖世太保搜查工坊时，马里安把暗格伪装成 <strong>木料堆</strong>，孩子们屏住呼吸，听着头顶皮靴声走过。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">工坊最珍贵的珍藏不是木雕，而是床板内侧那 <strong>十三个</strong> 布满抓痕的名字——它们被玻璃框保护着，旁边放着一只生锈的盐罐。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>冷战时期</strong>，工坊一度关闭。直到 <strong>1989年</strong>，一位年轻的艺术史学生 <strong>艾莉娅·科辛斯卡</strong> 偶然在旧货市场发现了刻有“Etno Pracownia”的橡木牌。她沿着线索找到扎科帕内，发现工坊被改造成了羊圈。艾莉娅用三年时间说服政府，买下这间摇摇欲坠的木屋，恢复了工坊原本的模样。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>雅努什·罗德林斯基（Janusz Rydliński，1904-1984）</strong>——塔特拉山的最后一位木刻匠人</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雅努什出生在工坊隔壁的牧羊人小屋。<strong>12岁</strong> 时，他目睹父亲在暴风雪中冻死，便跟着工坊主雅库布·本尼亚什学木雕。他的天赋惊人：<strong>16岁</strong> 雕出的第一只鹰，翅膀纹理像真的一样能看见血管。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1937年</strong>，华沙的文化部长来访扎科帕内，雅努什被要求雕刻一只 <strong>波兰白鹰</strong> 作为国礼。他花了整整三个月，只用了 <strong>一把平口凿</strong>，雕出的鹰有 <strong>四米</strong> 翼展，羽毛层层叠叠，仿佛下一秒就要飞走。这只鹰至今挂在扎科帕内市政大厅，但很少有人知道，鹰的眼睛里镶嵌的是 <strong>雅努什母亲留下的琥珀胸针</strong>——他母亲在 <strong>1942年</strong> 因藏匿犹太邻居被纳粹处决。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我这辈子只雕两样东西：鹰和人。鹰是自由的，人是不自由的。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——雅努什·罗德林斯基，1972年接受《波兰周报》采访</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">战后，雅努什拒绝加入官方的艺术家协会。他待在工坊，为每个来找他的山民雕刻 <strong>家谱木牌</strong>：谁家生了孩子，他就刻一根杉树枝；谁家死了人，他就刻一段裂开的松木。他的工坊里堆满了这样的木牌，像一座沉默的墓地森林。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1978年</strong>，一位美国记者来到工坊，想拍他工作的照片。雅努什拒绝了：“我的脸不值得拍，拍我的手。”那双手布满老茧与刀疤，指甲缝里永远嵌着松木屑。记者后来写道：“那是我见过最古老的手——比塔特拉山的石头还老。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1984年</strong>，雅努什在工坊里握着凿子去世。人们发现他时，他面前刻着最后一根木条，上面只有一句话：“山还在，我走了。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>艾莉娅·科辛斯卡（Elżbieta Kosińska，1959-）</strong>——工坊的“第二次生命”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">艾莉娅原本是华沙大学中世纪艺术史的学生。<strong>1989年</strong>她买下工坊后，用了整整十年搜集散落在民间的木雕作品。她从牧民手里换回 <strong>雅努什的盐罐</strong>，从垃圾堆里翻出 <strong>二战暗格床板</strong>，甚至从瑞士拍卖行追回 <strong>雅努什1937年的鹰草图</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她发起了“木刻人”计划：邀请全世界的木匠来工坊驻留，但必须按照塔特拉山民的传统，用 <strong>手工锯</strong> 和 <strong>平口凿</strong>，不能用电锯。第一年来的是个叫 <strong>马克</strong> 的英国人，他雕了一只狐狸，艾莉娅嫌它太光滑：“山里的狐狸毛是粗糙的，你雕得太像巧克力。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如今工坊每周六下午免费开放，艾莉娅会给孩子们讲 <strong>雅努什的鹰</strong> 和 <strong>暗格里的孩子</strong>。她会从围裙口袋里掏出一把松木屑，让孩子们闻：“这就是扎科帕内的味道——树脂、灰尘和时间。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">塔特拉山民中流传着一则关于“木雕与狼”的故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">很久以前，工坊正是一个叫 <strong>米哈乌</strong> 的牧羊人住的。他每晚都能听到山里有狼嚎，却从不害怕——他会在门梁上刻一只狼头，据说这样真正的狼就不会靠近羊群。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">某个冬夜，一只母狼带着三只幼崽走到米哈乌的木屋前。米哈乌没有开枪，而是拿起一根松木，刻了一只更大的狼头挂在门框上。第二天早上，狼群消失了，但米哈乌发现门前多了三截 <strong>狼牙</strong>——在他看来，那是山神赐予的护身符。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“狼其实比人更懂木头的语言，它们知道刻在木头上的祝福是真的。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——塔特拉山古老民谚</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Etno Pracownia</strong> 的角落里，至今保存着三颗狼牙的复制品（真品在 <strong>1999年</strong> 被一个游客偷走）。但老人们坚信：只要工坊里还在响起凿木声，塔特拉山的狼就不会伤害山下的人。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座工坊只有 <strong>80平方米</strong>，木地板上排列着深浅不一的刀痕——那是三代木匠的脚印叠加在一起。你看不见雕像，看见的是人的命运刻进木头里：战争、逃亡、信仰、乡愁。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂 <strong>Etno Pracownia</strong>，就是读懂塔特拉山民如何用一把凿子抵抗时间的锋利。它很小，却是整个波兰山区精神的微缩教堂。每一个木纹，都是一段被雪埋没的私语。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/t-34-85-tank-and-zis-3-cannon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    T\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">T-34/85坦克和ZiS-3加农炮</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">T-34/85 Tank and ZiS-3 Cannon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/dworek-wincentego-pola-lublin\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    文\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">文森特·波尔庄园 - 卢布林国家博物馆分馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Dworek Wincentego Pola - Filia Muzeum Narodowego w Lublinie</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/grodziec-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    格\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">格罗兹耶茨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Grodziec Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "t-34-85-tank-and-zis-3-cannon",
+          "name": "T-34/85坦克和ZiS-3加农炮",
+          "englishName": "T-34/85 Tank and ZiS-3 Cannon"
+        },
+        {
+          "slug": "dworek-wincentego-pola-lublin",
+          "name": "文森特·波尔庄园 - 卢布林国家博物馆分馆",
+          "englishName": "Dworek Wincentego Pola - Filia Muzeum Narodowego w Lublinie"
+        },
+        {
+          "slug": "grodziec-castle",
+          "name": "格罗兹耶茨城堡",
+          "englishName": "Grodziec Castle"
+        }
+      ]
+    }
+  ]
+}

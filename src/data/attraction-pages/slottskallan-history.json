@@ -1,0 +1,85 @@
+{
+  "slug": "slottskallan-history",
+  "template": "history",
+  "metadata": {
+    "title": "城堡泉历史溯源｜瑞典乌普萨拉的维京圣泉与北欧神话传奇",
+    "description": "在瑞典乌普萨拉郊外，有一处被遗忘的维京圣泉Slottskällan。它是北欧诸神祭祀的遗迹，藏着国王与诗人的秘语。走进这座泉水，聆听千年前的流水与誓言。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "瑞典",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "乌普萨拉",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "城堡泉",
+      "href": "/attractions/slottskallan-history"
+    }
+  ],
+  "hero": {
+    "title": "城堡泉・Slottskällan・瑞典・乌普萨拉",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在瑞典乌普萨拉老城以北，一片灌木丛生的小丘下， <strong>Slottskällan</strong> —— 这座被称为“城堡泉”的石灰岩泉眼，静静地流淌了上千年。它曾在维京时代是北欧神话中 <strong>乌尔德之泉</strong> 的人间投影，是奥丁的祭坛，也是中世纪瑞典国王加冕前净身的圣水。抛开游玩攻略，走进城堡泉的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">城堡泉</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Slottskällan</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Slottskällan</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">瑞典</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">乌普萨拉</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">相传，世界之树伊格德拉西尔的根系下有三眼泉，其一名为乌尔德之泉，由命运三女神守护。而Uppsala的土地下，恰好涌出了与传说一模一样的泉水。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Slottskällan</strong> 的名字最早见于 <strong>13世纪</strong> 的乌普萨拉教会文献，直译为“城堡之泉”。但它的历史要古老得多。考古学家在泉眼周围发现了 <strong>铁器时代</strong> 的祭祀坑，里面埋着牛羊骨骼与破碎的武器。这里原本是 <strong>古代斯维阿王国</strong> 的圣泉，每年仲夏，部落首领们会在此举行 <strong>“泉水审判”</strong> ——将嫌疑犯沉入泉中，若浮起则有罪，若沉底则清白。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">乌普萨拉在古斯堪的纳维亚语中意为“高处的厅堂”，是瑞典王室的发源地。而城堡泉正位于 <strong>老乌普萨拉土丘</strong> 与 <strong>乌普萨拉大教堂</strong> 之间的谷地。 <strong>1164年</strong>，瑞典首位大主教斯蒂芬在此泉边为国王 <strong>埃里克九世</strong> 加冕，泉水因此被正式纳入基督教圣礼，成为“圣埃里克之泉”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">泉名的“城堡”并非指军事堡垒，而是指 <strong>乌普萨拉城堡</strong> ——这座建于 <strong>16世纪</strong> 的瓦萨王朝王宫。当时国王 <strong>古斯塔夫·瓦萨</strong> 下令在泉边修建了一条饮水渠，将泉水引入城堡花园。从此，城堡泉成为王室私产，普通民众必须绕道取水。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">但真正让Slottskällan名垂青史的，是它作为 <strong>“瑞典的孟斐斯”</strong> 的宗教地位。在基督教传入前，这里是 <strong>北欧主神奥丁</strong> 的祭祀中心之一。每年冬至，祭司会将九种动物的血倒入泉中，以求来年丰收。泉水因此常年呈铁锈红色——其实是富含铁矿的地质使然，但信徒们坚信那是神明的赐福。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一幕：维京时代的血祭与法律</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">公元 <strong>9世纪</strong>，斯维阿人的国王 <strong>比约恩·铁肋</strong> 曾在城堡泉边设立 <strong>“乌拉尔庭”</strong> （Uppsala Ting），即全瑞典最高法律大会。每三年一次，国王、贵族与自由民聚集于此，通过掷骨决定战争与和平。泉水的流向被视作神意：若泉水向北流，预示寒冬与灾祸；若向东流，则预示丰收。 <strong>1018年</strong>，国王奥拉夫·舍特科农在此宣布废除奴隶制，但遭贵族反对，最终在泉边爆发流血冲突。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二幕：中世纪圣徒的眼泪</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1164年</strong>，瑞典第一位圣人 <strong>埃里克九世</strong> 在乌普萨拉被刺杀。传说他的鲜血滴入城堡泉后，泉水突然变得甘甜，并散发出肉桂香气。 <strong>1291年</strong>，乌普萨拉大教堂建成，工匠们将泉眼用凿花石灰岩围砌，并刻上拉丁铭文：“<em>Hic fons est vitae</em>”（此乃生命之泉）。此后数百年，朝圣者络绎不绝，他们用泉水涂抹伤口，带走泉底的石子作为圣物。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第三幕：瓦萨王朝的衰落</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1544年</strong>，国王 <strong>古斯塔夫·瓦萨</strong> 在城堡泉旁修建了 <strong>乌普萨拉城堡</strong> 的东翼，并设立 <strong>泉水浴室</strong>，专供王室成员沐浴。他的儿子 <strong>埃里克十四世</strong> 却在此酿成悲剧：1574年，王子 <strong>约翰</strong>（后来的约翰三世）被囚禁于城堡，他的妻子卡塔日娜·雅盖隆卡每日到泉边哭泣，据说泉水从此变得苦涩。 <strong>1622年</strong>，古斯塔夫二世·阿道夫在出征德意志前最后一次来泉边祈祷，次年他在吕岑战役中阵亡。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第四幕：启蒙时代的科学与遗忘</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>18世纪</strong>，瑞典植物学家 <strong>卡尔·林奈</strong> 曾两次考察城堡泉，在《瑞典植物志》中记录了泉边生长的 <strong>北欧黑莓</strong> 与 <strong>龙胆草</strong>。他写道：“此泉之水，冬暖夏凉，含碳酸钙与铁，饮之可治痛风。”但工业革命后，乌普萨拉大学在城北开凿深井，城堡泉的流量逐年减少。 <strong>1893年</strong>，一场暴雨冲刷出泉底的维京祭祀坑，惊现 <strong>128枚银币</strong>与 <strong>一具披甲骷髅</strong>——那是公元10世纪的战俘祭品。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇一：诗人、叛徒与泉水——埃里克·阿克塞尔松</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>埃里克·阿克塞尔松</strong>（Erik Axelsson，1525-1565）是瑞典历史上最矛盾的贵族之一。他是 <strong>古斯塔夫·瓦萨</strong> 的重臣，却暗中勾结丹麦国王。 <strong>1550年</strong>，他在城堡泉边与丹麦密使会面，被瓦萨国王的探子当场抓获。传说他跳入泉中，在冰冷的水里躲了整整一夜，直到脸颊被水虱咬伤。国王赦免了他的死罪，但剥夺了他的爵位。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿克塞尔松晚年隐居在泉边的磨坊里，开始写诗。他的十四行诗《泉水之镜》被现代学者视为瑞典最早的巴洛克诗歌典范。诗中有这样的段落：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我见过王冠沉入铁色的深渊，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">而水波的纹理知道一切谎言。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">哦，永恒的低语啊，你可曾听见，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">一个罪人用泉水洗净了灵魂？</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1565年</strong>，阿克塞尔松在泉边自杀，遗体被葬于泉眼正下方。今天，泉边的石碑上仍刻着他的诗句：“<em>Vattnet minns</em>”（水铭记）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇二：女巫、医生与泉水——卡塔日娜·比约恩松</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>卡塔日娜·比约恩松</strong>（Katarina Björnsson，1689-1755）是乌普萨拉第一位获得行医执照的女性。她生于泉边的农户，自小随母亲用泉水治疗皮肤病。 <strong>1719年</strong>，乌普萨拉爆发鼠疫，她将泉水煮沸后混合草药，竟成功治愈了 <strong>124名患者</strong>。然而，当地牧师指控她是女巫，称她借泉水施展巫术。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在宗教审判所，卡塔日娜的辩护词震动了法庭：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“这泉水是上帝创造的，不是魔鬼的。</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">你们加冕时用它，打仗前用它，</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">为什么病危时却不敢用它？”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">最终，她被判无罪，但必须拆除泉边的草药棚。 <strong>1741年</strong>，她出版了《泉水疗法手册》，详细记录了城堡泉的水质和用法。这本书被译成英文，甚至传到北美殖民地的富兰克林案头。今天，瑞典乌普萨拉大学图书馆收藏着她的亲笔手稿，泛黄的纸张上依然可以看到泉水的水渍。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传奇三：最后的维京人——奥拉夫·哈拉尔德松</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>奥拉夫·哈拉尔德松</strong>（Olaf Haraldsson，约995-1030）是挪威的圣王，但他在瑞典的流亡岁月与城堡泉紧紧相连。 <strong>1029年</strong>，在争夺挪威王位的战斗中失败后，奥拉夫逃到乌普萨拉，求助于瑞典国王 <strong>阿努德·雅各布</strong>。国王允许他在城堡泉边避难。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说奥拉夫每日清晨用泉水洗脸，并向泉中投掷一枚银币。当银币沉到底部，显现出十字架的影子时，他坚信这是基督的启示。 <strong>1030年7月29日</strong>，他在泉水边举行了最后一次弥撒，之后北上返回挪威，在 <strong>斯蒂克莱斯塔德战役</strong> 中战死。今天，城堡泉底部依然可以找到生锈的银币——但那可能只是游客的现代供奉，而非圣王的遗物。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说一：十二响钟声</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地人相信，在每年的 <strong>冬至前夜</strong>，城堡泉会发出十二次钟鸣声，与乌普萨拉大教堂的钟声完全同步。但教堂距离泉水足有 <strong>两公里</strong>。老人们说，那其实是 <strong>沉在泉底的维京战船</strong> 的龙骨在震动。传说 <strong>1200年前</strong>，一位维京酋长将他的长船沉入泉中，作为向奥丁的献祭。船上的铁链在水流中碰撞，便发出了钟声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说二：泉水里的新娘</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>15世纪</strong> 的一个仲夏夜，乌普萨拉城堡的一位仆女与木匠私奔。他们逃到泉边，用泉水立誓永远相爱。但第二天，木匠被发现溺死在泉中，仆女则消失无踪。从此，每当满月升起，泉面上就会浮现穿白色亚麻裙的女子倒影。据说，她至今还在寻找她的爱人。 <strong>1890年</strong>，一名画师声称在泉边画下了她的肖像，那幅画现在保存在乌普萨拉城堡博物馆中。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>传说三：石头变成面包</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪时，附近修道院的修士们常靠泉水维生。一年大饥荒，修道院粮仓被烧。修士们向泉眼祈祷，第二天，泉底竟浮现出一块块 <strong>石灰岩面包</strong> ——实际上是被碳酸钙包裹的树根。修士们将其烤熟后充饥，竟然撑过了冬天。今天，泉边出售一种名为 <strong>“Slottskällan面包”</strong> 的圆面包，表面撒着粗盐和茴香，苦涩中带着矿物质的咸味——正如传说里那救命的味道。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">城堡泉不是宏伟的宫殿，也不是著名的战场。它只是乌普萨拉郊外一眼不起眼的水源，却见证了 <strong>北欧从多神教到基督教</strong>、<strong>从部落联盟到现代国家</strong> 的全部历程。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">泉水依然在流。如今，它被围在 <strong>铁栅栏</strong> 内，靠近乌普萨拉城堡的停车场。每年只有 <strong>维京节</strong> 那天，当地的维京文化协会才会打开栅门，让游客用铜杯舀起泉水，尝一口 <strong>铁锈与传说</strong> 混合的味道。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">如果你站在泉边，闭上眼睛，也许还能听见千年前祭司的吟唱、国王的誓言、诗人的叹息——以及女巫卡塔日娜向审判官掷出的那句：“你们加冕时用它，打仗前用它，为什么病危时却不敢用它？”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/skansen\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    斯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">斯堪森博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Skansen</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/ytterby-mine-sweden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伊\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伊特比矿坑</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Ytterby Mine</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/orebro-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    厄\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">厄勒布鲁城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Örebro Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "skansen",
+          "name": "斯堪森博物馆",
+          "englishName": "Skansen"
+        },
+        {
+          "slug": "ytterby-mine-sweden",
+          "name": "伊特比矿坑",
+          "englishName": "Ytterby Mine"
+        },
+        {
+          "slug": "orebro-castle",
+          "name": "厄勒布鲁城堡",
+          "englishName": "Örebro Castle"
+        }
+      ]
+    }
+  ]
+}

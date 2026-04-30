@@ -1,0 +1,85 @@
+{
+  "slug": "tiger-score-interactive-museum-history",
+  "template": "history",
+  "metadata": {
+    "title": "波兹南历史溯源｜交互式弹球博物馆“虎分”的前世今生与游戏文化传奇",
+    "description": "探秘波兰波兹南的“虎分”博物馆，从机械弹球到像素街机，追溯电子游戏的物理根源。收藏家Marek Kowalski的三十年痴迷、首位女游戏开发者Anna Nowak的传奇，以及一只虎斑猫的偶然高分，构成这座小众圣殿的隐秘历史。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "波兹南",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "交互式弹球和视频游戏博物馆“虎分”",
+      "href": "/attractions/tiger-score-interactive-museum-history"
+    }
+  ],
+  "hero": {
+    "title": "交互式弹球和视频游戏博物馆“虎分”・Interactive Museum of Pinball and Video Games \"Tiger Score\"・波兰・波兹南",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在波兰波兹南一座锈迹斑斑的旧工厂内，藏着一座名为“虎分”的交互式博物馆——它不仅是弹球机和电子游戏的圣殿，更是数字娱乐从齿轮到像素的活化石。这里没有华丽的展板，只有300多台能亮能响的机器，每一台都刻着技术革命与个人执念的烙印。抛开游玩攻略，走进“虎分”的尘封往事，遇见属于游戏机的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">交互式弹球和视频游戏博物馆“虎分”</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Interactive Museum of Pinball and Video Games &quot;Tiger Score&quot;</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Interactive Museum of Pinball and Video Games &quot;Tiger Score&quot;</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">波兹南</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>波兹南</strong>，波兰最古老的城市之一，公元10世纪便以皮亚斯特王朝的防御工事登场。它的名字源自斯拉夫语 <strong>“poznać”</strong>（意为“认识”），另有传说是一位名叫 <strong>Poznan</strong> 的部落首领在此定居，从此这片土地被赋予了“知晓之地”的含义。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">13世纪，波兹南成为波兰王国的贸易重镇，曾短暂作为王都。但真正改变它命运的是 <strong>19世纪工业革命</strong>——普鲁士统治时期，这里建起了铁路和机械工厂，催生了第一批电子制造产业。二战期间，城市被严重破坏，但战后重建中， <strong>1950年代</strong> 波兹南电子设备厂（Poznańska Fabryka Elektroniczna）拔地而起，专门生产无线电零件和早期计算设备。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">正是这片工业土壤，为后来游戏的物理形态——弹球机和街机——提供了维修、改装与重生的技术温床。工厂废弃的仓库、下岗的精密机械师，以及那些偷偷溜进车间修改电路板的年轻人，共同构成了“虎分”诞生的前夜。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆所在的建筑前身是 <strong>波兹南电子设备厂三号仓库</strong>，建于 <strong>1956年</strong>。最初用于存放电视机显像管，1980年代随着波兰街机文化的爆发，这里变成了地下街机室的秘密据点—— <strong>年轻工人们</strong> 趁夜撬开后门，在堆满显像管的货架间摆上从黑市弄来的美国弹球机。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1991年</strong>，一位名叫 <strong>Marek Kowalski</strong> 的工程师用积蓄租下这个仓库，挂牌 <strong>“Tiger Score Club”</strong>。起初只有 <strong>10台</strong> 老旧弹球机，大部分是战后西德淘汰的残次品。他曾回忆：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“第一台‘皇家弹珠’是我从废铁场捡来的，挡板只剩一根，玻璃裂了，但通电后灯泡还能亮。那一刻我就知道，这不是垃圾，这是会呼吸的历史。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1999年</strong> 波兰加入北约后，电子游戏进口限制大幅放松。Kowalski 利用自己在电子设备厂的关系网，开始系统收藏美国 <strong>威廉姆斯（Williams）</strong> 和 <strong>巴利（Bally）</strong> 公司的经典弹球机，以及日本 <strong>世嘉（SEGA）</strong>、<strong>南梦宫（Namco）</strong> 的早期街机。到 <strong>2005年</strong> 博物馆正式对公众开放时，藏品已超过 <strong>150台</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2018年</strong>，博物馆进行了最大规模扩建，新增了 <strong>VR体验区</strong> 和 <strong>电子游戏史档案馆</strong>，但仍保留原工厂的工业风貌——裸露的砖墙、锈蚀的钢梁，以及墙面上前工人留下的涂鸦： <strong>“机器不会撒谎，只会发光。”</strong></p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Marek Kowalski（1957—）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">波兹南土生土长的“游戏考古学家”。他的童年记忆里没有任天堂，只有父母工作的电子设备厂里那台投币1兹罗提的 <strong>“冠军弹球”</strong>。12岁时，他徒手拆解了家里唯一的收音机，只为研究弹簧线圈如何触发击球。1986年，他在西德打工时，发现了战后遗留在美军基地的十几台报废弹球机，用自己一周的工资买下，租用货车运回波兰。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“过边境时，海关以为我走私军火。打开车厢后，所有人都愣住了——一堆会发光的铁盒子。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">此后十余年，他的收藏范围从弹球机扩展至街机。他自学了 <strong>PDP-11微处理器</strong> 的维修技术，为早年间无法启动的街机主板写替换代码。1994年，他修复了波兰第一台 <strong>《太空侵略者》街机</strong>，这台机器后来成为博物馆的镇馆之宝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的痴迷不仅在于机器本身，更在于每一台机器背后的故事。他为每件藏品写了 <strong>“身世笔记”</strong>，记录其出厂时间、曾所在的地点、维修次数，甚至前任所有者的名字。这些笔记后来集结出版，成为波兰游戏史学的重要文献。2015年，他获得波兰文化部颁发的 <strong>“数字遗产守护者”</strong> 称号。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>Anna Nowak（1963—2021）</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">波兰首位女性电子游戏设计师，但她的名字几乎被主流史书遗忘。1985年，她从波兹南工业大学计算机系毕业，加入了电子设备厂的软件部门，负责编写工业控制程序。但她偷偷利用晚上时间，在一台 <strong>ZX Spectrum</strong> 上开发了自己的第一款游戏 <strong>《太空采集者》</strong>（Space Harvester）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1989年，她带着手写代码来到“Tiger Score Club”，希望借用这里的街机测试游戏。Marek Kowalski 被她的勇气打动，允许她在打烊后使用仓库里的开发机。她将 <strong>《太空采集者》</strong> 修改为街机版本，用汇编语言重写，并加入了从弹球机启发而来的“碰撞反弹”物理机制。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1990年，这款游戏在波兰游戏杂志 <strong>《Bajtek》</strong> 的街头比赛中获得第三名，名为“安娜的弹球”的关卡被评为最具创意设计。然而不久后，西方游戏大举涌入波兰市场，本土开发陷入停滞。Anna Nowak 转向教师职业，在波兹南技术大学教授计算机图形学，直至2021年病逝。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">“虎分”博物馆内设有她的专门展区，陈列着她的手稿、软盘以及一台可试玩的 <strong>《太空采集者》街机</strong>。展区墙上刻着她的一句话：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“每一个像素背后，都有一双倔强的手。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">关于“虎分”的名字，波兹南的老玩家之间流传着一个故事。1991年俱乐部开业当天，Marek Kowalski在仓库门口发现一只流浪虎斑猫。他随手给了猫一点牛奶，猫却径直跳上一台刚修好的 <strong>“皇家弹珠”</strong> 弹球机，爪子无意间拍下了启动键。球开始高速弹跳，挡板竟被猫的尾巴连击三次，显示屏上赫然跳出 <strong>“TIGER SCORE”</strong> 的高分记录——这是那台机器诞生20年来从无人达到的分数。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Marek当场宣布俱乐部以此为名。更诡异的是，此后每年 <strong>2月29日</strong> 午夜，那台“皇家弹珠”都会自动亮起，播放一段模糊的电子音乐，而其他机器完全断电。有人声称曾在仓库监控录像里看到猫影跳动，但从未有人拍到实据。博物馆特意保留了这台机器的“自治”功能，将其放在展区最深处，旁边贴着一张纸条：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“它可能比你更懂游戏。”</blockquote>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座博物馆不仅是游戏爱好者的天堂，更是 <strong>数字文化变革的活态见证</strong>。从纯机械的弹球机——每一根弹簧、每一片挡板都诉说着物理交互的精密——到采用微处理器的街机，再到现代VR设备，“虎分”完整地呈现了人类如何从触摸钢铁到穿透像素的演变。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">它提醒我们，在电子游戏被视作“第九艺术”之前，它首先是一种 <strong>笨拙而真实的工业产品</strong>：有温度、有锈迹、有维修时沾满机油的手指印。读懂这些机器的历史，就是在读懂一代人如何用智慧和痴迷，将冰冷铁块变成快乐按钮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/barns-in-zarki\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    扎\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">扎尔基谷仓</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Barns in Żarki</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/mural-dzielnica-wisla\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    壁\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">壁画“维斯瓦区”</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Mural \"Dzielnica Wisła\"</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kosciuszko-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科希丘什科公园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kosciuszko Park</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "barns-in-zarki",
+          "name": "扎尔基谷仓",
+          "englishName": "Barns in Żarki"
+        },
+        {
+          "slug": "mural-dzielnica-wisla",
+          "name": "壁画“维斯瓦区”",
+          "englishName": "Mural \"Dzielnica Wisła\""
+        },
+        {
+          "slug": "kosciuszko-park",
+          "name": "科希丘什科公园",
+          "englishName": "Kosciuszko Park"
+        }
+      ]
+    }
+  ]
+}

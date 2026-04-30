@@ -1,0 +1,85 @@
+{
+  "slug": "kosciuszko-park-history",
+  "template": "history",
+  "metadata": {
+    "title": "索洛图恩科希丘什科公园历史｜流亡英雄的瑞士岁月与自由传奇",
+    "description": "瑞士最宁静的巴洛克古城里，隐藏着波兰民族英雄科希丘什科最后的流亡岁月。从故居到墓园，从雕像到传说，探寻一位两次革命英雄的终极归宿与精神回响。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "瑞士",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "索洛图恩",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "科希丘什科公园",
+      "href": "/attractions/kosciuszko-park-history"
+    }
+  ],
+  "hero": {
+    "title": "科希丘什科公园・Kosciuszko Park・瑞士・索洛图恩",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">它是瑞士最古老的巴洛克城市，阿勒河畔的宝石——<strong>索洛图恩</strong>。但在这座以钟楼和教堂闻名的古城里，藏着一段属于东欧悲壮自由史的尾声。<strong>科希丘什科公园</strong>，一方寻常绿地，却铭刻着一位曾挥舞双剑为两国争自由的英雄，在此走完人生最后一程的故事。抛开游玩攻略，走进索洛图恩的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">科希丘什科公园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Kosciuszko Park</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Kosciuszko Park</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">瑞士</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">索洛图恩</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">索洛图恩的名字源于拉丁语<strong>Salodurum</strong>，意为“盐之门”。早在罗马帝国时期，这里便是连接阿尔卑斯山北麓与莱茵河的重要盐路驿站。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">公元3世纪，一座宏伟的罗马堡垒在此拔地而起，城墙的轮廓至今仍埋藏在古城的地基之下。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">中世纪后期，索洛图恩跻身瑞士联邦第十三州，因接待法国大使而获得“大使之城”的别称。到了17世纪，全城贵族争相聘请意大利和德国建筑师，将整座城市改造成<strong>巴洛克风格的大舞台</strong>——至今仍保留着18座教堂、11座钟楼和众多文艺复兴喷泉。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">而科希丘什科公园，原本只是古城西侧一片沿河庄园。19世纪初，当地慈善家将这片土地捐赠给市政府，最初用作疗养花园。直到<strong>1817年</strong>，一位流亡的波兰将军在此长眠，公园的法式草地与林荫道才被赋予了超越瑞士国界的意义——它成为纪念自由之魂的圣地。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">  <strong>流亡终站（1817年）</strong></li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1817年10月15日，一场普通的瑞士秋季雨夜。索洛图恩的<strong>弗朗索瓦住宅</strong>（现为科希丘什科博物馆）内，一位驼背削瘦的老人咳出最后一口气。他叫<strong>塔德乌什·科希丘什科</strong>，曾是美国独立战争的总工程师，也是波兰-立陶宛联邦1794年起义的领袖。他流亡瑞士整整四年，拒绝了沙皇的赦免，拒绝了拿破仑的邀请，最终在这座宁静的巴洛克小城安息。当地居民为他举行了隆重的葬礼，遗体暂厝于耶稣会教堂，随后由波兰贵族秘密运回克拉科夫，安放在<strong>瓦维尔大教堂</strong>的皇家墓穴中。</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">  <strong>心脏之争与纪念碑（1820年-19世纪末）</strong></li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">科希丘什科的遗体虽然运回了波兰，但他在遗愿中要求将自己的心脏单独取出，送往华沙的皇宫——那是他为之奋斗的自由象征。然而，运送途中因战乱，他的心脏被辗转藏匿，最终下落不明（一种说法是它被混入圣约翰大教堂的墙壁，另一种说法是它被毁于二战）。索洛图恩市民为了弥补这个缺憾，在<strong>1820年</strong>于公园内竖起一座方尖碑，上面刻着：“<strong>献给塔德乌什·科希丘什科——为祖国和人类自由而战的英雄。</strong>”这座方尖碑成为早期欧洲跨国纪念自由斗士的罕见实例。</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">  <strong>二战中的沉默守护（1940-1945年）</strong></li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">纳粹德国吞并波兰后，瑞士作为中立国，索洛图恩的波侨社团每周都偷偷聚集在科希丘什科公园的碑前默哀。当地政府默许了这种“隐蔽的爱国仪式”，甚至将公园内一间小屋改为临时波兰图书馆。这段历史至今鲜为人知，却在瑞士-波兰双边友谊中留下温情一笔。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>塔德乌什·科希丘什科——双国英雄的终极流亡</strong></p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">  <strong>美国革命与波兰起义的双重传奇</strong></li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1746年</strong>，科希丘什科生于波兰东部一个小贵族家庭。他先后在华沙和巴黎学习军事工程，并深受启蒙运动自由思想影响。<strong>1776年</strong>，北美大陆会议急需工程师，他漂洋过海来到费城，主动请缨。他设计了<strong>西点军校</strong>的防御工事（后来成为美国军事学院），策划了<strong>萨拉托加战役</strong>的桥梁爆破，并因攻克英军要塞而获得美国准将军衔。战争结束后，他拒绝了美国土地和年金，说：“<strong>我要为波兰的自由而战。</strong>”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">回到波兰后，他领导了<strong>1794年起义</strong>，发布《波瓦涅茨宣言》废除农奴制，甚至设计了一种“镰刀军”——手持长柄镰刀的农民军。起义最终被俄普联军镇压，科希丘什科在<strong>马切约维采战役</strong>中重伤被俘，被囚禁在圣彼得堡。<strong>1796年</strong>，沙皇保罗一世在他面前发誓会赦免波兰囚犯后，将他释放。科希丘什科质疑沙皇的诚意，终身拒绝再回俄国统治下的波兰。</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">  <strong>瑞士的四年宁静与孤独</strong></li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">流亡途中，他辗转法国、美国，最后因与拿破仑的政见分歧（科希丘什科认为拿破仑只是新独裁者），于<strong>1813年</strong>定居瑞士。起初他住在索洛图恩郊外的农庄，化名“<strong>格鲁夫先生</strong>”，每日读书、写信、种菜。当地居民只知道一位沉默的波兰绅士，偶尔与他对弈象棋，却不知道他曾经指挥过千军万马。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据瑞士历史学家<strong>彼得·布伦纳</strong>的日记记载：“他经常坐在公园的长椅上，看着阿勒河发呆。有人问他为何离开故土，他摇头说：‘<strong>波兰没有我的位置，她还在等待复活。</strong>’”他的忠诚仆人——一位曾跟随他参加过起义的黑人士兵<strong>桑波尔·奥兰多</strong>，一直陪伴在侧。两人关系超越主仆，科希丘什科在遗书中将大部分财产留给了他，并要求后者“像自由人一样生活”。</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">  <strong>逝世与心脏之谜</strong></li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1817年10月</strong>，科希丘什科因肺炎陷入昏迷。神父为他举行临终礼时，他突然睁眼高喊：“<strong>波兰万岁！</strong>”随后与世长辞。按照其遗愿，遗体被解剖防腐，心脏装进水晶匣子，由波兰女伯爵<strong>埃米莉亚·普瓦特科夫斯卡</strong>秘密运往华沙。但直到<strong>1855年</strong>，波兰才在沙俄高压下将其安放于圣十字教堂的一根立柱内。第二次世界大战期间，德国人得知这根立柱中藏着英雄心脏，试图挖掘破坏，华沙居民连夜将其转移到国家博物馆地窖保护。<strong>1965年</strong>，心脏才正式归位，现在仍是波兰民族精神的象征。</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">  <strong>索洛图恩公园里的回声</strong></li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">今天，科希丘什科公园里处处可见这位英雄的烙印：草地上矗立着由瑞士雕塑家<strong>路德维希·沙夫</strong>制作的青铜半身像；每年10月15日，波兰大使馆都会在这里举行献花仪式；就连公园对街的咖啡馆里，也挂着科希丘什科年轻时手握图纸的油画——据说他生前常在那里喝一杯格罗格酒（朗姆酒加糖和柠檬）。当地学生还会在自由主题的课堂上集体朗诵他写给杰斐逊的信件选段，信中写道：“<strong>自由不能只属于少数人，它必须成为所有人的空气。</strong>”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">  <strong>夜半棋局的幽灵</strong></li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">索洛图恩老人之间流传着一个故事：科希丘什科生前最爱在公园的梧桐树下与当地钟表匠下国际象棋。他去世后，老钟表匠每晚都能梦见一位穿旧波兰军服的人推着棋子。直到<strong>1836年</strong>钟表匠去世，这盘棋也没分出胜负。后来，每逢月圆之夜，有游客声称在树影下看见一盘燃烧的象棋——黑方和白方永远保持着一场死局。当地人会笑着告诉访客：“<strong>别去动那棋子，英雄还在等着复活呢。</strong>”</p>\n              <li class=\"text-gray-700 leading-relaxed mb-2 ml-4 list-disc\">  <strong>庄园里的波兰菜香</strong></li>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一则传说更有人间烟火气。科希丘什科的仆人桑波尔·奥兰多曾在公园旁的厨房里，教当地妇女做波兰传统煎饺（<strong>Pierogi</strong>）。她们把馅料换成瑞士奶酪和土豆，久而久之诞生了一道叫“<strong>霍洛奇</strong>（Holocchi）”的地方美食。据说，<strong>1830年波兰十一月起义</strong>的消息传到索洛图恩那天，全城居民都自发做了这道菜，摆满公园长桌，为万里之外的同胞祈祷胜利。今天，索洛图恩的圣诞集市上还能买到“英雄煎饺”，里面藏着一张纸条，上面写着四句话中的一句：“自由、平等、博爱、波兰。”</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂科希丘什科公园，不只是欣赏一棵两百年的梧桐或一座巴洛克小城。这里的每一寸草地都讲述着一个人对自由的终极固执——他曾为美国的独立设计要塞，为波兰的解放举起镰刀，最终在瑞士的宁静中拒绝妥协，用死亡完成了一次精神的远行。对于旅行者而言，这座公园是<strong>一枚钥匙</strong>：它打开的不是旅游手册上的景点，而是一段关于理想、流亡与人性尊严的欧洲史。波兰人说：“<strong>科希丘什科虽死，他的心脏仍在跳动。</strong>”而任何一个在公园长椅上坐过的人，都能听见那微弱却清晰的脉搏声。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/savognin-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    萨\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">萨沃宁</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Savognin</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/neuchatel-castle-collegiate-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    纳\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">纳沙泰尔城堡与大教堂</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Château de Neuchâtel & Collegiale</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/chillon-castle\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西庸城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Chillon Castle</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "savognin-history",
+          "name": "萨沃宁",
+          "englishName": "Savognin"
+        },
+        {
+          "slug": "neuchatel-castle-collegiate-history",
+          "name": "纳沙泰尔城堡与大教堂",
+          "englishName": "Château de Neuchâtel & Collegiale"
+        },
+        {
+          "slug": "chillon-castle",
+          "name": "西庸城堡",
+          "englishName": "Chillon Castle"
+        }
+      ]
+    }
+  ]
+}

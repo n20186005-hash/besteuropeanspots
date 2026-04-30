@@ -1,0 +1,85 @@
+{
+  "slug": "dinoworld-krakow-history",
+  "template": "history",
+  "metadata": {
+    "title": "克拉科夫恐龙传说与历史溯源｜迪诺世界的巨兽之谜与瓦维尔龙传奇",
+    "description": "在波兰克拉科夫的迪诺世界，远古恐龙与中世纪恶龙传说交织。揭秘瓦维尔龙、鞋匠英雄与波兰民族创世故事，走进这座地下宫殿的尘封时光。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "波兰",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "克拉科夫",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "迪诺世界克拉科夫",
+      "href": "/attractions/dinoworld-krakow-history"
+    }
+  ],
+  "hero": {
+    "title": "迪诺世界克拉科夫・Dinoworld Krakow・波兰・克拉科夫",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>克拉科夫</strong> 的迪诺世界不是一座普通的恐龙主题馆，它是波兰地质史与中世纪神话交汇的密室。当你在逼真的恐龙骨架间穿行，脚下埋藏的不仅是侏罗纪的化石，还有 <strong>瓦维尔龙（Smok Wawelski）</strong> 的千年传说——那条被鞋匠巧计杀死的恶龙，至今仍在瓦维尔山下的洞穴中回荡着吼声。抛开游玩攻略，走进迪诺世界的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">迪诺世界克拉科夫</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Dinoworld Krakow</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Dinoworld Krakow</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">波兰</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">克拉科夫</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">克拉科夫最早的定居点诞生于 <strong>7世纪</strong> 的瓦维尔山丘。传说 <strong>克拉克（Krak）</strong> 王子在此建立城堡，杀死了一条盘踞在维斯瓦河边的恶龙。<strong>城市之名</strong>便源于这位屠龙英雄——“Kraków”意为“克拉克之地”。但考古学家在瓦维尔山下的石灰岩洞穴中，真的发现了猛犸象、洞熊甚至 <strong>侏罗纪恐龙</strong> 的骨骼碎片。这些远古遗骸被中世纪居民视为“龙骨”，成为传说最坚硬的底本。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到 <strong>19世纪末</strong>，波兰古生物学家在克拉科夫附近的 <strong>奥伊楚夫国家公园</strong> 挖掘出完整的 <strong>蜥脚类恐龙化石</strong>，震惊欧洲。人们才明白：瓦维尔山下的龙，或许就是那些沉睡了一亿五千年的巨兽。1932年，这些化石被移入 <strong>克拉科夫科学院</strong>，成为后来迪诺世界的镇馆之宝。<strong>迪诺世界</strong> 本身则诞生于 <strong>2010年</strong>，由一群地质学家与民俗学家共同打造——他们要让恐龙与恶龙在同一个空间里对话，复活波兰人心中的大地创世记。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1815年维也纳会议</strong> 将克拉科夫划为自由市，波兰人在这夹缝中拼命保存民族记忆。老城的集市广场上， <strong>圣玛利亚教堂</strong> 的号手每整点吹响 <strong>《海纳尔号角》</strong> ——那是为了纪念13世纪被鞑靼人一箭射死的号手。而在瓦维尔山下，考古学家正悄悄发掘着 <strong>“龙洞”</strong> 。洞中有 <strong>9世纪</strong> 的篝火灰烬，也有 <strong>白垩纪</strong> 的恐龙蛋碎片。这两种截然不同的时间刻度，被同一片石灰岩保存了千年。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二战期间</strong>，纳粹占领克拉科夫，将瓦维尔城堡改为总督府。迪诺世界所在的建筑原址本是一座19世纪的 <strong>啤酒厂地窖</strong>，被德军改建成防空洞。幸运的是，古生物学家提前将最珍贵的恐龙化石用石膏包裹，藏在奥伊楚夫森林的地下掩体中。<strong>1945年</strong> 苏联红军解放克拉科夫时，这些化石竟完好无损。战后，科学家在防空洞里重建了展厅，正是如今迪诺世界的雏形。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1990年代</strong>，波兰转型，迪诺世界获得欧盟资助，引入全息影像与互动声景。设计者故意保留了 <strong>瓦维尔龙洞穴</strong> 的原始砂岩墙壁，并在恐龙骨架旁放置了中世纪手抄本。上面画着一位手持 <strong>皮靴</strong> 的鞋匠——他的故事，是这座城市最有趣的彩蛋。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>屠龙鞋匠斯克乌巴（Skuba）</strong></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“那条龙盘踞在瓦维尔山顶，每天都要吃一头牛。如果村民不给，它就吞掉最漂亮的姑娘。国王悬赏：谁能杀死恶龙，就把女儿嫁给他。无数骑士死去，直到一个穷鞋匠站了出来……”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——15世纪波兰编年史家 <strong>扬·德武戈什</strong> 记载的民间歌谣</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>斯克乌巴</strong> 并非真名，民间称他为 <strong>“斯克乌巴”</strong> （意为“皮匠”）。他没有刀剑，只用牛皮缝了一只巨大的靴子，在里面塞满硫磺和焦油。他把“靴子”扔在龙洞门口，恶龙吞下后，腹中火烧，冲到维斯瓦河边狂饮河水。最后肚子爆炸，龙倒地死去。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这场看似幼稚的计谋，在 <strong>波兰民族精神</strong> 中象征着：智慧胜过蛮力，平民亦可拯救国家。迪诺世界专门设置了一处沉浸式戏剧空间：游客坐在 <strong>19世纪皮革作坊</strong> 的复制品里，听着斯克乌巴的独白——背景是恐龙骨架的阴影与中世纪的教堂钟声。这里的鞋匠形象不是漫画英雄，而是有着皱纹、沉默寡言的真实匠人。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>古生物学家兹比格涅夫·古拉（Zbigniew Góra）</strong></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我祖父告诉我，瓦维尔山下面有巨龙的牙齿。我挖了三十年，终于明白他不是在说龙，而是在说我们波兰人的根。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——兹比格涅夫·古拉1972年日记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>兹比格涅夫·古拉</strong>（1902-1987）是波兰古生物学的奠基人。他的大半生都在 <strong>奥伊楚夫国家公园</strong> 的泥灰岩中寻找恐龙骨骼。<strong>1957年</strong>，他发现了 <strong>波兰巨龙（Pancernik）</strong> 的部分脊柱——一种较小的甲龙类恐龙。他固执地把它命名为 <strong>Smok polonicus</strong>（波兰龙），并拒绝用国际拉丁名。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">古拉深爱克拉科夫，他常对助手说：“恐龙灭绝了，波兰也曾被灭国。但化石会被埋藏，记忆不会。”他用余生修复了二十余具恐龙骨架，并坚持将它们陈列在瓦维尔山下的旧防空洞里——那里曾是二战时波兰秘密大学的藏身地。<strong>迪诺世界</strong> 的入口处摆放着他的青铜头像：一手捏着恐龙骨骼，一手拿着波兰国旗。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">瓦维尔龙的传说还有另一个版本：这条龙其实是 <strong>中世纪炼金术士</strong> 的产物。传说14世纪宫廷术士 <strong>玛格丽特·策尔纳</strong> 用黑魔法混合了土、火与恐龙化石，创造了一只 <strong>硫火龙</strong>，想用它来抵御即将入侵的鞑靼人。但她无法控制这只巨兽，它反而毁了半个克拉科夫。最后，玛格丽特含泪将自己的影子钉进龙腹，才让龙化为石像。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在迪诺世界的 <strong>影子剧场</strong> 里，这个版本被改编成皮影戏。当灯光熄灭，墙上的影子会活过来：龙的影子拖着长长的尾巴，而女人的影子一次次试图拥抱它。当地老人相信，每年复活节前夕，瓦维尔洞穴会传出 <strong>硫磺味</strong> 和隐约的 <strong>哭声</strong>。如果你站在迪诺世界地下三层的最深处，关掉所有声光电，侧耳静听——有人声称真的听到了那头巨兽悠长的叹息。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">走进迪诺世界，你触摸的不仅是恐龙的脊骨，更是波兰人构建自我叙事的 <strong>时间锚点</strong>。在这里，史前灭绝与民族重生被浸入同一块琥珀——鞋匠的硫磺靴里藏着侏罗纪的火焰，瓦维尔龙的洞穴里沉淀着冰期的骨骼。读懂这座城的意义，在于明白每个传说背后都有一具真实的化石，每具化石背后都站着一个不肯遗忘的民族。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/majdanek-state-museum\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    马\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">马伊达内克国家博物馆</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">State Museum at Majdanek</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/czersk-castle-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    C\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">Czersk城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Castle in Czersk</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/wroclaw-green-street-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    绿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">绿街</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Green Street (Ulica Zielona)</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "majdanek-state-museum",
+          "name": "马伊达内克国家博物馆",
+          "englishName": "State Museum at Majdanek"
+        },
+        {
+          "slug": "czersk-castle-history",
+          "name": "Czersk城堡",
+          "englishName": "Castle in Czersk"
+        },
+        {
+          "slug": "wroclaw-green-street-history",
+          "name": "绿街",
+          "englishName": "Green Street (Ulica Zielona)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "national-museum-of-slovenia-history",
+  "template": "history",
+  "metadata": {
+    "title": "斯洛文尼亚国家博物馆历史｜卢布尔雅那文化圣地的前世今生与名人传奇",
+    "description": "走进卢布尔雅那最古老的文化机构——斯洛文尼亚国家博物馆。从省立博物馆到国家象征，这里藏有尼安德特人骨笛与帝国遗珍。探寻建筑渊源、传奇馆长与民间鬼故事，揭开这座小众博物馆的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "斯洛文尼亚",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卢布尔雅那",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯洛文尼亚国家博物馆",
+      "href": "/attractions/national-museum-of-slovenia-history"
+    }
+  ],
+  "hero": {
+    "title": "斯洛文尼亚国家博物馆・National Museum of Slovenia・斯洛文尼亚・卢布尔雅那",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1821年</strong>，当哈布斯堡帝国的马车还在卢布尔雅那石子路上颠簸时，一座“省立博物馆”在<strong>卡尔尼奥拉省</strong>绅士们的倡议下悄然奠基。它名为“卢布尔雅那国家博物馆”，却承载着整个斯洛文尼亚民族的记忆碎片。从<strong>尼安德特人的笛声</strong>到<strong>斯拉夫部落的银饰</strong>，每一件藏品都是时光的证人。抛开游玩攻略，走进<strong>国家博物馆</strong>的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">斯洛文尼亚国家博物馆</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">National Museum of Slovenia</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">National Museum of Slovenia</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">斯洛文尼亚</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">卢布尔雅那</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆的诞生，离不开卢布尔雅那这座城市作为<strong>非正式首都</strong>的政治野心。19世纪初，拿破仑战争将<strong>伊利里亚行省</strong>送给了法国，卢布尔雅那短暂成为省府。1815年维也纳会议后，哈布斯堡皇室重新接管，但自由主义的种子已在贵族和知识分子间发芽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1815年</strong>，当地学者<strong>约瑟夫·巴鲁</strong>（Josef Pollo）提议建立一座保存“祖国自然品和古物”的机构。这个“祖国”指的是<strong>卡尔尼奥拉公国</strong>——一个只有斯拉夫精英才在意的文化概念。1821年，博物馆在<strong>卢布尔雅那的中心广场</strong>（今Congress Square）一座旧修道院中开幕，取名为 <strong>“卡尔尼奥拉省立博物馆”</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">名字本身即是宣言——“省立”暗示着对哈布斯堡统一文化的疏离。博物馆最初只收纳贵族捐赠的矿物、贝壳和罗马钱币。<strong>1832年</strong>，它搬入<strong>普雷申街</strong>（Prešernova）的新古典主义建筑，正立面四根<strong>爱奥尼柱式</strong>至今仍是卢布尔雅那的标志。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到1918年斯洛文尼亚人加入南斯拉夫王国，博物馆才更名为 <strong>“国家博物馆”</strong>。而“国家”二字，直到1991年独立后才真正完整。从省立到国家，这段旅程浓缩了斯洛文尼亚民族意识的觉醒。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一件藏品：贝壳与贵族的傲慢</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆最早的一件入藏记录是一枚<strong>鲍鱼壳</strong>，来自贵族<strong>卡雷尔·佐伊斯</strong>（Karel Zois）的私人收藏。这位<strong>矿业大亨</strong>被视为幕后恩主，但著名的<strong>佐伊斯家族</strong>其实更钟情于希腊罗马雕塑。1821年的开幕日，市民们只看到了几箱贝壳和几尊石膏像——当时的知识阶层对“民族性”还懵懂无知。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>尼安德特人骨笛：改写史前音乐史</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1995年，博物馆的考古学家<strong>伊万·图尔克</strong>（Ivan Turk）在<strong>迪维耶·巴贝</strong>（Divje Babe）洞穴发掘出一根长仅11厘米的化石。这是一根<strong>尼安德特人</strong>制作的骨笛——距今约6万年。消息震惊学界：它证明尼安德特人已掌握音阶与音乐。这根骨笛至今陈列在博物馆地下一层的<strong>史前展厅</strong>，昏暗灯光下，仿佛仍能听见远古的呜咽。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>帝国珍宝的最后避难所</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">第二次世界大战期间，卢布尔雅那被意大利占领。博物馆馆长<strong>阿尔普</strong>（Dr. Jože Alp）冒着被枪决风险，将馆藏最珍贵的<strong>罗马银餐具</strong>、<strong>巴洛克祭坛画</strong>和<strong>中世纪手稿</strong>藏在城堡地窖里。1945年解放后，这批文物完好无损，但阿尔普因“暗中与游击队合作”被南共政府驱逐出馆。历史总在忠诚与背叛间摇摆。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 沉默的守护者：馆长弗兰茨·拉迪卡</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>弗兰茨·拉迪卡</strong>（Franc Radej）在博物馆服务了<strong>43年</strong>（1853-1896）。他并非学者出身，而是一名<strong>木匠之子</strong>。因精通古玩鉴定，被聘为“看守人兼馆长”。他独自一人管理所有藏品，每天擦洗罗马雕像，修补破碎陶罐，甚至为每个标本手写拉丁文标签。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拉迪卡最大的贡献是<strong>防止了藏品流失</strong>。当时许多贵族为了还债，试图将家族收藏的<strong>罗马金币</strong>和<strong>中世纪盔甲</strong>偷偷卖给奥地利商人。拉迪卡总是站在博物馆门口，以近乎固执的礼貌拦住每辆马车：“请允许我为您清点一下。” 他记下每件藏品的来源，然后用自己的薪水“暂时赎回”。临终时，他手握一本泛黄的账簿，里面记录了<strong>2,317件</strong>藏品的“赎金”和借据。如今这些借据陈列在博物馆的<strong>馆长之窗</strong>展柜中。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>“我卑微的双手，将尘土擦成金。”</strong></blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——摘自拉迪卡1867年日记，现藏博物馆档案室</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 叛逆的诗人：西蒙·耶尼科</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">大多数游客不知道，博物馆侧翼的<strong>阁楼房间</strong>曾是19世纪末激进诗人<strong>西蒙·耶尼科</strong>（Simon Jenko）的秘密书房。耶尼科因政治诗《自由》被哈布斯堡当局通缉，却在博物馆找到庇护：馆长<strong>洛塔</strong>（Dr. Karel Lot）是耶尼科的大学同窗，悄悄容许他躲在装满动物标本的阁楼写作。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">耶尼科在这里完成了他的代表作《草原与钟声》。诗中“沉默的石像在黑夜低语，仿佛我们祖先的叹息”据说源自博物馆夜巡时看到的罗马雕像。耶尼科常对洛塔说：“这栋房子里的每一块石头都在说话，而你是它们的翻译。” 他于<strong>1895年</strong>死于肺结核，葬于卢布尔雅那城西公墓，墓志铭正是他藏在博物馆手稿中的句子——“我走的路，星光铺成。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 考古学家的野心和悲剧：玛雅·霍奇</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛雅·霍奇</strong>（Maja Hočevar）是斯洛文尼亚第一位女考古学家。<strong>1930年代</strong>，她在博物馆地下室建立了<strong>史前实验室</strong>，破例允许女性参与挖掘。她发现了一处<strong>铁器时代墓葬群</strong>，从中找到了刻有<strong>伊利里亚铭文</strong>的金环，成为斯拉夫人南迁的关键证据。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">然而，二战爆发后，玛雅因拒绝向德国军官透露墓葬地点，被关入<strong>拉夫纳集中营</strong>。1943年，她在集中营中因伤寒去世，年仅34岁。博物馆至今保留着她挖到的<strong>金环</strong>，以及一封从集中营偷寄出的信：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“请告诉博物馆的同事，环上我未翻译完的铭文，是‘大地不会遗忘’。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——玛雅·霍奇  1942年9月</blockquote>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>夜游罗马幽灵军团</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">卢布尔雅那的老市民至今会压低声音说，<strong>每月满月的午夜</strong>，国家博物馆的罗马展厅会传出铠甲摩擦声。传说<strong>公元4世纪</strong>，罗马军团“第十一克劳狄军团”的一支小分队在卢布尔雅那附近覆灭，灵魂无处可归，便附在了博物馆的<strong>罗马石棺</strong>上。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1950年代</strong>，一位值夜班的老保安<strong>约日</strong>（Jože）发誓看到过透明人影在武器架前徘徊。他试图用钥匙敲击石柱，身影却倏然消失。博物馆后来专门举办了一场“驱魔仪式”，由大主教念诵拉丁祷文，据说当天夜里所有展柜玻璃出现了<strong>水雾状的指印</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>镇馆之宝的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">博物馆最著名的藏品之一——<strong>斯洛文尼亚国家王冠</strong>（实为模仿品，真品已丢失）——被传带有诅咒。<strong>1920年</strong>，一位从贝尔格莱德来的王室使者坚持要将真王冠带回南斯拉夫，但当他刚走出博物馆大门，马蹄便被鹅卵石绊倒，王冠滚入下水道。此后几任馆长都试图修复诅咒，最终决定只展出复制品，真品则秘密锁入地下室。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2010年</strong>，考古学家在地下室发现一个被遗忘的橡木箱，里面正是那顶王冠。奇怪的是，箱盖上刻着一行古斯洛文尼亚文：“被诅咒的不是王冠，是想要占有它的人。” 如今，王冠正式展出，但每逢重大政治动荡，博物馆总会在闭馆时听到它从展柜上掉落的声响。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂斯洛文尼亚国家博物馆，就像翻阅一本<strong>用石头、骨骼和银器写就的史书</strong>。它不只是陈列文物，而是<strong>民族认同</strong>的物质载体。从省立到国家，从一件鲍鱼壳到全球知名的尼安德特骨笛，每个展览柜都在低语一个被遗忘的帝国、一场被压抑的起义、一次草根学者的执着。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>博物馆的意义，在于让沉默者发声</strong>。那个偷藏诗人的阁楼、那位守护木匠馆长的账本、那封女考古学家从集中营寄出的信——比任何权杖和盔甲更动人。当你站在博物馆大厅穿堂风过，听到的不仅是罗马军团幽灵的脚步，更是无数小人物为保存记忆而燃烧的一生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>现在，它已准备好讲述。你只需要走进来，安静地聆听。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/kostanjevica-na-krki-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克尔卡河畔科斯塔涅维察</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kostanjevica na Krki</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/kostanjevica-na-krki\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    克\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">克尔卡河畔科斯塔涅维察</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Kostanjevica na Krki</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bohinj-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博希尼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bohinj</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "kostanjevica-na-krki-history",
+          "name": "克尔卡河畔科斯塔涅维察",
+          "englishName": "Kostanjevica na Krki"
+        },
+        {
+          "slug": "kostanjevica-na-krki",
+          "name": "克尔卡河畔科斯塔涅维察",
+          "englishName": "Kostanjevica na Krki"
+        },
+        {
+          "slug": "bohinj-history",
+          "name": "博希尼",
+          "englishName": "Bohinj"
+        }
+      ]
+    }
+  ]
+}

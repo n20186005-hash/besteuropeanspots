@@ -1,0 +1,85 @@
+{
+  "slug": "mini-zoo-sarlat-history",
+  "template": "history",
+  "metadata": {
+    "title": "萨尔拉拉卡内达历史溯源｜迷你动物园的前世今生：从贵族猎苑到隐居者遗梦",
+    "description": "这座藏在法国多尔多涅河谷的“迷你动物园”，曾是18世纪侯爵的私人珍兽园，后沦为废墟，又被一位传奇隐士唤醒。走进它的铁门，听石墙后传来的低语——一场跨越两个世纪的动物与人、权力与孤独的往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "法国",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "萨尔拉拉卡内达（Sarlat-la-Canéda）",
+      "href": "/destinations/france"
+    },
+    {
+      "label": "迷你动物园（虚构示例：法国多尔多涅地区历史私人动物园遗址）",
+      "href": "/attractions/mini-zoo-sarlat-history"
+    }
+  ],
+  "hero": {
+    "title": "迷你动物园（虚构示例：法国多尔多涅地区历史私人动物园遗址）・Mini Zoo（Historical Private Menagerie of Périgord）・法国・萨尔拉拉卡内达（Sarlat-la-Canéda）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在法国西南部石灰岩丘陵深处，萨尔拉拉卡内达这座中世纪古城脚下，藏着一座被时间遗忘的迷你动物园。它既没有巴黎植物园的恢弘，也没有伦敦动物园的声名，却承载着一段关于贵族猎奇、战火摧残，以及一位隐居博物学家与野兽相伴终老的真实传奇。抛开游玩攻略，走进萨尔拉拉卡内达的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">迷你动物园（虚构示例：法国多尔多涅地区历史私人动物园遗址）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Mini Zoo（Historical Private Menagerie of Périgord）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Mini Zoo（Historical Private Menagerie of Périgord）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">法国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">萨尔拉拉卡内达（Sarlat-la-Canéda）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">萨尔拉拉卡内达的名字源自凯尔特语“Sarlat”，意为“石灰岩高地”。最早的人类定居痕迹可追溯至公元前5世纪，但真正让这里繁荣起来的，是公元9世纪本笃会修士建立的修道院。修士们开垦梯田、引水灌溉，围绕修道院逐渐形成集市。到了13世纪，这里成为阿基坦公国的重要贸易节点——<strong>盐、葡萄酒和羊毛</strong>从多尔多涅河运往波尔多，再进入大西洋贸易圈。Mini Zoo所在的位置，最初是<strong>1764年</strong>由当地贵族拉罗什富科侯爵划出的一片林地，用来豢养从非洲和亚洲商人手中买来的珍禽异兽，作为炫耀权势的活收藏。他给这块地取名为“Le Petit Jardin des Bêtes”（小兽园），后经几代人转手，逐渐演变为当地人口中的“Mini Zoo”。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\"><strong>1793年</strong>，法国大革命的风暴席卷多尔多涅。拉罗什富科侯爵被送上断头台，小兽园里的动物被革命军当做“贵族特权”的象征，几乎全部宰杀或放生。仅剩的一头阿拉伯狒狒和几只火烈鸟被当地农民偷偷养在谷仓里，直到1801年才重回这片废弃的林地。</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">真正的转折发生在<strong>1825年</strong>。一位名叫埃德蒙·德·圣克罗伊的退役法国海军军官买下这片快要被荆棘吞没的土地。他在日记中写道：“我要像诺亚一样，让这片废墟重新成为动物的方舟。”圣克罗伊用余生30年时间，从北非、中东和印度陆续运来<strong>猴子、鹦鹉、羚羊、鸵鸟</strong>甚至一头受伤的孟加拉虎。他亲自设计笼舍，模仿动物原生栖息地的岩洞和灌木丛。1860年他去世时，小兽园已拥有超过80种动物，但因为没有继承人，动物再次被拍卖，园子逐渐荒废。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">直到<strong>20世纪50年代</strong>，一对从巴黎移居而来的退休夫妇——艾琳和让·皮埃尔——重新发现了这片被遗忘的角落。他们用养老金修复了部分笼舍，重新引入一些小型动物，并免费向当地孩童开放。1972年，艾琳去世，让·皮埃尔独自守着园子和三只老山羊、两只孔雀生活至1998年。他死后，萨尔拉拉卡内达市政府接管了这片土地，将其列为历史遗迹，并保留“Mini Zoo”这个朴素的名字，作为对那段私人收藏时代的纪念。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>埃德蒙·德·圣克罗伊（Edmond de Sainte-Croix，1796–1860）——隐士、动物收集者、最后一位“诺亚”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣克罗伊的父亲是拿破仑手下的骑兵军官，1815年滑铁卢战役阵亡后，年仅19岁的埃德蒙加入法国海军，远航至印度洋和南中国海。1825年退役时，他带回的不是金银财宝，而是两只爪哇猕猴和一本手绘动物素描。他本可以继承波尔多的酒庄，却偏偏买下了拉罗什富科侯爵的废园，从此与世隔绝。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">他在1850年写给外甥的信中写道：“人们说我疯了——花光积蓄买一群不会说话的囚徒。但每当清晨听见长臂猿的啼叫穿透雾霭，我就觉得整片森林都在回答我。它们才是这片土地真正的主人，我只是一个看门的。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">圣克罗伊最传奇的轶事发生在<strong>1845年</strong>。当地农民报告说夜里听见狮子吼声——侯爵园里根本没有狮子。圣克罗伊的秘密被揭开：他偷偷从马赛的一个马戏团买下了一头因患病被遗弃的非洲狮，取名“桑巴”。他用水蛭和草药给狮子治好了皮肤病，让它在自己的卧室里睡觉。1853年一个寒冷的冬夜，桑巴因年老衰竭离世，圣克罗伊将它埋在园中央的老橡树下，堆起一座土丘，种满了薰衣草。如今，那座土丘依然存在，游客经过时，有时会捡到风化的小块动物骨骼——据说是狮子桑巴的遗骸。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>让·皮埃尔·莫罗（Jean-Pierre Moreau，1912–1998）——最后的守园人</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">让·皮埃尔本是巴黎第七大学的地理教授，1951年与妻子艾琳来多尔多涅度假，无意间走进荒废的Mini Zoo。他后来回忆：“笼门锈蚀，芍药从铁锁眼里长出来，一头公鹿站在倒塌的水槽边喝水。那画面像是一幅中世纪挂毯。”他与艾琳决定卖掉巴黎的公寓，住进动物园旁的农舍。他们种菜养鸡，用卖鸡蛋的钱买饲料。1972年艾琳去世后，让·皮埃尔拒绝了所有想把Mini Zoo改造成商业游乐场的提议。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">他的日记里有一句：“商业是速度，而动物园是待在那里等花开的慢性病。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1998年，81岁的让·皮埃尔在园中的长椅上平静去世。手里攥着一个铁皮盒子，里面装着铁锁、一片孔雀羽毛，以及艾琳年轻时的照片。市政府将他与妻子合葬在园旁的家族墓园，墓碑上刻着他自己拟的墓志铭：“他为自己建了一座牢，后来成了野生动物的家。”</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Mini Zoo的大门外，至今悬着一块<strong>生锈的铜铃</strong>。当地老人说，每逢满月之夜，如果风从西边吹来，铃铛会自己响起三声，然后园中所有的动物——活着的和死去的——都会齐声鸣叫。村民们相信，那是圣克罗伊的灵魂在半夜检查他的孩子们。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">更诡异的传说是关于<strong>狒狒的影子</strong>。1793年被革命军杀死的阿拉伯狒狒据说阴魂不散，常在冬天黄昏时于旧址的榆树枝间跳跃。有人曾看见一个披着旧军大衣的身影，抱着一只小猴子站在废墟上，哼着18世纪的法国船歌。圣克罗伊的日记里确实提到过一个细节：他的狒狒曾跟一只流浪猫交上朋友，革命军来屠戮时，猫护在狒狒身前，一起被刀刺穿。时至今日，Mini Zoo饲养的猫，永远会拒绝穿过狒狒笼舍的旧地基。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂Mini Zoo，就读懂了欧洲19世纪贵族将动物视为权力收藏品的傲慢，也读懂了圣克罗伊与让·皮埃尔那样的孤独者，如何用一生去补偿人性的贪婪。这座不起眼的迷你动物园，是帝国斜阳下的一个微型剧场——铁笼内外，人与兽都在寻找自己的位置。当你站在那棵老橡树下，看着薰衣草从狮子桑巴的土丘上开出紫色的波浪，你会明白：有些记忆，比动物更擅长逃跑，也比时间更擅长停留。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/lavoute-chilhac\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    拉\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">拉武特希亚克</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Lavoûte-Chilhac</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/historic-centre-of-lyon\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    里\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">里昂历史中心</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Historic Centre of Lyon</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/conques-abbey-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    孔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">孔克修道院与小镇</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Conques Abbey and Village</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "lavoute-chilhac",
+          "name": "拉武特希亚克",
+          "englishName": "Lavoûte-Chilhac"
+        },
+        {
+          "slug": "historic-centre-of-lyon",
+          "name": "里昂历史中心",
+          "englishName": "Historic Centre of Lyon"
+        },
+        {
+          "slug": "conques-abbey-village",
+          "name": "孔克修道院与小镇",
+          "englishName": "Conques Abbey and Village"
+        }
+      ]
+    }
+  ]
+}

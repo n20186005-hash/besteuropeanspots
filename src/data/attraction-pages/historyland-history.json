@@ -1,0 +1,85 @@
+{
+  "slug": "historyland-history",
+  "template": "history",
+  "metadata": {
+    "title": "罗滕堡历史溯源｜中世纪小镇的前世今生与名人传奇",
+    "description": "走进德国罗滕堡，穿越800年时光。从帝国自由城到二战幸存者，探访圣雅各布教堂、市政厅地牢，聆听市长救城传说与木偶大师的隐秘往事。抛开攻略，只讲历史。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "德国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "罗滕堡",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "历史之地（罗滕堡）",
+      "href": "/attractions/historyland-history"
+    }
+  ],
+  "hero": {
+    "title": "历史之地（罗滕堡）・HistoryLand (Rothenburg ob der Tauber)・德国・罗滕堡",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">德国巴伐利亚的陶伯河畔，有一座被时光凝固的中世纪小镇——罗滕堡。它的城墙、塔楼、石板路，每一块石头都刻着神圣罗马帝国的年轮。<strong>很少有人知道，这座被称为“历史之地”的童话小镇，曾差点在二战炮火中化为灰烬。</strong> 抛开游玩攻略，走进罗滕堡的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">历史之地（罗滕堡）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">HistoryLand (Rothenburg ob der Tauber)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">HistoryLand (Rothenburg ob der Tauber)</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">德国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">罗滕堡</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗滕堡的诞生，源于公元9世纪法兰克王国对东部的扩张。<strong>1142年</strong>，康拉德三世国王在陶伯河高耸的砂岩峭壁上建造了一座城堡，命名为“Rotenburg”——意为“红色城堡”，因当地黏土烧制的红瓦屋顶而得名。最初的居民是服务于城堡的工匠和商人，他们在山脚下逐渐形成聚落。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1274年</strong>，罗滕堡正式获得帝国自由城市地位，成为神圣罗马帝国直接管辖的自治城邦。这一身份让它摆脱了地方领主的束缚，开启了近300年的黄金时代。彼时的罗滕堡是周边地区的商贸枢纽，<strong>盐、葡萄酒和布匹</strong>的交易让城市迅速富裕起来。市政厅广场上至今保留着1356年建造的“市集秤”，见证着中世纪商人的斤斤计较。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地名背后藏着一个有趣的渊源：当地人自称“Rothenburger”，而外来者常误以为“Rothenburg”与“Rot”（红色）和“Burg”（城堡）直接相关，其实更古老的写法“Rothenburc”中，“Rot”来自古高地德语“Hrod”（荣耀），意为“荣耀之堡”。<strong>战争与贸易共同塑形了这座城池的骨架，而红瓦与塔楼则成了它永不褪色的皮肤。</strong></p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第一道刀痕：三十年战争与市长救城</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1618年至1648年的三十年战争是罗滕堡历史上最黑暗的一页。1631年，天主教联盟军队在蒂利伯爵率领下攻占这座新教城市。2.5万士兵涌入只有6000居民的城墙内，劫掠、杀戮持续了整整一周。700多座房屋被焚毁，近一半居民丧生。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">传说中，<strong>蒂利伯爵</strong>下令处死城市四位市长，并计划彻底摧毁罗滕堡。危难之际，一位叫<strong>努什·海因里希</strong>的议员提出了挑战：如果他能一口气喝下3.25升弗兰肯葡萄酒（约等于一个酒桶容量），就赦免全城。蒂利伯爵轻蔑地答应了——没人认为人类能做到。然而这位白发老人竟真的端起巨大的酒杯，在众人屏息中一饮而尽。蒂利伯爵被这“豪饮”震惊，遵守了诺言。如今市政厅广场旁的古井上仍刻着这则轶事，每年圣灵降临节，市民都会重演“市长救城”的戏剧。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“当我端起那杯酒时，滴在上面的不是酒，是罗滕堡所有母亲的眼泪。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——传说中努什·海因里希在饮尽后的遗言</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>第二道伤痕：二战最后的防线</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1945年3月31日，美军第12装甲师逼近罗滕堡。德国守军指挥官<strong>托尔梅尔</strong>少将接到命令：死守到底，哪怕全城变成废墟。但托尔梅尔望着这座千年古城——他曾在战前带妻子来这里度假，知道那些木筋墙房屋背后是无可替代的文明。就在美军即将发起炮击的前夜，托尔梅尔通过副官秘密派遣一名信使出城，向美军传达投降意愿。<strong>4月1日清晨，罗滕堡不费一枪一弹被占领，成为德国少数未遭轰炸的中世纪古城之一。</strong> 战后，托尔梅尔因“违抗军令”被军事法庭判处死刑，但美国约翰·麦克洛伊将军（曾参与纽伦堡审判）亲自为其求情，最终获释。如今市政厅旁的“托尔梅尔之门”就是为纪念这位保护者而命名。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>木偶雕刻师：海因里希·冯·博斯特</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在罗滕堡阴暗的木匠巷深处，19世纪住着一位天才木偶师<strong>海因里希·冯·博斯特（1825-1892）</strong>。他并非土生土长的罗滕堡人，而是从纽伦堡迁居至此。冯·博斯特痴迷于中世纪骑士传说，他用橡木和梨木雕刻出全套《尼伯龙根之歌》的木偶人物，每一尊高达半米，关节可以灵活活动。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">他的作坊就设在圣雅各布教堂斜对面，每天清晨，他会把木偶摆在窗台上，吸引过路的孩子。<strong>1876年</strong>，巴伐利亚国王路德维希二世巡视弗朗肯地区时，在罗滕堡短暂停留。国王被这些木偶吸引，当场订购了一套“天鹅骑士罗恩格林”的微缩场景。冯·博斯特用了整整三年完成这套作品，如今收藏在慕尼黑王宫博物馆。但在罗滕堡本地，他的木偶却被遗忘在阁楼里。直到20世纪80年代，人们在拆除老市政厅的烟囱时，发现了八尊被封存近百年的骑士木偶，它们正是冯·博斯特晚年消失的作品。据推测，他因不满新古典主义对传统手工艺的冲击，愤而将最后的作品藏入暗格。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“木头有记忆。当刀锋划过木纹时，我听到的不是摩擦声，而是中世纪的号角。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">——海因里希·冯·博斯特日记摘录（1878年）</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>女巫猎人：约翰·乔治·莫尔</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">17世纪中叶，席卷欧洲的猎巫狂热也烧到了罗滕堡。最臭名昭著的人物是地方检察官<strong>约翰·乔治·莫尔（1610-1685）</strong>。他在1650年至1660年间，以“与恶魔勾结”的罪名起诉了超过200名罗滕堡居民，其中80人被处决——包括36名女性和44名男性（罗滕堡的猎巫对象不限于女性，这一点很少被提及）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">莫尔的审判记录至今保存完整，共12卷羊皮纸。其中记录了一位叫<strong>玛格丽特·贝克</strong>的寡妇：她因为邻居的牛突然死亡而被指控，莫尔用“水试法”将她绑住扔进陶伯河——她浮起来了，这便是“有罪”的铁证。玛格丽特在酷刑下承认了自己从未做过的事，最终被烧死在城门外的火刑柱上。<strong>她的最后一句话是：“我原谅那些不知道自己在做什么的人。”</strong> 如今在城堡花园的角落里，有一块不起眼的石头，上面刻着“致所有被遗忘的受害者”，那是当地历史协会在1998年设立的。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">罗滕堡流传最广的传说是关于“白女巫”的。据说在每年冬至午夜，一个身穿白衣的幽灵会出现在<strong>考伯策勒屋顶</strong>（陡峭的木筋墙山墙顶端）。她会将一只手指放在唇边，示意看见她的人不要出声，否则灾难就会降临。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">故事起源于14世纪：一位叫<strong>莉瑟特</strong>的女仆在城堡塔楼工作。她爱上了男爵的侍从，但侍从却为了财产和另一个女人结婚。莉瑟特悲痛欲绝，在深夜穿上男主人的白色睡袍，从塔楼纵身跳下。死后她的灵魂不肯离开，每当初雪覆盖红瓦时，她就会坐在屋顶上吹奏陶笛。<strong>有人说，如果你在雪夜听到陶笛声，那就意味着这座城市将度过一个没有火灾的平安冬天。</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">还有一个鲜为人知的习俗：罗滕堡的面包师在烤制“雪球”（Schneeballen，当地特有的酥皮甜点）时，会在面团里放入一小片桃木叶子。<strong>桃木在日耳曼传统中可以驱邪</strong>，这种习惯从16世纪延续至今。每年圣马丁节（11月11日），孩子们会提着灯笼围绕城墙走一圈，并在每个城门洞下敲三次，寓意“驱走藏在石头缝里的恶魔”。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">读懂罗滕堡，就是读一本八百年的德国民间史。它的红瓦下藏着帝国自由城的骄傲，塔楼阴影里埋葬着猎巫时代的悲鸣，而木偶师刻刀下的骑士衣甲，至今仍在博物馆的玻璃柜里反射着午后的阳光。<strong>这座小镇最动人之处，不在于它保存完好的外貌，而在于它用墙壁和石板记录了一部平民的苦难与尊严</strong>——从市长那杯赌上命运的葡萄酒，到二战指挥官那封秘密投降信，每一个选择都在追问：文明与毁灭之间，还差几口酒的距离？</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">若你想亲自丈量这些历史的刻度，在圣诞市场的热红酒香中触摸中世纪的脉搏，不妨去城墙小径走一圈，看夕阳把每座塔楼抹成琥珀色。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/teufelsmauer-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    魔\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">魔鬼墙（哈茨山脉脚下如巨龙脊背般绵延数十公里的奇异怪石墙）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Teufelsmauer</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/burg-eltz\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃尔茨城堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Burg Eltz</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/eilenriede-city-forest\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃伦里德城市森林</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Eilenriede City Forest</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "teufelsmauer-history",
+          "name": "魔鬼墙（哈茨山脉脚下如巨龙脊背般绵延数十公里的奇异怪石墙）",
+          "englishName": "Teufelsmauer"
+        },
+        {
+          "slug": "burg-eltz",
+          "name": "埃尔茨城堡",
+          "englishName": "Burg Eltz"
+        },
+        {
+          "slug": "eilenriede-city-forest",
+          "name": "埃伦里德城市森林",
+          "englishName": "Eilenriede City Forest"
+        }
+      ]
+    }
+  ]
+}
