@@ -1,0 +1,85 @@
+{
+  "slug": "castle-ward-history",
+  "template": "history",
+  "metadata": {
+    "title": "沃德城堡历史溯源｜北爱尔兰隐秘庄园的前世今生与《权力的游戏》之外的传奇",
+    "description": "远离临冬城的喧嚣，探访沃德城堡的真实历史：18世纪的建筑双面、伯纳德家族的荣耀与衰败、以及这片土地下埋藏的古老传说。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国（北爱尔兰）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯特兰福德（Strangford）",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "沃德城堡庄园",
+      "href": "/attractions/castle-ward-history"
+    }
+  ],
+  "hero": {
+    "title": "沃德城堡庄园・National Trust – Castle Ward・英国（北爱尔兰）・斯特兰福德（Strangford）",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在北爱尔兰斯特兰福德湖畔，有一座名为Castle Ward的庄园，它并非真正的城堡，而是一座充满矛盾美学的18世纪乡间别墅。一面古典帕拉第奥式优雅沉静，一面哥特式尖塔奇诡凌厉——它用建筑语汇讲述着主人伯纳德·沃德（Bernard Ward）与妻子安妮之间的审美分歧与家族传奇。抛开游玩攻略，走进Castle Ward的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">沃德城堡庄园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">National Trust – Castle Ward</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">National Trust – Castle Ward</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国（北爱尔兰）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">斯特兰福德（Strangford）</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Castle Ward所在的土地，历史可追溯至12世纪盎格鲁-诺曼人入侵时期。此地原属<strong>麦克坦（MacCarten）</strong>家族世代牧羊的领地，地名“Ward”并非源自城墙，而是来自爱尔兰语“An Bharda”，意为“守望之地”——因这里曾是监视斯特兰福德峡湾的瞭望台。1590年代，英国新教徒家族<strong>沃德家族</strong>在都铎王朝的殖民中迁入，通过联姻和土地掠夺逐渐掌控这一区域。真正的庄园动工于<strong>1760年代</strong>，由第一代沃德子爵伯纳德·沃德委托建筑师<strong>托马斯·库克（Thomas Cook）</strong>设计。但沃德夫人<strong>安妮·凯瑟琳</strong>偏爱哥特式浪漫风格，而伯纳德钟情古典对称——夫妻二人争执不下后竟决定：北立面建古典，南立面建哥特，一栋房子两种灵魂。这种独特的“双面建筑”于<strong>1777年</strong>完工，成为爱尔兰建筑史上最奇特的妥协之作。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">沃德庄园的命运，与爱尔兰政治风云紧密相连。<strong>1798年</strong>联合爱尔兰人起义期间，沃德家族作为忠心保皇派，将庄园临时作为英军指挥部。地窖里至今保留着当年关押俘虏的铁环与囚室——这些痕迹在20世纪初被家族后人不幸遗忘，直到<strong>1990年代</strong>修复时才被国民信托重见天日。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一段更富戏剧性的印记来自<strong>1920年代爱尔兰独立战争</strong>。庄园当时的继承人<strong>查尔斯·沃德（Charles Ward）</strong>试图保持中立，却遭共和军突袭索要武器。家族管家<strong>威廉·奥尼尔</strong>回忆道：“他们用猎枪顶住子爵的下巴，撬开地板，拿走所有能发射的铜弹。”一次爆炸中，北翼半壁的17世纪彩绘玻璃被震碎，至今未完全修复，裂痕成了那段暴力岁月的沉默证词。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1899年，<strong>国民信托（National Trust）</strong>曾拒绝接收这座庄园，因其“维护成本堪忧”。直到<strong>1953年</strong>，末代主人<strong>莫伊拉·沃德（Moira Ward）夫人</strong>去世，庄园被变卖后几近荒废。最终于<strong>1973年</strong>由北爱尔兰政府购得，转交国民信托管理。修复团队发现，主楼梯的扶栏竟是用<strong>都柏林旧监狱的橡木门</strong>改造而成——据说是第五代沃德子爵在1840年代低价购得，讽刺的是，那些橡木门曾送走无数流放澳大利亚的囚犯。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>伯纳德·沃德（Bernard Ward，1719–1785）</strong>，第一代沃德子爵，终其一生与“妥协”二字缠斗。他本是从伦敦返乡的律师，因继承舅舅的田产而一跃成为地主。政治立场上，他试图在都柏林议会和伦敦枢密院之间走钢丝，最终因支持<strong>1793年</strong>天主教解放法案而被新教徒同侪孤立。私生活中，他与妻子安妮的审美战争成为乡绅圈的笑柄——“伯纳德想建一栋能证明他上流品味的房子，而安妮只想住进她儿时读过的骑士小说里。”历史学家<strong>克里斯托夫·希尔</strong>在《爱尔兰乡庄》中如此调侃。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">为平息纷争，伯纳德聘请了两位建筑师分别负责两侧。但安妮并不满足，她亲自监造了哥特翼楼中的<strong>彩绘书房（Painted Book Room）</strong>，天花板描绘的<strong>圣乔治屠龙</strong>场景，其实暗讽伯纳德在议会上的“懦弱”——龙是伯纳德的政敌，圣乔治却是她自己。这对夫妇直到<strong>1777年</strong>房屋落成时仍在冷战，据说安妮拒绝出席开幕晚宴，只写了一封短笺：“亲爱的，你的左半边很体面。”落款是“右半边的幽灵”。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>弗朗西斯·沃德（Francis Ward，1845–1927）</strong>，第四代子爵，却是一名激进的<strong>天主教徒</strong>——这在沃德家族中堪称异数。他在<strong>1878年</strong>秘密皈依天主教，并改建庄园小教堂为弥撒场所，引发家族内斗。其日记中写道：“我在北翼地窖点起蜡烛，祈祷这座房子永不背叛它的爱尔兰根基。”他晚年致力于方言保护，雇佣<strong>凯尔特语言学者</strong>录制当地农夫讲爱尔兰语的口述历史，这些蜡筒录音至今保存在贝尔法斯特女王大学，成为<strong>北爱尔兰现存最早的民间语言档案</strong>。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“花园里的玫瑰不挑选土壤，正如真理不挑选边疆。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 弗朗西斯·沃德，1892年日记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>乔治·沃德（George Ward，1904–1983）</strong>，末代直系族人，他放弃了子爵继承权，投身<strong>鸟类学</strong>。二战期间，他在庄园内设立了秘密的<strong>鸽哨站</strong>，训练信鸽为盟军传递情报——这是当时北爱尔兰唯一的“羽翼通信局”。战后，他拒绝修缮庄园屋顶，任凭雨水浸润，认为“腐烂的木头会吸引雨燕筑巢”。国民信托在接管后，特地将他的工作室保留原样：一桌羽毛、一本1983年未完成的手稿《北爱尔兰雨燕迁徙图》。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在斯特兰福德渔民间，Castle Ward被称为<strong>“两脸庄园”</strong>，相传午夜时分，如果你绕湖爬上山坡，从东侧凝视建筑，会看到古典立面突然扭曲成哥特尖顶——那是安妮夫人的幽灵在报复丈夫的固执。当地老妇人<strong>莫娜·麦圭尔</strong>在1906年的《爱尔兰民间故事集》中回忆：“我的祖母说，千万别在满月夜走近南翼窗户，因为安妮夫人会咬破手指，用血在玻璃上画一幅永远不对称的十字架。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个传说与庄园北侧的<strong>碎镜般的小湖</strong>有关。据说17世纪一名逃婚的麦克坦族少女跳湖自尽后，湖水突然变得异常冰冷，湖面永远不会结冰，只有风暴前夕才会泛起奇异的银色光斑。牧羊人称之为<strong>“新娘之泪”</strong>。1950年代，曾有一位生物学家试图抽干湖水研究，却在抽水机旁发现一枚刻有古老<strong>奥甘姆文（Ogham）</strong>的石片，文字被专家解读为“归我于沉默”——此后抽水工作被永久叫停。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">Castle Ward是一座用建筑博弈书写的家族史，也是北爱尔兰复杂身份认同的微缩空间：新教与天主教、古典与哥特、英格兰与爱尔兰——每一道裂痕都曾是活生生的挣扎。如今，它因剧中“临冬城”的外景镜头被全球剧迷熟知，但真正值得品味的，是那些石墙背后关于妥协、异见与守护的无声胜利。当你站在古典侧的罗马柱廊下，再转身仰望哥特侧的锯齿雉堞，这一百八十度的转身，便是三个世纪的爱尔兰。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/ardress-house-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    阿\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">阿德雷斯庄园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">National Trust - Ardress House</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bernish-viewpoint-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    伯\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">伯尼什观景点</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bernish Viewpoint</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/killyleagh-castle-towers\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    基\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">基利利城堡塔楼</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Killyleagh Castle Towers</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "ardress-house-history",
+          "name": "阿德雷斯庄园",
+          "englishName": "National Trust - Ardress House"
+        },
+        {
+          "slug": "bernish-viewpoint-history",
+          "name": "伯尼什观景点",
+          "englishName": "Bernish Viewpoint"
+        },
+        {
+          "slug": "killyleagh-castle-towers",
+          "name": "基利利城堡塔楼",
+          "englishName": "Killyleagh Castle Towers"
+        }
+      ]
+    }
+  ]
+}

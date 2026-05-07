@@ -1,0 +1,85 @@
+{
+  "slug": "mount-stewart-history",
+  "template": "history",
+  "metadata": {
+    "title": "斯图尔特山庄园历史｜北爱尔兰贵族庄园的前世今生与传奇贵妇花园梦",
+    "description": "从邓斯图尔特家族的权势符号到伊迪丝夫人的奇幻花园，这座国家信托瑰宝藏着北爱尔兰最动人的贵族故事。抛开游玩攻略，走进斯图尔特山庄园的尘封往事。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "纽顿纳兹 (Newtownards)",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "斯图尔特山庄园",
+      "href": "/attractions/mount-stewart-history"
+    }
+  ],
+  "hero": {
+    "title": "斯图尔特山庄园・Mount Stewart・英国・纽顿纳兹 (Newtownards)",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">在北爱尔兰斯特兰福德湖的温柔臂弯里，斯图尔特山庄园并非一座普通的乡村豪宅——它是伦敦德里侯爵家族三个世纪的权力舞台，更是女主人伊迪丝·伦敦德里夫人用双手种出的“超现实主义花园”。1920年代，当大英帝国贵族还在舞会与政宴中周旋，这位伯爵夫人却把全世界的异域植物、神话雕像和家族秘密埋进土壤。抛开游玩攻略，走进斯图尔特山庄园的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">斯图尔特山庄园</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Mount Stewart</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Mount Stewart</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">纽顿纳兹 (Newtownards)</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯图尔特山庄园的根基，扎在北爱尔兰唐郡的古老土地上。这片地区最早的人类活动痕迹可追溯至新石器时代，斯特兰福德湖复杂的峡湾地貌，曾是维京海盗的避难所。但庄园的直接起源，始于18世纪初的一位苏格兰裔地主——<strong>亚历山大·斯图尔特</strong>。他于 <strong>1744年</strong> 购得这片俯瞰湖泊的荒地，并着手建造一座乔治亚风格的宅邸。最初的名字叫“蒙特普莱森特”（Mount Pleasant），直到他侄子——后来成为伦敦德里伯爵的罗伯特·斯图尔特——继承后，才正式更名为“Mount Stewart”。名字中的“Stewart”既是家族姓氏，也暗含“斯图尔特王朝”的血脉骄傲——这个家族自称是苏格兰王室的后裔。早期的庄园并不起眼，真正使其蜕变的，是<strong>查尔斯·范内-坦普斯特-斯图尔特</strong>，即第三代伦敦德里侯爵。他在19世纪初对宅邸进行了新古典主义扩建，并栽种了大量树木。但到了20世纪初，一场婚姻彻底改写了庄园的命运：<strong>伊迪丝·查普林</strong>嫁给第七代侯爵，她的家族带来了雄厚的美国资本与无边界的想象力。从此，斯图尔特山不再是权力的展示柜，而成为了一个女人梦境的实体化身。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 庄园的“二战秘密”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1941年至1945年，斯图尔特山庄园被英国海军部征用，成为 <strong>“HMS 斯特兰福德”</strong> 的秘密训练基地。宅邸内的大厅被改造成作战指挥室，舞厅变成了水兵的宿舍。<strong>温斯顿·丘吉尔</strong>曾两次秘密到访，与海军将领在此商议大西洋护航策略。庄园地下室的酒窖被储存了超过5000份海图，至今仍能在地板上找到当年标记船位的铅笔痕迹。更令人惊讶的是，庄园的花园湖曾用来测试微型潜艇模型——这一机密直到1990年代才被解密。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. 家族破产与信托转让</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">20世纪中期，伦敦德里家族因遗产税和投资失败陷入财务危机。第八代侯爵被迫在 <strong>1957年</strong> 将庄园连同1000英亩土地出售给英国国家信托（National Trust），但契约中保留了一项特殊条款：伊迪丝夫人可以在有生之年继续住在庄园的西翼，并拥有花园的绝对控制权。她一直居住到 <strong>1959年</strong> 去世，直到最后一天还在指挥园丁修剪黄杨木。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 花园的“反叛设计”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊迪丝夫人打破了英国传统花园的对称布局，在 <strong>1920年代</strong> 创建了“意大利花园”、“西班牙花园”和“日本花园”三个风格迥异的区域。其中最惊世骇俗的是 <strong>“毒花园”</strong>——她刻意种植了乌头、颠茄和毒参等剧毒植物，并用骷髅形状的铁艺标识警告游客。她曾对朋友说：“最美的花往往最危险，这和贵族婚姻没什么两样。”</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>伊迪丝·伦敦德里夫人（1878–1959）——花园里的女巫与女王</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊迪丝·查普林出身于美国芝加哥的一个铁路大亨家族，1902年嫁给第七代伦敦德里侯爵查尔斯·范内-坦普斯特-斯图尔特。她并非传统英国贵族——她带着美式热情、大量现金和一种近乎疯狂的园艺热情嫁入这个古老家族。婚后她立刻接手斯图尔特山，将原本沉闷的林地改造成个人艺术画布。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“我无法忍受一个没有惊喜的花园。每一棵树都应该讲一个故事，每一座雕像都应该有秘密。”</blockquote>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">—— 伊迪丝·伦敦德里夫人，1924年日记</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊迪丝最著名的创举是“迷宫般的寓言花园”。她在 <strong>1921年</strong> 开始，从意大利、西班牙、日本采购了超过100尊大理石雕像，包括希腊神祇、罗马皇帝和圣经人物。她甚至雇用了三名全职石匠，专门为花园雕刻个人化的装饰——比如用猴子雕像隐喻她的政治对手。她还有一个怪癖：<strong>所有雕像必须面向不同方向</strong>，让游客每次转个弯都能看到新面孔。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">她的另一个传奇是“海马与巨人”系列。在庄园的湖边，她命人建造了一对高达4米的石海马，底座刻着家族格言：“即便在风暴中也能破浪前行。” 这实际上是对她丈夫在北爱尔兰议政厅政治声誉的潜在反击——侯爵因为支持爱尔兰分治而被部分人指责。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">伊迪丝夫人的社交圈同样星光熠熠：她曾邀请 <strong>T.E.劳伦斯（阿拉伯的劳伦斯）</strong> 来庄园解读她的阿拉伯风格花坛；<strong>萧伯纳</strong> 在这里写完了一部剧本的开篇；<strong>爱德华八世</strong> 在退位前数周还在此与她共进午餐。但她最忠实的伙伴是园丁长 <strong>威廉·麦克马洪</strong>，两人合作40年，每天早晨7点准时在“白屋”见面讨论当天的剪枝计划。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>查尔斯·范内-坦普斯特-斯图尔特（第七代侯爵，1878–1949）——被遗忘的政治影子</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">与妻子的光芒相比，侯爵本人更像一个沉默的背景板。但他其实是 <strong>1920年代英国保守党要员</strong>，曾任空军大臣和北爱尔兰枢密院议长。他推动建造了北爱尔兰第一个民用机场，并在斯图尔特山的地下室秘密收藏了大量 <strong>空战历史文献</strong>——这些档案直到2018年才被整理出版。侯爵的癖好是天文，他在庄园塔楼顶层建了一座私人天文台，至今仍保留着1910年哈雷彗星观测记录。他常常在深夜独自爬上塔楼，用望远镜寻找妻子花园里那些雕像的“另一面”——地面上看不见的角度。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1. 花园里的“哭泣的仙子”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在斯图尔特山的“日本花园”深处，有一尊白色的仙女雕像，面朝湖心而立。传说伊迪丝夫人曾爱上一位日本园林设计师，对方因签证问题被迫离境，临走前赠她这尊雕像。每当有雾的清晨，雕像的眼中会渗出水珠——村民坚信那是仙女的眼泪。实际上，这是石材内部含水层受温差影响形成的自然现象，但导游们至今仍会压低声音讲述这个浪漫的失落故事。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>2. “毒花园”的诅咒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">当地老园丁流传着一个禁忌：<strong>任何人在午夜摘取毒花园里的花朵，都会在三天内遭遇车祸</strong>。据说伊迪丝夫人曾用颠茄汁浸透一封信，寄给一位勒索她的男管家，结果那人在收到信后第二天便坠马身亡。虽然国家信托从未证实这则传闻，但花园入口的牌子上确实写道：“请勿触碰，后果自负。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>3. 湖底的石棺</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯特兰福德湖退潮时，偶尔会露出一块类似棺材盖的黑色石板。传说这是 <strong>16世纪苏格兰海盗的沉船遗物</strong>，但更神秘的版本是：伦敦德里家族在1845年将一位叛徒仆人绑在石板上沉湖。国家信托在1970年代进行过声纳探测，发现水下确实有矩形物体，但因其深度和淤泥覆盖，至今未被打捞。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">斯图尔特山庄园不仅是建筑与花园的杰作，更是一部浓缩的 <strong>英式贵族精神史</strong>：伊迪丝夫人用植物对抗丈夫政治圈的沉闷，侯爵用星图寻找超越党派争吵的宁静，而战争期间的海图则提醒我们：即便是人间仙境，也曾是钢铁与硝烟的舞台。读懂这座庄园，便读懂了北爱尔兰从贵族领地到现代社会的微妙蜕变。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/fort-augustus-loch-ness-history\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    尼\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">尼斯湖观景点（奥古斯都堡）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Loch Ness View Point Fort Augustus</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/falkland-palace-garden\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    法\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">法克兰宫（福克兰宫）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Falkland Palace & Garden (National Trust for Scotland)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/cotswolds-aonb\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    科\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">科茨沃尔德地区</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cotswolds AONB</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "fort-augustus-loch-ness-history",
+          "name": "尼斯湖观景点（奥古斯都堡）",
+          "englishName": "Loch Ness View Point Fort Augustus"
+        },
+        {
+          "slug": "falkland-palace-garden",
+          "name": "法克兰宫（福克兰宫）",
+          "englishName": "Falkland Palace & Garden (National Trust for Scotland)"
+        },
+        {
+          "slug": "cotswolds-aonb",
+          "name": "科茨沃尔德地区",
+          "englishName": "Cotswolds AONB"
+        }
+      ]
+    }
+  ]
+}

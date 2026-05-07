@@ -1,0 +1,85 @@
+{
+  "slug": "queens-bridge-belfast-history",
+  "template": "history",
+  "metadata": {
+    "title": "贝尔法斯特皇后桥历史｜北爱尔兰工业时代的桥梁故事与名人逸事",
+    "description": "从维多利亚女王命名到泰坦尼克号诞生，贝尔法斯特皇后桥见证了一座港口城市的崛起与荣耀。探寻这座铁桥背后的工程师传奇、战时轶事与民间传说。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "英国",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "贝尔法斯特",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "皇后桥（贝尔法斯特）",
+      "href": "/attractions/queens-bridge-belfast-history"
+    }
+  ],
+  "hero": {
+    "title": "皇后桥（贝尔法斯特）・Queen's Bridge, Belfast・英国・贝尔法斯特",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\"><em>Queen's Bridge</em> 横跨拉甘河，是贝尔法斯特从渔村蜕变为工业巨擘的沉默见证者。它于 <strong>1849年</strong> 通车，恰逢维多利亚女王访问，故而得名。抛开游玩攻略，走进皇后桥的尘封往事，遇见属于它的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">皇后桥（贝尔法斯特）</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Queen&#39;s Bridge, Belfast</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Queen&#39;s Bridge, Belfast</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">英国</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">贝尔法斯特</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">贝尔法斯特的起点，是一处浅滩（Béal Feirste，爱尔兰语“沙嘴河口”）。<strong>17世纪初</strong>，英格兰殖民者在此建立要塞，但真正让这座城市崛起的，是 <strong>19世纪</strong> 的亚麻与造船业。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">拉甘河原本淤塞难行，<strong>18世纪末</strong>，商人们决心疏通河道，修建新桥。<strong>1794年</strong>，第一座石桥“长桥”落成，但很快不堪重负。到了 <strong>维多利亚时代</strong>，贝尔法斯特已是世界亚麻之都，港口吞吐量激增。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">老桥被拆除，取而代之的是一座铸铁结构的新桥——这便是皇后桥的前身。它由工程师 <strong>约翰·斯米顿</strong> 的弟子 <strong>威廉·查普曼</strong> 设计，<strong>1842年</strong>动工，<strong>1849年</strong>完工，造价 <strong>3万英镑</strong>（相当于今天数百万英镑）。桥名取自当时即将到访的 <strong>维多利亚女王</strong>，以此纪念王室对北爱尔兰的拥抱。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这座桥不仅是交通动脉，更成为城市自信的象征。桥头两端矗立的铸铁灯柱，雕刻着 <strong>亚麻花</strong> 与 <strong>三叶草</strong> 纹样，暗示着这座城市的两大命脉：工业与爱尔兰身份。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1849年女王驾临</strong></p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“女王陛下的马车缓缓驶过新桥，桥身铺满紫色亚麻布，两侧人群欢呼。这是贝尔法斯特第一次迎来在位君主。”——当地报纸《北方辉格报》报道</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">维多利亚女王在前往都柏林的途中，特意绕道贝尔法斯特。她站在桥上，看着河面上数十艘商船，惊叹于这座城市的活力。此后，桥名从“新桥”正式改为“皇后桥”。这次访问刺激了当地造船业的爆发，<strong>洛根·怀特</strong> 等家族开始投资船坞。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>泰坦尼克号的最后一瞥</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1912年4月11日</strong>，泰坦尼克号离开贝尔法斯特码头，沿着拉甘河缓缓驶向大海。皇后桥是它出港前经过的最后一座桥梁。桥上的工人和学生曾挥手欢呼，却不知这艘巨轮将永远沉没。几十年后，人们发现桥墩上留存着当时油漆工刻下的 <strong>“RMS Titanic，永远启航”</strong> 字样。如今这些涂鸦已被保护，成为城市记忆的疤痕。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二战中的铁桥守卫</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1941年贝尔法斯特闪电战</strong>期间，德军轰炸机多次瞄准拉甘河上的桥梁。皇后桥附近的一颗未爆炸弹被工兵拆除，桥体仅受轻微损伤。战后，桥面上新增了两个防空机枪掩体（现已拆除）。当地老人至今记得，在 <strong>1943年</strong> 的一个雾夜，一名年轻士兵在桥中央吹奏爱尔兰风笛，为疏散的人群壮胆——这个场景被摄影师捕捉，成为城市抗争精神的象征。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>威廉·查普曼（William Chapman）——桥的隐形建筑师</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位 <strong>18世纪末至19世纪</strong> 的工程师，一生建造了超过20座桥梁，却鲜为人知。他早年参与爱尔兰运河系统设计，后专注于铸铁桥梁。皇后桥是他最成熟的作品——<strong>三跨连续铸铁拱结构</strong>，每跨跨度达到 <strong>50米</strong>，在当时是技术壮举。查普曼坚持在桥墩中融入本地玄武岩，让桥梁与贝尔法斯特的地质层形成共鸣。有趣的是，他因性格孤僻，拒绝在通车仪式上露面，只留下一张戴着高礼帽的剪影。晚年他隐居在拉甘河畔的小屋，每日坐在窗前观察桥上车马，直至 <strong>1861年</strong> 去世。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>玛丽·安·麦凯（Mary Ann McCracken）——桥上的女权先驱</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">这位 <strong>1770年出生</strong> 的贝尔法斯特激进主义者，是 <strong>联合爱尔兰人</strong> 领袖 <strong>亨利·乔伊·麦凯</strong> 的妹妹。她一生致力于废除奴隶制、争取妇女教育权。据说她常在皇后桥散步，与工人、商贩交谈，收集请愿签名。在 <strong>1849年</strong> 女王到访时，她组织了一次沉默抗议——在桥南端散发反对殖民地暴行的传单。虽然很快被警察制止，但她的身影留在桥名册里。如今桥头的一块纪念牌上铭刻着：“<strong>她跨越的不仅是河流，还有时代的偏见</strong>。”</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>乔治·贝斯特（George Best）——桥下的足球之王</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">北爱尔兰最伟大的足球运动员 <strong>乔治·贝斯特</strong> 出生于贝尔法斯特东区，童年的家就在皇后桥步行十分钟处。他回忆录中写道：“我常从桥上跳入拉甘河，虽然这很危险，但那种自由感让我着迷。” 成名后他回到故乡，总会驱车停在桥中央，看日落倒映在河面上。<strong>2005年</strong> 他去世时，上万名球迷聚集在皇后桥两侧，将鲜花和围巾抛向河面，以此纪念这位“桥下少年”。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>铁桥下的“河灵”传说</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">据传在 <strong>19世纪末</strong>，有一位名叫 <strong>奥拉（Ora）</strong> 的船夫女儿，每晚在桥下歌唱，引来无数船工驻足。她的歌声能平息拉甘河的急流，让货船安全通过。但一名英国军官爱上了她，承诺带她去伦敦。奥拉在桥上等待三天三夜，军官却未出现。她纵身跃入河中，化作一只白色天鹅。当地人相信，每逢月圆之夜，一只天鹅会浮在桥墩旁，若有人对它吹奏爱尔兰哨笛，它便会翩翩起舞。这个传说在 <strong>20世纪初</strong> 的民歌《皇后桥的天鹅》中流传至今。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>桥墩上的“幸运六便士”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">旧时贝尔法斯特的船匠相信，在新桥通车时，将一枚 <strong>1849年</strong> 铸造的六便士硬币塞进桥墩缝隙，能保出海平安。1900年代，修桥工人曾挖出数百枚锈蚀的硬币，如今它们被收藏在 <strong>阿尔斯特博物馆</strong>。本地孩子至今仍会玩一个游戏：站在桥上闭眼朝河心抛硬币，硬币不落入水算作“被桥神收走”，会带来一整周的好运。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">皇后桥不仅是一座桥，它是贝尔法斯特从亚麻作坊到造船巨擘的 <strong>混凝土日记</strong>。桥上的每一道裂缝，都刻着维多利亚时代的荣耀、泰坦尼克的悲歌、战时平民的坚忍。走过桥上，你会听见不同时代的脚步重叠：马车轮、军靴、足球少年的球鞋、抗议者的口号。读懂这座桥，就是读懂贝尔法斯特的灵魂——<strong>一座永远在桥两端寻找平衡的城市</strong>。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/cawdor-castle-and-gardens\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    考\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">考德城堡与花园</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Cawdor Castle and Gardens</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/bannau-brycheiniog-national-park\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    班\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bannau Brycheiniog National Park (Brecon Beacons)</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/west-blockhouse-fort\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    西\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">西堡垒堡</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">West Blockhouse Fort</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "cawdor-castle-and-gardens",
+          "name": "考德城堡与花园",
+          "englishName": "Cawdor Castle and Gardens"
+        },
+        {
+          "slug": "bannau-brycheiniog-national-park",
+          "name": "班瑙·布里赫尼奥格国家公园（原布雷肯比肯斯）",
+          "englishName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+        },
+        {
+          "slug": "west-blockhouse-fort",
+          "name": "西堡垒堡",
+          "englishName": "West Blockhouse Fort"
+        }
+      ]
+    }
+  ]
+}
