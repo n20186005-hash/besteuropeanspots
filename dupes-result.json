@@ -1,36 +1,51 @@
 [
   {
-    "kw": "阿尔比",
-    "matches": [
-      {
-        "name": "阿尔比主教城",
-        "slug": "episcopal-city-of-albi",
-        "url": "https://www.besteuropeanspots.com/attractions/episcopal-city-of-albi"
-      },
-      {
-        "name": "阿尔比主教座堂",
-        "slug": "albi-cathedral",
-        "url": "https://www.besteuropeanspots.com/attractions/albi-cathedral"
-      }
-    ]
-  },
-  {
     "kw": "孔克",
     "matches": [
-      {
-        "name": "孔克修道院",
-        "slug": "conques-abbey",
-        "url": "https://www.besteuropeanspots.com/attractions/conques-abbey"
-      },
       {
         "name": "孔克修道院与小镇",
         "slug": "conques-abbey-village",
         "url": "https://www.besteuropeanspots.com/attractions/conques-abbey-village"
       },
       {
-        "name": "孔克修道院",
-        "slug": "abbey-of-sainte-foy-conques",
-        "url": "https://www.besteuropeanspots.com/attractions/abbey-of-sainte-foy-conques"
+        "name": "孔克修道院与小镇",
+        "slug": "abbey-conques-history",
+        "url": "https://www.besteuropeanspots.com/attractions/abbey-conques-history"
+      }
+    ]
+  },
+  {
+    "kw": "勒皮",
+    "matches": [
+      {
+        "name": "勒皮圣母大教堂",
+        "slug": "le-puy-cathedral",
+        "url": "https://www.besteuropeanspots.com/attractions/le-puy-cathedral"
+      },
+      {
+        "name": "勒皮圣母大教堂",
+        "slug": "le-puy-cathedral-history",
+        "url": "https://www.besteuropeanspots.com/attractions/le-puy-cathedral-history"
+      }
+    ]
+  },
+  {
+    "kw": "科尔德",
+    "matches": [
+      {
+        "name": "科尔德圣谢鲁",
+        "slug": "cordes-sur-ciel",
+        "url": "https://www.besteuropeanspots.com/attractions/cordes-sur-ciel"
+      },
+      {
+        "name": "科尔德圣谢鲁",
+        "slug": "cordes-sur-ciel-history",
+        "url": "https://www.besteuropeanspots.com/attractions/cordes-sur-ciel-history"
+      },
+      {
+        "name": "科尔德利纳·隆巴迪别墅",
+        "slug": "villa-cordellina-lombardi",
+        "url": "https://www.besteuropeanspots.com/attractions/villa-cordellina-lombardi"
       }
     ]
   },
@@ -49,13 +64,33 @@
       },
       {
         "name": "迪南要塞",
-        "slug": "citadel-of-dinant",
-        "url": "https://www.besteuropeanspots.com/attractions/citadel-of-dinant"
+        "slug": "citadel-of-dinant-history",
+        "url": "https://www.besteuropeanspots.com/attractions/citadel-of-dinant-history"
       },
       {
         "name": "迪南老城",
-        "slug": "dinan-old-town",
-        "url": "https://www.besteuropeanspots.com/attractions/dinan-old-town"
+        "slug": "dinan-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/dinan-old-town-history"
+      },
+      {
+        "name": "迪南",
+        "slug": "dinant-history",
+        "url": "https://www.besteuropeanspots.com/attractions/dinant-history"
+      }
+    ]
+  },
+  {
+    "kw": "瓦讷",
+    "matches": [
+      {
+        "name": "瓦讷老城",
+        "slug": "vannes-old-town",
+        "url": "https://www.besteuropeanspots.com/attractions/vannes-old-town"
+      },
+      {
+        "name": "瓦讷老城",
+        "slug": "vannes-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/vannes-old-town-history"
       }
     ]
   },
@@ -69,8 +104,53 @@
       },
       {
         "name": "罗卡马杜尔悬崖城",
-        "slug": "rocamadour-cliff-village",
-        "url": "https://www.besteuropeanspots.com/attractions/rocamadour-cliff-village"
+        "slug": "rocamadour-cliff-city-history",
+        "url": "https://www.besteuropeanspots.com/attractions/rocamadour-cliff-city-history"
+      }
+    ]
+  },
+  {
+    "kw": "萨尔拉拉卡内达",
+    "matches": [
+      {
+        "name": "萨尔拉拉卡内达",
+        "slug": "sarlat-la-caneda",
+        "url": "https://www.besteuropeanspots.com/attractions/sarlat-la-caneda"
+      },
+      {
+        "name": "萨尔拉拉卡内达",
+        "slug": "sarlat-la-caneda-history",
+        "url": "https://www.besteuropeanspots.com/attractions/sarlat-la-caneda-history"
+      }
+    ]
+  },
+  {
+    "kw": "凯斯贝格",
+    "matches": [
+      {
+        "name": "凯斯贝格小镇",
+        "slug": "kaysersberg-village",
+        "url": "https://www.besteuropeanspots.com/attractions/kaysersberg-village"
+      },
+      {
+        "name": "凯斯贝格小镇",
+        "slug": "kaysersberg-alsace-history",
+        "url": "https://www.besteuropeanspots.com/attractions/kaysersberg-alsace-history"
+      }
+    ]
+  },
+  {
+    "kw": "凯瑟斯贝格",
+    "matches": [
+      {
+        "name": "凯瑟斯贝格",
+        "slug": "kaysersberg-alsace",
+        "url": "https://www.besteuropeanspots.com/attractions/kaysersberg-alsace"
+      },
+      {
+        "name": "凯瑟斯贝格哥特塔",
+        "slug": "gothic-tower-kaysersberg-history",
+        "url": "https://www.besteuropeanspots.com/attractions/gothic-tower-kaysersberg-history"
       }
     ]
   },
@@ -79,13 +159,28 @@
     "matches": [
       {
         "name": "里屈埃维",
-        "slug": "riquewihr-alsace-france",
-        "url": "https://www.besteuropeanspots.com/attractions/riquewihr-alsace-france"
+        "slug": "riquewihr-alsace-fairytale-village",
+        "url": "https://www.besteuropeanspots.com/attractions/riquewihr-alsace-fairytale-village"
       },
       {
         "name": "里屈埃维",
-        "slug": "riquewihr-alsace-fairytale-village",
-        "url": "https://www.besteuropeanspots.com/attractions/riquewihr-alsace-fairytale-village"
+        "slug": "riquewihr-history",
+        "url": "https://www.besteuropeanspots.com/attractions/riquewihr-history"
+      }
+    ]
+  },
+  {
+    "kw": "戈尔代",
+    "matches": [
+      {
+        "name": "戈尔代（石头城）",
+        "slug": "gordes-stone-village",
+        "url": "https://www.besteuropeanspots.com/attractions/gordes-stone-village"
+      },
+      {
+        "name": "戈尔代（石头城）",
+        "slug": "gordes-france-history",
+        "url": "https://www.besteuropeanspots.com/attractions/gordes-france-history"
       }
     ]
   },
@@ -106,6 +201,16 @@
         "name": "莫利沃斯（依山傍海的石头城）",
         "slug": "molyvos-town",
         "url": "https://www.besteuropeanspots.com/attractions/molyvos-town"
+      },
+      {
+        "name": "戈尔代（石头城）",
+        "slug": "gordes-france-history",
+        "url": "https://www.besteuropeanspots.com/attractions/gordes-france-history"
+      },
+      {
+        "name": "莫利沃斯（依山傍海的石头城）",
+        "slug": "molyvos-lesvos-stone-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/molyvos-lesvos-stone-town-history"
       }
     ]
   },
@@ -113,14 +218,14 @@
     "kw": "鲁西永",
     "matches": [
       {
-        "name": "鲁西永（红土城）",
-        "slug": "roussillon",
-        "url": "https://www.besteuropeanspots.com/attractions/roussillon"
-      },
-      {
         "name": "鲁西永（普罗旺斯赭石红土城）",
         "slug": "roussillon-ochre-village",
         "url": "https://www.besteuropeanspots.com/attractions/roussillon-ochre-village"
+      },
+      {
+        "name": "鲁西永（普罗旺斯的赭石红土城）",
+        "slug": "roussillon-provence-history",
+        "url": "https://www.besteuropeanspots.com/attractions/roussillon-provence-history"
       }
     ]
   },
@@ -128,14 +233,14 @@
     "kw": "红土城",
     "matches": [
       {
-        "name": "鲁西永（红土城）",
-        "slug": "roussillon",
-        "url": "https://www.besteuropeanspots.com/attractions/roussillon"
-      },
-      {
         "name": "鲁西永（普罗旺斯赭石红土城）",
         "slug": "roussillon-ochre-village",
         "url": "https://www.besteuropeanspots.com/attractions/roussillon-ochre-village"
+      },
+      {
+        "name": "鲁西永（普罗旺斯的赭石红土城）",
+        "slug": "roussillon-provence-history",
+        "url": "https://www.besteuropeanspots.com/attractions/roussillon-provence-history"
       }
     ]
   },
@@ -144,28 +249,93 @@
     "matches": [
       {
         "name": "普罗万中世纪古城",
-        "slug": "provins-medieval-city",
-        "url": "https://www.besteuropeanspots.com/attractions/provins-medieval-city"
+        "slug": "provins-medieval-town",
+        "url": "https://www.besteuropeanspots.com/attractions/provins-medieval-town"
       },
       {
         "name": "普罗万中世纪古城",
-        "slug": "provins-medieval-town",
-        "url": "https://www.besteuropeanspots.com/attractions/provins-medieval-town"
+        "slug": "provins-medieval-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/provins-medieval-town-history"
       }
     ]
   },
   {
-    "kw": "迪尔比",
+    "kw": "德尔比",
     "matches": [
       {
-        "name": "迪尔比",
-        "slug": "durbuy-town",
-        "url": "https://www.besteuropeanspots.com/attractions/durbuy-town"
+        "name": "德尔比老城",
+        "slug": "durbuy-old-town-worlds-smallest-city",
+        "url": "https://www.besteuropeanspots.com/attractions/durbuy-old-town-worlds-smallest-city"
       },
       {
-        "name": "迪尔比",
-        "slug": "durbuy-smallest-city-belgium",
-        "url": "https://www.besteuropeanspots.com/attractions/durbuy-smallest-city-belgium"
+        "name": "德尔比老城",
+        "slug": "durbuy-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/durbuy-old-town-history"
+      }
+    ]
+  },
+  {
+    "kw": "图尔奈",
+    "matches": [
+      {
+        "name": "图尔奈圣母主教座堂",
+        "slug": "tournai-cathedral",
+        "url": "https://www.besteuropeanspots.com/attractions/tournai-cathedral"
+      },
+      {
+        "name": "图尔奈大教堂",
+        "slug": "tournai-cathedral-history",
+        "url": "https://www.besteuropeanspots.com/attractions/tournai-cathedral-history"
+      }
+    ]
+  },
+  {
+    "kw": "梅赫伦",
+    "matches": [
+      {
+        "name": "梅赫伦老城",
+        "slug": "mechelen-old-town",
+        "url": "https://www.besteuropeanspots.com/attractions/mechelen-old-town"
+      },
+      {
+        "name": "梅赫伦老城",
+        "slug": "mechelen-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/mechelen-old-town-history"
+      }
+    ]
+  },
+  {
+    "kw": "维安登",
+    "matches": [
+      {
+        "name": "维安登城堡",
+        "slug": "vianden-castle-history",
+        "url": "https://www.besteuropeanspots.com/attractions/vianden-castle-history"
+      },
+      {
+        "name": "维安登桥下山坡",
+        "slug": "berge-sous-le-pont-de-vianden",
+        "url": "https://www.besteuropeanspots.com/attractions/berge-sous-le-pont-de-vianden"
+      },
+      {
+        "name": "迪基希县·维安登桥下",
+        "slug": "berge-sous-le-pont-de-vianden-history",
+        "url": "https://www.besteuropeanspots.com/attractions/berge-sous-le-pont-de-vianden-history"
+      }
+    ]
+  },
+  {
+    "kw": "菲安登",
+    "matches": [
+      {
+        "name": "菲安登城堡",
+        "slug": "vianden-castle",
+        "url": "https://www.besteuropeanspots.com/attractions/vianden-castle"
+      },
+      {
+        "name": "菲安登",
+        "slug": "vianden",
+        "url": "https://www.besteuropeanspots.com/attractions/vianden"
       }
     ]
   },
@@ -174,13 +344,183 @@
     "matches": [
       {
         "name": "埃希特纳赫修道院",
-        "slug": "echternach-abbey",
-        "url": "https://www.besteuropeanspots.com/attractions/echternach-abbey"
+        "slug": "abbey-of-echternach",
+        "url": "https://www.besteuropeanspots.com/attractions/abbey-of-echternach"
       },
       {
         "name": "埃希特纳赫修道院",
-        "slug": "abbey-of-echternach",
-        "url": "https://www.besteuropeanspots.com/attractions/abbey-of-echternach"
+        "slug": "abbey-of-echternach-history",
+        "url": "https://www.besteuropeanspots.com/attractions/abbey-of-echternach-history"
+      },
+      {
+        "name": "埃希特纳赫罗马别墅",
+        "slug": "roman-villa-echternach",
+        "url": "https://www.besteuropeanspots.com/attractions/roman-villa-echternach"
+      },
+      {
+        "name": "埃希特纳赫罗马别墅",
+        "slug": "roman-villa-echternach-history",
+        "url": "https://www.besteuropeanspots.com/attractions/roman-villa-echternach-history"
+      },
+      {
+        "name": "埃希特纳赫“布雷考尔”露天剧场",
+        "slug": "amphitheater-breechkaul",
+        "url": "https://www.besteuropeanspots.com/attractions/amphitheater-breechkaul"
+      },
+      {
+        "name": "埃希特纳赫",
+        "slug": "echternach",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach"
+      },
+      {
+        "name": "埃希特纳赫修道院与露营瀑布",
+        "slug": "echternach-camping-cascade",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-camping-cascade"
+      },
+      {
+        "name": "埃希特纳赫迷宫",
+        "slug": "echternach-labyrinthe",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-labyrinthe"
+      },
+      {
+        "name": "埃希特纳赫城市公园",
+        "slug": "echternach-stadt-park",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-stadt-park"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "echternach-tourist-office",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-tourist-office"
+      },
+      {
+        "name": "埃希特纳赫三叶草文化中心",
+        "slug": "echternach-trifolion",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-trifolion"
+      },
+      {
+        "name": "埃希特纳赫伊甸湖度假区",
+        "slug": "eden-au-lac",
+        "url": "https://www.besteuropeanspots.com/attractions/eden-au-lac"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "fernwanderweg-e1-echternach",
+        "url": "https://www.besteuropeanspots.com/attractions/fernwanderweg-e1-echternach"
+      },
+      {
+        "name": "埃希特纳赫湖",
+        "slug": "lac-dechternach",
+        "url": "https://www.besteuropeanspots.com/attractions/lac-dechternach"
+      },
+      {
+        "name": "穆勒塔尔自然公园 (埃希特纳赫)",
+        "slug": "mullerthal-nature-park",
+        "url": "https://www.besteuropeanspots.com/attractions/mullerthal-nature-park"
+      },
+      {
+        "name": "埃希特纳赫湖停车场观景点",
+        "slug": "parking-du-lac",
+        "url": "https://www.besteuropeanspots.com/attractions/parking-du-lac"
+      },
+      {
+        "name": "埃希特纳赫青年旅舍",
+        "slug": "youth-hostel-echternach",
+        "url": "https://www.besteuropeanspots.com/attractions/youth-hostel-echternach"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "basilica-of-saint-willibrord-history",
+        "url": "https://www.besteuropeanspots.com/attractions/basilica-of-saint-willibrord-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "canton-of-echternach-history",
+        "url": "https://www.besteuropeanspots.com/attractions/canton-of-echternach-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "echternach-history",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "echternach-labyrinthe-history",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-labyrinthe-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县·米勒塔尔小径第二段",
+        "slug": "echternach-mullerthal-history",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-mullerthal-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "echternach-parking-du-lac-history",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-parking-du-lac-history"
+      },
+      {
+        "name": "埃希特纳赫市场广场",
+        "slug": "echternach-place-du-marche-history",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-place-du-marche-history"
+      },
+      {
+        "name": "埃希特纳赫县里特冈修道院回廊",
+        "slug": "echternach-rittergang-history",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-rittergang-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "echternach-trifolion-history",
+        "url": "https://www.besteuropeanspots.com/attractions/echternach-trifolion-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "ernzen-history",
+        "url": "https://www.besteuropeanspots.com/attractions/ernzen-history"
+      },
+      {
+        "name": "埃希特纳赫岩石池塘",
+        "slug": "felsenweiher-history",
+        "url": "https://www.besteuropeanspots.com/attractions/felsenweiher-history"
+      },
+      {
+        "name": "埃希特纳赫县Grutenhäuschen",
+        "slug": "grutenhauschen-history",
+        "url": "https://www.besteuropeanspots.com/attractions/grutenhauschen-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "lac-d-echternach-history",
+        "url": "https://www.besteuropeanspots.com/attractions/lac-d-echternach-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "roemische-villa-bollendorf-history",
+        "url": "https://www.besteuropeanspots.com/attractions/roemische-villa-bollendorf-history"
+      },
+      {
+        "name": "埃希特纳赫洛可可亭",
+        "slug": "rokoko-pavillon-echternach-history",
+        "url": "https://www.besteuropeanspots.com/attractions/rokoko-pavillon-echternach-history"
+      },
+      {
+        "name": "埃希特纳赫县（猪圈村）",
+        "slug": "schweinestalle-history",
+        "url": "https://www.besteuropeanspots.com/attractions/schweinestalle-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县 Stadt Park",
+        "slug": "stadt-park-history",
+        "url": "https://www.besteuropeanspots.com/attractions/stadt-park-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县 Tudor Museum",
+        "slug": "tudor-museum-history",
+        "url": "https://www.besteuropeanspots.com/attractions/tudor-museum-history"
+      },
+      {
+        "name": "卢森堡埃希特纳赫县",
+        "slug": "vianden-history",
+        "url": "https://www.besteuropeanspots.com/attractions/vianden-history"
       }
     ]
   },
@@ -188,34 +528,89 @@
     "kw": "奎德林堡",
     "matches": [
       {
-        "name": "奎德林堡修道院",
-        "slug": "quedlinburg-abbey",
-        "url": "https://www.besteuropeanspots.com/attractions/quedlinburg-abbey"
-      },
-      {
         "name": "奎德林堡老城",
         "slug": "quedlinburg-old-town",
         "url": "https://www.besteuropeanspots.com/attractions/quedlinburg-old-town"
+      },
+      {
+        "name": "奎德林堡老城",
+        "slug": "quedlinburg-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/quedlinburg-old-town-history"
+      },
+      {
+        "name": "奎德林堡",
+        "slug": "quedlinburg-history",
+        "url": "https://www.besteuropeanspots.com/attractions/quedlinburg-history"
       }
     ]
   },
   {
-    "kw": "特里尔",
+    "kw": "戈斯拉尔",
     "matches": [
       {
-        "name": "特里尔主教堂",
-        "slug": "trier-cathedral",
-        "url": "https://www.besteuropeanspots.com/attractions/trier-cathedral"
+        "name": "戈斯拉尔老城",
+        "slug": "goslar-old-town",
+        "url": "https://www.besteuropeanspots.com/attractions/goslar-old-town"
       },
       {
-        "name": "特里尔竞技场",
-        "slug": "trier-amphitheater",
-        "url": "https://www.besteuropeanspots.com/attractions/trier-amphitheater"
+        "name": "戈斯拉尔老城",
+        "slug": "goslar-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/goslar-old-town-history"
       },
       {
-        "name": "特里尔古罗马遗迹",
-        "slug": "trier-roman-monuments",
-        "url": "https://www.besteuropeanspots.com/attractions/trier-roman-monuments"
+        "name": "戈斯拉尔老城",
+        "slug": "goslar-altstadt-history",
+        "url": "https://www.besteuropeanspots.com/attractions/goslar-altstadt-history"
+      }
+    ]
+  },
+  {
+    "kw": "什未林",
+    "matches": [
+      {
+        "name": "什未林城堡",
+        "slug": "schwerin-castle",
+        "url": "https://www.besteuropeanspots.com/attractions/schwerin-castle"
+      },
+      {
+        "name": "什未林城堡",
+        "slug": "schwerin-castle-history",
+        "url": "https://www.besteuropeanspots.com/attractions/schwerin-castle-history"
+      }
+    ]
+  },
+  {
+    "kw": "班贝格",
+    "matches": [
+      {
+        "name": "班贝格老城",
+        "slug": "bamberg-old-town",
+        "url": "https://www.besteuropeanspots.com/attractions/bamberg-old-town"
+      },
+      {
+        "name": "班贝格老城",
+        "slug": "bamberg-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/bamberg-old-town-history"
+      }
+    ]
+  },
+  {
+    "kw": "丁克尔斯比尔",
+    "matches": [
+      {
+        "name": "丁克尔斯比尔老城",
+        "slug": "dinkelsbuehl-old-town",
+        "url": "https://www.besteuropeanspots.com/attractions/dinkelsbuehl-old-town"
+      },
+      {
+        "name": "丁克尔斯比尔",
+        "slug": "dinkelsbuehl-history",
+        "url": "https://www.besteuropeanspots.com/attractions/dinkelsbuehl-history"
+      },
+      {
+        "name": "丁克尔斯比尔红色风筝雕塑",
+        "slug": "dinkelsbuehl-red-kite-sculpture-history",
+        "url": "https://www.besteuropeanspots.com/attractions/dinkelsbuehl-red-kite-sculpture-history"
       }
     ]
   },
@@ -228,9 +623,9 @@
         "url": "https://www.besteuropeanspots.com/attractions/nordlingen-ries-crater-town"
       },
       {
-        "name": "讷德林根（陨石坑小镇）",
-        "slug": "noerdlingen-ries-crater-town",
-        "url": "https://www.besteuropeanspots.com/attractions/noerdlingen-ries-crater-town"
+        "name": "讷德林根",
+        "slug": "noerdlingen-crater-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/noerdlingen-crater-town-history"
       }
     ]
   },
@@ -244,8 +639,23 @@
       },
       {
         "name": "梅尔斯堡旧堡",
-        "slug": "meersburg-castle-old-castle",
-        "url": "https://www.besteuropeanspots.com/attractions/meersburg-castle-old-castle"
+        "slug": "meersburg-castle-history",
+        "url": "https://www.besteuropeanspots.com/attractions/meersburg-castle-history"
+      }
+    ]
+  },
+  {
+    "kw": "科赫姆",
+    "matches": [
+      {
+        "name": "科赫姆帝国城堡",
+        "slug": "reichsburg-cochem",
+        "url": "https://www.besteuropeanspots.com/attractions/reichsburg-cochem"
+      },
+      {
+        "name": "科赫姆帝国城堡",
+        "slug": "reichsburg-cochem-history",
+        "url": "https://www.besteuropeanspots.com/attractions/reichsburg-cochem-history"
       }
     ]
   },
@@ -253,14 +663,59 @@
     "kw": "策勒",
     "matches": [
       {
-        "name": "策勒木结构建筑群",
-        "slug": "celle-half-timbered-houses",
-        "url": "https://www.besteuropeanspots.com/attractions/celle-half-timbered-houses"
-      },
-      {
         "name": "策勒（五百座木骨架房屋之城）",
         "slug": "celle-half-timbered-town",
         "url": "https://www.besteuropeanspots.com/attractions/celle-half-timbered-town"
+      },
+      {
+        "name": "策勒（五百座木骨架房屋之城）",
+        "slug": "celle-half-timbered-city-history",
+        "url": "https://www.besteuropeanspots.com/attractions/celle-half-timbered-city-history"
+      }
+    ]
+  },
+  {
+    "kw": "蒙绍",
+    "matches": [
+      {
+        "name": "蒙绍",
+        "slug": "monschau-half-timbered-town",
+        "url": "https://www.besteuropeanspots.com/attractions/monschau-half-timbered-town"
+      },
+      {
+        "name": "蒙绍半木结构小镇",
+        "slug": "monschau-half-timbered-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/monschau-half-timbered-town-history"
+      }
+    ]
+  },
+  {
+    "kw": "施特拉尔松德",
+    "matches": [
+      {
+        "name": "施特拉尔松德老城",
+        "slug": "stralsund-old-town",
+        "url": "https://www.besteuropeanspots.com/attractions/stralsund-old-town"
+      },
+      {
+        "name": "施特拉尔松德",
+        "slug": "stralsund-hanseatic-history",
+        "url": "https://www.besteuropeanspots.com/attractions/stralsund-hanseatic-history"
+      }
+    ]
+  },
+  {
+    "kw": "白露里治奥",
+    "matches": [
+      {
+        "name": "白露里治奥古城（天空之城）",
+        "slug": "civita-di-bagnoregio",
+        "url": "https://www.besteuropeanspots.com/attractions/civita-di-bagnoregio"
+      },
+      {
+        "name": "白露里治奥（天空之城）",
+        "slug": "civita-di-bagnoregio-history",
+        "url": "https://www.besteuropeanspots.com/attractions/civita-di-bagnoregio-history"
       }
     ]
   },
@@ -268,14 +723,19 @@
     "kw": "沃尔泰拉",
     "matches": [
       {
-        "name": "沃尔泰拉伊特鲁里亚遗址",
-        "slug": "volterra-etruscan-ruins",
-        "url": "https://www.besteuropeanspots.com/attractions/volterra-etruscan-ruins"
-      },
-      {
         "name": "沃尔泰拉古城",
         "slug": "volterra-old-town",
         "url": "https://www.besteuropeanspots.com/attractions/volterra-old-town"
+      },
+      {
+        "name": "沃尔泰拉与巴尔迪山",
+        "slug": "volterra-monte-baldi-tuscany",
+        "url": "https://www.besteuropeanspots.com/attractions/volterra-monte-baldi-tuscany"
+      },
+      {
+        "name": "沃尔泰拉伊特鲁里亚遗址",
+        "slug": "etruscan-volterra-history",
+        "url": "https://www.besteuropeanspots.com/attractions/etruscan-volterra-history"
       }
     ]
   },
@@ -283,14 +743,14 @@
     "kw": "莱切",
     "matches": [
       {
-        "name": "莱切（巴洛克之城）",
-        "slug": "lecce-baroque-city",
-        "url": "https://www.besteuropeanspots.com/attractions/lecce-baroque-city"
-      },
-      {
         "name": "莱切巴洛克老城",
         "slug": "lecce-baroque-old-town",
         "url": "https://www.besteuropeanspots.com/attractions/lecce-baroque-old-town"
+      },
+      {
+        "name": "莱切巴洛克老城",
+        "slug": "lecce-baroque-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/lecce-baroque-old-town-history"
       }
     ]
   },
@@ -298,19 +758,14 @@
     "kw": "曼托瓦",
     "matches": [
       {
-        "name": "曼托瓦古城",
-        "slug": "mantua",
-        "url": "https://www.besteuropeanspots.com/attractions/mantua"
-      },
-      {
         "name": "曼托瓦老城",
         "slug": "mantua-old-town",
         "url": "https://www.besteuropeanspots.com/attractions/mantua-old-town"
       },
       {
-        "name": "曼托瓦",
-        "slug": "mantua-city",
-        "url": "https://www.besteuropeanspots.com/attractions/mantua-city"
+        "name": "曼托瓦老城",
+        "slug": "mantua-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/mantua-old-town-history"
       }
     ]
   },
@@ -324,23 +779,13 @@
       },
       {
         "name": "拉文纳马赛克群",
-        "slug": "ravenna-mosaics",
-        "url": "https://www.besteuropeanspots.com/attractions/ravenna-mosaics"
-      }
-    ]
-  },
-  {
-    "kw": "乌尔比诺",
-    "matches": [
-      {
-        "name": "乌尔比诺历史中心",
-        "slug": "urbino-historic-centre",
-        "url": "https://www.besteuropeanspots.com/attractions/urbino-historic-centre"
+        "slug": "ravenna-mosaics-history",
+        "url": "https://www.besteuropeanspots.com/attractions/ravenna-mosaics-history"
       },
       {
-        "name": "乌尔比诺历史中心",
-        "slug": "historic-centre-urbino",
-        "url": "https://www.besteuropeanspots.com/attractions/historic-centre-urbino"
+        "name": "拉文纳大主教宫",
+        "slug": "archbishop-palace-ravenna-history",
+        "url": "https://www.besteuropeanspots.com/attractions/archbishop-palace-ravenna-history"
       }
     ]
   },
@@ -348,14 +793,14 @@
     "kw": "费拉拉",
     "matches": [
       {
-        "name": "费拉拉城堡",
-        "slug": "ferrara-castle",
-        "url": "https://www.besteuropeanspots.com/attractions/ferrara-castle"
-      },
-      {
         "name": "费拉拉文艺复兴城市",
         "slug": "ferrara-renaissance-city",
         "url": "https://www.besteuropeanspots.com/attractions/ferrara-renaissance-city"
+      },
+      {
+        "name": "费拉拉文艺复兴城市",
+        "slug": "ferrara-renaissance-city-history",
+        "url": "https://www.besteuropeanspots.com/attractions/ferrara-renaissance-city-history"
       }
     ]
   },
@@ -364,13 +809,13 @@
     "matches": [
       {
         "name": "阿斯科利皮切诺",
-        "slug": "ascoli-piceno",
-        "url": "https://www.besteuropeanspots.com/attractions/ascoli-piceno"
+        "slug": "ascoli-piceno-historic-center",
+        "url": "https://www.besteuropeanspots.com/attractions/ascoli-piceno-historic-center"
       },
       {
         "name": "阿斯科利皮切诺",
-        "slug": "ascoli-piceno-historic-center",
-        "url": "https://www.besteuropeanspots.com/attractions/ascoli-piceno-historic-center"
+        "slug": "ascoli-piceno-history",
+        "url": "https://www.besteuropeanspots.com/attractions/ascoli-piceno-history"
       }
     ]
   },
@@ -378,29 +823,69 @@
     "kw": "斯波莱托",
     "matches": [
       {
-        "name": "斯波莱托",
-        "slug": "spoleto",
-        "url": "https://www.besteuropeanspots.com/attractions/spoleto"
-      },
-      {
         "name": "斯波莱托古城",
         "slug": "spoleto-old-town",
         "url": "https://www.besteuropeanspots.com/attractions/spoleto-old-town"
       },
       {
-        "name": "斯波莱托古城",
-        "slug": "spoleto-historic-town",
-        "url": "https://www.besteuropeanspots.com/attractions/spoleto-historic-town"
+        "name": "斯波莱托（壮观的输水道与山城塔楼）",
+        "slug": "spoleto-aqueduct-towers-history",
+        "url": "https://www.besteuropeanspots.com/attractions/spoleto-aqueduct-towers-history"
+      }
+    ]
+  },
+  {
+    "kw": "马泰拉",
+    "matches": [
+      {
+        "name": "马泰拉石窟民居",
+        "slug": "sassi-di-matera",
+        "url": "https://www.besteuropeanspots.com/attractions/sassi-di-matera"
       },
       {
-        "name": "斯波莱托",
-        "slug": "spoleto-aqueduct-and-duomo-complex",
-        "url": "https://www.besteuropeanspots.com/attractions/spoleto-aqueduct-and-duomo-complex"
+        "name": "马泰拉石窟民居",
+        "slug": "sassi-di-matera-history",
+        "url": "https://www.besteuropeanspots.com/attractions/sassi-di-matera-history"
+      }
+    ]
+  },
+  {
+    "kw": "龙达",
+    "matches": [
+      {
+        "name": "龙达悬崖小镇",
+        "slug": "ronda-cliff-town",
+        "url": "https://www.besteuropeanspots.com/attractions/ronda-cliff-town"
       },
       {
-        "name": "斯波莱托",
-        "slug": "spoleto-umbria",
-        "url": "https://www.besteuropeanspots.com/attractions/spoleto-umbria"
+        "name": "龙达悬崖小镇",
+        "slug": "ronda-cliff-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/ronda-cliff-town-history"
+      },
+      {
+        "name": "龙达皇家骑士斗牛场",
+        "slug": "bullring-royal-cavalry-ronda",
+        "url": "https://www.besteuropeanspots.com/attractions/bullring-royal-cavalry-ronda"
+      },
+      {
+        "name": "龙达皇家骑兵斗牛场",
+        "slug": "bullring-of-the-royal-cavalry-of-ronda-history",
+        "url": "https://www.besteuropeanspots.com/attractions/bullring-of-the-royal-cavalry-of-ronda-history"
+      },
+      {
+        "name": "龙达骑马与品酒之旅",
+        "slug": "caballos-y-vino-ronda-history",
+        "url": "https://www.besteuropeanspots.com/attractions/caballos-y-vino-ronda-history"
+      },
+      {
+        "name": "老桥（龙达老桥）",
+        "slug": "puente-viejo-history",
+        "url": "https://www.besteuropeanspots.com/attractions/puente-viejo-history"
+      },
+      {
+        "name": "龙达",
+        "slug": "ronda-history",
+        "url": "https://www.besteuropeanspots.com/attractions/ronda-history"
       }
     ]
   },
@@ -414,8 +899,18 @@
       },
       {
         "name": "昆卡悬空之屋",
-        "slug": "casas-colgadas-cuenca",
-        "url": "https://www.besteuropeanspots.com/attractions/casas-colgadas-cuenca"
+        "slug": "casas-colgadas-de-cuenca-history",
+        "url": "https://www.besteuropeanspots.com/attractions/casas-colgadas-de-cuenca-history"
+      },
+      {
+        "name": "（昆卡花园）",
+        "slug": "-jardines-de-cuenca-",
+        "url": "https://www.besteuropeanspots.com/attractions/-jardines-de-cuenca-"
+      },
+      {
+        "name": "昆卡花园",
+        "slug": "jardines-de-cuenca-history",
+        "url": "https://www.besteuropeanspots.com/attractions/jardines-de-cuenca-history"
       }
     ]
   },
@@ -428,19 +923,44 @@
         "url": "https://www.besteuropeanspots.com/attractions/avila-old-town"
       },
       {
-        "name": "阿维拉圣文森特教堂",
-        "slug": "san-vicente-avila",
-        "url": "https://www.besteuropeanspots.com/attractions/san-vicente-avila"
+        "name": "阿维拉大教堂",
+        "slug": "catedral-de-avila",
+        "url": "https://www.besteuropeanspots.com/attractions/catedral-de-avila"
       },
       {
-        "name": "阿维拉古城墙",
-        "slug": "avila-city-walls",
-        "url": "https://www.besteuropeanspots.com/attractions/avila-city-walls"
+        "name": "阿维拉大教堂",
+        "slug": "catedral-de-avila-history",
+        "url": "https://www.besteuropeanspots.com/attractions/catedral-de-avila-history"
+      }
+    ]
+  },
+  {
+    "kw": "卡塞雷斯",
+    "matches": [
+      {
+        "name": "卡塞雷斯老城",
+        "slug": "caceres-old-town",
+        "url": "https://www.besteuropeanspots.com/attractions/caceres-old-town"
       },
       {
-        "name": "阿维拉古城墙",
-        "slug": "avila-walls",
-        "url": "https://www.besteuropeanspots.com/attractions/avila-walls"
+        "name": "卡塞雷斯老城",
+        "slug": "caceres-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/caceres-old-town-history"
+      }
+    ]
+  },
+  {
+    "kw": "桑蒂利亚纳",
+    "matches": [
+      {
+        "name": "桑蒂利亚纳德尔马尔",
+        "slug": "santillana-del-mar",
+        "url": "https://www.besteuropeanspots.com/attractions/santillana-del-mar"
+      },
+      {
+        "name": "桑蒂利亚纳代尔马尔",
+        "slug": "santillana-del-mar-history",
+        "url": "https://www.besteuropeanspots.com/attractions/santillana-del-mar-history"
       }
     ]
   },
@@ -454,8 +974,8 @@
       },
       {
         "name": "吉马良斯历史中心",
-        "slug": "historic-centre-guimaraes",
-        "url": "https://www.besteuropeanspots.com/attractions/historic-centre-guimaraes"
+        "slug": "guimaraes-historic-centre-history",
+        "url": "https://www.besteuropeanspots.com/attractions/guimaraes-historic-centre-history"
       }
     ]
   },
@@ -468,9 +988,39 @@
         "url": "https://www.besteuropeanspots.com/attractions/evora-bone-chapel-historic-centre"
       },
       {
+        "name": "埃武拉人骨教堂与古城",
+        "slug": "evora-chapel-of-bones-city-history",
+        "url": "https://www.besteuropeanspots.com/attractions/evora-chapel-of-bones-city-history"
+      },
+      {
         "name": "埃武拉罗马神庙",
-        "slug": "evora-roman-temple",
-        "url": "https://www.besteuropeanspots.com/attractions/evora-roman-temple"
+        "slug": "evora-roman-temple-history",
+        "url": "https://www.besteuropeanspots.com/attractions/evora-roman-temple-history"
+      },
+      {
+        "name": "人骨礼拜堂（埃武拉）",
+        "slug": "chapel-of-bones-evora",
+        "url": "https://www.besteuropeanspots.com/attractions/chapel-of-bones-evora"
+      },
+      {
+        "name": "埃武拉罗马神庙",
+        "slug": "roman-temple-of-evora",
+        "url": "https://www.besteuropeanspots.com/attractions/roman-temple-of-evora"
+      },
+      {
+        "name": "人骨礼拜堂（埃武拉）",
+        "slug": "chapel-of-bones-evora-history",
+        "url": "https://www.besteuropeanspots.com/attractions/chapel-of-bones-evora-history"
+      },
+      {
+        "name": "埃武拉圣方济各教堂",
+        "slug": "evora-church-saint-francis-history",
+        "url": "https://www.besteuropeanspots.com/attractions/evora-church-saint-francis-history"
+      },
+      {
+        "name": "埃武拉罗马神庙",
+        "slug": "roman-temple-of-evora-history",
+        "url": "https://www.besteuropeanspots.com/attractions/roman-temple-of-evora-history"
       }
     ]
   },
@@ -483,9 +1033,9 @@
         "url": "https://www.besteuropeanspots.com/attractions/obidos-wedding-town-portugal"
       },
       {
-        "name": "奥比杜什",
-        "slug": "obidos-portugal",
-        "url": "https://www.besteuropeanspots.com/attractions/obidos-portugal"
+        "name": "奥比杜什婚礼之城",
+        "slug": "obidos-wedding-city-history",
+        "url": "https://www.besteuropeanspots.com/attractions/obidos-wedding-city-history"
       }
     ]
   },
@@ -506,6 +1056,51 @@
         "name": "布拉加伊特基亚（布纳河泉眼的托钵僧修道院）",
         "slug": "blagaj-tekija-dervish-monastery",
         "url": "https://www.besteuropeanspots.com/attractions/blagaj-tekija-dervish-monastery"
+      },
+      {
+        "name": "布拉加伊特基亚（布纳河泉眼的托钵僧修道院）",
+        "slug": "blagaj-tekija-history",
+        "url": "https://www.besteuropeanspots.com/attractions/blagaj-tekija-history"
+      },
+      {
+        "name": "布拉加伊特基亚修道院",
+        "slug": "blagaj-tekke-history",
+        "url": "https://www.besteuropeanspots.com/attractions/blagaj-tekke-history"
+      },
+      {
+        "name": "布拉加仁慈耶稣朝圣所",
+        "slug": "bom-jesus-do-monte-braga-history",
+        "url": "https://www.besteuropeanspots.com/attractions/bom-jesus-do-monte-braga-history"
+      }
+    ]
+  },
+  {
+    "kw": "蒙桑图",
+    "matches": [
+      {
+        "name": "蒙桑图巨石村",
+        "slug": "monsanto-rock-village",
+        "url": "https://www.besteuropeanspots.com/attractions/monsanto-rock-village"
+      },
+      {
+        "name": "蒙桑图（巨石小镇）",
+        "slug": "monsanto-rock-village-history",
+        "url": "https://www.besteuropeanspots.com/attractions/monsanto-rock-village-history"
+      }
+    ]
+  },
+  {
+    "kw": "梅尔克",
+    "matches": [
+      {
+        "name": "梅尔克修道院",
+        "slug": "melk-abbey",
+        "url": "https://www.besteuropeanspots.com/attractions/melk-abbey"
+      },
+      {
+        "name": "梅尔克修道院",
+        "slug": "melk-abbey-history",
+        "url": "https://www.besteuropeanspots.com/attractions/melk-abbey-history"
       }
     ]
   },
@@ -519,8 +1114,8 @@
       },
       {
         "name": "杜恩施泰因修道院",
-        "slug": "duernstein-abbey-wachau",
-        "url": "https://www.besteuropeanspots.com/attractions/duernstein-abbey-wachau"
+        "slug": "durnstein-abbey-history",
+        "url": "https://www.besteuropeanspots.com/attractions/durnstein-abbey-history"
       }
     ]
   },
@@ -534,8 +1129,18 @@
       },
       {
         "name": "格拉茨城堡山",
-        "slug": "schlossberg-graz",
-        "url": "https://www.besteuropeanspots.com/attractions/schlossberg-graz"
+        "slug": "graz-schlossberg-history",
+        "url": "https://www.besteuropeanspots.com/attractions/graz-schlossberg-history"
+      },
+      {
+        "name": "格拉茨兵器博物馆",
+        "slug": "graz-armoury",
+        "url": "https://www.besteuropeanspots.com/attractions/graz-armoury"
+      },
+      {
+        "name": "格拉茨军械库",
+        "slug": "city-arsenal",
+        "url": "https://www.besteuropeanspots.com/attractions/city-arsenal"
       }
     ]
   },
@@ -543,19 +1148,9 @@
     "kw": "哈尔",
     "matches": [
       {
-        "name": "施瓦本哈尔古城",
-        "slug": "schwabisch-hall",
-        "url": "https://www.besteuropeanspots.com/attractions/schwabisch-hall"
-      },
-      {
         "name": "哈尔施塔特镇",
         "slug": "hallstatt",
         "url": "https://www.besteuropeanspots.com/attractions/hallstatt"
-      },
-      {
-        "name": "施瓦本哈尔古城",
-        "slug": "schwaebisch-hall",
-        "url": "https://www.besteuropeanspots.com/attractions/schwaebisch-hall"
       },
       {
         "name": "巴德哈尔茨堡",
@@ -568,19 +1163,9 @@
         "url": "https://www.besteuropeanspots.com/attractions/kasteel-de-haar"
       },
       {
-        "name": "哈尔",
-        "slug": "hall-in-tirol",
-        "url": "https://www.besteuropeanspots.com/attractions/hall-in-tirol"
-      },
-      {
         "name": "特鲁埃尔穆德哈尔建筑群",
         "slug": "mudejar-architecture-teruel",
         "url": "https://www.besteuropeanspots.com/attractions/mudejar-architecture-teruel"
-      },
-      {
-        "name": "施韦比施哈尔",
-        "slug": "schwaebisch-hall-old-town",
-        "url": "https://www.besteuropeanspots.com/attractions/schwaebisch-hall-old-town"
       },
       {
         "name": "蒂罗尔的哈尔（古老的铸币城）",
@@ -606,6 +1191,161 @@
         "name": "哈尔登弗雷德里克斯滕要塞",
         "slug": "fredriksten-fortress-halden",
         "url": "https://www.besteuropeanspots.com/attractions/fredriksten-fortress-halden"
+      },
+      {
+        "name": "哈尔伯施塔特",
+        "slug": "halberstadt-organ-project-rebuilt-old-town",
+        "url": "https://www.besteuropeanspots.com/attractions/halberstadt-organ-project-rebuilt-old-town"
+      },
+      {
+        "name": "哈尔",
+        "slug": "hall-in-tirol-history",
+        "url": "https://www.besteuropeanspots.com/attractions/hall-in-tirol-history"
+      },
+      {
+        "name": "蒂罗尔的哈尔（铸币古城）",
+        "slug": "hall-in-tirol-mint-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/hall-in-tirol-mint-town-history"
+      },
+      {
+        "name": "特鲁埃尔穆德哈尔建筑群",
+        "slug": "mudejar-architecture-teruel-history",
+        "url": "https://www.besteuropeanspots.com/attractions/mudejar-architecture-teruel-history"
+      },
+      {
+        "name": "施韦比施哈尔",
+        "slug": "schwaebisch-hall-history",
+        "url": "https://www.besteuropeanspots.com/attractions/schwaebisch-hall-history"
+      },
+      {
+        "name": "德哈尔城堡",
+        "slug": "kasteel-de-haar-history",
+        "url": "https://www.besteuropeanspots.com/attractions/kasteel-de-haar-history"
+      },
+      {
+        "name": "潘诺恩哈尔马千年修道院",
+        "slug": "pannonhalma-archabbey-history",
+        "url": "https://www.besteuropeanspots.com/attractions/pannonhalma-archabbey-history"
+      },
+      {
+        "name": "柏林安哈尔特火车站遗址",
+        "slug": "anhalter-bahnhof",
+        "url": "https://www.besteuropeanspots.com/attractions/anhalter-bahnhof"
+      },
+      {
+        "name": "哈尔奥弗游船",
+        "slug": "hal-over-bremer-fahrgastschifffahrt-gmbh",
+        "url": "https://www.besteuropeanspots.com/attractions/hal-over-bremer-fahrgastschifffahrt-gmbh"
+      },
+      {
+        "name": "哈尔施塔特全景观景台",
+        "slug": "hallstatt-panoramic-viewpoint",
+        "url": "https://www.besteuropeanspots.com/attractions/hallstatt-panoramic-viewpoint"
+      },
+      {
+        "name": "弗莱明自然公园（萨克森-安哈尔特部分）",
+        "slug": "naturpark-flaeming-sachsen-anhalt",
+        "url": "https://www.besteuropeanspots.com/attractions/naturpark-flaeming-sachsen-anhalt"
+      },
+      {
+        "name": "哈尔施塔特盐矿游客中心与商店",
+        "slug": "salzwelten-shop-infocontainer-hallstatt",
+        "url": "https://www.besteuropeanspots.com/attractions/salzwelten-shop-infocontainer-hallstatt"
+      },
+      {
+        "name": "哈尔格林姆教堂",
+        "slug": "hallgrimskirkja",
+        "url": "https://www.besteuropeanspots.com/attractions/hallgrimskirkja"
+      },
+      {
+        "name": "哈尔萨内夫斯海尔洞穴",
+        "slug": "halsanefshellir-cave",
+        "url": "https://www.besteuropeanspots.com/attractions/halsanefshellir-cave"
+      },
+      {
+        "name": "哈尔·萨夫列尼地下宫殿",
+        "slug": "hal-saflieni-hypogeum-history",
+        "url": "https://www.besteuropeanspots.com/attractions/hal-saflieni-hypogeum-history"
+      },
+      {
+        "name": "哈尔伯施塔特",
+        "slug": "halberstadt-history",
+        "url": "https://www.besteuropeanspots.com/attractions/halberstadt-history"
+      },
+      {
+        "name": "哈尔登（费雷德里克斯滕要塞）",
+        "slug": "halden-fredriksten-fortress-history",
+        "url": "https://www.besteuropeanspots.com/attractions/halden-fredriksten-fortress-history"
+      },
+      {
+        "name": "哈尔基岛",
+        "slug": "halki-history",
+        "url": "https://www.besteuropeanspots.com/attractions/halki-history"
+      },
+      {
+        "name": "柏林安哈尔特火车站旧址",
+        "slug": "berlin-anhalter-bahnhof-history",
+        "url": "https://www.besteuropeanspots.com/attractions/berlin-anhalter-bahnhof-history"
+      },
+      {
+        "name": "哈尔格林姆斯教堂",
+        "slug": "hallgrimskirkja-history",
+        "url": "https://www.besteuropeanspots.com/attractions/hallgrimskirkja-history"
+      },
+      {
+        "name": "全景观景点 - 哈尔施塔特",
+        "slug": "hallstatt-panoramic-viewpoint-history",
+        "url": "https://www.besteuropeanspots.com/attractions/hallstatt-panoramic-viewpoint-history"
+      },
+      {
+        "name": "哈尔萨内夫谢尔洞穴",
+        "slug": "halsanefshellir-cave-history",
+        "url": "https://www.besteuropeanspots.com/attractions/halsanefshellir-cave-history"
+      },
+      {
+        "name": "哈尔茨国家公园",
+        "slug": "harz-national-park-history",
+        "url": "https://www.besteuropeanspots.com/attractions/harz-national-park-history"
+      },
+      {
+        "name": "弗莱明/萨克森-安哈尔特自然公园",
+        "slug": "naturpark-flaeming-sachsen-anhalt-history",
+        "url": "https://www.besteuropeanspots.com/attractions/naturpark-flaeming-sachsen-anhalt-history"
+      },
+      {
+        "name": "哈尔施塔特盐矿商店与信息中心",
+        "slug": "salzwelten-shop-infocontainer-hallstatt-history",
+        "url": "https://www.besteuropeanspots.com/attractions/salzwelten-shop-infocontainer-hallstatt-history"
+      },
+      {
+        "name": "哈尔德城堡",
+        "slug": "hald-slot",
+        "url": "https://www.besteuropeanspots.com/attractions/hald-slot"
+      },
+      {
+        "name": "哈尔德庄园",
+        "slug": "manor-house-of-hald",
+        "url": "https://www.besteuropeanspots.com/attractions/manor-house-of-hald"
+      },
+      {
+        "name": "安哈尔特老火车站",
+        "slug": "anhalter-bahnhof-history",
+        "url": "https://www.besteuropeanspots.com/attractions/anhalter-bahnhof-history"
+      },
+      {
+        "name": "哈尔德城堡",
+        "slug": "hald-slot-history",
+        "url": "https://www.besteuropeanspots.com/attractions/hald-slot-history"
+      },
+      {
+        "name": "哈尔德庄园",
+        "slug": "the-manor-house-of-hald-history",
+        "url": "https://www.besteuropeanspots.com/attractions/the-manor-house-of-hald-history"
+      },
+      {
+        "name": "洛克哈尔音乐厅",
+        "slug": "rockhal",
+        "url": "https://www.besteuropeanspots.com/attractions/rockhal"
       }
     ]
   },
@@ -614,18 +1354,13 @@
     "matches": [
       {
         "name": "巴德伊舍",
-        "slug": "bad-ischl",
-        "url": "https://www.besteuropeanspots.com/attractions/bad-ischl"
-      },
-      {
-        "name": "巴德伊舍",
-        "slug": "imperial-spa-town-bad-ischl",
-        "url": "https://www.besteuropeanspots.com/attractions/imperial-spa-town-bad-ischl"
-      },
-      {
-        "name": "巴德伊舍",
         "slug": "bad-ischl-imperial-spa-town",
         "url": "https://www.besteuropeanspots.com/attractions/bad-ischl-imperial-spa-town"
+      },
+      {
+        "name": "巴德伊舍",
+        "slug": "bad-ischl-history",
+        "url": "https://www.besteuropeanspots.com/attractions/bad-ischl-history"
       }
     ]
   },
@@ -633,30 +1368,25 @@
     "kw": "圣加仑",
     "matches": [
       {
-        "name": "圣加仑修道院",
-        "slug": "st-gallen-abbey",
-        "url": "https://www.besteuropeanspots.com/attractions/st-gallen-abbey"
-      },
-      {
         "name": "圣加仑修道院图书馆",
         "slug": "abbey-of-saint-gall-library",
         "url": "https://www.besteuropeanspots.com/attractions/abbey-of-saint-gall-library"
       },
       {
         "name": "圣加仑修道院图书馆",
-        "slug": "abbey-library-saint-gall",
-        "url": "https://www.besteuropeanspots.com/attractions/abbey-library-saint-gall"
+        "slug": "abbey-library-saint-gall-history",
+        "url": "https://www.besteuropeanspots.com/attractions/abbey-library-saint-gall-history"
+      },
+      {
+        "name": "新教堂（圣加仑）",
+        "slug": "neue-kirche-st-gallen",
+        "url": "https://www.besteuropeanspots.com/attractions/neue-kirche-st-gallen"
       }
     ]
   },
   {
     "kw": "图恩",
     "matches": [
-      {
-        "name": "图恩城堡",
-        "slug": "thun-castle",
-        "url": "https://www.besteuropeanspots.com/attractions/thun-castle"
-      },
       {
         "name": "图恩城堡与老城",
         "slug": "thun-castle-old-town",
@@ -666,26 +1396,66 @@
         "name": "索洛图恩",
         "slug": "solothurn",
         "url": "https://www.besteuropeanspots.com/attractions/solothurn"
+      },
+      {
+        "name": "泽图恩",
+        "slug": "zejtun-parish-church-malta",
+        "url": "https://www.besteuropeanspots.com/attractions/zejtun-parish-church-malta"
+      },
+      {
+        "name": "图恩城堡与老城",
+        "slug": "thun-castle-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/thun-castle-town-history"
+      },
+      {
+        "name": "索洛图恩",
+        "slug": "solothurn-history",
+        "url": "https://www.besteuropeanspots.com/attractions/solothurn-history"
+      },
+      {
+        "name": "泽图恩",
+        "slug": "zejtun-history",
+        "url": "https://www.besteuropeanspots.com/attractions/zejtun-history"
+      },
+      {
+        "name": "德尔达图恩古赫维尔温泉",
+        "slug": "deildartunguhver-history",
+        "url": "https://www.besteuropeanspots.com/attractions/deildartunguhver-history"
+      },
+      {
+        "name": "图恩格内塞特",
+        "slug": "tungeneset-history",
+        "url": "https://www.besteuropeanspots.com/attractions/tungeneset-history"
       }
     ]
   },
   {
-    "kw": "锡永",
+    "kw": "格吕耶尔",
     "matches": [
       {
-        "name": "锡永古城与双丘",
-        "slug": "sion-twin-hills",
-        "url": "https://www.besteuropeanspots.com/attractions/sion-twin-hills"
+        "name": "格吕耶尔中世纪小镇",
+        "slug": "gruyeres-medieval-town",
+        "url": "https://www.besteuropeanspots.com/attractions/gruyeres-medieval-town"
       },
       {
-        "name": "锡永瓦莱州首府",
-        "slug": "sion",
-        "url": "https://www.besteuropeanspots.com/attractions/sion"
+        "name": "格吕耶尔中世纪小镇",
+        "slug": "gruyeres-history",
+        "url": "https://www.besteuropeanspots.com/attractions/gruyeres-history"
+      }
+    ]
+  },
+  {
+    "kw": "贝林佐纳",
+    "matches": [
+      {
+        "name": "贝林佐纳三城堡",
+        "slug": "castles-of-bellinzona",
+        "url": "https://www.besteuropeanspots.com/attractions/castles-of-bellinzona"
       },
       {
-        "name": "锡永",
-        "slug": "sion-valais-switzerland",
-        "url": "https://www.besteuropeanspots.com/attractions/sion-valais-switzerland"
+        "name": "贝林佐纳三城堡",
+        "slug": "castles-of-bellinzona-history",
+        "url": "https://www.besteuropeanspots.com/attractions/castles-of-bellinzona-history"
       }
     ]
   },
@@ -721,6 +1491,86 @@
         "name": "库尔迪加文塔瀑布",
         "slug": "kuldiga-venta-rapid",
         "url": "https://www.besteuropeanspots.com/attractions/kuldiga-venta-rapid"
+      },
+      {
+        "name": "库尔姆巴赫",
+        "slug": "kulmbach-plassenburg-castle",
+        "url": "https://www.besteuropeanspots.com/attractions/kulmbach-plassenburg-castle"
+      },
+      {
+        "name": "库尔老城",
+        "slug": "chur-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/chur-old-town-history"
+      },
+      {
+        "name": "库尔迪加",
+        "slug": "kuldiga-historical-heritage-history",
+        "url": "https://www.besteuropeanspots.com/attractions/kuldiga-historical-heritage-history"
+      },
+      {
+        "name": "阿尔杰什的库尔泰亚修道院",
+        "slug": "curtea-de-arges-monastery-history",
+        "url": "https://www.besteuropeanspots.com/attractions/curtea-de-arges-monastery-history"
+      },
+      {
+        "name": "库尔提乌斯博物馆",
+        "slug": "grand-curtius-history",
+        "url": "https://www.besteuropeanspots.com/attractions/grand-curtius-history"
+      },
+      {
+        "name": "拉罗什库尔邦城堡",
+        "slug": "chateau-de-la-roche-courbon-history",
+        "url": "https://www.besteuropeanspots.com/attractions/chateau-de-la-roche-courbon-history"
+      },
+      {
+        "name": "库尔迪加文塔瀑布",
+        "slug": "kuldiga-history",
+        "url": "https://www.besteuropeanspots.com/attractions/kuldiga-history"
+      },
+      {
+        "name": "库尔姆巴赫",
+        "slug": "kulmbach-history",
+        "url": "https://www.besteuropeanspots.com/attractions/kulmbach-history"
+      },
+      {
+        "name": "赫维瑟尔库尔（白岩巨兽）",
+        "slug": "hvitserkur-history",
+        "url": "https://www.besteuropeanspots.com/attractions/hvitserkur-history"
+      },
+      {
+        "name": "米利库尔曼科斯基急流",
+        "slug": "myllykulmankoski-rapids",
+        "url": "https://www.besteuropeanspots.com/attractions/myllykulmankoski-rapids"
+      },
+      {
+        "name": "米尔利库尔曼科斯基急流",
+        "slug": "myllykulmankoski-rapids-history",
+        "url": "https://www.besteuropeanspots.com/attractions/myllykulmankoski-rapids-history"
+      },
+      {
+        "name": "城堡库尔庄园",
+        "slug": "castle-coole",
+        "url": "https://www.besteuropeanspots.com/attractions/castle-coole"
+      },
+      {
+        "name": "库尔城堡",
+        "slug": "castle-coole-history",
+        "url": "https://www.besteuropeanspots.com/attractions/castle-coole-history"
+      }
+    ]
+  },
+  {
+    "kw": "阿彭策尔",
+    "matches": [
+      {
+        "name": "阿彭策尔传统村落",
+        "slug": "appenzell-traditional-village",
+        "url": "https://www.besteuropeanspots.com/attractions/appenzell-traditional-village"
+      },
+      {
+        "name": "阿彭策尔传统村落",
+        "slug": "appenzell-history",
+        "url": "https://www.besteuropeanspots.com/attractions/appenzell-history"
       }
     ]
   },
@@ -729,18 +1579,13 @@
     "matches": [
       {
         "name": "穆尔滕环湖古城墙",
-        "slug": "murten-medieval-ramparts",
-        "url": "https://www.besteuropeanspots.com/attractions/murten-medieval-ramparts"
+        "slug": "murten-medieval-lake-city-walls",
+        "url": "https://www.besteuropeanspots.com/attractions/murten-medieval-lake-city-walls"
       },
       {
         "name": "穆尔滕老城及城墙",
-        "slug": "murten-old-town-walls",
-        "url": "https://www.besteuropeanspots.com/attractions/murten-old-town-walls"
-      },
-      {
-        "name": "穆尔滕环湖古城墙",
-        "slug": "murten-medieval-lake-city-walls",
-        "url": "https://www.besteuropeanspots.com/attractions/murten-medieval-lake-city-walls"
+        "slug": "murten-old-town-walls-history",
+        "url": "https://www.besteuropeanspots.com/attractions/murten-old-town-walls-history"
       }
     ]
   },
@@ -748,14 +1593,29 @@
     "kw": "泰尔奇",
     "matches": [
       {
-        "name": "泰尔奇水上城堡",
-        "slug": "telc-water-castle",
-        "url": "https://www.besteuropeanspots.com/attractions/telc-water-castle"
-      },
-      {
         "name": "泰尔奇历史中心",
         "slug": "telc-historic-centre",
         "url": "https://www.besteuropeanspots.com/attractions/telc-historic-centre"
+      },
+      {
+        "name": "泰尔奇受难柱",
+        "slug": "bozi-muka-telc",
+        "url": "https://www.besteuropeanspots.com/attractions/bozi-muka-telc"
+      },
+      {
+        "name": "泰尔奇",
+        "slug": "telc-czech-republic",
+        "url": "https://www.besteuropeanspots.com/attractions/telc-czech-republic"
+      },
+      {
+        "name": "泰尔奇城市塔楼",
+        "slug": "telc-mestska-vez",
+        "url": "https://www.besteuropeanspots.com/attractions/telc-mestska-vez"
+      },
+      {
+        "name": "泰尔奇",
+        "slug": "telc-history",
+        "url": "https://www.besteuropeanspots.com/attractions/telc-history"
       }
     ]
   },
@@ -763,14 +1623,74 @@
     "kw": "库特纳霍拉",
     "matches": [
       {
-        "name": "库特纳霍拉（人骨教堂）",
-        "slug": "sedlec-ossuary-kutna-hora",
-        "url": "https://www.besteuropeanspots.com/attractions/sedlec-ossuary-kutna-hora"
-      },
-      {
         "name": "库特纳霍拉（人骨教堂及老城）",
         "slug": "sedlec-ossuary-kutna-hora-old-town",
         "url": "https://www.besteuropeanspots.com/attractions/sedlec-ossuary-kutna-hora-old-town"
+      },
+      {
+        "name": "库特纳霍拉（人骨教堂及老城）",
+        "slug": "kutna-hora-history",
+        "url": "https://www.besteuropeanspots.com/attractions/kutna-hora-history"
+      }
+    ]
+  },
+  {
+    "kw": "克鲁姆洛夫",
+    "matches": [
+      {
+        "name": "克鲁姆洛夫（CK小镇）",
+        "slug": "cesky-krumlov-castle-town",
+        "url": "https://www.besteuropeanspots.com/attractions/cesky-krumlov-castle-town"
+      },
+      {
+        "name": "摩拉维亚克鲁姆洛夫",
+        "slug": "moravsky-krumlov-castle-slav-epic",
+        "url": "https://www.besteuropeanspots.com/attractions/moravsky-krumlov-castle-slav-epic"
+      },
+      {
+        "name": "捷克克鲁姆洛夫",
+        "slug": "cesky-krumlov",
+        "url": "https://www.besteuropeanspots.com/attractions/cesky-krumlov"
+      },
+      {
+        "name": "捷克克鲁姆洛夫城堡塔楼",
+        "slug": "cesky-krumlov-castle-tower",
+        "url": "https://www.besteuropeanspots.com/attractions/cesky-krumlov-castle-tower"
+      },
+      {
+        "name": "捷克克鲁姆洛夫城堡塔楼",
+        "slug": "cesky-krumlov-castle-tower-history",
+        "url": "https://www.besteuropeanspots.com/attractions/cesky-krumlov-castle-tower-history"
+      },
+      {
+        "name": "克鲁姆洛夫老城",
+        "slug": "cesky-krumlov-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/cesky-krumlov-old-town-history"
+      },
+      {
+        "name": "圣维特教堂（捷克克鲁姆洛夫）",
+        "slug": "st-vitus-church-cesky-krumlov-history",
+        "url": "https://www.besteuropeanspots.com/attractions/st-vitus-church-cesky-krumlov-history"
+      },
+      {
+        "name": "捷克克鲁姆洛夫城堡观景台",
+        "slug": "cesky-krumlov-castle-viewpoint",
+        "url": "https://www.besteuropeanspots.com/attractions/cesky-krumlov-castle-viewpoint"
+      }
+    ]
+  },
+  {
+    "kw": "莱沃恰",
+    "matches": [
+      {
+        "name": "莱沃恰老城",
+        "slug": "levoca-old-town",
+        "url": "https://www.besteuropeanspots.com/attractions/levoca-old-town"
+      },
+      {
+        "name": "莱沃恰老城",
+        "slug": "levoca-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/levoca-old-town-history"
       }
     ]
   },
@@ -783,14 +1703,29 @@
         "url": "https://www.besteuropeanspots.com/attractions/spis-castle"
       },
       {
-        "name": "斯皮什城堡",
-        "slug": "spis-castle-slovakia",
-        "url": "https://www.besteuropeanspots.com/attractions/spis-castle-slovakia"
-      },
-      {
         "name": "斯皮什斯卡诺瓦韦斯",
         "slug": "spisska-nova-ves-historic-town",
         "url": "https://www.besteuropeanspots.com/attractions/spisska-nova-ves-historic-town"
+      },
+      {
+        "name": "斯皮什斯卡索博塔",
+        "slug": "spisska-sobota-poprad",
+        "url": "https://www.besteuropeanspots.com/attractions/spisska-sobota-poprad"
+      },
+      {
+        "name": "斯皮什斯卡诺瓦韦斯",
+        "slug": "spisska-nova-ves-history",
+        "url": "https://www.besteuropeanspots.com/attractions/spisska-nova-ves-history"
+      },
+      {
+        "name": "斯皮什斯卡卡皮图拉（斯洛伐克的梵蒂冈）",
+        "slug": "spisska-kapitula-history",
+        "url": "https://www.besteuropeanspots.com/attractions/spisska-kapitula-history"
+      },
+      {
+        "name": "热赫拉（斯皮什城堡脚下的圣灵罗马式教堂）",
+        "slug": "zehra-history",
+        "url": "https://www.besteuropeanspots.com/attractions/zehra-history"
       }
     ]
   },
@@ -798,19 +1733,24 @@
     "kw": "杰尔",
     "matches": [
       {
-        "name": "杰尔古城",
-        "slug": "gyor",
-        "url": "https://www.besteuropeanspots.com/attractions/gyor"
-      },
-      {
         "name": "杰尔巴洛克老城",
         "slug": "gyor-baroque-old-town",
         "url": "https://www.besteuropeanspots.com/attractions/gyor-baroque-old-town"
       },
       {
-        "name": "杰尔古城",
-        "slug": "gyor-old-town",
-        "url": "https://www.besteuropeanspots.com/attractions/gyor-old-town"
+        "name": "杰尔巴洛克老城",
+        "slug": "gyor-barok-varos-history",
+        "url": "https://www.besteuropeanspots.com/attractions/gyor-barok-varos-history"
+      },
+      {
+        "name": "杰尔斯特尔巨石座椅",
+        "slug": "worlds-largest-traditional-jaerstol",
+        "url": "https://www.besteuropeanspots.com/attractions/worlds-largest-traditional-jaerstol"
+      },
+      {
+        "name": "杰尔任尼斯卡·肯帕自然保护区",
+        "slug": "dzierzazinska-kepa-history",
+        "url": "https://www.besteuropeanspots.com/attractions/dzierzazinska-kepa-history"
       }
     ]
   },
@@ -823,14 +1763,29 @@
         "url": "https://www.besteuropeanspots.com/attractions/eger-castle-bulls-blood-wine-region"
       },
       {
-        "name": "埃格尔城堡",
-        "slug": "eger-castle",
-        "url": "https://www.besteuropeanspots.com/attractions/eger-castle"
+        "name": "埃格尔城堡与公牛血产区",
+        "slug": "eger-castle-bull-blood-history",
+        "url": "https://www.besteuropeanspots.com/attractions/eger-castle-bull-blood-history"
+      },
+      {
+        "name": "埃格尔松",
+        "slug": "egersund-norway-fishing-village",
+        "url": "https://www.besteuropeanspots.com/attractions/egersund-norway-fishing-village"
       },
       {
         "name": "埃格尔宣礼塔",
-        "slug": "eger-minaret",
-        "url": "https://www.besteuropeanspots.com/attractions/eger-minaret"
+        "slug": "eger-minaret-history",
+        "url": "https://www.besteuropeanspots.com/attractions/eger-minaret-history"
+      },
+      {
+        "name": "埃格尔松",
+        "slug": "egersund-history",
+        "url": "https://www.besteuropeanspots.com/attractions/egersund-history"
+      },
+      {
+        "name": "埃格尔",
+        "slug": "eger-history",
+        "url": "https://www.besteuropeanspots.com/attractions/eger-history"
       }
     ]
   },
@@ -844,8 +1799,23 @@
       },
       {
         "name": "圣安德烈艺术小镇",
-        "slug": "szentendre-artists-village",
-        "url": "https://www.besteuropeanspots.com/attractions/szentendre-artists-village"
+        "slug": "szentendre-history",
+        "url": "https://www.besteuropeanspots.com/attractions/szentendre-history"
+      }
+    ]
+  },
+  {
+    "kw": "埃斯泰尔戈姆",
+    "matches": [
+      {
+        "name": "埃斯泰尔戈姆大教堂",
+        "slug": "esztergom-basilica",
+        "url": "https://www.besteuropeanspots.com/attractions/esztergom-basilica"
+      },
+      {
+        "name": "埃斯泰尔戈姆大教堂",
+        "slug": "esztergom-basilica-history",
+        "url": "https://www.besteuropeanspots.com/attractions/esztergom-basilica-history"
       }
     ]
   },
@@ -853,14 +1823,14 @@
     "kw": "托卡伊",
     "matches": [
       {
-        "name": "托卡伊葡萄酒产区",
-        "slug": "tokaj-wine-region-historic-cultural-landscape",
-        "url": "https://www.besteuropeanspots.com/attractions/tokaj-wine-region-historic-cultural-landscape"
-      },
-      {
         "name": "托卡伊葡萄酒产区历史文化景观",
         "slug": "tokaj-wine-region-historical-cultural-landscape",
         "url": "https://www.besteuropeanspots.com/attractions/tokaj-wine-region-historical-cultural-landscape"
+      },
+      {
+        "name": "托卡伊葡萄酒产区",
+        "slug": "tokaj-wine-region-history",
+        "url": "https://www.besteuropeanspots.com/attractions/tokaj-wine-region-history"
       }
     ]
   },
@@ -873,9 +1843,14 @@
         "url": "https://www.besteuropeanspots.com/attractions/piran-salt-pans-old-town"
       },
       {
-        "name": "皮兰老城",
-        "slug": "piran-old-town",
-        "url": "https://www.besteuropeanspots.com/attractions/piran-old-town"
+        "name": "皮兰盐田与老城",
+        "slug": "piran-salt-pans-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/piran-salt-pans-old-town-history"
+      },
+      {
+        "name": "皮兰",
+        "slug": "piran-history",
+        "url": "https://www.besteuropeanspots.com/attractions/piran-history"
       }
     ]
   },
@@ -888,9 +1863,9 @@
         "url": "https://www.besteuropeanspots.com/attractions/rovinj-coastal-old-town"
       },
       {
-        "name": "罗维尼老城",
-        "slug": "rovinj-old-town-istria",
-        "url": "https://www.besteuropeanspots.com/attractions/rovinj-old-town-istria"
+        "name": "罗维尼（伊斯特拉半岛最浪漫、充满威尼斯色彩的钟塔高地半岛老城）",
+        "slug": "rovinj-history",
+        "url": "https://www.besteuropeanspots.com/attractions/rovinj-history"
       }
     ]
   },
@@ -911,26 +1886,191 @@
         "name": "普拉夫奇采拱门",
         "slug": "pravcicka-brana-natural-arch",
         "url": "https://www.besteuropeanspots.com/attractions/pravcicka-brana-natural-arch"
-      }
-    ]
-  },
-  {
-    "kw": "特罗吉尔",
-    "matches": [
-      {
-        "name": "特罗吉尔古城",
-        "slug": "trogir-old-town",
-        "url": "https://www.besteuropeanspots.com/attractions/trogir-old-town"
       },
       {
-        "name": "特罗吉尔历史中心",
-        "slug": "trogir-historic-centre",
-        "url": "https://www.besteuropeanspots.com/attractions/trogir-historic-centre"
+        "name": "普拉森西亚",
+        "slug": "plasencia",
+        "url": "https://www.besteuropeanspots.com/attractions/plasencia"
       },
       {
-        "name": "特罗吉尔历史古城",
-        "slug": "trogir-historic-town",
-        "url": "https://www.besteuropeanspots.com/attractions/trogir-historic-town"
+        "name": "卡普拉罗拉法尔内塞别墅",
+        "slug": "villa-farnese-caprarola",
+        "url": "https://www.besteuropeanspots.com/attractions/villa-farnese-caprarola"
+      },
+      {
+        "name": "泰普拉河畔贝乔夫",
+        "slug": "becov-nad-teplou-chateau-reliquary",
+        "url": "https://www.besteuropeanspots.com/attractions/becov-nad-teplou-chateau-reliquary"
+      },
+      {
+        "name": "普拉特利亚伊",
+        "slug": "plateliai-samogitia-cold-war-missile-base",
+        "url": "https://www.besteuropeanspots.com/attractions/plateliai-samogitia-cold-war-missile-base"
+      },
+      {
+        "name": "普拉夫",
+        "slug": "plav-montenegro",
+        "url": "https://www.besteuropeanspots.com/attractions/plav-montenegro"
+      },
+      {
+        "name": "普拉哈季采",
+        "slug": "prachatice-historictown-center",
+        "url": "https://www.besteuropeanspots.com/attractions/prachatice-historictown-center"
+      },
+      {
+        "name": "普拉斯摩尔",
+        "slug": "plas-mawr",
+        "url": "https://www.besteuropeanspots.com/attractions/plas-mawr"
+      },
+      {
+        "name": "埃斯普拉纳迪",
+        "slug": "esplanadi",
+        "url": "https://www.besteuropeanspots.com/attractions/esplanadi"
+      },
+      {
+        "name": "普拉多博物馆",
+        "slug": "museo-nacional-del-prado",
+        "url": "https://www.besteuropeanspots.com/attractions/museo-nacional-del-prado"
+      },
+      {
+        "name": "普拉夫奇采拱门",
+        "slug": "pravcicka-brana-history",
+        "url": "https://www.besteuropeanspots.com/attractions/pravcicka-brana-history"
+      },
+      {
+        "name": "普拉森西亚",
+        "slug": "plasencia-history",
+        "url": "https://www.besteuropeanspots.com/attractions/plasencia-history"
+      },
+      {
+        "name": "卡普拉罗拉-法尔内塞别墅",
+        "slug": "villa-farnese-caprarola-history",
+        "url": "https://www.besteuropeanspots.com/attractions/villa-farnese-caprarola-history"
+      },
+      {
+        "name": "泰普拉河畔贝乔夫",
+        "slug": "becov-nad-teplou-history",
+        "url": "https://www.besteuropeanspots.com/attractions/becov-nad-teplou-history"
+      },
+      {
+        "name": "普拉夫",
+        "slug": "plav-history",
+        "url": "https://www.besteuropeanspots.com/attractions/plav-history"
+      },
+      {
+        "name": "波普拉德",
+        "slug": "poprad-history",
+        "url": "https://www.besteuropeanspots.com/attractions/poprad-history"
+      },
+      {
+        "name": "普拉哈季采",
+        "slug": "prachatice-history",
+        "url": "https://www.besteuropeanspots.com/attractions/prachatice-history"
+      },
+      {
+        "name": "埃斯普拉纳迪公园（埃斯普拉纳迪大街）",
+        "slug": "esplanadi-history",
+        "url": "https://www.besteuropeanspots.com/attractions/esplanadi-history"
+      },
+      {
+        "name": "普拉斯莫尔庄园",
+        "slug": "plas-mawr-history",
+        "url": "https://www.besteuropeanspots.com/attractions/plas-mawr-history"
+      },
+      {
+        "name": "情侣广场（普拉塞德莱斯帕雷列斯）",
+        "slug": "plaza-de-parejas-history",
+        "url": "https://www.besteuropeanspots.com/attractions/plaza-de-parejas-history"
+      },
+      {
+        "name": "普拉多博物馆",
+        "slug": "prado-history",
+        "url": "https://www.besteuropeanspots.com/attractions/prado-history"
+      },
+      {
+        "name": "普拉亚达康波塔海滩",
+        "slug": "praia-da-comporta-history",
+        "url": "https://www.besteuropeanspots.com/attractions/praia-da-comporta-history"
+      },
+      {
+        "name": "普拉斯科维奇的雕塑画廊",
+        "slug": "galerie-soch-v-pluskovci",
+        "url": "https://www.besteuropeanspots.com/attractions/galerie-soch-v-pluskovci"
+      },
+      {
+        "name": "普拉西修道院",
+        "slug": "plasy-monastery",
+        "url": "https://www.besteuropeanspots.com/attractions/plasy-monastery"
+      },
+      {
+        "name": "波哈德科维莱斯普拉什维采童话森林",
+        "slug": "pohadkovy-les-prasivice",
+        "url": "https://www.besteuropeanspots.com/attractions/pohadkovy-les-prasivice"
+      },
+      {
+        "name": "普拉霍夫岩",
+        "slug": "prachov-cliffs",
+        "url": "https://www.besteuropeanspots.com/attractions/prachov-cliffs"
+      },
+      {
+        "name": "普拉门·莱斯卡维温泉",
+        "slug": "pramen-leskavy",
+        "url": "https://www.besteuropeanspots.com/attractions/pramen-leskavy"
+      },
+      {
+        "name": "普拉夫奇卡拱门",
+        "slug": "pravcicka-archway",
+        "url": "https://www.besteuropeanspots.com/attractions/pravcicka-archway"
+      },
+      {
+        "name": "普拉西修道院",
+        "slug": "plasy-monastery-history",
+        "url": "https://www.besteuropeanspots.com/attractions/plasy-monastery-history"
+      },
+      {
+        "name": "普拉希维采童话森林",
+        "slug": "pohadkovy-les-prasivice-history",
+        "url": "https://www.besteuropeanspots.com/attractions/pohadkovy-les-prasivice-history"
+      },
+      {
+        "name": "普拉夫奇卡拱门",
+        "slug": "pravcicka-archway-history",
+        "url": "https://www.besteuropeanspots.com/attractions/pravcicka-archway-history"
+      },
+      {
+        "name": "穆希纳 - 扎波普拉杰",
+        "slug": "muszyna-zapopradzie",
+        "url": "https://www.besteuropeanspots.com/attractions/muszyna-zapopradzie"
+      },
+      {
+        "name": "普拉茨扎巴夫游乐场",
+        "slug": "plac-zabaw-warsaw",
+        "url": "https://www.besteuropeanspots.com/attractions/plac-zabaw-warsaw"
+      },
+      {
+        "name": "德国纳粹普拉绍夫集中营遗址",
+        "slug": "plaszow-concentration-camp",
+        "url": "https://www.besteuropeanspots.com/attractions/plaszow-concentration-camp"
+      },
+      {
+        "name": "织布工小屋（苏普拉希尔）",
+        "slug": "domy-tkaczy-history",
+        "url": "https://www.besteuropeanspots.com/attractions/domy-tkaczy-history"
+      },
+      {
+        "name": "穆希纳-扎波普拉杰",
+        "slug": "muszyna-zapopradzie-history",
+        "url": "https://www.besteuropeanspots.com/attractions/muszyna-zapopradzie-history"
+      },
+      {
+        "name": "普拉茨扎巴夫广场（历史游乐场广场）",
+        "slug": "plac-zabaw-history",
+        "url": "https://www.besteuropeanspots.com/attractions/plac-zabaw-history"
+      },
+      {
+        "name": "波旁-普拉特庄园遗址",
+        "slug": "bourbon-platte-history",
+        "url": "https://www.besteuropeanspots.com/attractions/bourbon-platte-history"
       }
     ]
   },
@@ -938,14 +2078,29 @@
     "kw": "科尔丘拉",
     "matches": [
       {
-        "name": "科尔丘拉岛",
-        "slug": "korcula",
-        "url": "https://www.besteuropeanspots.com/attractions/korcula"
-      },
-      {
         "name": "科尔丘拉老城",
         "slug": "korcula-old-town-marco-polo",
         "url": "https://www.besteuropeanspots.com/attractions/korcula-old-town-marco-polo"
+      },
+      {
+        "name": "科尔丘拉老城",
+        "slug": "korcula-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/korcula-old-town-history"
+      }
+    ]
+  },
+  {
+    "kw": "莫斯塔尔",
+    "matches": [
+      {
+        "name": "莫斯塔尔老桥",
+        "slug": "stari-most-mostar",
+        "url": "https://www.besteuropeanspots.com/attractions/stari-most-mostar"
+      },
+      {
+        "name": "莫斯塔尔老桥",
+        "slug": "stari-most-mostar-history",
+        "url": "https://www.besteuropeanspots.com/attractions/stari-most-mostar-history"
       }
     ]
   },
@@ -953,14 +2108,14 @@
     "kw": "佩拉斯特",
     "matches": [
       {
-        "name": "佩拉斯特",
-        "slug": "perast-bay-of-kotor",
-        "url": "https://www.besteuropeanspots.com/attractions/perast-bay-of-kotor"
-      },
-      {
         "name": "佩拉斯特古镇",
         "slug": "perast-old-town",
         "url": "https://www.besteuropeanspots.com/attractions/perast-old-town"
+      },
+      {
+        "name": "佩拉斯特",
+        "slug": "perast-bay-kotor-montenegro-history",
+        "url": "https://www.besteuropeanspots.com/attractions/perast-bay-kotor-montenegro-history"
       }
     ]
   },
@@ -968,14 +2123,14 @@
     "kw": "奥赫里德",
     "matches": [
       {
-        "name": "奥赫里德老城",
-        "slug": "ohrid-old-town",
-        "url": "https://www.besteuropeanspots.com/attractions/ohrid-old-town"
-      },
-      {
         "name": "奥赫里德湖与老城",
         "slug": "ohrid-lake-and-old-town",
         "url": "https://www.besteuropeanspots.com/attractions/ohrid-lake-and-old-town"
+      },
+      {
+        "name": "奥赫里德老城",
+        "slug": "ohrid-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/ohrid-old-town-history"
       }
     ]
   },
@@ -988,9 +2143,29 @@
         "url": "https://www.besteuropeanspots.com/attractions/plovdiv-roman-theatre"
       },
       {
-        "name": "普罗夫迪夫罗马剧场",
-        "slug": "roman-theatre-plovdiv",
-        "url": "https://www.besteuropeanspots.com/attractions/roman-theatre-plovdiv"
+        "name": "普罗夫迪夫古罗马剧场",
+        "slug": "plovdiv-roman-theatre-history",
+        "url": "https://www.besteuropeanspots.com/attractions/plovdiv-roman-theatre-history"
+      },
+      {
+        "name": "普罗夫迪夫",
+        "slug": "plovdiv-history",
+        "url": "https://www.besteuropeanspots.com/attractions/plovdiv-history"
+      }
+    ]
+  },
+  {
+    "kw": "锡比乌",
+    "matches": [
+      {
+        "name": "锡比乌",
+        "slug": "sibiu-old-town",
+        "url": "https://www.besteuropeanspots.com/attractions/sibiu-old-town"
+      },
+      {
+        "name": "锡比乌老城",
+        "slug": "sibiu-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/sibiu-old-town-history"
       }
     ]
   },
@@ -998,14 +2173,14 @@
     "kw": "锡吉什瓦拉",
     "matches": [
       {
-        "name": "锡吉什瓦拉历史中心",
-        "slug": "sighisoara-citadel",
-        "url": "https://www.besteuropeanspots.com/attractions/sighisoara-citadel"
-      },
-      {
         "name": "锡吉什瓦拉（吸血鬼故乡）",
         "slug": "sighisoara-dracula-historic-centre",
         "url": "https://www.besteuropeanspots.com/attractions/sighisoara-dracula-historic-centre"
+      },
+      {
+        "name": "锡吉什瓦拉",
+        "slug": "sighisoara-history",
+        "url": "https://www.besteuropeanspots.com/attractions/sighisoara-history"
       }
     ]
   },
@@ -1019,8 +2194,8 @@
       },
       {
         "name": "培拉特（千窗之城）",
-        "slug": "berat-albania-thousand-windows",
-        "url": "https://www.besteuropeanspots.com/attractions/berat-albania-thousand-windows"
+        "slug": "berat-history",
+        "url": "https://www.besteuropeanspots.com/attractions/berat-history"
       }
     ]
   },
@@ -1034,8 +2209,8 @@
       },
       {
         "name": "吉诺卡斯特（千阶之城）",
-        "slug": "gjirokastra-castle-old-town",
-        "url": "https://www.besteuropeanspots.com/attractions/gjirokastra-castle-old-town"
+        "slug": "gjirokaster-stone-city-history",
+        "url": "https://www.besteuropeanspots.com/attractions/gjirokaster-stone-city-history"
       }
     ]
   },
@@ -1049,8 +2224,8 @@
       },
       {
         "name": "纳夫普利翁",
-        "slug": "nafplio-greece",
-        "url": "https://www.besteuropeanspots.com/attractions/nafplio-greece"
+        "slug": "nafplio-greece-history",
+        "url": "https://www.besteuropeanspots.com/attractions/nafplio-greece-history"
       }
     ]
   },
@@ -1058,14 +2233,14 @@
     "kw": "莫奈姆瓦夏",
     "matches": [
       {
-        "name": "莫奈姆瓦夏",
-        "slug": "monemvasia",
-        "url": "https://www.besteuropeanspots.com/attractions/monemvasia"
-      },
-      {
         "name": "莫奈姆瓦夏隐秘之城",
         "slug": "monemvasia-fortress-town",
         "url": "https://www.besteuropeanspots.com/attractions/monemvasia-fortress-town"
+      },
+      {
+        "name": "莫奈姆瓦夏",
+        "slug": "monemvasia-history",
+        "url": "https://www.besteuropeanspots.com/attractions/monemvasia-history"
       }
     ]
   },
@@ -1073,14 +2248,14 @@
     "kw": "梅黛奥拉",
     "matches": [
       {
-        "name": "梅黛奥拉悬空修道院",
-        "slug": "meteora-monasteries",
-        "url": "https://www.besteuropeanspots.com/attractions/meteora-monasteries"
-      },
-      {
         "name": "梅黛奥拉（天空之城修道院）",
         "slug": "meteora-monasteries-greece",
         "url": "https://www.besteuropeanspots.com/attractions/meteora-monasteries-greece"
+      },
+      {
+        "name": "梅黛奥拉悬空修道院",
+        "slug": "meteora-monasteries-history",
+        "url": "https://www.besteuropeanspots.com/attractions/meteora-monasteries-history"
       }
     ]
   },
@@ -1088,64 +2263,49 @@
     "kw": "哈尼亚",
     "matches": [
       {
-        "name": "哈尼亚威尼斯港",
-        "slug": "chania-venetian-harbour",
-        "url": "https://www.besteuropeanspots.com/attractions/chania-venetian-harbour"
-      },
-      {
         "name": "哈尼亚老城",
         "slug": "chania-old-town-venetian-harbor-lighthouse",
         "url": "https://www.besteuropeanspots.com/attractions/chania-old-town-venetian-harbor-lighthouse"
+      },
+      {
+        "name": "哈尼亚威尼斯港",
+        "slug": "chania-venetian-port-history",
+        "url": "https://www.besteuropeanspots.com/attractions/chania-venetian-port-history"
+      },
+      {
+        "name": "哈尼亚老城",
+        "slug": "chania-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/chania-old-town-history"
       }
     ]
   },
   {
-    "kw": "维斯比",
+    "kw": "林多斯",
     "matches": [
       {
-        "name": "维斯比老城",
-        "slug": "visby",
-        "url": "https://www.besteuropeanspots.com/attractions/visby"
+        "name": "林多斯卫城",
+        "slug": "lindos-acropolis",
+        "url": "https://www.besteuropeanspots.com/attractions/lindos-acropolis"
       },
       {
-        "name": "维斯比中世纪城墙",
-        "slug": "visby-city-wall",
-        "url": "https://www.besteuropeanspots.com/attractions/visby-city-wall"
+        "name": "林多斯卫城",
+        "slug": "lindos-acropolis-history",
+        "url": "https://www.besteuropeanspots.com/attractions/lindos-acropolis-history"
       }
     ]
   },
   {
-    "kw": "于斯塔德",
+    "kw": "雷西姆诺",
     "matches": [
       {
-        "name": "于斯塔德半木结构小镇",
-        "slug": "ystad-half-timbered-town",
-        "url": "https://www.besteuropeanspots.com/attractions/ystad-half-timbered-town"
+        "name": "雷西姆诺老城",
+        "slug": "rethymno-old-town-crete",
+        "url": "https://www.besteuropeanspots.com/attractions/rethymno-old-town-crete"
       },
       {
-        "name": "于斯塔德",
-        "slug": "ystad-medieval-town-sweden",
-        "url": "https://www.besteuropeanspots.com/attractions/ystad-medieval-town-sweden"
-      }
-    ]
-  },
-  {
-    "kw": "波尔沃",
-    "matches": [
-      {
-        "name": "波尔沃古镇",
-        "slug": "porvoo",
-        "url": "https://www.besteuropeanspots.com/attractions/porvoo"
-      },
-      {
-        "name": "波尔沃红色木屋区",
-        "slug": "porvoo-red-wooden-houses",
-        "url": "https://www.besteuropeanspots.com/attractions/porvoo-red-wooden-houses"
-      },
-      {
-        "name": "波尔沃老城",
-        "slug": "porvoo-old-town",
-        "url": "https://www.besteuropeanspots.com/attractions/porvoo-old-town"
+        "name": "雷西姆诺老城",
+        "slug": "rethymno-old-town-history",
+        "url": "https://www.besteuropeanspots.com/attractions/rethymno-old-town-history"
       }
     ]
   },
@@ -1154,18 +2314,18 @@
     "matches": [
       {
         "name": "图尔库城堡",
-        "slug": "turku-castle",
-        "url": "https://www.besteuropeanspots.com/attractions/turku-castle"
-      },
-      {
-        "name": "图尔库城堡",
         "slug": "turku-castle-sweden-finland",
         "url": "https://www.besteuropeanspots.com/attractions/turku-castle-sweden-finland"
       },
       {
-        "name": "图尔库大教堂",
-        "slug": "turku-cathedral",
-        "url": "https://www.besteuropeanspots.com/attractions/turku-cathedral"
+        "name": "Flowpark图尔库",
+        "slug": "flowpark-turku",
+        "url": "https://www.besteuropeanspots.com/attractions/flowpark-turku"
+      },
+      {
+        "name": "图尔库探险公园（Flowpark Turku）",
+        "slug": "flowpark-turku-history",
+        "url": "https://www.besteuropeanspots.com/attractions/flowpark-turku-history"
       }
     ]
   },
@@ -1181,6 +2341,16 @@
         "name": "劳马老磨坊/萨马拉赫蒂青铜时代遗址",
         "slug": "sammallahdenmaki",
         "url": "https://www.besteuropeanspots.com/attractions/sammallahdenmaki"
+      },
+      {
+        "name": "劳马古城",
+        "slug": "old-rauma-history",
+        "url": "https://www.besteuropeanspots.com/attractions/old-rauma-history"
+      },
+      {
+        "name": "劳马老磨坊/萨马拉赫蒂青铜时代遗址",
+        "slug": "sammallahdenmaki-history",
+        "url": "https://www.besteuropeanspots.com/attractions/sammallahdenmaki-history"
       }
     ]
   }

@@ -16,11 +16,11 @@
     },
     {
       "label": "英国",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "爱丁堡",
-      "href": "/destinations/europe"
+      "href": "/destinations/uk"
     },
     {
       "label": "弗洛登城墙",
@@ -28,7 +28,7 @@
     }
   ],
   "hero": {
-    "title": "弗洛登城墙・Flodden Wall・英国・爱丁堡",
+    "title": "弗洛登城墙・Flodden Wall・英国・Edinburgh",
     "description": ""
   },
   "sections": [

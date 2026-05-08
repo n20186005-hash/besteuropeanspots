@@ -1,0 +1,82 @@
+{
+  "slug": "test-b",
+  "category": "encyclopedia",
+  "metadata": {
+    "title": "测试景点B・Test B・捷克・测试市 | 最佳欧洲景点",
+    "description": "测试内容"
+  },
+  "hero": {
+    "title": "测试景点B・Test B・捷克・测试市",
+    "description": "测试内容"
+  },
+  "content": {
+    "景点中文名": "测试景点B",
+    "景点英文名": "Test B",
+    "国家": "捷克",
+    "城市": "测试市",
+    "路由缩写(slug)": "test-b",
+    "核心简介": "测试内容"
+  },
+  "relatedAttractions": [
+    {
+      "name": "库特纳霍拉（人骨教堂及老城）",
+      "englishName": "Kutná Hora (Sedlec Ossuary & Old Town)",
+      "country": "捷克",
+      "city": "库特纳霍拉",
+      "slug": "sedlec-ossuary-kutna-hora-old-town",
+      "description": "老实说，去库特纳霍拉之前，我满脑子都是关于“人骨教堂”那种猎奇的、甚至有点毛骨悚然的想象。但当我真的站在塞德莱茨那片宁静的墓地外，午后的阳光把新绿的草坪照得发亮，远处是普通民居的红屋顶，那种强烈的反差感瞬间击中了我。这里没有阴森的气氛，只有一种奇异的平和。推开那扇不起眼的教堂小门，一股混合着古老石材",
+      "address": "Sedlec Ossuary: Zámecká 127, 284 03 Kutná Hora, Czechia\nKutná Hora Historical Centre: 具体围绕圣巴巴拉教堂及周边区域，无单一地址。",
+      "transport": "从布拉格出发最为方便。在布拉格中央火车站（Praha hl.n.）乘坐前往库特纳霍拉主火车站（Kutná Hora hl.n.）的列车，车程约50分钟至1小时，班次频繁，几乎每小时都有。抵达主火车站后，需要转乘一趟当地的S线列车或巴士（约5分钟）前往库特纳霍拉市区（Kutná Hora město）或塞德莱茨（Sedlec）。更直接的方式是从布拉格乘坐直达库特纳霍拉市镇（Kutná Hora město）的列车，但班次较少。建议购买捷克铁路的电子票或使用交通APP（如IDOS）查询实时班次。从塞德莱茨火车站步行到人骨教堂约10分钟，从市区火车站步行到圣巴巴拉教堂约15分钟。",
+      "region": "捷克",
+      "type": "宗教遗产",
+      "category": [
+        "encyclopedia"
+      ],
+      "countrySlug": "jieke",
+      "countries": [
+        "捷克"
+      ],
+      "raw_type": "大教堂"
+    },
+    {
+      "name": "下库尼采罗莎·科利女子修道院",
+      "englishName": "Dolní Kounice (Rosa Coeli)",
+      "country": "捷克",
+      "city": "南摩拉维亚州",
+      "slug": "dolni-kounice-rosa-coeli",
+      "description": "嘿，朋友，如果觉得布拉格城堡人太多，想找一处真正能让你心跳漏拍、呼吸暂停的地方，那今天这份**下库尼采自由行指南**，请务必收好。从布尔诺向南驱车不到半小时，你会在安静的伊赫拉瓦河弯道旁，遇见“罗莎·科利”（Rosa Coeli，意为“天堂的玫瑰”）。这绝对不是你想象中的那种修缮完美的景点——它是一",
+      "address": "",
+      "transport": "",
+      "region": "捷克",
+      "type": "城镇与村落",
+      "category": [
+        "encyclopedia"
+      ],
+      "countries": [
+        "捷克"
+      ],
+      "raw_type": "古城",
+      "countrySlug": "jieke"
+    },
+    {
+      "name": "博斯科维采",
+      "englishName": "Boskovice",
+      "country": "捷克",
+      "city": "博斯科维采",
+      "slug": "boskovice-jewish-quarter-castle",
+      "description": "火车缓缓驶离布尔诺的现代风景，窗外的田园变得越来越柔和，山丘的线条也愈加分明。当“Boskovice”的站牌出现时，你踏入的仿佛不是一个车站，而是一部老旧电影的开场。空气里有种特别的混合气味——刚割过的青草香，从老房子石缝里渗出的、略带潮湿的泥土味，或许还有一丝若有若无的、从某家咖啡馆飘出的烘焙甜香",
+      "address": "Boskovice, 680 01, Czech Republic",
+      "transport": "从布拉格出发最便捷。在布拉格主要巴士站（如Florenc）乘坐直达巴士，车程约2.5-3小时，班次每日数班，可通过RegioJet或FlixBus网站预订。从布尔诺出发更近，火车或巴士约1小时即可抵达，班次频繁。小镇内部所有核心景点均可轻松步行到达，火车站和巴士站距离老城广场约15分钟步行路程。",
+      "region": "捷克",
+      "type": "历史遗迹与考古",
+      "category": [
+        "encyclopedia"
+      ],
+      "countrySlug": "jieke",
+      "countries": [
+        "捷克"
+      ],
+      "raw_type": "历史文化古镇（含犹太区、城堡废墟、贵族庄园）"
+    }
+  ]
+}

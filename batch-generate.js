@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { parsePageTsx, writePageData, getContentFilePath } = require('./page-data-utils');
 const { normalizeAttractionRecord } = require('./taxonomy-country-utils');
 
 // 配置三个分类及对应的文件夹名
@@ -49,7 +48,8 @@ function parseText(text) {
     const line = lines[i].trim();
     if (!line) continue;
     // 兼容 【标签】 或 【 标签 】 以及加粗的 **【标签】**
-    const match = line.replace(/\*\*/g, '').match(/^【\s*(.+?)\s*】$/);
+    // 支持 【标签】 以及 【标签】内容 两种格式
+    const match = line.replace(/\*\*/g, '').match(/^【\s*(.+?)\s*】(.*)$/);
     
     if (match) {
       if (currentKey) {
@@ -57,6 +57,10 @@ function parseText(text) {
       }
       currentKey = match[1];
       currentValue = [];
+      const inlineValue = match[2].trim();
+      if (inlineValue) {
+        currentValue.push(inlineValue);
+      }
     } else if (currentKey) {
       // 不再移除 - 和 *，因为它们可能是无序列表的一部分
       // currentValue.push(line.replace(/^[-*]\s+/, '').replace(/^#+\s*/, ''));
@@ -187,6 +191,26 @@ if (fs.existsSync(blacklistPath)) {
   }
 }
 
+// 加载无效国家列表
+let invalidCountries = [];
+const invalidCountriesPath = path.join(rootDir, 'invalid-countries.json');
+if (fs.existsSync(invalidCountriesPath)) {
+  invalidCountries = JSON.parse(fs.readFileSync(invalidCountriesPath, 'utf8'));
+  if (invalidCountries.length > 0) {
+    console.log(`🛡️  已加载无效国家过滤列表，包含 ${invalidCountries.length} 个受限国家`);
+  }
+}
+
+// 加载允许的国家列表 (白名单)
+let allowedCountries = [];
+const allowedCountriesPath = path.join(rootDir, 'allowed-countries.json');
+if (fs.existsSync(allowedCountriesPath)) {
+  allowedCountries = JSON.parse(fs.readFileSync(allowedCountriesPath, 'utf8'));
+  if (allowedCountries.length > 0) {
+    console.log(`🌍 已加载允许的国家白名单，包含 ${allowedCountries.length} 个国家`);
+  }
+}
+
 // 开始遍历三个文件夹
 let totalFoundFiles = 0;
 
@@ -211,9 +235,68 @@ categories.forEach(cat => {
     const rawText = fs.readFileSync(filePath, 'utf-8');
     const data = parseText(rawText);
 
-    if (!data['景点中文名'] || !data['路由缩写(slug)']) {
+    const slugKey = Object.keys(data).find(k => k.includes('路由缩写') || k.includes('slug'));
+    const cnNameKey = Object.keys(data).find(k => k.includes('景点中文名'));
+    
+    if (!cnNameKey || !slugKey || !data[cnNameKey] || !data[slugKey]) {
       console.log(`  ❌ 跳过: [${file}] - 缺少必填标题！请确保文件内包含【景点中文名】和【路由缩写(slug)】这两个标题。`);
       return;
+    }
+
+    // 统一赋值回标准key，方便后续使用
+    data['景点中文名'] = data[cnNameKey];
+    data['路由缩写(slug)'] = data[slugKey];
+
+    // 国家/分类清洗逻辑
+    let country = data['国家'] || '';
+    if (country.includes('Scotland') || country.includes('United Kingdom') || country.includes('英国') || country.includes('Powis Castle')) {
+      country = '英国';
+    } else if (country.includes('Pilsen') || country.includes('捷克')) {
+      country = '捷克';
+    } else if (country.includes('Vatican') || country.includes('梵蒂冈')) {
+      country = '梵蒂冈';
+    } else if (country.includes('Bosnia') || country.includes('波黑') || country.includes('波斯尼亚')) {
+      country = '波黑';
+    }
+    
+    // 如果白名单存在且当前国家不在白名单中，尝试进一步修正或最终跳过
+    if (allowedCountries.length > 0 && !allowedCountries.includes(country)) {
+      // 尝试匹配白名单中的国家（部分匹配）
+      const matchedCountry = allowedCountries.find(c => country.includes(c));
+      if (matchedCountry) {
+         country = matchedCountry;
+      } else {
+         console.log(`  🚫 跳过非白名单国家: [${data['景点中文名']}] 国家为 ${country}，不在允许列表中。`);
+         totalSkippedCount++;
+         return;
+      }
+    }
+    
+    data['国家'] = country;
+
+    // 拦截非欧洲或虚构国家 (作为兜底，虽然白名单已经处理了大部分情况)
+    if (invalidCountries.includes(data['国家'])) {
+      console.log(`  🚫 跳过无效国家: [${data['景点中文名']}] 国家为 ${data['国家']}，已被过滤。`);
+      totalSkippedCount++;
+      return;
+    }
+
+    // 处理景点英文名中的多余描述（例如：The Inverness Castle Experience｜站在尼斯湖畔的中世纪要塞...）
+    let rawEnglishName = data['景点英文名'] || '';
+    if (rawEnglishName.includes('｜')) {
+      const parts = rawEnglishName.split('｜');
+      data['景点英文名'] = parts[0].trim();
+      const extraIntro = parts.slice(1).join('｜').trim();
+      if (extraIntro) {
+        data['核心简介'] = extraIntro + '\n' + (data['核心简介'] || '');
+      }
+    } else if (rawEnglishName.includes('|')) {
+      const parts = rawEnglishName.split('|');
+      data['景点英文名'] = parts[0].trim();
+      const extraIntro = parts.slice(1).join('|').trim();
+      if (extraIntro) {
+        data['核心简介'] = extraIntro + '\n' + (data['核心简介'] || '');
+      }
     }
 
     // 处理路由缩写：为了避免百科、游记、历史的 URL 冲突，根据分类自动添加后缀
@@ -228,9 +311,11 @@ categories.forEach(cat => {
       if (!slug.endsWith('-history')) slug += '-history';
     }
 
-    const pageDir = path.join(attractionsDir, slug);
-    const pageFile = path.join(pageDir, 'page.tsx');
-    const contentFile = getContentFilePath(rootDir, slug);
+    const dataDir = path.join(rootDir, 'src', 'data', cat.id);
+    if (!fs.existsSync(dataDir)) {
+      fs.mkdirSync(dataDir, { recursive: true });
+    }
+    const jsonOutputFile = path.join(dataDir, `${slug}.json`);
 
     // 检查是否在永久黑名单中
     if (permanentBlacklist.includes(slug)) {
@@ -240,331 +325,49 @@ categories.forEach(cat => {
     }
 
     // 【防重复检查】如果页面文件已经存在，且没有开启强制覆盖，则跳过
-    if (!isForceOverwrite && (fs.existsSync(contentFile) || fs.existsSync(pageFile))) {
+    if (!isForceOverwrite && fs.existsSync(jsonOutputFile)) {
       console.log(`  ⏩ 跳过: [${data['景点中文名']}] (${slug}) 已存在，无需重复生成。`);
       totalSkippedCount++;
       return;
     }
 
-    const componentName = slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join('') + 'Page';
-
     // 对有可能插入到单引号字符串中的字段进行安全转义，防止破坏 TSX 语法
-    const safeTitle = (data['SEO标题'] || `${data['景点中文名']}・${data['景点英文名']}・${data['国家']}・${data['城市']} | 最佳欧洲景点`).replace(/'/g, "\\'");
-    const safeDesc = (data['SEO描述'] || data['核心简介'] || '').substring(0, 150).replace(/\n/g, ' ').replace(/'/g, "\\'");
+    const safeTitle = (data['SEO标题'] || `${data['景点中文名']}・${data['景点英文名']}・${data['国家']}・${data['城市']} | 最佳欧洲景点`);
+    const safeDesc = (data['SEO描述'] || data['核心简介'] || '').substring(0, 150).replace(/\n/g, ' ');
 
-    // 从已有数据库中随机抽取 3 个相关的景点（同国家或同类型），作为猜你喜欢
-    const relatedAttractions = attractionsData
-      .filter(a => a.slug !== slug && (a.country === data['国家'] || a.type === data['类型']))
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 3);
-
-    let relatedHtml = '';
-    if (relatedAttractions.length > 0) {
-      relatedHtml = `
-          <Section title="猜你喜欢">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-${relatedAttractions.map(a => `              <a href="/attractions/${a.slug}" className="block group">
-                <div className="bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300">
-                  <div className="h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300">
-                    ${a.name[0]}
-                  </div>
-                  <div className="p-4">
-                    <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1">${a.name}</h4>
-                    <p className="text-sm text-gray-500 mt-1 line-clamp-1">${a.englishName}</p>
-                  </div>
-                </div>
-              </a>`).join('\n')}
-            </div>
-          </Section>`;
-    }
-
-    // 动态构建 Section
-    let sectionIndex = 1;
-    let sectionsHtml = '';
-
-    // 1. 景点介绍 / 导语
-    if (data['核心简介'] || data['导语']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. ${data['导语'] ? '导语' : '景点介绍'}">
-${formatParagraphs(data['核心简介'] || data['导语'])}
-          </Section>\n`;
-    }
-
-    // 2. 基本信息 (如果是纯历史页，可能不需要这块，但保留兼容)
-    if (data['景点中文名']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. 基本信息">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-4">
-                <InfoRow label="中文名称" value={\`${(data['景点中文名'] || '').replace(/`/g, '\\`')}\`} />
-                <InfoRow label="英文名称" value={\`${(data['景点英文名'] || '').replace(/`/g, '\\`')}\`} />
-                <InfoRow label="正式名称" value={\`${(data['正式名称'] || data['景点英文名'] || '').replace(/`/g, '\\`')}\`} />
-                <InfoRow label="国家" value={\`${(data['国家'] || '').replace(/`/g, '\\`')}\`} />
-                <InfoRow label="城市" value={\`${(data['城市'] || '').replace(/`/g, '\\`')}\`} />
-              </div>
-              ${(data['历史地位'] || data['建筑特色'] || data['建筑风格'] || data['文化价值']) && (data['历史地位'] !== '详见下文' || data['建筑特色'] !== '详见下文' || data['建筑风格'] !== '详见下文' || data['文化价值'] !== '详见下文') ? `
-              <div className="space-y-4">
-                ${data['历史地位'] && data['历史地位'] !== '详见下文' ? `<InfoRow label="历史地位" value={\`${data['历史地位'].replace(/`/g, '\\`')}\`} />` : ''}
-                ${data['建筑特色'] && data['建筑特色'] !== '详见下文' ? `<InfoRow label="建筑特色" value={\`${data['建筑特色'].replace(/`/g, '\\`')}\`} />` : ''}
-                ${data['建筑风格'] && data['建筑风格'] !== '详见下文' ? `<InfoRow label="建筑风格" value={\`${data['建筑风格'].replace(/`/g, '\\`')}\`} />` : ''}
-                ${data['文化价值'] && data['文化价值'] !== '详见下文' ? `<InfoRow label="文化价值" value={\`${data['文化价值'].replace(/`/g, '\\`')}\`} />` : ''}
-              </div>` : ''}
-            </div>
-            ${(data['开放时间'] || data['门票价格'] || data['地址'] || data['交通方式']) ? `
-            <div className="mt-6 space-y-3">
-              <InfoRow label="开放时间" value={\`${(data['开放时间'] || '全天开放').replace(/`/g, '\\`')}\`} />
-              <InfoRow label="门票价格" value={\`${(data['门票价格'] || '免费').replace(/`/g, '\\`')}\`} />
-              <InfoRow label="地址" value={\`${(data['地址'] || '请参考地图导航').replace(/`/g, '\\`')}\`} />
-              <InfoRow label="交通方式" value={\`${(data['交通方式'] || '建议步行或公共交通').replace(/`/g, '\\`')}\`} />
-            </div>` : ''}
-          </Section>\n`;
-    }
-
-    // 3. 历史背景 / 城市起源
-    if (data['历史背景'] || data['城市起源']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. ${data['城市起源'] ? '城市/景点起源' : '历史背景'}">
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-${formatParagraphs(data['城市起源'] || data['历史背景'])}
-            </div>
-          </Section>\n`;
-    }
-
-    // 3.1 历史印记 (历史页专属)
-    if (data['历史印记']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. 镌刻时光的历史印记">
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-${formatParagraphs(data['历史印记'])}
-            </div>
-          </Section>\n`;
-    }
-
-    // 3.2 名人传奇 (历史页专属)
-    if (data['名人传奇']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. 与这座城共生的名人传奇">
-            <div className="bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed">
-${formatParagraphs(data['名人传奇'])}
-            </div>
-          </Section>\n`;
-    }
-
-    // 3.3 民间传说与人文风情 (历史页专属)
-    if (data['民间传说']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. 民间传说与人文风情">
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-${formatParagraphs(data['民间传说'])}
-            </div>
-          </Section>\n`;
-    }
-
-    // 3.4 历史回响 (历史页专属)
-    if (data['历史回响']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. 历史回响：读懂这座城的旅行意义">
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
-${formatParagraphs(data['历史回响'])}
-            </div>
-          </Section>\n`;
-    }
-
-    // 4. 游览路线
-    if (data['游览路线总述'] || data['游览路线步骤']) {
-      const routeTitle = data['SEO路线标题'] || '游览路线';
-      sectionsHtml += `
-          <Section title={\`${sectionIndex++}. ${routeTitle.replace(/`/g, '\\`')}\`}>
-            <div className="space-y-6">
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">{\`${(data['SEO路线子标题'] || '推荐路线').replace(/`/g, '\\`')}\`}</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  {\`${(data['游览路线总述'] || '').replace(/`/g, '\\`')}\`}
-                </p>
-                ${data['游览路线补充'] ? `<div className="text-sm text-blue-800 bg-blue-100 p-3 rounded">
-                  <strong>建议：</strong>{\`${data['游览路线补充'].replace(/`/g, '\\`')}\`}
-                </div>` : ''}
-              </div>
-              ${data['游览路线步骤'] ? `
-              <div className="grid md:grid-cols-2 gap-6">
-${formatListToCards(data['游览路线步骤'])}
-              </div>` : ''}
-            </div>
-          </Section>\n`;
-    }
-
-    // 5. 必看亮点细节 (兼容新 Prompt)
-    if (data['必看亮点细节']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. 必看亮点">
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-${formatParagraphs(data['必看亮点细节'])}
-            </div>
-          </Section>\n`;
-    }
-
-    // 6. 拍照机位 (兼容老 Prompt)
-    if (data['拍照机位']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. 拍照机位">
-            <div className="grid md:grid-cols-2 gap-6">
-${formatListToPhotoCards(data['拍照机位'])}
-            </div>
-            ${data['拍照补充说明'] ? `
-            <div className="mt-6 p-4 bg-purple-50 border-l-4 border-purple-400">
-              <h4 className="font-semibold text-purple-800 mb-2">拍照小贴士</h4>
-              <ul className="text-sm text-purple-700 space-y-1">
-${formatList(data['拍照补充说明'], true)}
-              </ul>
-            </div>` : ''}
-          </Section>\n`;
-    }
-
-    // 7. 实用避坑指南 (兼容新 Prompt)
-    if (data['实用避坑指南']) {
-      const tipsTitle = data['SEO避坑标题'] || '实用避坑指南';
-      sectionsHtml += `
-          <Section title={\`${sectionIndex++}. ${tipsTitle.replace(/`/g, '\\`')}\`}>
-            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-100 text-gray-700 leading-relaxed">
-${formatParagraphs(data['实用避坑指南'])}
-            </div>
-          </Section>\n`;
-    }
-
-    // 8. 住宿小贴士 / 住宿与餐饮推荐
-    if (data['住宿建议'] || data['住宿与餐饮推荐']) {
-      const stayTitle = data['SEO住宿标题'] || '住宿与餐饮推荐';
-      sectionsHtml += `
-          <Section title={\`${sectionIndex++}. ${stayTitle.replace(/`/g, '\\`')}\`}>
-            <div className="space-y-6">
-              ${data['住宿建议'] ? `
-              <div className="grid md:grid-cols-3 gap-4">
-${formatListToHotelCards(data['住宿建议'])}
-              </div>` : ''}
-              <div className="text-gray-700 leading-relaxed">
-${formatParagraphs(data['住宿补充说明'] || data['住宿与餐饮推荐'])}
-              </div>
-            </div>
-          </Section>\n`;
-    }
-
-    // 9. 周边延伸探索 (兼容新 Prompt)
-    if (data['周边延伸探索']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. 周边延伸探索">
-            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-gray-700 leading-relaxed">
-${formatParagraphs(data['周边延伸探索'])}
-            </div>
-          </Section>\n`;
-    }
-
-    // 10. 历史冷知识与问答 (FAQ)
-    if (data['历史冷知识与问答']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. 历史冷知识与问答 (FAQ)">
-            <div className="space-y-4">
-              <div className="bg-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed">
-${formatParagraphs(data['历史冷知识与问答'])}
-              </div>
-            </div>
-          </Section>\n`;
-    }
-
-    // 11. 总结感悟
-    if (data['总结感悟']) {
-      sectionsHtml += `
-          <Section title="${sectionIndex++}. 总结感悟">
-            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-6 rounded-lg">
-${formatParagraphs(data['总结感悟'])}
-            </div>
-          </Section>\n`;
-    }
-
-    // 检查是否有传入的国家slug作为参数
-    const existingIndex = attractionsData.findIndex(a => a.slug === slug);
-    let countrySlug = 'europe';
-    if (existingIndex >= 0 && attractionsData[existingIndex].countrySlug) {
-      countrySlug = attractionsData[existingIndex].countrySlug;
-    } else {
-      const lowerCountry = (data['国家'] || 'europe').toLowerCase();
-      countrySlug = lowerCountry === '法国' ? 'france' : lowerCountry === '意大利' ? 'italy' : 'europe';
-    }
-
-    // Regex to match the second item in Breadcrumb
-    const breadcrumbRegex = /(<Breadcrumb\s+items=\{\[\s*\{\s*label:\s*'首页',\s*href:\s*'\/'\s*\},)(\s*\{\s*label:\s*'[^']+',\s*href:\s*'\/[^']+'\s*\},)/;
-    
-    // 如果生成的是面包屑，我们在模板中直接使用 destinations
-    // 之前模板中写死了 category，我们这里把它改掉
-    
-    const pageContent = `import { Metadata } from 'next'
-import { Section } from '@/components/Section'
-import { InfoRow } from '@/components/InfoRow'
-import { Breadcrumb } from '@/components/Breadcrumb'
-
-export const metadata: Metadata = {
-  title: '${safeTitle}',
-  description: '${safeDesc}',
-}
-
-export default function ${componentName}() {
-  return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        <Breadcrumb
-          items={[
-            { label: '首页', href: '/' },
-            { label: '${cat.displayName}', href: '/category/${cat.id}' },
-            { label: '${data['国家'] || '欧洲'}', href: '/destinations/${countrySlug}' },
-${data['城市'] ? `            { label: '${data['城市'].replace(/'/g, "\\'")}', href: '/destinations/${countrySlug}' },` : ''}
-            { label: '${(data['景点中文名'] || '').replace(/'/g, "\\'")}', href: '/attractions/${slug}' },
-          ]}
-        />
-
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{\`${data['景点中文名'] || ''}・${data['景点英文名'] || ''}・${data['国家'] || ''}・${data['城市'] || ''}\`}</h1>
-          <p className="text-lg text-gray-600 mb-6">
-            {\`${(data['核心简介']?.split('\\n')[0] || '').replace(/`/g, '\\`')}\`}
-          </p>
-        </div>
-
-        <div className="space-y-8">
-${sectionsHtml}
-${relatedHtml}
-        </div>
-      </div>
-    </div>
-  )
-}
-`;;
-
-    // 写入数据源文件，替代独立 page.tsx 页面文件
-    let writeNeeded = true;
-    const pageData = parsePageTsx(pageContent, slug);
-    // 直接从源数据构建 hero，避免依赖模板解析
-    pageData.hero = {
-      title: [(data['景点中文名'] || ''), (data['景点英文名'] || ''), (data['国家'] || ''), (data['城市'] || '')]
-        .filter(Boolean).join('・'),
-      description: (data['核心简介'] || '').split('\n')[0] || ''
+    // 构建结构化 JSON 数据
+    const pageData = {
+      slug,
+      category: cat.id,
+      metadata: {
+        title: safeTitle,
+        description: safeDesc,
+      },
+      hero: {
+        title: [(data['景点中文名'] || ''), (data['景点英文名'] || ''), (data['国家'] || ''), (data['城市'] || '')].filter(Boolean).join('・'),
+        description: (data['核心简介'] || '').split('\n')[0] || ''
+      },
+      content: data,
+      relatedAttractions: attractionsData
+        .filter(a => a.slug !== slug && (a.country === data['国家'] || a.type === data['类型']))
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 3)
     };
-    const nextContentJson = JSON.stringify(pageData, null, 2);
-    if (fs.existsSync(contentFile)) {
-      const oldContent = fs.readFileSync(contentFile, 'utf-8');
-      if (oldContent === nextContentJson) {
-        writeNeeded = false;
-      }
-    }
-    
-    if (writeNeeded) {
-      writePageData(rootDir, pageData);
-    }
 
-    if (fs.existsSync(pageFile)) {
-      fs.unlinkSync(pageFile);
+    fs.writeFileSync(jsonOutputFile, JSON.stringify(pageData, null, 2), 'utf-8');
+
+    // 删除旧的 page.tsx 如果存在
+    const oldPageDir = path.join(attractionsDir, slug);
+    const oldPageFile = path.join(oldPageDir, 'page.tsx');
+    if (fs.existsSync(oldPageFile)) {
+      fs.unlinkSync(oldPageFile);
+      // Try to remove dir if empty
+      try { fs.rmdirSync(oldPageDir); } catch(e) {}
     }
 
     // 更新 JSON，合并或新增分类
     // 注意：如果是游记或历史，它们会作为独立的一条记录存在于 JSON 中，所以用独立的 slug 查找
-    // existingIndex 已经在上方检查 countrySlug 时定义过，无需重新声明
+    const existingIndex = attractionsData.findIndex(a => a.slug === slug);
     let categoryArray = [cat.id]; // 当前文案所属文件夹的分类
     
     if (existingIndex >= 0 && attractionsData[existingIndex].category) {
@@ -619,44 +422,6 @@ function printSummary() {
 // 如果有任何修改，则保存更新后的 JSON
 if (totalSuccessCount > 0) {
   fs.writeFileSync(jsonFile, JSON.stringify(attractionsData, null, 2), 'utf-8');
-  
-  // ==============================
-  // 自动生成 sitemap.xml
-  // ==============================
-  const sitemapPath = path.join(rootDir, 'public', 'sitemap.xml');
-  const baseUrl = 'https://www.besteuropeanspots.com';
-  const currentDate = new Date().toISOString().split('T')[0];
-
-  let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  sitemapContent += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-
-  // 首页
-  sitemapContent += `  <url>\n    <loc>${baseUrl}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
-
-  // 所有分类页
-  const allCategories = ['encyclopedia', 'travelogue', 'history'];
-  allCategories.forEach(c => {
-    sitemapContent += `  <url>\n    <loc>${baseUrl}/category/${c}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
-  });
-
-  // 只把真实存在数据源的页面加入 sitemap
-  let validPagesCount = 0;
-  attractionsData.forEach(a => {
-    const attractionContentFile = getContentFilePath(rootDir, a.slug);
-    if (fs.existsSync(attractionContentFile)) {
-      sitemapContent += `  <url>\n    <loc>${baseUrl}/attractions/${a.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
-      validPagesCount++;
-    }
-  });
-
-  sitemapContent += `</urlset>`;
-
-  const publicDir = path.join(rootDir, 'public');
-  if (!fs.existsSync(publicDir)) {
-    fs.mkdirSync(publicDir, { recursive: true });
-  }
-  fs.writeFileSync(sitemapPath, sitemapContent, 'utf-8');
-  console.log(`\n🗺️  已自动更新站点地图：sitemap.xml (共包含 ${validPagesCount + 4} 个页面，其中景点 ${validPagesCount} 个)`);
   
   printSummary();
 } else {

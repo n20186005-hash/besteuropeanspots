@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "BestEuropeanSpots 数据获取插件",
+  "version": "1.0",
+  "description": "卡片模式的数据获取插件，支持进度保存、日志导出、自动搜索与无API获取",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
