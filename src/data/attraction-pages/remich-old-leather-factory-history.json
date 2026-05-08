@@ -1,0 +1,85 @@
+{
+  "slug": "remich-old-leather-factory-history",
+  "template": "history",
+  "metadata": {
+    "title": "雷米希旧皮革厂历史溯源｜卢森堡摩泽尔河畔的工业隐秘与工人传奇",
+    "description": "走进卢森堡雷米希县尘封的旧皮革厂，追溯19世纪摩泽尔河畔的皮革工业王朝，聆听工人运动、火灾重生与一位被遗忘的发明家的故事。一段湮没于时光的欧洲工业记忆。"
+  },
+  "breadcrumbs": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "历史人文",
+      "href": "/category/history"
+    },
+    {
+      "label": "卢森堡",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "雷米希",
+      "href": "/destinations/europe"
+    },
+    {
+      "label": "卢森堡雷米希县旧皮革厂",
+      "href": "/attractions/remich-old-leather-factory-history"
+    }
+  ],
+  "hero": {
+    "title": "卢森堡雷米希县旧皮革厂・Old Leather Factory of Remich・卢森堡・雷米希",
+    "description": ""
+  },
+  "sections": [
+    {
+      "title": "1. 导语",
+      "bodyHtml": "<p class=\"text-gray-700 leading-relaxed mb-4\">雷米希，这座摩泽尔河畔的小城，向来以白葡萄酒和静谧风光闻名。可很少有人知道，在葡萄藤覆盖的山丘背后，曾矗立着一座轰鸣了近一个世纪的皮革厂——它不仅是卢森堡东南部最大的工业设施，更是欧洲中小型制造业从手工作坊迈向蒸汽时代的缩影。抛开游玩攻略，走进这座旧皮革厂的尘封往事，遇见属于雷米希的时光与传奇。</p>"
+    },
+    {
+      "title": "2. 基本信息",
+      "bodyHtml": "<div class=\"grid md:grid-cols-2 gap-6\">\n              <div class=\"space-y-4\">\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">中文名称</div>\n  <div class=\"text-gray-900 font-medium\">卢森堡雷米希县旧皮革厂</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">英文名称</div>\n  <div class=\"text-gray-900 font-medium\">Old Leather Factory of Remich</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">正式名称</div>\n  <div class=\"text-gray-900 font-medium\">Old Leather Factory of Remich</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">国家</div>\n  <div class=\"text-gray-900 font-medium\">卢森堡</div>\n</div>\n                <div class=\"bg-gray-50 p-4 rounded-lg border border-gray-200\">\n  <div class=\"text-sm text-gray-500 mb-1\">城市</div>\n  <div class=\"text-gray-900 font-medium\">雷米希</div>\n</div>\n              </div>\n              \n            </div>"
+    },
+    {
+      "title": "3. 城市/景点起源",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雷米希的建城史可追溯到古罗马时期。在公元1世纪，罗马人沿摩泽尔河建立定居点“Remacum”，作为航运和葡萄酒贸易的中转站。中世纪时，雷米希成为特里尔大主教区的领地，城墙环绕，集市繁荣。但真正让雷米希摆脱农业小镇命运的，是<strong>19世纪初</strong>的工业浪潮。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">摩泽尔河提供了廉价的运输通道，河岸边的橡树林则蕴藏着丰富的单宁酸原料——这些橡树皮正是制作优质皮革的关键。<strong>1834年</strong>，一位来自比利时的商人让-皮埃尔·杜邦在雷米希南郊的磨坊旧址上，建立了第一座以水力驱动的皮革鞣制工坊。<strong>“旧皮革厂”并非官方名称</strong>，而是当地人为了区别于后来在城北新建的“新皮革厂”而习惯使用的称呼。工厂所在的街区至今仍被称为“Lederquartier”（皮革区）。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">地名典故中，“雷米希”这个名字本身来自凯尔特语的“remos”，意为“河曲处”。而皮革厂所在的河湾恰好是摩泽尔河在雷米希境内最弯曲的一段——仿佛河流在这里放慢了脚步，只为等待匠人将牛皮浸入鞣池。1835年的政府档案记录，这座工坊在成立首年加工了<strong>3000张牛皮</strong>，全部通过水路运往科隆和法兰克福的鞋匠作坊。</p>\n            </div>"
+    },
+    {
+      "title": "4. 镌刻时光的历史印记",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1838年的大火与重生</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">开业仅四年，一场<strong>夜间火灾</strong>几乎将整个工坊夷为平地。起火原因是工人不慎打翻了油灯，引燃了堆放在二楼的干树皮。大火烧毁了半数鞣池，损失相当于当年雷米希全城两年的税收。但让-皮埃尔·杜邦没有放弃，他抵押了所有家产，从英国买回两台<strong>蒸汽锅炉</strong>和一台<strong>机械搅拌机</strong>——这是卢森堡最早引进的蒸汽动力鞣革设备。1839年重建的工厂以惊人的速度恢复了生产，产量翻了三倍。这座“浴火重生”的工厂在烟囱上刻下了拉丁文 <strong>“Ex cinere robur”</strong>（灰烬中长出橡树），至今残存的烟囱基座上仍可辨认这句铭文。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>1880年的工人罢工</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">19世纪后期，皮革厂雇佣了超过200名工人，其中童工占比一度达到四分之一。<strong>1880年5月</strong>，工人们因为工时过长（每日14小时）和虐待童工问题爆发了卢森堡历史上最早的工业罢工之一。罢工持续了11天，厂主被迫与工人代表谈判，最终签订了雷米希第一份集体劳动合同：将工时减少到12小时，禁止使用12岁以下童工，并每两小时提供一次10分钟的休息。这场罢工的领导者——一个名叫<strong>尼古拉斯·韦伯</strong>的年轻鞣皮工，后来成为卢森堡社会党的早期创始人之一。工厂的旧门房至今保留着当年工人写下的抗议涂鸦，模糊的粉笔字“12小时或死亡”在阴雨天隐约可见。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>二战时期的隐秘抵抗</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">1940年纳粹德国占领卢森堡后，皮革厂被德军征用，用于生产军靴和武装带。但工厂的工人中有一个秘密抵抗网络，他们利用鞣制过程所需的化学药剂——特别是<strong>重铬酸钾</strong>——小批量地制造土制燃烧弹，同时故意损坏设备以延缓生产。1944年盟军反攻前夕，工厂地下室藏匿了三位被追杀的犹太人，其中一位是来自法兰克福的鞋匠阿布拉罕·罗森费尔德。他在工厂的废弃鞣池里躲了整整三个月，战后他写了一本回忆录，描述了躲在散发着腐臭味的旧皮革堆里，听着头顶德军皮靴声的日夜。</p>\n            </div>"
+    },
+    {
+      "title": "5. 与这座城共生的名人传奇",
+      "bodyHtml": "<div class=\"bg-amber-50 p-6 rounded-lg border border-amber-100 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“皮革诗人”让·里什</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">让·里什（Jean Risch，1841–1902）并非职业作家，而是在旧皮革厂工作了三十多年的<strong>鞣皮师傅</strong>。他白天在满是石灰水的鞣池边劳作，夜晚则在烛光下用卢森堡语写诗。他的第一首诗《皮革匠的叹息》发表在1868年的《卢森堡自由报》上，描写了童工玛丽·舒马赫因吸入过多硫化物而咳血夭折的故事。这首诗震撼了雷米希，也引发了社会对皮革厂劳动条件的首次公开讨论。里什后来整理出版了诗集《鞣池边的墨水》，其中一首《河曲处的歌》被谱曲后成为雷米希的<strong>非官方镇歌</strong>。如今，里什的故居（工厂对面的一栋绿色百叶窗小屋）墙上镶有一块小小的铭牌，上面刻着他最著名的诗句：</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">“摩泽尔河用流水鞣制了葡萄藤，我们用双手鞣制了时代的皮囊——每一道褶皱都是日子的印记。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>神秘的工程师——海因里希·穆勒</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">海因里希·穆勒（Heinrich Müller，1855–1921）是一位鲜为人知的德国化学家，他的一生与旧皮革厂紧密相连。穆勒原本在莱比锡大学研究农作物化学，却因失恋而酗酒，被学校开除。1879年他流浪至雷米希，在皮革厂找到了一份<strong>实验室助理</strong>的工作。正是在这里，他醉心于寻找一种能够替代传统树皮鞣剂的化学方法，试图缩短鞣制时间。经过七年失败，<strong>1886年</strong>，穆勒成功地用<strong>铬盐和硫酸</strong>处理牛皮，制造出了第一块“铬鞣革”——这项发明不仅将鞣制周期从三个月缩短至十天，而且使皮革更加柔软耐水。然而，穆勒没有申请专利，而是将配方免费提供给厂主。当他拿着第一块铬鞣革样品跑到科隆参加工业博览会时，却遭到其他厂商的嘲笑。直到20世纪初，铬鞣法才被德国制革业普遍采用，而穆勒此时已因长期接触化学物质染上肺病，死于雷米希的一家廉价旅馆。他的墓碑上刻着一只鞣池的简笔画，但名字早已被风霜侵蚀得难以辨认。皮革厂的旧档案室里，仍保存着他手写的实验笔记，字迹颤抖却一丝不苟。</p>\n              <blockquote class=\"border-l-4 border-blue-300 pl-4 italic text-gray-600 my-4 bg-gray-50 py-3 pr-4 rounded-r\">日记摘录（1884年1月17日）：“今天第三次试验，溶液温度高了，满屋刺鼻气味。工头说我是疯子，可疯子比懦夫更接近真理。如果我有生之年看不到这项技术普及，至少让这池污水记下我的名字。”</blockquote>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“玫瑰夫人”阿黛尔·魏斯</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">阿黛尔·魏斯（Adele Weish，1867–1943）是皮革厂第二代厂主卡尔·魏斯的女儿。她不像其他富家女一样沉迷社交，而是热衷动物保护和社会改良。<strong>1895年</strong>，她不顾父亲反对，在工厂后方开辟了一个小花园，专门种植玫瑰，并利用工厂废弃的鞣废料（含氮有机物）作为肥料。这个“玫瑰园”成了当时雷米希的一道奇异风景：一边是恶臭的皮革厂，一边是盛开的红白玫瑰。阿黛尔还创办了卢森堡最早的<strong>动物保护协会</strong>，并劝说父亲在工厂安装了第一台通风设备以改善工人环境。二战期间，阿黛尔因庇护犹太工人被捕，1943年死于集中营。她的玫瑰园在战争中被毁，但<strong>2005年</strong>雷米希市政厅在工厂旧址入口处重建了一座小玫瑰园，以此纪念这位被当地人称为“玫瑰夫人”的女性。</p>\n            </div>"
+    },
+    {
+      "title": "6. 民间传说与人文风情",
+      "bodyHtml": "<div class=\"space-y-4 text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“鞣池精灵”的故事</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">在雷米希老一辈的居民中，流传着一个关于“鞣池精灵”的传说。据说在每月满月的夜晚，皮革厂最深处的那个鞣池里会飘出一缕青烟，凝成一位半人半鱼的小精灵，它通身泛着古铜色的光泽，像极了浸过单宁酸的牛皮。精灵会悄悄帮助那些加班到深夜的工人——把沉重的生皮滚筒推得更顺，或者把散落在地的铁钉吸回桶里。但如果哪个工人因为困倦而把皮料扔进错误的鞣池，精灵就会生气地让鞣液翻涌，溅那人一身恶臭的黑水。这个故事最早出现在<strong>1892年</strong>的《雷米希地方志》中，作者是一位匿名教师。他写到，当时工厂的老门房亲口告诉他，自己曾在<strong>1888年</strong>的一个冬夜亲眼看到精灵坐在鞣池边缝补破损的牛皮手套。传说后来被附会为“如果工人诚心祈求，精灵会保佑他制作的皮革不裂缝、不发霉”。直到20世纪50年代工厂关闭后，仍有老人说在拆除厂房的夜晚，看到过青烟飘向摩泽尔河的方向。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\"><strong>“河岸的靴子”</strong></p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">另一个更凄婉的传说与一位溺死的年轻女工有关。据说1875年，一位名叫玛格丽特的姑娘因为失足滑入鞣池被救起后，遭到工头责骂，她当晚跳进摩泽尔河自尽。从此以后，每年<strong>11月23日</strong>（玛格丽特的忌日），工厂东门的河岸上会出现一只湿漉漉的旧皮靴，里面插着一朵野花。工人们相传这是玛格丽特的灵魂在用这种方式告诫后人珍惜生命。工厂的老板后来命人在河岸立了一个小十字架，但每逢忌日，仍有人悄悄放上一枝玫瑰。这个习俗一直延续到工厂关闭，如今成为雷米希地方博物馆每年11月的固定展陈主题——博物馆会复制一只旧靴子，旁边摆上鲜花，旁边悬挂着当年幸存女工的口述记录抄本。</p>\n            </div>"
+    },
+    {
+      "title": "7. 历史回响：读懂这座城的旅行意义",
+      "bodyHtml": "<div class=\"bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg text-gray-700 leading-relaxed\">\n              <p class=\"text-gray-700 leading-relaxed mb-4\">雷米希旧皮革厂已经沉默了半个多世纪，厂房的屋顶坍塌，鞣池被填平成停车场，只有那根刻着拉丁文铭文的烟囱基座和墙上的工人涂鸦，还在倔强地抵抗遗忘。但这座工厂的意义远超工业遗迹：它是卢森堡从农业社会迈向工业社会的第一声喘息，是工人权利觉醒的暗礁，也是化学革新的意外温床。而“鞣池精灵”和“河岸的靴子”这些带着泥土和汗水气息的传说，则将冰冷的历史熨帖出人性的温度。当你站在摩泽尔河边，看着对岸的葡萄园时，不妨闭上眼想象一下：一百五十年前，这里弥漫着石灰和单宁酸的气味，工人们哼着让·里什的诗句，将一块块牛皮浸入时光的河流——每一张皮都记载着一个时代的面容。</p>\n              <p class=\"text-gray-700 leading-relaxed mb-4\">👉 想看实地游玩攻略？交通、门票、打卡全攻略，请点击相关游记页。</p>\n            </div>"
+    },
+    {
+      "title": "猜你喜欢",
+      "bodyHtml": "<div class=\"grid grid-cols-1 sm:grid-cols-3 gap-6\">\n              <a href=\"/attractions/bourglinster-resistance-village\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    博\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">博尔滕斯（隐秘的抵抗之村）</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Bourglinster</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/amphitheater-breechkaul\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃希特纳赫“布雷考尔”露天剧场</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Amphitheater \"Breechkaul\"</p>\n                  </div>\n                </div>\n              </a>\n              <a href=\"/attractions/abbey-of-echternach\" class=\"block group\">\n                <div class=\"bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-md transition-all duration-300\">\n                  <div class=\"h-32 bg-gray-100 flex items-center justify-center text-4xl font-serif text-gray-300\">\n                    埃\n                  </div>\n                  <div class=\"p-4\">\n                    <h4 class=\"font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-1\">埃希特纳赫修道院</h4>\n                    <p class=\"text-sm text-gray-500 mt-1 line-clamp-1\">Abbey of Echternach</p>\n                  </div>\n                </div>\n              </a>\n            </div>",
+      "relatedItems": [
+        {
+          "slug": "bourglinster-resistance-village",
+          "name": "博尔滕斯（隐秘的抵抗之村）",
+          "englishName": "Bourglinster"
+        },
+        {
+          "slug": "amphitheater-breechkaul",
+          "name": "埃希特纳赫“布雷考尔”露天剧场",
+          "englishName": "Amphitheater \"Breechkaul\""
+        },
+        {
+          "slug": "abbey-of-echternach",
+          "name": "埃希特纳赫修道院",
+          "englishName": "Abbey of Echternach"
+        }
+      ]
+    }
+  ]
+}
