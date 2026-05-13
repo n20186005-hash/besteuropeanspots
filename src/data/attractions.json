@@ -47693,9 +47693,9 @@
     "name": "图尔达盐矿",
     "englishName": "Salina Turda",
     "country": "罗马尼亚",
-    "city": "克卢日县",
+    "city": "图尔达",
     "slug": "salina-turda-history",
-    "description": "在罗马尼亚特兰西瓦尼亚的心脏地带，隐藏着一处颠覆想象的所在：地表是寻常的东欧小镇，地下却是一座深达120米、充满赛博朋克光影的“未来地宫”。然而，绚烂的摩天轮与划船湖之下，镌刻的是一部跨越千年的生存史诗。这里曾是中世纪欧洲的“白色黄金”命脉，是战争年代的诺亚方舟，更是工业文明的活态化石。抛开游玩攻略",
+    "description": "**图尔达盐矿**，一座被深埋地下两千年的白色宫殿。\n古罗马军团在这里挥汗如雨，哈布斯堡矿工在幽暗中凿出艺术级盐厅，\n国王与诗人曾在此驻足惊叹，而盐湖倒映的灯光至今仍在诉说过往。\n抛开游玩攻略，走进图尔达盐矿的尘封往事，遇见属于它的时光与传奇。",
     "address": "",
     "transport": "",
     "region": "罗马尼亚",
@@ -233846,5 +233846,4245 @@
     ],
     "countrySlug": "luomaniya",
     "raw_type": "卡丁车赛道/娱乐运动场馆"
+  },
+  {
+    "name": "奥雷尔·莫加故居",
+    "englishName": "Aurel Moga House",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "aurel-moga-house-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的中心，克卢日-纳波卡的老城深处，藏着一座不起眼的新古典主义建筑。它曾是**奥雷尔·莫加**——罗马尼亚现代骨科的奠基人——的住所与诊所。这里不仅仅是医生的家，更是**医学进步、战争创伤与政权更迭**的沉默见证者。抛开游玩攻略，走进这座故居的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县",
+    "englishName": "The Statue of Avram Iancu",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "avram-iancu-statue-history",
+    "description": "在克卢日-纳波卡的主广场上，一尊披着传统披肩的青铜身影终日凝视着东方。他不是国王，不是神祇，而是一位曾经挥锄耕田的农民——**阿夫拉姆·扬库**。他是罗马尼亚人的“山之领主”，是1848年革命的利剑，也是死于政治暗杀的悲剧英雄。抛开游玩攻略，走进克卢日的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "女巫沼泽",
+    "englishName": "Balta Vrajitoarelor",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "balta-vrajitoarelor-history",
+    "description": "在罗马尼亚伊尔福夫县的平原深处，有一片被雾霭与芦苇包裹的湿地，它的名字本身就是一则传说——Balta Vrajitoarelor，女巫沼泽。相传中世纪以来，这里便是女巫们月下集会、与自然通灵的圣地，至今仍在罗马尼亚民间信仰中占据特殊位置。抛开游玩攻略，走进女巫沼泽的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "巴纳特乡村博物馆",
+    "englishName": "Banat Village Museum",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "banat-village-museum-history",
+    "description": "在蒂米什瓦拉郊外一片静谧的林间，十公顷土地上散落着数十座来自巴纳特地区的百年农舍、教堂、磨坊与酒窖。这里不是普通公园，而是**巴纳特乡村博物馆**——一座用建筑讲述民间智慧的露天史书。每一扇倾斜的木门、每一片褪色的陶瓦，都承载着罗马尼亚、匈牙利、德国、塞尔维亚等多民族共居的日常。抛开游玩攻略，走进巴",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什县",
+    "englishName": "Banca Timişiana",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "banca-timisiana-history",
+    "description": "在罗马尼亚西部的蒂米什瓦拉，一座名为**Banca Timişiana**的新艺术风格建筑曾是大公国最耀眼的金融地标。它不仅是资本的堡垒，更是民族觉醒与城市现代化的一面镜子。抛开游玩攻略，走进蒂米什县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县",
+    "englishName": "Bancă tricolor Funar",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "banca-tricolor-funar-history",
+    "description": "在特兰西瓦尼亚的心脏，克卢日-纳波卡的中央广场旁，矗立着一座被涂成红、黄、蓝三色的老银行——**Bancă tricolor Funar**。它不仅仅是砖石与玻璃的拼贴，更像一面旗帜凝固在城市肌理中，诉说着罗马尼亚民族主义与匈牙利文化遗产在此地的百年角力。抛开游玩攻略，走进克卢日县的尘封往事，遇见属",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "班卡维切",
+    "englishName": "Banca Veche",
+    "country": "罗马尼亚",
+    "city": "康斯坦察县",
+    "slug": "banca-veche-history",
+    "description": "在多布罗加烈日炙烤的原野上，班卡维切如同一颗被风沙半掩的古老钱币。这个连许多罗马尼亚人都未曾听闻的村庄，却藏着两千年的文明密码——从罗马军团的驻防堡垒到奥斯曼帝国的驿站，再到今日寂静的葡萄园。抛开游玩攻略，走进班卡维切的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "贝尔迪宫",
+    "englishName": "Béldi Palace",
+    "country": "罗马尼亚",
+    "city": "克卢日县（博尔沙乡）",
+    "slug": "beldi-palace-history",
+    "description": "在罗马尼亚克卢日县的静谧乡村深处，藏着一座被时间遗忘的贵族宅邸——贝尔迪宫。它曾是匈牙利贝尔迪家族在特兰西瓦尼亚的权力心脏，见证过奥斯曼战争的硝烟，也承载过哈布斯堡王朝的荣光。如今，断壁残垣间仍能听见旧日的低语。抛开游玩攻略，走进贝尔迪宫的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "波格丹菲之家",
+    "englishName": "Bogdanffy House",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "bogdanffy-house-history",
+    "description": "在罗马尼亚**克卢日-纳波卡**的古老街巷中，隐藏着一座不为游客熟知的巴洛克珍宝——**Bogdanffy House**。它曾是特兰西瓦尼亚贵族的私人府邸，见证了哈布斯堡王朝的统治、民族文化的交融，以及一个古老家族的浮沉命运。抛开游玩攻略，走进这座宅邸的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "不列颠尼亚酒店与卡巴莱（1909年古迹）",
+    "englishName": "Monument Istoric - Fost Hotel si Cabaret \"Britania\" 1909",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "britania-hotel-cabaret-constanta-history",
+    "description": "黑海西岸的康斯坦察老城，藏着一座被时光遗忘的象牙白建筑。它的外墙爬满藤蔓，穹顶的铜绿已斑驳，但门楣上“1909”的字样依然清晰。这里曾是不列颠尼亚酒店与卡巴莱，东欧最奢靡的夜生活殿堂，也是罗马尼亚美好时代的社交心脏。国王、诗人、歌剧天后、流亡贵族，都曾在此留下足印。抛开游玩攻略，走进不列颠尼亚酒店的",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "布罗西游乐场",
+    "englishName": "Brosi’s Playground",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡（克卢日县）",
+    "slug": "brosis-playground-history",
+    "description": "在罗马尼亚克卢日县郊外，藏着一处被时光遗忘的角落——**布罗西游乐场**。这座19世纪匈牙利贵族亲手打造的私人花园，曾见证过最盛大的夏日舞会，也埋葬了一段禁忌的爱情。如今秋千静默，喷泉干涸，但砖石间仍回荡着伯爵与乡村少女的低语。抛开游玩攻略，走进布罗西游乐场的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什县",
+    "englishName": "Brück House",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "bruck-house-history",
+    "description": "在罗马尼亚西部的蒂米什瓦拉老城广场，一栋奶油色巴洛克建筑以沉默的姿态俯瞰时光——**Brück House**。它曾是匈牙利贵族伯爵的私邸，也成过奥地利帝国军官的俱乐部，更在1848年革命中化身为秘密集会的地下暗室。抛开游玩攻略，走进Brück House的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "布加勒斯特宗主教座堂",
+    "englishName": "The Patriarchal Cathedral of Bucharest",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "bucharest-patriarchal-cathedral-history",
+    "description": "**布加勒斯特**，这座被称为“小巴黎”的东欧古城，坐落在登博维察河畔，却因一座山丘上的**宗主教座堂**而拥有了信仰的脊柱。1668年，康斯坦丁·谢尔班大公在此奠基，让东正教圣火在瓦拉几亚平原上生生不息。抛开游玩攻略，走进布加勒斯特的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什县",
+    "englishName": "Canonical House",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "canonical-house-history",
+    "description": "在罗马尼亚西部的蒂米什县，隐匿着一座被时光打磨的巴洛克宫殿——卡诺尼卡之家。它曾是天主教主教的夏季官邸，见证了哈布斯堡王朝的扩张、奥斯曼帝国的残余影响，以及特兰西瓦尼亚多元文化的交融。这里没有拥挤的人潮，只有沉默的石雕与褪色的壁画，在诉说着三个世纪的风云变幻。抛开游玩攻略，走进蒂米什县的尘封往事，遇",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "托米斯的卡比托利欧狼",
+    "englishName": "The Capitoline Wolf of Tomis",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "capitoline-wolf-tomis-history",
+    "description": "在罗马尼亚黑海之滨的康斯坦察，藏着一件让历史学家魂牵梦绕的青铜杰作——**托米斯的卡比托利欧狼**。它并非罗马原件的复制品，而是公元1世纪罗马帝国东疆的独立铸像，见证了拉丁文明在多瑙河口的生根。母狼身下，罗慕路斯与雷穆斯吮吸着帝国的神话，而这座雕像本身，却曾被埋没在古罗马流放城的废墟中，直到1930",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什县基点",
+    "englishName": "Cardinal Points",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉（蒂米什县首府）",
+    "slug": "cardinal-points-history",
+    "description": "在罗马尼亚的版图上，蒂米什县如同一枚被遗忘的徽章，而县内那个被称为 **“Cardinal Points”（基点）** 的古老地标，则是徽章上最深邃的刻痕。它不是城堡，不是教堂，而是一个无形的十字路口——从公元2世纪罗马军团踏过的泥土路，到19世纪哈布斯堡王朝测绘出的精确经纬线，这里的每一寸土地都浸",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "1895历史之屋",
+    "englishName": "Casa 1895 Historic Monument",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "casa-1895-constanta-history",
+    "description": "在罗马尼亚黑海之滨的康斯坦察老城，藏着一座被时光遗忘的白色别墅——Casa 1895。它不属于任何旅游指南的热门名单，却在百年的风沙与海风中，默默守护着一个家族的荣耀与一座港口的崛起。\n抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于这座1895年之屋的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Casa 1924（康斯坦察县）",
+    "englishName": "Casa 1924 (Constanța County)",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "casa-1924-history",
+    "description": "在黑海西岸的康斯坦察老城边缘，一栋奶油色的新文艺复兴别墅静静矗立了整整一个世纪。**Casa 1924** 不是教科书上的地标，却是罗马尼亚现代主义建筑与贵族情史最微妙的交汇点。抛开游玩攻略，走进这栋百年宅邸的尘封往事，遇见属于它的时光与传奇。\n---",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县 Benkő 之家",
+    "englishName": "Casa Benkő",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "casa-benko-history",
+    "description": "在罗马尼亚克卢日县的静谧乡间，一座灰泥斑驳的庄园藏匿于橡树林深处。**Casa Benkő** 曾是匈牙利贵族本克家族的夏日宅邸，更是浪漫主义音乐在特兰西瓦尼亚的一盏孤灯。四壁的壁画、残缺的钢琴，都见证了一位作曲家与一段跨国音乐联姻。抛开游玩攻略，走进Casa Benkő的尘封往事，遇见属于它的时光",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Casa Dobrogianu（多布罗贾努宅邸）",
+    "englishName": "Casa Dobrogianu",
+    "country": "罗马尼亚",
+    "city": "康斯坦察县（Constanța）",
+    "slug": "casa-dobrogianu-history",
+    "description": "黑海西岸的康斯坦察，古称托米斯，曾是奥维德流放之地。而在这座港口城市的古老街巷中，藏着一座鲜为人知的红色宅邸——**Casa Dobrogianu**。它不属于皇室，却见证了罗马尼亚现代史中一个显赫家族的沉浮。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "杜施尼茨之家（蒂米什县）",
+    "englishName": "Casa Duschnitz",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "casa-duschnitz-history",
+    "description": "在罗马尼亚的西部边境，蒂米什瓦拉这座“小维也纳”藏着一座被游客忽略的折衷主义杰作——**杜施尼茨之家（Casa Duschnitz）**。它曾是犹太金融巨头杜施尼茨家族的豪宅，也是奥匈帝国晚期多元文化交融的缩影。墙面上的浮雕与穹顶，默默讲述着一个家族的崛起、帝国的瓦解、以及两次世界大战中犹太人的命运",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县Casa Filstich-Kemény",
+    "englishName": "Casa Filstich-Kemény",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "casa-filstich-kemeny-history",
+    "description": "在克卢日-纳波卡老城心脏，一栋不起眼的巴洛克石墙建筑静静伫立，门楣上两个家族的徽章早已褪色。这里不是博物馆，却比任何博物馆更接近特兰西瓦尼亚的灵魂——**Casa Filstich-Kemény**，一座用砖石写就的贵族编年史。抛开游玩攻略，走进这座宅邸的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊奥内斯库-吉翁庄园",
+    "englishName": "Casa Ionescu-Gion",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（Ilfov）",
+    "slug": "casa-ionescu-gion-history",
+    "description": "在布加勒斯特以北的伊尔福夫县乡野深处，矗立着一座几乎被遗忘的新古典主义庄园——**Casa Ionescu-Gion**。这里没有游客喧嚣，只有斑驳的廊柱和爬满常春藤的窗棂。它曾是罗马尼亚史学泰斗**伊昂·伊奥内斯库-吉翁**（Ion Ionescu-Gion）的精神家园，也是19世纪末布加勒斯特上",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Casa Jakobi（雅各比故居）",
+    "englishName": "Casa Jakobi",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉（蒂米什县首府）",
+    "slug": "casa-jakobi-history",
+    "description": "**1826年**，哈布斯堡帝国东缘的蒂米什瓦拉，一位名叫**雅各比**的匈牙利贵族在弗洛里广场（今统一广场）北侧，建起了一座三层巴洛克宅邸。没人料到，这座石灰岩与红砖筑成的房子，会在之后两个世纪里，成为医学进步的见证者、两次世界大战的庇护所，以及**1989年罗马尼亚革命**的暗房。抛开游玩攻略，",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Casa Jarda（雅尔达之家）",
+    "englishName": "Casa Jarda",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡（克卢日县）",
+    "slug": "casa-jarda-history",
+    "description": "在克卢日-纳波卡东北二十公里的密林深处，一座褪色的巴洛克庄园静立于时光的褶皱中——**Casa Jarda**。它曾是匈牙利贵族佩斯泰尼家族的夏宫，见证了奥斯曼铁蹄的逼近、哈布斯堡王朝的荣光，以及20世纪铁幕落下时一场无声的背叛。抛开游玩攻略，走进这座庄园的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "亚历山德鲁·拉佩达图纪念馆",
+    "englishName": "Casa Memorială Alexandru Lapedatu",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "casa-memoriala-alexandru-lapedatu-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的静谧乡村中，藏着一座不为人知的学者故居——亚历山德鲁·拉佩达图纪念馆。这里不仅是罗马尼亚历史学巨匠的出生地，更是近代特兰西瓦尼亚知识分子抗争与启蒙的缩影。抛开游玩攻略，走进这座尘封的乡间小屋，遇见属于一位历史学家和他的时代的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "米涅瓦之家",
+    "englishName": "Casa Minerva",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "casa-minerva-cluj-history",
+    "description": "在克卢日-纳波卡老城的西南角，有一栋外表朴素、内里却藏着百年风云的建筑——**米涅瓦之家**。它诞生于19世纪末，是特兰西瓦尼亚匈牙利文学复兴的摇篮，也是中欧最早的女神主题文化沙龙之一。这里曾响起印刷机的咔嗒声，回荡过诗人激昂的辩论，也曾沦为沉默的档案馆。抛开游玩攻略，走进米涅瓦之家的尘封往事，遇见",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Casa Nedelkovich",
+    "englishName": "Casa Nedelkovich",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "casa-nedelkovich-history",
+    "description": "在罗马尼亚的西部边境，蒂米什瓦拉以“小维也纳”和革命之城闻名，却鲜有人知道，一条安静的内城街道上藏着一座新艺术瑰宝——Casa Nedelkovich。它由匈牙利建筑师拉兹洛·塞克利设计，建于1908年，见证了一个塞尔维亚家族从移民到巨贾的跨越。抛开游玩攻略，走进Casa Nedelkovich的尘",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "佩特雷切维奇-霍尔瓦特故居",
+    "englishName": "Casa Petrechevich-Horváth",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "casa-petrechevich-horvath-history",
+    "description": "在克卢日-纳波卡老城区的鹅卵石巷弄深处，一座奶油色的巴洛克宅邸静默伫立。它的外墙镌刻着特兰西瓦尼亚三百年的血脉更迭，每一扇百叶窗后都藏着哈布斯堡王朝的密语与贵族家族的黄昏。这里不是旅游指南的打卡点，而是一本被遗忘的历史手稿。抛开游玩攻略，走进佩特雷切维奇-霍尔瓦特故居的尘封往事，遇见属于它的时光与传",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Poppa之家",
+    "englishName": "Casa Poppa",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "casa-poppa-constanta-history",
+    "description": "康斯坦察，罗马尼亚最古老的连续有人居住的城市，古希腊人称之为Tomis，罗马人将其扩建为黑海舰队基地。而在这座千年港城的旧城区，一栋奶油色新古典主义建筑——**Casa Poppa**，默默封存着19世纪末希腊裔商人的黄金岁月。推开那扇雕花铁门，墙壁上每一道裂痕都诉说着奥斯曼帝国崩溃后，新兴资产阶级",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "施勒尼希故居",
+    "englishName": "Casa Schleunig (Schleunig House)",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "casa-schleunig-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的心脏，克卢日-纳波卡隐藏着一座被时光遗忘的珍宝——**施勒尼希故居**。它并非宏伟宫殿，却以独特的新艺术风格与神秘家族故事，成为这座城市历史最私密的注脚。抛开游玩攻略，走进施勒尼希故居的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "沃尔法德-卡卡斯之家",
+    "englishName": "Casa Wolphard-Kakas",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "casa-wolphard-kakas-history",
+    "description": "在克卢日-纳波卡老城狭窄的街道深处，一座不起眼的石砌角楼见证了这座城市最璀璨的文艺复兴时刻。**Casa Wolphard-Kakas**，这座建于1534年的双层宫殿，曾是特兰西瓦尼亚人文主义者的秘密沙龙，也是数学家、天文学家和外交官们交换思想的圣殿。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "福尔图尔8号堡垒 - 切尔尼察",
+    "englishName": "Fortul 8 - Cernica",
+    "country": "罗马尼亚",
+    "city": "切尔尼察",
+    "slug": "cernica-fortul-8-history",
+    "description": "在罗马尼亚首都布加勒斯特东郊的森林深处，藏着一座被遗忘的军事遗迹——**福尔图尔8号堡垒**。它隶属19世纪末为保卫首都而建的环形防御体系，却在二战中沦为战场、修道院庇护所，甚至成为森林中的神秘废墟。抛开游玩攻略，走进切尔尼察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "切尔尼卡修道院（Cernica修道院）",
+    "englishName": "\"Cernica\" Monastery",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（Cernica镇）",
+    "slug": "cernica-monastery-history",
+    "description": "在罗马尼亚平原的七座湖泊环绕中，一座被白桦林遮掩的孤岛修道院，用三个世纪的沉默守护着东正教最后的苦修传统。**切尔尼卡修道院**—— 布加勒斯特人称为“湖上的圣殿”，不仅是宗教圣地，更是民族觉醒时期的秘密堡垒。圣徒的遗骨、暗室的壁画、被水波吞噬的密道，都在这片静谧水域下涌动。抛开游玩攻略，走进切尔尼",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "要塞公园（切塔图亚公园）",
+    "englishName": "Cetățuia Park",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "cetatuia-park-history",
+    "description": "在克卢日-纳波卡的中心，一座并不高的山丘昂起青翠的头颅，山顶的公园俯瞰着整座城市的呼吸。这里曾是一座**真正的堡垒**——**特兰西瓦尼亚**的权柄之盾，也是**匈牙利国王马蒂亚斯·科维努斯**的童年仰望之地。抛开游玩攻略，走进**要塞公园**的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县",
+    "englishName": "Cetățuia",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "cetatuia-history",
+    "description": "罗马尼亚克卢日-纳波卡这座古老城市的西面，有一座不起眼的平顶山丘，当地人称之为**Cetățuia**——罗马尼亚语里“小城堡”的意思。它没有中世纪的尖塔，也没有巴洛克宫殿的华丽，却藏着这座城市最沉重的历史记忆。从哈布斯堡帝国的防御要塞，到民族觉醒的象征之地，再到冷战时期的秘密监狱，这座山丘的每一寸",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "图尔达峡谷（Cheile Turzii）",
+    "englishName": "Cheile Turzii",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡（Cluj-Napoca）",
+    "slug": "cheile-turzii-history",
+    "description": "在喀尔巴阡山脉的西翼，一道名为图尔达的深谷，从侏罗纪的海洋中破壳而出，成为特兰西瓦尼亚高原上一道隐秘的历史疤痕。这里并非仅仅是攀岩者的天堂，更是达契亚人抵抗罗马军团的最后堡垒、中古盐商穿越群山的咽喉，以及现代罗马尼亚民族诗人寻找灵感的圣地。抛开游玩攻略，走进**图尔达峡谷**的尘封往事，遇见属于它的",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县",
+    "englishName": "Cișmea Apa",
+    "country": "罗马尼亚",
+    "city": "克卢日县",
+    "slug": "cisme-apa-history",
+    "description": "在罗马尼亚克卢日县起伏的绿色丘陵间，隐藏着一个名为Cișmea Apa的古老村庄。它的名字在罗马尼亚语中意为“水之泉”，而它的历史比任何旅游手册都更为深邃。这里曾是古罗马军团的后勤驿站、中世纪患者的最后希望、奥匈帝国贵族的疗养天堂，以及冷战时期秘密警察的监视点。抛开游玩攻略，走进Cișmea Apa",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县 Cloud98 Coffee",
+    "englishName": "Cloud98 Coffee, Ilfov County",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（Ilfov County）",
+    "slug": "cloud98-coffee-ilfov-history",
+    "description": "伊尔福夫县，这片环绕布加勒斯特的绿色环带，远不止是首都的郊区。它曾是古达契亚人的神圣领地，奥斯曼帝国的缓冲带，以及罗马尼亚近代史上无数阴谋与变革的舞台。如今，一家名为**Cloud98 Coffee**的现代咖啡馆静静矗立在这里，咖啡的香气与古老麦田的气息交织。抛开游玩攻略，走进伊尔福夫县的尘封往事",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县",
+    "englishName": "Central Climbing",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡（克卢日县首府）",
+    "slug": "cluj-county-central-climbing-history",
+    "description": "**克卢日县**，一个被特兰西瓦尼亚群山环抱的古老土地。它的首府克卢日-纳波卡早已名声在外，但鲜有人知，这里藏着一个名为 **Central Climbing** 的神秘历史区——它并非登山胜地，而是中世纪城墙上一段关于守卫者、修士与冒险者的攀登传奇。抛开游玩攻略，走进克卢日县的尘封往事，遇见属于它",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县·城堡街水准测量点",
+    "englishName": "Cluj County - Masă de nivelment (geodetic point) Strada Cetății",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡（Cluj-Napoca）",
+    "slug": "cluj-county-mas-de-nivelment-history",
+    "description": "在克卢日-纳波卡最古老的街道之一——城堡街，一块不起眼的水准测量标志紧贴石墙，无人驻足。可正是这枚直径不过十厘米的铜铆钉，标记了特兰西瓦尼亚在奥匈帝国后期精密地图绘制的一环。它没有故事？测量本身就是故事。一块点位的背后，是帝国边界的位移、铁路网络的形成，以及一名地理学家用脚步丈量喀尔巴阡山的执念。抛",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县 VMax Karting",
+    "englishName": "Cluj County",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡（Cluj-Napoca）",
+    "slug": "cluj-county-history",
+    "description": "克卢日县，罗马尼亚特兰西瓦尼亚的隐秘心脏。**自公元2世纪罗马帝国在此设立据点**，这片土地便交织着达契亚人、萨克森移民、匈牙利贵族与奥匈帝国的命运。**马蒂亚斯·科维努斯**——那位文艺复兴时代的匈牙利雄主，正诞生于此。抛开游玩攻略，走进克卢日县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县",
+    "englishName": "Cluj Guided Tours",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "cluj-guided-tours-history",
+    "description": "特兰西瓦尼亚的心脏，克卢日-纳波卡，一座被喀尔巴阡山脉温柔环抱的千年古城。它的历史如同一本被反复重写的手稿：罗马人留下的石柱、匈牙利国王的加冕钟声、撒克逊商人的街巷、以及犹太学者的低语，都沉淀在今天的咖啡馆与大学城格调之下。抛开游玩攻略，走进克卢日的尘封往事，遇见属于它的时光与传奇。\n---",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日-纳波卡",
+    "englishName": "Cluj-Napoca",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "cluj-napoca-history",
+    "description": "在欧洲东部的喀尔巴阡山麓，有一座被时光打磨了十九个世纪的城市——**克卢日-纳波卡**。它曾是罗马帝国的军事前哨，也是匈牙利王国特兰西瓦尼亚公国的文化心脏。这里走出过一位令奥斯曼帝国颤抖的国王，也孕育了改变数学史的非欧几何之父。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "亚历山德鲁·博尔扎植物园",
+    "englishName": "Alexandru Borza Botanical Garden",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "cluj-napoca-alexandru-borza-botanical-garden-history",
+    "description": "特兰西瓦尼亚的心脏，克卢日-纳波卡，藏着一座被时间温柔打磨的绿色档案馆。它并非寻常公园，而是一座用植物记录历史的**活态博物馆**——**亚历山德鲁·博尔扎植物园**。一百多年前，一位学者将毕生热爱倾注于此，让来自五大洲的植物在此扎根，也把罗马尼亚的植物学血脉刻进每一片叶脉。抛开游玩攻略，走进这座植",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日-纳波卡福音教堂",
+    "englishName": "Cluj-Napoca Evangelical Church",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "cluj-napoca-evangelical-church-history",
+    "description": "在特兰西瓦尼亚的心脏，一座哥特复兴式的尖塔刺破克卢日-纳波卡的天际线。它不是天主教的主教座堂，却是这座城市最沉默的见证者——**克卢日-纳波卡福音教堂**。它承载着德意志裔路德宗信徒的乡愁、匈牙利王国的权谋、以及两次世界大战的创伤。抛开游玩攻略，走进这座教堂的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日-纳波卡药学博物馆",
+    "englishName": "Pharmacy Museum",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "cluj-napoca-pharmacy-museum-history",
+    "description": "在克卢日-纳波卡老城拱廊的阴影下，有一座外墙挂着金色研钵的建筑，里面封印着特兰西瓦尼亚最神秘的科学记忆。**药学博物馆（Pharmacy Museum）** 不仅是欧洲最古老的药房之一，更是中世纪医学与民间巫术交锋的历史战场。抛开游玩攻略，走进克卢日的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日-纳波卡街头艺术矩阵：Ma.tei x Romanian Street Art x Launloc",
+    "englishName": "Ma.tei x Romanian Street Art x Launloc",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "cluj-napoca-street-art-matei-launloc-history",
+    "description": "在克卢日-纳波卡老城心脏地带，一堵被岁月啃噬的砖墙成为东欧街头艺术的圣殿。这里没有博物馆的白墙与灯光，只有Ma.tei笔下扭曲的字母、Romanian Street Art运动留下的喷漆裂痕，以及Launloc那扇永远虚掩的铁门。抛开游玩攻略，走进这座特兰西瓦尼亚城市的尘封往事，遇见属于它的时光与传",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日-纳波卡统一广场水准测量基准点",
+    "englishName": "Leveling Benchmark at Union Square, Cluj-Napoca",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "cluj-napoca-union-square-benchmark-history",
+    "description": "在克卢日-纳波卡最繁华的统一广场（Piața Unirii）中央，一块嵌在石板中的青铜圆盘默默承载着这座城市的时空坐标。它曾是奥匈帝国精确测绘的起点，也是罗马尼亚统一的见证者。抛开游玩攻略，走进这座广场的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县 Tower House",
+    "englishName": "Tower House of Cluj County",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "cluj-tower-house-history",
+    "description": "在克卢日-纳波卡老城广场的喧嚣背后，矗立着一座沉默的方形石塔——**Tower House**。它既非教堂尖顶，亦非市政厅钟楼，却是这座城市混乱与荣耀最忠实的见证者：**1514年农民起义的火光**、**哈布斯堡王朝的密令**、**传奇贵族的秘密婚约**，都曾在这面石墙上刻下伤痕。抛开游玩攻略，走进",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县",
+    "englishName": "Clujana Festa",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "clujana-festa-history",
+    "description": "特兰西瓦尼亚的心脏地带，克卢日县并非一座寻常小城。它是古罗马军团遗留的营火，是匈牙利贵族盛宴上的银杯，也是东正教与天主教在喀尔巴阡山麓缠斗的沙盘。这里曾有一个延续数百年的传统——**Clujana Festa**，一场集宗教巡游、商贸集市与骑士比武于一体的民间盛会，它的喧闹与沉寂，恰恰映照出克卢日县",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日纺织综合体遗址",
+    "englishName": "Complex Clujana",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "complex-clujana-history",
+    "description": "它从未出现在旅行榜单上，却是克卢日-纳波卡最沉默的历史见证者。**Complex Clujana**，一座诞生于1875年的纺织厂，在奥匈帝国的烟囱下轰鸣，在社会主义的齿轮中重生，在90年代破产的寂静里等待转世。今天，它化作艺术家的工作室、废弃车间里的画廊，以及墙壁上尚未褪色的革命标语。抛开游玩攻略",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察考古公园",
+    "englishName": "Constanța Archaeological Park",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-archaeological-park-history",
+    "description": "在罗马尼亚黑海之滨，康斯坦察考古公园静静躺着一座古城的灵魂——**托米斯**（Tomis），它曾是希腊殖民者的港湾、罗马帝国的边疆、诗人奥维德的流放地。这里的每一块石砖都刻着战争、流亡与信仰的痕迹。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Casa Oleg Danovski（奥列格·达诺夫斯基故居）",
+    "englishName": "Casa Oleg Danovski",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-casa-oleg-danovski-history",
+    "description": "黑海西岸的康斯坦察老城，藏着一段被游客忽略的优雅往事。\n一栋淡黄色的新古典主义别墅，在车水马龙旁静静伫立。\n它曾是奥斯曼富商的夏日宅邸，后来成为罗马尼亚芭蕾舞巨匠 **Oleg Danovski** 的灵感源泉。\n推开那扇锈迹斑斑的铁门，仿佛能听到《天鹅湖》的旋律在走廊间回响。\n抛开游玩攻略，走进 ",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察赌场长廊",
+    "englishName": "The Casino's Promenade",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-casino-promenade-history",
+    "description": "它是黑海西岸最优雅的曲线，是新罗马（康斯坦察古称）面向海洋张开的手臂。**康斯坦察赌场长廊**，一条不足两公里的海滨步道，却承载了罗马尼亚近代史的全部铅华、炮火与浪漫。这里的每一块大理石都曾被王室成员、间谍、诗人和流亡者的脚步摩挲。抛开游玩攻略，走进康斯坦察赌场长廊的尘封往事，遇见属于它的时光与传奇",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察赌场",
+    "englishName": "Constanța Casino",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-casino-history",
+    "description": "在罗马尼亚黑海之滨，有一座被遗忘的白色宫殿——**康斯坦察赌场**。它曾被誉为“黑海上的拉斯维加斯”，新艺术运动的巅峰之作，却因战火与政治变迁沦为废墟。抛开游玩攻略，走进这座传奇建筑的前世今生，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县历史之屋",
+    "englishName": "Historical House of Constanța County",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-county-historical-house-history",
+    "description": "在黑海西岸的土地上，有一座被时光遗忘的宅邸——它曾见证奥斯曼帝国的最后一抹余晖，也聆听过罗马尼亚王国贵族的低语。它不是什么宏伟宫殿，却藏着康斯坦察县最隐秘的灵魂。抛开游玩攻略，走进康斯坦察县历史之屋的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县",
+    "englishName": "Victory Monument",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-county-victory-monument-history",
+    "description": "**康斯坦察县**，罗马尼亚最古老的连续有人居住之地，其首府康斯坦察市黑海之滨的**胜利纪念碑**，并非只是一座石砌方尖碑，更是这片土地从奥斯曼枷锁迈向现代国家的精神图腾。抛开游玩攻略，走进康斯坦察县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县",
+    "englishName": "Constanța County",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-county-history",
+    "description": "康斯坦察县，罗马尼亚最古老且持续有人居住的城市之一，坐拥黑海西岸的蔚蓝与历史的血泪。这里曾是古希腊人的**托米斯（Tomis）**，是罗马帝国流放诗人的边境，也是拜占庭与奥斯曼帝国争夺的堡垒。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察德国学校",
+    "englishName": "Constanta German School",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-german-school-history",
+    "description": "在罗马尼亚黑海之滨，有一座名为托米斯的古城。19世纪末，一群德意志移民在此落地生根，用砖石与信仰筑起了一所德语学校。它不仅是一所学校，更是一扇窗——望穿多瑙河三角洲的沼泽迷雾，连接着中欧与巴尔干。抛开游玩攻略，走进康斯坦察德国学校的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县历史住宅",
+    "englishName": "House-Historical Monument of Constanța County",
+    "country": "罗马尼亚",
+    "city": "康斯坦察县",
+    "slug": "constanta-historic-house-history",
+    "description": "在罗马尼亚康斯坦察县寂静的Crucea村，一座被野葡萄藤覆盖的石砌老宅静静矗立。它曾是当地望族的庄园，见证过奥斯曼帝国的黄昏、农民起义的枪声，以及共产主义年代的财产没收。如今，只有风穿过百叶窗的轻响，还带着往事的余音。抛开游玩攻略，走进这座历史住宅的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县",
+    "englishName": "The Microreservation in Constanța",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-microreservation-history",
+    "description": "这里曾是古希腊人的米利都殖民地，也是罗马诗人奥维德流放终老之地。城墙下的石块浸染着达契亚人与罗马人的血火，而海风依旧吹拂着黑海的古老航道。**康斯坦察**的微观保护区（The Microreservation）并非只是一个生态角落，而是一部浓缩了多瑙河下游与黑海交汇处文明史的活页档案。抛开游玩攻略，",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察青年纪念碑",
+    "englishName": "The Monument of Youth",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-monument-of-youth-history",
+    "description": "它是罗马尼亚最古老的城市，黑海西岸的第一缕文明曙光。**康斯坦察（Constanța）** 原名托米斯（Tomis），公元前7世纪由希腊水手创建，历经罗马、拜占庭、奥斯曼与近代罗马尼亚的层层叠印。而那座矗立在海滨的 **青年纪念碑（Monumentul Tineretului）** ，并不只是地标—",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察半岛历史城区",
+    "englishName": "Constanța Peninsula Historical Area",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-peninsula-historical-area-history",
+    "description": "在黑海西岸，罗马尼亚最大的港口城市康斯坦察，藏着一片被时光磨得发亮的半岛区域。这里曾是古希腊人建立的托米斯城，也是罗马诗人奥维德度过余生、写下《哀怨集》的流放地。公元4世纪，君士坦丁大帝的妹妹为此地命名，让“康斯坦察”三个字烙印在东罗马帝国的版图上。抛开游玩攻略，走进康斯坦察半岛的尘封往事，遇见属于",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "圣安东尼大殿（康斯坦察）",
+    "englishName": "Saint Anthony of Padua Basilica",
+    "country": "罗马尼亚",
+    "city": "康斯坦察（Constanța）",
+    "slug": "constanta-saint-anthony-basilica-history",
+    "description": "在黑海西岸的罗马尼亚古城康斯坦察，一座尖塔刺破天际线——不是清真寺，而是天主教的圣安东尼大殿。它建于19世纪末，却承载了更古老的地中海信仰迁徙史。从奥斯曼帝国的多元港口到现代罗马尼亚的精神地标，这座教堂记录了天主教徒在东正教土地上的坚韧融合。抛开游玩攻略，走进康斯坦察圣安东尼大殿的尘封往事，遇见属于",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察",
+    "englishName": "Constanța",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constanta-history",
+    "description": "黑海西岸的康斯坦察，是罗马尼亚最古老且从未中断居住的城市，早在公元前600年便被希腊人开辟为殖民据点。它曾以“托米斯”（Tomis）之名，在罗马帝国时代成为奥维德最后的流放地，也因拜占庭与奥斯曼的交替统治而沉淀出混血之美。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县现代海滩",
+    "englishName": "\"Modern\" Beach",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "constantamodernbeach-history",
+    "description": "在罗马尼亚东部的黑海之滨，有一座名为康斯坦察的古城。它曾是古罗马诗人奥维德流放终老之地，也是希腊殖民者在黑海西岸建立的第一个贸易据点。如今，游客趋之若鹜的“现代海滩”之下，沉睡着两千年的文明断章。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县Corbu Beach",
+    "englishName": "Corbu Beach",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "corbu-beach-history",
+    "description": "在罗马尼亚黑海海岸线的一隅，Corbu Beach以未受破坏的沙丘与清澈海水闻名，但鲜有人知，这片看似纯天然的海滩，曾是古希腊航海者眼中的“金苹果之地”、罗马帝国流放诗人的最后叹息，以及中世纪热那亚商人冒险的起点。抛开游玩攻略，走进Corbu Beach的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克里楚列斯库宫",
+    "englishName": "Crețulescu Palace",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "cretulescu-palace-history",
+    "description": "在罗马尼亚伊尔福夫县深处的乡村间，立着一座被藤蔓与记忆淹没的贵族庄园——**克里楚列斯库宫**。它不同于布加勒斯特市中心的同名宫殿，这里曾是显赫一时的克里楚列斯库家族避暑别邸，见证了19世纪末罗马尼亚贵族最后的繁华、土地的流转与时代的暴风。如今它沉默如谜，只有几扇残窗依旧凝视着远方。\n抛开游玩攻略，",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "米特罗波利耶山",
+    "englishName": "Dealul Mitropoliei",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "dealul-mitropoliei-history",
+    "description": "在布加勒斯特的城市肌理中，米特罗波利耶山并不起眼，却是整个罗马尼亚东正教的精神原点。这里埋葬了王侯的野心，见证了帝国的更迭，也点燃过革命的烛光。抛开游玩攻略，走进米特罗波利耶山的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什县",
+    "englishName": "Dicasterial Palace",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "dicasterial-palace-timisoara-history",
+    "description": "在罗马尼亚西部，蒂米什瓦拉老城中心，矗立着一座低调却庄严的宫殿——Dicasterial Palace。它曾是哈布斯堡帝国在多瑙河流域的司法象征，见证过法庭的审判、民族的抗争与城市的变迁。抛开游玩攻略，走进蒂米什县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县",
+    "englishName": "Dobrogea Juna",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "dobrogea-juna-history",
+    "description": "**康斯坦察县**，罗马尼亚东南角这片被黑海与多瑙河环抱的土地，自古便是文明交汇的十字路口。古希腊人称它为 **“伊斯特”**，罗马人建起 **托米斯**，奥斯曼帝国留下清真寺与堡垒。这里没有布鲁日的浪漫，却拥有比布加勒斯特更苍老的城墙——一座石头里藏着千年密码的秘境。抛开游玩攻略，走进康斯坦察县的",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县",
+    "englishName": "Dragon's Fountain",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "dragons-fountain-history",
+    "description": "在黑海西岸的康斯坦察，一座喷泉以五条青铜巨龙昂首向天，水柱从龙口喷涌而出，仿佛要唤醒沉睡在海底的古老灵魂。这座建于1958年的**龙之喷泉（Fântâna cu dragoni）**，并非只是一件社会主义时期的城市装饰——它身上缠绕着罗马帝国流放诗人的呜咽、达契亚人对龙图腾的崇拜，以及罗马尼亚民间传",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Dsida Jeno 纪念牌",
+    "englishName": "Dsida Jeno Plaque",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "dsida-jeno-plaque-history",
+    "description": "在罗马尼亚克卢日-纳波卡的老城巷陌里，一块朴素的大理石铭牌，刻着一个短命却灿烂的名字——**Dsida Jeno**。他是20世纪匈牙利抒情诗的天才，是特兰西瓦尼亚多元文化交融的苦果，更是这座城市最隐秘的文学良心。抛开游玩攻略，走进克卢日的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "The Elisabeta Palace",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "elisabeta-palace-history",
+    "description": "在布加勒斯特西北角的绿荫深处，伊丽莎白宫如一位沉默的贵族，静静讲述着罗马尼亚霍亨索伦-锡格马林根家族的百年恩怨。这座建于1930年代的宫殿，并非旅游手册上的热门地标，却是理解罗马尼亚近现代史的一把密钥。抛开游玩攻略，走进伊尔福夫县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "埃米尔·拉科维策半身像（洞穴学研究所）",
+    "englishName": "Bust of Emil Racoviță at the Institute of Speology",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "emil-racovita-bust-institutul-speologie-history",
+    "description": "在克卢日-纳波卡老城边缘，一座青铜半身像静立于洞穴学研究所门前。它的主人——**埃米尔·拉科维策**，被誉为“洞穴学之父”，曾用脚步丈量南极冰原，也用目光潜入地下深渊。这座半身像不仅是一尊纪念雕塑，更是一把钥匙，打开罗马尼亚科学的隐秘黄金时代。抛开游玩攻略，走进克卢日的尘封往事，遇见属于它的时光与传",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "特兰西瓦尼亚民族志博物馆",
+    "englishName": "Ethnographical Museum of Transylvania",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "ethno-museum-transylvania-history",
+    "description": "在特兰西瓦尼亚的心脏，克卢日-纳波卡的博物馆广场上，矗立着一座灰白色新古典主义建筑。它的外表冷静如银行金库，内里却沸腾着罗马尼亚乡村最炽热的生活记忆。这，就是特兰西瓦尼亚民族志博物馆。抛开游玩攻略，走进这座建筑的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县民族志公园罗穆卢斯·武亚",
+    "englishName": "Ethnographic Park Romulus Vuia",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "ethnographic-park-romulus-vuia-history",
+    "description": "在克卢日-纳波卡的郊外，一片静谧的橡树林中，藏着一座名为 **Romulus Vuia** 的民族志公园。它是罗马尼亚最早的露天博物馆，更是特兰西瓦尼亚乡村文明的活态档案。没有王宫的奢华，没有教堂的尖顶，只有从各地迁移而来的农舍、教堂、风车……每一块木头都刻着时光的纹路，每一扇雕花木门都藏着家族的记",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Evangelia沉船",
+    "englishName": "Evangelia Shipwreck",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "evangelia-shipwreck-history",
+    "description": "在罗马尼亚康斯坦察县的黑海浅滩下，静卧着一艘名为 **Evangelia** 的希腊货船残骸。1918年10月，它满载货物从君士坦丁堡驶向敖德萨，却在一场浓雾中触礁沉没，全船21名船员无一生还。百年来，这艘沉船成为黑海最著名的潜水胜地，也缠绕着关于黄金、幽灵与末日诅咒的传说。抛开游玩攻略，走进Eva",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "费迪南德一世纪念牌匾",
+    "englishName": "Ferdinand I of Romania Plaque",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡（Cluj-Napoca）",
+    "slug": "ferdinand-i-of-romania-plaque-history",
+    "description": "在克卢日-纳波卡老城狭窄的街道间，一块朴素的铜牌嵌在19世纪的外墙上，标记着罗马尼亚国王费迪南德一世曾在此停留的瞬间。它不似宫殿般恢弘，却是特兰西瓦尼亚融入现代罗马尼亚的微型界碑。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇见属于它的时光与传奇。\n---",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "费尔马农场（伊尔福夫县）",
+    "englishName": "Ferma Animalelor, Ilfov County",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "ferma-animalelor-history",
+    "description": "在罗马尼亚伊尔福夫县的葱郁田野间，隐藏着一座名为“费尔马农场”（Ferma Animalelor）的古老庄园。它曾是19世纪贵族改革的试验田，也是20世纪社会主义农业的象征。抛开游玩攻略，走进费尔马农场的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "消防员塔",
+    "englishName": "Firefighters' Tower",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "firefighters-tower-history",
+    "description": "在克卢日-纳波卡的老城心脏，有一座沉默的砖石高塔——消防员塔。它曾在火灾中俯瞰整座城市，在战争里承受炮火，在和平年代化作钟楼与博物馆。这座塔不是王宫，不是教堂，却是这座城市最忠实的见证者。抛开游玩攻略，走进消防员塔的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "福伊绍尔公园亭",
+    "englishName": "Foișor la Parc",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "foisor-la-parc-history",
+    "description": "在克卢日-纳波卡的心脏，**中央公园**（Parcul Central）的梧桐浓荫里，有一座不起眼却蕴含灵魂的建筑——**福伊绍尔亭**（Foișor la Parc）。它诞生于 **19 世纪末** 的奥匈帝国黄金时代，最初是贵族赏月的凉亭，后来成为知识分子秘密辩论的圣殿。抛开游玩攻略，走进这座木",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "黑熊啤酒厂旧址",
+    "englishName": "Former Brewery \"La Ursul Negru\"",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "former-black-bear-brewery-history",
+    "description": "蒂米什瓦拉，这座被称为“小维也纳”的罗马尼亚西部重镇，藏着一处被时光封存的工业遗迹——黑熊啤酒厂旧址。它曾是哈布斯堡帝国东欧边境最大的啤酒酿造中心之一，见证了奥匈帝国的辉煌与落幕，也承载着几代人的味觉记忆。这里飘散的麦芽香，曾萦绕在贵族宴席与工人酒馆之间。**抛开游玩攻略，走进黑熊啤酒厂的尘封往事，",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "李斯特故居",
+    "englishName": "Franz Liszt House",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "franz-liszt-house-cluj-napoca-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的心脏地带，克卢日-纳波卡藏着一座不起眼的建筑，它曾是音乐鬼才**弗朗茨·李斯特**的临时驿站。1846年，这位钢琴之王在此停留，用一场即兴演出点燃了小城的艺术灵魂。抛开游玩攻略，走进李斯特故居的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县高压电塔群 - 艾斯特拉遗址",
+    "englishName": "High Voltage Pillars - Astra",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡（Cluj-Napoca）",
+    "slug": "high-voltage-pillars-astra-history",
+    "description": "**在特兰西瓦尼亚腹地的田野与丘陵之间，矗立着一组锈迹斑驳的巨型钢架——它们不是普通的输电塔，而是罗马尼亚电力工业的活化石。** 1930年代，当欧洲大部分地区还在摸索高压输电技术时，克卢日县的工程师们已用这些超过四十米高的桁架结构，将喀尔巴阡山脉的水电站电力输送至正在工业化的城镇。抛开游玩攻略，走",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "历史纪念屋1905",
+    "englishName": "Historical Monument House 1905",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "historical-monument-house-1905-history",
+    "description": "在黑海西岸，罗马尼亚最古老的港口城市康斯坦察，一条寻常巷陌里静静伫立着一座不起眼的两层小楼。它没有皇宫的恢弘，却用砖石铭刻了二十世纪初犹太移民的奋斗史与东欧港城最喧嚣的时代。这栋 **1905年落成的历史纪念屋**，不仅是新艺术运动在东欧的惊鸿一瞥，更是一位犹太商人从颠沛流离到富甲一方的鲜活见证。抛",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "霍亚-巴丘森林",
+    "englishName": "Pădurea Hoia-Baciu",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "hoia-baciu-history",
+    "description": "全球最活跃的超自然热点之一，罗马尼亚特兰西瓦尼亚的霍亚-巴丘森林，被誉为“世界的百慕大三角”。这里没有吸血鬼城堡，却有比德古拉更令人脊背发凉的诡异现象：磁场紊乱、时间消失、植物变异、UFO频繁出没。抛开游玩攻略，走进霍亚-巴丘森林的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "霍雷亚广场（克卢日-纳波卡）",
+    "englishName": "Horea Square (Cluj-Napoca)",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "horea-square-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的心脏，克卢日-纳波卡的老城广场上，三尊青铜雕像静静凝视着过往行人。他们不是国王或贵族，而是18世纪末领导农民反抗农奴制的三位勇士——**霍雷亚、克洛什卡和克里桑**。这个以起义领袖命名的广场，承载着一段被压迫者的血泪史，也是罗马尼亚民族认同的重要象征。抛开游玩攻略，走进**霍",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县 House 1917",
+    "englishName": "House 1917, Constanța County",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "house-1917-constanta-county-history",
+    "description": "在罗马尼亚黑海海岸的康斯坦察县，有一栋不起眼的百年老宅，它没有青铜门牌，没有英雄雕塑，只有门楣上褪色的年份——1917。人们叫它House 1917，它见证了多布罗加被占领的阴霾岁月，也藏着一个民族在沉默中生存的尊严。抛开游玩攻略，走进House 1917的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "House 1929",
+    "englishName": "House 1929",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "house-1929-history",
+    "description": "在黑海西岸的古老港口康斯坦察，一座编号为“1929”的白色小楼静静矗立。它没有城堡的恢弘，没有教堂的尖塔，却像一本被风翻动的日记，记录着一个时代最细微的呼吸。1929年——那是罗马尼亚统一后的黄金十年，是黑海贸易的鼎盛期，也是这座建筑诞生的年份。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于Hous",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "两屋组装之宅",
+    "englishName": "House from two-house assembly",
+    "country": "罗马尼亚",
+    "city": "康斯坦察县",
+    "slug": "house-from-two-house-assembly-history",
+    "description": "**两屋组装之宅**静静伫立在康斯坦察县的古老街道上，它不像巴洛克宫殿那样金碧辉煌，也不像中世纪城堡那样高耸威严。然而，它的存在本身就是一部微缩的地方志——一座房子，却长着两张面孔，仿佛两个家族在石墙上握手言和。抛开游玩攻略，走进康斯坦察县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "洪基亚尔清真寺",
+    "englishName": "Hunkiar Mosque (Gazi Hasan Pasha Mosque)",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "hunkiar-mosque-history",
+    "description": "当黑海的风掠过康斯坦察老城的宣礼塔，一座低调的石砌建筑静静伫立，它是罗马尼亚少数保存完好的奥斯曼清真寺之一——洪基亚尔清真寺。这座建于18世纪末的宗教建筑，不仅是苏丹权威的象征，更承载着一位海军总督的虔诚与野心。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "Ilfov County",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特周边（首府：布加勒斯特，但县行政中心位于Buftea）",
+    "slug": "ilfov-county-history",
+    "description": "在罗马尼亚首都布加勒斯特的霓虹之外，有一片被时间遗忘的环形地带——伊尔福夫县。这里曾是瓦拉几亚公国的王侯领地，是奥斯曼帝国与哈布斯堡王朝的角力场，也是现代罗马尼亚文学巨匠Camil Petrescu的灵感源泉。抛开游玩攻略，走进伊尔福夫县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县·迷幻庄园",
+    "englishName": "Ilfov County · The Manor of Addicted Events",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特（伊尔福夫县辖区）",
+    "slug": "ilfov-county-addicted-events-history",
+    "description": "在罗马尼亚伊尔福夫县的荒草深处，有一座被遗忘的庄园。它没有显赫的名字，却在19世纪末的东欧上流社会被称为“Addicted Events”——一场令人上瘾的盛宴。这里举办过最奢靡的假面舞会，也见证过最黑暗的政治交易。**它不只是一个地点，而是一种现象，一段被时间吞噬的欲望史。** 抛开游玩攻略，走进",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "Bike The City",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特（伊尔福夫县）",
+    "slug": "ilfov-county-bike-the-city-history",
+    "description": "**伊尔福夫县**，一座被布加勒斯特光环遮蔽的历史秘境。这里是瓦拉几亚公国的发祥地，古罗马军团的驿站、奥斯曼帝国的粮仓、罗马尼亚王朝的夏宫遗址散落其间。车轮碾过碎石路，风里带着中世纪修道院香炉的余烬。抛开游玩攻略，走进伊尔福夫县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "Butterfly Tourism",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "ilfov-county-butterfly-tourism-history",
+    "description": "**伊尔福夫县**是布加勒斯特的绿色腰带，却鲜有人知，它的每寸土地都浸透着中世纪的权谋与浪漫。**16世纪**这里曾是瓦拉几亚公爵的私猎场，**19世纪**成为罗马尼亚新贵族的避暑天堂，而今天，它因生态复育的蝴蝶种群被称为“蝴蝶旅游”圣地。但真正的历史，藏在那些废弃的庄园石阶上、在修道院的湿壁画里、",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "CulinaryOn",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "ilfov-county-culinaryon-history",
+    "description": "伊尔福夫县，这座环绕布加勒斯特的静谧之地，不仅是罗马尼亚政治心脏的后花园，更是 **贵族烹饪文化** 的秘密摇篮。几个世纪以来，瓦拉几亚大公、希腊商人、奥斯曼使节的味蕾在此交汇，催生了独特的 **CulinaryOn** 饮食哲学——一种将东欧祖传食谱与法式精致技艺融合的烹饪艺术。抛开游玩攻略，走进",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县·Game On 💎",
+    "englishName": "Ilfov County – Game On 💎",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（Ilfov County）",
+    "slug": "ilfov-county-game-on-history",
+    "description": "在布加勒斯特郊外的伊尔福夫县，一片寂静的橡树林里，藏着一个让无数探险者心驰神往的名字——Game On 💎。这里不是游乐场，而是一场横跨十九世纪的传奇赌局，赌注是钻石、领地与一生名誉。抛开游玩攻略，走进伊尔福夫县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "Ilfov County",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特（行政上受其辐射，但拥有独立历史）",
+    "slug": "ilfov-county-idyllic-events-history",
+    "description": "它是布加勒斯特的绿肺，却是罗马尼亚历史中藏得最深的秘密。**伊尔福夫县**，这片看似平淡的平原，曾是中世纪瓦拉几亚公国的权力外围，也是大贵族与落难王子最后的避难所。**IDYLLIC Events**，一个看似现代的活动品牌，其“田园”基因，正源于此地留存至今的乡野贵族传统。抛开游玩攻略，走进伊尔福",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县·母狼雕像",
+    "englishName": "Lupa Capitolina",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（环绕布加勒斯特）",
+    "slug": "ilfov-county-lupa-capitolina-history",
+    "description": "在罗马尼亚首都布加勒斯特的环抱中，伊尔福夫县沉默地承载着 **“小罗马”** 的千年回音。当一尊 **卡皮托利尼母狼雕像** 矗立于此，它不只是青铜的复制，更是一声对西方拉丁血脉的倔强呼唤。抛开游玩攻略，走进伊尔福夫县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县卡佩莱纪念医疗中心",
+    "englishName": "Memorial Medical Center - Clinica Capelei",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（Ilfov County）",
+    "slug": "ilfov-county-memorial-medical-center-history",
+    "description": "在布加勒斯特边缘的伊尔福夫县，有一处被梧桐树荫掩映的赭石色建筑群。它曾是修女祈祷的小教堂，也当过一战伤兵的血色避难所，如今是卡佩莱纪念医疗中心。**这里没有旅游地图上的明星标识，却藏着罗马尼亚现代医学的胎动与王室秘辛。** 抛开游玩攻略，走进这座疗养院的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县 NORD Events Center by Globalworth",
+    "englishName": "NORD Events Center by Globalworth",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "ilfov-county-nord-events-center-history",
+    "description": "伊尔福夫县，罗马尼亚最小的行政区，却像一条丝带缠绕着首都布加勒斯特。它从未成为权力中心，却目睹了从瓦拉几亚公国到齐奥塞斯库时代的每一次动荡。这里没有宏伟的宫殿，却有**斯纳戈夫修道院**中弗拉德三世（德古拉）的死亡传说，有**齐奥塞斯库**最后一处秘密别墅的荒芜，还有如今由Globalworth打造",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "The Choice Events",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "ilfov-county-the-choice-events-history",
+    "description": "在罗马尼亚南部，伊尔福夫县如同一颗被布加勒斯特光环遮蔽的珍珠。这里不仅是达契亚先民的血脉之地，更隐藏着一场被称为 **“The Choice Events”** 的历史抉择——一次决定国家走向的神秘投票。抛开游玩攻略，走进伊尔福夫县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "VIOR",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特周边（伊尔福夫县）",
+    "slug": "ilfov-county-vior-history",
+    "description": "在布加勒斯特以北的丛林深处，隐藏着一座几乎被遗忘的庄园——VIOR。它既不是皇家宫殿，也不是修道院，却承载着罗马尼亚贵族阶层最后的一缕荣光。**奥尔滕尼亚家族的末代伯爵**在此度过了隐居生涯，庄园的地下密道里，还藏着一封从未寄出的情书。抛开游玩攻略，走进伊尔福夫县尘封的角落，遇见属于VIOR的时光与",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县·尤皮庄园",
+    "englishName": "Youpiii House",
+    "country": "罗马尼亚",
+    "city": "莫戈什瓦亚（Mogosoaia）",
+    "slug": "ilfov-county-youpiii-house-history",
+    "description": "在布加勒斯特西北的伊尔福夫县，莫戈什瓦亚湖畔静立着一座白墙绿窗的庄园——**尤皮庄园**。它不属于任何显赫王族，却因一位流浪音乐家的短暂栖居而浸透了浪漫与忧伤。抛开游玩攻略，走进**Youpiii House**的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "帕普里卡庄园",
+    "englishName": "Paprika Estate",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫",
+    "slug": "ilfov-paprika-history",
+    "description": "在罗马尼亚东南部的伊尔福夫县，藏着一座以“辣椒”命名的古老庄园——帕普里卡庄园。它曾是欧洲香料之路上的隐秘节点，见证了奥斯曼帝国与瓦拉几亚公国之间数百年的商业博弈。这里的每一片红辣椒、每一块斑驳的砖石，都诉说着关于贸易、权力与味蕾的传奇。抛开游玩攻略，走进这座庄园的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县 · 科伦蒂纳起义街1998号",
+    "englishName": "INSURGENȚII COLENTINA 1998",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "insurgentii-colentina-1998-history",
+    "description": "在布加勒斯特东北郊，科伦蒂纳河缓缓流过，河畔一条名为“起义者”的街道上，门牌1998号沉默矗立。这栋外表平淡的旧楼，却是一段被官方档案刻意忽略的平民抗争史的核心坐标。1998年深秋，这里爆发了罗马尼亚后共产主义时代最激烈的基层自治运动——数千居民用肉身挡住推土机，捍卫自己亲手搭建的棚户家园。抛开游玩",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "国王米哈伊一世公园日本花园",
+    "englishName": "The Japanese Garden of King Michael I Park",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "japanese-garden-king-michael-park-history",
+    "description": "在布加勒斯特北郊的国王米哈伊一世公园深处，藏着一座几乎被西方游客遗忘的日本花园。它并非仿古造景，而是1937年由日本园艺大师亲手打造的纯正枯山水——是罗马尼亚王室与日本皇室跨越半个地球的羁绊见证。这里曾是大萧条时期罗马尼亚的“小京都”，也是末代国王流亡前最后的避风港。抛开游玩攻略，走进这座东欧秘境里",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县 Kineto-Therapy High Life",
+    "englishName": "Kineto-Therapy High Life",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（Ilfov County）—— 布加勒斯特近郊，默古雷莱（Măgurele）镇附近",
+    "slug": "kineto-therapy-high-life-history",
+    "description": "在布加勒斯特西南的默古雷莱镇，隐藏着一座褪色的白色建筑，当地人称之为“Kineto-Therapy High Life”。这个名字在20世纪初的医学界曾如雷贯耳：它并非普通疗养院，而是一座将古老温泉疗法、现代运动科学与贵族生活美学熔于一炉的实验场。这里接待过患肺病的王储、退役的将军、以及梦想靠身体重",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "布加勒斯特共产主义生活免费徒步游",
+    "englishName": "Walkabout Free Tour - Life in Communist Bucharest",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "life-in-communist-bucharest-history",
+    "description": "**布加勒斯特**，曾被称为“小巴黎”，却在20世纪下半叶沦为齐奥塞斯库的巨型建筑实验场。一次免费徒步游，带你穿过宏伟却空洞的“人民宫”，走过被夷平后又重建的旧城区，在断壁残垣间听到那个时代的回声。这不是一场普通的城市漫步，而是一堂鲜活的**历史课**——压迫、狂欢、饥饿与欲望交织的戏剧。抛开游玩攻",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "卢奇安·布拉加国家剧院",
+    "englishName": "Lucian Blaga National Theatre",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "lucian-blaga-national-theatre-history",
+    "description": "**卢奇安·布拉加国家剧院**，不仅是克卢日-纳波卡的地标，更是罗马尼亚民族精神的镜像。这座新文艺复兴风格的建筑，曾见证奥匈帝国的黄昏、特兰西瓦尼亚的觉醒，以及现代戏剧的诞生。它由一位名不见经传的维也纳建筑师设计，却承载了无数戏剧大师的梦境与呐喊。抛开游玩攻略，走进这座剧院的尘封往事，遇见属于它的时",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察玛玛亚海滩",
+    "englishName": "Mamaia Beach, Constanța",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "mamaia-beach-constanta-history",
+    "description": "玛玛亚海滩，如今是黑海沿岸最耀眼的度假天堂。但很少有人知道，这片细沙之下，沉睡着一座两千年古城的传说。康斯坦察，罗马尼亚最古老的城市之一，曾名托米斯，是古罗马诗人奥维德的流放终老之地。**这里既是古希腊殖民者的避风港，也是拜占庭与奥斯曼帝国反复争夺的前线要塞**。抛开游玩攻略，走进康斯坦察的尘封往事",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日水准测量台",
+    "englishName": "Masă de nivelment (punct geodezic) Strada Ion Creangă",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "masa-de-nivelment-cluj-history",
+    "description": "在克卢日-纳波卡一条安静的街道上，一个不起眼的石墩默默矗立。它是Masă de nivelment，曾是奥匈帝国精准测绘特兰西瓦尼亚的几何原点。这条街的名字来自罗马尼亚最伟大的童话作家——Ion Creangă，而石台本身则见证了一个帝国坍塌与新国家崛起的百年沧桑。抛开游玩攻略，走进克卢日-纳波卡的",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "马太·科文努斯雕像（克卢日-纳波卡）",
+    "englishName": "Matthias Corvinus Statue",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "matthias-corvinus-statue-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的褶皱里，克卢日-纳波卡这座古城藏着一个帝国梦。公元1458年，一位未来的欧洲雄主在此啼哭，他的名字叫马太·科文努斯。他登基为匈牙利国王后，将克卢日推向了文艺复兴的浪尖。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "马蒂亚斯·科维努斯纪念碑",
+    "englishName": "Matthias Rex Monument",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "matthias-rex-monument-history",
+    "description": "在特兰西瓦尼亚的心脏，克卢日-纳波卡的主广场中央，**马蒂亚斯·科维努斯** 骑在青铜战马上，目光如炬，凝视着数百年来川流不息的人群。这座纪念碑不仅是一座地标，更是一个民族记忆的锚点。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "1848年革命纪念标志",
+    "englishName": "Memorial Sign of the 1848 Revolution",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "memorial-sign-1848-cluj-napoca-history",
+    "description": "在克卢日-纳波卡的老城区心脏，一块嵌于地面的青铜纪念标志常被游客忽略。它标记的并非王宫或教堂，而是一场**1848年革命**的呐喊——匈牙利人、罗马尼亚人、撒克逊人曾在此短暂共鸣，又在硝烟中撕裂。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "大都会俱乐部与活动中心",
+    "englishName": "Metropolitan Club&Events",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "metropolitan-club-events-history",
+    "description": "在布加勒斯特北郊的密林深处，一座新古典主义白色建筑静静矗立，它就是大都会俱乐部——罗马尼亚近代史上最隐秘的贵族社交中心。从1895年落成至今，这里见证了王朝更迭、战火硝烟与意识形态的剧变。抛开游玩攻略，走进大都会俱乐部的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "莫戈什瓦亚宫",
+    "englishName": "Mogosoaia Palace",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（莫戈什瓦亚村）",
+    "slug": "mogosoaia-palace-history",
+    "description": "莫戈什瓦亚宫，一座被遗忘在布加勒斯特郊外的巴洛克与东方风格交织的夏宫。它曾是罗马尼亚最伟大统治者之一的私人领地，却因一场政治背叛化为废墟。**康斯坦丁·布兰科维亚努**的名字与这座宫殿紧紧相连，他的财富、权力与献身精神，在此地刻下不可磨灭的印记。抛开游玩攻略，走进莫戈什瓦亚宫的尘封往事，遇见属于它的",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日旧造币厂博物馆",
+    "englishName": "Monetaria Veche",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "monetaria-veche-cluj-history",
+    "description": "在罗马尼亚西北部的克卢日-纳波卡，一扇不起眼的铁门背后藏着特兰西瓦尼亚最古老的钱币熔炉——**Monetaria Veche**。这座建于16世纪的造币厂，曾为哈布斯堡帝国和奥斯曼苏丹铸造过流通多个王国的银币，也见证过吸血鬼传说与黄金商人的暗战。抛开游玩攻略，走进克卢日的尘封往事，遇见属于它的时光与",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒙特奥鲁宫",
+    "englishName": "Monteoru Palace",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "monteoru-palace-history",
+    "description": "在罗马尼亚首都布加勒斯特以北的茂密森林中，藏着一座几乎被时间遗忘的宫殿——蒙特奥鲁宫。它曾是19世纪末贵族狩猎的奢华行宫，却在20世纪经历了战火、国有化与荒废。抛开游玩攻略，走进伊尔福夫县的尘封往事，遇见属于蒙特奥鲁宫的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "统一广场钟楼纪念碑",
+    "englishName": "Monument cu Ceas - Piața Unirii",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "monument-cu-ceas-bucharest-history",
+    "description": "在布加勒斯特的城市心脏——统一广场，一座不显眼的钟楼悄然矗立。它不像议会宫那般恢弘，也非老城教堂那般古老，却用指针的跳动记录了罗马尼亚近百年的荣辱与梦想。**它既是时间的守护者，也是历史的沉默证人**。抛开游玩攻略，走进统一广场钟楼纪念碑的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Gheorghe D. Mărdărescu将军纪念碑",
+    "englishName": "Monument Gheorghe D. Mărdărescu",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡（克卢日县）",
+    "slug": "monument-gheorghe-d-mardarescu-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的腹地，克卢日县的苍翠山丘间，一座几乎被时间遗忘的石碑静静矗立。它纪念的是一位曾叱咤巴尔干战场的将军——**Gheorghe D. Mărdărescu**。他是罗马尼亚统一进程中的关键人物，却在大国博弈中黯然退场。抛开游玩攻略，走进这座石碑的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "空军英雄纪念碑",
+    "englishName": "Monument to the Heroes of the Air",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "monument-to-the-heroes-of-the-air-history",
+    "description": "在布加勒斯特的心脏地带，一座青铜雄鹰展翅欲飞，它不向地面俯视，而是永远凝视着苍穹。这座纪念碑名为“空军英雄纪念碑”，它纪念的不仅是战功，更是人类挣脱引力、拥抱天空的梦想与牺牲。从第一架木制双翼机到喷气时代，罗马尼亚的航空史在这里凝固成一道沉默的锋芒。抛开游玩攻略，走进布加勒斯特的尘封往事，遇见属于它",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "英雄纪念碑（阿富马齐）",
+    "englishName": "Monumentul Eroilor - Afumati",
+    "country": "罗马尼亚",
+    "city": "阿富马齐（伊尔福夫县）",
+    "slug": "monumentul-eroilor-afumati-history",
+    "description": "在布加勒斯特以东仅20公里的阿富马齐，一座素朴的方尖碑静静矗立，碑身上密密麻麻的名字如同凝固的号角。这里没有游客的喧嚣，只有风穿过玉米田时带来的低语——那是关于1916年秋季攻势、1944年坦克履带、以及无数农家子弟在异乡战壕中写下的最后一封家书的故事。抛开游玩攻略，走进阿富马齐的尘封往事，遇见属于",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "布加勒斯特感官博物馆",
+    "englishName": "Museum of Senses Bucharest",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "museum-of-senses-bucharest-history",
+    "description": "**布加勒斯特感官博物馆**并非一座古老的宫殿，却藏着人类对“真实”最古老的追问。**错觉**与**感知**，是哲学家与艺术家共同迷恋的谜题。这座位于罗马尼亚首都的现代空间，恰如一座时光隧道，连接着**达芬奇**的透视实验、**笛卡尔**的沉思、**维也纳**的幻觉沙龙，以及东欧民间世代相传的视觉游",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "博物馆广场",
+    "englishName": "Museum Square",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "museum-square-cluj-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的心脏，克卢日-纳波卡的**博物馆广场**是时间最慷慨的馈赠。它曾是火刑架下的信仰战场，也曾是文艺复兴君王诞生的摇篮，更见证了一位天才数学家孤独撕裂欧几里得宇宙的瞬间。抛开游玩攻略，走进这座由鹅卵石、哥特尖顶与巴洛克浮雕编织的时光殿堂，遇见属于它的尘封往事与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县 Ion Jalea 雕塑博物馆",
+    "englishName": "Muzeul de Sculptură Ion Jalea",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "muzeul-de-sculptura-ion-jalea-history",
+    "description": "在罗马尼亚黑海之滨，康斯坦察这座古城沉淀着古希腊、罗马与奥斯曼的层层印记。而位于老城中心的 **Ion Jalea 雕塑博物馆**，则用一座座沉默的石像与青铜，诉说着一位天才雕塑家与这座港城的灵魂对话。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "罗马尼亚国家历史博物馆",
+    "englishName": "National Museum of Romanian History",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "national-museum-romanian-history",
+    "description": "在布加勒斯特老城的车马喧嚣之下，有一座建筑沉默地收纳了罗马尼亚两千年的灵魂。它不是普通的陈列厅，而是民族记忆的庇护所——**罗马尼亚国家历史博物馆**，坐落在曾被火药车碾过的历史广场上。推开那扇沉重的门，你遇见的不仅仅是石器、金币与中世纪铠甲，更是一部浓缩的帝国兴衰史与民间苦难录。抛开游玩攻略，走进",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县 · 诺比兰马场",
+    "englishName": "NoBiLand Horses, Ilfov County",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（近布加勒斯特）",
+    "slug": "nobiland-horses-history",
+    "description": "在罗马尼亚伊尔福夫县的密林与田野之间，藏着一座名为NoBiLand Horses的古老马场。它并非旅游地图上的地名，却是见证过奥斯曼帝国、霍亨索伦王朝与罗马尼亚贵族命运交织的隐秘角落。19世纪末，这里曾是坎塔库齐诺家族的私人赛马庄园，也是欧洲外交官秘密交换情报的驿站。**马背上的信使**曾在此更换坐",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "老冰与气泡水工厂",
+    "englishName": "Old Ice and Fuzzy Water Factory",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉（Timișoara）",
+    "slug": "old-ice-and-fuzzy-water-factory-history",
+    "description": "在罗马尼亚西部的蒂米什瓦拉，有一座被遗忘的砖砌厂房，它既不是宫殿也不是教堂，却在19世纪末打开了这座城市的工业脉搏。**老冰与气泡水工厂**——这个名字本身就藏着冷与热、固与液的矛盾魅力。这里曾用氨压缩机为全城输送冰块，也曾灌装出风靡一时的“模糊之水”（一种碳酸柠檬汽水）。抛开游玩攻略，走进老冰与气",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察旧证券交易所",
+    "englishName": "The Old Stock Exchange",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "old-stock-exchange-constanta-history",
+    "description": "在罗马尼亚黑海之滨，康斯坦察的旧证券交易所见证了这座城市从古老港口向现代贸易中心的蜕变。这里曾是商贾云集的金融心脏，也是罗马诗人奥维德流放生涯的终点。抛开游玩攻略，走进康斯坦察旧证券交易所的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "奥蒂利亚·瓦斯故居",
+    "englishName": "Ottília Wass House",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "ottilia-wass-house-history",
+    "description": "在克卢日-纳波卡老城迷宫般的巷弄里，有一栋沉默的巴洛克式宅邸——它从未出现在旅游手册的封面，却藏着特兰西瓦尼亚最动人的女性故事。**奥蒂利亚·瓦斯**，一位被历史浅读的贵族女性，她的故居是权力、爱情与艺术交织的舞台。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "奥维德雕像",
+    "englishName": "Ovidius Statue",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "ovidius-statue-history",
+    "description": "这座矗立在黑海西岸的青铜雕像，是古罗马诗人奥维德（Ovid）永恒的背影。他因一首诗被奥古斯都大帝流放到遥远的托米斯（今康斯坦察），在此写下哀怨千古的《哀怨集》。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "普斯特尼古森林（隐士森林）",
+    "englishName": "Pădurea Pustnicu",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（布加勒斯特南郊）",
+    "slug": "padurea-pustnicu-history",
+    "description": "在罗马尼亚伊尔福夫县葱郁的平原上，一片占地近百公顷的古老橡树林静静矗立，当地人叫它 **普斯特尼古** —— 斯拉夫语中“隐士之地”。这里没有城堡，没有宫殿，只有歪斜的木十字架和长满青苔的泉眼。16世纪以来，一代代东正教修士远离尘嚣，在此凿洞而居，用祈祷声喂养这片森林。抛开游玩攻略，走进普斯特尼古森",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "布加勒斯特存款与寄售宫殿",
+    "englishName": "Palace of the Deposits and Consignments (Palatul Casa de Depozite și Consemnațiuni)",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "palace-of-deposits-consignments-history",
+    "description": "在布加勒斯特老城的喧嚣背后，一座巨石般的新罗马式宫殿静默伫立。它曾是罗马尼亚金融帝国的象征，名为 **存款与寄售宫殿**（Palace of the Deposits and Consignments）。这里印刻着19世纪末的资本狂潮、二战炮火的伤痕，以及社会主义时期被尘封的往事。抛开游玩攻略，走进",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日司法宫",
+    "englishName": "Palace of Justice, Cluj-Napoca",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "palace-of-justice-cluj-history",
+    "description": "在特兰西瓦尼亚的十字路口，克卢日司法宫静默矗立。它的石柱与穹顶，镌刻着帝国更迭、战争创伤与法治觉醒。这座不为游客熟知的殿堂，曾是正义与权力博弈的舞台。抛开游玩攻略，走进克卢日司法宫的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "乡村信贷宫",
+    "englishName": "Palatul Creditul Funciar Rural",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特 / 伊尔福夫县",
+    "slug": "palatul-creditului-funciar-rural-history",
+    "description": "在布加勒斯特的喧嚣街角，有一座鲜少被旅行者注意的宫殿——乡村信贷宫。它不是为了王公贵族而建，而是为了一群渴望土地的农民。1899年，当罗马尼亚王国刚从农业社会蹒跚起步，这座宏伟的建筑便成为乡村信贷体系的象征。抛开游玩攻略，走进这座宫殿的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县财政宫",
+    "englishName": "Palatul de Finanţe",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "palatul-de-finante-history",
+    "description": "在特兰西瓦尼亚的心脏，克卢日-纳波卡的老城广场旁，矗立着一座米黄色砂岩的宫殿——**Palatul de Finanţe**（财政宫）。它并非游客地图上的明星，却是这座城市权力与财富流转的沉默见证者。**1900年**落成时，它是奥匈帝国在东方的前哨堡垒，曾是匈牙利皇家财政部的所在地。抛开游玩攻略，",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "帕拉图鲁·阿道夫·韦尔特斯博士 (雅各布·克莱因宫)",
+    "englishName": "Palatul Dr. Adolf Vértes (Palatul Jakob Klein)",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "palatul-dr-adolf-vertes-history",
+    "description": "在罗马尼亚西部的蒂米什瓦拉，有一座被当地人称为“小维也纳”的建筑。**帕拉图鲁·阿道夫·韦尔特斯博士**，这座以医生命名的宫殿，浓缩了奥匈帝国末期的浮华与犹太知识分子的命运。抛开游玩攻略，走进这座建筑的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "装甲公园",
+    "englishName": "Parcul Armătura",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "parcul-armatura-history",
+    "description": "在克卢日-纳波卡喧嚣的市中心，藏着一座被遗忘的绿色秘境——**装甲公园（Parcul Armătura）**。它的名字源自奥斯曼帝国时期奥匈驻军的军械库，这座曾堆满步枪与火药的堡垒，如今却成为市民散步、孩童嬉戏的宁静角落。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "花之公园",
+    "englishName": "Parcul Florilor",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（Ilfov County）",
+    "slug": "parcul-florilor-history",
+    "description": "在罗马尼亚伊尔福夫县的绿野深处，藏着一座名为“花之公园”的古老园林。它并非普通植物园，而是17世纪瓦拉几亚大公康斯坦丁·布伦科维亚努为夏日避暑而建的私人花苑。**在近三百年光阴里，这里上演过宫廷阴谋、文学聚会，也曾沦为荒草萋萹的集体农庄果园。** 抛开游玩攻略，走进Parcul Florilor的尘",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日湖间公园II",
+    "englishName": "Parcul Între Lacuri II",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "parcul-intre-lacuri-ii-history",
+    "description": "罗马尼亚的克卢日-纳波卡，特兰西瓦尼亚的心脏。大多数人直奔马蒂亚斯广场或植物园，却忽略了城东那片被梧桐树遮掩的绿洲——**帕尔库尔·因特雷·拉库里II**（Parcul Între Lacuri II）。这个建于上世纪70年代的公园，由三座人工湖串联而成，曾是工人阶级的度假胜地，也是青年情侣的约会天",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县 Bragadiru休闲公园",
+    "englishName": "Park Leisure Bragadiru",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特（Bragadiru镇）",
+    "slug": "park-leisure-bragadiru-history",
+    "description": "在布加勒斯特西南十公里处，藏着一座被罗马尼亚人称为“啤酒花园”的秘境——Bragadiru休闲公园。它并非普通城市绿地，而是**19世纪末啤酒大王Dumitru Bragadiru**留下的贵族庄园。如今这里绿树成荫、湖面如镜，但鲜有人知，每一块砖石都浸染着罗马尼亚工业革命时代的野心与浪漫。抛开游玩",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "帕萨雷亚修道院",
+    "englishName": "Pasarea Monastery",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "pasarea-monastery-history",
+    "description": "在布加勒斯特东南的伊尔福夫县密林深处，隐匿着一座名为“鸟”的修道院——帕萨雷亚。它并非宏伟的城堡，也非喧嚣的都城，而是一处被时间打磨得温润如玉的东正教圣地。这里埋葬着一位敢于对抗奥斯曼帝国的高贵女性，墙壁上镶嵌着未被世俗污染的拜占庭圣像。抛开游玩攻略，走进帕萨雷亚修道院的尘封往事，遇见属于它的时光与",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊爾福夫县",
+    "englishName": "Pentagon Events",
+    "country": "罗马尼亚",
+    "city": "伊爾福夫县",
+    "slug": "pentagon-events-ilfov-history",
+    "description": "**伊爾福夫县**，常被游客视为通往罗马尼亚首都布加勒斯特的过渡地带。然而，这片环绕着首都的土地，曾是的**古罗马帝国**最北端的军事防线，也是**瓦拉几亚公国**抵御奥斯曼帝国的粮仓与战场。抛开游玩攻略，走进这片尘封的时空边境，从远古的边境要塞到现代的Pentagon Event建筑，遇见属于它的",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县·奥塞尔广场",
+    "englishName": "Piața Oser",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡（Cluj-Napoca）",
+    "slug": "piata-oser-history",
+    "description": "在克卢日-纳波卡流光溢彩的中心广场背后，隐藏着一块几乎被旅行者遗忘的方形石板地——**奥塞尔广场（Piața Oser）**。这里曾是特兰西瓦尼亚最大的牲畜市场，也是二战时期犹太人被迫前往集中营的集结地，更是1989年罗马尼亚革命前秘密反对派传递情报的暗角。抛开游玩攻略，走进奥塞尔广场的尘封往事，遇",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "德塞巴卢斯广场（康斯坦察）",
+    "englishName": "Piațeta Decebal",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "piateta-decebal-history",
+    "description": "在康斯坦察老城迷宫般的小巷尽头，藏着一座几乎被旅行团遗忘的广场——**德塞巴卢斯广场**。它不靠海，没有喧哗，却以一位达契亚国王的名字镌刻了罗马尼亚民族最骄傲又最悲壮的记忆。这里曾是古希腊殖民地托米斯的心脏，也是罗马流放诗人奥维德最后凝望故土的地方。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县皮亚特拉塞库尤卢伊山自然保护区",
+    "englishName": "Piatra Secuiului Natural Reserve",
+    "country": "罗马尼亚",
+    "city": "Rimetea (里梅泰亚)",
+    "slug": "piatra-secuiului-natural-reserve-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的群山中，皮亚特拉塞库尤卢伊山像一把利剑刺向天空。它不仅是地质学家的天堂，更是匈牙利族塞凯伊人记忆中的圣山。山脚下，里梅泰亚小镇以纯白房屋与雕花木窗守望着四百年的矿工岁月。抛开游玩攻略，走进这片土地的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Plumbuita修道院",
+    "englishName": "Plumbuita Monastery",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "plumbuita-monastery-history",
+    "description": "在布加勒斯特喧嚣的东北郊，科尔恰辛河畔，隐藏着一座被铅色屋顶覆盖的古老修道院——Plumbuita。它的名字在罗马尼亚语中意为“铅制的”，并非源于建材，而是源于一段关于炮弹与信仰的冷冽传说。这座建于16世纪末的修道院，曾是瓦拉几亚王子米赫内亚·图尔西特尔的避难所与最后安息地，也见证了罗马尼亚历史上最",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "波多尔马雷古桥",
+    "englishName": "Podul Mare",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "podul-mare-history",
+    "description": "在布加勒斯特东北郊的密林与麦田间，一座沉默了三百多年的石拱桥横跨登博维察河。它叫波多尔马雷——罗马尼亚语意为“大桥”。这座看似普通的桥梁，曾是中世纪瓦拉几亚公国最重要的战略通道，见证了奥斯曼大军的铁蹄、哈布斯堡军队的炮火，以及民间反抗者的集结。抛开游玩攻略，走进波多尔马雷的尘封往事，遇见属于它的时光",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "首座剧院纪念牌匾",
+    "englishName": "Premier Theater Memorial Plaque",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "premier-theater-memorial-plaque-history",
+    "description": "在克卢日-纳波卡老城的圣米迦勒教堂旁，一面斑驳的墙壁上嵌着一块铁质牌匾，上面用匈牙利文和罗马尼亚文写着：“这里曾矗立着特兰西瓦尼亚第一座永久剧院——建于1766年。” 如今剧院早已消失，牌匾却像一枚沉默的印章，封印着两个世纪前文化冲突与融合的激烈时刻。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇见",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "铁路工人公园",
+    "englishName": "Railway Workers' Park",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "railway-workers-park-history",
+    "description": "在克卢日-纳波卡喧嚣的现代街角，藏着一片被时光遗忘的绿地——铁路工人公园。它并非皇家庄园，也非贵族猎场，而是19世纪末铁路工人以汗水与信念开辟的喘息之地。这里见证过蒸汽机车的轰鸣，聆听过罢工者的怒吼，也封存着一位铁路工程师的诗意灵魂。抛开游玩攻略，走进铁路工人公园的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "Regnum Events",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "regnum-events-history",
+    "description": "伊尔福夫县，罗马尼亚首都布加勒斯特的环形腹地，曾是中世纪瓦拉几亚王国的核心地带。这里没有喧嚣的景点，却藏着决定罗马尼亚命运的历史事件——**Regnum Events**，一段关于王国、权谋与土地的故事。抛开游玩攻略，走进伊尔福夫县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "罗马马赛克建筑",
+    "englishName": "The Roman Mosaic Building",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "roman-mosaic-building-history",
+    "description": "在罗马尼亚黑海之滨的康斯坦察老城地下，沉睡着一片近千平方米的罗马马赛克地板——它曾是古代托米斯城的商业中心，也是多瑙河行省最后的奢华记忆。**这座欧洲罕见的遗迹型博物馆**，用数百万片彩色石灰石和白大理石，拼出了帝国边陲的贸易与信仰。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "罗马诺-拜占庭塔楼",
+    "englishName": "Romano-Byzantine Tower",
+    "country": "罗马尼亚",
+    "city": "康斯坦察县",
+    "slug": "romano-byzantine-tower-history",
+    "description": "在罗马尼亚黑海之滨的康斯坦察县，一座残破的砖石塔楼孤立于荒草之中。它名为**罗马诺-拜占庭塔楼**，始建于公元6世纪，是查士丁尼大帝边疆防御体系的遗珠。这座不起眼的建筑，曾目睹罗马帝国的落日、拜占庭舰队的远航，乃至奥斯曼帝国的铁蹄。它不登杂志封面，却藏着多瑙河下游最复杂的文明密码。抛开游玩攻略，走进",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "圣乔治广场",
+    "englishName": "Saint George Square",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "saint-george-square-history",
+    "description": "圣乔治广场是蒂米什瓦拉最古老的城市公共空间，自18世纪起便承载着政治集会、宗教庆典与市井交易。它不像布加勒斯特的革命广场那样声名显赫，却以隐秘的方式串联起匈牙利贵族、塞尔维亚商人与罗马尼亚爱国者的命运。抛开游玩攻略，走进圣乔治广场的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "圣米迦勒教堂（克卢日-纳波卡）",
+    "englishName": "Saint Michael's Church",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "saint-michaels-church-cluj-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的心脏地带，克卢日-纳波卡老城广场上，一座高达76米的哥特尖塔刺破天际。**圣米迦勒教堂**，这座罗马尼亚最大的哥特式教区教堂，自14世纪起便见证着这座城市的荣辱与变迁。它不仅是宗教圣地，更是匈牙利国王马加什一世的受洗之所，是特兰西瓦尼亚民族记忆的活化石。抛开游玩攻略，走进这座",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "圣尼古拉、圣西奥多与圣斯蒂利亚诺教堂",
+    "englishName": "Saints Nicholas, Theodor and Stylian Church",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（莫戈什瓦亚乡）",
+    "slug": "saints-nicholas-theodor-and-stylian-church-history",
+    "description": "在伊尔福夫县莫戈什瓦亚乡的橡树林深处，矗立着一座不起眼的东正教教堂。它同时供奉着三位截然不同的圣人——**圣尼古拉**、**圣西奥多**与 **圣斯蒂利亚诺**，这在罗马尼亚宗教建筑中极为罕见。这座教堂没有恢弘的穹顶，也没有镀金的圣像，却藏着一段跨越两百年的隐秘往事。抛开游玩攻略，走进莫戈什瓦亚的尘",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县萨利尼筒仓",
+    "englishName": "The Saligny Silos",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "saligny-silos-history",
+    "description": "在黑海西岸的康斯坦察港口，矗立着一座巨大的混凝土筒仓群——萨利尼筒仓。它并非观光景点，而是工业革命的沉默见证者。作为欧洲早期钢筋混凝土建筑的杰出代表，它曾改变多瑙河粮食运输的格局。抛开游玩攻略，走进萨利尼筒仓的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "瑟林达尔喷泉",
+    "englishName": "Sărindar Fountain",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "sarindar-fountain-history",
+    "description": "在布加勒斯特熙攘的现代化广场下，一块不起眼的石砌构筑物静静矗立。它曾是奥斯曼帝国时期为旅人解渴的慈善饮水处，又曾是东正教教堂旁的圣水之源。这座被称为**瑟林达尔喷泉**的遗迹，见证了这座城市从东方边陲小镇走向现代首都的血泪与荣光。抛开游玩攻略，走进**瑟林达尔喷泉**的尘封往事，遇见属于它的时光与传",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Economu银行旧址",
+    "englishName": "Sediul băncii „Economu” (Economu Bank Building)",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "sediul-bancii-economu-history",
+    "description": "在克卢日-纳波卡市中心，一座新艺术风格的老建筑沉默伫立，外墙依旧可见“Economu”的浮雕字样。这里曾是特兰西瓦尼亚第一家本土资本银行的总部，也是一段隐秘金融史诗的起点。抛开游玩攻略，走进这座银行旧址的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县前罗马尼亚赌场旧址",
+    "englishName": "Sediul fostei Casine române",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "sediul-fostei-casine-romane-history",
+    "description": "在特兰西瓦尼亚的丘陵与河谷之间，克卢日县存留着一座沉默却充满张力的建筑——**Sediul fostei Casine române**（前罗马尼亚赌场旧址）。它并非寻常的娱乐场所，而是罗马尼亚民族精英在奥匈帝国阴影下构建的精神飞地。赌桌之上，不只筹码，还有民族命运。抛开游玩攻略，走进这座建筑的尘封",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日-纳波卡圣三一罗马天主教教堂（皮亚里斯特教堂）",
+    "englishName": "Biserica Romano-Catolică Sfânta Treime Cluj-Napoca (Piaristă)",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "sfanta-treime-cluj-napoca-piarist-history",
+    "description": "在罗马尼亚克卢日-纳波卡的旧城心脏，一座巴洛克风格的白色塔楼静默矗立——**圣三一教堂**（俗称皮亚里斯特教堂）不仅是特兰西瓦尼亚最富戏剧性的宗教建筑之一，更是东欧天主教与哈布斯堡王朝权力博弈的见证者。抛开游玩攻略，走进这座教堂的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "锡拉希·格里戈雷故居",
+    "englishName": "Silași Grigore House",
+    "country": "罗马尼亚",
+    "city": "克卢日县（Cluj County）",
+    "slug": "silasi-grigore-house-history",
+    "description": "在罗马尼亚特兰西瓦尼亚腹地克卢日县，一座不起眼的19世纪民宅静默矗立。这里曾住着一位用笔墨唤醒民族意识的文人——**格里戈雷·锡拉希**（Grigore Silași）。他一生跨越政治、文学与新闻，却选择在乡野间终老。抛开游玩攻略，走进克卢日县的时光褶皱，遇见属于这位边缘灵魂的孤独传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "西诺尔·丹尼斯宅邸",
+    "englishName": "Sinor Denis House",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "sinor-denis-house-history",
+    "description": "在特兰西瓦尼亚的心脏地带，克卢日-纳波卡的旧城石板路尽头，藏着一座被时光遗忘的文艺复兴宅邸——西诺尔·丹尼斯宅邸。它曾是匈牙利贵族丹尼斯·西诺尔的私人图书馆与沙龙，见证了宗教改革浪潮中的思想交锋，也承载着奥斯曼帝国阴影下东欧精英的文化坚守。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇见属于它的时光",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "奥雷尔·弗拉伊库首次飞行雕像",
+    "englishName": "Statuia Primului Zbor al lui Aurel Vlaicu",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（Ilfov County）",
+    "slug": "statue-first-flight-aurel-vlaicu-history",
+    "description": "在罗马尼亚首都布加勒斯特以北的伊尔福夫县，有一片看似普通的田野。那里立着一座青铜雕像——**奥雷尔·弗拉伊库**（Aurel Vlaicu）首次飞行的永恒定格。雕像底座并不高大，却承载着一个民族对天空的极致渴望。1910年，这位28岁的工程师驾驶自己设计的单翼机，在此腾空而起，成为罗马尼亚航空史上第",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "米科·伊姆雷伯爵雕像",
+    "englishName": "Statuia contelui Mikó Imre",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "statuia-contelui-miko-imre-history",
+    "description": "在克卢日-纳波卡的主广场旁，一座青铜雕像静默伫立。他身着19世纪礼服，目光深邃，仿佛仍在注视着这片他曾守护的土地。这便是 **米科·伊姆雷伯爵**（Mikó Imre）——特兰西瓦尼亚最后的总督之一，匈牙利历史学界的重要人物。抛开游玩攻略，走进这座雕像背后的尘封往事，遇见克卢日-纳波卡属于它的时光与",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "Foca雕像（康斯坦察）",
+    "englishName": "Statuia \"Foca\"",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "statuia-foca-history",
+    "description": "在黑海之滨的康斯坦察老城广场，一尊憨态可掬的青铜海豹雕像静静蹲坐，当地人叫它 **Foca**。这座看似普通的雕塑，却凝缩了罗马尼亚最古老港口的 **两千年浮沉**——从古希腊米利都殖民者到罗马流放诗人的眼泪，从奥斯曼霸权的烟尘到现代渔港的兴衰。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "圣母玛利亚雕像（伊尔福夫县圣迹）",
+    "englishName": "Statuia Maicii Domnului (Ilfov County)",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "statuia-maicii-domnului-history",
+    "description": "在罗马尼亚首都布加勒斯特南郊的伊尔福夫县，有一座鲜为人知的石像——**Statuia Maicii Domnului**（圣母玛利亚雕像）。它伫立在荒草与麦田之间，没有恢弘教堂的庇护，却被当地农民称为“永不熄灭的烛火”。**这座雕像建于1797年**，正值奥斯曼帝国高压统治与霍乱瘟疫肆虐的年代。传说",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "米哈伊·维特亚祖雕像",
+    "englishName": "Statuia Mihai Viteazul",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "statuia-mihai-viteazul-history",
+    "description": "在克卢日-纳波卡的中心广场，一匹青铜骏马扬起前蹄，骑手挥剑指向东方。他就是**米哈伊·维特亚祖**——罗马尼亚历史上第一位将瓦拉几亚、摩尔达维亚和特兰西瓦尼亚统一在单一位君主之下的传奇人物。他的雕像矗立于**统一广场**，见证着这座特兰西瓦尼亚古城的沧桑变迁。抛开游玩攻略，走进米哈伊·维特亚祖雕像的",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日-纳波卡圣乔治雕像",
+    "englishName": "Statuia Sfântului Gheorghe din Cluj-Napoca",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "statuia-sfantului-gheorghe-cluj-napoca-history",
+    "description": "在特兰西瓦尼亚心脏地带的克卢日-纳波卡，一座青铜雕像静静矗立于圣乔治广场四百余年。它并非普通的宗教塑像——**圣乔治屠龙**的形象被赋予了双重隐喻：既是基督教圣徒的胜利，也是匈牙利王国反抗奥斯曼帝国的政治象征。抛开游玩攻略，走进这座雕像的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒸汽朋克特兰西瓦尼亚博物馆",
+    "englishName": "Steampunk Transylvania Museum",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "steampunk-transylvania-history",
+    "description": "在特兰西瓦尼亚的心脏，一座**19世纪啤酒厂**的砖墙内，藏着不属于任何时代的狂想。齿轮、黄铜、飞行器与吸血鬼的尖牙在这里和平共处——这便是**蒸汽朋克特兰西瓦尼亚博物馆**，一个将维多利亚工业美学与东欧民间传说熔于一炉的异想世界。抛开游玩攻略，走进这座砖砌建筑的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "堡垒犹太教堂",
+    "englishName": "The Stronghold Synagogue",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "stronghold-synagogue-history",
+    "description": "在罗马尼亚西部的边境之城蒂米什瓦拉，一座巨大的摩尔复兴式建筑沉默矗立。它叫堡垒犹太教堂，曾是哈布斯堡王朝晚期犹太社区的精神堡垒。经历了两次世界大战、种族清洗与共产主义铁幕，它却奇迹般保留了完整的穹顶与彩窗。抛开游玩攻略，走进堡垒犹太教堂的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县55号美容工作室",
+    "englishName": "Studio 55 Beauty Salon",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特（伊尔福夫县）",
+    "slug": "studio-55-beauty-salon-history",
+    "description": "这座不起眼的临街店面，曾是罗马尼亚末代王后玛丽的御用化妆间，也是国宝画家尼古拉·格里戈雷斯库的秘密画室。推开那扇雕花木门，镜框里还嵌着1940年的烫金签名。抛开游玩攻略，走进伊尔福夫县55号美容工作室的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察水族馆",
+    "englishName": "The Aquarium of Constanța",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "the-aquarium-of-constanta-history",
+    "description": "黑海西岸的康斯坦察，两千年前名为托米斯，是奥维德流放终老的边陲。而它的水族馆，竟坐落在古罗马城墙遗址之上——展柜里的双髻鲨与石斑鱼，游弋在拜占庭砖石与奥斯曼炮眼之间。抛开游玩攻略，走进这座鱼缸里的古城，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察赌场",
+    "englishName": "The Casino of Constanța",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "the-casino-of-constanta-history",
+    "description": "在罗马尼亚黑海畔，矗立着一座如同童话城堡般的建筑——**康斯坦察赌场**。它曾是奥匈帝国与罗马尼亚王室的奢华游乐场，见证了一个世纪的财富与狂欢。如今它斑驳破败，却依然散发着致命的魅惑。抛开游玩攻略，走进康斯坦察赌场的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察海豚馆",
+    "englishName": "The Dolphinarium of Constanța",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "the-dolphinarium-of-constanta-history",
+    "description": "康斯坦察，黑海西岸最古老的港口，古称托米斯。这座城市的血脉里流淌着希腊的商船、罗马的军团、还有海豚跃出水面的银色弧线。而那座建于1972年的海豚馆，看似是现代娱乐的产物，实则是一座隐藏着千年海洋记忆的殿堂。抛开游玩攻略，走进康斯坦察海豚馆的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "火塔（伊尔福夫县历史地标）",
+    "englishName": "The Fire Tower (Turnul cu Ceas)",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "the-fire-tower-ilfov-history",
+    "description": "在布加勒斯特老城的心脏，一座沉默的钟楼拔地而起，它比任何宫殿都更早地听见这座城市的呼吸。**火塔**——罗马尼亚语中的“Turnul cu Ceas”——并非雄伟的城堡，却以最朴素的使命守护过整座首都：从18世纪起，它是消防员的瞭望眼，是城市警报的喉舌。它的砖石上刻着火灾的焦痕、革命的火种，以及普通",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察大清真寺",
+    "englishName": "The Great Mosque of Constanța",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "the-great-mosque-of-constanta-history",
+    "description": "**康斯坦察大清真寺**，罗马尼亚最壮观的奥斯曼建筑之一，坐落在黑海西岸的古城之巅。它的穹顶与尖塔，像是从东正教国度里长出的伊斯兰孤岛，历经一百多年风雨依然熠熠生辉。抛开游玩攻略，走进这座清真寺的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "康斯坦察县",
+    "englishName": "The Greek Church of Metamorphosis in Constanța",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "the-greek-church-of-metamorphosis-in-constanta-history",
+    "description": "在罗马尼亚东部的黑海之滨，康斯坦察古城藏着一座鲜为人知的东正教圣殿——**希腊变容教堂**。它并非宏伟的哥特尖塔，也非巴洛克穹顶，却承载着19世纪希腊侨民在异乡的精神寄托，以及这座城市两千多年来的多元血脉。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县自由新闻之家",
+    "englishName": "The House of the Free Press (Casa Presei Libere)",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特（伊尔福夫县核心区）",
+    "slug": "the-house-of-the-free-press-history",
+    "description": "在布加勒斯特北郊，一座高达91米的斯大林式巨塔，曾如墓碑般矗立在二战的废墟之上。它叫 **自由新闻之家**，但更早的名字是 **《火花报》大厦**——罗马尼亚共产党统治时期最庞大的宣传武器库。这里没有游乐场，只有水泥、铁幕与永不熄灭的镁光灯。抛开游玩攻略，走进布加勒斯特自由新闻之家的尘封往事，遇见属",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "布加勒斯特",
+    "englishName": "The Museum of Bucharest",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "the-museum-of-bucharest-history",
+    "description": "布加勒斯特，一座名字里就藏着传说的城市——**“欢乐之城”**。但它的历史，却远比欢乐沉重。从德古拉大公的行猎领地，到齐奥塞斯库的混凝土巨兽，再到1989年冬天那场流血的革命，布加勒斯特的每一块石头都刻着东欧的集体记忆。而**布加勒斯特博物馆**，正坐落在老城中心一座洛可可式的贵族宫殿内，它本身就是",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "特尔梅布加勒斯特（Therme Bucharest）",
+    "englishName": "Therme Bucharest",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（靠近布加勒斯特）",
+    "slug": "therme-bucharest-history",
+    "description": "在布加勒斯特北郊的伊尔福夫县，一座玻璃穹顶下藏着欧洲最大的都市水疗中心——Therme Bucharest。但很少有人知道，这片土地下涌动的温泉，早在两千年前就被达契亚人视为神赐圣泉，更在奥斯曼帝国时期成为贵族们的隐秘疗养地。抛开游玩攻略，走进伊尔福夫县的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "三圣主教座堂（蒂米什瓦拉）",
+    "englishName": "Three Holy Hierarchs Metropolitan Cathedral",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "three-holy-hierarchs-cathedral-history",
+    "description": "**蒂米什瓦拉**——这座曾被称为“小维也纳”的巴纳特首府，多元文化在此交织了八个世纪。而在其天际线上，**三圣主教座堂**的拜占庭穹顶早已成为城市的精神坐标。它不仅是东正教信仰的圣殿，更承载着革命与重生的记忆。抛开游玩攻略，走进这座教堂的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什县行政宫",
+    "englishName": "Administrația Camerală, Timiș County",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉 (Timișoara)",
+    "slug": "timis-county-administratia-camerala-history",
+    "description": "在罗马尼亚西部，蒂米什瓦拉老城深处，隐藏着一条名为“行政巷”的街道。那里矗立着一座低调却威严的巴洛克建筑——**蒂米什县行政宫**。它曾是哈布斯堡王朝在巴纳特地区的权力中枢，见证了帝国扩张、民族革命与启蒙思想的碰撞。抛开游玩攻略，走进这座建筑的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什县 万石山风景区",
+    "englishName": "Muntele de Piatră, Timiș County",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "timis-county-muntele-de-piatra-history",
+    "description": "万石山不是山，而是一座被时光凿空的石头迷宫。它静卧在蒂米什县起伏的丘陵间，表面覆满青苔与野草，地下却藏着中世纪采石场、隐修士的洞穴教堂，以及一段关于移民与匠心的悲欢史。抛开游玩攻略，走进万石山的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什县革命纪念协会",
+    "englishName": "Rev Memorial Association of Timiș County",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "timis-county-revolution-memorial-history",
+    "description": "**蒂米什瓦拉**，一座被多瑙河支流贝加河温柔环抱的城市，却拥有欧洲最炽热的革命基因。它是罗马尼亚现代化进程的摇篮，也是1989年那场终结齐奥塞斯库政权的**革命第一枪**响起的地方。抛开游玩攻略，走进蒂米什瓦拉的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什县",
+    "englishName": "Conturul străzii turcești / Outline of Turkish street",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "timis-county-history",
+    "description": "在罗马尼亚西部的蒂米什县，首府蒂米什瓦拉的古城区藏着一条名叫“土耳其街”的蜿蜒窄巷。它并非旅游地图上的热闹地标，却是奥斯曼帝国统治巴纳特地区近两百年留下的最后胎记。这条街的轮廓——**Conturul străzii turcești**——如同一个时间胶囊，封存着清真寺的残影、浴场的蒸汽和集市上的",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什县",
+    "englishName": "Hotel Timisoara",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "timisoara-history",
+    "description": "这里是罗马尼亚西部边陲的“小维也纳”，也是点燃1989年革命的导火索。**蒂米什瓦拉**，一座被巴洛克宫殿、奥匈帝国余晖与地下抵抗运动共同雕刻的城市。抛开游玩攻略，走进Hotel Timisoara的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "鱼喷泉",
+    "englishName": "Fish Fountain (Fântâna cu Pești)",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "timisoara-fish-fountain-history",
+    "description": "在罗马尼亚西部边境，蒂米什瓦拉老城广场的中央，一座由六条青铜鱼承托的精巧喷泉静静流淌了140年。它并不宏伟，却刻满奥匈帝国最后的荣光与一座城市的水利智慧。抛开游玩攻略，走进鱼喷泉的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "斯科拉鲁书店",
+    "englishName": "Librăria ȘCOLARU",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉（Timișoara）",
+    "slug": "timisoara-libraria-scolaru-history",
+    "description": "在蒂米什瓦拉老城广场的拱廊下，有一扇不起眼的木门，推开后是木质书架与百年油墨气味交织的空间——**斯科拉鲁书店（Librăria ȘCOLARU）**。自1865年开业以来，它从未更换过地址，也从未关闭过大门。它不仅是罗马尼亚最古老的仍在运营的书店，更是**哈布斯堡晚期思想交锋的温床、两次世界大战中",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "玛丽亚·特蕾莎堡垒",
+    "englishName": "Maria Theresia Bastion",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "timisoara-maria-theresia-bastion-history",
+    "description": "在罗马尼亚西部，蒂米什瓦拉（Timisoara）曾以“小维也纳”闻名。而玛丽亚·特蕾莎堡垒，正是哈布斯堡王朝留给这座城市的军事勋章。它建于18世纪，以奥地利女皇玛丽亚·特蕾莎命名，见证了奥斯曼与奥地利的角力、1848年革命的血火，如今却化为露天咖啡馆与艺术展廊的温柔背景。抛开游玩攻略，走进蒂米什瓦拉",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "蒂米什瓦拉罗马尼亚国家歌剧院",
+    "englishName": "Opera Națională Română din Timișoara",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "timisoara-opera-nationala-history",
+    "description": "在罗马尼亚西部的巴纳特平原上，**蒂米什瓦拉**不仅是一座革命之城，更是一座被音符浸润的艺术圣殿。当地人称它为“小维也纳”，而它的灵魂，就藏在**蒂米什瓦拉罗马尼亚国家歌剧院**那金碧辉煌的穹顶之下。这座剧院，不只是砖石与雕花的堆砌，它是东欧民族觉醒的见证者，是二战烽火中幸存的艺术方舟，更是无数艺术",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "特兰西瓦尼亚国家历史博物馆",
+    "englishName": "The National Museum of the History of Transylvania",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "transylvania-national-museum-history",
+    "description": "在罗马尼亚西北部的克卢日-纳波卡，一栋新古典主义建筑静静守护着特兰西瓦尼亚千年的灵魂。这里是 **特兰西瓦尼亚国家历史博物馆**，一个用石头、铁器和羊皮纸写就的史诗宝库。从达契亚人的黄金面具到匈牙利国王的加冕权杖，每一件藏品都在低声诉说着这片土地的挣扎与荣光。抛开游玩攻略，走进特兰西瓦尼亚的尘封往事",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "青蛙主题路线（克卢日县）",
+    "englishName": "Traseul broscutei (The Little Frog Trail)",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "traseul-broscutei-history",
+    "description": "特兰西瓦尼亚的森林深处，藏着一道不足五公里的环形小径。它的名字里住着青蛙，却承载着比蛙鸣更悠远的文明回响——**达契亚人的萨满仪式**、**奥匈帝国森林学校的启蒙**、**二战中避难的犹太儿童**。抛开游玩攻略，走进克卢日县“青蛙路线”的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "图尔达盐矿（盐度假村）",
+    "englishName": "Salina Turda / Salt Resort",
+    "country": "罗马尼亚",
+    "city": "图尔达（Turda）",
+    "slug": "turda-salt-mine-history",
+    "description": "在罗马尼亚克卢日县宁静的图尔达市地下120米处，隐藏着一个由盐晶雕琢的奇幻世界——图尔达盐矿。这里曾是古罗马帝国的“白色黄金”来源，是中世纪匈牙利王国的经济命脉，也在二战期间化作平民的避难所。如今，它变身为拥有地下湖、摩天轮与迷你高尔夫的主题乐园，但每一处盐壁都镌刻着千年的风霜与人世沧桑。抛开游玩攻",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "图尔恩德阿帕水塔",
+    "englishName": "Turn de apa",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "turn-de-apa-history",
+    "description": "**图尔恩德阿帕水塔**，罗马尼亚语意为“水塔”，却是特兰西瓦尼亚中世纪城市工程学最沉默的见证者。当克卢日-纳波卡的街道还在泥泞中蜿蜒，这座八角形石塔便已用重力与齿轮将泉水送入贵族庭院。它不似教堂般高耸，却比任何城堡更贴近生活。抛开游玩攻略，走进克卢日-纳波卡的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "裁缝塔",
+    "englishName": "Turnul Croitorilor",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "turnul-croitorilor-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的心脏，克卢日-纳波卡的老城墙早已消失于现代街道的喧嚣中。唯有那座棱角分明的**裁缝塔**，依然静立在记忆的褶皱里，用石壁上密密麻麻的弹孔与雕刻，讲述着五个世纪前的荣耀与恐惧。抛开游玩攻略，走进克卢日的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "统一广场",
+    "englishName": "Unirii Square",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "unirii-square-history",
+    "description": "在特兰西瓦尼亚的腹地，克卢日-纳波卡的老城中央，有一片被岁月打磨得光滑的石板广场——**统一广场（Piața Unirii）**。它曾是匈牙利王国边境的集市，曾是奥斯曼帝国的前哨，也曾是1918年罗马尼亚统一宣言回荡的地方。抛开游玩攻略，走进这片广场的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "布加勒斯特大学广场",
+    "englishName": "University Square",
+    "country": "罗马尼亚",
+    "city": "布加勒斯特",
+    "slug": "university-square-history",
+    "description": "**这里曾是布加勒斯特精英的摇篮，也是独裁者丧钟敲响的地方。** 大学广场，一座沉默的露天剧场，演出过启蒙、庆典、枪声与重生的四幕剧。从19世纪剧院广场的华灯初上，到1989年罗马尼亚革命的血色黎明，再到2012年公民抗议的烛光海洋——它记录着这个国家每一次撕裂与缝合。抛开游玩攻略，走进布加勒斯特大",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "乌拉尼亚宫",
+    "englishName": "Urania Palace",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "urania-palace-history",
+    "description": "在克卢日-纳波卡的老城心脏，有一座被岁月烧焦过两次的宫殿——**乌拉尼亚宫**。它曾是特兰西瓦尼亚最奢华的商业娱乐殿堂，穹顶上旋转的**天文钟**至今仍在诉说着时间与星空的秘密。这里没有拥挤的游客，只有厚重的石墙和吱呀作响的木梯，藏着建筑师、商人和艺术家的交织往事。抛开游玩攻略，走进乌拉尼亚宫的尘封",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "胜利广场",
+    "englishName": "Victory Square",
+    "country": "罗马尼亚",
+    "city": "蒂米什瓦拉",
+    "slug": "victory-square-history",
+    "description": "它曾是奥匈帝国炫耀权力的阅兵场，也是点燃罗马尼亚革命的第一簇星火。**胜利广场**，蒂米什瓦拉的城市会客厅，每一块砖石都浸透着巴洛克的优雅与抗争的血性。抛开游玩攻略，走进胜利广场的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "费迪南德别墅",
+    "englishName": "Vila Ferdinand",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "vila-ferdinand-history",
+    "description": "在罗马尼亚黑海海岸的松林深处，有一座被遗忘的白色别墅，它曾是王室夏日的避风港，也是秘密会面的剧场。费迪南德别墅——以罗马尼亚国王斐迪南一世之名建造，却承载了比王冠更厚重的情感和历史。如今，藤蔓爬满外墙，海风穿过破碎的窗户，吹奏着百年前的爵士乐与密谈声。抛开游玩攻略，走进康斯坦察的尘封往事，遇见属于它",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "格布莱斯库别墅",
+    "englishName": "Vila Geblescu",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（布加勒斯特郊区）",
+    "slug": "vila-gebulescu-history",
+    "description": "在布加勒斯特郊区的葱郁林间，一座褪色的奶油色宅邸静默矗立。它曾是贵族格布莱斯库家族的夏日行宫，见证过罗马尼亚王国黄金时代的奢华沙龙，也亲历了铁幕降临前的最后一夜狂欢。**Vila Geblescu**——这个名字背后，是一段缠绕着爱情、政治与流亡的东欧往事。抛开游玩攻略，走进伊尔福夫县的尘封往事，遇",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "莫尔莫恰努别墅",
+    "englishName": "Vila Mormoceanu",
+    "country": "罗马尼亚",
+    "city": "康斯坦察",
+    "slug": "vila-mormoceanu-history",
+    "description": "在罗马尼亚康斯坦察老城的心脏，一栋被遗忘的花岗岩宅邸——**莫尔莫恰努别墅**，犹如一枚沉入黑海的琥珀，封存着世纪末的喧嚣与多瑙河三角洲的旧梦。它不属于贵族，而属于一位白手起家的报人。抛开游玩攻略，走进这座别墅的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县私人派对别墅",
+    "englishName": "Vilă Petreceri Private, Ilfov County",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（布加勒斯特近郊）",
+    "slug": "vila-petreceri-private-ilfov-history",
+    "description": "在罗马尼亚伊尔福夫县的丛林深处，有一座被人遗忘的别墅——**Vilă Petreceri Private**。它曾是贵族狩猎行宫，二战期间沦为军官俱乐部，又在共产主义时代成为秘密派对窝点。墙壁上的弹孔、地下室的酒窖、以及那些关于政客和情人的流言，构成了这座建筑沉默的历史。抛开游玩攻略，走进这座别墅的",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "Water Park Otopeni",
+    "country": "罗马尼亚",
+    "city": "奥托佩尼",
+    "slug": "water-park-otopeni-history",
+    "description": "罗马尼亚首都布加勒斯特以北，伊尔福夫县的奥托佩尼（Otopeni）如今以亨利·科安德国际机场与水上公园出名。但在这片看似现代的城郊土地上，埋藏着达契亚人的烽火、罗马军团的足迹、以及20世纪空中英雄的传说。抛开游玩攻略，走进Water Park Otopeni背后的奥托佩尼，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日县伍德罗·威尔逊雕像",
+    "englishName": "Statue of Woodrow Wilson, Cluj County",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "woodrow-wilson-statue-cluj-county-history",
+    "description": "在克卢日-纳波卡的中央公园深处，一座白色大理石雕像静静凝视着过往行人——那是美国第28任总统伍德罗·威尔逊。这座远离华盛顿八千公里的雕像，承载的不仅是对一位外国领袖的敬意，更是罗马尼亚近代史上最激荡的篇章：**民族自决**与**国家统一**。1918年，威尔逊的十四点原则点燃了特兰西瓦尼亚人回归故土",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "伊尔福夫县",
+    "englishName": "Yardinia",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县",
+    "slug": "yardinia-history",
+    "description": "在布加勒斯特的喧嚣之外，伊尔福夫县的森林深处，藏着一个几乎被地图遗忘的名字——**Yardinia**。这里曾是奥斯曼帝国与瓦拉几亚公国拉锯的边境哨所，也是19世纪罗马尼亚贵族最隐秘的消夏庄园。如今，残破的塔楼与荒芜的花园在藤蔓中低语着一段关于权力、禁忌与血月诅咒的故事。抛开游玩攻略，走进Yardi",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "克卢日城堡城墙遗址",
+    "englishName": "Zidurile Cetății (Walls of the Fortress)",
+    "country": "罗马尼亚",
+    "city": "克卢日-纳波卡",
+    "slug": "zidurile-cetatii-history",
+    "description": "在罗马尼亚特兰西瓦尼亚的心脏地带，克卢日-纳波卡这座现代大学城之下，静卧着一座几乎被遗忘的中世纪要塞——克卢日城堡。其残存的城墙（Zidurile Cetății）曾是抵御奥斯曼帝国与鞑靼人的坚固屏障，也是匈牙利王国与特兰西瓦尼亚公国权力更迭的见证者。抛开游玩攻略，走进这段尘封的往事，遇见属于它的时",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
+  },
+  {
+    "name": "布加勒斯特动物园",
+    "englishName": "Zoo Bucharest",
+    "country": "罗马尼亚",
+    "city": "伊尔福夫县（布加勒斯特）",
+    "slug": "zoo-bucharest-history",
+    "description": "在布加勒斯特东南郊的橡树林深处，藏着一座欧洲最古老的动物园之一。它诞生于国王的狩猎爱好，却在一百年间成为历史风暴的见证者。二战炸弹曾在这里炸出深坑，齐奥塞斯库曾将这里变成个人权力的橱窗。抛开游玩攻略，走进布加勒斯特动物园的尘封往事，遇见属于它的时光与传奇。",
+    "address": "",
+    "transport": "",
+    "region": "罗马尼亚",
+    "type": "城镇与村落",
+    "category": [
+      "history"
+    ],
+    "countries": [
+      "罗马尼亚"
+    ],
+    "countrySlug": "luomaniya",
+    "raw_type": "古城"
   }
 ]
