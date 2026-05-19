@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Section } from "@/components/Section";
 import { WeatherTimeWidget } from "@/components/WeatherTimeWidget";
+import { PracticalInfoWidget } from "@/components/PracticalInfoWidget";
 import { attractions, getAttraction, getAllSlugs } from "@/lib/attractions";
 import {
   getAttractionPageContent,
@@ -233,6 +234,8 @@ export default async function AttractionPage({
         </div>
 
         <WeatherTimeWidget city={attraction.city} country={attraction.country} englishName={attraction.englishName} />
+        
+        <PracticalInfoWidget country={attraction.country} />
 
         <div className="space-y-8">
           {mainSections.map((section) => (

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Section } from "@/components/Section";
 import { WeatherTimeWidget } from "@/components/WeatherTimeWidget";
+import { PracticalInfoWidget } from "@/components/PracticalInfoWidget";
 import { getPageData, getAllSlugsByCategory } from "@/lib/data";
 
 // 建议配置 ISR revalidate 时间（秒），这里设置为 1 天
@@ -96,6 +97,8 @@ export default async function HistoryPage({ params }: { params: Promise<{ slug: 
         </div>
 
         <WeatherTimeWidget city={content['城市']} country={content['国家']} englishName={content['景点英文名']} />
+        
+        <PracticalInfoWidget country={content['国家']} />
 
         <div className="space-y-8">
           {content['导语'] && (

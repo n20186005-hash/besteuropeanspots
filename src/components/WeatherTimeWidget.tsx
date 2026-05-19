@@ -11,6 +11,8 @@ interface WeatherData {
     temperature_2m_max: number[];
     temperature_2m_min: number[];
     weathercode: number[];
+    sunrise: string[];
+    sunset: string[];
   };
 }
 
@@ -61,9 +63,9 @@ export function WeatherTimeWidget({ city, country, englishName }: { city?: strin
 
         const { latitude, longitude } = geoData.results[0];
 
-        // 2. 获取天气 (当前 + 未来3天)
+        // 2. 获取天气 (当前 + 未来3天 + 日出日落)
         const weatherRes = await fetch(
-          `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true&daily=temperature_2m_max,temperature_2m_min,weathercode&timezone=${encodeURIComponent(timezone)}`
+          `https://api.open-meteo.com/v1/forecast?latitude=${geoData.results[0].latitude}&longitude=${geoData.results[0].longitude}&current_weather=true&daily=temperature_2m_max,temperature_2m_min,weathercode,sunrise,sunset&timezone=${encodeURIComponent(timezone)}`
         );
         const weatherData = await weatherRes.json();
 
@@ -144,7 +146,7 @@ export function WeatherTimeWidget({ city, country, englishName }: { city?: strin
   return (
     <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-xl p-6 mb-8 border border-indigo-100 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
       
-      {/* 左侧：本地时间 */}
+      {/* 左侧：本地时间与日出日落 */}
       <div className="flex items-center gap-4 w-full md:w-auto">
         <div className="bg-indigo-100 p-3 rounded-full text-indigo-600">
           <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -159,6 +161,18 @@ export function WeatherTimeWidget({ city, country, englishName }: { city?: strin
             <span className="text-3xl font-bold text-indigo-900 font-mono tracking-tight">{formattedTime}</span>
             <span className="text-sm text-indigo-700">{formattedDate}</span>
           </div>
+          {weather && weather.daily.sunrise && (
+            <div className="flex items-center gap-3 mt-1 text-xs text-indigo-600/80">
+              <span className="flex items-center gap-1">
+                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v2m0 14v2m9-9h-2M5 12H3m14 7l-1.5-1.5M7.5 7.5L6 6m12 0l-1.5 1.5M7.5 16.5L6 18m6-9a3 3 0 110 6 3 3 0 010-6z" /></svg>
+                {new Date(weather.daily.sunrise[0]).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: timezone })}
+              </span>
+              <span className="flex items-center gap-1">
+                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+                {new Date(weather.daily.sunset[0]).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: timezone })}
+              </span>
+            </div>
+          )}
         </div>
       </div>
 
