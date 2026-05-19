@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Section } from "@/components/Section";
+import { WeatherTimeWidget } from "@/components/WeatherTimeWidget";
 import { getPageData, getAllSlugsByCategory } from "@/lib/data";
 
 // 建议配置 ISR revalidate 时间（秒），这里设置为 1 天
@@ -93,6 +94,8 @@ export default async function HistoryPage({ params }: { params: Promise<{ slug: 
           <h1 className="text-4xl font-bold text-gray-900 mb-4">{hero.title}</h1>
           <p className="text-lg text-gray-600 mb-6 whitespace-pre-line">{hero.description}</p>
         </div>
+
+        <WeatherTimeWidget city={content['城市']} country={content['国家']} englishName={content['景点英文名']} />
 
         <div className="space-y-8">
           {content['导语'] && (

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Section } from "@/components/Section";
+import { WeatherTimeWidget } from "@/components/WeatherTimeWidget";
 import { attractions, getAttraction, getAllSlugs } from "@/lib/attractions";
 import {
   getAttractionPageContent,
@@ -230,6 +231,8 @@ export default async function AttractionPage({
           <h1 className="text-4xl font-bold text-gray-900 mb-4">{pageContent.hero.title}</h1>
           <p className="text-lg text-gray-600 mb-6 whitespace-pre-line">{pageContent.hero.description}</p>
         </div>
+
+        <WeatherTimeWidget city={attraction.city} country={attraction.country} englishName={attraction.englishName} />
 
         <div className="space-y-8">
           {mainSections.map((section) => (
