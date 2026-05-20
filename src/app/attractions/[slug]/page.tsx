@@ -230,7 +230,7 @@ export default async function AttractionPage({
             </span>
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-6">
-            {pageContent.hero.title || `${attraction.name}・${attraction.englishName}・${attraction.country}・${attraction.city}`}
+            {pageContent.hero.title || `${attraction.name}・${attraction.englishName}・${attraction.country}・${attraction.city}`.replace(/・$/, '')}
           </h1>
           
           <div className="mb-8">
