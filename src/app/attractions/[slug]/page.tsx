@@ -27,8 +27,10 @@ const TEMPLATE_THEME = {
   },
 } as const;
 
+export const revalidate = 86400;
+
 export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+  return getAllSlugs().slice(0, 100).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -207,10 +209,13 @@ export default async function AttractionPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  console.log("AttractionPage rendering slug:", slug);
   const pageContent = getAttractionPageContent(slug) || buildFallbackContent(slug);
   const attraction = getAttraction(slug);
+  console.log("pageContent:", !!pageContent, "attraction:", !!attraction);
 
   if (!pageContent || !attraction) {
+    console.log("Calling notFound()");
     notFound();
   }
 

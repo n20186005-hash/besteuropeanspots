@@ -13,29 +13,29 @@ export async function generateSitemaps() {
   const encyclopediaSlugs = await getAllSlugsByCategory("encyclopedia");
   const historySlugs = await getAllSlugsByCategory("history");
   
-  // 假设每 10,000 个 URL 为一个文件，避免达到 50,000 的上限
   const CHUNK_SIZE = 10000;
   
-  const sitemaps = [{ id: 'core' }];
+  const sitemaps = [{ id: 0 }]; // 0 for core
+  let nextId = 1;
   
   for (let i = 0; i < Math.ceil(encyclopediaSlugs.length / CHUNK_SIZE); i++) {
-    sitemaps.push({ id: `encyclopedia-${i}` });
+    sitemaps.push({ id: nextId++ }); // encyclopedia
   }
   for (let i = 0; i < Math.ceil(historySlugs.length / CHUNK_SIZE); i++) {
-    sitemaps.push({ id: `history-${i}` });
+    sitemaps.push({ id: nextId++ }); // history
   }
   
   return sitemaps;
 }
 
-export default async function sitemap({ id }: { id: string }): Promise<MetadataRoute.Sitemap> {
-  const isCore = id === 'core';
-  const isEncyclopedia = id.startsWith('encyclopedia-');
-  const isHistory = id.startsWith('history-');
-  
+export default async function sitemap({ id }: { id: number }): Promise<MetadataRoute.Sitemap> {
   const CHUNK_SIZE = 10000;
+  const encyclopediaSlugs = await getAllSlugsByCategory("encyclopedia");
+  const historySlugs = await getAllSlugsByCategory("history");
+  const numEncyclopediaChunks = Math.ceil(encyclopediaSlugs.length / CHUNK_SIZE);
+  const numHistoryChunks = Math.ceil(historySlugs.length / CHUNK_SIZE);
 
-  if (isCore) {
+  if (id === 0) {
     const categoryUrls = ['encyclopedia', 'travelogue', 'history'].map((cat) => ({
       url: `${baseUrl}/category/${cat}`,
       lastModified: new Date(),
@@ -74,10 +74,9 @@ export default async function sitemap({ id }: { id: string }): Promise<MetadataR
     ];
   }
 
-  if (isEncyclopedia) {
-    const chunkIndex = parseInt(id.split('-')[1], 10);
-    const allSlugs = await getAllSlugsByCategory("encyclopedia");
-    const slugs = allSlugs.slice(chunkIndex * CHUNK_SIZE, (chunkIndex + 1) * CHUNK_SIZE);
+  if (id > 0 && id <= numEncyclopediaChunks) {
+    const chunkIndex = id - 1;
+    const slugs = encyclopediaSlugs.slice(chunkIndex * CHUNK_SIZE, (chunkIndex + 1) * CHUNK_SIZE);
     
     return slugs.map((slug) => ({
       url: `${baseUrl}/encyclopedia/${slug}`,
@@ -87,10 +86,9 @@ export default async function sitemap({ id }: { id: string }): Promise<MetadataR
     }));
   }
 
-  if (isHistory) {
-    const chunkIndex = parseInt(id.split('-')[1], 10);
-    const allSlugs = await getAllSlugsByCategory("history");
-    const slugs = allSlugs.slice(chunkIndex * CHUNK_SIZE, (chunkIndex + 1) * CHUNK_SIZE);
+  if (id > numEncyclopediaChunks && id <= numEncyclopediaChunks + numHistoryChunks) {
+    const chunkIndex = id - numEncyclopediaChunks - 1;
+    const slugs = historySlugs.slice(chunkIndex * CHUNK_SIZE, (chunkIndex + 1) * CHUNK_SIZE);
     
     return slugs.map((slug) => ({
       url: `${baseUrl}/history/${slug}`,
