@@ -95,13 +95,19 @@ export default async function EncyclopediaPage({ params }: { params: Promise<{ s
               景点百科
             </span>
           </div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{hero.title}</h1>
-          <p className="text-lg text-gray-600 mb-6 whitespace-pre-line">{hero.description}</p>
-        </div>
+          <h1 className="text-4xl font-bold text-gray-900 mb-6">
+            {hero.title || [content['景点中文名'], content['景点英文名'], content['国家'], content['城市']].filter(Boolean).join('・')}
+          </h1>
 
-        <WeatherTimeWidget city={content['城市']} country={content['国家']} englishName={content['景点英文名']} />
-        
-        <PracticalInfoWidget country={content['国家']} />
+          <div className="mb-8">
+            <WeatherTimeWidget city={content['城市']} country={content['国家']} englishName={content['景点英文名']} />
+            <PracticalInfoWidget country={content['国家']} />
+          </div>
+
+          <p className="text-lg text-gray-600 mb-6 whitespace-pre-line">
+            {hero.description || (content['核心简介'] || '').split('\n')[0]}
+          </p>
+        </div>
 
         <div className="space-y-8">
           {content['核心简介'] && (

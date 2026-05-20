@@ -229,13 +229,19 @@ export default async function AttractionPage({
               {theme.label}
             </span>
           </div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{pageContent.hero.title}</h1>
-          <p className="text-lg text-gray-600 mb-6 whitespace-pre-line">{pageContent.hero.description}</p>
-        </div>
+          <h1 className="text-4xl font-bold text-gray-900 mb-6">
+            {pageContent.hero.title || `${attraction.name}・${attraction.englishName}・${attraction.country}・${attraction.city}`}
+          </h1>
+          
+          <div className="mb-8">
+            <WeatherTimeWidget city={attraction.city} country={attraction.country} englishName={attraction.englishName} />
+            <PracticalInfoWidget country={attraction.country} />
+          </div>
 
-        <WeatherTimeWidget city={attraction.city} country={attraction.country} englishName={attraction.englishName} />
-        
-        <PracticalInfoWidget country={attraction.country} />
+          <p className="text-lg text-gray-600 mb-6 whitespace-pre-line">
+            {pageContent.hero.description || attraction.description}
+          </p>
+        </div>
 
         <div className="space-y-8">
           {mainSections.map((section) => (
