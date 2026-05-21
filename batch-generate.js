@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const zlib = require('zlib');
 const { normalizeAttractionRecord } = require('./taxonomy-country-utils');
 
 // 配置三个分类及对应的文件夹名
@@ -354,7 +355,16 @@ categories.forEach(cat => {
         .slice(0, 3)
     };
 
-    fs.writeFileSync(jsonOutputFile, JSON.stringify(pageData, null, 2), 'utf-8');
+    const jsonString = JSON.stringify(pageData, null, 2);
+    const zipped = zlib.gzipSync(jsonString);
+    const jsonOutputFileGz = `${jsonOutputFile}.gz`;
+    
+    fs.writeFileSync(jsonOutputFileGz, zipped);
+    // Optional: write raw JSON for local dev, or just keep gz. We'll stick to gz.
+    // If the unzipped json file exists, remove it
+    if (fs.existsSync(jsonOutputFile)) {
+      fs.unlinkSync(jsonOutputFile);
+    }
 
     // 删除旧的 page.tsx 如果存在
     const oldPageDir = path.join(attractionsDir, slug);
