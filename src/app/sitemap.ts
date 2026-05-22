@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { attractions, getAllSlugs } from '@/lib/attractions';
+import { getAttractions, getAllSlugs } from "@/lib/attractions";
 import { getCountrySlug } from '@/lib/countries';
 
 export const dynamic = 'force-static'
@@ -43,7 +43,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     }));
 
     // Country routes
-    const countries = Array.from(new Set(attractions.map(a => a.country)));
+    const countries = Array.from(new Set(getAttractions().map(a => a.country)));
     const countryRoutes = countries.map((country) => ({
       url: `${baseUrl}/destinations/${getCountrySlug(country)}`,
       lastModified: new Date(),

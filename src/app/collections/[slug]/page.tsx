@@ -1,4 +1,4 @@
-import { attractions } from "@/lib/attractions";
+import { getAttractions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -32,7 +32,7 @@ export default async function CollectionDetailPage({ params }: { params: Promise
   }
 
   // 根据榜单的过滤条件筛选景点，并限制最多显示 15 个（如标题所暗示）
-  const filteredSpots = attractions.filter(collection.filter).slice(0, 15);
+  const filteredSpots = getAttractions().filter(collection.filter).slice(0, 15);
 
   return (
     <div className="bg-white min-h-screen">

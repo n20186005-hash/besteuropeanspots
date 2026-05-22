@@ -1,4 +1,4 @@
-import { attractions } from "@/lib/attractions";
+import { getAttractions } from "@/lib/attractions";
 import { collections } from "@/lib/collections";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -28,7 +28,7 @@ export default function CollectionsPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {collections.map((col) => {
-            const count = attractions.filter(col.filter).length;
+            const count = getAttractions().filter(col.filter).length;
             return (
               <Link
                 key={col.slug}

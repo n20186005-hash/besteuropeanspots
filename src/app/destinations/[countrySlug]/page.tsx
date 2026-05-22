@@ -1,4 +1,4 @@
-import { attractions } from "@/lib/attractions";
+import { getAttractions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -8,7 +8,7 @@ import { getAttractionCountries, getCountryBySlug, getCountrySlug } from "@/lib/
 export function generateStaticParams() {
   const slugs = Array.from(
     new Set(
-      attractions.flatMap((a) => getAttractionCountries(a)).map((country) => getCountrySlug(country))
+      getAttractions().flatMap((a) => getAttractionCountries(a)).map((country) => getCountrySlug(country))
     )
   );
   return slugs.map((slug) => ({
@@ -35,7 +35,7 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
     notFound();
   }
 
-  const countrySpots = attractions.filter((a) => getAttractionCountries(a).includes(countryName));
+  const countrySpots = getAttractions().filter((a) => getAttractionCountries(a).includes(countryName));
 
   if (countrySpots.length === 0) {
     notFound();

@@ -1,4 +1,4 @@
-import { attractions } from "@/lib/attractions";
+import { getAttractions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 
 export const metadata = {
@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export default function TraveloguePage() {
-  const travelogueSpots = attractions.filter(a => a.category?.includes('travelogue'));
+  const travelogueSpots = getAttractions().filter(a => a.category?.includes('travelogue'));
 
   return (
     <div className="bg-white">

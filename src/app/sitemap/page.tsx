@@ -19,7 +19,7 @@ interface AttractionGroup {
   }>
 }
 
-async function getAttractions(): Promise<AttractionGroup[]> {
+async function getAttractionGroups(): Promise<AttractionGroup[]> {
   const attractions = await import('@/data/attractions.json').then(m => m.default)
   
   // 按地区分组
@@ -34,15 +34,15 @@ async function getAttractions(): Promise<AttractionGroup[]> {
   
   // 转换为数组并排序
   return Object.entries(groups)
-    .map(([region, attractions]) => ({
+    .map(([region, attractionsList]) => ({
       region,
-      attractions: attractions.sort((a, b) => a.name.localeCompare(b.name, 'zh-CN'))
+      attractions: attractionsList.sort((a, b) => a.name.localeCompare(b.name, 'zh-CN'))
     }))
     .sort((a, b) => a.region.localeCompare(b.region, 'zh-CN'))
 }
 
 export default async function SitemapPage() {
-  const attractionGroups = await getAttractions()
+  const attractionGroups = await getAttractionGroups()
   const totalAttractions = attractionGroups.reduce((sum, group) => sum + group.attractions.length, 0)
   
   return (

@@ -5,7 +5,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Section } from "@/components/Section";
 import { WeatherTimeWidget } from "@/components/WeatherTimeWidget";
 import { PracticalInfoWidget } from "@/components/PracticalInfoWidget";
-import { attractions, getAttraction, getAllSlugs } from "@/lib/attractions";
+import { getAttractions, getAttraction, getAllSlugs } from "@/lib/attractions";
 import {
   getAttractionPageContent,
   type AttractionPageContent,

@@ -1,4 +1,5 @@
-import attractionsData from "@/data/attractions.json";
+import fs from 'fs';
+import path from 'path';
 import { getAttractionCountries } from "@/lib/countries";
 
 export interface Attraction {
@@ -32,28 +33,45 @@ export const STANDARD_TYPES = [
   "自然景观",
 ] as const;
 
-export const attractions: Attraction[] = attractionsData as Attraction[];
+let cachedAttractions: Attraction[] | null = null;
+
+export function getAttractions(): Attraction[] {
+  if (cachedAttractions) return cachedAttractions;
+  try {
+    const filePath = path.join(process.cwd(), 'src', 'data', 'attractions.json');
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    cachedAttractions = JSON.parse(fileContent) as Attraction[];
+    return cachedAttractions;
+  } catch (error) {
+    console.error('Error reading attractions.json:', error);
+    return [];
+  }
+}
 
 export function getAttraction(slug: string): Attraction | undefined {
-  return attractions.find((a) => a.slug === slug);
+  return getAttractions().find((a) => a.slug === slug);
 }
 
 export function getAllSlugs(): string[] {
-  return attractions.map((a) => a.slug);
+  return getAttractions().map((a) => a.slug);
 }
 
-export const regions = Array.from(
-  new Set(attractions.flatMap((a) => getAttractionCountries(a)).filter(Boolean))
-).sort((a, b) => a.localeCompare(b, "zh-CN"));
-export const types = [...STANDARD_TYPES];
-export const countries = regions;
+export function getRegions(): string[] {
+  return Array.from(
+    new Set(getAttractions().flatMap((a) => getAttractionCountries(a)).filter(Boolean))
+  ).sort((a, b) => a.localeCompare(b, "zh-CN"));
+}
 
-export const stats = {
-  destinations: attractions.length,
-  countries: countries.length,
-  regions: regions.length,
-  types: types.length,
-};
+export const types = [...STANDARD_TYPES];
+
+export function getStats() {
+  return {
+    destinations: getAttractions().length,
+    countries: getRegions().length,
+    regions: getRegions().length,
+    types: types.length,
+  };
+}
 
 export const regionLabelsEN: Record<string, string> = {
   法国: "France",

@@ -4,7 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import type { Attraction } from "@/lib/attractions";
 import {
-  regions,
+  getRegions,
   types,
   typeLabelsEN,
   regionColors,
@@ -130,23 +130,29 @@ export function AttractionGallery({
   const [visibleCount, setVisibleCount] = useState(24);
 
   const filtered = useMemo(() => {
-    return attractions.filter((a) => {
-      // 文本搜索过滤
-      if (searchQuery) {
-        const q = searchQuery.toLowerCase();
-        const matchName = a.name?.toLowerCase().includes(q);
-        const matchEn = a.englishName?.toLowerCase().includes(q);
-        const matchCity = a.city?.toLowerCase().includes(q);
-        const matchCountry = a.country?.toLowerCase().includes(q);
-        if (!matchName && !matchEn && !matchCity && !matchCountry) return false;
-      }
-      
-      // 分类过滤
-      if (selectedRegion && !getAttractionCountries(a).includes(selectedRegion)) return false;
-      if (selectedType && a.type !== selectedType) return false;
-      return true;
-    });
-  }, [attractions, selectedRegion, selectedType, searchQuery]);
+    let result = attractions;
+
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      result = result.filter((a) => {
+        const n = a.name?.toLowerCase() || "";
+        const en = a.englishName?.toLowerCase() || "";
+        const c = a.country?.toLowerCase() || "";
+        const ct = a.city?.toLowerCase() || "";
+        return n.includes(q) || en.includes(q) || c.includes(q) || ct.includes(q);
+      });
+    }
+
+    if (selectedType) {
+      result = result.filter((a) => a.type === selectedType);
+    }
+
+    if (selectedRegion) {
+      result = result.filter((a) => getAttractionCountries(a).includes(selectedRegion));
+    }
+
+    return result;
+  }, [attractions, searchQuery, selectedType, selectedRegion]);
 
   const regionCounts = useMemo(() => {
     const counts: Record<string, number> = {};
@@ -247,7 +253,7 @@ export function AttractionGallery({
                 onClick={() => setSelectedRegion(null)}
                 count={attractions.length}
               />
-              {regions.map((r) => (
+              {getRegions().map((r) => (
                 <FilterPill
                   key={r}
                   label={getCountryLabel(r, locale)}

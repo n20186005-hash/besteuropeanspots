@@ -1,4 +1,4 @@
-import { attractions } from "@/lib/attractions";
+import { getAttractions } from "@/lib/attractions";
 import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { GLOBAL_COUNTRIES_BY_CONTINENT, getAttractionCountries, getCountrySlug } from "@/lib/countries";
@@ -13,7 +13,7 @@ export default function DestinationsPage() {
   const activeCountriesCount: Record<string, number> = {};
   const activeCountriesSlugs: Record<string, string> = {};
 
-  attractions.forEach((a) => {
+  getAttractions().forEach((a) => {
     const countryList = getAttractionCountries(a);
     countryList.forEach((c: string) => {
       activeCountriesCount[c] = (activeCountriesCount[c] || 0) + 1;

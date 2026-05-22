@@ -1,4 +1,4 @@
-import { attractions, regionColors, stats, typeLabelsEN } from "@/lib/attractions";
+import { getAttractions, regionColors, getStats, typeLabelsEN } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import Link from "next/link";
 import { collections } from "@/lib/collections";
@@ -12,6 +12,7 @@ function interpolate(template: string, values: Record<string, string | number>) 
 
 function Hero({ locale }: { locale: SiteLocale }) {
   const copy = homeCopy[locale].hero;
+  const stats = getStats();
 
   return (
     <section className="relative overflow-hidden bg-primary">
@@ -157,7 +158,7 @@ function CountryGateways({ locale }: { locale: SiteLocale }) {
   const countryCounts = new Map<string, number>();
   const countryTypeCounts = new Map<string, Map<string, number>>();
 
-  attractions.forEach((attraction) => {
+  getAttractions().forEach((attraction) => {
     getAttractionCountries(attraction).forEach((country) => {
       countryCounts.set(country, (countryCounts.get(country) || 0) + 1);
       if (!countryTypeCounts.has(country)) {
@@ -237,7 +238,7 @@ function CollectionSpotlight({ locale }: { locale: SiteLocale }) {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {collections.map((collection) => {
-            const count = attractions.filter(collection.filter).length;
+            const count = getAttractions().filter(collection.filter).length;
             return (
               <Link
                 key={collection.slug}
@@ -268,7 +269,7 @@ function EditorPicks({ locale }: { locale: SiteLocale }) {
     "vjetrenica-cave",
   ];
   const picks = featuredSlugs
-    .map((slug) => attractions.find((item) => item.slug === slug))
+    .map((slug) => getAttractions().find((item) => item.slug === slug))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
 
   return (

@@ -1,4 +1,4 @@
-import { attractions } from "@/lib/attractions";
+import { getAttractions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 
 export const metadata = {
@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export default function HistoryPage() {
-  const historySpots = attractions.filter(a => a.category?.includes('history') || a.slug.endsWith('-history'));
+  const historySpots = getAttractions().filter(a => a.category?.includes('history') || a.slug.endsWith('-history'));
 
   return (
     <div className="bg-white">

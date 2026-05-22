@@ -1,4 +1,4 @@
-import { attractions } from "@/lib/attractions";
+import { getAttractions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 
 export const metadata = {
@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export default function EncyclopediaPage() {
-  const encyclopediaSpots = attractions.filter(a => a.category?.includes('encyclopedia'));
+  const encyclopediaSpots = getAttractions().filter(a => a.category?.includes('encyclopedia'));
 
   return (
     <div className="bg-white">
