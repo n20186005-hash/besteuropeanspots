@@ -401,7 +401,7 @@ export function HomePageContent({ locale }: { locale: SiteLocale }) {
       <CollectionSpotlight locale={locale} />
       <EditorPicks locale={locale} />
       <ThemeShortcuts locale={locale} />
-      <AttractionGallery attractions={attractions} locale={locale} />
+      <AttractionGallery attractions={getAttractions()} locale={locale} />
     </>
   );
 }
