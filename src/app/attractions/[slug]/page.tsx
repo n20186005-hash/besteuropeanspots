@@ -136,7 +136,7 @@ function DefaultRelatedAttractions({ slug }: { slug: string }) {
   const attraction = getAttraction(slug);
   if (!attraction) return null;
 
-  const related = attractions
+  const related = getAttractions()
     .filter(
       (item) =>
         item.slug !== slug &&
