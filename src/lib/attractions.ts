@@ -1,6 +1,5 @@
-import fs from 'fs';
-import path from 'path';
 import { getAttractionCountries } from "@/lib/countries";
+import attractionsData from "@/data/attractions.json";
 
 export interface Attraction {
   name: string;
@@ -33,19 +32,8 @@ export const STANDARD_TYPES = [
   "自然景观",
 ] as const;
 
-let cachedAttractions: Attraction[] | null = null;
-
 export function getAttractions(): Attraction[] {
-  if (cachedAttractions) return cachedAttractions;
-  try {
-    const filePath = path.join(process.cwd(), 'src', 'data', 'attractions.json');
-    const fileContent = fs.readFileSync(filePath, 'utf-8');
-    cachedAttractions = JSON.parse(fileContent) as Attraction[];
-    return cachedAttractions;
-  } catch (error) {
-    console.error('Error reading attractions.json:', error);
-    return [];
-  }
+  return attractionsData as Attraction[];
 }
 
 export function getAttraction(slug: string): Attraction | undefined {
