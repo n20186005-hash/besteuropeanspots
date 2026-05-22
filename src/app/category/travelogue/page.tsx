@@ -1,4 +1,4 @@
-import { getAttractions } from "@/lib/attractions";
+import { getAttractions, getRegions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 
 export const metadata = {
@@ -18,7 +18,7 @@ export default function TraveloguePage() {
             跟随旅行者的脚步，阅读深度探访游记，感受每个角落独特的生活气息。
           </p>
         </div>
-        <AttractionGallery attractions={travelogueSpots} />
+        <AttractionGallery attractions={travelogueSpots} regions={getRegions()} />
       </div>
     </div>
   );

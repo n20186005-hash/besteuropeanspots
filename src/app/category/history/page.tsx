@@ -1,4 +1,4 @@
-import { getAttractions } from "@/lib/attractions";
+import { getAttractions, getRegions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 
 export const metadata = {
@@ -18,7 +18,7 @@ export default function HistoryPage() {
             深入欧洲古城、修道院与城堡，解密这片土地上流传百年的历史故事与人文风情。
           </p>
         </div>
-        <AttractionGallery attractions={historySpots} />
+        <AttractionGallery attractions={historySpots} regions={getRegions()} />
       </div>
     </div>
   );

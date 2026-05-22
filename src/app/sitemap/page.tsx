@@ -1,6 +1,8 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/Breadcrumb'
+import fs from 'fs'
+import path from 'path'
 
 export const metadata: Metadata = {
   title: '网站地图 | 最佳欧洲景点',
@@ -20,7 +22,17 @@ interface AttractionGroup {
 }
 
 async function getAttractionGroups(): Promise<AttractionGroup[]> {
-  const attractions = await import('@/data/attractions.json').then(m => m.default)
+  const filePath = path.join(process.cwd(), 'src', 'data', 'attractions.json')
+  const fileContents = fs.readFileSync(filePath, 'utf8')
+  const attractions = JSON.parse(fileContents) as Array<{
+    name: string
+    englishName: string
+    slug: string
+    country: string
+    city: string
+    type: string
+    region: string
+  }>
   
   // 按地区分组
   const groups = attractions.reduce((acc: Record<string, typeof attractions>, attraction) => {

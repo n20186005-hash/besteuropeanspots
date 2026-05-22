@@ -1,4 +1,4 @@
-import { getAttractions, regionColors, getStats, typeLabelsEN } from "@/lib/attractions";
+import { getAttractions, regionColors, getStats, typeLabelsEN, getRegions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import Link from "next/link";
 import { collections } from "@/lib/collections";
@@ -401,7 +401,7 @@ export function HomePageContent({ locale }: { locale: SiteLocale }) {
       <CollectionSpotlight locale={locale} />
       <EditorPicks locale={locale} />
       <ThemeShortcuts locale={locale} />
-      <AttractionGallery attractions={getAttractions()} locale={locale} />
+      <AttractionGallery attractions={getAttractions()} regions={getRegions()} locale={locale} />
     </>
   );
 }

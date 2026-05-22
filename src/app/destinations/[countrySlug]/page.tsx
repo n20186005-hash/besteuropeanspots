@@ -1,4 +1,4 @@
-import { getAttractions } from "@/lib/attractions";
+import { getAttractions, getRegions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -59,7 +59,7 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
           </p>
         </div>
         
-        <AttractionGallery attractions={countrySpots} />
+        <AttractionGallery attractions={countrySpots} regions={getRegions()} />
       </div>
     </div>
   );

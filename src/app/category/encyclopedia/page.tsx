@@ -1,4 +1,4 @@
-import { getAttractions } from "@/lib/attractions";
+import { getAttractions, getRegions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 
 export const metadata = {
@@ -18,7 +18,7 @@ export default function EncyclopediaPage() {
             全面收录欧洲各地的标志性景点与小众秘境，为您提供最详实的百科级介绍。
           </p>
         </div>
-        <AttractionGallery attractions={encyclopediaSpots} />
+        <AttractionGallery attractions={encyclopediaSpots} regions={getRegions()} />
       </div>
     </div>
   );

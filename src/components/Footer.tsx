@@ -1,15 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { getRegions, getStats } from "@/lib/attractions";
 import { getCountryLabel, getLocaleFromPathname, homeCopy } from "@/lib/site-locale";
 import { usePathname } from "next/navigation";
 
-export function Footer() {
+export function Footer({ regions, stats }: { regions: string[]; stats: any }) {
   const pathname = usePathname();
   const locale = getLocaleFromPathname(pathname);
   const copy = homeCopy[locale].footer;
-  const regions = getRegions();
   const halfRegions = Math.ceil(regions.length / 2);
   
   return (
@@ -119,7 +117,7 @@ export function Footer() {
 
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/50 border-t border-white/10 pt-8">
             <p>&copy; {new Date().getFullYear()} besteuropeanspots.com</p>
-            <p>{getStats().destinations} {copy.copyrightSuffix}</p>
+            <p>{stats.destinations} {copy.copyrightSuffix}</p>
           </div>
         </div>
       </div>

@@ -4,11 +4,10 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import type { Attraction } from "@/lib/attractions";
 import {
-  getRegions,
   types,
   typeLabelsEN,
   regionColors,
-} from "@/lib/attractions";
+} from "@/lib/constants";
 import { getAttractionCountries } from "@/lib/countries";
 import { getCountryLabel, homeCopy, type SiteLocale } from "@/lib/site-locale";
 
@@ -117,9 +116,11 @@ function FilterPill({
 /* ── Main Gallery ───────────────────────────────────── */
 export function AttractionGallery({
   attractions,
+  regions,
   locale = "zh",
 }: {
   attractions: Attraction[];
+  regions: string[];
   locale?: SiteLocale;
 }) {
   const copy = homeCopy[locale].gallery;
@@ -253,7 +254,7 @@ export function AttractionGallery({
                 onClick={() => setSelectedRegion(null)}
                 count={attractions.length}
               />
-              {getRegions().map((r) => (
+              {regions.map((r) => (
                 <FilterPill
                   key={r}
                   label={getCountryLabel(r, locale)}
