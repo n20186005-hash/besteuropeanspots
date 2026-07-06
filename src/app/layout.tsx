@@ -3,7 +3,7 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { getRegions, getStats } from "@/lib/attractions";
+import { SITE_FOOTER_REGIONS, SITE_FOOTER_STATS } from "@/lib/site-summary";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,9 +44,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const regions = getRegions();
-  const stats = getStats();
-
   return (
     <html lang="zh-CN" className={`${geistSans.variable} h-full antialiased`}>
       <head>
@@ -59,7 +56,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-white text-foreground">
         <Header />
         <main className="flex-1">{children}</main>
-        <Footer regions={regions} stats={stats} />
+        <Footer regions={SITE_FOOTER_REGIONS} stats={SITE_FOOTER_STATS} />
       </body>
     </html>
   );
