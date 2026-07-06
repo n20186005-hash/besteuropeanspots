@@ -16,6 +16,8 @@ const attractionsDir = path.join(rootDir, 'src', 'app', 'attractions');
 const jsonFile = path.join(rootDir, 'src', 'data', 'attractions.json');
 const publicDir = path.join(rootDir, 'public');
 const sitemapOutputFile = path.join(publicDir, 'sitemap.xml');
+const publicDataDir = path.join(publicDir, 'data');
+const publicAttractionsJsonFile = path.join(publicDataDir, 'attractions.json');
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.besteuropeanspots.com';
 
 const staticCollectionSlugs = [
@@ -525,5 +527,7 @@ if (totalSuccessCount > 0) {
   fs.writeFileSync(jsonFile, JSON.stringify(attractionsData, null, 2), 'utf-8');
 }
 
+fs.mkdirSync(publicDataDir, { recursive: true });
+fs.writeFileSync(publicAttractionsJsonFile, JSON.stringify(attractionsData, null, 2), 'utf-8');
 writeStaticSitemap(attractionsData);
 printSummary();

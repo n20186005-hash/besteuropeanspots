@@ -1,10 +1,11 @@
 export const runtime = "edge";
 
-import { getAttractions, getRegions } from "@/lib/attractions";
+import { getRemoteAttractions } from "@/lib/attractions-remote";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { collections } from "@/lib/collections";
+import { getAttractionCountries } from "@/lib/countries";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -26,8 +27,13 @@ export default async function CollectionDetailPage({ params }: { params: Promise
     notFound();
   }
 
+  const attractions = await getRemoteAttractions();
+  const regions = Array.from(
+    new Set(attractions.flatMap((a) => getAttractionCountries(a)).filter(Boolean))
+  ).sort((a, b) => a.localeCompare(b, "zh-CN"));
+
   // 根据榜单的过滤条件筛选景点，并限制最多显示 15 个（如标题所暗示）
-  const filteredSpots = getAttractions().filter(collection.filter).slice(0, 15);
+  const filteredSpots = attractions.filter(collection.filter).slice(0, 15);
 
   return (
     <div className="bg-white min-h-screen">
@@ -47,7 +53,7 @@ export default async function CollectionDetailPage({ params }: { params: Promise
           </p>
         </div>
         
-        <AttractionGallery attractions={filteredSpots} regions={getRegions()} />
+        <AttractionGallery attractions={filteredSpots} regions={regions} />
       </div>
     </div>
   );

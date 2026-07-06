@@ -1,10 +1,10 @@
 export const runtime = "edge";
 
-import { getAttractions, getRegions } from "@/lib/attractions";
+import { getRemoteAttractions } from "@/lib/attractions-remote";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { getAttractionCountries, getCountryBySlug, getCountrySlug } from "@/lib/countries";
+import { getAttractionCountries, getCountryBySlug } from "@/lib/countries";
 
 export async function generateMetadata({ params }: { params: Promise<{ countrySlug: string }> }) {
   const { countrySlug } = await params;
@@ -25,7 +25,12 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
     notFound();
   }
 
-  const countrySpots = getAttractions().filter((a) => getAttractionCountries(a).includes(countryName));
+  const attractions = await getRemoteAttractions();
+  const regions = Array.from(
+    new Set(attractions.flatMap((a) => getAttractionCountries(a)).filter(Boolean))
+  ).sort((a, b) => a.localeCompare(b, "zh-CN"));
+
+  const countrySpots = attractions.filter((a) => getAttractionCountries(a).includes(countryName));
 
   if (countrySpots.length === 0) {
     notFound();
@@ -49,7 +54,7 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
           </p>
         </div>
         
-        <AttractionGallery attractions={countrySpots} regions={getRegions()} />
+        <AttractionGallery attractions={countrySpots} regions={regions} />
       </div>
     </div>
   );
