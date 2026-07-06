@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -5,7 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Section } from "@/components/Section";
 import { WeatherTimeWidget } from "@/components/WeatherTimeWidget";
 import { PracticalInfoWidget } from "@/components/PracticalInfoWidget";
-import { getAttractions, getAttraction, getAllSlugs } from "@/lib/attractions";
+import { getAttractions, getAttraction } from "@/lib/attractions";
 import {
   getAttractionPageContent,
   type AttractionPageContent,
@@ -29,10 +31,6 @@ const TEMPLATE_THEME = {
 
 export const revalidate = 86400;
 
-export async function generateStaticParams() {
-  return getAllSlugs().slice(0, 100).map((slug) => ({ slug }));
-}
-
 export async function generateMetadata({
   params,
 }: {
@@ -40,7 +38,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const attraction = getAttraction(slug);
-  const pageContent = getAttractionPageContent(slug);
+  const pageContent = await getAttractionPageContent(slug);
 
   if (!attraction && !pageContent) {
     return {};
@@ -209,13 +207,10 @@ export default async function AttractionPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  console.log("AttractionPage rendering slug:", slug);
-  const pageContent = getAttractionPageContent(slug) || buildFallbackContent(slug);
+  const pageContent = (await getAttractionPageContent(slug)) || buildFallbackContent(slug);
   const attraction = getAttraction(slug);
-  console.log("pageContent:", !!pageContent, "attraction:", !!attraction);
 
   if (!pageContent || !attraction) {
-    console.log("Calling notFound()");
     notFound();
   }
 

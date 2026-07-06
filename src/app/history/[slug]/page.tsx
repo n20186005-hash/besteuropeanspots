@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -5,7 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Section } from "@/components/Section";
 import { WeatherTimeWidget } from "@/components/WeatherTimeWidget";
 import { PracticalInfoWidget } from "@/components/PracticalInfoWidget";
-import { getAttraction, getAllSlugs } from "@/lib/attractions";
+import { getAttraction } from "@/lib/attractions";
 import {
   getAttractionPageContent,
 } from "@/lib/attraction-page-data";
@@ -13,17 +15,9 @@ import {
 // 建议配置 ISR revalidate 时间（秒），这里设置为 1 天
 export const revalidate = 86400;
 
-export async function generateStaticParams() {
-  // 为了避免十几万页面在 build 阶段全部生成导致超时或内存溢出，
-  // 我们可以在 build 阶段只生成部分核心页（如前100个），
-  // 其他页面在用户首次访问时通过 ISR 动态生成并缓存。
-  const slugs = getAllSlugs();
-  return slugs.slice(0, 100).map((slug) => ({ slug }));
-}
-
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const pageContent = getAttractionPageContent(slug);
+  const pageContent = await getAttractionPageContent(slug);
   const attraction = getAttraction(slug);
 
   if (!pageContent && !attraction) {
@@ -47,7 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function HistoryPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const pageContent = getAttractionPageContent(slug);
+  const pageContent = await getAttractionPageContent(slug);
   const attraction = getAttraction(slug);
 
   if (!pageContent || !attraction) {

@@ -1,7 +1,3 @@
-import fs from "node:fs";
-import path from "node:path";
-import zlib from "node:zlib";
-
 export type AttractionPageTemplate = "encyclopedia" | "travelogue" | "history";
 
 export interface AttractionPageBreadcrumb {
@@ -36,27 +32,63 @@ export interface AttractionPageContent {
   sections: AttractionPageSection[];
 }
 
-const contentDir = path.join(process.cwd(), "src", "data", "attraction-pages");
+async function getBaseUrlFromRequest(): Promise<string | null> {
+  try {
+    const mod = await import("next/headers");
+    const h = mod.headers();
+    const host = h.get("x-forwarded-host") ?? h.get("host");
+    if (!host) return null;
+    const proto = h.get("x-forwarded-proto") ?? "https";
+    return `${proto}://${host}`;
+  } catch {
+    return null;
+  }
+}
 
-export function getAttractionPageContent(slug: string): AttractionPageContent | null {
-  const gzFilePath = path.join(contentDir, `${slug}.json.gz`);
-  const jsonFilePath = path.join(contentDir, `${slug}.json`);
+async function getSiteUrl(): Promise<string> {
+  const headerBase = await getBaseUrlFromRequest();
+  if (headerBase) return headerBase.replace(/\/$/, "");
+
+  const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
+  if (envUrl) return envUrl.replace(/\/$/, "");
+
+  return "http://localhost:3000";
+}
+
+async function tryReadJsonFromGzipResponse(res: Response) {
+  try {
+    if (res.body && typeof (globalThis as any).DecompressionStream !== "undefined") {
+      const stream = res.body.pipeThrough(new (globalThis as any).DecompressionStream("gzip"));
+      const text = await new Response(stream).text();
+      return JSON.parse(text);
+    }
+
+    const text = await res.text();
+    return JSON.parse(text);
+  } catch {
+    return null;
+  }
+}
+
+export async function getAttractionPageContent(slug: string): Promise<AttractionPageContent | null> {
+  const baseUrl = await getSiteUrl();
+  const gzUrl = `${baseUrl}/data/attraction-pages/${slug}.json.gz`;
+  const jsonUrl = `${baseUrl}/data/attraction-pages/${slug}.json`;
 
   try {
-    if (fs.existsSync(gzFilePath)) {
-      const zipped = fs.readFileSync(gzFilePath);
-      const unzipped = zlib.gunzipSync(zipped);
-      return JSON.parse(unzipped.toString("utf8")) as AttractionPageContent;
-    } else if (fs.existsSync(jsonFilePath)) {
-      return JSON.parse(fs.readFileSync(jsonFilePath, "utf8")) as AttractionPageContent;
+    const gzRes = await fetch(gzUrl);
+    if (gzRes.ok) {
+      const parsed = await tryReadJsonFromGzipResponse(gzRes);
+      return (parsed as AttractionPageContent) || null;
     }
-  } catch (err) {
-    console.error(`Error reading or parsing ${slug}:`, err);
+
+    const jsonRes = await fetch(jsonUrl);
+    if (jsonRes.ok) {
+      return (await jsonRes.json()) as AttractionPageContent;
+    }
+  } catch {
+    return null;
   }
 
   return null;
-}
-
-export function hasAttractionPageContent(slug: string): boolean {
-  return fs.existsSync(path.join(contentDir, `${slug}.json.gz`)) || fs.existsSync(path.join(contentDir, `${slug}.json`));
 }
