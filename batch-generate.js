@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
+const { pinyin } = require('pinyin-pro');
 const { normalizeAttractionRecord } = require('./taxonomy-country-utils');
 
 // 配置三个分类及对应的文件夹名
@@ -13,6 +14,90 @@ const categories = [
 const rootDir = __dirname;
 const attractionsDir = path.join(rootDir, 'src', 'app', 'attractions');
 const jsonFile = path.join(rootDir, 'src', 'data', 'attractions.json');
+const publicDir = path.join(rootDir, 'public');
+const sitemapOutputFile = path.join(publicDir, 'sitemap.xml');
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.besteuropeanspots.com';
+
+const staticCollectionSlugs = [
+  'top-15-hidden-historical-spots-in-southern-europe',
+  'most-beautiful-medieval-towns-western-europe',
+  'hidden-abbeys-and-cathedrals-europe',
+];
+
+function getCountrySlug(country) {
+  if (country === "英国") return "uk";
+  if (country === "美国") return "usa";
+  if (country === "波黑") return "bosnia-and-herzegovina";
+  if (country === "塞浦路斯") return "cyprus";
+  return pinyin(country, { toneType: "none", type: "array" }).join("").toLowerCase();
+}
+
+function escapeXml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+function writeStaticSitemap(attractions) {
+  const now = new Date().toISOString();
+  const urls = [];
+  const seen = new Set();
+
+  const pushUrl = (route) => {
+    const normalizedRoute = route.startsWith('/') ? route : `/${route}`;
+    const url = `${baseUrl}${normalizedRoute === '/' ? '' : normalizedRoute}`;
+    if (seen.has(url)) return;
+    seen.add(url);
+    urls.push(url);
+  };
+
+  [
+    '/',
+    '/attractions',
+    '/collections',
+    '/destinations',
+    '/category/history',
+    '/category/encyclopedia',
+    '/category/travelogue',
+    '/sitemap',
+    '/privacy-policy',
+    '/terms-of-service',
+    '/cookie-settings',
+    '/en',
+  ].forEach(pushUrl);
+
+  staticCollectionSlugs.forEach((slug) => pushUrl(`/collections/${slug}`));
+
+  const countries = Array.from(new Set(attractions.map((a) => a.country).filter(Boolean)));
+  countries.forEach((country) => pushUrl(`/destinations/${getCountrySlug(country)}`));
+
+  attractions
+    .map((a) => a.slug)
+    .filter(Boolean)
+    .forEach((slug) => {
+      pushUrl(`/attractions/${slug}`);
+    });
+
+  const xml = [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ...urls.map((url) => [
+      '  <url>',
+      `    <loc>${escapeXml(url)}</loc>`,
+      `    <lastmod>${now}</lastmod>`,
+      '  </url>',
+    ].join('\n')),
+    '</urlset>',
+    '',
+  ].join('\n');
+
+  fs.mkdirSync(publicDir, { recursive: true });
+  fs.writeFileSync(sitemapOutputFile, xml, 'utf-8');
+  console.log(`🗺️  已生成静态 sitemap: ${path.relative(rootDir, sitemapOutputFile)}`);
+}
 
 // 初始化文件夹
 categories.forEach(cat => {
@@ -29,6 +114,12 @@ let attractionsData = [];
 
 if (fs.existsSync(jsonFile)) {
   attractionsData = JSON.parse(fs.readFileSync(jsonFile, 'utf-8'));
+}
+
+const isSitemapOnly = process.argv.includes('--sitemap-only');
+if (isSitemapOnly) {
+  writeStaticSitemap(attractionsData);
+  process.exit(0);
 }
 
 // 核心解析函数
@@ -432,9 +523,7 @@ function printSummary() {
 // 如果有任何修改，则保存更新后的 JSON
 if (totalSuccessCount > 0) {
   fs.writeFileSync(jsonFile, JSON.stringify(attractionsData, null, 2), 'utf-8');
-  
-  printSummary();
-} else {
-  // 即使没有生成任何新页面，也应该打印跳过的数量
-  printSummary();
 }
+
+writeStaticSitemap(attractionsData);
+printSummary();
