@@ -38,6 +38,11 @@ export async function getRemoteAttractions(): Promise<Attraction[]> {
   return (await res.json()) as Attraction[];
 }
 
+export async function getRemoteAttraction(slug: string): Promise<Attraction | undefined> {
+  const attractions = await getRemoteAttractions();
+  return attractions.find((attraction) => attraction.slug === slug);
+}
+
 export async function getRemoteRegions(): Promise<string[]> {
   const attractions = await getRemoteAttractions();
   return Array.from(

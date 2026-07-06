@@ -7,7 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Section } from "@/components/Section";
 import { WeatherTimeWidget } from "@/components/WeatherTimeWidget";
 import { PracticalInfoWidget } from "@/components/PracticalInfoWidget";
-import { getAttraction } from "@/lib/attractions";
+import { getRemoteAttraction } from "@/lib/attractions-remote";
 import {
   getAttractionPageContent,
 } from "@/lib/attraction-page-data";
@@ -15,7 +15,7 @@ import {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const pageContent = await getAttractionPageContent(slug);
-  const attraction = getAttraction(slug);
+  const attraction = await getRemoteAttraction(slug);
 
   if (!pageContent && !attraction) {
     return {};
@@ -38,8 +38,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function HistoryPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const pageContent = await getAttractionPageContent(slug);
-  const attraction = getAttraction(slug);
+  const [pageContent, attraction] = await Promise.all([
+    getAttractionPageContent(slug),
+    getRemoteAttraction(slug),
+  ]);
 
   if (!pageContent || !attraction) {
     notFound();

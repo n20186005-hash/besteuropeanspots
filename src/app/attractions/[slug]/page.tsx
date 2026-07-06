@@ -7,7 +7,8 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Section } from "@/components/Section";
 import { WeatherTimeWidget } from "@/components/WeatherTimeWidget";
 import { PracticalInfoWidget } from "@/components/PracticalInfoWidget";
-import { getAttractions, getAttraction } from "@/lib/attractions";
+import type { Attraction } from "@/lib/attractions";
+import { getRemoteAttraction, getRemoteAttractions } from "@/lib/attractions-remote";
 import {
   getAttractionPageContent,
   type AttractionPageContent,
@@ -35,8 +36,10 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const attraction = getAttraction(slug);
-  const pageContent = await getAttractionPageContent(slug);
+  const [attraction, pageContent] = await Promise.all([
+    getRemoteAttraction(slug),
+    getAttractionPageContent(slug),
+  ]);
 
   if (!attraction && !pageContent) {
     return {};
@@ -60,8 +63,7 @@ export async function generateMetadata({
   };
 }
 
-function buildFallbackContent(slug: string): AttractionPageContent | null {
-  const attraction = getAttraction(slug);
+function buildFallbackContent(slug: string, attraction: Attraction | undefined): AttractionPageContent | null {
   if (!attraction) return null;
 
   const category = attraction.category || [];
@@ -128,17 +130,14 @@ function buildFallbackContent(slug: string): AttractionPageContent | null {
   };
 }
 
-function DefaultRelatedAttractions({ slug }: { slug: string }) {
-  const attraction = getAttraction(slug);
+function DefaultRelatedAttractions({
+  attraction,
+  related,
+}: {
+  attraction: Attraction | undefined;
+  related: Attraction[];
+}) {
   if (!attraction) return null;
-
-  const related = getAttractions()
-    .filter(
-      (item) =>
-        item.slug !== slug &&
-        (item.country === attraction.country || item.type === attraction.type)
-    )
-    .slice(0, 3);
 
   if (related.length === 0) return null;
 
@@ -167,13 +166,15 @@ function DefaultRelatedAttractions({ slug }: { slug: string }) {
 
 function RelatedSection({
   relatedItems,
-  slug,
+  attraction,
+  fallbackRelated,
 }: {
   relatedItems: AttractionPageRelatedItem[];
-  slug: string;
+  attraction: Attraction | undefined;
+  fallbackRelated: Attraction[];
 }) {
   if (relatedItems.length === 0) {
-    return <DefaultRelatedAttractions slug={slug} />;
+    return <DefaultRelatedAttractions attraction={attraction} related={fallbackRelated} />;
   }
 
   return (
@@ -205,12 +206,24 @@ export default async function AttractionPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const pageContent = (await getAttractionPageContent(slug)) || buildFallbackContent(slug);
-  const attraction = getAttraction(slug);
+  const [pageContentFromFile, attraction, allAttractions] = await Promise.all([
+    getAttractionPageContent(slug),
+    getRemoteAttraction(slug),
+    getRemoteAttractions(),
+  ]);
+  const pageContent = pageContentFromFile || buildFallbackContent(slug, attraction);
 
   if (!pageContent || !attraction) {
     notFound();
   }
+
+  const fallbackRelated = allAttractions
+    .filter(
+      (item) =>
+        item.slug !== slug &&
+        (item.country === attraction.country || item.type === attraction.type)
+    )
+    .slice(0, 3);
 
   const theme = TEMPLATE_THEME[pageContent.template];
   const mainSections = pageContent.sections.filter((section) => section.title !== "猜你喜欢");
@@ -253,7 +266,8 @@ export default async function AttractionPage({
 
           <RelatedSection
             relatedItems={relatedSection?.relatedItems || []}
-            slug={slug}
+            attraction={attraction}
+            fallbackRelated={fallbackRelated}
           />
         </div>
       </div>
