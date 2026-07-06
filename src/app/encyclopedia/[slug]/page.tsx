@@ -12,9 +12,6 @@ import {
   getAttractionPageContent,
 } from "@/lib/attraction-page-data";
 
-// 建议配置 ISR revalidate 时间（秒），这里设置为 1 天
-export const revalidate = 86400;
-
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const pageContent = await getAttractionPageContent(slug);

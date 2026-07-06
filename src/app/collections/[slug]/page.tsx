@@ -1,15 +1,10 @@
+export const runtime = "edge";
+
 import { getAttractions, getRegions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { collections } from "@/lib/collections";
-
-// 生成静态路由参数
-export function generateStaticParams() {
-  return collections.map((col) => ({
-    slug: col.slug,
-  }));
-}
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

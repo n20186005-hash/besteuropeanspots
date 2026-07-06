@@ -1,20 +1,10 @@
+export const runtime = "edge";
+
 import { getAttractions, getRegions } from "@/lib/attractions";
 import { AttractionGallery } from "@/components/AttractionGallery";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { getAttractionCountries, getCountryBySlug, getCountrySlug } from "@/lib/countries";
-
-// 生成静态路由参数
-export function generateStaticParams() {
-  const slugs = Array.from(
-    new Set(
-      getAttractions().flatMap((a) => getAttractionCountries(a)).map((country) => getCountrySlug(country))
-    )
-  );
-  return slugs.map((slug) => ({
-    countrySlug: slug,
-  }));
-}
 
 export async function generateMetadata({ params }: { params: Promise<{ countrySlug: string }> }) {
   const { countrySlug } = await params;

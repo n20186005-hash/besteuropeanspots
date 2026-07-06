@@ -35,7 +35,7 @@ export interface AttractionPageContent {
 async function getBaseUrlFromRequest(): Promise<string | null> {
   try {
     const mod = await import("next/headers");
-    const h = mod.headers();
+    const h = await mod.headers();
     const host = h.get("x-forwarded-host") ?? h.get("host");
     if (!host) return null;
     const proto = h.get("x-forwarded-proto") ?? "https";

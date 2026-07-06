@@ -4,8 +4,6 @@ import { MetadataRoute } from 'next';
 import { getAttractions, getAllSlugs } from "@/lib/attractions";
 import { getCountrySlug } from '@/lib/countries';
 
-export const revalidate = 86400
-
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.besteuropeanspots.com';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

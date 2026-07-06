@@ -29,8 +29,6 @@ const TEMPLATE_THEME = {
   },
 } as const;
 
-export const revalidate = 86400;
-
 export async function generateMetadata({
   params,
 }: {
